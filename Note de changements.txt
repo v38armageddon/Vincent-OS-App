@@ -1,90 +1,95 @@
-Notes de mises à jours :
+Notes de mises ï¿½ jours :
+
+Version 5.2.1 (12/07/2021) :
+- Suppression des doublons de plusieurs fonds d'ï¿½crans
+- Changement de Lisez-moi.txt ï¿½ README.md
+- Mise en inaccessibilitï¿½ de la commande "Terminal" dans le Terminal
 
 Version 5.2 (15/05/2021) : 
-- Ajout d'un contrôle de permission d'utilisateur dans la session Invité
-- Ajout de la possibilité de changer le nom de la session Superutilisateur et de la session Invité
+- Ajout d'un contrï¿½le de permission d'utilisateur dans la session Invitï¿½
+- Ajout de la possibilitï¿½ de changer le nom de la session Superutilisateur et de la session Invitï¿½
 - Correction de quelques bugs sur le logiciel : Bing Chrome
-- Correction d'un bug majeur sur le logiciel : Exécuteur d'application Windows
-- Correction de quelques bugs sur le Bureau de la session Invité
-- Réorganisation du code
+- Correction d'un bug majeur sur le logiciel : Exï¿½cuteur d'application Windows
+- Correction de quelques bugs sur le Bureau de la session Invitï¿½
+- Rï¿½organisation du code
 
 Version 5.1 (27/01/2021) :
 - Correction d'un bug dans l'application Azkan, on peut fermer Bureau2.SerVOS alors qu'on est sur la session Superutilisateur
-- Suppression de l'accès des paramètres dans la session Invité
-- Changement dans l'écran de connexion : On peut désormait appuyer sur la touche Entrée quand on saisit le mot de passe pour se connecter à la session Superutilisateur
-- Mode fenêtré : Ajout le fait qu'on peut déplacer les fenêtres où on le souhaite
-- Ajout de la fonctionnalité quand on clique sur les barres de recherches de Bing Chrome et de l'explorateur de fichier, le texte qui est inscrit s'enlève
-- Dans le Terminal, nous pouvons appuyer sur la touche Entrée pour exécuter une commande
-- Correction d'un bug auquel un fond d'écran était remplacé par un autre
+- Suppression de l'accï¿½s des paramï¿½tres dans la session Invitï¿½
+- Changement dans l'ï¿½cran de connexion : On peut dï¿½sormait appuyer sur la touche Entrï¿½e quand on saisit le mot de passe pour se connecter ï¿½ la session Superutilisateur
+- Mode fenï¿½trï¿½ : Ajout le fait qu'on peut dï¿½placer les fenï¿½tres oï¿½ on le souhaite
+- Ajout de la fonctionnalitï¿½ quand on clique sur les barres de recherches de Bing Chrome et de l'explorateur de fichier, le texte qui est inscrit s'enlï¿½ve
+- Dans le Terminal, nous pouvons appuyer sur la touche Entrï¿½e pour exï¿½cuter une commande
+- Correction d'un bug auquel un fond d'ï¿½cran ï¿½tait remplacï¿½ par un autre
 
 Version 5 (18/10/2020) :
-- Résolution du mode fenêtré changé en 854x480
-- Changement du fond d'écran de connexion, merci à ZeyaTsu
-- Changement du fond d'écran de la session invité, merci à Kiki79250CoC
-- Changement du fond d'écran de la session superutilisateur, merci à ZeyaTsu
-- Menu d'application refait de A à Z
-- Nouvelle option disponnible : Afficher les icônes sur le bureau
+- Rï¿½solution du mode fenï¿½trï¿½ changï¿½ en 854x480
+- Changement du fond d'ï¿½cran de connexion, merci ï¿½ ZeyaTsu
+- Changement du fond d'ï¿½cran de la session invitï¿½, merci ï¿½ Kiki79250CoC
+- Changement du fond d'ï¿½cran de la session superutilisateur, merci ï¿½ ZeyaTsu
+- Menu d'application refait de A ï¿½ Z
+- Nouvelle option disponnible : Afficher les icï¿½nes sur le bureau
 - Ajout d'onglet dans le navigateur Bing Chrome
-- Refonte des fenêtres suivantes : Paramètres, applications, changement du fond d'écran
-- Changement des logos d'applications, merci à W4WAN
-- Ajout de son de démarrage, d'alerte, d'erreur et d'arrêt, merci à W4WAN
+- Refonte des fenï¿½tres suivantes : Paramï¿½tres, applications, changement du fond d'ï¿½cran
+- Changement des logos d'applications, merci ï¿½ W4WAN
+- Ajout de son de dï¿½marrage, d'alerte, d'erreur et d'arrï¿½t, merci ï¿½ W4WAN
 
 
 Version 4.2 (30/08/2020) :
 - Retour du Media Player !  Avec une refonte totale !
-- Changement des fonds d'écrans
-- Écran de chargement d'utilisateur ajouté
-- Possibilité de changer de fond d'écran
+- Changement des fonds d'ï¿½crans
+- ï¿½cran de chargement d'utilisateur ajoutï¿½
+- Possibilitï¿½ de changer de fond d'ï¿½cran
 
 Version 4.1 (22/08/2020) :
-- Nouvelle écran de déconnection
-- Suppresion du lecteur PDF, il ne marche plus trop bien mais vous pouvez toujours le télécharger avec ce lien : http://www.mediafire.com/file/nl4xa09md89rkfg/LecteurPDF.zip/file
-- Désactivation du Media Player, il n'est pas supprimé, juste régler quelques bugs et il reviendra
+- Nouvelle ï¿½cran de dï¿½connection
+- Suppresion du lecteur PDF, il ne marche plus trop bien mais vous pouvez toujours le tï¿½lï¿½charger avec ce lien : http://www.mediafire.com/file/nl4xa09md89rkfg/LecteurPDF.zip/file
+- Dï¿½sactivation du Media Player, il n'est pas supprimï¿½, juste rï¿½gler quelques bugs et il reviendra
 - Correction d'un bug sur le labyrinth
-- Fichier "Lisez-moi.txt" mis à jour
+- Fichier "Lisez-moi.txt" mis ï¿½ jour
 
 Version 4 (18/08/2020) :
 - Nouveau Terminal
-- Nouvelle disposition des icônes
-- Changement du logo, merci à Doalo
-- Nouveau fond écran, merci à Doalo
-- L'option : Changer de fond d'écran est indisponible, il est en cours de correction
-- Ajout d'une barre des tâches des applications lancés
-- Correction d'un bug dans le lecteur PDF, on pouvais ouvrir d'autres fichiers alors que c'est réservé uniquement aux PDF
+- Nouvelle disposition des icï¿½nes
+- Changement du logo, merci ï¿½ Doalo
+- Nouveau fond ï¿½cran, merci ï¿½ Doalo
+- L'option : Changer de fond d'ï¿½cran est indisponible, il est en cours de correction
+- Ajout d'une barre des tï¿½ches des applications lancï¿½s
+- Correction d'un bug dans le lecteur PDF, on pouvais ouvrir d'autres fichiers alors que c'est rï¿½servï¿½ uniquement aux PDF
 - Changement de l'interface dans : A propos
 
 Version 3.1.1 (14/08/2020) :
-- Correction d'un bug sur Paint où les boutons avait des problèmes.
-- Mise en inaccessibilité de l'option Terminal.
+- Correction d'un bug sur Paint oï¿½ les boutons avait des problï¿½mes.
+- Mise en inaccessibilitï¿½ de l'option Terminal.
 - Correction de plusieurs bugs au niveau du redimensionnement de plusieurs applications
 - Correction de la version dans A propos
 
 Version 3.1 (21/05/2020) :
-- Ajout d'une icône "Application" pour exécuter toute les applications disponibles
+- Ajout d'une icï¿½ne "Application" pour exï¿½cuter toute les applications disponibles
 - Ajout d'un gestionnaire de jeux
 - Ajout du jeu : Labyrinth
 - Ajout d'un logiciel : Paint
-- Possibilité de cacher des logiciels du bureau dans le menu Applications (et aussi de les afficher)
-- Correction d'un bug sur le bureau de la session "Invité", le calendrier ne voulait pas s'afficher quand on clique sur l'heure
+- Possibilitï¿½ de cacher des logiciels du bureau dans le menu Applications (et aussi de les afficher)
+- Correction d'un bug sur le bureau de la session "Invitï¿½", le calendrier ne voulait pas s'afficher quand on clique sur l'heure
 
 Version 3.0.1 (19/05/2020) :
-- Correction du bug de la fenêtre de connexion qui était bugé en étant en mode plein écran.
+- Correction du bug de la fenï¿½tre de connexion qui ï¿½tait bugï¿½ en ï¿½tant en mode plein ï¿½cran.
 - Changement au niveau de la barre de progression
 - Ajout de la date de sortie de chaque version
 - Ajout d'un document texte disant les changements
 
 Version 3.0 (18/05/2020) :
 - Ajout d'un bouton d'aide pour le mot de passe
-- Correction des fenêtres qui n'ont pas besoin d'être redimensionnée
-- Menu démarrer modifié, ajout des options dans la session "Invité" et suppresion du message disant le contraire
-- Deux modes d'affichages disponibles : Fenêtré et Plein écran
-- Choix du mode d'affichage au démarrage
+- Correction des fenï¿½tres qui n'ont pas besoin d'ï¿½tre redimensionnï¿½e
+- Menu dï¿½marrer modifiï¿½, ajout des options dans la session "Invitï¿½" et suppresion du message disant le contraire
+- Deux modes d'affichages disponibles : Fenï¿½trï¿½ et Plein ï¿½cran
+- Choix du mode d'affichage au dï¿½marrage
 
 Version 2.1 (02/09/2019) :
-- Ajout de quelques easters eggs car on as des choses à vous dire
+- Ajout de quelques easters eggs car on as des choses ï¿½ vous dire
 
 Version 2.0 (28/06/2019) :
-- Suppresion du son au démarrage
+- Suppresion du son au dï¿½marrage
 - Correction d'un bug sur certaines applications
-- Ajout de l'application "Exécuter une application Windows"
-- Ajout d'un bouton "Quitter" à l'écran de verrouillage
+- Ajout de l'application "Exï¿½cuter une application Windows"
+- Ajout d'un bouton "Quitter" ï¿½ l'ï¿½cran de verrouillage
