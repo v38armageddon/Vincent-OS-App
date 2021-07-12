@@ -2,7 +2,7 @@ Notes de mises à jours :
 
 Version 5.2.1 (12/07/2021) :
 - Suppression des doublons de plusieurs fonds d'écrans
-- Changement de Lisez-moi.tct à README.md
+- Changement de Lisez-moi.txt à README.md
 - Mise en inaccessibilité de la commande "Terminal" dans le Terminal
 
 Version 5.2 (15/05/2021) : 
