@@ -30,7 +30,7 @@
         If TextBox1.Text = "Jeu de combinaisons" Then
             Dim backmusic As New System.Media.SoundPlayer(My.Resources.alertSound)
             backmusic.Play()
-            MessageBox.Show("Ceci et un jeu qui a été abandonné au cours de son développement, des bugs peuvent avoir", "Alerte")
+            MessageBox.Show("Ceci et un jeu qui a été abandonné au cours de son développement, des bugs peuvent avoir lieu.", "Alerte")
             mathingGame.Show()
         ElseIf TextBox1.Text = "" Then
             MessageBox.Show("Vous n'avez rentré aucune destination.", "Alerte")
@@ -38,10 +38,10 @@
             If IsError(False) Then
                 executeur.Start()
             ElseIf IsError(True) Then
-                MessageBox.Show("Erreur : Le fichier exécutable que vous souhaitez est introuvable")
+                MessageBox.Show("Erreur : Le fichier exécutable que vous souhaitez est introuvable.")
             End If
         Else
-            MessageBox.Show("Erreur : Le fichier exécutable que vous souhaitez est introuvable")
+            MessageBox.Show("Erreur : Le fichier exécutable que vous souhaitez est introuvable.")
         End If
     End Sub
 End Class

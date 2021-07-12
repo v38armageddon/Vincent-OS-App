@@ -44,7 +44,7 @@
             End If
         ElseIf RadioButton2.Checked = True Then
             If Bureau.Visible = True Then
-                Bureau.FlowLayoutPanel1.BackgroundImage = My.Resources.fond_écran_superutilisateur1
+                Bureau.FlowLayoutPanel1.BackgroundImage = My.Resources.fond_écran_superutilisateur
                 If Bureau.FlowLayoutPanel1.BackgroundImage.Width > 864 And Bureau.FlowLayoutPanel1.BackgroundImage.Height > 420 Or My.Computer.Screen.Bounds.Width And My.Computer.Screen.Bounds.Height Then
                     Bureau.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch
                 Else
@@ -52,7 +52,7 @@
                 End If
                 Panel2.Visible = True
             ElseIf Bureau2.Visible = True Then
-                Bureau2.FlowLayoutPanel1.BackgroundImage = My.Resources.fond_écran_superutilisateur1
+                Bureau2.FlowLayoutPanel1.BackgroundImage = My.Resources.fond_écran_superutilisateur
                 If Bureau2.FlowLayoutPanel1.Width > 864 And Bureau2.FlowLayoutPanel1.BackgroundImage.Height > 420 Or My.Computer.Screen.Bounds.Width And My.Computer.Screen.Bounds.Height Then
                     Bureau2.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch
                 Else

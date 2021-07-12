@@ -49,3 +49,54 @@ C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent 
 C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Release\Vincent_OS.UAC.resources
 C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Release\Vincent_OS.Utilisateur.resources
 C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Release\Vincent OS.vbproj.GenerateResource.Cache
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Interop.WMPLib.dll
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Interop.WMPNSSCI.dll
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\AxInterop.WMPLib.dll
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent OS.vbproj.ResolveComReference.cache
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent OS.exe
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent OS.xml
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent OS.pdb
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\bin\Release\Vincent OS.exe.manifest
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\bin\Release\Vincent OS.application
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\bin\Release\Vincent OS.exe
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\bin\Release\Vincent OS.pdb
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\bin\Release\Vincent OS.xml
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\bin\Release\Interop.WMPLib.dll
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\bin\Release\AxInterop.WMPLib.dll
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Alerte.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.alertelog.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Applications.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.apropos.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.armageddon.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Arrêt.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Avant.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Azkan.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Bing_Chrome.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Bureau.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Bureau2.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Démarrage.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Ecran.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.exewin.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.chrono.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.game.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Icones.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Login2bureau.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Login2bureau2.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.mathingGame.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.MazeGame.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.News.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Options.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.paints.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Media.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Notepad.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Terminal.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.UAC.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Utilisateur.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Visio.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Login.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.meme.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Resources.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent OS.vbproj.GenerateResource.Cache
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent OS.TrustInfo.xml
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent OS.exe.manifest
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent OS.application

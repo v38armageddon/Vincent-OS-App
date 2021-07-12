@@ -64,7 +64,9 @@
         ElseIf TextBox1.Text = "PDF" Then
             RichTextBox1.Text = "RIP Lecteur PDF : 1.0 - 4.1"
         ElseIf TextBox1.Text = "Terminal" Then
-            Me.Show()
+            ''Trouver quelque chose pour dupliquer la fenêtre, voir avec un potentiel fork ?
+            ''Me.Show()
+            RichTextBox1.Text = "ERREUR : Cette commande n'est pas disponible pour le moment, nous sommes désolé."
             TextBox1.Text = ""
         ElseIf TextBox1.Text = "Visio" Then
             Visio.Show()

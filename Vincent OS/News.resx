@@ -118,7 +118,12 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="RichTextBox1.Text" xml:space="preserve">
-    <value>Version 5.2 (15/05/2021) : 
+    <value>Version 5.2.1 (12/07/2021) :
+- Suppression des doublons de plusieurs fonds d'écrans
+- Changement de Lisez-moi.tct à README.md
+- Mise en inaccessibilité de la commande "Terminal" dans le Terminal
+
+Version 5.2 (15/05/2021) : 
 - Ajout d'un contrôle de permission d'utilisateur dans la session Invité
 - Ajout de la possibilité de changer le nom de la session Superutilisateur et de la session Invité
 - Correction de quelques bugs sur le logiciel : Bing Chrome

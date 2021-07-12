@@ -339,7 +339,7 @@ Partial Class Ecran
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.Vincent_OS.My.Resources.Resources.fond_écran_superutilisateur1
+        Me.PictureBox2.Image = Global.Vincent_OS.My.Resources.Resources.fond_écran_superutilisateur
         Me.PictureBox2.Location = New System.Drawing.Point(229, 10)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(120, 73)
