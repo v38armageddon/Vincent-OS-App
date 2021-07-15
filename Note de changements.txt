@@ -1,5 +1,14 @@
 Notes de mises � jours :
 
+Version 6 (15/07/2021) :
+- Ajout du Vincent OS Store, d�couvrez de nouvelles applications !
+- Changements des diff�rents fonds �crans, merci � ZeyaTsu
+- Refonte des logiciels suivants : Explorateur de fichier, afficher/masquer des ic�nes, Applications
+- Refonte du bureau Superutilisateur et de l'invit�
+- Correction d'un bug au niveau du Terminal, quand on tapait la commande : Terminal, aucune fen�tre ne s'affichait
+- Changement du nom de Azkan � TaskVOS
+- Changement du r�v�lateur de mot de passe
+
 Version 5.2.1 (12/07/2021) :
 - Suppression des doublons de plusieurs fonds d'�crans
 - Changement de Lisez-moi.txt � README.md
