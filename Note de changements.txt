@@ -1,6 +1,6 @@
 Notes de mises à jours :
 
-Version 6 :
+Version 6 (15/07/2021) :
 - Ajout du Vincent OS Store, découvrez de nouvelles applications !
 - Changements des différents fonds écrans, merci à ZeyaTsu
 - Refonte des logiciels suivants : Explorateur de fichier, afficher/masquer des icônes, Applications
