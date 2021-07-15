@@ -60,7 +60,6 @@ C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Debug\Vinc
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Debug\Vincent_OS.armageddon.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Debug\Vincent_OS.Arrêt.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Debug\Vincent_OS.Avant.resources
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Debug\Vincent_OS.Azkan.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Debug\Vincent_OS.Bing_Chrome.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Debug\Vincent_OS.Bureau.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Debug\Vincent_OS.Bureau2.resources
@@ -100,3 +99,6 @@ C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\bin\Debug\Vincent 
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\bin\Debug\Interop.WMPLib.dll
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\bin\Debug\AxInterop.WMPLib.dll
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Debug\Vincent OS.application
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Debug\Vincent_OS.Store.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Debug\Vincent_OS.Download.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Debug\Vincent_OS.TaskVOS.resources

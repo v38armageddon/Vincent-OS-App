@@ -46,6 +46,7 @@ Partial Class Login
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.SystemColors.Control
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(147, 99)
         Me.Button1.Name = "Button1"
@@ -58,7 +59,7 @@ Partial Class Login
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.ForeColor = System.Drawing.Color.White
+        Me.Label2.ForeColor = System.Drawing.Color.Black
         Me.Label2.Location = New System.Drawing.Point(143, 3)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(140, 22)
@@ -80,14 +81,14 @@ Partial Class Login
         Me.TextBox2.Location = New System.Drawing.Point(150, 59)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.PasswordChar = Global.Microsoft.VisualBasic.ChrW(42)
-        Me.TextBox2.Size = New System.Drawing.Size(134, 20)
+        Me.TextBox2.Size = New System.Drawing.Size(121, 20)
         Me.TextBox2.TabIndex = 5
         '
         'Label1
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.ForeColor = System.Drawing.Color.Black
         Me.Label1.Location = New System.Drawing.Point(146, 34)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(125, 22)
@@ -118,6 +119,7 @@ Partial Class Login
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.SystemColors.Control
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(147, 189)
         Me.Button2.Name = "Button2"
@@ -129,8 +131,9 @@ Partial Class Login
         'Button4
         '
         Me.Button4.BackColor = System.Drawing.Color.Lime
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.ForeColor = System.Drawing.Color.Black
-        Me.Button4.Location = New System.Drawing.Point(269, 37)
+        Me.Button4.Location = New System.Drawing.Point(274, 59)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(22, 21)
         Me.Button4.TabIndex = 12

@@ -1,4 +1,4 @@
-﻿Public Class Azkan
+﻿Public Class TaskVOS
 
     Private Sub CheckBox1_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckBox1.CheckedChanged
         Dim backmusic As New System.Media.SoundPlayer(My.Resources.alertSound)
@@ -8,7 +8,7 @@
         CheckBox1.Enabled = False
     End Sub
 
-    Private Sub Azkan_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+    Private Sub TaskVOS_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         If Bing_Chrome.Visible = True Then
             RadioButton2.Visible = True
         End If
@@ -56,6 +56,12 @@
         If Options.Visible = True Then
             RadioButton16.Visible = True
         End If
+        If Store.Visible = True Then
+            RadioButton19.Visible = True
+        End If
+        If chrono.Visible = True Then
+            RadioButton20.Visible = True
+        End If
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
@@ -91,8 +97,12 @@
             Applications.Close()
         ElseIf RadioButton16.Checked = True Then
             Options.Close()
+        ElseIf RadioButton19.Checked = True Then
+            Store.Close()
+        ElseIf RadioButton20.Checked = True Then
+            chrono.Close()
         Else
-            MessageBox.Show("Erreur : Vous avez sélectionné aucune application à arrêter", "Erreur")
+            MessageBox.Show("Erreur : Vous n'avez sélectionné aucune application à arrêter", "Erreur")
         End If
     End Sub
 

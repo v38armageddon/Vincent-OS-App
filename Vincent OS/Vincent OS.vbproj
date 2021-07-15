@@ -27,7 +27,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>5.2.1.%2a</ApplicationVersion>
+    <ApplicationVersion>6.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -89,6 +89,7 @@
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Deployment" />
+    <Reference Include="System.DirectoryServices" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
@@ -151,10 +152,10 @@
     <Compile Include="Avant.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Azkan.Designer.vb">
-      <DependentUpon>Azkan.vb</DependentUpon>
+    <Compile Include="TaskVOS.Designer.vb">
+      <DependentUpon>TaskVOS.vb</DependentUpon>
     </Compile>
-    <Compile Include="Azkan.vb">
+    <Compile Include="TaskVOS.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Bing Chrome.Designer.vb">
@@ -173,6 +174,12 @@
       <DependentUpon>Bureau2.vb</DependentUpon>
     </Compile>
     <Compile Include="Bureau2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Download.Designer.vb">
+      <DependentUpon>Download.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Download.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Démarrage.vb">
@@ -266,6 +273,12 @@
     <Compile Include="Notepad.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Store.Designer.vb">
+      <DependentUpon>Store.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Store.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Terminal.Designer.vb">
       <DependentUpon>Terminal.vb</DependentUpon>
     </Compile>
@@ -340,8 +353,8 @@
     <EmbeddedResource Include="Avant.resx">
       <DependentUpon>Avant.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Azkan.resx">
-      <DependentUpon>Azkan.vb</DependentUpon>
+    <EmbeddedResource Include="TaskVOS.resx">
+      <DependentUpon>TaskVOS.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Bing Chrome.resx">
       <DependentUpon>Bing Chrome.vb</DependentUpon>
@@ -351,6 +364,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Bureau2.resx">
       <DependentUpon>Bureau2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Download.resx">
+      <DependentUpon>Download.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Démarrage.resx">
       <DependentUpon>Démarrage.vb</DependentUpon>
@@ -396,6 +412,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Notepad.resx">
       <DependentUpon>Notepad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Store.resx">
+      <DependentUpon>Store.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Terminal.resx">
       <DependentUpon>Terminal.vb</DependentUpon>
@@ -466,32 +485,11 @@
   <ItemGroup>
     <None Include="Resources\alertSound.wav" />
     <None Include="Resources\errorSound.wav" />
-    <Content Include="Resources\fond écran invité.png" />
-    <None Include="Resources\fond écran invité1.png" />
-    <Content Include="Resources\fond écran kiki.png" />
-    <None Include="Resources\fond écran kiki1.png" />
-    <Content Include="Resources\fond écran kiki2.png" />
-    <None Include="Resources\fond écran kiki21.png" />
-    <Content Include="Resources\fond écran login.png" />
-    <None Include="Resources\fond écran login1.png" />
-    <Content Include="Resources\fond écran superutilisateur.png" />
-    <None Include="Resources\fond écran superutilisateur1.png" />
-    <None Include="Resources\Fond_decran1.png" />
-    <None Include="Resources\Fond_decran2.png" />
-    <Content Include="Resources\Fond_decran6.png" />
-    <None Include="Resources\Fond_decran61.png" />
-    <None Include="Resources\fond_vincentOS_11.jpg" />
-    <Content Include="Resources\image0.jpg" />
-    <None Include="Resources\image01.jpg" />
     <None Include="Resources\shutdownSound.wav" />
-    <Content Include="Resources\spaceutilisateur.jpg" />
-    <None Include="Resources\spaceutilisateur1.jpg" />
-    <None Include="Resources\Wallpaper 2.jpg" />
-    <None Include="Resources\Wallpaper 3.jpg" />
-    <None Include="Resources\Wallpaper 4.jpg" />
     <None Include="Resources\startingSound.wav" />
-    <Content Include="Resources\zeyatsu1.jpg" />
-    <None Include="Resources\zeyatsu11.jpg" />
+    <None Include="Resources\wallpaper invité.png" />
+    <None Include="Resources\wallpaper login.jpg" />
+    <None Include="Resources\wallpaper superutilisateur.jpg" />
     <Content Include="unnamed.ico" />
     <Content Include="Vincent OS.ico" />
   </ItemGroup>

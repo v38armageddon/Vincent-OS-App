@@ -127,28 +127,12 @@
         End If
     End Sub
 
-    Private Sub Options_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        If Bureau.Visible = True Then
-            Bureau.Button25.Visible = True
-        ElseIf Bureau2.Visible = True Then
-            Bureau2.Button25.Visible = True
-        End If
-    End Sub
-
-    Private Sub Options_FormClosed(ByVal sender As System.Object, ByVal e As System.Windows.Forms.FormClosedEventArgs) Handles MyBase.FormClosed
-        If Bureau.Visible = True Then
-            Bureau.Button25.Visible = False
-        ElseIf Bureau2.Visible = True Then
-            Bureau2.Button25.Visible = False
-        End If
-    End Sub
-
     Private Sub Button2_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
         Icones.Show()
     End Sub
 
     Private Sub Button4_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
-        Azkan.Show()
+        TaskVOS.Show()
     End Sub
 
     Private Sub Button1_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click

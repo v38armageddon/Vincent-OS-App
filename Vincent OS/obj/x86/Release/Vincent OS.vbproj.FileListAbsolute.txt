@@ -70,7 +70,6 @@ C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vi
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.armageddon.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Arrêt.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Avant.resources
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Azkan.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Bing_Chrome.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Bureau.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Bureau2.resources
@@ -100,3 +99,6 @@ C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vi
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent OS.TrustInfo.xml
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent OS.exe.manifest
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent OS.application
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.TaskVOS.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Download.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Store.resources

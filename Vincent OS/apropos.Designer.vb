@@ -50,9 +50,9 @@ Partial Class apropos
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(206, 56)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(176, 33)
+        Me.Label2.Size = New System.Drawing.Size(152, 33)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Version : 5.2"
+        Me.Label2.Text = "Version : 6"
         '
         'Label3
         '

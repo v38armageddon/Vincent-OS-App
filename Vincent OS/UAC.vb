@@ -4,12 +4,20 @@
         If TextBox1.Text = "Vincent OS" Then
             TextBox1.Text = ""
             '' /!\ Faire attention aux potentiels changements dans le futur ! /!\
-            Options.Show()
-            Me.Close()
+            If Applications.Visible = True Then
+                Store.Show()
+                Me.Close()
+            ElseIf Bureau2.Panel1.Visible = True Then
+                Options.Show()
+                Me.Close()
+            ElseIf Bureau2.Button11.Visible = True Then
+                Store.Show()
+                Me.Close()
+            End If
         Else
             Dim backmusic As New System.Media.SoundPlayer(My.Resources.errorSound)
             backmusic.Play()
-            MessageBox.Show("Le mot de passe est incorrecte")
+            MessageBox.Show("ERREUR : Le mot de passe est incorrecte.", "ERREUR", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End If
     End Sub
 

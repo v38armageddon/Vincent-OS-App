@@ -25,23 +25,25 @@
             Bureau2.Button23.Visible = False
         End If
     End Sub
+
     Private Sub exécution()
         executeur.StartInfo.FileName = TextBox1.Text
-        If TextBox1.Text = "Jeu de combinaisons" Then
-            Dim backmusic As New System.Media.SoundPlayer(My.Resources.alertSound)
-            backmusic.Play()
-            MessageBox.Show("Ceci et un jeu qui a été abandonné au cours de son développement, des bugs peuvent avoir lieu.", "Alerte")
-            mathingGame.Show()
-        ElseIf TextBox1.Text = "" Then
-            MessageBox.Show("Vous n'avez rentré aucune destination.", "Alerte")
+        If TextBox1.Text = "" Then
+            Dim alertsound As New System.Media.SoundPlayer(My.Resources.alertSound)
+            alertsound.Play()
+            MessageBox.Show("ALERTE : Vous n'avez rentré aucune destination.", "Alerte", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
         ElseIf TextBox1.Text.Contains(".exe") Then
             If IsError(False) Then
                 executeur.Start()
             ElseIf IsError(True) Then
-                MessageBox.Show("Erreur : Le fichier exécutable que vous souhaitez est introuvable.")
+                Dim errorsound As New System.Media.SoundPlayer(My.Resources.errorSound)
+                errorsound.Play()
+                MessageBox.Show("ERREUR : Le fichier exécutable que vous souhaitez est introuvable.", "ERREUR", MessageBoxButtons.OK, MessageBoxIcon.Error)
             End If
         Else
-            MessageBox.Show("Erreur : Le fichier exécutable que vous souhaitez est introuvable.")
+            Dim errorsound As New System.Media.SoundPlayer(My.Resources.errorSound)
+            errorsound.Play()
+            MessageBox.Show("ERREUR : Le fichier exécutable que vous souhaitez est introuvable.", "ERREUR", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End If
     End Sub
 End Class

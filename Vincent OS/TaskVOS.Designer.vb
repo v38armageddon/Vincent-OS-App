@@ -1,5 +1,5 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class Azkan
+Partial Class TaskVOS
     Inherits System.Windows.Forms.Form
 
     'Form remplace la méthode Dispose pour nettoyer la liste des composants.
@@ -22,7 +22,7 @@ Partial Class Azkan
     'Ne la modifiez pas à l'aide de l'éditeur de code.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
-        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Azkan))
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(TaskVOS))
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -33,7 +33,6 @@ Partial Class Azkan
         Me.RadioButton14 = New System.Windows.Forms.RadioButton()
         Me.RadioButton16 = New System.Windows.Forms.RadioButton()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
-        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
         Me.RadioButton10 = New System.Windows.Forms.RadioButton()
         Me.RadioButton8 = New System.Windows.Forms.RadioButton()
@@ -43,6 +42,8 @@ Partial Class Azkan
         Me.RadioButton9 = New System.Windows.Forms.RadioButton()
         Me.RadioButton5 = New System.Windows.Forms.RadioButton()
         Me.RadioButton7 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton19 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.RadioButton11 = New System.Windows.Forms.RadioButton()
         Me.RadioButton6 = New System.Windows.Forms.RadioButton()
         Me.Label1 = New System.Windows.Forms.Label()
@@ -52,6 +53,7 @@ Partial Class Azkan
         Me.RadioButton18 = New System.Windows.Forms.RadioButton()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label2 = New System.Windows.Forms.Label()
+        Me.RadioButton20 = New System.Windows.Forms.RadioButton()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.FlowLayoutPanel2.SuspendLayout()
@@ -167,8 +169,8 @@ Partial Class Azkan
         '
         'FlowLayoutPanel1
         '
-        Me.FlowLayoutPanel1.Controls.Add(Me.RadioButton1)
         Me.FlowLayoutPanel1.Controls.Add(Me.RadioButton2)
+        Me.FlowLayoutPanel1.Controls.Add(Me.RadioButton20)
         Me.FlowLayoutPanel1.Controls.Add(Me.RadioButton10)
         Me.FlowLayoutPanel1.Controls.Add(Me.RadioButton8)
         Me.FlowLayoutPanel1.Controls.Add(Me.RadioButton3)
@@ -177,6 +179,8 @@ Partial Class Azkan
         Me.FlowLayoutPanel1.Controls.Add(Me.RadioButton9)
         Me.FlowLayoutPanel1.Controls.Add(Me.RadioButton5)
         Me.FlowLayoutPanel1.Controls.Add(Me.RadioButton7)
+        Me.FlowLayoutPanel1.Controls.Add(Me.RadioButton19)
+        Me.FlowLayoutPanel1.Controls.Add(Me.RadioButton1)
         Me.FlowLayoutPanel1.Controls.Add(Me.RadioButton11)
         Me.FlowLayoutPanel1.Controls.Add(Me.RadioButton6)
         Me.FlowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown
@@ -185,21 +189,10 @@ Partial Class Azkan
         Me.FlowLayoutPanel1.Size = New System.Drawing.Size(251, 331)
         Me.FlowLayoutPanel1.TabIndex = 12
         '
-        'RadioButton1
-        '
-        Me.RadioButton1.AutoSize = True
-        Me.RadioButton1.Location = New System.Drawing.Point(3, 3)
-        Me.RadioButton1.Name = "RadioButton1"
-        Me.RadioButton1.Size = New System.Drawing.Size(99, 17)
-        Me.RadioButton1.TabIndex = 8
-        Me.RadioButton1.TabStop = True
-        Me.RadioButton1.Text = "Azkan.AppVOS"
-        Me.RadioButton1.UseVisualStyleBackColor = True
-        '
         'RadioButton2
         '
         Me.RadioButton2.AutoSize = True
-        Me.RadioButton2.Location = New System.Drawing.Point(3, 26)
+        Me.RadioButton2.Location = New System.Drawing.Point(3, 3)
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(129, 17)
         Me.RadioButton2.TabIndex = 9
@@ -304,10 +297,33 @@ Partial Class Azkan
         Me.RadioButton7.UseVisualStyleBackColor = True
         Me.RadioButton7.Visible = False
         '
+        'RadioButton19
+        '
+        Me.RadioButton19.AutoSize = True
+        Me.RadioButton19.Location = New System.Drawing.Point(3, 233)
+        Me.RadioButton19.Name = "RadioButton19"
+        Me.RadioButton19.Size = New System.Drawing.Size(94, 17)
+        Me.RadioButton19.TabIndex = 19
+        Me.RadioButton19.TabStop = True
+        Me.RadioButton19.Text = "Store.AppVOS"
+        Me.RadioButton19.UseVisualStyleBackColor = True
+        Me.RadioButton19.Visible = False
+        '
+        'RadioButton1
+        '
+        Me.RadioButton1.AutoSize = True
+        Me.RadioButton1.Location = New System.Drawing.Point(3, 256)
+        Me.RadioButton1.Name = "RadioButton1"
+        Me.RadioButton1.Size = New System.Drawing.Size(115, 17)
+        Me.RadioButton1.TabIndex = 8
+        Me.RadioButton1.TabStop = True
+        Me.RadioButton1.Text = "TaskVOS.AppVOS"
+        Me.RadioButton1.UseVisualStyleBackColor = True
+        '
         'RadioButton11
         '
         Me.RadioButton11.AutoSize = True
-        Me.RadioButton11.Location = New System.Drawing.Point(3, 233)
+        Me.RadioButton11.Location = New System.Drawing.Point(3, 279)
         Me.RadioButton11.Name = "RadioButton11"
         Me.RadioButton11.Size = New System.Drawing.Size(102, 17)
         Me.RadioButton11.TabIndex = 0
@@ -319,7 +335,7 @@ Partial Class Azkan
         'RadioButton6
         '
         Me.RadioButton6.AutoSize = True
-        Me.RadioButton6.Location = New System.Drawing.Point(3, 256)
+        Me.RadioButton6.Location = New System.Drawing.Point(3, 302)
         Me.RadioButton6.Name = "RadioButton6"
         Me.RadioButton6.Size = New System.Drawing.Size(91, 17)
         Me.RadioButton6.TabIndex = 13
@@ -404,7 +420,19 @@ Partial Class Azkan
         Me.Label2.TabIndex = 5
         Me.Label2.Text = "Sélectionner la session à arrêter"
         '
-        'Azkan
+        'RadioButton20
+        '
+        Me.RadioButton20.AutoSize = True
+        Me.RadioButton20.Location = New System.Drawing.Point(3, 26)
+        Me.RadioButton20.Name = "RadioButton20"
+        Me.RadioButton20.Size = New System.Drawing.Size(103, 17)
+        Me.RadioButton20.TabIndex = 20
+        Me.RadioButton20.TabStop = True
+        Me.RadioButton20.Text = "Chrono.AppVOS"
+        Me.RadioButton20.UseVisualStyleBackColor = True
+        Me.RadioButton20.Visible = False
+        '
+        'TaskVOS
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -413,7 +441,7 @@ Partial Class Azkan
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
-        Me.Name = "Azkan"
+        Me.Name = "TaskVOS"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Gestionnaire des tâches"
         Me.TabControl1.ResumeLayout(False)
@@ -459,4 +487,6 @@ Partial Class Azkan
     Friend WithEvents RadioButton18 As System.Windows.Forms.RadioButton
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents RadioButton19 As System.Windows.Forms.RadioButton
+    Friend WithEvents RadioButton20 As System.Windows.Forms.RadioButton
 End Class

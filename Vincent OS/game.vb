@@ -23,4 +23,15 @@
             Bureau2.Button22.Visible = False
         End If
     End Sub
+
+    Private Sub Label12_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label12.Click
+        Dim alertSound As New System.Media.SoundPlayer(My.Resources.alertSound)
+        alertSound.Play()
+        MessageBox.Show("Ceci et un jeu qui a été abandonné au cours de son développement, des bugs peuvent avoir lieu.", "Alerte", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+        mathingGame.Show()
+    End Sub
+
+    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
+        Store.Show()
+    End Sub
 End Class

@@ -110,7 +110,7 @@ Partial Class Options
         '
         'Button1
         '
-        Me.Button1.BackgroundImage = Global.Vincent_OS.My.Resources.Resources.fond_écran_superutilisateur
+        Me.Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), System.Drawing.Image)
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button1.Location = New System.Drawing.Point(122, 48)
         Me.Button1.Name = "Button1"

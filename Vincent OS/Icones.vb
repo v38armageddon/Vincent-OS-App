@@ -161,4 +161,22 @@
             End If
         End If
     End Sub
+
+    Private Sub CheckBox3_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckBox3.CheckedChanged
+        If CheckBox3.Checked = True Then
+            If Bureau.Visible = True Then
+                Bureau.Button7.Visible = True
+            End If
+            If Bureau2.Visible = True Then
+                Bureau2.Button11.Visible = True
+            End If
+        ElseIf CheckBox3.Checked = False Then
+            If Bureau.Visible = True Then
+                Bureau.Button7.Visible = False
+            End If
+            If Bureau2.Visible = True Then
+                Bureau.Button11.Visible = False
+            End If
+        End If
+    End Sub
 End Class

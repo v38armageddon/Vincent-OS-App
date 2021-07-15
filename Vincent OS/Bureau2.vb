@@ -73,6 +73,9 @@
 
     Private Sub Button12_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button12.Click
         Applications.Show()
+        If Applications.Visible = True Then
+            Applications.BringToFront()
+        End If
     End Sub
 
     Private Sub Button13_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button13.Click
@@ -81,6 +84,11 @@
 
     Private Sub Button14_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button14.Click
         paints.Show()
+    End Sub
+
+    Private Sub Button11_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button11.Click
+        UAC.Text = "Bureau2.SerVOS a besoin de votre autorisation !"
+        UAC.Show()
     End Sub
 
     Private Sub Label2_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label2.Click
@@ -126,14 +134,13 @@
         Terminal.BringToFront()
     End Sub
 
-    Private Sub Button25_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button25.Click
-        Options.BringToFront()
+    Private Sub Button8_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button8.Click
+        Store.BringToFront()
     End Sub
 
-    Private Sub Button26_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button26.Click
-        Applications.BringToFront()
+    Private Sub Button18_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button18.Click
+        chrono.BringToFront()
     End Sub
-
     Private Sub FlowLayoutPanel1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles FlowLayoutPanel1.Click
         If MonthCalendar1.Visible = True Then
             MonthCalendar1.Visible = False

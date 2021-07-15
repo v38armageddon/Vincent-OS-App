@@ -26,13 +26,16 @@ Partial Class game
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
+        Me.Label2 = New System.Windows.Forms.Label()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.Label12 = New System.Windows.Forms.Label()
         Me.SuspendLayout()
         '
         'Button1
         '
         Me.Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), System.Drawing.Image)
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button1.Location = New System.Drawing.Point(49, 12)
+        Me.Button1.Location = New System.Drawing.Point(13, 11)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 73)
         Me.Button1.TabIndex = 0
@@ -42,7 +45,7 @@ Partial Class game
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(130, 34)
+        Me.Label1.Location = New System.Drawing.Point(94, 33)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(96, 24)
         Me.Label1.TabIndex = 1
@@ -51,18 +54,52 @@ Partial Class game
         'Button2
         '
         Me.Button2.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.Location = New System.Drawing.Point(12, 91)
+        Me.Button2.Location = New System.Drawing.Point(12, 169)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(252, 80)
+        Me.Button2.Size = New System.Drawing.Size(155, 80)
         Me.Button2.TabIndex = 2
         Me.Button2.Text = "Exécuter un jeu non-Vincent OS"
         Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(94, 112)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(207, 24)
+        Me.Label2.TabIndex = 4
+        Me.Label2.Text = "Jeu de combinaisons"
+        Me.Label2.Visible = False
+        '
+        'Button4
+        '
+        Me.Button4.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.Location = New System.Drawing.Point(173, 169)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(128, 80)
+        Me.Button4.TabIndex = 5
+        Me.Button4.Text = "Obtenir plus de jeux"
+        Me.Button4.UseVisualStyleBackColor = True
+        '
+        'Label12
+        '
+        Me.Label12.Font = New System.Drawing.Font("Webdings", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(2, Byte))
+        Me.Label12.Location = New System.Drawing.Point(12, 93)
+        Me.Label12.Name = "Label12"
+        Me.Label12.Size = New System.Drawing.Size(76, 73)
+        Me.Label12.TabIndex = 10
+        Me.Label12.Text = "fezzhyfhytuiutvv"
+        Me.Label12.Visible = False
         '
         'game
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(270, 179)
+        Me.ClientSize = New System.Drawing.Size(306, 254)
+        Me.Controls.Add(Me.Label12)
+        Me.Controls.Add(Me.Button4)
+        Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button1)
@@ -79,4 +116,7 @@ Partial Class game
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Button2 As System.Windows.Forms.Button
+    Friend WithEvents Label2 As System.Windows.Forms.Label
+    Friend WithEvents Button4 As System.Windows.Forms.Button
+    Friend WithEvents Label12 As System.Windows.Forms.Label
 End Class

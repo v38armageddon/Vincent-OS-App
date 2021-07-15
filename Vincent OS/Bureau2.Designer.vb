@@ -45,6 +45,7 @@ Partial Class Bureau2
         Me.Button13 = New System.Windows.Forms.Button()
         Me.Button14 = New System.Windows.Forms.Button()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.Button11 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Panel2 = New System.Windows.Forms.Panel()
         Me.FlowLayoutPanel2 = New System.Windows.Forms.FlowLayoutPanel()
@@ -56,9 +57,9 @@ Partial Class Bureau2
         Me.Button21 = New System.Windows.Forms.Button()
         Me.Button22 = New System.Windows.Forms.Button()
         Me.Button23 = New System.Windows.Forms.Button()
-        Me.Button25 = New System.Windows.Forms.Button()
         Me.Button24 = New System.Windows.Forms.Button()
-        Me.Button26 = New System.Windows.Forms.Button()
+        Me.Button8 = New System.Windows.Forms.Button()
+        Me.Button18 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -173,6 +174,7 @@ Partial Class Bureau2
         '
         Me.Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), System.Drawing.Image)
         Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Location = New System.Drawing.Point(3, 3)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(50, 50)
@@ -184,6 +186,7 @@ Partial Class Bureau2
         '
         Me.Button3.BackgroundImage = CType(resources.GetObject("Button3.BackgroundImage"), System.Drawing.Image)
         Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Location = New System.Drawing.Point(59, 3)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(50, 50)
@@ -195,6 +198,7 @@ Partial Class Bureau2
         '
         Me.Button4.BackgroundImage = CType(resources.GetObject("Button4.BackgroundImage"), System.Drawing.Image)
         Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Location = New System.Drawing.Point(171, 3)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(50, 50)
@@ -206,6 +210,7 @@ Partial Class Bureau2
         '
         Me.Button5.BackgroundImage = CType(resources.GetObject("Button5.BackgroundImage"), System.Drawing.Image)
         Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Location = New System.Drawing.Point(227, 3)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(50, 50)
@@ -217,6 +222,7 @@ Partial Class Bureau2
         '
         Me.Button6.BackgroundImage = CType(resources.GetObject("Button6.BackgroundImage"), System.Drawing.Image)
         Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button6.Location = New System.Drawing.Point(115, 3)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(50, 50)
@@ -229,6 +235,7 @@ Partial Class Bureau2
         Me.Button10.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button10.BackgroundImage = CType(resources.GetObject("Button10.BackgroundImage"), System.Drawing.Image)
         Me.Button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button10.Location = New System.Drawing.Point(823, 0)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(28, 26)
@@ -239,6 +246,7 @@ Partial Class Bureau2
         '
         Me.Button9.BackgroundImage = CType(resources.GetObject("Button9.BackgroundImage"), System.Drawing.Image)
         Me.Button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button9.Location = New System.Drawing.Point(395, 3)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(50, 50)
@@ -251,6 +259,7 @@ Partial Class Bureau2
         Me.Button12.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
         Me.Button12.BackgroundImage = CType(resources.GetObject("Button12.BackgroundImage"), System.Drawing.Image)
         Me.Button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button12.Location = New System.Drawing.Point(0, 0)
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(28, 26)
@@ -261,6 +270,7 @@ Partial Class Bureau2
         '
         Me.Button13.BackgroundImage = CType(resources.GetObject("Button13.BackgroundImage"), System.Drawing.Image)
         Me.Button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button13.Location = New System.Drawing.Point(339, 3)
         Me.Button13.Name = "Button13"
         Me.Button13.Size = New System.Drawing.Size(50, 50)
@@ -272,6 +282,7 @@ Partial Class Bureau2
         '
         Me.Button14.BackgroundImage = CType(resources.GetObject("Button14.BackgroundImage"), System.Drawing.Image)
         Me.Button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button14.Location = New System.Drawing.Point(283, 3)
         Me.Button14.Name = "Button14"
         Me.Button14.Size = New System.Drawing.Size(50, 50)
@@ -294,10 +305,24 @@ Partial Class Bureau2
         Me.FlowLayoutPanel1.Controls.Add(Me.Button14)
         Me.FlowLayoutPanel1.Controls.Add(Me.Button13)
         Me.FlowLayoutPanel1.Controls.Add(Me.Button9)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Button11)
         Me.FlowLayoutPanel1.Location = New System.Drawing.Point(0, 22)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(848, 430)
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(848, 480)
         Me.FlowLayoutPanel1.TabIndex = 23
+        '
+        'Button11
+        '
+        Me.Button11.BackColor = System.Drawing.Color.Transparent
+        Me.Button11.BackgroundImage = CType(resources.GetObject("Button11.BackgroundImage"), System.Drawing.Image)
+        Me.Button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button11.Location = New System.Drawing.Point(451, 3)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(50, 50)
+        Me.Button11.TabIndex = 23
+        Me.Button11.UseVisualStyleBackColor = False
+        Me.Button11.Visible = False
         '
         'Label1
         '
@@ -333,9 +358,9 @@ Partial Class Bureau2
         Me.FlowLayoutPanel2.Controls.Add(Me.Button21)
         Me.FlowLayoutPanel2.Controls.Add(Me.Button22)
         Me.FlowLayoutPanel2.Controls.Add(Me.Button23)
-        Me.FlowLayoutPanel2.Controls.Add(Me.Button25)
         Me.FlowLayoutPanel2.Controls.Add(Me.Button24)
-        Me.FlowLayoutPanel2.Controls.Add(Me.Button26)
+        Me.FlowLayoutPanel2.Controls.Add(Me.Button8)
+        Me.FlowLayoutPanel2.Controls.Add(Me.Button18)
         Me.FlowLayoutPanel2.Location = New System.Drawing.Point(30, 0)
         Me.FlowLayoutPanel2.Name = "FlowLayoutPanel2"
         Me.FlowLayoutPanel2.Size = New System.Drawing.Size(802, 26)
@@ -343,113 +368,138 @@ Partial Class Bureau2
         '
         'Button15
         '
+        Me.Button15.BackgroundImage = CType(resources.GetObject("Button15.BackgroundImage"), System.Drawing.Image)
+        Me.Button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button15.Location = New System.Drawing.Point(3, 3)
         Me.Button15.Name = "Button15"
-        Me.Button15.Size = New System.Drawing.Size(75, 23)
+        Me.Button15.Size = New System.Drawing.Size(23, 23)
         Me.Button15.TabIndex = 33
-        Me.Button15.Text = "Bing Chrome"
         Me.Button15.UseVisualStyleBackColor = True
         Me.Button15.Visible = False
         '
         'Button16
         '
-        Me.Button16.Location = New System.Drawing.Point(84, 3)
+        Me.Button16.BackgroundImage = CType(resources.GetObject("Button16.BackgroundImage"), System.Drawing.Image)
+        Me.Button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button16.Location = New System.Drawing.Point(32, 3)
         Me.Button16.Name = "Button16"
-        Me.Button16.Size = New System.Drawing.Size(75, 23)
+        Me.Button16.Size = New System.Drawing.Size(23, 23)
         Me.Button16.TabIndex = 34
-        Me.Button16.Text = "Explorateur"
         Me.Button16.UseVisualStyleBackColor = True
         Me.Button16.Visible = False
         '
         'Button17
         '
-        Me.Button17.Location = New System.Drawing.Point(165, 3)
+        Me.Button17.BackgroundImage = CType(resources.GetObject("Button17.BackgroundImage"), System.Drawing.Image)
+        Me.Button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button17.Location = New System.Drawing.Point(61, 3)
         Me.Button17.Name = "Button17"
-        Me.Button17.Size = New System.Drawing.Size(75, 23)
+        Me.Button17.Size = New System.Drawing.Size(23, 23)
         Me.Button17.TabIndex = 35
-        Me.Button17.Text = "Bloc Note"
         Me.Button17.UseVisualStyleBackColor = True
         Me.Button17.Visible = False
         '
         'Button19
         '
-        Me.Button19.Location = New System.Drawing.Point(246, 3)
+        Me.Button19.BackgroundImage = CType(resources.GetObject("Button19.BackgroundImage"), System.Drawing.Image)
+        Me.Button19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button19.Location = New System.Drawing.Point(90, 3)
         Me.Button19.Name = "Button19"
-        Me.Button19.Size = New System.Drawing.Size(84, 23)
+        Me.Button19.Size = New System.Drawing.Size(23, 23)
         Me.Button19.TabIndex = 37
-        Me.Button19.Text = "Media Player"
         Me.Button19.UseVisualStyleBackColor = True
         Me.Button19.Visible = False
         '
         'Button20
         '
-        Me.Button20.Location = New System.Drawing.Point(336, 3)
+        Me.Button20.BackgroundImage = CType(resources.GetObject("Button20.BackgroundImage"), System.Drawing.Image)
+        Me.Button20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button20.Location = New System.Drawing.Point(119, 3)
         Me.Button20.Name = "Button20"
-        Me.Button20.Size = New System.Drawing.Size(75, 23)
+        Me.Button20.Size = New System.Drawing.Size(23, 23)
         Me.Button20.TabIndex = 38
-        Me.Button20.Text = "Visionneuse"
         Me.Button20.UseVisualStyleBackColor = True
         Me.Button20.Visible = False
         '
         'Button21
         '
-        Me.Button21.Location = New System.Drawing.Point(417, 3)
+        Me.Button21.BackgroundImage = CType(resources.GetObject("Button21.BackgroundImage"), System.Drawing.Image)
+        Me.Button21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button21.Location = New System.Drawing.Point(148, 3)
         Me.Button21.Name = "Button21"
-        Me.Button21.Size = New System.Drawing.Size(75, 23)
+        Me.Button21.Size = New System.Drawing.Size(23, 23)
         Me.Button21.TabIndex = 39
-        Me.Button21.Text = "Paint"
         Me.Button21.UseVisualStyleBackColor = True
         Me.Button21.Visible = False
         '
         'Button22
         '
-        Me.Button22.Location = New System.Drawing.Point(498, 3)
+        Me.Button22.BackgroundImage = CType(resources.GetObject("Button22.BackgroundImage"), System.Drawing.Image)
+        Me.Button22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button22.Location = New System.Drawing.Point(177, 3)
         Me.Button22.Name = "Button22"
-        Me.Button22.Size = New System.Drawing.Size(75, 23)
+        Me.Button22.Size = New System.Drawing.Size(23, 23)
         Me.Button22.TabIndex = 40
-        Me.Button22.Text = "Jeux"
         Me.Button22.UseVisualStyleBackColor = True
         Me.Button22.Visible = False
         '
         'Button23
         '
-        Me.Button23.Location = New System.Drawing.Point(579, 3)
+        Me.Button23.BackgroundImage = CType(resources.GetObject("Button23.BackgroundImage"), System.Drawing.Image)
+        Me.Button23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button23.Location = New System.Drawing.Point(206, 3)
         Me.Button23.Name = "Button23"
-        Me.Button23.Size = New System.Drawing.Size(75, 23)
+        Me.Button23.Size = New System.Drawing.Size(23, 23)
         Me.Button23.TabIndex = 41
-        Me.Button23.Text = "Exécuteur"
         Me.Button23.UseVisualStyleBackColor = True
         Me.Button23.Visible = False
         '
-        'Button25
-        '
-        Me.Button25.Location = New System.Drawing.Point(660, 3)
-        Me.Button25.Name = "Button25"
-        Me.Button25.Size = New System.Drawing.Size(75, 23)
-        Me.Button25.TabIndex = 43
-        Me.Button25.Text = "Options"
-        Me.Button25.UseVisualStyleBackColor = True
-        Me.Button25.Visible = False
-        '
         'Button24
         '
-        Me.Button24.Location = New System.Drawing.Point(3, 32)
+        Me.Button24.BackColor = System.Drawing.Color.Transparent
+        Me.Button24.BackgroundImage = CType(resources.GetObject("Button24.BackgroundImage"), System.Drawing.Image)
+        Me.Button24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button24.Location = New System.Drawing.Point(235, 3)
         Me.Button24.Name = "Button24"
-        Me.Button24.Size = New System.Drawing.Size(75, 23)
+        Me.Button24.Size = New System.Drawing.Size(23, 23)
         Me.Button24.TabIndex = 42
-        Me.Button24.Text = "Terminal"
-        Me.Button24.UseVisualStyleBackColor = True
+        Me.Button24.UseVisualStyleBackColor = False
         Me.Button24.Visible = False
         '
-        'Button26
+        'Button8
         '
-        Me.Button26.Location = New System.Drawing.Point(84, 32)
-        Me.Button26.Name = "Button26"
-        Me.Button26.Size = New System.Drawing.Size(75, 23)
-        Me.Button26.TabIndex = 44
-        Me.Button26.Text = "Applications"
-        Me.Button26.UseVisualStyleBackColor = True
-        Me.Button26.Visible = False
+        Me.Button8.BackColor = System.Drawing.Color.Transparent
+        Me.Button8.BackgroundImage = CType(resources.GetObject("Button8.BackgroundImage"), System.Drawing.Image)
+        Me.Button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button8.Location = New System.Drawing.Point(264, 3)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(23, 23)
+        Me.Button8.TabIndex = 43
+        Me.Button8.UseVisualStyleBackColor = False
+        Me.Button8.Visible = False
+        '
+        'Button18
+        '
+        Me.Button18.BackColor = System.Drawing.Color.Transparent
+        Me.Button18.BackgroundImage = CType(resources.GetObject("Button18.BackgroundImage"), System.Drawing.Image)
+        Me.Button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button18.Location = New System.Drawing.Point(293, 3)
+        Me.Button18.Name = "Button18"
+        Me.Button18.Size = New System.Drawing.Size(23, 23)
+        Me.Button18.TabIndex = 44
+        Me.Button18.UseVisualStyleBackColor = False
+        Me.Button18.Visible = False
         '
         'Bureau2
         '
@@ -518,7 +568,8 @@ Partial Class Bureau2
     Friend WithEvents Button22 As System.Windows.Forms.Button
     Friend WithEvents Button23 As System.Windows.Forms.Button
     Friend WithEvents Button24 As System.Windows.Forms.Button
-    Friend WithEvents Button25 As System.Windows.Forms.Button
-    Friend WithEvents Button26 As System.Windows.Forms.Button
     Friend WithEvents Button7 As System.Windows.Forms.Button
+    Friend WithEvents Button11 As System.Windows.Forms.Button
+    Friend WithEvents Button8 As System.Windows.Forms.Button
+    Friend WithEvents Button18 As System.Windows.Forms.Button
 End Class

@@ -13,10 +13,6 @@
         Me.Hide()
     End Sub
 
-    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
-        MessageBox.Show("Le mot de passe est : << Vincent OS >> ")
-    End Sub
-
     Private Sub PictureBox4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox4.Click
         alertelog.Show()
     End Sub
@@ -35,7 +31,15 @@
         Else
             Dim backmusic As New System.Media.SoundPlayer(My.Resources.errorSound)
             backmusic.Play()
-            MessageBox.Show("Le mot de passe est incorrecte")
+            MessageBox.Show("ERREUR : Le mot de passe est incorrecte.", "ERREUR",MessageBoxButtons.OK,MessageBoxIcon.Error)
         End If
+    End Sub
+
+    Private Sub Button4_MouseDown(ByVal sender As System.Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles Button4.MouseDown
+        TextBox2.PasswordChar = ""
+    End Sub
+
+    Private Sub Button4_MouseUp(ByVal sender As System.Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles Button4.MouseUp
+        TextBox2.PasswordChar = "*"
     End Sub
 End Class

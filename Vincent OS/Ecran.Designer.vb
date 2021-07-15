@@ -29,8 +29,6 @@ Partial Class Ecran
         Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage4 = New System.Windows.Forms.TabPage()
-        Me.Panel2 = New System.Windows.Forms.Panel()
-        Me.Label4 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.RadioButton8 = New System.Windows.Forms.RadioButton()
         Me.PictureBox8 = New System.Windows.Forms.PictureBox()
@@ -49,29 +47,32 @@ Partial Class Ecran
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
-        Me.Panel3 = New System.Windows.Forms.Panel()
-        Me.Label5 = New System.Windows.Forms.Label()
         Me.Button3 = New System.Windows.Forms.Button()
         Me.RadioButton9 = New System.Windows.Forms.RadioButton()
-        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
         Me.RadioButton10 = New System.Windows.Forms.RadioButton()
-        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
         Me.RadioButton11 = New System.Windows.Forms.RadioButton()
-        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
         Me.RadioButton12 = New System.Windows.Forms.RadioButton()
-        Me.PictureBox12 = New System.Windows.Forms.PictureBox()
         Me.RadioButton13 = New System.Windows.Forms.RadioButton()
-        Me.PictureBox13 = New System.Windows.Forms.PictureBox()
         Me.RadioButton14 = New System.Windows.Forms.RadioButton()
-        Me.PictureBox14 = New System.Windows.Forms.PictureBox()
         Me.RadioButton15 = New System.Windows.Forms.RadioButton()
+        Me.PictureBox9 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox10 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox11 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox12 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox13 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox14 = New System.Windows.Forms.PictureBox()
         Me.PictureBox15 = New System.Windows.Forms.PictureBox()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.Button4 = New System.Windows.Forms.Button()
+        Me.RadioButton18 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton17 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton16 = New System.Windows.Forms.RadioButton()
+        Me.PictureBox18 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox17 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox16 = New System.Windows.Forms.PictureBox()
         Me.TabPage5 = New System.Windows.Forms.TabPage()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Label3 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage4.SuspendLayout()
-        Me.Panel2.SuspendLayout()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -81,7 +82,6 @@ Partial Class Ecran
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage1.SuspendLayout()
-        Me.Panel3.SuspendLayout()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -89,8 +89,11 @@ Partial Class Ecran
         CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabPage2.SuspendLayout()
+        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.TabPage5.SuspendLayout()
-        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label1
@@ -118,7 +121,7 @@ Partial Class Ecran
         '
         Me.Button1.BackColor = System.Drawing.Color.Lime
         Me.Button1.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(177, 143)
+        Me.Button1.Location = New System.Drawing.Point(177, 159)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(394, 33)
         Me.Button1.TabIndex = 5
@@ -134,6 +137,7 @@ Partial Class Ecran
         '
         Me.TabControl1.Controls.Add(Me.TabPage4)
         Me.TabControl1.Controls.Add(Me.TabPage1)
+        Me.TabControl1.Controls.Add(Me.TabPage2)
         Me.TabControl1.Controls.Add(Me.TabPage5)
         Me.TabControl1.Location = New System.Drawing.Point(1, 24)
         Me.TabControl1.Name = "TabControl1"
@@ -143,7 +147,6 @@ Partial Class Ecran
         '
         'TabPage4
         '
-        Me.TabPage4.Controls.Add(Me.Panel2)
         Me.TabPage4.Controls.Add(Me.Button2)
         Me.TabPage4.Controls.Add(Me.RadioButton8)
         Me.TabPage4.Controls.Add(Me.PictureBox8)
@@ -169,26 +172,6 @@ Partial Class Ecran
         Me.TabPage4.Text = "Vincent OS 4"
         Me.TabPage4.UseVisualStyleBackColor = True
         '
-        'Panel2
-        '
-        Me.Panel2.Controls.Add(Me.Label4)
-        Me.Panel2.Location = New System.Drawing.Point(189, 277)
-        Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(394, 137)
-        Me.Panel2.TabIndex = 17
-        Me.Panel2.Visible = False
-        '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.Color.Red
-        Me.Label4.Location = New System.Drawing.Point(25, 53)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(331, 22)
-        Me.Label4.TabIndex = 3
-        Me.Label4.Text = "Votre fond d'écran a bien été changé !"
-        '
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.Lime
@@ -207,13 +190,12 @@ Partial Class Ecran
         Me.RadioButton8.Name = "RadioButton8"
         Me.RadioButton8.Size = New System.Drawing.Size(133, 17)
         Me.RadioButton8.TabIndex = 15
-        Me.RadioButton8.TabStop = True
         Me.RadioButton8.Text = "Fond d'écran inutilisé 2" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.RadioButton8.UseVisualStyleBackColor = True
         '
         'PictureBox8
         '
-        Me.PictureBox8.Image = Global.Vincent_OS.My.Resources.Resources.Fond_decran2
+        Me.PictureBox8.Image = CType(resources.GetObject("PictureBox8.Image"), System.Drawing.Image)
         Me.PictureBox8.Location = New System.Drawing.Point(573, 124)
         Me.PictureBox8.Name = "PictureBox8"
         Me.PictureBox8.Size = New System.Drawing.Size(120, 73)
@@ -228,13 +210,12 @@ Partial Class Ecran
         Me.RadioButton7.Name = "RadioButton7"
         Me.RadioButton7.Size = New System.Drawing.Size(133, 17)
         Me.RadioButton7.TabIndex = 13
-        Me.RadioButton7.TabStop = True
         Me.RadioButton7.Text = "Fond d'écran inutilisé 1" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         Me.RadioButton7.UseVisualStyleBackColor = True
         '
         'PictureBox7
         '
-        Me.PictureBox7.Image = Global.Vincent_OS.My.Resources.Resources.Fond_decran1
+        Me.PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), System.Drawing.Image)
         Me.PictureBox7.Location = New System.Drawing.Point(421, 124)
         Me.PictureBox7.Name = "PictureBox7"
         Me.PictureBox7.Size = New System.Drawing.Size(120, 73)
@@ -249,13 +230,12 @@ Partial Class Ecran
         Me.RadioButton6.Name = "RadioButton6"
         Me.RadioButton6.Size = New System.Drawing.Size(172, 17)
         Me.RadioButton6.TabIndex = 11
-        Me.RadioButton6.TabStop = True
         Me.RadioButton6.Text = "Second fond d'écran de l'Invité"
         Me.RadioButton6.UseVisualStyleBackColor = True
         '
         'PictureBox6
         '
-        Me.PictureBox6.Image = Global.Vincent_OS.My.Resources.Resources.fond_écran_kiki
+        Me.PictureBox6.Image = CType(resources.GetObject("PictureBox6.Image"), System.Drawing.Image)
         Me.PictureBox6.Location = New System.Drawing.Point(255, 124)
         Me.PictureBox6.Name = "PictureBox6"
         Me.PictureBox6.Size = New System.Drawing.Size(120, 73)
@@ -270,13 +250,12 @@ Partial Class Ecran
         Me.RadioButton5.Name = "RadioButton5"
         Me.RadioButton5.Size = New System.Drawing.Size(214, 17)
         Me.RadioButton5.TabIndex = 9
-        Me.RadioButton5.TabStop = True
         Me.RadioButton5.Text = "Second fond d'écran du Superutilisateur"
         Me.RadioButton5.UseVisualStyleBackColor = True
         '
         'PictureBox5
         '
-        Me.PictureBox5.Image = Global.Vincent_OS.My.Resources.Resources.image0
+        Me.PictureBox5.Image = CType(resources.GetObject("PictureBox5.Image"), System.Drawing.Image)
         Me.PictureBox5.Location = New System.Drawing.Point(60, 124)
         Me.PictureBox5.Name = "PictureBox5"
         Me.PictureBox5.Size = New System.Drawing.Size(120, 73)
@@ -291,13 +270,12 @@ Partial Class Ecran
         Me.RadioButton4.Name = "RadioButton4"
         Me.RadioButton4.Size = New System.Drawing.Size(164, 17)
         Me.RadioButton4.TabIndex = 7
-        Me.RadioButton4.TabStop = True
         Me.RadioButton4.Text = "Second fond d'écran du login"
         Me.RadioButton4.UseVisualStyleBackColor = True
         '
         'PictureBox4
         '
-        Me.PictureBox4.Image = Global.Vincent_OS.My.Resources.Resources.Fond_decran6
+        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
         Me.PictureBox4.Location = New System.Drawing.Point(559, 10)
         Me.PictureBox4.Name = "PictureBox4"
         Me.PictureBox4.Size = New System.Drawing.Size(120, 73)
@@ -312,13 +290,12 @@ Partial Class Ecran
         Me.RadioButton3.Name = "RadioButton3"
         Me.RadioButton3.Size = New System.Drawing.Size(135, 17)
         Me.RadioButton3.TabIndex = 5
-        Me.RadioButton3.TabStop = True
         Me.RadioButton3.Text = "Fond d'écran de l'Invité"
         Me.RadioButton3.UseVisualStyleBackColor = True
         '
         'PictureBox3
         '
-        Me.PictureBox3.Image = Global.Vincent_OS.My.Resources.Resources.fond_écran_invité
+        Me.PictureBox3.Image = CType(resources.GetObject("PictureBox3.Image"), System.Drawing.Image)
         Me.PictureBox3.Location = New System.Drawing.Point(388, 10)
         Me.PictureBox3.Name = "PictureBox3"
         Me.PictureBox3.Size = New System.Drawing.Size(120, 73)
@@ -333,13 +310,12 @@ Partial Class Ecran
         Me.RadioButton2.Name = "RadioButton2"
         Me.RadioButton2.Size = New System.Drawing.Size(177, 17)
         Me.RadioButton2.TabIndex = 3
-        Me.RadioButton2.TabStop = True
         Me.RadioButton2.Text = "Fond d'écran du Superutilisateur"
         Me.RadioButton2.UseVisualStyleBackColor = True
         '
         'PictureBox2
         '
-        Me.PictureBox2.Image = Global.Vincent_OS.My.Resources.Resources.fond_écran_superutilisateur
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
         Me.PictureBox2.Location = New System.Drawing.Point(229, 10)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(120, 73)
@@ -354,13 +330,12 @@ Partial Class Ecran
         Me.RadioButton1.Name = "RadioButton1"
         Me.RadioButton1.Size = New System.Drawing.Size(127, 17)
         Me.RadioButton1.TabIndex = 1
-        Me.RadioButton1.TabStop = True
         Me.RadioButton1.Text = "Fond d'écran du login"
         Me.RadioButton1.UseVisualStyleBackColor = True
         '
         'PictureBox1
         '
-        Me.PictureBox1.Image = Global.Vincent_OS.My.Resources.Resources.fond_écran_login
+        Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(60, 10)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(120, 73)
@@ -370,21 +345,20 @@ Partial Class Ecran
         '
         'TabPage1
         '
-        Me.TabPage1.Controls.Add(Me.Panel3)
         Me.TabPage1.Controls.Add(Me.Button3)
         Me.TabPage1.Controls.Add(Me.RadioButton9)
-        Me.TabPage1.Controls.Add(Me.PictureBox9)
         Me.TabPage1.Controls.Add(Me.RadioButton10)
-        Me.TabPage1.Controls.Add(Me.PictureBox10)
         Me.TabPage1.Controls.Add(Me.RadioButton11)
-        Me.TabPage1.Controls.Add(Me.PictureBox11)
         Me.TabPage1.Controls.Add(Me.RadioButton12)
-        Me.TabPage1.Controls.Add(Me.PictureBox12)
         Me.TabPage1.Controls.Add(Me.RadioButton13)
-        Me.TabPage1.Controls.Add(Me.PictureBox13)
         Me.TabPage1.Controls.Add(Me.RadioButton14)
-        Me.TabPage1.Controls.Add(Me.PictureBox14)
         Me.TabPage1.Controls.Add(Me.RadioButton15)
+        Me.TabPage1.Controls.Add(Me.PictureBox9)
+        Me.TabPage1.Controls.Add(Me.PictureBox10)
+        Me.TabPage1.Controls.Add(Me.PictureBox11)
+        Me.TabPage1.Controls.Add(Me.PictureBox12)
+        Me.TabPage1.Controls.Add(Me.PictureBox13)
+        Me.TabPage1.Controls.Add(Me.PictureBox14)
         Me.TabPage1.Controls.Add(Me.PictureBox15)
         Me.TabPage1.Location = New System.Drawing.Point(4, 22)
         Me.TabPage1.Name = "TabPage1"
@@ -393,26 +367,6 @@ Partial Class Ecran
         Me.TabPage1.TabIndex = 5
         Me.TabPage1.Text = "Vincent OS 5"
         Me.TabPage1.UseVisualStyleBackColor = True
-        '
-        'Panel3
-        '
-        Me.Panel3.Controls.Add(Me.Label5)
-        Me.Panel3.Location = New System.Drawing.Point(170, 283)
-        Me.Panel3.Name = "Panel3"
-        Me.Panel3.Size = New System.Drawing.Size(394, 137)
-        Me.Panel3.TabIndex = 29
-        Me.Panel3.Visible = False
-        '
-        'Label5
-        '
-        Me.Label5.AutoSize = True
-        Me.Label5.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label5.ForeColor = System.Drawing.Color.Red
-        Me.Label5.Location = New System.Drawing.Point(25, 53)
-        Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(331, 22)
-        Me.Label5.TabIndex = 3
-        Me.Label5.Text = "Votre fond d'écran a bien été changé !"
         '
         'Button3
         '
@@ -435,16 +389,6 @@ Partial Class Ecran
         Me.RadioButton9.Text = "Fond d'écran inutilisé 4"
         Me.RadioButton9.UseVisualStyleBackColor = True
         '
-        'PictureBox9
-        '
-        Me.PictureBox9.Image = Global.Vincent_OS.My.Resources.Resources.Wallpaper_4
-        Me.PictureBox9.Location = New System.Drawing.Point(462, 125)
-        Me.PictureBox9.Name = "PictureBox9"
-        Me.PictureBox9.Size = New System.Drawing.Size(120, 73)
-        Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox9.TabIndex = 26
-        Me.PictureBox9.TabStop = False
-        '
         'RadioButton10
         '
         Me.RadioButton10.AutoSize = True
@@ -454,16 +398,6 @@ Partial Class Ecran
         Me.RadioButton10.TabIndex = 25
         Me.RadioButton10.Text = "Fond d'écran inutilisé 3"
         Me.RadioButton10.UseVisualStyleBackColor = True
-        '
-        'PictureBox10
-        '
-        Me.PictureBox10.Image = Global.Vincent_OS.My.Resources.Resources.Wallpaper_3
-        Me.PictureBox10.Location = New System.Drawing.Point(296, 125)
-        Me.PictureBox10.Name = "PictureBox10"
-        Me.PictureBox10.Size = New System.Drawing.Size(120, 73)
-        Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox10.TabIndex = 24
-        Me.PictureBox10.TabStop = False
         '
         'RadioButton11
         '
@@ -475,16 +409,6 @@ Partial Class Ecran
         Me.RadioButton11.Text = "Fond d'écran inutilisé 2"
         Me.RadioButton11.UseVisualStyleBackColor = True
         '
-        'PictureBox11
-        '
-        Me.PictureBox11.Image = Global.Vincent_OS.My.Resources.Resources.Wallpaper_2
-        Me.PictureBox11.Location = New System.Drawing.Point(132, 125)
-        Me.PictureBox11.Name = "PictureBox11"
-        Me.PictureBox11.Size = New System.Drawing.Size(120, 73)
-        Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox11.TabIndex = 22
-        Me.PictureBox11.TabStop = False
-        '
         'RadioButton12
         '
         Me.RadioButton12.AutoSize = True
@@ -494,16 +418,6 @@ Partial Class Ecran
         Me.RadioButton12.TabIndex = 21
         Me.RadioButton12.Text = "Fond d'écran inutilisé 1"
         Me.RadioButton12.UseVisualStyleBackColor = True
-        '
-        'PictureBox12
-        '
-        Me.PictureBox12.Image = Global.Vincent_OS.My.Resources.Resources.fond_vincentOS_11
-        Me.PictureBox12.Location = New System.Drawing.Point(575, 6)
-        Me.PictureBox12.Name = "PictureBox12"
-        Me.PictureBox12.Size = New System.Drawing.Size(120, 73)
-        Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox12.TabIndex = 20
-        Me.PictureBox12.TabStop = False
         '
         'RadioButton13
         '
@@ -515,16 +429,6 @@ Partial Class Ecran
         Me.RadioButton13.Text = "Fond d'écran de l'Invité"
         Me.RadioButton13.UseVisualStyleBackColor = True
         '
-        'PictureBox13
-        '
-        Me.PictureBox13.Image = Global.Vincent_OS.My.Resources.Resources.fond_écran_kiki2
-        Me.PictureBox13.Location = New System.Drawing.Point(404, 6)
-        Me.PictureBox13.Name = "PictureBox13"
-        Me.PictureBox13.Size = New System.Drawing.Size(120, 73)
-        Me.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox13.TabIndex = 18
-        Me.PictureBox13.TabStop = False
-        '
         'RadioButton14
         '
         Me.RadioButton14.AutoSize = True
@@ -534,16 +438,6 @@ Partial Class Ecran
         Me.RadioButton14.TabIndex = 17
         Me.RadioButton14.Text = "Fond d'écran du Superutilisateur"
         Me.RadioButton14.UseVisualStyleBackColor = True
-        '
-        'PictureBox14
-        '
-        Me.PictureBox14.Image = Global.Vincent_OS.My.Resources.Resources.spaceutilisateur
-        Me.PictureBox14.Location = New System.Drawing.Point(245, 6)
-        Me.PictureBox14.Name = "PictureBox14"
-        Me.PictureBox14.Size = New System.Drawing.Size(120, 73)
-        Me.PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox14.TabIndex = 16
-        Me.PictureBox14.TabStop = False
         '
         'RadioButton15
         '
@@ -555,9 +449,69 @@ Partial Class Ecran
         Me.RadioButton15.Text = "Fond d'écran du login"
         Me.RadioButton15.UseVisualStyleBackColor = True
         '
+        'PictureBox9
+        '
+        Me.PictureBox9.Image = CType(resources.GetObject("PictureBox9.Image"), System.Drawing.Image)
+        Me.PictureBox9.Location = New System.Drawing.Point(462, 125)
+        Me.PictureBox9.Name = "PictureBox9"
+        Me.PictureBox9.Size = New System.Drawing.Size(120, 73)
+        Me.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox9.TabIndex = 26
+        Me.PictureBox9.TabStop = False
+        '
+        'PictureBox10
+        '
+        Me.PictureBox10.Image = CType(resources.GetObject("PictureBox10.Image"), System.Drawing.Image)
+        Me.PictureBox10.Location = New System.Drawing.Point(296, 125)
+        Me.PictureBox10.Name = "PictureBox10"
+        Me.PictureBox10.Size = New System.Drawing.Size(120, 73)
+        Me.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox10.TabIndex = 24
+        Me.PictureBox10.TabStop = False
+        '
+        'PictureBox11
+        '
+        Me.PictureBox11.Image = CType(resources.GetObject("PictureBox11.Image"), System.Drawing.Image)
+        Me.PictureBox11.Location = New System.Drawing.Point(132, 125)
+        Me.PictureBox11.Name = "PictureBox11"
+        Me.PictureBox11.Size = New System.Drawing.Size(120, 73)
+        Me.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox11.TabIndex = 22
+        Me.PictureBox11.TabStop = False
+        '
+        'PictureBox12
+        '
+        Me.PictureBox12.Image = CType(resources.GetObject("PictureBox12.Image"), System.Drawing.Image)
+        Me.PictureBox12.Location = New System.Drawing.Point(575, 6)
+        Me.PictureBox12.Name = "PictureBox12"
+        Me.PictureBox12.Size = New System.Drawing.Size(120, 73)
+        Me.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox12.TabIndex = 20
+        Me.PictureBox12.TabStop = False
+        '
+        'PictureBox13
+        '
+        Me.PictureBox13.Image = CType(resources.GetObject("PictureBox13.Image"), System.Drawing.Image)
+        Me.PictureBox13.Location = New System.Drawing.Point(404, 6)
+        Me.PictureBox13.Name = "PictureBox13"
+        Me.PictureBox13.Size = New System.Drawing.Size(120, 73)
+        Me.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox13.TabIndex = 18
+        Me.PictureBox13.TabStop = False
+        '
+        'PictureBox14
+        '
+        Me.PictureBox14.Image = CType(resources.GetObject("PictureBox14.Image"), System.Drawing.Image)
+        Me.PictureBox14.Location = New System.Drawing.Point(245, 6)
+        Me.PictureBox14.Name = "PictureBox14"
+        Me.PictureBox14.Size = New System.Drawing.Size(120, 73)
+        Me.PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox14.TabIndex = 16
+        Me.PictureBox14.TabStop = False
+        '
         'PictureBox15
         '
-        Me.PictureBox15.Image = Global.Vincent_OS.My.Resources.Resources.zeyatsu1
+        Me.PictureBox15.Image = CType(resources.GetObject("PictureBox15.Image"), System.Drawing.Image)
         Me.PictureBox15.Location = New System.Drawing.Point(76, 6)
         Me.PictureBox15.Name = "PictureBox15"
         Me.PictureBox15.Size = New System.Drawing.Size(120, 73)
@@ -565,11 +519,101 @@ Partial Class Ecran
         Me.PictureBox15.TabIndex = 14
         Me.PictureBox15.TabStop = False
         '
+        'TabPage2
+        '
+        Me.TabPage2.Controls.Add(Me.Button4)
+        Me.TabPage2.Controls.Add(Me.RadioButton18)
+        Me.TabPage2.Controls.Add(Me.RadioButton17)
+        Me.TabPage2.Controls.Add(Me.RadioButton16)
+        Me.TabPage2.Controls.Add(Me.PictureBox18)
+        Me.TabPage2.Controls.Add(Me.PictureBox17)
+        Me.TabPage2.Controls.Add(Me.PictureBox16)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(764, 370)
+        Me.TabPage2.TabIndex = 6
+        Me.TabPage2.Text = "Vincent OS 6"
+        Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'Button4
+        '
+        Me.Button4.BackColor = System.Drawing.Color.Lime
+        Me.Button4.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button4.Location = New System.Drawing.Point(181, 193)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(394, 33)
+        Me.Button4.TabIndex = 30
+        Me.Button4.Text = "Changer"
+        Me.Button4.UseVisualStyleBackColor = False
+        '
+        'RadioButton18
+        '
+        Me.RadioButton18.AutoSize = True
+        Me.RadioButton18.Location = New System.Drawing.Point(479, 162)
+        Me.RadioButton18.Name = "RadioButton18"
+        Me.RadioButton18.Size = New System.Drawing.Size(108, 17)
+        Me.RadioButton18.TabIndex = 5
+        Me.RadioButton18.TabStop = True
+        Me.RadioButton18.Text = "Fond écran Invité"
+        Me.RadioButton18.UseVisualStyleBackColor = True
+        '
+        'RadioButton17
+        '
+        Me.RadioButton17.AutoSize = True
+        Me.RadioButton17.Location = New System.Drawing.Point(308, 162)
+        Me.RadioButton17.Name = "RadioButton17"
+        Me.RadioButton17.Size = New System.Drawing.Size(154, 17)
+        Me.RadioButton17.TabIndex = 4
+        Me.RadioButton17.TabStop = True
+        Me.RadioButton17.Text = "Fond écran Superuitlisateur"
+        Me.RadioButton17.UseVisualStyleBackColor = True
+        '
+        'RadioButton16
+        '
+        Me.RadioButton16.AutoSize = True
+        Me.RadioButton16.Location = New System.Drawing.Point(158, 162)
+        Me.RadioButton16.Name = "RadioButton16"
+        Me.RadioButton16.Size = New System.Drawing.Size(104, 17)
+        Me.RadioButton16.TabIndex = 3
+        Me.RadioButton16.TabStop = True
+        Me.RadioButton16.Text = "Fond écran login"
+        Me.RadioButton16.UseVisualStyleBackColor = True
+        '
+        'PictureBox18
+        '
+        Me.PictureBox18.Image = Global.Vincent_OS.My.Resources.Resources.wallpaper_invité
+        Me.PictureBox18.Location = New System.Drawing.Point(477, 83)
+        Me.PictureBox18.Name = "PictureBox18"
+        Me.PictureBox18.Size = New System.Drawing.Size(120, 73)
+        Me.PictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox18.TabIndex = 2
+        Me.PictureBox18.TabStop = False
+        '
+        'PictureBox17
+        '
+        Me.PictureBox17.Image = Global.Vincent_OS.My.Resources.Resources.wallpaper_superutilisateur
+        Me.PictureBox17.Location = New System.Drawing.Point(320, 83)
+        Me.PictureBox17.Name = "PictureBox17"
+        Me.PictureBox17.Size = New System.Drawing.Size(120, 73)
+        Me.PictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox17.TabIndex = 1
+        Me.PictureBox17.TabStop = False
+        '
+        'PictureBox16
+        '
+        Me.PictureBox16.Image = Global.Vincent_OS.My.Resources.Resources.wallpaper_login
+        Me.PictureBox16.Location = New System.Drawing.Point(158, 83)
+        Me.PictureBox16.Name = "PictureBox16"
+        Me.PictureBox16.Size = New System.Drawing.Size(120, 73)
+        Me.PictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox16.TabIndex = 0
+        Me.PictureBox16.TabStop = False
+        '
         'TabPage5
         '
         Me.TabPage5.Controls.Add(Me.Label2)
         Me.TabPage5.Controls.Add(Me.Button1)
-        Me.TabPage5.Controls.Add(Me.Panel1)
         Me.TabPage5.Location = New System.Drawing.Point(4, 22)
         Me.TabPage5.Name = "TabPage5"
         Me.TabPage5.Padding = New System.Windows.Forms.Padding(3)
@@ -577,26 +621,6 @@ Partial Class Ecran
         Me.TabPage5.TabIndex = 4
         Me.TabPage5.Text = "Autre / Personnalisé"
         Me.TabPage5.UseVisualStyleBackColor = True
-        '
-        'Panel1
-        '
-        Me.Panel1.Controls.Add(Me.Label3)
-        Me.Panel1.Location = New System.Drawing.Point(177, 182)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(394, 137)
-        Me.Panel1.TabIndex = 7
-        Me.Panel1.Visible = False
-        '
-        'Label3
-        '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.ForeColor = System.Drawing.Color.Red
-        Me.Label3.Location = New System.Drawing.Point(25, 53)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(331, 22)
-        Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Votre fond d'écran a bien été changé !"
         '
         'Ecran
         '
@@ -614,8 +638,6 @@ Partial Class Ecran
         Me.TabControl1.ResumeLayout(False)
         Me.TabPage4.ResumeLayout(False)
         Me.TabPage4.PerformLayout()
-        Me.Panel2.ResumeLayout(False)
-        Me.Panel2.PerformLayout()
         CType(Me.PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
@@ -626,8 +648,6 @@ Partial Class Ecran
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage1.ResumeLayout(False)
         Me.TabPage1.PerformLayout()
-        Me.Panel3.ResumeLayout(False)
-        Me.Panel3.PerformLayout()
         CType(Me.PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox10, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox11, System.ComponentModel.ISupportInitialize).EndInit()
@@ -635,10 +655,13 @@ Partial Class Ecran
         CType(Me.PictureBox13, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox14, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox15, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabPage2.ResumeLayout(False)
+        Me.TabPage2.PerformLayout()
+        CType(Me.PictureBox18, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox17, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox16, System.ComponentModel.ISupportInitialize).EndInit()
         Me.TabPage5.ResumeLayout(False)
         Me.TabPage5.PerformLayout()
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -650,8 +673,6 @@ Partial Class Ecran
     Friend WithEvents TabControl1 As System.Windows.Forms.TabControl
     Friend WithEvents TabPage4 As System.Windows.Forms.TabPage
     Friend WithEvents TabPage5 As System.Windows.Forms.TabPage
-    Friend WithEvents Panel1 As System.Windows.Forms.Panel
-    Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents RadioButton1 As System.Windows.Forms.RadioButton
     Friend WithEvents PictureBox2 As System.Windows.Forms.PictureBox
@@ -667,8 +688,6 @@ Partial Class Ecran
     Friend WithEvents RadioButton6 As System.Windows.Forms.RadioButton
     Friend WithEvents PictureBox8 As System.Windows.Forms.PictureBox
     Friend WithEvents RadioButton7 As System.Windows.Forms.RadioButton
-    Friend WithEvents Panel2 As System.Windows.Forms.Panel
-    Friend WithEvents Label4 As System.Windows.Forms.Label
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents RadioButton8 As System.Windows.Forms.RadioButton
     Friend WithEvents TabPage1 As System.Windows.Forms.TabPage
@@ -686,7 +705,13 @@ Partial Class Ecran
     Friend WithEvents PictureBox14 As System.Windows.Forms.PictureBox
     Friend WithEvents RadioButton15 As System.Windows.Forms.RadioButton
     Friend WithEvents PictureBox15 As System.Windows.Forms.PictureBox
-    Friend WithEvents Panel3 As System.Windows.Forms.Panel
-    Friend WithEvents Label5 As System.Windows.Forms.Label
     Friend WithEvents Button3 As System.Windows.Forms.Button
+    Friend WithEvents TabPage2 As System.Windows.Forms.TabPage
+    Friend WithEvents PictureBox18 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox17 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox16 As System.Windows.Forms.PictureBox
+    Friend WithEvents Button4 As System.Windows.Forms.Button
+    Friend WithEvents RadioButton18 As System.Windows.Forms.RadioButton
+    Friend WithEvents RadioButton17 As System.Windows.Forms.RadioButton
+    Friend WithEvents RadioButton16 As System.Windows.Forms.RadioButton
 End Class

@@ -78,4 +78,11 @@
             TabPage2.Text = WebBrowser2.DocumentTitle
         End If
     End Sub
+
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+        TabControl1.Controls.RemoveAt(0)
+        If TabControl1.TabPages.Count = 0 Then
+            Me.Close()
+        End If
+    End Sub
 End Class

@@ -79,121 +79,11 @@ Namespace My.Resources
         End Property
         
         '''<summary>
-        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property Fond_decran1() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("Fond_decran1", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property Fond_decran2() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("Fond_decran2", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property Fond_decran6() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("Fond_decran6", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property fond_écran_invité() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("fond_écran_invité", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property fond_écran_kiki() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("fond_écran_kiki", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property fond_écran_kiki2() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("fond_écran_kiki2", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property fond_écran_login() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("fond_écran_login", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property fond_écran_superutilisateur() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("fond_écran_superutilisateur", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property fond_vincentOS_11() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("fond_vincentOS_11", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property image0() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("image0", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
         '''  Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
         '''</summary>
         Friend ReadOnly Property shutdownSound() As System.IO.UnmanagedMemoryStream
             Get
                 Return ResourceManager.GetStream("shutdownSound", resourceCulture)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property spaceutilisateur() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("spaceutilisateur", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
         
@@ -209,9 +99,9 @@ Namespace My.Resources
         '''<summary>
         '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Wallpaper_2() As System.Drawing.Bitmap
+        Friend ReadOnly Property wallpaper_invité() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Wallpaper_2", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("wallpaper invité", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -219,9 +109,9 @@ Namespace My.Resources
         '''<summary>
         '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Wallpaper_3() As System.Drawing.Bitmap
+        Friend ReadOnly Property wallpaper_login() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Wallpaper_3", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("wallpaper login", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property
@@ -229,19 +119,9 @@ Namespace My.Resources
         '''<summary>
         '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
         '''</summary>
-        Friend ReadOnly Property Wallpaper_4() As System.Drawing.Bitmap
+        Friend ReadOnly Property wallpaper_superutilisateur() As System.Drawing.Bitmap
             Get
-                Dim obj As Object = ResourceManager.GetObject("Wallpaper_4", resourceCulture)
-                Return CType(obj,System.Drawing.Bitmap)
-            End Get
-        End Property
-        
-        '''<summary>
-        '''  Recherche une ressource localisée de type System.Drawing.Bitmap.
-        '''</summary>
-        Friend ReadOnly Property zeyatsu1() As System.Drawing.Bitmap
-            Get
-                Dim obj As Object = ResourceManager.GetObject("zeyatsu1", resourceCulture)
+                Dim obj As Object = ResourceManager.GetObject("wallpaper superutilisateur", resourceCulture)
                 Return CType(obj,System.Drawing.Bitmap)
             End Get
         End Property

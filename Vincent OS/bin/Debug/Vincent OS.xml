@@ -29,71 +29,23 @@ VincentOS
 	<summary>
   Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
 </summary>
-</member><member name="P:Vincent_OS.My.Resources.Resources.Fond_decran1">
-	<summary>
-  Recherche une ressource localisée de type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:Vincent_OS.My.Resources.Resources.Fond_decran2">
-	<summary>
-  Recherche une ressource localisée de type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:Vincent_OS.My.Resources.Resources.Fond_decran6">
-	<summary>
-  Recherche une ressource localisée de type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:Vincent_OS.My.Resources.Resources.fond_écran_invité">
-	<summary>
-  Recherche une ressource localisée de type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:Vincent_OS.My.Resources.Resources.fond_écran_kiki">
-	<summary>
-  Recherche une ressource localisée de type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:Vincent_OS.My.Resources.Resources.fond_écran_kiki2">
-	<summary>
-  Recherche une ressource localisée de type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:Vincent_OS.My.Resources.Resources.fond_écran_login">
-	<summary>
-  Recherche une ressource localisée de type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:Vincent_OS.My.Resources.Resources.fond_écran_superutilisateur">
-	<summary>
-  Recherche une ressource localisée de type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:Vincent_OS.My.Resources.Resources.fond_vincentOS_11">
-	<summary>
-  Recherche une ressource localisée de type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:Vincent_OS.My.Resources.Resources.image0">
-	<summary>
-  Recherche une ressource localisée de type System.Drawing.Bitmap.
-</summary>
 </member><member name="P:Vincent_OS.My.Resources.Resources.shutdownSound">
 	<summary>
   Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
-</summary>
-</member><member name="P:Vincent_OS.My.Resources.Resources.spaceutilisateur">
-	<summary>
-  Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
 </member><member name="P:Vincent_OS.My.Resources.Resources.startingSound">
 	<summary>
   Recherche une ressource localisée de type System.IO.UnmanagedMemoryStream semblable à System.IO.MemoryStream.
 </summary>
-</member><member name="P:Vincent_OS.My.Resources.Resources.Wallpaper_2">
+</member><member name="P:Vincent_OS.My.Resources.Resources.wallpaper_invité">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Vincent_OS.My.Resources.Resources.Wallpaper_3">
+</member><member name="P:Vincent_OS.My.Resources.Resources.wallpaper_login">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
-</member><member name="P:Vincent_OS.My.Resources.Resources.Wallpaper_4">
-	<summary>
-  Recherche une ressource localisée de type System.Drawing.Bitmap.
-</summary>
-</member><member name="P:Vincent_OS.My.Resources.Resources.zeyatsu1">
+</member><member name="P:Vincent_OS.My.Resources.Resources.wallpaper_superutilisateur">
 	<summary>
   Recherche une ressource localisée de type System.Drawing.Bitmap.
 </summary>
