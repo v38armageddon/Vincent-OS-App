@@ -182,8 +182,8 @@
             If ProgressBar7.Value = 100 Then
                 Timer1.Stop()
                 System.Diagnostics.Process.Start("https://github.com/v38armageddon/Lecteur-PDF/archive/refs/heads/main.zip")
-                Button2.Text = "Lancer le téléchargement"
-                Button2.Enabled = True
+                Button3.Text = "Lancer le téléchargement"
+                Button3.Enabled = True
                 ProgressBar7.Value = 0
                 ProgressBar7.Visible = False
             End If

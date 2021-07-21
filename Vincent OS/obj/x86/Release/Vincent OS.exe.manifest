@@ -4,7 +4,7 @@
   <description asmv2:iconFile="Vincent OS.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="Vincent OS" version="6.0.0.0" language="neutral" processorArchitecture="x86" />
+    <assemblyIdentity name="Vincent OS" version="6.1.0.0" language="neutral" processorArchitecture="x86" />
     <commandLine file="Vincent OS.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -67,14 +67,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Vincent OS.exe" size="35598848">
-      <assemblyIdentity name="Vincent OS" version="6.0.0.0" language="neutral" processorArchitecture="x86" />
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Vincent OS.exe" size="35599360">
+      <assemblyIdentity name="Vincent OS" version="6.1.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>IBRASes7Hb4QdbXClgfTlqXiRbw=</dsig:DigestValue>
+        <dsig:DigestValue>49lnLpYETijzGYa6P1lvM2Xww+w=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

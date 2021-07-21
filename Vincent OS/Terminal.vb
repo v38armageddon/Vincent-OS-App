@@ -29,10 +29,10 @@
     Private Sub commande()
         If TextBox1.Text = "ver" Then
             ''ATTENTION A BIEN CHANGER LA VERSION CAR JE VAIS SUREMENT OUBLIER A LA PROCHAINE VERSION !!!!!!!!!!!
-            RichTextBox1.Text = "Nom du système d'exploitation : Vincent OS" & vbCrLf & "Version : 6"
+            RichTextBox1.Text = "Nom du système d'exploitation : Vincent OS" & vbCrLf & "Version : 6.1"
             TextBox1.Text = ""
         ElseIf TextBox1.Text = "help" Then
-            RichTextBox1.Text = "Bing Chrome        Lance Bing Chrome." & vbCrLf & "Exewin       Lance l'exécuteur d'application non Vincent OS." & vbCrLf & "Game        Lance le gestionnaire de jeux." & vbCrLf & "MediaPlayer      Lancer le Media Player." & vbCrLf & "Meme        Lance l'explorateur de fichiers." & vbCrLf & "News       Savoir les derniers changements." & vbCrLf & "Notepad        Lance le Bloc Note." & vbCrLf & "Paint       Lance Paint." & vbCrLf & "PDF        Lance le lecteur PDF." & vbCrLf & "Terminal     Lance une autre fenêtre d'un Terminal." & vbCrLf & "Visio       Lance la visionneuse d'images." & vbCrLf & vbCrLf & "Certaines commandes sont cachées !"
+            RichTextBox1.Text = "Bing Chrome        Lance Bing Chrome." & vbCrLf & "Exewin       Lance l'exécuteur d'application non Vincent OS." & vbCrLf & "Game        Lance le gestionnaire de jeux." & vbCrLf & "MediaPlayer      Lancer le Media Player." & vbCrLf & "Meme        Lance l'explorateur de fichiers." & vbCrLf & "News       Savoir les derniers changements." & vbCrLf & "Notepad        Lance le Bloc Note." & vbCrLf & "Paint       Lance Paint." & vbCrLf & "Store        Lance Vincent OS Store." & vbCrLf & "Terminal     Lance une autre fenêtre d'un Terminal." & vbCrLf & "Visio       Lance la visionneuse d'images." & vbCrLf & vbCrLf & "Certaines commandes sont cachées !"
             TextBox1.Text = ""
         ElseIf TextBox1.Text = "Bing Chrome" Then
             Bing_Chrome.Show()

@@ -142,6 +142,7 @@ Partial Class Store
         '
         'Panel5
         '
+        Me.Panel5.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.Panel5.Controls.Add(Me.Button21)
         Me.Panel5.Controls.Add(Me.Button20)
         Me.Panel5.Controls.Add(Me.Button19)
