@@ -11,7 +11,7 @@ Imports System.Runtime.InteropServices
 ' Passez en revue les valeurs des attributs de l'assembly
 
 <Assembly: AssemblyTitle("Vincent OS")> 
-<Assembly: AssemblyDescription("Découvrez un mini OS avec des logiciels sympa.")> 
+<Assembly: AssemblyDescription("Découvrez un mini système d'exploitation avec des logiciels sympa.")> 
 <Assembly: AssemblyCompany("")> 
 <Assembly: AssemblyProduct("Vincent OS")> 
 <Assembly: AssemblyCopyright("Open Source 2019-2021")> 
@@ -33,7 +33,7 @@ Imports System.Runtime.InteropServices
 ' en utilisant '*', comme indiqué ci-dessous :
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("6.1.0.0")> 
-<Assembly: AssemblyFileVersion("6.1.0.0")> 
+<Assembly: AssemblyVersion("6.1.1.0")> 
+<Assembly: AssemblyFileVersion("6.1.1.0")> 
 
 <Assembly: NeutralResourcesLanguageAttribute("fr")> 
