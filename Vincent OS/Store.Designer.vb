@@ -123,12 +123,15 @@ Partial Class Store
         '
         'Button5
         '
+        Me.Button5.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button5.ForeColor = System.Drawing.Color.White
         Me.Button5.Location = New System.Drawing.Point(332, 277)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(96, 23)
         Me.Button5.TabIndex = 12
         Me.Button5.Text = "Ajouter"
-        Me.Button5.UseVisualStyleBackColor = True
+        Me.Button5.UseVisualStyleBackColor = False
         '
         'Label3
         '
@@ -164,93 +167,123 @@ Partial Class Store
         '
         'Button21
         '
+        Me.Button21.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button21.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button21.ForeColor = System.Drawing.Color.White
         Me.Button21.Location = New System.Drawing.Point(284, 112)
         Me.Button21.Name = "Button21"
         Me.Button21.Size = New System.Drawing.Size(52, 23)
         Me.Button21.TabIndex = 19
         Me.Button21.Text = "5.1"
-        Me.Button21.UseVisualStyleBackColor = True
+        Me.Button21.UseVisualStyleBackColor = False
         '
         'Button20
         '
+        Me.Button20.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button20.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button20.ForeColor = System.Drawing.Color.White
         Me.Button20.Location = New System.Drawing.Point(226, 112)
         Me.Button20.Name = "Button20"
         Me.Button20.Size = New System.Drawing.Size(52, 23)
         Me.Button20.TabIndex = 18
         Me.Button20.Text = "5"
-        Me.Button20.UseVisualStyleBackColor = True
+        Me.Button20.UseVisualStyleBackColor = False
         '
         'Button19
         '
+        Me.Button19.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button19.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button19.ForeColor = System.Drawing.Color.White
         Me.Button19.Location = New System.Drawing.Point(342, 83)
         Me.Button19.Name = "Button19"
         Me.Button19.Size = New System.Drawing.Size(52, 23)
         Me.Button19.TabIndex = 17
         Me.Button19.Text = "4.2"
-        Me.Button19.UseVisualStyleBackColor = True
+        Me.Button19.UseVisualStyleBackColor = False
         '
         'Button18
         '
+        Me.Button18.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button18.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button18.ForeColor = System.Drawing.Color.White
         Me.Button18.Location = New System.Drawing.Point(284, 83)
         Me.Button18.Name = "Button18"
         Me.Button18.Size = New System.Drawing.Size(52, 23)
         Me.Button18.TabIndex = 16
         Me.Button18.Text = "4.1"
-        Me.Button18.UseVisualStyleBackColor = True
+        Me.Button18.UseVisualStyleBackColor = False
         '
         'Button17
         '
+        Me.Button17.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button17.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button17.ForeColor = System.Drawing.Color.White
         Me.Button17.Location = New System.Drawing.Point(226, 83)
         Me.Button17.Name = "Button17"
         Me.Button17.Size = New System.Drawing.Size(52, 23)
         Me.Button17.TabIndex = 15
         Me.Button17.Text = "4"
-        Me.Button17.UseVisualStyleBackColor = True
+        Me.Button17.UseVisualStyleBackColor = False
         '
         'Button16
         '
+        Me.Button16.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button16.ForeColor = System.Drawing.Color.White
         Me.Button16.Location = New System.Drawing.Point(168, 83)
         Me.Button16.Name = "Button16"
         Me.Button16.Size = New System.Drawing.Size(52, 23)
         Me.Button16.TabIndex = 14
         Me.Button16.Text = "3.1.1"
-        Me.Button16.UseVisualStyleBackColor = True
+        Me.Button16.UseVisualStyleBackColor = False
         '
         'Button15
         '
+        Me.Button15.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button15.ForeColor = System.Drawing.Color.White
         Me.Button15.Location = New System.Drawing.Point(381, 54)
         Me.Button15.Name = "Button15"
         Me.Button15.Size = New System.Drawing.Size(49, 23)
         Me.Button15.TabIndex = 13
         Me.Button15.Text = "3.1"
-        Me.Button15.UseVisualStyleBackColor = True
+        Me.Button15.UseVisualStyleBackColor = False
         '
         'Button14
         '
+        Me.Button14.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button14.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button14.ForeColor = System.Drawing.Color.White
         Me.Button14.Location = New System.Drawing.Point(326, 54)
         Me.Button14.Name = "Button14"
         Me.Button14.Size = New System.Drawing.Size(52, 23)
         Me.Button14.TabIndex = 12
         Me.Button14.Text = "3.0"
-        Me.Button14.UseVisualStyleBackColor = True
+        Me.Button14.UseVisualStyleBackColor = False
         '
         'Button13
         '
+        Me.Button13.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button13.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button13.ForeColor = System.Drawing.Color.White
         Me.Button13.Location = New System.Drawing.Point(268, 54)
         Me.Button13.Name = "Button13"
         Me.Button13.Size = New System.Drawing.Size(52, 23)
         Me.Button13.TabIndex = 11
         Me.Button13.Text = "2.1"
-        Me.Button13.UseVisualStyleBackColor = True
+        Me.Button13.UseVisualStyleBackColor = False
         '
         'Button12
         '
+        Me.Button12.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button12.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button12.ForeColor = System.Drawing.Color.White
         Me.Button12.Location = New System.Drawing.Point(210, 54)
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(52, 23)
         Me.Button12.TabIndex = 10
         Me.Button12.Text = "2.0"
-        Me.Button12.UseVisualStyleBackColor = True
+        Me.Button12.UseVisualStyleBackColor = False
         '
         'Label13
         '
@@ -264,12 +297,15 @@ Partial Class Store
         '
         'Button11
         '
+        Me.Button11.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button11.ForeColor = System.Drawing.Color.White
         Me.Button11.Location = New System.Drawing.Point(152, 54)
         Me.Button11.Name = "Button11"
         Me.Button11.Size = New System.Drawing.Size(52, 23)
         Me.Button11.TabIndex = 7
         Me.Button11.Text = "1.0"
-        Me.Button11.UseVisualStyleBackColor = True
+        Me.Button11.UseVisualStyleBackColor = False
         '
         'Label11
         '
@@ -302,12 +338,15 @@ Partial Class Store
         '
         'Button10
         '
+        Me.Button10.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button10.ForeColor = System.Drawing.Color.White
         Me.Button10.Location = New System.Drawing.Point(164, 274)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(96, 23)
         Me.Button10.TabIndex = 4
         Me.Button10.Text = "Ajouter"
-        Me.Button10.UseVisualStyleBackColor = True
+        Me.Button10.UseVisualStyleBackColor = False
         '
         'Label10
         '
@@ -331,12 +370,15 @@ Partial Class Store
         '
         'Button9
         '
+        Me.Button9.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button9.ForeColor = System.Drawing.Color.White
         Me.Button9.Location = New System.Drawing.Point(12, 274)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(96, 23)
         Me.Button9.TabIndex = 1
         Me.Button9.Text = "Ajouter"
-        Me.Button9.UseVisualStyleBackColor = True
+        Me.Button9.UseVisualStyleBackColor = False
         '
         'Label9
         '
@@ -372,39 +414,51 @@ Partial Class Store
         '
         'Button4
         '
+        Me.Button4.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button4.ForeColor = System.Drawing.Color.White
         Me.Button4.Location = New System.Drawing.Point(8, 285)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(96, 23)
         Me.Button4.TabIndex = 12
         Me.Button4.Text = "Ajouter"
-        Me.Button4.UseVisualStyleBackColor = True
+        Me.Button4.UseVisualStyleBackColor = False
         '
         'Button3
         '
+        Me.Button3.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button3.ForeColor = System.Drawing.Color.White
         Me.Button3.Location = New System.Drawing.Point(329, 131)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(96, 23)
         Me.Button3.TabIndex = 11
         Me.Button3.Text = "Ajouter"
-        Me.Button3.UseVisualStyleBackColor = True
+        Me.Button3.UseVisualStyleBackColor = False
         '
         'Button2
         '
+        Me.Button2.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button2.ForeColor = System.Drawing.Color.White
         Me.Button2.Location = New System.Drawing.Point(162, 131)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(96, 23)
         Me.Button2.TabIndex = 10
         Me.Button2.Text = "Ajouter"
-        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.UseVisualStyleBackColor = False
         '
         'Button1
         '
+        Me.Button1.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Location = New System.Drawing.Point(8, 131)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(96, 23)
         Me.Button1.TabIndex = 9
         Me.Button1.Text = "Ajouter"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Label5
         '

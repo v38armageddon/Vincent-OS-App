@@ -1,4 +1,15 @@
-﻿Imports System.IO
+﻿'' =====================================================
+'' /!\ NOTE A TOUT CEUX QUI VEULENT FORK LE PROJET ! /!\
+'' =====================================================
+''
+'' Si le module WindowsMediaPlayer (ou wmp.dll) n'est pas présent sur le projet.
+'' Veuillez le rajouter en faisant les manipulations suivantes :
+'' Projet -> Ajouter une référence -> COM -> Windows Media Player (C:\Windows\System32\wmp.dll)
+'' Sinon le projet risque de ne pas fonctionner correctement !
+'' Merci.
+''
+'' - v38armageddon
+Imports System.IO
 Public Class Media
 
     Private Sub Media_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
@@ -6,14 +17,6 @@ Public Class Media
             Bureau.Button19.Visible = True
         ElseIf Bureau2.Visible = True Then
             Bureau2.Button19.Visible = True
-        End If
-    End Sub
-
-    Private Sub Media_FormClosed(ByVal sender As System.Object, ByVal e As System.Windows.Forms.FormClosedEventArgs) Handles MyBase.FormClosed
-        If Bureau.Visible = True Then
-            Bureau.Button19.Visible = False
-        ElseIf Bureau2.Visible = True Then
-            Bureau2.Button19.Visible = False
         End If
     End Sub
 
@@ -52,6 +55,14 @@ Public Class Media
         OpenFileDialog2.RestoreDirectory = True
         If OpenFileDialog2.ShowDialog = DialogResult.OK Then
             AxWindowsMediaPlayer2.URL = OpenFileDialog2.FileName
+        End If
+    End Sub
+
+    Private Sub Media_FormClosed(ByVal sender As System.Object, ByVal e As System.Windows.Forms.FormClosedEventArgs) Handles MyBase.FormClosed
+        If Bureau.Visible = True Then
+            Bureau.Button19.Visible = False
+        ElseIf Bureau2.Visible = True Then
+            Bureau2.Button19.Visible = False
         End If
     End Sub
 End Class

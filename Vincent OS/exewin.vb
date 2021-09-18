@@ -27,14 +27,11 @@
     End Sub
     Private Sub exécution()
         executeur.StartInfo.FileName = TextBox1.Text
-        If TextBox1.Text = "Jeu de combinaisons" Then
-            Dim backmusic As New System.Media.SoundPlayer(My.Resources.alertSound)
-            backmusic.Play()
-            MessageBox.Show("Ceci et un jeu qui a été abandonné au cours de son développement, des bugs peuvent avoir", "Alerte")
-            mathingGame.Show()
-        ElseIf TextBox1.Text = "" Then
-            MessageBox.Show("Vous n'avez rentré aucune destination.", "Alerte")
-        ElseIf TextBox1.Text.Contains(".exe") Then
+        If TextBox1.Text = "" Then
+            Dim alertsound As New System.Media.SoundPlayer(My.Resources.alertSound)
+            alertsound.Play()
+            MessageBox.Show("ALERTE : Vous n'avez rentré aucune destination.", "Alerte", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
+        ElseIf TextBox1.Text.Contains(".exe") Then '' Regarde si le fichier est un fichier exécutable
             If IsError(False) Then
                 executeur.Start()
             ElseIf IsError(True) Then

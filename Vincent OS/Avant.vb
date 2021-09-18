@@ -11,6 +11,7 @@
         Options.RadioButton2.Checked = True
         Démarrage.Show()
         If Démarrage.Visible = True Then
+            '' On change de mode de forme de la fenêtre
             Démarrage.FormBorderStyle = Windows.Forms.FormBorderStyle.None
             Arrêt.FormBorderStyle = Windows.Forms.FormBorderStyle.None
             Login.FormBorderStyle = Windows.Forms.FormBorderStyle.None
@@ -18,6 +19,7 @@
             Login2bureau2.FormBorderStyle = Windows.Forms.FormBorderStyle.None
             Bureau.FormBorderStyle = Windows.Forms.FormBorderStyle.None
             Bureau2.FormBorderStyle = Windows.Forms.FormBorderStyle.None
+            '' On met une nouvelle localisation
             Bureau.Width = My.Computer.Screen.Bounds.Width
             Bureau.Height = My.Computer.Screen.Bounds.Height
             Bureau2.Width = My.Computer.Screen.Bounds.Width

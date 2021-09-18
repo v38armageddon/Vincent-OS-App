@@ -2,8 +2,13 @@
     Private firstClicked As Label = Nothing
     Private secondClicked As Label = Nothing
     Private random As New Random
-    Private icons =
-        New List(Of String) From {"!", "!", "N", "N", ",", ",", "k", "k", "b", "b", "v", "v", "w", "w", "z", "z"}
+    Private icons = New List(Of String) From {"!", "!", "N", "N", ",", ",", "k", "k", "b", "b", "v", "v", "w", "w", "z", "z"}
+
+    Private Sub mathingGame_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        AssignIconsToSquares()
+        MessageBox.Show("Ceci et un jeu qui a été abandonné au cours de son développement, des bugs peuvent avoir lieu.", "Alerte")
+    End Sub
+
     Private Sub AssignIconsToSquares()
         For Each control In TableLayoutPanel1.Controls
             Dim iconLabel = TryCast(control, Label)
