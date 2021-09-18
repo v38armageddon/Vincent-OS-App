@@ -1,4 +1,5 @@
 ﻿Public Class paints
+    '' Tout ceci permet de faire fonctionner les outils de dessins
     Dim b As New Bitmap(1000, 1000)
     Dim tool As String = "pencil"
     Dim color As String
@@ -16,6 +17,15 @@
     Dim penG As New Pen(Brushes.Green, 5)
     Dim deleteS As New Pen(Brushes.White, 8)
     Dim delete As New Pen(Brushes.White, 20)
+
+    Private Sub paints_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        If Bureau.Visible = True Then
+            Bureau.Button21.Visible = True
+        ElseIf Bureau2.Visible = True Then
+            Bureau2.Button21.Visible = True
+        End If
+    End Sub
+
     Private Sub PictureBox1_MouseMove(ByVal sender As Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles PictureBox1.MouseMove
         Dim g As Graphics = Graphics.FromImage(b)
         Static coord As New Point
@@ -78,6 +88,7 @@
         End If
         coord = e.Location
     End Sub
+
     Private Sub PictureBox1_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles PictureBox1.Click
         If tool = "fill" Then
             PictureBox1.BackgroundImage = Nothing
@@ -96,50 +107,52 @@
             End If
         End If
     End Sub
+
     Private Sub Panel1_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Panel1.Click
         color = "red"
     End Sub
+
     Private Sub Panel2_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Panel2.Click
         color = "green"
     End Sub
+
     Private Sub Panel3_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Panel3.Click
         color = "blue"
     End Sub
+
     Private Sub Panel4_Click(ByVal sender As Object, ByVal e As System.EventArgs) Handles Panel4.Click
         color = "yellow"
     End Sub
+
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
         size = "2"
     End Sub
+
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
         size = "5"
     End Sub
+
     Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
         color = "none"
         tool = "pencil"
         del = "1"
     End Sub
+
     Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
         Dim g As Graphics = Graphics.FromImage(b)
         g.Clear(Drawing.Color.White)
         PictureBox1.BackColor = Drawing.Color.White
         PictureBox1.BackgroundImage = Nothing
     End Sub
+
     Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
         del = "0"
         tool = "pencil"
     End Sub
+
     Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
         del = "0"
         tool = "fill"
-    End Sub
-
-    Private Sub paints_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        If Bureau.Visible = True Then
-            Bureau.Button21.Visible = True
-        ElseIf Bureau2.Visible = True Then
-            Bureau2.Button21.Visible = True
-        End If
     End Sub
 
     Private Sub paints_FormClosed(ByVal sender As System.Object, ByVal e As System.Windows.Forms.FormClosedEventArgs) Handles MyBase.FormClosed

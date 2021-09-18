@@ -32,7 +32,7 @@
             Dim alertsound As New System.Media.SoundPlayer(My.Resources.alertSound)
             alertsound.Play()
             MessageBox.Show("ALERTE : Vous n'avez rentré aucune destination.", "Alerte", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
-        ElseIf TextBox1.Text.Contains(".exe") Then
+        ElseIf TextBox1.Text.Contains(".exe") Then '' Regarde si le fichier est un fichier exécutable
             If IsError(False) Then
                 executeur.Start()
             ElseIf IsError(True) Then

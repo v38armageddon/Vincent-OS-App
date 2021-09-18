@@ -23,6 +23,16 @@
         End If
     End Sub
 
+    '' Permet de révéler le mot de passe
+    Private Sub Button4_MouseDown(ByVal sender As System.Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles Button4.MouseDown
+        TextBox2.PasswordChar = ""
+    End Sub
+
+    Private Sub Button4_MouseUp(ByVal sender As System.Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles Button4.MouseUp
+        TextBox2.PasswordChar = "*"
+    End Sub
+
+    '' Permet de vérifier le mot de passe
     Private Sub verifylog()
         If TextBox2.Text = "Vincent OS" Then
             TextBox2.Text = ""
@@ -31,15 +41,7 @@
         Else
             Dim backmusic As New System.Media.SoundPlayer(My.Resources.errorSound)
             backmusic.Play()
-            MessageBox.Show("ERREUR : Le mot de passe est incorrecte.", "ERREUR",MessageBoxButtons.OK,MessageBoxIcon.Error)
+            MessageBox.Show("ERREUR : Le mot de passe est incorrecte.", "ERREUR", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End If
-    End Sub
-
-    Private Sub Button4_MouseDown(ByVal sender As System.Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles Button4.MouseDown
-        TextBox2.PasswordChar = ""
-    End Sub
-
-    Private Sub Button4_MouseUp(ByVal sender As System.Object, ByVal e As System.Windows.Forms.MouseEventArgs) Handles Button4.MouseUp
-        TextBox2.PasswordChar = "*"
     End Sub
 End Class

@@ -63,7 +63,6 @@ C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\bin\Release\Vincen
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\bin\Release\Vincent OS.xml
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\bin\Release\Interop.WMPLib.dll
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\bin\Release\AxInterop.WMPLib.dll
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Alerte.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.alertelog.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Applications.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.apropos.resources

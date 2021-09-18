@@ -27,7 +27,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>6.1.1.%2a</ApplicationVersion>
+    <ApplicationVersion>6.1.2.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -110,12 +110,6 @@
     <Import Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Alerte.Designer.vb">
-      <DependentUpon>Alerte.vb</DependentUpon>
-    </Compile>
-    <Compile Include="Alerte.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="alertelog.Designer.vb">
       <DependentUpon>alertelog.vb</DependentUpon>
     </Compile>
@@ -332,9 +326,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Alerte.resx">
-      <DependentUpon>Alerte.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="alertelog.resx">
       <DependentUpon>alertelog.vb</DependentUpon>
     </EmbeddedResource>

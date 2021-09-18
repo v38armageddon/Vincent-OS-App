@@ -43,7 +43,7 @@ Partial Class Terminal
         Me.RichTextBox1.ReadOnly = True
         Me.RichTextBox1.Size = New System.Drawing.Size(575, 313)
         Me.RichTextBox1.TabIndex = 0
-        Me.RichTextBox1.Text = "Vincent OS [version 6.1.1.0]" & Global.Microsoft.VisualBasic.ChrW(10) & "Projet Open Source"
+        Me.RichTextBox1.Text = "Vincent OS [version 6.1.2.0]" & Global.Microsoft.VisualBasic.ChrW(10) & "Projet Open Source"
         '
         'Label1
         '
@@ -73,12 +73,15 @@ Partial Class Terminal
         'Button1
         '
         Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button1.BackColor = System.Drawing.Color.ForestGreen
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Location = New System.Drawing.Point(540, 313)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(35, 23)
         Me.Button1.TabIndex = 3
         Me.Button1.Text = "->"
-        Me.Button1.UseVisualStyleBackColor = True
+        Me.Button1.UseVisualStyleBackColor = False
         '
         'Terminal
         '

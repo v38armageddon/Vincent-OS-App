@@ -1,5 +1,16 @@
 ﻿Public Class Bureau
 
+    Private Sub Bureau_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Timer1.Start()
+        If Login.Label2.Text = "Superutilisateur" Then
+            Me.Text = "Bureau - Session Superutilisateur"
+            Label3.Text = "Superutilisateur"
+        Else
+            Me.Text = "Bureau - Session " + Login.Label2.Text
+            Label3.Text = Login.Label2.Text
+        End If
+    End Sub
+
     Private Sub Label2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label2.Click
         If MonthCalendar1.Visible = False Then
             MonthCalendar1.Visible = True
@@ -11,17 +22,6 @@
     Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
         Label2.Text = TimeOfDay
         Label1.Text = Today
-    End Sub
-
-    Private Sub Bureau_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        Timer1.Start()
-        If Login.Label2.Text = "Superutilisateur" Then
-            Me.Text = "Bureau - Session Superutilisateur"
-            Label3.Text = "Superutilisateur"
-        Else
-            Me.Text = "Bureau - Session " + Login.Label2.Text
-            Label3.Text = Login.Label2.Text
-        End If
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
@@ -98,6 +98,7 @@
         End If
     End Sub
 
+    '' Cette partie permet quand la fenêtre est trop caché par le bureau, qu'on puisse la récupérer via un bouton sans faire alt+tab
     Private Sub Button15_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button15.Click
         Bing_Chrome.BringToFront()
     End Sub
@@ -141,6 +142,7 @@
     Private Sub Button18_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button18.Click
         chrono.BringToFront()
     End Sub
+
     Private Sub FlowLayoutPanel1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles FlowLayoutPanel1.Click
         If MonthCalendar1.Visible = True Then
             MonthCalendar1.Visible = False

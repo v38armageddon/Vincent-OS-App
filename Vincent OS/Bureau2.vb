@@ -1,4 +1,16 @@
 ﻿Public Class Bureau2
+
+    Private Sub Bureau_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Timer1.Start()
+        If Login.Label3.Text = "Invité" Then
+            Me.Text = "Bureau - Session Invité"
+            Label3.Text = "Invité"
+        Else
+            Me.Text = "Bureau - Session " + Login.Label3.Text
+            Label3.Text = Login.Label3.Text
+        End If
+    End Sub
+
     Private Sub Label2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         If MonthCalendar1.Visible = False Then
             MonthCalendar1.Visible = True
@@ -12,17 +24,6 @@
         Label1.Text = Today
     End Sub
 
-    Private Sub Bureau_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        Timer1.Start()
-        If Login.Label3.Text = "Invité" Then
-            Me.Text = "Bureau - Session Invité"
-            Label3.Text = "Invité"
-        Else
-            Me.Text = "Bureau - Session " + Login.Label3.Text
-            Label3.Text = Login.Label3.Text
-        End If
-    End Sub
-
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
         alertelog.Show()
     End Sub
@@ -34,6 +35,7 @@
             Panel1.Visible = False
         End If
     End Sub
+
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
         Bing_Chrome.Show()
     End Sub
@@ -98,6 +100,8 @@
             MonthCalendar1.Visible = False
         End If
     End Sub
+
+    '' Cette partie permet quand la fenêtre est trop caché par le bureau, qu'on puisse la récupérer via un bouton sans faire alt+tab
     Private Sub Button15_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button15.Click
         Bing_Chrome.BringToFront()
     End Sub
@@ -141,6 +145,7 @@
     Private Sub Button18_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button18.Click
         chrono.BringToFront()
     End Sub
+
     Private Sub FlowLayoutPanel1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles FlowLayoutPanel1.Click
         If MonthCalendar1.Visible = True Then
             MonthCalendar1.Visible = False

@@ -53,7 +53,6 @@ C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Debug\Inte
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Debug\Interop.WMPNSSCI.dll
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Debug\AxInterop.WMPLib.dll
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Debug\Vincent OS.vbproj.ResolveComReference.cache
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Debug\Vincent_OS.Alerte.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Debug\Vincent_OS.alertelog.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Debug\Vincent_OS.Applications.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Debug\Vincent_OS.apropos.resources

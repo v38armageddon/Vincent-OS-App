@@ -1,27 +1,27 @@
 ﻿Public Class Bing_Chrome
     Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox1.Click
         WebBrowser2.GoBack()
-        TabPage2.Text = WebBrowser2.DocumentTitle
+        TabPage2.Text = WebBrowser2.DocumentTitle '' Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
     End Sub
 
     Private Sub PictureBox2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox2.Click
         WebBrowser2.GoForward()
-        TabPage2.Text = WebBrowser2.DocumentTitle
+        TabPage2.Text = WebBrowser2.DocumentTitle '' Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
     End Sub
 
     Private Sub PictureBox4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox4.Click
         WebBrowser2.GoHome()
-        TabPage2.Text = WebBrowser2.DocumentTitle
+        TabPage2.Text = WebBrowser2.DocumentTitle '' Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
     End Sub
 
     Private Sub PictureBox3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox3.Click
         WebBrowser2.Stop()
-        TabPage2.Text = WebBrowser2.DocumentTitle
+        TabPage2.Text = WebBrowser2.DocumentTitle '' Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
     End Sub
 
     Private Sub PictureBox5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox5.Click
         WebBrowser2.Refresh()
-        TabPage2.Text = WebBrowser2.DocumentTitle
+        TabPage2.Text = WebBrowser2.DocumentTitle '' Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
     End Sub
 
     Private Sub PictureBox6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox6.Click
@@ -42,7 +42,7 @@
         ElseIf Bureau2.Visible = True Then
             Bureau2.Button15.Visible = True
         End If
-        TabPage2.Text = WebBrowser2.DocumentTitle
+        TabPage2.Text = WebBrowser2.DocumentTitle '' Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
@@ -54,7 +54,7 @@
         webbrowswer.Navigate("https://www.bing.com")
         newPage.Controls.Add(webbrowswer)
         TabControl1.SelectedTab = newPage
-        TabPage2.Text = WebBrowser2.DocumentTitle
+        TabPage2.Text = WebBrowser2.DocumentTitle '' Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
     End Sub
 
     Private Sub TextBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox1.Click
@@ -70,12 +70,13 @@
     End Sub
 
     Private Sub search()
+        '' Regarder si dans la TextBox, cela contient soit http ou https
         If TextBox1.Text.Contains("http://") Or TextBox1.Text.Contains("https://") Then
             WebBrowser2.Navigate(TextBox1.Text)
-            TabPage2.Text = WebBrowser2.DocumentTitle
+            TabPage2.Text = WebBrowser2.DocumentTitle '' Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
         Else
             WebBrowser2.Navigate("http://www.bing.com/search?q=" & TextBox1.Text)
-            TabPage2.Text = WebBrowser2.DocumentTitle
+            TabPage2.Text = WebBrowser2.DocumentTitle '' Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
         End If
     End Sub
 
