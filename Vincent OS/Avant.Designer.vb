@@ -62,10 +62,11 @@ Partial Class Avant
         'Button3
         '
         Me.Button3.BackColor = System.Drawing.Color.Red
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.ForeColor = System.Drawing.Color.White
-        Me.Button3.Location = New System.Drawing.Point(176, 96)
+        Me.Button3.Location = New System.Drawing.Point(169, 96)
         Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(47, 23)
+        Me.Button3.Size = New System.Drawing.Size(55, 23)
         Me.Button3.TabIndex = 3
         Me.Button3.Text = "Quitter"
         Me.Button3.UseVisualStyleBackColor = False
