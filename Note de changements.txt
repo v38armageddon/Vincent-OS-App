@@ -1,13 +1,12 @@
 Notes de mises à jours :
 
-Version 6.1.2 (18/09/2021) :
+Version 6.2 (28/09/2021) :
 - Réorganisation du code donc ajout de commentaires.
 - Suppression le fait qu'on puisse ouvrir "toute" les application en même temps.
 - Correction du mode d'arrêt du logiciel.
-
-Version 6.1.1 (14/09/2021) :
 - Correction de certains boutons qui n'était pas à la bonne forme dans le menu des applications.
 - Transformation de certains boutons en mode Flat.
+- Ajout de la licence : The Unlicense
 
 Version 6.1 (21/07/2021) : 
 - Correction d'un bug dans le gestionnaire de téléchargement, on ne pouvais plus lancer d'autres téléchargements après avoir terminé le téléchargement du lecteur PDF
