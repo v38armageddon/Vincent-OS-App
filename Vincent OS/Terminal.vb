@@ -9,10 +9,12 @@
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        '' Création d'un Private Sub pour mieux se retrouver
         commande()
     End Sub
 
     Private Sub TextBox1_KeyPress(ByVal sender As System.Object, ByVal e As System.Windows.Forms.KeyPressEventArgs) Handles TextBox1.KeyPress
+        '' Faire en sorte que la touche Entrée puisse marcher
         If e.KeyChar = Convert.ToChar(Keys.Enter) Then
             commande()
         End If
@@ -29,7 +31,7 @@
     Private Sub commande()
         If TextBox1.Text = "ver" Then
             ''ATTENTION A BIEN CHANGER LA VERSION CAR JE VAIS SUREMENT OUBLIER A LA PROCHAINE VERSION !!!!!!!!!!!
-            RichTextBox1.Text = "Nom du système d'exploitation : Vincent OS" & vbCrLf & "Version : 6.1"
+            RichTextBox1.Text = "Nom du système d'exploitation : Vincent OS" & vbCrLf & "Version : 6.2"
             TextBox1.Text = ""
         ElseIf TextBox1.Text = "help" Then
             RichTextBox1.Text = "Bing Chrome        Lance Bing Chrome." & vbCrLf & "Exewin       Lance l'exécuteur d'application non Vincent OS." & vbCrLf & "Game        Lance le gestionnaire de jeux." & vbCrLf & "MediaPlayer      Lancer le Media Player." & vbCrLf & "Meme        Lance l'explorateur de fichiers." & vbCrLf & "News       Savoir les derniers changements." & vbCrLf & "Notepad        Lance le Bloc Note." & vbCrLf & "Paint       Lance Paint." & vbCrLf & "Store        Lance Vincent OS Store." & vbCrLf & "Terminal     Lance une autre fenêtre d'un Terminal." & vbCrLf & "Visio       Lance la visionneuse d'images." & vbCrLf & vbCrLf & "Certaines commandes sont cachées !"
@@ -43,9 +45,6 @@
         ElseIf TextBox1.Text = "Game" Then
             game.Show()
             TextBox1.Text = ""
-        ElseIf TextBox1.Text = "mathingGame" Then
-            MessageBox.Show("Ceci et un jeu qui a été abandonné au cours de son développement, des bugs peuvent avoir", "Alerte")
-            mathingGame.Show()
         ElseIf TextBox1.Text = "MediaPlayer" Then
             Media.Show()
             TextBox1.Text = ""
@@ -61,6 +60,9 @@
         ElseIf TextBox1.Text = "Paint" Then
             paints.Show()
             TextBox1.Text = ""
+        ElseIf TextBox1.Text = "Store" Then
+            Store.Show()
+            TextBox1.Text = ""
         ElseIf TextBox1.Text = "Terminal" Then
             Dim cp As New Terminal
             cp.Show()
@@ -72,11 +74,15 @@
             If Applications.Button11.Visible = True Then
                 chrono.Show()
             Else
-                RichTextBox1.Text = "ERREUR : Cette application n'est pas installé"
+                RichTextBox1.Text = "ERREUR : Cette application n'est pas installé."
             End If
             TextBox1.Text = ""
-        ElseIf TextBox1.Text = "Store" Then
-            Store.Show()
+        ElseIf TextBox1.Text = "mathingGame" Then
+            If game.Label12.Visible = True Then
+                mathingGame.Show()
+            Else
+                RichTextBox1.Text = "ERREUR : Cette application n'est pas installé."
+            End If
             TextBox1.Text = ""
             ''Ici commence les commandes de Debug, à utiliser avec précaution !
 
@@ -94,9 +100,7 @@
             RichTextBox1.Text = "Debug_Options_Wallpaper" & vbCrLf & "Debug_Options_AllApps"
             TextBox1.Text = ""
         ElseIf TextBox1.Text = "Debug_Options_AllApps" Then
-            Dim backmusic As New System.Media.SoundPlayer(My.Resources.alertSound)
-            backmusic.Play()
-            Alerte.Show()
+            RichTextBox1.Text = "Debug_Return: Removed" '' Laisser le message affiché jusqu'à soit la version 6.3, soit la version 7. A voir avec le temps
             TextBox1.Text = ""
         ElseIf TextBox1.Text = "Debug_AlerteLog_ForceCrash" Then
             Application.Exit()

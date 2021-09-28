@@ -42,6 +42,7 @@ Partial Class Options
         '
         Me.Button3.BackgroundImage = CType(resources.GetObject("Button3.BackgroundImage"), System.Drawing.Image)
         Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Location = New System.Drawing.Point(15, 48)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(101, 92)
@@ -91,6 +92,7 @@ Partial Class Options
         '
         'Button2
         '
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Location = New System.Drawing.Point(395, 105)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(161, 23)
@@ -102,6 +104,7 @@ Partial Class Options
         '
         Me.Button4.BackgroundImage = CType(resources.GetObject("Button4.BackgroundImage"), System.Drawing.Image)
         Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Location = New System.Drawing.Point(284, 48)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(105, 92)
@@ -112,6 +115,7 @@ Partial Class Options
         '
         Me.Button1.BackgroundImage = CType(resources.GetObject("Button1.BackgroundImage"), System.Drawing.Image)
         Me.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Location = New System.Drawing.Point(122, 48)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(156, 92)
@@ -152,6 +156,7 @@ Partial Class Options
         '
         Me.Button5.BackgroundImage = CType(resources.GetObject("Button5.BackgroundImage"), System.Drawing.Image)
         Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button5.Location = New System.Drawing.Point(15, 176)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(94, 92)

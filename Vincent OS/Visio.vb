@@ -1,5 +1,6 @@
 ﻿Imports System.IO
 Public Class Visio
+
     Private Declare Auto Function SystemParametersInfo Lib "user32.dll" (ByVal uAction As Integer, ByVal uParam As Integer,
                                                                          ByVal lpvParam As String, ByVal fuWinIni As Integer) As Integer
     Dim Images As List(Of String)
@@ -38,6 +39,7 @@ Public Class Visio
             End If
         End Using
     End Sub
+
     Private Sub PictureBoxManager()
         If PictureBox1.Image.Width > Panel1.Width And PictureBox1.Image.Height > Panel1.Height Then
             PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage
@@ -52,7 +54,6 @@ Public Class Visio
     End Sub
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
-        'suivant
         If Images.Count > 1 Then
             If Index + 1 > Images.Count - 1 Then
                 Index = 0

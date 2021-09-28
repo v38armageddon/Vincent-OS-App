@@ -6,6 +6,7 @@
 
     Private Sub mathingGame_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         AssignIconsToSquares()
+        MessageBox.Show("Ceci et un jeu qui a été abandonné au cours de son développement, des bugs peuvent avoir lieu.", "Alerte")
     End Sub
 
     Private Sub AssignIconsToSquares()

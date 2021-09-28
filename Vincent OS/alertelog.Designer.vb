@@ -33,6 +33,7 @@ Partial Class alertelog
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Lime
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button1.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(134, 63)
         Me.Button1.Name = "Button1"

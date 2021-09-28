@@ -2,7 +2,7 @@
 
     ' Onglet Autre/Personnalisé
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        OpenFileDialog1.Filter = "Images|*.jpeg;*.jpg;*.png;*.bmp;"
+        OpenFileDialog1.Filter = "Images|*.jpeg;*.jpg;*.png;*.bmp;" '' Peut être rajouter d'autres types d'images ?
         If OpenFileDialog1.ShowDialog = DialogResult.OK Then
             If Bureau.Visible = True Then
                 Bureau.FlowLayoutPanel1.BackgroundImage = Image.FromFile(OpenFileDialog1.FileName)

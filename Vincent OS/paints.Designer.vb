@@ -84,6 +84,7 @@ Partial Class paints
         '
         'Button1
         '
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button1.Location = New System.Drawing.Point(12, 90)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(35, 33)
@@ -93,6 +94,7 @@ Partial Class paints
         '
         'Button2
         '
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, CType((System.Drawing.FontStyle.Bold Or System.Drawing.FontStyle.Italic), System.Drawing.FontStyle), System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(55, 90)
         Me.Button2.Name = "Button2"
@@ -103,6 +105,7 @@ Partial Class paints
         '
         'Button3
         '
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button3.Location = New System.Drawing.Point(12, 130)
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
@@ -112,6 +115,7 @@ Partial Class paints
         '
         'Button4
         '
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button4.Location = New System.Drawing.Point(12, 159)
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(75, 23)
@@ -121,6 +125,7 @@ Partial Class paints
         '
         'Button5
         '
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button5.Location = New System.Drawing.Point(12, 188)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(75, 23)
@@ -130,6 +135,7 @@ Partial Class paints
         '
         'Button6
         '
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button6.Location = New System.Drawing.Point(12, 217)
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(75, 23)

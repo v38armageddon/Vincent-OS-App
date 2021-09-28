@@ -62,6 +62,7 @@
             errorsound.Play()
             MessageBox.Show("ERREUR : Cette application n'existe pas, il se peut qu'il se situe dans un autre emplacement que prévu, dans ce cas Vincent OS ne prends pas en charge l'exécution du fichier, si tel est le cas, veuillez signaler cette erreur.", "ERREUR", MessageBoxButtons.OK, MessageBoxIcon.Error)
         ElseIf IsError(False) Then
+            '' /!\ Bien regarder si des changements de versions ont lieu pour mettre à jour la localisation du fichier ! /!\
             System.Diagnostics.Process.Start("C:\Users\%Username%\AppData\Local\Discord\app-1.0.9002\Discord.exe")
         End If
     End Sub

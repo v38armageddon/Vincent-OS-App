@@ -52,7 +52,7 @@ Partial Class apropos
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(176, 33)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Version : 6.1"
+        Me.Label2.Text = "Version : 6.2"
         '
         'Label3
         '
@@ -61,9 +61,10 @@ Partial Class apropos
         Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(205, 130)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(252, 32)
+        Me.Label3.Size = New System.Drawing.Size(259, 32)
         Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Ce système d'exploitation et Open Source" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Toute modifications sont autorisés"
+        Me.Label3.Text = "Ce système d'exploitation est Open Source" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "soumis sous la licence : The Unlicense" & _
+            ""
         '
         'Label4
         '

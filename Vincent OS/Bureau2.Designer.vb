@@ -86,12 +86,13 @@ Partial Class Bureau2
         'Button7
         '
         Me.Button7.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button7.Font = New System.Drawing.Font("Arial", 9.0!)
         Me.Button7.Location = New System.Drawing.Point(60, 20)
         Me.Button7.Name = "Button7"
-        Me.Button7.Size = New System.Drawing.Size(78, 38)
+        Me.Button7.Size = New System.Drawing.Size(94, 26)
         Me.Button7.TabIndex = 6
-        Me.Button7.Text = "Afficher tout les options"
+        Me.Button7.Text = "Paramètres"
         Me.Button7.UseVisualStyleBackColor = False
         '
         'Label3
@@ -117,6 +118,7 @@ Partial Class Bureau2
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Red
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
         Me.Button1.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.ForeColor = System.Drawing.Color.White
         Me.Button1.Location = New System.Drawing.Point(3, 64)
