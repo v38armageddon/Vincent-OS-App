@@ -11,7 +11,7 @@ Pour les processeurs 64 bits : Vincent OS > Vincent OS > bin > Debug > Vincent O
 
 ## Informations
 
-Ce projet est un projet Open Source soumis à la licence suivante : The Unlicense.
+Ce projet est un projet Open Source sous la licence : The Unlicense.
 
 Si au cours de votre utilisation, vous constatez des bugs ou même donner des idées, n'hésitez pas à le dire sur les différentes réseaux sociaux :
 
