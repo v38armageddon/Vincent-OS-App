@@ -1,5 +1,5 @@
 ---
-name: Reporter un bug
+name: Bug
 about: Vous avez trouvé un bug ? Reportez le ici.
 title: "[BUG]"
 labels: 'Bug'
