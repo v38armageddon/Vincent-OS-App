@@ -153,3 +153,4 @@ C:\Users\v38armageddon\Documents\Temp\Vincent OS\obj\x86\Release\Vincent OS.vbpr
 C:\Users\v38armageddon\Documents\Temp\Vincent OS\obj\x86\Release\Vincent OS.TrustInfo.xml
 C:\Users\v38armageddon\Documents\Temp\Vincent OS\obj\x86\Release\Vincent OS.exe.manifest
 C:\Users\v38armageddon\Documents\Temp\Vincent OS\obj\x86\Release\Vincent OS.application
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent OS.vbproj.CoreCompileInputs.cache

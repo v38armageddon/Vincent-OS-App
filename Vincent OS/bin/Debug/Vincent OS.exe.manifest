@@ -62,19 +62,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>nSgS8ocg4U70Oxyr3EkRBgQyqs0=</dsig:DigestValue>
+        <dsig:DigestValue>Swi3E8Bs9sCZ9eO8uauyb1GOl0w=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Vincent OS.exe" size="35616768">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Vincent OS.exe" size="35575808">
       <assemblyIdentity name="Vincent OS" version="6.2.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>MrNx9gIwzVpTdmlk2zDlN4RrKuI=</dsig:DigestValue>
+        <dsig:DigestValue>BAzo/gw2qpKDd7oDYgIjuIUoSgU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
