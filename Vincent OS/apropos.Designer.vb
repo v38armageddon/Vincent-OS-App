@@ -61,10 +61,10 @@ Partial Class apropos
         Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(205, 130)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(259, 32)
+        Me.Label3.Size = New System.Drawing.Size(258, 32)
         Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Ce système d'exploitation est Open Source" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "soumis sous la licence : The Unlicense" & _
-            ""
+        Me.Label3.Text = "Ce système d'exploitation est Open Source" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "soumis sous la licence : The Unlicense" &
+    ""
         '
         'Label4
         '
@@ -84,7 +84,7 @@ Partial Class apropos
         Me.Label5.ForeColor = System.Drawing.Color.White
         Me.Label5.Location = New System.Drawing.Point(205, 89)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(222, 32)
+        Me.Label5.Size = New System.Drawing.Size(221, 32)
         Me.Label5.TabIndex = 5
         Me.Label5.Text = "Branche : Officiel"
         '
