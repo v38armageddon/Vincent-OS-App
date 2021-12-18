@@ -1,30 +1,30 @@
 ﻿Public Class Bing_Chrome
-    Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox1.Click
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
         WebBrowser2.GoBack()
         TabPage2.Text = WebBrowser2.DocumentTitle '' Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
     End Sub
 
-    Private Sub PictureBox2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox2.Click
+    Private Sub Button4_Click(sender As Object, e As EventArgs) Handles Button4.Click
         WebBrowser2.GoForward()
         TabPage2.Text = WebBrowser2.DocumentTitle '' Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
     End Sub
 
-    Private Sub PictureBox4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox4.Click
+    Private Sub Button5_Click(sender As Object, e As EventArgs) Handles Button5.Click
         WebBrowser2.GoHome()
         TabPage2.Text = WebBrowser2.DocumentTitle '' Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
     End Sub
 
-    Private Sub PictureBox3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox3.Click
-        WebBrowser2.Stop()
-        TabPage2.Text = WebBrowser2.DocumentTitle '' Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
-    End Sub
-
-    Private Sub PictureBox5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox5.Click
+    Private Sub Button6_Click(sender As Object, e As EventArgs) Handles Button6.Click
         WebBrowser2.Refresh()
         TabPage2.Text = WebBrowser2.DocumentTitle '' Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
     End Sub
 
-    Private Sub PictureBox6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox6.Click
+    Private Sub Button7_Click(sender As Object, e As EventArgs) Handles Button7.Click
+        WebBrowser2.Stop()
+        TabPage2.Text = WebBrowser2.DocumentTitle '' Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
+    End Sub
+
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
         search()
     End Sub
 

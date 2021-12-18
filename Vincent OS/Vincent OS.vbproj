@@ -27,7 +27,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>6.2.0.%2a</ApplicationVersion>
+    <ApplicationVersion>6.2.1.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -144,6 +144,12 @@
       <DependentUpon>Avant.vb</DependentUpon>
     </Compile>
     <Compile Include="Avant.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calc.Designer.vb">
+      <DependentUpon>Calc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Calc.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="TaskVOS.Designer.vb">
@@ -344,6 +350,9 @@
     <EmbeddedResource Include="Avant.resx">
       <DependentUpon>Avant.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Calc.resx">
+      <DependentUpon>Calc.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="TaskVOS.resx">
       <DependentUpon>TaskVOS.vb</DependentUpon>
     </EmbeddedResource>
@@ -443,7 +452,6 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <None Include="Vincent OS_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="AxWMPLib">

@@ -32,8 +32,8 @@ Partial Class Terminal
         'RichTextBox1
         '
         Me.RichTextBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.RichTextBox1.BackColor = System.Drawing.Color.Black
         Me.RichTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.RichTextBox1.Font = New System.Drawing.Font("Lucida Console", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
@@ -43,7 +43,7 @@ Partial Class Terminal
         Me.RichTextBox1.ReadOnly = True
         Me.RichTextBox1.Size = New System.Drawing.Size(575, 313)
         Me.RichTextBox1.TabIndex = 0
-        Me.RichTextBox1.Text = "Vincent OS [version 6.2.0.0]" & Global.Microsoft.VisualBasic.ChrW(10) & "Projet Open Source"
+        Me.RichTextBox1.Text = "Vincent OS [version 6.2.1.0]" & Global.Microsoft.VisualBasic.ChrW(10) & "Projet Open Source"
         '
         'Label1
         '
@@ -53,14 +53,14 @@ Partial Class Terminal
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(12, 316)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(128, 16)
+        Me.Label1.Size = New System.Drawing.Size(127, 16)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "vincentOS:\>"
         '
         'TextBox1
         '
         Me.TextBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox1.BackColor = System.Drawing.Color.Black
         Me.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle
         Me.TextBox1.Font = New System.Drawing.Font("Lucida Console", 12.0!)
