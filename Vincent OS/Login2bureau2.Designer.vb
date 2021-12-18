@@ -27,7 +27,9 @@ Partial Class Login2bureau2
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.ProgressBar1 = New System.Windows.Forms.ProgressBar()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Timer1
@@ -36,7 +38,7 @@ Partial Class Login2bureau2
         'ProgressBar1
         '
         Me.ProgressBar1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ProgressBar1.ForeColor = System.Drawing.Color.Lime
         Me.ProgressBar1.Location = New System.Drawing.Point(12, 417)
         Me.ProgressBar1.Name = "ProgressBar1"
@@ -44,6 +46,7 @@ Partial Class Login2bureau2
         Me.ProgressBar1.RightToLeftLayout = True
         Me.ProgressBar1.Size = New System.Drawing.Size(824, 23)
         Me.ProgressBar1.TabIndex = 0
+        Me.ProgressBar1.Visible = False
         '
         'PictureBox1
         '
@@ -56,6 +59,17 @@ Partial Class Login2bureau2
         Me.PictureBox1.TabIndex = 1
         Me.PictureBox1.TabStop = False
         '
+        'PictureBox2
+        '
+        Me.PictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(335, 312)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(158, 88)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 2
+        Me.PictureBox2.TabStop = False
+        '
         'Login2bureau2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -63,6 +77,7 @@ Partial Class Login2bureau2
         Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(848, 452)
         Me.ControlBox = False
+        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.ProgressBar1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
@@ -73,10 +88,12 @@ Partial Class Login2bureau2
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Bienvenue sur Vincent OS : Invité"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
     Friend WithEvents ProgressBar1 As System.Windows.Forms.ProgressBar
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents PictureBox2 As PictureBox
 End Class

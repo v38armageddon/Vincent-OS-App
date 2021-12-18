@@ -8,17 +8,17 @@
         End If
     End Sub
 
-    Private Sub PictureBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox1.Click
+    Private Sub Button8_Click(sender As Object, e As EventArgs) Handles Button8.Click
         WebBrowser1.GoBack()
         TabPage2.Text = WebBrowser1.DocumentTitle
     End Sub
 
-    Private Sub PictureBox2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox2.Click
+    Private Sub Button9_Click(sender As Object, e As EventArgs) Handles Button9.Click
         WebBrowser1.GoForward()
         TabPage2.Text = WebBrowser1.DocumentTitle
     End Sub
 
-    Private Sub PictureBox3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox3.Click
+    Private Sub Button10_Click(sender As Object, e As EventArgs) Handles Button10.Click
         WebBrowser1.Navigate(TextBox1.Text)
         TabPage2.Text = WebBrowser1.DocumentTitle
     End Sub
@@ -90,7 +90,7 @@
 
     '' Permet de savoir le nom de l'utilisateur pour accéder à ses fichiers personnels
     Function GetUserName() As String
-        If TypeOf My.User.CurrentPrincipal Is 
+        If TypeOf My.User.CurrentPrincipal Is
           Security.Principal.WindowsPrincipal Then
             Dim parts() As String = Split(My.User.Name, "\")
             Dim username As String = parts(1)

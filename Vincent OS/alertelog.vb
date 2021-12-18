@@ -35,8 +35,6 @@
             ElseIf Avant.Visible = True Then
                 MessageBox.Show("Vous ne pouvez pas vous déconnecter dans les paramètres d'affichages.")
             End If
-        ElseIf ComboBox1.SelectedItem = "Ne rien faire" Then
-            Me.Close()
         ElseIf ComboBox1.Text = "Debug.Terminal" Then
             Dim backmusic As New System.Media.SoundPlayer(My.Resources.alertSound)
             backmusic.Play()
@@ -47,5 +45,9 @@
             backmusic.Play()
             MessageBox.Show("Erreur : Cette option n'est pas reconnu par l'utilitaire des choix de sélections.", "Erreur")
         End If
+    End Sub
+
+    Private Sub Button2_Click(sender As Object, e As EventArgs) Handles Button2.Click
+        Me.Close()
     End Sub
 End Class

@@ -43,8 +43,8 @@ Partial Class Visio
         'Panel1
         '
         Me.Panel1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel1.AutoScroll = True
         Me.Panel1.BackColor = System.Drawing.Color.DimGray
         Me.Panel1.Controls.Add(Me.PictureBox1)
@@ -107,6 +107,7 @@ Partial Class Visio
         '
         Me.Button1.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.Button1.BackColor = System.Drawing.Color.Cyan
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Location = New System.Drawing.Point(176, 277)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(75, 23)
@@ -118,6 +119,7 @@ Partial Class Visio
         '
         Me.Button2.Anchor = System.Windows.Forms.AnchorStyles.Bottom
         Me.Button2.BackColor = System.Drawing.Color.Cyan
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Location = New System.Drawing.Point(257, 277)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(75, 23)

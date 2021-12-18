@@ -27,17 +27,19 @@ Partial Class alertelog
         Me.ComboBox1 = New System.Windows.Forms.ComboBox()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.Button2 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Button1
         '
-        Me.Button1.BackColor = System.Drawing.Color.Lime
+        Me.Button1.BackColor = System.Drawing.Color.Green
         Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup
-        Me.Button1.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(134, 63)
+        Me.Button1.Font = New System.Drawing.Font("Calibri", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button1.Location = New System.Drawing.Point(109, 64)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(121, 29)
+        Me.Button1.Size = New System.Drawing.Size(80, 29)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Confirmer"
         Me.Button1.UseVisualStyleBackColor = False
@@ -45,10 +47,10 @@ Partial Class alertelog
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Arrêter", "Déconnecter", "Ne rien faire"})
-        Me.ComboBox1.Location = New System.Drawing.Point(134, 36)
+        Me.ComboBox1.Items.AddRange(New Object() {"Arrêter", "Déconnecter"})
+        Me.ComboBox1.Location = New System.Drawing.Point(109, 36)
         Me.ComboBox1.Name = "ComboBox1"
-        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox1.Size = New System.Drawing.Size(157, 21)
         Me.ComboBox1.TabIndex = 3
         Me.ComboBox1.Text = "Arrêter"
         '
@@ -73,6 +75,19 @@ Partial Class alertelog
         Me.PictureBox1.TabIndex = 5
         Me.PictureBox1.TabStop = False
         '
+        'Button2
+        '
+        Me.Button2.BackColor = System.Drawing.Color.Green
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup
+        Me.Button2.Font = New System.Drawing.Font("Calibri", 11.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight
+        Me.Button2.Location = New System.Drawing.Point(195, 64)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(71, 29)
+        Me.Button2.TabIndex = 6
+        Me.Button2.Text = "Annuler"
+        Me.Button2.UseVisualStyleBackColor = False
+        '
         'alertelog
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -80,6 +95,7 @@ Partial Class alertelog
         Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(278, 105)
         Me.ControlBox = False
+        Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.ComboBox1)
@@ -99,4 +115,5 @@ Partial Class alertelog
     Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
+    Friend WithEvents Button2 As Button
 End Class

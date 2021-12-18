@@ -108,7 +108,7 @@ Partial Class Bureau
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(5, 3)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(58, 16)
+        Me.Label2.Size = New System.Drawing.Size(57, 16)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "00:00:00"
         '
@@ -291,7 +291,7 @@ Partial Class Bureau
         Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(69, 3)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(72, 16)
+        Me.Label1.Size = New System.Drawing.Size(71, 16)
         Me.Label1.TabIndex = 22
         Me.Label1.Text = "00/00/0000"
         '
@@ -359,7 +359,7 @@ Partial Class Bureau
         'FlowLayoutPanel2
         '
         Me.FlowLayoutPanel2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.FlowLayoutPanel2.BackColor = System.Drawing.Color.Gray
         Me.FlowLayoutPanel2.Controls.Add(Me.Button15)
         Me.FlowLayoutPanel2.Controls.Add(Me.Button16)
@@ -456,6 +456,218 @@ Partial Class Bureau
         Me.Button24.Text = "Terminal"
         Me.Button24.UseVisualStyleBackColor = True
         Me.Button24.Visible = False
+        '
+        'Button8
+        '
+        Me.Button8.BackgroundImage = CType(resources.GetObject("Button8.BackgroundImage"), System.Drawing.Image)
+        Me.Button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button8.Location = New System.Drawing.Point(264, 3)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(23, 23)
+        Me.Button8.TabIndex = 34
+        Me.Button8.UseVisualStyleBackColor = True
+        Me.Button8.Visible = False
+        '
+        'Button18
+        '
+        Me.Button18.BackgroundImage = CType(resources.GetObject("Button18.BackgroundImage"), System.Drawing.Image)
+        Me.Button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button18.Location = New System.Drawing.Point(293, 3)
+        Me.Button18.Name = "Button18"
+        Me.Button18.Size = New System.Drawing.Size(23, 23)
+        Me.Button18.TabIndex = 35
+        Me.Button18.UseVisualStyleBackColor = True
+        Me.Button18.Visible = False
+        '
+        'Button12
+        '
+        Me.Button12.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.Button12.BackColor = System.Drawing.Color.Gray
+        Me.Button12.BackgroundImage = CType(resources.GetObject("Button12.BackgroundImage"), System.Drawing.Image)
+        Me.Button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button12.Location = New System.Drawing.Point(0, 425)
+        Me.Button12.Name = "Button12"
+        Me.Button12.Size = New System.Drawing.Size(28, 26)
+        Me.Button12.TabIndex = 19
+        Me.Button12.UseVisualStyleBackColor = False
+        '
+        'Button10
+        '
+        Me.Button10.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button10.BackColor = System.Drawing.Color.Gray
+        Me.Button10.BackgroundImage = CType(resources.GetObject("Button10.BackgroundImage"), System.Drawing.Image)
+        Me.Button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button10.Location = New System.Drawing.Point(821, 425)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(28, 26)
+        Me.Button10.TabIndex = 17
+        Me.Button10.UseVisualStyleBackColor = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.BackColor = System.Drawing.Color.Gray
+        Me.PictureBox4.Dock = System.Windows.Forms.DockStyle.Bottom
+        Me.PictureBox4.Location = New System.Drawing.Point(0, 425)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(848, 26)
+        Me.PictureBox4.TabIndex = 22
+        Me.PictureBox4.TabStop = False
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.PictureBox2.BackColor = System.Drawing.Color.Gray
+        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
+        Me.PictureBox2.Location = New System.Drawing.Point(821, 0)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(28, 25)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox2.TabIndex = 1
+        Me.PictureBox2.TabStop = False
+        '
+        'PictureBox1
+        '
+        Me.PictureBox1.BackColor = System.Drawing.Color.Gray
+        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(848, 25)
+        Me.PictureBox1.TabIndex = 0
+        Me.PictureBox1.TabStop = False
+        '
+        'FlowLayoutPanel1
+        '
+        Me.FlowLayoutPanel1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+            Or System.Windows.Forms.AnchorStyles.Left) _
+            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.FlowLayoutPanel1.BackColor = System.Drawing.Color.Transparent
+        Me.FlowLayoutPanel1.BackgroundImage = CType(resources.GetObject("FlowLayoutPanel1.BackgroundImage"), System.Drawing.Image)
+        Me.FlowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.FlowLayoutPanel1.Controls.Add(Me.Button2)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Button3)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Button6)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Button4)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Button5)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Button14)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Button13)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Button11)
+        Me.FlowLayoutPanel1.Controls.Add(Me.Button7)
+        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(0, 22)
+        Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(849, 429)
+        Me.FlowLayoutPanel1.TabIndex = 23
+        '
+        'Button2
+        '
+        Me.Button2.BackgroundImage = CType(resources.GetObject("Button2.BackgroundImage"), System.Drawing.Image)
+        Me.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button2.Location = New System.Drawing.Point(3, 3)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(50, 50)
+        Me.Button2.TabIndex = 5
+        Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.Visible = False
+        '
+        'Button3
+        '
+        Me.Button3.BackgroundImage = CType(resources.GetObject("Button3.BackgroundImage"), System.Drawing.Image)
+        Me.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button3.Location = New System.Drawing.Point(59, 3)
+        Me.Button3.Name = "Button3"
+        Me.Button3.Size = New System.Drawing.Size(50, 50)
+        Me.Button3.TabIndex = 12
+        Me.Button3.UseVisualStyleBackColor = True
+        Me.Button3.Visible = False
+        '
+        'Button6
+        '
+        Me.Button6.BackgroundImage = CType(resources.GetObject("Button6.BackgroundImage"), System.Drawing.Image)
+        Me.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button6.Location = New System.Drawing.Point(115, 3)
+        Me.Button6.Name = "Button6"
+        Me.Button6.Size = New System.Drawing.Size(50, 50)
+        Me.Button6.TabIndex = 15
+        Me.Button6.UseVisualStyleBackColor = True
+        Me.Button6.Visible = False
+        '
+        'Button4
+        '
+        Me.Button4.BackgroundImage = CType(resources.GetObject("Button4.BackgroundImage"), System.Drawing.Image)
+        Me.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button4.Location = New System.Drawing.Point(171, 3)
+        Me.Button4.Name = "Button4"
+        Me.Button4.Size = New System.Drawing.Size(50, 50)
+        Me.Button4.TabIndex = 13
+        Me.Button4.UseVisualStyleBackColor = True
+        Me.Button4.Visible = False
+        '
+        'Button5
+        '
+        Me.Button5.BackgroundImage = CType(resources.GetObject("Button5.BackgroundImage"), System.Drawing.Image)
+        Me.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button5.Location = New System.Drawing.Point(227, 3)
+        Me.Button5.Name = "Button5"
+        Me.Button5.Size = New System.Drawing.Size(50, 50)
+        Me.Button5.TabIndex = 14
+        Me.Button5.UseVisualStyleBackColor = True
+        Me.Button5.Visible = False
+        '
+        'Button14
+        '
+        Me.Button14.BackgroundImage = CType(resources.GetObject("Button14.BackgroundImage"), System.Drawing.Image)
+        Me.Button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button14.Location = New System.Drawing.Point(283, 3)
+        Me.Button14.Name = "Button14"
+        Me.Button14.Size = New System.Drawing.Size(50, 50)
+        Me.Button14.TabIndex = 21
+        Me.Button14.UseVisualStyleBackColor = True
+        Me.Button14.Visible = False
+        '
+        'Button13
+        '
+        Me.Button13.BackgroundImage = CType(resources.GetObject("Button13.BackgroundImage"), System.Drawing.Image)
+        Me.Button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button13.Location = New System.Drawing.Point(339, 3)
+        Me.Button13.Name = "Button13"
+        Me.Button13.Size = New System.Drawing.Size(50, 50)
+        Me.Button13.TabIndex = 20
+        Me.Button13.UseVisualStyleBackColor = True
+        Me.Button13.Visible = False
+        '
+        'Button11
+        '
+        Me.Button11.BackgroundImage = CType(resources.GetObject("Button11.BackgroundImage"), System.Drawing.Image)
+        Me.Button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button11.Location = New System.Drawing.Point(395, 3)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(50, 50)
+        Me.Button11.TabIndex = 18
+        Me.Button11.UseVisualStyleBackColor = True
+        Me.Button11.Visible = False
+        '
+        'Button7
+        '
+        Me.Button7.BackgroundImage = CType(resources.GetObject("Button7.BackgroundImage"), System.Drawing.Image)
+        Me.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.Button7.Location = New System.Drawing.Point(451, 3)
+        Me.Button7.Name = "Button7"
+        Me.Button7.Size = New System.Drawing.Size(50, 50)
+        Me.Button7.TabIndex = 22
+        Me.Button7.UseVisualStyleBackColor = True
+        Me.Button7.Visible = False
         '
         'Bureau
         '

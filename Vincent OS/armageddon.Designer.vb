@@ -33,6 +33,7 @@ Partial Class armageddon
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Red
+        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(37, 12)
         Me.Button1.Name = "Button1"
@@ -44,6 +45,7 @@ Partial Class armageddon
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.SystemColors.ControlDarkDark
+        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(37, 47)
         Me.Button2.Name = "Button2"
@@ -55,6 +57,7 @@ Partial Class armageddon
         'Button3
         '
         Me.Button3.BackColor = System.Drawing.Color.Cyan
+        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.Location = New System.Drawing.Point(37, 82)
         Me.Button3.Name = "Button3"
@@ -66,6 +69,7 @@ Partial Class armageddon
         'Button4
         '
         Me.Button4.BackColor = System.Drawing.Color.Fuchsia
+        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.Location = New System.Drawing.Point(37, 117)
         Me.Button4.Name = "Button4"

@@ -27,7 +27,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>6.2.0.%2a</ApplicationVersion>
+    <ApplicationVersion>6.2.1.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -145,8 +145,14 @@
     <Compile Include="Avant.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Azkan.Designer.vb">
-      <DependentUpon>Azkan.vb</DependentUpon>
+    <Compile Include="Calc.Designer.vb">
+      <DependentUpon>Calc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Calc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TaskVOS.Designer.vb">
+      <DependentUpon>TaskVOS.vb</DependentUpon>
     </Compile>
     <Compile Include="Azkan.vb">
       <SubType>Form</SubType>
@@ -331,8 +337,11 @@
     <EmbeddedResource Include="Avant.resx">
       <DependentUpon>Avant.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Azkan.resx">
-      <DependentUpon>Azkan.vb</DependentUpon>
+    <EmbeddedResource Include="Calc.resx">
+      <DependentUpon>Calc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaskVOS.resx">
+      <DependentUpon>TaskVOS.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Bing Chrome.resx">
       <DependentUpon>Bing Chrome.vb</DependentUpon>
@@ -424,7 +433,6 @@
       <CustomToolNamespace>My</CustomToolNamespace>
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
-    <None Include="Vincent OS_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
     <COMReference Include="AxWMPLib">
