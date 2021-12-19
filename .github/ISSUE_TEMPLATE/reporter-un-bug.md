@@ -19,7 +19,8 @@ Décrivez votre problème rencontré pour permettre d'y comprendre.
 **Versions (complétez les informations):**
  - OS : 
  - Version de Vincent OS :
-[ ] J'utilise une version bêta de Vincent OS
+
+- [ ] J'utilise une version bêta de Vincent OS
 
 **Screenshots**
 Si vous le pouvez, mettre un screenshot de l'erreur.
