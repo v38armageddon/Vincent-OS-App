@@ -21,16 +21,16 @@ Public Class Media
     End Sub
 
     Private Sub ArrêterToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles ArrêterToolStripMenuItem.Click
-        AxWindowsMediaPlayer2.URL = ""
+        AxWindowsMediaPlayer3.URL = ""
     End Sub
 
     Private Sub PleinÉcranToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PleinÉcranToolStripMenuItem.Click
-        If AxWindowsMediaPlayer2.URL = Nothing Then
+        If AxWindowsMediaPlayer3.URL = Nothing Then
             Dim backmusic As New System.Media.SoundPlayer(My.Resources.errorSound)
             backmusic.Play()
             MessageBox.Show("Veuillez d'abord lancer un média...", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Else
-            AxWindowsMediaPlayer2.fullScreen = True
+            AxWindowsMediaPlayer3.fullScreen = True
         End If
     End Sub
 
@@ -39,14 +39,14 @@ Public Class Media
     End Sub
 
     Private Sub OptionsToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles OptionsToolStripMenuItem.Click
-        AxWindowsMediaPlayer2.ShowPropertyPages()
+        AxWindowsMediaPlayer3.ShowPropertyPages()
     End Sub
 
     Private Sub MusiqueToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MusiqueToolStripMenuItem.Click
         OpenFileDialog2.Filter = "Musique|*.mp3;*.wav;*.midi;*.wma"
         OpenFileDialog2.RestoreDirectory = True
         If OpenFileDialog2.ShowDialog = DialogResult.OK Then
-            AxWindowsMediaPlayer2.URL = OpenFileDialog2.FileName
+            AxWindowsMediaPlayer3.URL = OpenFileDialog2.FileName
         End If
     End Sub
 
@@ -54,7 +54,7 @@ Public Class Media
         OpenFileDialog2.Filter = "Vidéos|*.mp4;*.mkv;*.wmv;*.avi"
         OpenFileDialog2.RestoreDirectory = True
         If OpenFileDialog2.ShowDialog = DialogResult.OK Then
-            AxWindowsMediaPlayer2.URL = OpenFileDialog2.FileName
+            AxWindowsMediaPlayer3.URL = OpenFileDialog2.FileName
         End If
     End Sub
 

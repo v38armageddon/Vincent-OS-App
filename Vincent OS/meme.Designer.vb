@@ -258,6 +258,7 @@ Partial Class meme
         '
         'Button10
         '
+        Me.Button10.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button10.Location = New System.Drawing.Point(723, 4)
         Me.Button10.Name = "Button10"

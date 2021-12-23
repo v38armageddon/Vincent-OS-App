@@ -31,7 +31,7 @@
     Private Sub commande()
         If TextBox1.Text = "ver" Then
             ''ATTENTION A BIEN CHANGER LA VERSION CAR JE VAIS SUREMENT OUBLIER A LA PROCHAINE VERSION !!!!!!!!!!!
-            RichTextBox1.Text = "Nom du système d'exploitation : Vincent OS" & vbCrLf & "Version : 6.2.1" & vbCrLf & "Branche : Bêta"
+            RichTextBox1.Text = "Nom du système d'exploitation : Vincent OS" & vbCrLf & "Version : 6.2.2" & vbCrLf & "Branche : Bêta"
             TextBox1.Text = ""
         ElseIf TextBox1.Text = "help" Then
             RichTextBox1.Text = "Bing Chrome        Lance Bing Chrome." & vbCrLf & "Exewin       Lance l'exécuteur d'application non Vincent OS." & vbCrLf & "Game        Lance le gestionnaire de jeux." & vbCrLf & "MediaPlayer      Lancer le Media Player." & vbCrLf & "Meme        Lance l'explorateur de fichiers." & vbCrLf & "News       Savoir les derniers changements." & vbCrLf & "Notepad        Lance le Bloc Note." & vbCrLf & "Paint       Lance Paint." & vbCrLf & "Store        Lance Vincent OS Store." & vbCrLf & "Terminal     Lance une autre fenêtre d'un Terminal." & vbCrLf & "Visio       Lance la visionneuse d'images." & vbCrLf & vbCrLf & "Certaines commandes sont cachées !"
@@ -70,6 +70,7 @@
         ElseIf TextBox1.Text = "Visio" Then
             Visio.Show()
             TextBox1.Text = ""
+            '' Applications disponible sur le store
         ElseIf TextBox1.Text = "Chrono" Then
             If Applications.Button11.Visible = True Then
                 chrono.Show()
@@ -83,6 +84,9 @@
             Else
                 RichTextBox1.Text = "ERREUR : Cette application n'est pas installé."
             End If
+            TextBox1.Text = ""
+        ElseIf TextBox1.Text = "Calc" Then
+            Calc.Show()
             TextBox1.Text = ""
             ''Ici commence les commandes de Debug, à utiliser avec précaution !
 

@@ -1,5 +1,11 @@
 Notes de mises à jours :
 
+Version 6.2.2 (23/12/2021) :
+- Correction du bug de placement des boutons : Rechercher dans Bing Chrome et Meme
+- Changements des icônes pour correspondre aux applications
+- Correction d'un bug sur le store
+- Création de la calculatrice (accessible uniquement par le terminal en marquant : calc)
+
 Version 6.2.1 (18/12/2021) :
 - Modification des boutons sur Meme
 - Modification des boutons sur Visio

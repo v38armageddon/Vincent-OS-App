@@ -158,6 +158,7 @@ Partial Class Bing_Chrome
         '
         'Button8
         '
+        Me.Button8.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button8.Location = New System.Drawing.Point(716, 1)
         Me.Button8.Name = "Button8"

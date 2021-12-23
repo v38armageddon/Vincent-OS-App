@@ -292,8 +292,8 @@ Partial Class Store
         Me.Label13.Name = "Label13"
         Me.Label13.Size = New System.Drawing.Size(259, 26)
         Me.Label13.TabIndex = 9
-        Me.Label13.Text = "Les anciennes versions du mini système d'exploitation" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "de Vincent OS avant la mig" & _
-            "ration"
+        Me.Label13.Text = "Les anciennes versions du mini système d'exploitation" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "de Vincent OS avant la mig" &
+    "ration"
         '
         'Button11
         '
@@ -564,6 +564,7 @@ Partial Class Store
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
         Me.Name = "Store"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Vincent OS Store"

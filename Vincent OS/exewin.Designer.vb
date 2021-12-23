@@ -34,10 +34,10 @@ Partial Class exewin
         Me.Label1.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.Location = New System.Drawing.Point(0, -1)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(396, 32)
+        Me.Label1.Size = New System.Drawing.Size(395, 32)
         Me.Label1.TabIndex = 0
-        Me.Label1.Text = "Pour exécuter une application Windows, mettez l'adresse du fichier" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(exemple : C:" & _
-            "\(nom du fichier)\(nom de l'application en .exe)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
+        Me.Label1.Text = "Pour exécuter une application Windows, mettez l'adresse du fichier" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "(exemple : C:" &
+    "\(nom du fichier)\(nom de l'application en .exe)" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
         '
         'Button1
         '
