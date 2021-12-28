@@ -118,22 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="RichTextBox1.Text" xml:space="preserve">
-    <value>Version 6.2.2 (23/12/2021) :
-- Correction du bug de placement des boutons : Rechercher dans Bing Chrome et Meme
-- Changements des icônes pour correspondre aux applications
-- Correction d'un bug sur le store
-- Création de la calculatrice (accessible uniquement par le terminal en marquant : calc)
-
-Version 6.2.1 (18/12/2021) :
-- Modification des boutons sur Meme
-- Modification des boutons sur Visio
-- Modification des boutons sur Bing Chrome
-- Modification de certains boutons en flat
-- Ajout de la calculatrice, elle ne fonctionne pas
-- Redesign des logiciels : Paint, choix d'arrêts
-- Changement du logo de chargement dans : Démarrage, arrêt et chargement dans le bureau
-
-Version 6.2 (28/09/2021) :
+    <value>Version 6.2 (28/09/2021) :
 - Réorganisation du code donc ajout de commentaires.
 - Suppression le fait qu'on puisse ouvrir "toute" les application en même temps.
 - Correction du mode d'arrêt du logiciel.

@@ -50,9 +50,9 @@ Partial Class apropos
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(206, 56)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(200, 33)
+        Me.Label2.Size = New System.Drawing.Size(176, 33)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Version : 6.2.2"
+        Me.Label2.Text = "Version : 6.2"
         '
         'Label3
         '
@@ -84,9 +84,9 @@ Partial Class apropos
         Me.Label5.ForeColor = System.Drawing.Color.White
         Me.Label5.Location = New System.Drawing.Point(205, 89)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(195, 32)
+        Me.Label5.Size = New System.Drawing.Size(221, 32)
         Me.Label5.TabIndex = 5
-        Me.Label5.Text = "Branche : Bêta"
+        Me.Label5.Text = "Branche : Officiel"
         '
         'PictureBox1
         '

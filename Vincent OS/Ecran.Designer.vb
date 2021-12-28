@@ -114,13 +114,12 @@ Partial Class Ecran
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(679, 66)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Pour changer de fond d'écran, cliquez sur le bouton" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & """Changer"" et choisissez votr" &
-    "e image."
+        Me.Label2.Text = "Pour changer de fond d'écran, cliquez sur le bouton" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & """Changer"" et choisissez votr" & _
+            "e image."
         '
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Lime
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button1.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button1.Location = New System.Drawing.Point(177, 159)
         Me.Button1.Name = "Button1"
@@ -176,7 +175,6 @@ Partial Class Ecran
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.Lime
-        Me.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button2.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button2.Location = New System.Drawing.Point(189, 238)
         Me.Button2.Name = "Button2"
@@ -373,7 +371,6 @@ Partial Class Ecran
         'Button3
         '
         Me.Button3.BackColor = System.Drawing.Color.Lime
-        Me.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button3.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button3.Location = New System.Drawing.Point(170, 244)
         Me.Button3.Name = "Button3"
@@ -542,7 +539,6 @@ Partial Class Ecran
         'Button4
         '
         Me.Button4.BackColor = System.Drawing.Color.Lime
-        Me.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat
         Me.Button4.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button4.Location = New System.Drawing.Point(181, 193)
         Me.Button4.Name = "Button4"

@@ -154,5 +154,3 @@ C:\Users\v38armageddon\Documents\Temp\Vincent OS\obj\x86\Release\Vincent OS.Trus
 C:\Users\v38armageddon\Documents\Temp\Vincent OS\obj\x86\Release\Vincent OS.exe.manifest
 C:\Users\v38armageddon\Documents\Temp\Vincent OS\obj\x86\Release\Vincent OS.application
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent OS.vbproj.CoreCompileInputs.cache
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent OS.vbproj.AssemblyReference.cache
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Release\Vincent_OS.Calc.resources

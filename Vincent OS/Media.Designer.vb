@@ -23,6 +23,7 @@ Partial Class Media
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Media))
+        Me.AxWindowsMediaPlayer2 = New AxWMPLib.AxWindowsMediaPlayer()
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.OuvrirToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MusiqueToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -34,10 +35,19 @@ Partial Class Media
         Me.OptionsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.QuitterToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.OpenFileDialog2 = New System.Windows.Forms.OpenFileDialog()
-        Me.AxWindowsMediaPlayer3 = New AxWMPLib.AxWindowsMediaPlayer()
+        CType(Me.AxWindowsMediaPlayer2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.MenuStrip1.SuspendLayout()
-        CType(Me.AxWindowsMediaPlayer3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
+        '
+        'AxWindowsMediaPlayer2
+        '
+        Me.AxWindowsMediaPlayer2.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.AxWindowsMediaPlayer2.Enabled = True
+        Me.AxWindowsMediaPlayer2.Location = New System.Drawing.Point(0, 24)
+        Me.AxWindowsMediaPlayer2.Name = "AxWindowsMediaPlayer2"
+        Me.AxWindowsMediaPlayer2.OcxState = CType(resources.GetObject("AxWindowsMediaPlayer2.OcxState"), System.Windows.Forms.AxHost.State)
+        Me.AxWindowsMediaPlayer2.Size = New System.Drawing.Size(546, 320)
+        Me.AxWindowsMediaPlayer2.TabIndex = 5
         '
         'MenuStrip1
         '
@@ -112,21 +122,11 @@ Partial Class Media
         Me.OpenFileDialog2.FileName = "OpenFileDialog2"
         Me.OpenFileDialog2.RestoreDirectory = True
         '
-        'AxWindowsMediaPlayer3
-        '
-        Me.AxWindowsMediaPlayer3.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.AxWindowsMediaPlayer3.Enabled = True
-        Me.AxWindowsMediaPlayer3.Location = New System.Drawing.Point(0, 24)
-        Me.AxWindowsMediaPlayer3.Name = "AxWindowsMediaPlayer3"
-        Me.AxWindowsMediaPlayer3.OcxState = CType(resources.GetObject("AxWindowsMediaPlayer3.OcxState"), System.Windows.Forms.AxHost.State)
-        Me.AxWindowsMediaPlayer3.Size = New System.Drawing.Size(546, 320)
-        Me.AxWindowsMediaPlayer3.TabIndex = 8
-        '
         'Media
         '
         Me.BackColor = System.Drawing.Color.DimGray
         Me.ClientSize = New System.Drawing.Size(546, 344)
-        Me.Controls.Add(Me.AxWindowsMediaPlayer3)
+        Me.Controls.Add(Me.AxWindowsMediaPlayer2)
         Me.Controls.Add(Me.MenuStrip1)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MainMenuStrip = Me.MenuStrip1
@@ -134,9 +134,9 @@ Partial Class Media
         Me.Name = "Media"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Media Player"
+        CType(Me.AxWindowsMediaPlayer2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.MenuStrip1.ResumeLayout(False)
         Me.MenuStrip1.PerformLayout()
-        CType(Me.AxWindowsMediaPlayer3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -160,5 +160,5 @@ Partial Class Media
     Friend WithEvents AutresToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents OptionsToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
     Friend WithEvents QuitterToolStripMenuItem As System.Windows.Forms.ToolStripMenuItem
-    Friend WithEvents AxWindowsMediaPlayer3 As AxWMPLib.AxWindowsMediaPlayer
+
 End Class

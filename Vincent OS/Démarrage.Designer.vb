@@ -28,15 +28,13 @@ Partial Class Démarrage
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'ProgressBar1
         '
         Me.ProgressBar1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
-            Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ProgressBar1.ForeColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.ProgressBar1.Location = New System.Drawing.Point(12, 416)
         Me.ProgressBar1.Name = "ProgressBar1"
@@ -44,7 +42,6 @@ Partial Class Démarrage
         Me.ProgressBar1.RightToLeftLayout = True
         Me.ProgressBar1.Size = New System.Drawing.Size(824, 24)
         Me.ProgressBar1.TabIndex = 0
-        Me.ProgressBar1.Visible = False
         '
         'PictureBox1
         '
@@ -63,7 +60,7 @@ Partial Class Démarrage
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(338, 415)
+        Me.Label1.Location = New System.Drawing.Point(338, 356)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(219, 24)
         Me.Label1.TabIndex = 2
@@ -72,17 +69,6 @@ Partial Class Démarrage
         'Timer1
         '
         '
-        'PictureBox2
-        '
-        Me.PictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None
-        Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(365, 324)
-        Me.PictureBox2.Name = "PictureBox2"
-        Me.PictureBox2.Size = New System.Drawing.Size(158, 88)
-        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.PictureBox2.TabIndex = 3
-        Me.PictureBox2.TabStop = False
-        '
         'Démarrage
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -90,7 +76,6 @@ Partial Class Démarrage
         Me.BackColor = System.Drawing.Color.Black
         Me.ClientSize = New System.Drawing.Size(848, 452)
         Me.ControlBox = False
-        Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.ProgressBar1)
@@ -102,7 +87,6 @@ Partial Class Démarrage
         Me.StartPosition = System.Windows.Forms.FormStartPosition.Manual
         Me.Text = "Démarrage en cours..."
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -111,5 +95,5 @@ Partial Class Démarrage
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
     Friend WithEvents Label1 As System.Windows.Forms.Label
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
-    Friend WithEvents PictureBox2 As PictureBox
+
 End Class
