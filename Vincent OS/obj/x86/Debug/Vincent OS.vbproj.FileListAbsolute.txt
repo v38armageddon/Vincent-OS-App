@@ -103,3 +103,4 @@ C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Debug\Vinc
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Debug\Vincent_OS.TaskVOS.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Debug\Vincent OS.vbproj.AssemblyReference.cache
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Debug\Vincent OS.vbproj.CoreCompileInputs.cache
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\Vincent OS\obj\x86\Debug\Vincent_OS.Calc.resources
