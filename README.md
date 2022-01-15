@@ -1,7 +1,23 @@
-Merci d'avoir téléchargé Vincent OS, pour accéder à l'OS :
+# Bienvenue sur Vincent OS !
+Ce projet consiste à créer un mini système d'exploitation dans mes temps perdus.
 
-Pour les processeurs 32 bits : Vincent OS > Vincent OS > obj > x86 > Debug > Vincent OS.exe
-Pour les processeurs 64 bits : Vincent OS > Vincent OS > bin > Debug > Vincent OS.exe
+## Installation
+
+### Installation standard
+Vous pouvez télécharger les fichiers exécutables sans avoir besoin de tout le dossier : "src".
+
+### Installation développeur
+Si vous voulez avoir tout les fichiers, vous pouvez cloner le projet.
+
+Une fois que vous avez téléchargé le fichier .zip, dézippez le avec votre logiciel. 
+
+N'oubliez pas que les fichiers exécutables qui sont hors du dossier : "src" ne sont pas synchronisé avec les fichiers exécutables dans le dossier.
+
+Si vous faites un changement, voici la structure de où se situes les nouveaux fichiers exécutables :
+
+Pour les processeurs 32 bits : src/Vincent OS/obj/x86/Debug/Vincent OS.exe
+
+Pour les processeurs 64 bits : src/Vincent OS/bin/Debug/Vincent OS.exe
 
 Ce projet est un projet Open Source, toute les modifications sont autorisé.
 
