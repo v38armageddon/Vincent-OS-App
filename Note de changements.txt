@@ -1,132 +1,126 @@
-Notes de mises Ã  jours :
+Notes de mises à jours :
 
-Version 6.2.2 (23/12/2021) :
-- Correction du bug de placement des boutons : Rechercher dans Bing Chrome et Meme
-- Changements des icÃ´nes pour correspondre aux applications
-- Correction d'un bug sur le store
-- CrÃ©ation de la calculatrice (accessible uniquement par le terminal en marquant : Calc)
-
-Version 6.2.1 (18/12/2021) :
-- Modification des boutons sur Meme
-- Modification des boutons sur Visio
-- Modification des boutons sur Bing Chrome
-- Modification de certains boutons en flat
-- Ajout de la calculatrice, elle ne fonctionne pas
-- Redesign des logiciels : Paint, choix d'arrÃªts
-- Changement du logo de chargement dans : DÃ©marrage, arrÃªt et chargement dans le bureau
+Version 7 (15/01/2022) :
+- Changements de certains icônes, merci à @keraunos420 (Compte Twitter) d'avoir fait ceci !
+- Changements des fonds d'écrans, merci à ZeyaTsu !
+- Tout les boutons ont été refait.
+- Ajout de la calculatrice fonctionnelle !
+- Suppression du logiciel : News pour éviter d'encombrer plus d'espaces supplémentaire et éviter les doublons.
+- Changement de la composition des fichiers, pour éviter de télécharger tout le projet (et d'encombrer de l'espace inutilement), des exécutables sont disponibles pour chaque nouvelles versions. Bien sûr, vous pouvez toujours téléchargez le projet si vous le voulez.
+- Refonte des applications suivantes : Meme, Vincent OS Store, Options, personnalisation, Paint, fenêtré ou plein écran, exécuter une application Windows, changer de nom d'utilisateur, Gestionnaire de jeux.
+- Suppression du jeu : Jeu de combinaison dû à un jeu non fonctionnelle.
 
 Version 6.2 (28/09/2021) :
-- RÃ©organisation du code donc ajout de commentaires.
-- Suppression le fait qu'on puisse ouvrir "toute" les application en mÃªme temps.
-- Correction du mode d'arrÃªt du logiciel.
-- Correction de certains boutons qui n'Ã©tait pas Ã  la bonne forme dans le menu des applications.
+- Réorganisation du code donc ajout de commentaires.
+- Suppression le fait qu'on puisse ouvrir "toute" les application en même temps.
+- Correction du mode d'arrêt du logiciel.
+- Correction de certains boutons qui n'était pas à la bonne forme dans le menu des applications.
 - Transformation de certains boutons en mode Flat.
 - Ajout de la licence : The Unlicense
 
 Version 6.1 (21/07/2021) : 
-- Correction d'un bug dans le gestionnaire de tÃ©lÃ©chargement, on ne pouvais plus lancer d'autres tÃ©lÃ©chargements aprÃ¨s avoir terminÃ© le tÃ©lÃ©chargement du lecteur PDF
-- Mini refonte du gestionnaire de tÃ©lÃ©chargement ainsi que du store
-- Mise Ã  jour des commandes du Terminal
+- Correction d'un bug dans le gestionnaire de téléchargement, on ne pouvais plus lancer d'autres téléchargements après avoir terminé le téléchargement du lecteur PDF
+- Mini refonte du gestionnaire de téléchargement ainsi que du store
+- Mise à jour des commandes du Terminal
 
 Version 6 (15/07/2021) :
-- Ajout du Vincent OS Store, dÃ©couvrez de nouvelles applications !
-- Changements des diffÃ©rents fonds Ã©crans, merci Ã  ZeyaTsu
-- Refonte des logiciels suivants : Explorateur de fichier, afficher/masquer des icÃ´nes, Applications
-- Refonte du bureau Superutilisateur et de l'invitÃ©
-- Correction d'un bug au niveau du Terminal, quand on tapait la commande : Terminal, aucune fenÃªtre ne s'affichait
-- Changement du nom de Azkan Ã  TaskVOS
-- Changement du rÃ©vÃ©lateur de mot de passe
+- Ajout du Vincent OS Store, découvrez de nouvelles applications !
+- Changements des différents fonds écrans, merci à ZeyaTsu
+- Refonte des logiciels suivants : Explorateur de fichier, afficher/masquer des icônes, Applications
+- Refonte du bureau Superutilisateur et de l'invité
+- Correction d'un bug au niveau du Terminal, quand on tapait la commande : Terminal, aucune fenêtre ne s'affichait
+- Changement du nom de Azkan à TaskVOS
+- Changement du révélateur de mot de passe
 
 Version 5.2.1 (12/07/2021) :
-- Suppression des doublons de plusieurs fonds d'Ã©crans
-- Changement de Lisez-moi.txt Ã  README.md
-- Mise en inaccessibilitÃ© de la commande "Terminal" dans le Terminal
+- Suppression des doublons de plusieurs fonds d'écrans
+- Changement de Lisez-moi.txt à README.md
+- Mise en inaccessibilité de la commande "Terminal" dans le Terminal
 
 Version 5.2 (15/05/2021) : 
-- Ajout d'un contrÃ´le de permission d'utilisateur dans la session InvitÃ©
-- Ajout de la possibilitÃ© de changer le nom de la session Superutilisateur et de la session InvitÃ©
+- Ajout d'un contrôle de permission d'utilisateur dans la session Invité
+- Ajout de la possibilité de changer le nom de la session Superutilisateur et de la session Invité
 - Correction de quelques bugs sur le logiciel : Bing Chrome
-- Correction d'un bug majeur sur le logiciel : ExÃ©cuteur d'application Windows
-- Correction de quelques bugs sur le Bureau de la session InvitÃ©
-- RÃ©organisation du code
+- Correction d'un bug majeur sur le logiciel : Exécuteur d'application Windows
+- Correction de quelques bugs sur le Bureau de la session Invité
+- Réorganisation du code
 
 Version 5.1 (27/01/2021) :
 - Correction d'un bug dans l'application Azkan, on peut fermer Bureau2.SerVOS alors qu'on est sur la session Superutilisateur
-- Suppression de l'accÃ¨s des paramÃ¨tres dans la session InvitÃ©
-- Changement dans l'Ã©cran de connexion : On peut dÃ©sormait appuyer sur la touche EntrÃ©e quand on saisit le mot de passe pour se connecter Ã  la session Superutilisateur
-- Mode fenÃªtrÃ© : Ajout le fait qu'on peut dÃ©placer les fenÃªtres oÃ¹ on le souhaite
-- Ajout de la fonctionnalitÃ© quand on clique sur les barres de recherches de Bing Chrome et de l'explorateur de fichier, le texte qui est inscrit s'enlÃ¨ve
-- Dans le Terminal, nous pouvons appuyer sur la touche EntrÃ©e pour exÃ©cuter une commande
-- Correction d'un bug auquel un fond d'Ã©cran Ã©tait remplacÃ© par un autre
+- Suppression de l'accès des paramètres dans la session Invité
+- Changement dans l'écran de connexion : On peut désormait appuyer sur la touche Entrée quand on saisit le mot de passe pour se connecter à la session Superutilisateur
+- Mode fenêtré : Ajout le fait qu'on peut déplacer les fenêtres où on le souhaite
+- Ajout de la fonctionnalité quand on clique sur les barres de recherches de Bing Chrome et de l'explorateur de fichier, le texte qui est inscrit s'enlève
+- Dans le Terminal, nous pouvons appuyer sur la touche Entrée pour exécuter une commande
+- Correction d'un bug auquel un fond d'écran était remplacé par un autre
 
 Version 5 (18/10/2020) :
-- RÃ©solution du mode fenÃªtrÃ© changÃ© en 854x480
-- Changement du fond d'Ã©cran de connexion, merci Ã  ZeyaTsu
-- Changement du fond d'Ã©cran de la session invitÃ©, merci Ã  Kiki79250CoC
-- Changement du fond d'Ã©cran de la session superutilisateur, merci Ã  ZeyaTsu
-- Menu d'application refait de A Ã  Z
-- Nouvelle option disponnible : Afficher les icÃ´nes sur le bureau
+- Résolution du mode fenêtré changé en 854x480
+- Changement du fond d'écran de connexion, merci à ZeyaTsu
+- Changement du fond d'écran de la session invité, merci à Kiki79250CoC
+- Changement du fond d'écran de la session superutilisateur, merci à ZeyaTsu
+- Menu d'application refait de A à Z
+- Nouvelle option disponnible : Afficher les icônes sur le bureau
 - Ajout d'onglet dans le navigateur Bing Chrome
-- Refonte des fenÃªtres suivantes : ParamÃ¨tres, applications, changement du fond d'Ã©cran
-- Changement des logos d'applications, merci Ã  W4WAN
-- Ajout de son de dÃ©marrage, d'alerte, d'erreur et d'arrÃªt, merci Ã  W4WAN
-
+- Refonte des fenêtres suivantes : Paramètres, applications, changement du fond d'écran
+- Changement des logos d'applications, merci à W4WAN
+- Ajout de son de démarrage, d'alerte, d'erreur et d'arrêt, merci à W4WAN
 
 Version 4.2 (30/08/2020) :
 - Retour du Media Player !  Avec une refonte totale !
-- Changement des fonds d'Ã©crans
-- Ã‰cran de chargement d'utilisateur ajoutÃ©
-- PossibilitÃ© de changer de fond d'Ã©cran
+- Changement des fonds d'écrans
+- Écran de chargement d'utilisateur ajouté
+- Possibilité de changer de fond d'écran
 
 Version 4.1 (22/08/2020) :
-- Nouvelle Ã©cran de dÃ©connection
-- Suppresion du lecteur PDF, il ne marche plus trop bien mais vous pouvez toujours le tÃ©lÃ©charger avec ce lien : http://www.mediafire.com/file/nl4xa09md89rkfg/LecteurPDF.zip/file
-- DÃ©sactivation du Media Player, il n'est pas supprimÃ©, juste rÃ©gler quelques bugs et il reviendra
+- Nouvelle écran de déconnection
+- Suppression du lecteur PDF, il ne marche plus trop bien mais vous pouvez toujours le télécharger avec ce lien : http://www.mediafire.com/file/nl4xa09md89rkfg/LecteurPDF.zip/file
+- Désactivation du Media Player, il n'est pas supprimé, juste régler quelques bugs et il reviendra
 - Correction d'un bug sur le labyrinth
-- Fichier "Lisez-moi.txt" mis Ã  jour
+- Fichier "Lisez-moi.txt" mis à jour
 
 Version 4 (18/08/2020) :
 - Nouveau Terminal
-- Nouvelle disposition des icÃ´nes
-- Changement du logo, merci Ã  Doalo
-- Nouveau fond Ã©cran, merci Ã  Doalo
-- L'option : Changer de fond d'Ã©cran est indisponible, il est en cours de correction
-- Ajout d'une barre des tÃ¢ches des applications lancÃ©s
-- Correction d'un bug dans le lecteur PDF, on pouvais ouvrir d'autres fichiers alors que c'est rÃ©servÃ© uniquement aux PDF
+- Nouvelle disposition des icônes
+- Changement du logo, merci à Doalo
+- Nouveau fond écran, merci à Doalo
+- L'option : Changer de fond d'écran est indisponible, il est en cours de correction
+- Ajout d'une barre des tâches des applications lancés
+- Correction d'un bug dans le lecteur PDF, on pouvais ouvrir d'autres fichiers alors que c'est réservé uniquement aux PDF
 - Changement de l'interface dans : A propos
 
 Version 3.1.1 (14/08/2020) :
-- Correction d'un bug sur Paint oÃ¹ les boutons avait des problÃ¨mes.
-- Mise en inaccessibilitÃ© de l'option Terminal.
+- Correction d'un bug sur Paint où les boutons avait des problèmes.
+- Mise en inaccessibilité de l'option Terminal.
 - Correction de plusieurs bugs au niveau du redimensionnement de plusieurs applications
 - Correction de la version dans A propos
 
 Version 3.1 (21/05/2020) :
-- Ajout d'une icÃ´ne "Application" pour exÃ©cuter toute les applications disponibles
+- Ajout d'une icône "Application" pour exécuter toute les applications disponibles
 - Ajout d'un gestionnaire de jeux
 - Ajout du jeu : Labyrinth
 - Ajout d'un logiciel : Paint
-- PossibilitÃ© de cacher des logiciels du bureau dans le menu Applications (et aussi de les afficher)
-- Correction d'un bug sur le bureau de la session "InvitÃ©", le calendrier ne voulait pas s'afficher quand on clique sur l'heure
+- Possibilité de cacher des logiciels du bureau dans le menu Applications (et aussi de les afficher)
+- Correction d'un bug sur le bureau de la session "Invité", le calendrier ne voulait pas s'afficher quand on clique sur l'heure
 
 Version 3.0.1 (19/05/2020) :
-- Correction du bug de la fenÃªtre de connexion qui Ã©tait bugÃ© en Ã©tant en mode plein Ã©cran.
+- Correction du bug de la fenêtre de connexion qui était bugé en étant en mode plein écran.
 - Changement au niveau de la barre de progression
 - Ajout de la date de sortie de chaque version
 - Ajout d'un document texte disant les changements
 
 Version 3.0 (18/05/2020) :
 - Ajout d'un bouton d'aide pour le mot de passe
-- Correction des fenÃªtres qui n'ont pas besoin d'Ãªtre redimensionnÃ©e
-- Menu dÃ©marrer modifiÃ©, ajout des options dans la session "InvitÃ©" et suppresion du message disant le contraire
-- Deux modes d'affichages disponibles : FenÃªtrÃ© et Plein Ã©cran
-- Choix du mode d'affichage au dÃ©marrage
+- Correction des fenêtres qui n'ont pas besoin d'être redimensionnée
+- Menu démarrer modifié, ajout des options dans la session "Invité" et suppression du message disant le contraire
+- Deux modes d'affichages disponibles : Fenêtré et Plein écran
+- Choix du mode d'affichage au démarrage
 
 Version 2.1 (02/09/2019) :
-- Ajout de quelques easters eggs car on as des choses Ã  vous dire
+- Ajout de quelques easters eggs
 
 Version 2.0 (28/06/2019) :
-- Suppresion du son au dÃ©marrage
+- Suppression du son au démarrage
 - Correction d'un bug sur certaines applications
-- Ajout de l'application "ExÃ©cuter une application Windows"
-- Ajout d'un bouton "Quitter" Ã  l'Ã©cran de verrouillage
+- Ajout de l'application "Exécuter une application Windows"
+- Ajout d'un bouton "Quitter" à l'écran de verrouillage
