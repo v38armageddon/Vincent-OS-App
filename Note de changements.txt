@@ -18,6 +18,13 @@ Version 6.2.1 (18/12/2021) :
 - Redesign des logiciels : Paint, choix d'arrêts
 - Changement du logo de chargement dans : Démarrage, arrêt et chargement dans le bureau
 
+Version 7.1 (25/03/2022) :
+- Création de : ArmaAntiCheat, un Anti Cheat pour le jeu : Labyrinth.
+- Correction d'un conflit de titre dans les paramètres ("Options" au lieu de "Paramètre").
+- Correction de la version de Discord.
+- Création d'une boîte à miniature, elle évolura au cours du temps, elle comprends une (fausse) modificateur de volume sonore et une vrai indicateur de connexion à Internet.
+- Refonte de TaskVOS.
+
 Version 7 (15/01/2022) :
 - Changements de certains icônes, merci à @keraunos420 (Compte Twitter) d'avoir fait ceci !
 - Changements des fonds d'écrans, merci à ZeyaTsu !

@@ -43,7 +43,7 @@ Partial Class Terminal
         Me.RichTextBox1.ReadOnly = True
         Me.RichTextBox1.Size = New System.Drawing.Size(575, 313)
         Me.RichTextBox1.TabIndex = 0
-        Me.RichTextBox1.Text = "Vincent OS [version 7.0.0.0]" & Global.Microsoft.VisualBasic.ChrW(10) & "Projet Open Source"
+        Me.RichTextBox1.Text = "Vincent OS [version 7.1.0.0]" & Global.Microsoft.VisualBasic.ChrW(10) & "Projet Open Source"
         '
         'Label1
         '

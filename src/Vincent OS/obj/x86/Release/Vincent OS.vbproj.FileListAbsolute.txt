@@ -185,7 +185,6 @@ C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Releas
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Release\Vincent_OS.Login2bureau.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Release\Vincent_OS.Login2bureau2.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Release\Vincent_OS.MazeGame.resources
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Release\Vincent_OS.Options.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Release\Vincent_OS.paints.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Release\Vincent_OS.Media.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Release\Vincent_OS.Notepad.resources
@@ -207,3 +206,5 @@ C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Releas
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Release\Vincent OS.pdb
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Release\Vincent_OS.About.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Release\Vincent_OS.Custom.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Release\Vincent OS.vbproj.AssemblyReference.cache
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Release\Vincent_OS.Paramètres.resources

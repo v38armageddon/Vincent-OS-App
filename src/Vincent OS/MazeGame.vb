@@ -7,14 +7,14 @@
     End Sub
 
     ''' <summary>
-    ''' Move the mouse pointer to a point 10 pixels down and to the right
+    ''' Move the mouse pointer to a point 20 pixels down and to the right
     ''' of the starting point in the upper-left corner of the maze.
     ''' </summary>
     ''' <remarks></remarks>
     Private Sub MoveToStart()
         startSoundPlayer.Play()
         Dim startingPoint = Panel1.Location
-        startingPoint.Offset(10, 10)
+        startingPoint.Offset(20, 20)
         Cursor.Position = PointToScreen(startingPoint)
     End Sub
     Private Sub finishLabel_MouseEnter(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles finishLabel.MouseEnter
@@ -31,8 +31,23 @@
         Me.PictureBox1.BackColor = Color.Transparent
     End Sub
 
-    ''J'en ai marre qu'ils trichent tout le temps...
     Private Sub PictureBox1_MouseEnter(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox1.MouseEnter
+        ArmaAntiCheat
+    End Sub
+
+    Private Sub PictureBox2_MouseEnter(sender As Object, e As EventArgs) Handles PictureBox2.MouseEnter
+        ArmaAntiCheat()
+    End Sub
+
+    Private Sub PictureBox3_MouseEnter(sender As Object, e As EventArgs) Handles PictureBox3.MouseEnter
+        ArmaAntiCheat()
+    End Sub
+
+    Private Sub PictureBox4_MouseEnter(sender As Object, e As EventArgs) Handles PictureBox4.MouseEnter
+        ArmaAntiCheat()
+    End Sub
+
+    Private Sub ArmaAntiCheat()
         finishSoundPlayer.Play()
         MoveToStart()
         MessageBox.Show("Tricher, c'est mal.")

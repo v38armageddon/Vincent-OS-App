@@ -50,9 +50,9 @@ Partial Class About
         Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(206, 56)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(152, 33)
+        Me.Label2.Size = New System.Drawing.Size(176, 33)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Version : 7"
+        Me.Label2.Text = "Version : 7.1"
         '
         'Label3
         '
@@ -98,7 +98,7 @@ Partial Class About
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
-        'apropos
+        'About
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -113,7 +113,7 @@ Partial Class About
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
-        Me.Name = "apropos"
+        Me.Name = "About"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "A propos"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()

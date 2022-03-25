@@ -23,14 +23,14 @@
             Bureau.Text = "Bureau - Session " + Me.TextBox1.Text
             Bureau.Label3.Text = Me.TextBox1.Text
             UAC.Label2.Text = Me.TextBox1.Text
-            Options.Label7.Text = "Utilisateur : " + Me.TextBox1.Text
+            Paramètres.Label7.Text = "Utilisateur : " + Me.TextBox1.Text
             Label2.Text = TextBox1.Text
         ElseIf Bureau2.Visible = True Then
             Login.Label3.Text = Me.TextBox1.Text
             Login2bureau2.Text = "Bienvenue sur Vincent OS : " + Me.TextBox1.Text
             Bureau2.Text = "Bureau - Session " + Me.TextBox1.Text
             Bureau2.Label3.Text = Me.TextBox1.Text
-            Options.Label7.Text = "Utilisateur : " + Me.TextBox1.Text
+            Paramètres.Label7.Text = "Utilisateur : " + Me.TextBox1.Text
             Label2.Text = TextBox1.Text
         End If
     End Sub

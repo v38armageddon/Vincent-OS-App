@@ -1,4 +1,4 @@
-﻿Public Class Options
+﻿Public Class Paramètres
 
     Private Sub Options_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         If Bureau.Visible = True Then
