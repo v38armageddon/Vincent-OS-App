@@ -15,10 +15,10 @@
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <TargetFrameworkProfile>Client</TargetFrameworkProfile>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
-    <PublishUrl>C:\Users\v38armageddon\Desktop\</PublishUrl>
+    <IsWebBootstrapper>true</IsWebBootstrapper>
+    <PublishUrl>https://github.com/v38armageddon/Vincent-OS/</PublishUrl>
     <Install>true</Install>
-    <InstallFrom>Disk</InstallFrom>
+    <InstallFrom>Web</InstallFrom>
     <UpdateEnabled>false</UpdateEnabled>
     <UpdateMode>Foreground</UpdateMode>
     <UpdateInterval>7</UpdateInterval>
@@ -26,9 +26,14 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>https://github.com/v38armageddon/Vincent-OS/issues</SupportUrl>
+    <TargetCulture>fr-FR</TargetCulture>
+    <ProductName>Vincent OS</ProductName>
+    <PublisherName>v38armageddon</PublisherName>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>7.0.0.%2a</ApplicationVersion>
+    <ApplicationVersion>7.1.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -236,10 +241,10 @@
     <Compile Include="MazeGame.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Options.Designer.vb">
-      <DependentUpon>Options.vb</DependentUpon>
+    <Compile Include="Paramètres.Designer.vb">
+      <DependentUpon>Paramètres.vb</DependentUpon>
     </Compile>
-    <Compile Include="Options.vb">
+    <Compile Include="Paramètres.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Paints.Designer.vb">
@@ -374,8 +379,8 @@
     <EmbeddedResource Include="MazeGame.resx">
       <DependentUpon>MazeGame.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Options.resx">
-      <DependentUpon>Options.vb</DependentUpon>
+    <EmbeddedResource Include="Paramètres.resx">
+      <DependentUpon>Paramètres.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Paints.resx">
       <DependentUpon>Paints.vb</DependentUpon>

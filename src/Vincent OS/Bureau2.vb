@@ -9,6 +9,11 @@
             Me.Text = "Bureau - Session " + Login.Label3.Text
             Label3.Text = Login.Label3.Text
         End If
+        If My.Computer.Network.IsAvailable Then
+            PictureBox5.Visible = True
+        Else
+            PictureBox6.Visible = True
+        End If
     End Sub
 
     Private Sub Label2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
@@ -66,7 +71,7 @@
     End Sub
 
     Private Sub Button11_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
-        Options.Show()
+        Paramètres.Show()
     End Sub
 
     Private Sub Button12_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button12.Click
@@ -153,6 +158,9 @@
         If Panel1.Visible = True Then
             Panel1.Visible = False
         End If
+        If Panel3.Visible = True Then
+            Panel3.Visible = False
+        End If
     End Sub
 
     Private Sub Label1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label1.Click
@@ -164,5 +172,32 @@
     Private Sub Button7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button7.Click
         UAC.Text = "Bureau2.SerVOS a besoin de votre autorisation !"
         UAC.Show()
+    End Sub
+
+    Private Sub TrackBar1_Scroll(sender As Object, e As EventArgs) Handles TrackBar1.Scroll
+        ' En dev
+    End Sub
+
+    Private Sub PictureBox4_Click(sender As Object, e As EventArgs) Handles PictureBox4.Click
+        If Panel3.Visible = False Then
+            Panel3.Visible = True
+        ElseIf Panel3.Visible = True Then
+            Panel3.Visible = False
+        End If
+    End Sub
+    Private Sub PictureBox5_MouseHover(sender As Object, e As EventArgs) Handles PictureBox5.MouseHover
+        Label4.Visible = True
+    End Sub
+
+    Private Sub PictureBox6_MouseHover(sender As Object, e As EventArgs) Handles PictureBox6.MouseHover
+        Label5.Visible = True
+    End Sub
+
+    Private Sub PictureBox5_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox5.MouseLeave
+        Label4.Visible = False
+    End Sub
+
+    Private Sub PictureBox6_MouseLeave(sender As Object, e As EventArgs) Handles PictureBox6.MouseLeave
+        Label5.Visible = False
     End Sub
 End Class
