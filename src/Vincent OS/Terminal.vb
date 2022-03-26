@@ -31,7 +31,7 @@
     Private Sub commande()
         If TextBox1.Text = "ver" Then
             ''ATTENTION A BIEN CHANGER LA VERSION CAR JE VAIS SUREMENT OUBLIER A LA PROCHAINE VERSION !!!!!!!!!!!
-            RichTextBox1.Text = "Nom du système d'exploitation : Vincent OS" & vbCrLf & "Version : 7.1" & vbCrLf & "Branche : Officiel"
+            RichTextBox1.Text = "Nom du système d'exploitation : Vincent OS" & vbCrLf & "Version : 7.1" & vbCrLf & "Branche : Beta"
             TextBox1.Text = ""
         ElseIf TextBox1.Text = "help" Then
             RichTextBox1.Text = "Bing Chrome        Lance Bing Chrome." & vbCrLf & "Calc       Lance la calculatrice" & vbCrLf & "Chrono       Lance le chronomètre" & vbCrLf & "Exewin       Lance l'exécuteur d'application non Vincent OS." & vbCrLf & "Game        Lance le gestionnaire de jeux." & vbCrLf & "MediaPlayer      Lance le Media Player." & vbCrLf & "Meme        Lance l'explorateur de fichiers." & vbCrLf & "Notepad        Lance le Bloc Note." & vbCrLf & "Paint       Lance Paint." & vbCrLf & "Store        Lance Vincent OS Store." & vbCrLf & "Terminal     Lance une autre fenêtre d'un Terminal." & vbCrLf & "Visio       Lance la visionneuse d'images." & vbCrLf & vbCrLf & "Certaines commandes sont cachées !"

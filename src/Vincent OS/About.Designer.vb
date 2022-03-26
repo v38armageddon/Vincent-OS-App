@@ -84,9 +84,9 @@ Partial Class About
         Me.Label5.ForeColor = System.Drawing.Color.White
         Me.Label5.Location = New System.Drawing.Point(205, 89)
         Me.Label5.Name = "Label5"
-        Me.Label5.Size = New System.Drawing.Size(221, 32)
+        Me.Label5.Size = New System.Drawing.Size(195, 32)
         Me.Label5.TabIndex = 5
-        Me.Label5.Text = "Branche : Officiel"
+        Me.Label5.Text = "Branche : Beta"
         '
         'PictureBox1
         '
