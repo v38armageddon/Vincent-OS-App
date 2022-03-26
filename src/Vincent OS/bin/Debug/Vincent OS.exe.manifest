@@ -67,14 +67,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Vincent OS.exe" size="19578880">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Vincent OS.exe" size="19579392">
       <assemblyIdentity name="Vincent OS" version="7.1.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>XTjpcoZtUxvU6JdkQgYCzFql7As=</dsig:DigestValue>
+        <dsig:DigestValue>qcrW+oJ6WSFPoFGn059nDypo1Ng=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
