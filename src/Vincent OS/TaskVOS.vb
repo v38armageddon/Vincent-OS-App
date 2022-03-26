@@ -1,73 +1,86 @@
 ﻿Public Class TaskVOS
 
-    Private Sub CheckBox1_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckBox1.CheckedChanged
-        Dim backmusic As New System.Media.SoundPlayer(My.Resources.alertSound)
-        backmusic.Play()
-        MessageBox.Show("Vous allez désormais afficher les processus systèmes, une fois que vous allez arrêter un processus système, il est impossible de le relancer, à vos risques et périls !", "Alerte", MessageBoxButtons.OK, MessageBoxIcon.Exclamation)
-        FlowLayoutPanel2.Visible = True
-        CheckBox1.Enabled = False
-    End Sub
-
     Private Sub TaskVOS_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        '' Application
         If Bing_Chrome.Visible = True Then
+            PictureBox1.Visible = True
             RadioButton2.Visible = True
         End If
         If Calc.Visible = True Then
+            PictureBox2.Visible = True
             RadioButton12.Visible = True
         End If
+        If chrono.Visible = True Then
+            PictureBox3.Visible = True
+            RadioButton20.Visible = True
+        End If
         If exewin.Visible = True Then
+            PictureBox4.Visible = True
             RadioButton10.Visible = True
         End If
         If game.Visible = True Then
+            PictureBox5.Visible = True
             RadioButton8.Visible = True
         End If
         If meme.Visible = True Then
+            PictureBox8.Visible = True
             RadioButton3.Visible = True
         End If
         If Notepad.Visible = True Then
+            PictureBox9.Visible = True
             RadioButton4.Visible = True
         End If
         If MazeGame.Visible = True Then
+            PictureBox6.Visible = True
             RadioButton9.Visible = True
         End If
         If Media.Visible = True Then
+            PictureBox7.Visible = True
             RadioButton5.Visible = True
         End If
         If paints.Visible = True Then
+            PictureBox10.Visible = True
             RadioButton7.Visible = True
         End If
+        If Store.Visible = True Then
+            PictureBox11.Visible = True
+            RadioButton19.Visible = True
+        End If
         If Terminal.Visible = True Then
+            PictureBox13.Visible = True
             RadioButton11.Visible = True
         End If
         If Visio.Visible = True Then
+            PictureBox14.Visible = True
             RadioButton6.Visible = True
         End If
+
+        '' Service
+
         If Applications.Visible = True Then
+            PictureBox15.Visible = True
             RadioButton15.Visible = True
         End If
         If Bureau.Visible = True Then
+            PictureBox16.Visible = True
             RadioButton13.Visible = True
+            PictureBox19.Visible = True
             RadioButton17.Visible = True
         End If
         If Bureau2.Visible = True Then
+            PictureBox17.Visible = True
             RadioButton14.Visible = True
+            PictureBox20.Visible = True
             RadioButton18.Visible = True
         End If
-        If Options.Visible = True Then
+        If Paramètres.Visible = True Then
+            PictureBox18.Visible = True
             RadioButton16.Visible = True
-        End If
-        If Store.Visible = True Then
-            RadioButton19.Visible = True
-        End If
-        If chrono.Visible = True Then
-            RadioButton20.Visible = True
         End If
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        If RadioButton1.Checked = True Then
-            Me.Close()
-        ElseIf RadioButton2.Checked = True Then
+        If RadioButton2.Checked = True Then
             Bing_Chrome.Close()
         ElseIf RadioButton3.Checked = True Then
             meme.Close()
@@ -89,22 +102,14 @@
             Terminal.Close()
         ElseIf RadioButton12.Checked = True Then
             Calc.Close()
-        ElseIf RadioButton13.Checked = True Then
-            Bureau.Close()
-        ElseIf RadioButton14.Checked = True Then
-            Bureau2.Close()
-        ElseIf RadioButton15.Checked = True Then
-            Applications.Close()
-        ElseIf RadioButton16.Checked = True Then
-            Options.Close()
         ElseIf RadioButton19.Checked = True Then
             Store.Close()
         ElseIf RadioButton20.Checked = True Then
             chrono.Close()
         Else
             Dim backmusic As New System.Media.SoundPlayer(My.Resources.errorSound)
-            backmusic.Play()
-            MessageBox.Show("Erreur : Vous n'avez sélectionné aucune application à arrêter", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        backmusic.Play()
+        MessageBox.Show("Erreur : Vous n'avez sélectionné aucune application à arrêter.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End If
     End Sub
 
@@ -120,7 +125,23 @@
         Else
             Dim backmusic As New System.Media.SoundPlayer(My.Resources.errorSound)
             backmusic.Play()
-            MessageBox.Show("Erreur : Vous avez sélectionné aucune application à arrêter", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error)
+            MessageBox.Show("Erreur : Vous avez sélectionné aucun utilisateur à arrêter.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error)
+        End If
+    End Sub
+
+    Private Sub Button3_Click(sender As Object, e As EventArgs) Handles Button3.Click
+        If RadioButton13.Checked = True Then
+            Bureau.Close()
+        ElseIf RadioButton14.Checked = True Then
+            Bureau2.Close()
+        ElseIf RadioButton15.Checked = True Then
+            Applications.Close()
+        ElseIf RadioButton16.Checked = True Then
+            Paramètres.Close()
+        Else
+            Dim backmusic As New System.Media.SoundPlayer(My.Resources.errorSound)
+            backmusic.Play()
+            MessageBox.Show("Erreur : Vous avez sélectionné aucun service à arrêter.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error)
         End If
     End Sub
 End Class

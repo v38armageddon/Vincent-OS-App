@@ -8,7 +8,7 @@
                 Store.Show()
                 Me.Close()
             ElseIf Bureau2.Panel1.Visible = True Then
-                Options.Show()
+                Paramètres.Show()
                 Me.Close()
             ElseIf Bureau2.Button11.Visible = True Then
                 Store.Show()
