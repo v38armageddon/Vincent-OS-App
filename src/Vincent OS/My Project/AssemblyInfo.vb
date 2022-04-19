@@ -14,7 +14,7 @@ Imports System.Runtime.InteropServices
 <Assembly: AssemblyDescription("Découvrez un mini système d'exploitation avec des logiciels sympa.")>
 <Assembly: AssemblyCompany("v38armageddon Software")>
 <Assembly: AssemblyProduct("Vincent OS")>
-<Assembly: AssemblyCopyright("Open Source 2019-2022")>
+<Assembly: AssemblyCopyright("GPL-v3.0 2019-2022")>
 <Assembly: AssemblyTrademark("")> 
 
 <Assembly: ComVisible(False)> 
