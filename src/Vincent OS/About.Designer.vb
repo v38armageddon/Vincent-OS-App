@@ -63,7 +63,7 @@ Partial Class About
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(258, 32)
         Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Ce système d'exploitation est Open Source" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "soumis sous la licence : The Unlicense" &
+        Me.Label3.Text = "Ce système d'exploitation est Open Source" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "soumis sous la licence : GPL-v3.0" &
     ""
         '
         'Label4
