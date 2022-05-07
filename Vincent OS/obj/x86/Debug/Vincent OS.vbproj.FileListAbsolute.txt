@@ -1,0 +1,30 @@
+C:\Users\v38armageddon\documents\visual studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\v38armageddon\documents\visual studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Bureau.resources
+C:\Users\v38armageddon\documents\visual studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Démarrage.resources
+C:\Users\v38armageddon\documents\visual studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Resources.resources
+C:\Users\v38armageddon\documents\visual studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\v38armageddon\documents\visual studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\v38armageddon\documents\visual studio 2010\Projects\Vincent OS\Vincent OS\bin\Debug\Vincent OS.exe
+C:\Users\v38armageddon\documents\visual studio 2010\Projects\Vincent OS\Vincent OS\bin\Debug\Vincent OS.pdb
+C:\Users\v38armageddon\documents\visual studio 2010\Projects\Vincent OS\Vincent OS\bin\Debug\Vincent OS.xml
+C:\Users\v38armageddon\documents\visual studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent OS.exe
+C:\Users\v38armageddon\documents\visual studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent OS.xml
+C:\Users\v38armageddon\documents\visual studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent OS.pdb
+C:\Users\v38armageddon\documents\visual studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Arrêt.resources
+C:\Users\v38armageddon\documents\visual studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Login.resources
+C:\Users\v38armageddon\documents\visual studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Bureau2.resources
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Bing_Chrome.resources
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.meme.resources
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\bin\Debug\Interop.WMPLib.dll
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent OS.vbproj.ResolveComReference.cache
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Media.resources
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Visio.resources
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Notepad.resources
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.pdf.resources
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Alerte.resources
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Ecran.resources
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Options.resources
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.about.resources

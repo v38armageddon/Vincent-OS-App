@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{0610EEE6-9E32-4894-86AE-1223C09FB657}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Vincent_OS.My.MyApplication</StartupObject>
+    <RootNamespace>Vincent_OS</RootNamespace>
+    <AssemblyName>Vincent OS</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>Vincent OS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Vincent OS.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>unnamed.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="about.Designer.vb">
+      <DependentUpon>about.vb</DependentUpon>
+    </Compile>
+    <Compile Include="about.vb" />
+    <Compile Include="Alerte.Designer.vb">
+      <DependentUpon>Alerte.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Alerte.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Arrêt.Designer.vb">
+      <DependentUpon>Arrêt.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Arrêt.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bing Chrome.Designer.vb">
+      <DependentUpon>Bing Chrome.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bing Chrome.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bureau.Designer.vb">
+      <DependentUpon>Bureau.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bureau.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Bureau2.Designer.vb">
+      <DependentUpon>Bureau2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Bureau2.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Démarrage.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Démarrage.Designer.vb">
+      <DependentUpon>Démarrage.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ecran.Designer.vb">
+      <DependentUpon>Ecran.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ecran.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Options.Designer.vb">
+      <DependentUpon>Options.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Options.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PDF.Designer.vb">
+      <DependentUpon>PDF.vb</DependentUpon>
+    </Compile>
+    <Compile Include="PDF.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Media.Designer.vb">
+      <DependentUpon>Media.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Media.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Notepad.Designer.vb">
+      <DependentUpon>Notepad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Notepad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visio.Designer.vb">
+      <DependentUpon>Visio.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Visio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="meme.Designer.vb">
+      <DependentUpon>meme.vb</DependentUpon>
+    </Compile>
+    <Compile Include="meme.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="about.resx">
+      <DependentUpon>about.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Alerte.resx">
+      <DependentUpon>Alerte.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arrêt.resx">
+      <DependentUpon>Arrêt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bing Chrome.resx">
+      <DependentUpon>Bing Chrome.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bureau.resx">
+      <DependentUpon>Bureau.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bureau2.resx">
+      <DependentUpon>Bureau2.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Démarrage.resx">
+      <DependentUpon>Démarrage.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ecran.resx">
+      <DependentUpon>Ecran.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Options.resx">
+      <DependentUpon>Options.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PDF.resx">
+      <DependentUpon>PDF.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Media.resx">
+      <DependentUpon>Media.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notepad.resx">
+      <DependentUpon>Notepad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visio.resx">
+      <DependentUpon>Visio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="meme.resx">
+      <DependentUpon>meme.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="unnamed.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
