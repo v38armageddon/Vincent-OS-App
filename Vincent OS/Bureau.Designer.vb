@@ -30,6 +30,9 @@ Partial Class Bureau
         Me.MonthCalendar1 = New System.Windows.Forms.MonthCalendar()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Button8 = New System.Windows.Forms.Button()
+        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -39,14 +42,13 @@ Partial Class Bureau
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
-        Me.PictureBox4 = New System.Windows.Forms.PictureBox()
-        Me.Button8 = New System.Windows.Forms.Button()
-        Me.Button9 = New System.Windows.Forms.Button()
+        Me.Button10 = New System.Windows.Forms.Button()
+        Me.Button11 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Panel1.SuspendLayout()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'PictureBox1
@@ -104,6 +106,38 @@ Partial Class Bureau
         Me.Panel1.Size = New System.Drawing.Size(157, 165)
         Me.Panel1.TabIndex = 4
         Me.Panel1.Visible = False
+        '
+        'Button9
+        '
+        Me.Button9.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Button9.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button9.Location = New System.Drawing.Point(69, 59)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(85, 56)
+        Me.Button9.TabIndex = 5
+        Me.Button9.Text = "Afficher tout les options"
+        Me.Button9.UseVisualStyleBackColor = False
+        '
+        'Button8
+        '
+        Me.Button8.BackColor = System.Drawing.Color.Red
+        Me.Button8.ForeColor = System.Drawing.Color.White
+        Me.Button8.Location = New System.Drawing.Point(60, 21)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(94, 23)
+        Me.Button8.TabIndex = 4
+        Me.Button8.Text = "Déconnexion"
+        Me.Button8.UseVisualStyleBackColor = False
+        '
+        'PictureBox4
+        '
+        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
+        Me.PictureBox4.Location = New System.Drawing.Point(3, 59)
+        Me.PictureBox4.Name = "PictureBox4"
+        Me.PictureBox4.Size = New System.Drawing.Size(61, 56)
+        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
+        Me.PictureBox4.TabIndex = 3
+        Me.PictureBox4.TabStop = False
         '
         'Label3
         '
@@ -197,44 +231,35 @@ Partial Class Bureau
         Me.Button7.TabIndex = 16
         Me.Button7.UseVisualStyleBackColor = True
         '
-        'PictureBox4
+        'Button10
         '
-        Me.PictureBox4.Image = CType(resources.GetObject("PictureBox4.Image"), System.Drawing.Image)
-        Me.PictureBox4.Location = New System.Drawing.Point(3, 59)
-        Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(61, 56)
-        Me.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox4.TabIndex = 3
-        Me.PictureBox4.TabStop = False
+        Me.Button10.BackgroundImage = CType(resources.GetObject("Button10.BackgroundImage"), System.Drawing.Image)
+        Me.Button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button10.Location = New System.Drawing.Point(771, 325)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(90, 91)
+        Me.Button10.TabIndex = 17
+        Me.Button10.UseVisualStyleBackColor = True
         '
-        'Button8
+        'Button11
         '
-        Me.Button8.BackColor = System.Drawing.Color.Red
-        Me.Button8.ForeColor = System.Drawing.Color.White
-        Me.Button8.Location = New System.Drawing.Point(60, 21)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(94, 23)
-        Me.Button8.TabIndex = 4
-        Me.Button8.Text = "Déconnexion"
-        Me.Button8.UseVisualStyleBackColor = False
-        '
-        'Button9
-        '
-        Me.Button9.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button9.Font = New System.Drawing.Font("Arial", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button9.Location = New System.Drawing.Point(69, 59)
-        Me.Button9.Name = "Button9"
-        Me.Button9.Size = New System.Drawing.Size(85, 56)
-        Me.Button9.TabIndex = 5
-        Me.Button9.Text = "Afficher tout les options"
-        Me.Button9.UseVisualStyleBackColor = False
+        Me.Button11.BackgroundImage = CType(resources.GetObject("Button11.BackgroundImage"), System.Drawing.Image)
+        Me.Button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button11.Location = New System.Drawing.Point(102, 228)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(91, 91)
+        Me.Button11.TabIndex = 18
+        Me.Button11.UseVisualStyleBackColor = True
         '
         'Bureau
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(96.0!, 96.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(863, 442)
+        Me.Controls.Add(Me.Button11)
+        Me.Controls.Add(Me.Button10)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Panel1)
@@ -254,8 +279,8 @@ Partial Class Bureau
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
-        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -278,4 +303,6 @@ Partial Class Bureau
     Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox
     Friend WithEvents Button8 As System.Windows.Forms.Button
     Friend WithEvents Button9 As System.Windows.Forms.Button
+    Friend WithEvents Button10 As System.Windows.Forms.Button
+    Friend WithEvents Button11 As System.Windows.Forms.Button
 End Class

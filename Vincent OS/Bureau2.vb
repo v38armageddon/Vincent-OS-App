@@ -19,8 +19,6 @@
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
         Arrêt.Timer1.Start()
         Arrêt.Show()
-        Dim son2 = New System.Media.SoundPlayer("C:\Users\v38armageddon\Music\9763.wav")
-        son2.Play()
         Me.Hide()
     End Sub
 
@@ -29,9 +27,7 @@
     End Sub
 
     Private Sub Bureau2_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        MessageBox.Show("Quand vous utilisez la session <<Invité>>, les données ne sont pas sauvegardé et les paramètres ne sont pas affichés")
-        Dim son = New System.Media.SoundPlayer("C:\Users\v38armageddon\Music\9760.wav")
-        son.Play()
+        MessageBox.Show("Quand vous utilisez la session <<Invité>>, les paramètres ne sont pas affichés")
     End Sub
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
@@ -61,5 +57,13 @@
     Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button8.Click
         Me.Hide()
         Login.Show()
+    End Sub
+
+    Private Sub Button9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button9.Click
+        exewin.Show()
+    End Sub
+
+    Private Sub Button10_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button10.Click
+        News.Show()
     End Sub
 End Class

@@ -27,4 +27,12 @@ C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent 
 C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Alerte.resources
 C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Ecran.resources
 C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Options.resources
-C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.about.resources
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.News.resources
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.alertelog.resources
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.exewin.resources
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.apropos.resources
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\bin\Debug\Vincent OS.exe.manifest
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\bin\Debug\Vincent OS.application
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent OS.TrustInfo.xml
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent OS.exe.manifest
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent OS.application

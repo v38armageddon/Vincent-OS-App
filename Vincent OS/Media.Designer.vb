@@ -35,6 +35,7 @@ Partial Class Media
         '
         'CheckBox2
         '
+        Me.CheckBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.CheckBox2.AutoSize = True
         Me.CheckBox2.BackColor = System.Drawing.Color.Black
         Me.CheckBox2.ForeColor = System.Drawing.Color.White
@@ -47,6 +48,7 @@ Partial Class Media
         '
         'Button4
         '
+        Me.Button4.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button4.BackColor = System.Drawing.Color.Red
         Me.Button4.Location = New System.Drawing.Point(464, 274)
         Me.Button4.Name = "Button4"
@@ -57,6 +59,7 @@ Partial Class Media
         '
         'Button5
         '
+        Me.Button5.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button5.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.Button5.Location = New System.Drawing.Point(369, 274)
         Me.Button5.Name = "Button5"
@@ -67,6 +70,7 @@ Partial Class Media
         '
         'Button6
         '
+        Me.Button6.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button6.BackColor = System.Drawing.Color.FromArgb(CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.Button6.Location = New System.Drawing.Point(400, 302)
         Me.Button6.Name = "Button6"
@@ -77,6 +81,8 @@ Partial Class Media
         '
         'TextBox2
         '
+        Me.TextBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.TextBox2.Location = New System.Drawing.Point(12, 276)
         Me.TextBox2.Name = "TextBox2"
         Me.TextBox2.ReadOnly = True
@@ -85,6 +91,9 @@ Partial Class Media
         '
         'AxWindowsMediaPlayer2
         '
+        Me.AxWindowsMediaPlayer2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.AxWindowsMediaPlayer2.Enabled = True
         Me.AxWindowsMediaPlayer2.Location = New System.Drawing.Point(6, 5)
         Me.AxWindowsMediaPlayer2.Name = "AxWindowsMediaPlayer2"

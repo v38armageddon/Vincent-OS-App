@@ -57,7 +57,9 @@ Partial Class Notepad
         '
         'RichTextBox1
         '
-        Me.RichTextBox1.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.RichTextBox1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.RichTextBox1.Location = New System.Drawing.Point(0, 24)
         Me.RichTextBox1.Name = "RichTextBox1"
         Me.RichTextBox1.Size = New System.Drawing.Size(762, 391)
@@ -114,13 +116,13 @@ Partial Class Notepad
         'AperçuToolStripMenuItem
         '
         Me.AperçuToolStripMenuItem.Name = "AperçuToolStripMenuItem"
-        Me.AperçuToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AperçuToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
         Me.AperçuToolStripMenuItem.Text = "Aperçu"
         '
         'ImprimerToolStripMenuItem1
         '
         Me.ImprimerToolStripMenuItem1.Name = "ImprimerToolStripMenuItem1"
-        Me.ImprimerToolStripMenuItem1.Size = New System.Drawing.Size(152, 22)
+        Me.ImprimerToolStripMenuItem1.Size = New System.Drawing.Size(116, 22)
         Me.ImprimerToolStripMenuItem1.Text = "Imprimer"
         '
         'ÉditionToolStripMenuItem
@@ -133,31 +135,31 @@ Partial Class Notepad
         'AnnulerToolStripMenuItem
         '
         Me.AnnulerToolStripMenuItem.Name = "AnnulerToolStripMenuItem"
-        Me.AnnulerToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.AnnulerToolStripMenuItem.Size = New System.Drawing.Size(111, 22)
         Me.AnnulerToolStripMenuItem.Text = "Annuler"
         '
         'RétablirToolStripMenuItem
         '
         Me.RétablirToolStripMenuItem.Name = "RétablirToolStripMenuItem"
-        Me.RétablirToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.RétablirToolStripMenuItem.Size = New System.Drawing.Size(111, 22)
         Me.RétablirToolStripMenuItem.Text = "Rétablir"
         '
         'CopierToolStripMenuItem
         '
         Me.CopierToolStripMenuItem.Name = "CopierToolStripMenuItem"
-        Me.CopierToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.CopierToolStripMenuItem.Size = New System.Drawing.Size(111, 22)
         Me.CopierToolStripMenuItem.Text = "Copier"
         '
         'CouperToolStripMenuItem
         '
         Me.CouperToolStripMenuItem.Name = "CouperToolStripMenuItem"
-        Me.CouperToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.CouperToolStripMenuItem.Size = New System.Drawing.Size(111, 22)
         Me.CouperToolStripMenuItem.Text = "Couper"
         '
         'CollerToolStripMenuItem
         '
         Me.CollerToolStripMenuItem.Name = "CollerToolStripMenuItem"
-        Me.CollerToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.CollerToolStripMenuItem.Size = New System.Drawing.Size(111, 22)
         Me.CollerToolStripMenuItem.Text = "Coller"
         '
         'TexteToolStripMenuItem
@@ -189,11 +191,13 @@ Partial Class Notepad
         'CouleurDeFondToolStripMenuItem
         '
         Me.CouleurDeFondToolStripMenuItem.Name = "CouleurDeFondToolStripMenuItem"
-        Me.CouleurDeFondToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.CouleurDeFondToolStripMenuItem.Size = New System.Drawing.Size(151, 22)
         Me.CouleurDeFondToolStripMenuItem.Text = "Couleur de fond"
         '
         'CheckBox1
         '
+        Me.CheckBox1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.CheckBox1.AutoSize = True
         Me.CheckBox1.Location = New System.Drawing.Point(207, 7)
         Me.CheckBox1.Name = "CheckBox1"

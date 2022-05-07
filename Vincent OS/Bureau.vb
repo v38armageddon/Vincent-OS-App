@@ -15,15 +15,11 @@
 
     Private Sub Bureau_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
         Timer1.Start()
-        Dim son = New System.Media.SoundPlayer("C:\Users\v38armageddon\Music\9760.wav")
-        son.Play()
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
         Arrêt.Timer1.Start()
         Arrêt.Show()
-        Dim son2 = New System.Media.SoundPlayer("C:\Users\v38armageddon\Music\9763.wav")
-        son2.Play()
         Me.Hide()
     End Sub
 
@@ -62,5 +58,13 @@
 
     Private Sub Button9_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button9.Click
         Options.Show()
+    End Sub
+
+    Private Sub Button10_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button10.Click
+        News.Show()
+    End Sub
+
+    Private Sub Button11_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button11.Click
+        exewin.Show()
     End Sub
 End Class

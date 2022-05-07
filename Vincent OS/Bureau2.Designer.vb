@@ -25,6 +25,7 @@ Partial Class Bureau2
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Bureau2))
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Button8 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -39,7 +40,8 @@ Partial Class Bureau2
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
-        Me.Button8 = New System.Windows.Forms.Button()
+        Me.Button10 = New System.Windows.Forms.Button()
+        Me.Button9 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -58,6 +60,18 @@ Partial Class Bureau2
         Me.Panel1.Size = New System.Drawing.Size(157, 165)
         Me.Panel1.TabIndex = 9
         Me.Panel1.Visible = False
+        '
+        'Button8
+        '
+        Me.Button8.BackColor = System.Drawing.Color.Red
+        Me.Button8.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button8.ForeColor = System.Drawing.Color.White
+        Me.Button8.Location = New System.Drawing.Point(0, 71)
+        Me.Button8.Name = "Button8"
+        Me.Button8.Size = New System.Drawing.Size(154, 44)
+        Me.Button8.TabIndex = 3
+        Me.Button8.Text = "Déconnexion"
+        Me.Button8.UseVisualStyleBackColor = False
         '
         'Label3
         '
@@ -192,24 +206,35 @@ Partial Class Bureau2
         Me.Button7.TabIndex = 15
         Me.Button7.UseVisualStyleBackColor = True
         '
-        'Button8
+        'Button10
         '
-        Me.Button8.BackColor = System.Drawing.Color.Red
-        Me.Button8.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button8.ForeColor = System.Drawing.Color.White
-        Me.Button8.Location = New System.Drawing.Point(0, 71)
-        Me.Button8.Name = "Button8"
-        Me.Button8.Size = New System.Drawing.Size(154, 44)
-        Me.Button8.TabIndex = 3
-        Me.Button8.Text = "Déconnexion"
-        Me.Button8.UseVisualStyleBackColor = False
+        Me.Button10.BackgroundImage = CType(resources.GetObject("Button10.BackgroundImage"), System.Drawing.Image)
+        Me.Button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button10.Location = New System.Drawing.Point(772, 316)
+        Me.Button10.Name = "Button10"
+        Me.Button10.Size = New System.Drawing.Size(91, 91)
+        Me.Button10.TabIndex = 18
+        Me.Button10.UseVisualStyleBackColor = True
+        '
+        'Button9
+        '
+        Me.Button9.BackgroundImage = CType(resources.GetObject("Button9.BackgroundImage"), System.Drawing.Image)
+        Me.Button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button9.Location = New System.Drawing.Point(104, 219)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(91, 91)
+        Me.Button9.TabIndex = 19
+        Me.Button9.UseVisualStyleBackColor = True
         '
         'Bureau2
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(863, 442)
+        Me.Controls.Add(Me.Button9)
+        Me.Controls.Add(Me.Button10)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Panel1)
@@ -250,4 +275,6 @@ Partial Class Bureau2
     Friend WithEvents Button6 As System.Windows.Forms.Button
     Friend WithEvents Button7 As System.Windows.Forms.Button
     Friend WithEvents Button8 As System.Windows.Forms.Button
+    Friend WithEvents Button10 As System.Windows.Forms.Button
+    Friend WithEvents Button9 As System.Windows.Forms.Button
 End Class
