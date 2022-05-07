@@ -27,7 +27,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>4.0.0.%2a</ApplicationVersion>
+    <ApplicationVersion>4.1.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -224,12 +224,6 @@
     <Compile Include="paints.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="PDF.Designer.vb">
-      <DependentUpon>PDF.vb</DependentUpon>
-    </Compile>
-    <Compile Include="PDF.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Media.Designer.vb">
       <DependentUpon>Media.vb</DependentUpon>
     </Compile>
@@ -340,9 +334,6 @@
     <EmbeddedResource Include="paints.resx">
       <DependentUpon>paints.vb</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="PDF.resx">
-      <DependentUpon>PDF.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Media.resx">
       <DependentUpon>Media.vb</DependentUpon>
     </EmbeddedResource>
@@ -399,6 +390,15 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
+    <COMReference Include="WMPNSSCI">
+      <Guid>{453E9E02-8BA4-474C-BFA0-37727E44F6AE}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="unnamed.ico" />
@@ -425,6 +425,9 @@
       <ProductName>Windows Installer 3.1</ProductName>
       <Install>true</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

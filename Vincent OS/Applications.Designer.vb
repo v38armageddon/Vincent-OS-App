@@ -26,13 +26,11 @@ Partial Class Applications
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
         Me.Button5 = New System.Windows.Forms.Button()
         Me.Button6 = New System.Windows.Forms.Button()
         Me.Button7 = New System.Windows.Forms.Button()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.CheckBox2 = New System.Windows.Forms.CheckBox()
-        Me.CheckBox3 = New System.Windows.Forms.CheckBox()
         Me.CheckBox4 = New System.Windows.Forms.CheckBox()
         Me.CheckBox5 = New System.Windows.Forms.CheckBox()
         Me.CheckBox6 = New System.Windows.Forms.CheckBox()
@@ -84,20 +82,10 @@ Partial Class Applications
         Me.Button3.Text = "Gestionnaire de fichiers"
         Me.Button3.UseVisualStyleBackColor = True
         '
-        'Button4
-        '
-        Me.Button4.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.Location = New System.Drawing.Point(12, 214)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(139, 35)
-        Me.Button4.TabIndex = 4
-        Me.Button4.Text = "Lecteur PDF"
-        Me.Button4.UseVisualStyleBackColor = True
-        '
         'Button5
         '
         Me.Button5.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button5.Location = New System.Drawing.Point(12, 255)
+        Me.Button5.Location = New System.Drawing.Point(12, 214)
         Me.Button5.Name = "Button5"
         Me.Button5.Size = New System.Drawing.Size(139, 36)
         Me.Button5.TabIndex = 5
@@ -146,17 +134,6 @@ Partial Class Applications
         Me.CheckBox2.Text = "Afficher sur le Bureau"
         Me.CheckBox2.UseVisualStyleBackColor = True
         '
-        'CheckBox3
-        '
-        Me.CheckBox3.AutoSize = True
-        Me.CheckBox3.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox3.Location = New System.Drawing.Point(157, 219)
-        Me.CheckBox3.Name = "CheckBox3"
-        Me.CheckBox3.Size = New System.Drawing.Size(211, 26)
-        Me.CheckBox3.TabIndex = 10
-        Me.CheckBox3.Text = "Afficher sur le Bureau"
-        Me.CheckBox3.UseVisualStyleBackColor = True
-        '
         'CheckBox4
         '
         Me.CheckBox4.AutoSize = True
@@ -183,7 +160,7 @@ Partial Class Applications
         '
         Me.CheckBox6.AutoSize = True
         Me.CheckBox6.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox6.Location = New System.Drawing.Point(157, 261)
+        Me.CheckBox6.Location = New System.Drawing.Point(157, 220)
         Me.CheckBox6.Name = "CheckBox6"
         Me.CheckBox6.Size = New System.Drawing.Size(211, 26)
         Me.CheckBox6.TabIndex = 13
@@ -225,7 +202,7 @@ Partial Class Applications
         'Button9
         '
         Me.Button9.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button9.Location = New System.Drawing.Point(374, 234)
+        Me.Button9.Location = New System.Drawing.Point(12, 262)
         Me.Button9.Name = "Button9"
         Me.Button9.Size = New System.Drawing.Size(139, 36)
         Me.Button9.TabIndex = 17
@@ -236,7 +213,7 @@ Partial Class Applications
         '
         Me.CheckBox9.AutoSize = True
         Me.CheckBox9.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.CheckBox9.Location = New System.Drawing.Point(515, 240)
+        Me.CheckBox9.Location = New System.Drawing.Point(157, 268)
         Me.CheckBox9.Name = "CheckBox9"
         Me.CheckBox9.Size = New System.Drawing.Size(211, 26)
         Me.CheckBox9.TabIndex = 18
@@ -256,13 +233,11 @@ Partial Class Applications
         Me.Controls.Add(Me.CheckBox6)
         Me.Controls.Add(Me.CheckBox5)
         Me.Controls.Add(Me.CheckBox4)
-        Me.Controls.Add(Me.CheckBox3)
         Me.Controls.Add(Me.CheckBox2)
         Me.Controls.Add(Me.CheckBox1)
         Me.Controls.Add(Me.Button7)
         Me.Controls.Add(Me.Button6)
         Me.Controls.Add(Me.Button5)
-        Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
@@ -281,13 +256,11 @@ Partial Class Applications
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Button2 As System.Windows.Forms.Button
     Friend WithEvents Button3 As System.Windows.Forms.Button
-    Friend WithEvents Button4 As System.Windows.Forms.Button
     Friend WithEvents Button5 As System.Windows.Forms.Button
     Friend WithEvents Button6 As System.Windows.Forms.Button
     Friend WithEvents Button7 As System.Windows.Forms.Button
     Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
     Friend WithEvents CheckBox2 As System.Windows.Forms.CheckBox
-    Friend WithEvents CheckBox3 As System.Windows.Forms.CheckBox
     Friend WithEvents CheckBox4 As System.Windows.Forms.CheckBox
     Friend WithEvents CheckBox5 As System.Windows.Forms.CheckBox
     Friend WithEvents CheckBox6 As System.Windows.Forms.CheckBox

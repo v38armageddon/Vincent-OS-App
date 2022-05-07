@@ -12,12 +12,9 @@
         meme.Show()
     End Sub
 
-    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
-        pdf.Show()
-    End Sub
-
     Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
-        Media.Show()
+        ''Media.Show()
+        MessageBox.Show("Cette application est désactivé pour le moment. Désolé du dérangement...", "Erreur")
     End Sub
 
     Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click
@@ -78,24 +75,6 @@
             End If
             If Bureau2.Visible = True Then
                 Bureau2.Button3.Visible = False
-            End If
-        End If
-    End Sub
-
-    Private Sub CheckBox3_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckBox3.CheckedChanged
-        If CheckBox3.Checked = True Then
-            If Bureau.Visible = True Then
-                Bureau.Button7.Visible = True
-            End If
-            If Bureau2.Visible = True Then
-                Bureau2.Button7.Visible = True
-            End If
-        ElseIf CheckBox3.Checked = False Then
-            If Bureau.Visible = True Then
-                Bureau.Button7.Visible = False
-            End If
-            If Bureau2.Visible = True Then
-                Bureau2.Button7.Visible = False
             End If
         End If
     End Sub
@@ -196,5 +175,21 @@
 
     Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button8.Click
         game.Show()
+    End Sub
+
+    Private Sub Applications_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        If Bureau.Visible = True Then
+            Bureau.Button26.Visible = True
+        ElseIf Bureau2.Visible = True Then
+            Bureau2.Button26.Visible = True
+        End If
+    End Sub
+
+    Private Sub Applications_FormClosed(ByVal sender As System.Object, ByVal e As System.Windows.Forms.FormClosedEventArgs) Handles MyBase.FormClosed
+        If Bureau.Visible = True Then
+            Bureau.Button26.Visible = False
+        ElseIf Bureau2.Visible = True Then
+            Bureau2.Button26.Visible = False
+        End If
     End Sub
 End Class

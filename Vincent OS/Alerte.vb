@@ -5,7 +5,6 @@
         Media.Show()
         meme.Show()
         Notepad.Show()
-        pdf.Show()
         Visio.Show()
         Me.Close()
     End Sub

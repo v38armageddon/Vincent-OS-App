@@ -26,4 +26,13 @@
         finishSoundPlayer.Play()
         MoveToStart()
     End Sub
+
+    Private Sub MazeGame_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Me.PictureBox1.BackColor = Color.Transparent
+    End Sub
+
+    Private Sub PictureBox1_MouseEnter(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox1.MouseEnter
+        finishSoundPlayer.Play()
+        MoveToStart()
+    End Sub
 End Class

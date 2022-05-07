@@ -18,9 +18,7 @@
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        Arrêt.Timer1.Start()
-        Arrêt.Show()
-        Me.Hide()
+        alertelog.Show()
     End Sub
 
     Private Sub PictureBox2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox2.Click
@@ -40,7 +38,8 @@
     End Sub
 
     Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
-        Media.Show()
+        ''Media.Show()
+        MessageBox.Show("Cette application est désactivé pour le moment. Désolé du dérangement...", "Erreur")
     End Sub
 
     Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
@@ -51,11 +50,7 @@
         Notepad.Show()
     End Sub
 
-    Private Sub Button7_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button7.Click
-        pdf.Show()
-    End Sub
-
-    Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button8.Click
+    Private Sub Button8_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Me.Hide()
         Login.Show()
     End Sub
@@ -104,10 +99,6 @@
         Notepad.BringToFront()
     End Sub
 
-    Private Sub Button18_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button18.Click
-        pdf.BringToFront()
-    End Sub
-
     Private Sub Button19_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button19.Click
         Media.BringToFront()
     End Sub
@@ -134,5 +125,9 @@
 
     Private Sub Button25_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button25.Click
         Options.BringToFront()
+    End Sub
+
+    Private Sub Button26_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button26.Click
+        Applications.BringToFront()
     End Sub
 End Class

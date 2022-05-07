@@ -24,6 +24,8 @@ Partial Class MazeGame
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
         Me.Panel2 = New System.Windows.Forms.Panel()
+        Me.Label67 = New System.Windows.Forms.Label()
+        Me.Label66 = New System.Windows.Forms.Label()
         Me.finishLabel = New System.Windows.Forms.Label()
         Me.Label65 = New System.Windows.Forms.Label()
         Me.Label64 = New System.Windows.Forms.Label()
@@ -90,10 +92,10 @@ Partial Class MazeGame
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.Label49 = New System.Windows.Forms.Label()
-        Me.Label66 = New System.Windows.Forms.Label()
-        Me.Label67 = New System.Windows.Forms.Label()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
         Me.Panel2.SuspendLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'Panel1
@@ -179,6 +181,22 @@ Partial Class MazeGame
         Me.Panel2.Name = "Panel2"
         Me.Panel2.Size = New System.Drawing.Size(610, 590)
         Me.Panel2.TabIndex = 10
+        '
+        'Label67
+        '
+        Me.Label67.BackColor = System.Drawing.Color.RoyalBlue
+        Me.Label67.Location = New System.Drawing.Point(433, -5)
+        Me.Label67.Name = "Label67"
+        Me.Label67.Size = New System.Drawing.Size(23, 83)
+        Me.Label67.TabIndex = 58
+        '
+        'Label66
+        '
+        Me.Label66.BackColor = System.Drawing.Color.RoyalBlue
+        Me.Label66.Location = New System.Drawing.Point(557, 83)
+        Me.Label66.Name = "Label66"
+        Me.Label66.Size = New System.Drawing.Size(23, 119)
+        Me.Label66.TabIndex = 57
         '
         'finishLabel
         '
@@ -709,27 +727,21 @@ Partial Class MazeGame
         Me.Label49.Size = New System.Drawing.Size(175, 23)
         Me.Label49.TabIndex = 20
         '
-        'Label66
+        'PictureBox1
         '
-        Me.Label66.BackColor = System.Drawing.Color.RoyalBlue
-        Me.Label66.Location = New System.Drawing.Point(557, 83)
-        Me.Label66.Name = "Label66"
-        Me.Label66.Size = New System.Drawing.Size(23, 119)
-        Me.Label66.TabIndex = 57
-        '
-        'Label67
-        '
-        Me.Label67.BackColor = System.Drawing.Color.RoyalBlue
-        Me.Label67.Location = New System.Drawing.Point(433, -5)
-        Me.Label67.Name = "Label67"
-        Me.Label67.Size = New System.Drawing.Size(23, 83)
-        Me.Label67.TabIndex = 58
+        Me.PictureBox1.BackColor = System.Drawing.Color.Transparent
+        Me.PictureBox1.Location = New System.Drawing.Point(617, 526)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(47, 79)
+        Me.PictureBox1.TabIndex = 59
+        Me.PictureBox1.TabStop = False
         '
         'MazeGame
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(634, 614)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Label49)
         Me.Controls.Add(Me.Panel1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D
@@ -743,6 +755,7 @@ Partial Class MazeGame
         Me.Panel1.ResumeLayout(False)
         Me.Panel2.ResumeLayout(False)
         Me.Panel2.PerformLayout()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 
     End Sub
@@ -816,4 +829,5 @@ Partial Class MazeGame
     Friend WithEvents Label49 As System.Windows.Forms.Label
     Friend WithEvents Label67 As System.Windows.Forms.Label
     Friend WithEvents Label66 As System.Windows.Forms.Label
+    Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
 End Class

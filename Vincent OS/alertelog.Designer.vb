@@ -24,8 +24,8 @@ Partial Class alertelog
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(alertelog))
         Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.ComboBox1 = New System.Windows.Forms.ComboBox()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -33,52 +33,54 @@ Partial Class alertelog
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Lime
-        Me.Button1.Location = New System.Drawing.Point(95, 47)
+        Me.Button1.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(134, 63)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(136, 23)
+        Me.Button1.Size = New System.Drawing.Size(121, 29)
         Me.Button1.TabIndex = 0
-        Me.Button1.Text = "Oui"
+        Me.Button1.Text = "Confirmer"
         Me.Button1.UseVisualStyleBackColor = False
         '
-        'Button2
+        'ComboBox1
         '
-        Me.Button2.BackColor = System.Drawing.Color.Red
-        Me.Button2.Location = New System.Drawing.Point(251, 47)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(129, 23)
-        Me.Button2.TabIndex = 1
-        Me.Button2.Text = "Non"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.ComboBox1.FormattingEnabled = True
+        Me.ComboBox1.Items.AddRange(New Object() {"Arrêter", "Déconnecter", "Ne rien faire"})
+        Me.ComboBox1.Location = New System.Drawing.Point(134, 36)
+        Me.ComboBox1.Name = "ComboBox1"
+        Me.ComboBox1.Size = New System.Drawing.Size(121, 21)
+        Me.ComboBox1.TabIndex = 3
+        Me.ComboBox1.Text = "Arrêter"
         '
-        'Label1
+        'Label2
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(95, 22)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(285, 22)
-        Me.Label1.TabIndex = 2
-        Me.Label1.Text = "Êtes vous sûr de vouloir quitter ?"
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.White
+        Me.Label2.Location = New System.Drawing.Point(105, 9)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(171, 24)
+        Me.Label2.TabIndex = 4
+        Me.Label2.Text = "Souhaitez vous ?"
         '
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(12, 9)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(77, 75)
+        Me.PictureBox1.Size = New System.Drawing.Size(87, 83)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox1.TabIndex = 3
+        Me.PictureBox1.TabIndex = 5
         Me.PictureBox1.TabStop = False
         '
         'alertelog
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.BackColor = System.Drawing.SystemColors.ButtonShadow
-        Me.ClientSize = New System.Drawing.Size(384, 106)
+        Me.BackColor = System.Drawing.Color.Black
+        Me.ClientSize = New System.Drawing.Size(278, 105)
         Me.Controls.Add(Me.PictureBox1)
-        Me.Controls.Add(Me.Label1)
-        Me.Controls.Add(Me.Button2)
+        Me.Controls.Add(Me.Label2)
+        Me.Controls.Add(Me.ComboBox1)
         Me.Controls.Add(Me.Button1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "alertelog"
@@ -90,7 +92,7 @@ Partial Class alertelog
 
     End Sub
     Friend WithEvents Button1 As System.Windows.Forms.Button
-    Friend WithEvents Button2 As System.Windows.Forms.Button
-    Friend WithEvents Label1 As System.Windows.Forms.Label
+    Friend WithEvents ComboBox1 As System.Windows.Forms.ComboBox
+    Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents PictureBox1 As System.Windows.Forms.PictureBox
 End Class
