@@ -161,6 +161,7 @@ Partial Class Bing_Chrome
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
+        Me.MinimumSize = New System.Drawing.Size(778, 449)
         Me.Name = "Bing_Chrome"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Bing Chrome"

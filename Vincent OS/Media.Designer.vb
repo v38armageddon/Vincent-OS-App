@@ -116,6 +116,7 @@ Partial Class Media
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.CheckBox2)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
+        Me.MinimumSize = New System.Drawing.Size(562, 360)
         Me.Name = "Media"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Media Player"

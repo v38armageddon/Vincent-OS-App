@@ -105,7 +105,7 @@ Partial Class paints
         Me.Button3.Name = "Button3"
         Me.Button3.Size = New System.Drawing.Size(75, 23)
         Me.Button3.TabIndex = 6
-        Me.Button3.Text = "Effacer"
+        Me.Button3.Text = "Gomme"
         Me.Button3.UseVisualStyleBackColor = True
         '
         'Button4
@@ -114,7 +114,7 @@ Partial Class paints
         Me.Button4.Name = "Button4"
         Me.Button4.Size = New System.Drawing.Size(75, 23)
         Me.Button4.TabIndex = 7
-        Me.Button4.Text = "Supprimer"
+        Me.Button4.Text = "Pinceau"
         Me.Button4.UseVisualStyleBackColor = True
         '
         'Button5
@@ -132,7 +132,7 @@ Partial Class paints
         Me.Button6.Name = "Button6"
         Me.Button6.Size = New System.Drawing.Size(75, 23)
         Me.Button6.TabIndex = 9
-        Me.Button6.Text = "Pinceau"
+        Me.Button6.Text = "Supprimer"
         Me.Button6.UseVisualStyleBackColor = True
         '
         'paints
@@ -155,6 +155,7 @@ Partial Class paints
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
         Me.MaximizeBox = False
         Me.MinimizeBox = False
+        Me.MinimumSize = New System.Drawing.Size(715, 412)
         Me.Name = "paints"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Paint"

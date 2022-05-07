@@ -79,87 +79,87 @@ Partial Class Notepad
         '
         Me.FichierToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.NouveauToolStripMenuItem, Me.OuvrirToolStripMenuItem, Me.EnrengisterToolStripMenuItem, Me.EnrengisterSousToolStripMenuItem, Me.ImprimerToolStripMenuItem})
         Me.FichierToolStripMenuItem.Name = "FichierToolStripMenuItem"
-        Me.FichierToolStripMenuItem.Size = New System.Drawing.Size(50, 20)
+        Me.FichierToolStripMenuItem.Size = New System.Drawing.Size(54, 20)
         Me.FichierToolStripMenuItem.Text = "Fichier"
         '
         'NouveauToolStripMenuItem
         '
         Me.NouveauToolStripMenuItem.Name = "NouveauToolStripMenuItem"
-        Me.NouveauToolStripMenuItem.Size = New System.Drawing.Size(154, 22)
+        Me.NouveauToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
         Me.NouveauToolStripMenuItem.Text = "Nouveau"
         '
         'OuvrirToolStripMenuItem
         '
         Me.OuvrirToolStripMenuItem.Name = "OuvrirToolStripMenuItem"
-        Me.OuvrirToolStripMenuItem.Size = New System.Drawing.Size(154, 22)
+        Me.OuvrirToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
         Me.OuvrirToolStripMenuItem.Text = "Ouvrir"
         '
         'EnrengisterToolStripMenuItem
         '
         Me.EnrengisterToolStripMenuItem.Name = "EnrengisterToolStripMenuItem"
-        Me.EnrengisterToolStripMenuItem.Size = New System.Drawing.Size(154, 22)
+        Me.EnrengisterToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
         Me.EnrengisterToolStripMenuItem.Text = "Enrengister"
         '
         'EnrengisterSousToolStripMenuItem
         '
         Me.EnrengisterSousToolStripMenuItem.Name = "EnrengisterSousToolStripMenuItem"
-        Me.EnrengisterSousToolStripMenuItem.Size = New System.Drawing.Size(154, 22)
+        Me.EnrengisterSousToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
         Me.EnrengisterSousToolStripMenuItem.Text = "Enrengister sous"
         '
         'ImprimerToolStripMenuItem
         '
         Me.ImprimerToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AperçuToolStripMenuItem, Me.ImprimerToolStripMenuItem1})
         Me.ImprimerToolStripMenuItem.Name = "ImprimerToolStripMenuItem"
-        Me.ImprimerToolStripMenuItem.Size = New System.Drawing.Size(154, 22)
+        Me.ImprimerToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
         Me.ImprimerToolStripMenuItem.Text = "Imprimer"
         '
         'AperçuToolStripMenuItem
         '
         Me.AperçuToolStripMenuItem.Name = "AperçuToolStripMenuItem"
-        Me.AperçuToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
+        Me.AperçuToolStripMenuItem.Size = New System.Drawing.Size(123, 22)
         Me.AperçuToolStripMenuItem.Text = "Aperçu"
         '
         'ImprimerToolStripMenuItem1
         '
         Me.ImprimerToolStripMenuItem1.Name = "ImprimerToolStripMenuItem1"
-        Me.ImprimerToolStripMenuItem1.Size = New System.Drawing.Size(116, 22)
+        Me.ImprimerToolStripMenuItem1.Size = New System.Drawing.Size(123, 22)
         Me.ImprimerToolStripMenuItem1.Text = "Imprimer"
         '
         'ÉditionToolStripMenuItem
         '
         Me.ÉditionToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AnnulerToolStripMenuItem, Me.RétablirToolStripMenuItem, Me.CopierToolStripMenuItem, Me.CouperToolStripMenuItem, Me.CollerToolStripMenuItem})
         Me.ÉditionToolStripMenuItem.Name = "ÉditionToolStripMenuItem"
-        Me.ÉditionToolStripMenuItem.Size = New System.Drawing.Size(51, 20)
+        Me.ÉditionToolStripMenuItem.Size = New System.Drawing.Size(56, 20)
         Me.ÉditionToolStripMenuItem.Text = "Édition"
         '
         'AnnulerToolStripMenuItem
         '
         Me.AnnulerToolStripMenuItem.Name = "AnnulerToolStripMenuItem"
-        Me.AnnulerToolStripMenuItem.Size = New System.Drawing.Size(111, 22)
+        Me.AnnulerToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
         Me.AnnulerToolStripMenuItem.Text = "Annuler"
         '
         'RétablirToolStripMenuItem
         '
         Me.RétablirToolStripMenuItem.Name = "RétablirToolStripMenuItem"
-        Me.RétablirToolStripMenuItem.Size = New System.Drawing.Size(111, 22)
+        Me.RétablirToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
         Me.RétablirToolStripMenuItem.Text = "Rétablir"
         '
         'CopierToolStripMenuItem
         '
         Me.CopierToolStripMenuItem.Name = "CopierToolStripMenuItem"
-        Me.CopierToolStripMenuItem.Size = New System.Drawing.Size(111, 22)
+        Me.CopierToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
         Me.CopierToolStripMenuItem.Text = "Copier"
         '
         'CouperToolStripMenuItem
         '
         Me.CouperToolStripMenuItem.Name = "CouperToolStripMenuItem"
-        Me.CouperToolStripMenuItem.Size = New System.Drawing.Size(111, 22)
+        Me.CouperToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
         Me.CouperToolStripMenuItem.Text = "Couper"
         '
         'CollerToolStripMenuItem
         '
         Me.CollerToolStripMenuItem.Name = "CollerToolStripMenuItem"
-        Me.CollerToolStripMenuItem.Size = New System.Drawing.Size(111, 22)
+        Me.CollerToolStripMenuItem.Size = New System.Drawing.Size(116, 22)
         Me.CollerToolStripMenuItem.Text = "Coller"
         '
         'TexteToolStripMenuItem
@@ -172,26 +172,26 @@ Partial Class Notepad
         'CouleurToolStripMenuItem
         '
         Me.CouleurToolStripMenuItem.Name = "CouleurToolStripMenuItem"
-        Me.CouleurToolStripMenuItem.Size = New System.Drawing.Size(156, 22)
+        Me.CouleurToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
         Me.CouleurToolStripMenuItem.Text = "Couleur de police"
         '
         'PoliceToolStripMenuItem
         '
         Me.PoliceToolStripMenuItem.Name = "PoliceToolStripMenuItem"
-        Me.PoliceToolStripMenuItem.Size = New System.Drawing.Size(156, 22)
+        Me.PoliceToolStripMenuItem.Size = New System.Drawing.Size(167, 22)
         Me.PoliceToolStripMenuItem.Text = "Police"
         '
         'PageToolStripMenuItem
         '
         Me.PageToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.CouleurDeFondToolStripMenuItem})
         Me.PageToolStripMenuItem.Name = "PageToolStripMenuItem"
-        Me.PageToolStripMenuItem.Size = New System.Drawing.Size(43, 20)
+        Me.PageToolStripMenuItem.Size = New System.Drawing.Size(45, 20)
         Me.PageToolStripMenuItem.Text = "Page"
         '
         'CouleurDeFondToolStripMenuItem
         '
         Me.CouleurDeFondToolStripMenuItem.Name = "CouleurDeFondToolStripMenuItem"
-        Me.CouleurDeFondToolStripMenuItem.Size = New System.Drawing.Size(151, 22)
+        Me.CouleurDeFondToolStripMenuItem.Size = New System.Drawing.Size(160, 22)
         Me.CouleurDeFondToolStripMenuItem.Text = "Couleur de fond"
         '
         'CheckBox1
@@ -239,6 +239,7 @@ Partial Class Notepad
         Me.Controls.Add(Me.MenuStrip1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
         Me.MainMenuStrip = Me.MenuStrip1
+        Me.MinimumSize = New System.Drawing.Size(778, 449)
         Me.Name = "Notepad"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Notepad"

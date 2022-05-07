@@ -1,5 +1,11 @@
 Notes de mises à jours :
 
+Version 3.1.1 (14/08/2020) :
+- Correction d'un bug sur Paint où les boutons avait des problèmes.
+- Mise en inaccessibilité de l'option Terminal.
+- Correction de plusieurs bugs au niveau du redimensionnement de plusieurs applications
+- Correction de la version dans A propos
+
 Version 3.1 (21/05/2020) :
 - Ajout d'une icône "Application" pour exécuter toute les applications disponibles
 - Ajout d'un gestionnaire de jeux

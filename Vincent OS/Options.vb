@@ -11,10 +11,8 @@
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
         Alerte.Show()
     End Sub
-    Dim executeur As New Process
     Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
-        executeur.StartInfo.FileName = "C:\Windows\System32\cmd.exe"
-        executeur.Start()
+        MessageBox.Show("Du au développement de la version de Vincent OS 4, cette fonctionnalité n'est malheureusement pas disponible. Désolé du dérangement...")
     End Sub
 
     Private Sub RadioButton1_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RadioButton1.CheckedChanged

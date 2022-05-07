@@ -77,19 +77,18 @@ Partial Class armageddon
         '
         Me.RichTextBox1.Dock = System.Windows.Forms.DockStyle.Bottom
         Me.RichTextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.RichTextBox1.Location = New System.Drawing.Point(0, 164)
+        Me.RichTextBox1.Location = New System.Drawing.Point(0, 170)
         Me.RichTextBox1.Name = "RichTextBox1"
         Me.RichTextBox1.ReadOnly = True
-        Me.RichTextBox1.Size = New System.Drawing.Size(292, 104)
+        Me.RichTextBox1.Size = New System.Drawing.Size(292, 69)
         Me.RichTextBox1.TabIndex = 4
-        Me.RichTextBox1.Text = "Un grand merci à tout ceux qui le testent et dédicasse à tout mes abonnés qui cro" & _
-            "ivent en moi"
+        Me.RichTextBox1.Text = "Un grand merci à tout ceux qui le teste et à ceux qui croit au projet"
         '
         'armageddon
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(292, 268)
+        Me.ClientSize = New System.Drawing.Size(292, 239)
         Me.Controls.Add(Me.RichTextBox1)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Button3)

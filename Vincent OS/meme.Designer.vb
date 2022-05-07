@@ -97,6 +97,7 @@ Partial Class meme
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.TextBox1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
+        Me.MinimumSize = New System.Drawing.Size(778, 449)
         Me.Name = "meme"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Explorateur de fichier"

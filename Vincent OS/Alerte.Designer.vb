@@ -33,7 +33,7 @@ Partial Class Alerte
         'PictureBox1
         '
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
+        Me.PictureBox1.Location = New System.Drawing.Point(7, 9)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(56, 50)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -44,7 +44,7 @@ Partial Class Alerte
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(74, 12)
+        Me.Label1.Location = New System.Drawing.Point(69, 9)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(213, 44)
         Me.Label1.TabIndex = 1
@@ -53,7 +53,7 @@ Partial Class Alerte
         'Button1
         '
         Me.Button1.BackColor = System.Drawing.Color.Lime
-        Me.Button1.Location = New System.Drawing.Point(12, 68)
+        Me.Button1.Location = New System.Drawing.Point(7, 65)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(123, 23)
         Me.Button1.TabIndex = 2
@@ -63,7 +63,7 @@ Partial Class Alerte
         'Button2
         '
         Me.Button2.BackColor = System.Drawing.Color.Red
-        Me.Button2.Location = New System.Drawing.Point(155, 68)
+        Me.Button2.Location = New System.Drawing.Point(150, 65)
         Me.Button2.Name = "Button2"
         Me.Button2.Size = New System.Drawing.Size(125, 23)
         Me.Button2.TabIndex = 3
@@ -74,12 +74,14 @@ Partial Class Alerte
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(292, 113)
+        Me.ClientSize = New System.Drawing.Size(294, 106)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.SizableToolWindow
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.MaximumSize = New System.Drawing.Size(294, 106)
+        Me.MinimumSize = New System.Drawing.Size(294, 106)
         Me.Name = "Alerte"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Alerte"

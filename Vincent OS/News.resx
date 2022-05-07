@@ -118,7 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="RichTextBox1.Text" xml:space="preserve">
-    <value>Version 3.1 (21/05/2020) :
+    <value>Version 3.1.1 (14/08/2020) :
+- Correction d'un bug sur Paint où les boutons avait des problèmes.
+- Mise en inaccessibilité de l'option Terminal.
+- Correction de plusieurs bugs au niveau du redimensionnement de plusieurs applications
+- Correction de la version dans A propos
+
+Version 3.1 (21/05/2020) :
 - Ajout d'une icône "Application" pour exécuter toute les applications disponibles
 - Ajout d'un gestionnaire de jeux
 - Ajout du jeu : Labyrinth
