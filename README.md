@@ -16,7 +16,7 @@ Pour les processeurs 64 bits : Vincent OS > Vincent OS > bin > Debug > Vincent O
 - Mise à jour importante (comme les README)
 - Mise à jour de sécurité importante
 
-Ce projet est un projet Open Source sous la licence : GPL-v3.
+Ce projet est un projet Open Source sous la licence : GPL-v3.0.
 
 Si au cours de votre utilisation, vous constatez des bugs ou même donner des idées, n'hésitez pas à le dire sur les différentes réseaux sociaux :
 
