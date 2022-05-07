@@ -58,6 +58,7 @@ Partial Class Login
         '
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.ForeColor = System.Drawing.Color.White
         Me.Label2.Location = New System.Drawing.Point(143, 3)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(140, 22)
@@ -86,6 +87,7 @@ Partial Class Login
         '
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
         Me.Label1.Location = New System.Drawing.Point(146, 34)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(125, 22)
@@ -106,6 +108,7 @@ Partial Class Login
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label3.ForeColor = System.Drawing.Color.White
         Me.Label3.Location = New System.Drawing.Point(151, 164)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(55, 22)

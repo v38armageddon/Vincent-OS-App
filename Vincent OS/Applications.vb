@@ -13,8 +13,7 @@
     End Sub
 
     Private Sub Button5_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
-        ''Media.Show()
-        MessageBox.Show("Cette application est désactivé pour le moment. Désolé du dérangement...", "Erreur")
+        Media.Show()
     End Sub
 
     Private Sub Button6_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button6.Click

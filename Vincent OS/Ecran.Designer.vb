@@ -50,18 +50,18 @@ Partial Class Ecran
         Me.Label2.Size = New System.Drawing.Size(413, 36)
         Me.Label2.TabIndex = 2
         Me.Label2.Text = "Pour changer de fond d'écran, mettez l'adresse de l'image " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "puis cliquez sur le b" & _
-            "outon""Changer"""
+            "outon ""Changer"""
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Red
-        Me.Label3.Location = New System.Drawing.Point(3, 43)
+        Me.Label3.Location = New System.Drawing.Point(25, 53)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(254, 44)
+        Me.Label3.Size = New System.Drawing.Size(332, 22)
         Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Votre fond d'écran a bien été" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "changé !"
+        Me.Label3.Text = "Votre fond d'écran a bien été changé !"
         '
         'Button1
         '
@@ -86,6 +86,7 @@ Partial Class Ecran
         'OpenFileDialog1
         '
         Me.OpenFileDialog1.FileName = "OpenFileDialog1"
+        Me.OpenFileDialog1.RestoreDirectory = True
         '
         'Ecran
         '

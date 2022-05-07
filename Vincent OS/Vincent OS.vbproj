@@ -27,7 +27,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>4.1.0.%2a</ApplicationVersion>
+    <ApplicationVersion>4.2.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -188,10 +188,28 @@
     <Compile Include="exewin.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="chrono.Designer.vb">
+      <DependentUpon>chrono.vb</DependentUpon>
+    </Compile>
+    <Compile Include="chrono.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="game.Designer.vb">
       <DependentUpon>game.vb</DependentUpon>
     </Compile>
     <Compile Include="game.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login2bureau.Designer.vb">
+      <DependentUpon>Login2bureau.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login2bureau.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login2bureau2.Designer.vb">
+      <DependentUpon>Login2bureau2.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login2bureau2.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="mathingGame.Designer.vb">
@@ -316,8 +334,17 @@
     <EmbeddedResource Include="exewin.resx">
       <DependentUpon>exewin.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="chrono.resx">
+      <DependentUpon>chrono.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="game.resx">
       <DependentUpon>game.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login2bureau.resx">
+      <DependentUpon>Login2bureau.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login2bureau2.resx">
+      <DependentUpon>Login2bureau2.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="mathingGame.resx">
       <DependentUpon>mathingGame.vb</DependentUpon>

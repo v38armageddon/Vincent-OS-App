@@ -5,7 +5,7 @@
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        MessageBox.Show("Cette fonctionnalité n'est malheureusement pas disponible. Veuillez nous excuser pour la gêne occasionnée...")
+        Ecran.Show()
     End Sub
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
@@ -20,10 +20,12 @@
             If Bureau.Visible = True Then
                 Bureau.Location = New Point(480, 300)
                 Login.Location = New Point(480, 300)
+                Login2bureau.Location = New Point(480, 300)
                 Bureau.StartPosition = FormStartPosition.CenterScreen
                 Démarrage.StartPosition = FormStartPosition.CenterScreen
                 Login.StartPosition = FormStartPosition.CenterScreen
                 Arrêt.StartPosition = FormStartPosition.CenterScreen
+                Login2bureau.StartPosition = FormStartPosition.CenterScreen
                 Bureau.Width = 863
                 Bureau.Height = 442
                 Arrêt.Width = 863
@@ -32,14 +34,18 @@
                 Démarrage.Height = 442
                 Login.Width = 863
                 Login.Height = 442
+                Login2bureau.Width = 863
+                Login2bureau.Height = 442
             End If
             If Bureau2.Visible = True Then
                 Bureau2.Location = New Point(480, 300)
                 Login.Location = New Point(480, 300)
+                Login2bureau2.Location = New Point(480, 300)
                 Bureau2.StartPosition = FormStartPosition.CenterScreen
                 Démarrage.StartPosition = FormStartPosition.CenterScreen
                 Login.StartPosition = FormStartPosition.CenterScreen
                 Arrêt.StartPosition = FormStartPosition.CenterScreen
+                Login2bureau2.StartPosition = FormStartPosition.CenterScreen
                 Bureau2.Width = 863
                 Bureau2.Height = 442
                 Arrêt.Width = 863
@@ -48,6 +54,8 @@
                 Démarrage.Height = 442
                 Login.Width = 863
                 Login.Height = 442
+                Login2bureau2.Width = 863
+                Login2bureau2.Height = 442
             End If
         End If
     End Sub
@@ -57,10 +65,12 @@
             If Bureau.Visible = True Then
                 Bureau.Location = New Point(0, 0)
                 Login.Location = New Point(0, 0)
+                Login2bureau.Location = New Point(0, 0)
                 Bureau.StartPosition = FormStartPosition.Manual
                 Démarrage.StartPosition = FormStartPosition.Manual
                 Login.StartPosition = FormStartPosition.Manual
                 Arrêt.StartPosition = FormStartPosition.Manual
+                Login2bureau.StartPosition = FormStartPosition.Manual
                 Bureau.Width = My.Computer.Screen.Bounds.Width
                 Bureau.Height = My.Computer.Screen.Bounds.Height
                 Arrêt.Width = My.Computer.Screen.Bounds.Width
@@ -69,14 +79,18 @@
                 Démarrage.Height = My.Computer.Screen.Bounds.Height
                 Login.Width = My.Computer.Screen.Bounds.Width
                 Login.Height = My.Computer.Screen.Bounds.Height
+                Login2bureau.Width = My.Computer.Screen.Bounds.Width
+                Login2bureau.Height = My.Computer.Screen.Bounds.Height
             End If
             If Bureau2.Visible = True Then
                 Bureau2.Location = New Point(0, 0)
                 Login.Location = New Point(0, 0)
+                Login2bureau2.Location = New Point(0, 0)
                 Bureau2.StartPosition = FormStartPosition.Manual
                 Démarrage.StartPosition = FormStartPosition.Manual
                 Login.StartPosition = FormStartPosition.Manual
                 Arrêt.StartPosition = FormStartPosition.Manual
+                Login2bureau2.StartPosition = FormStartPosition.Manual
                 Bureau2.Width = My.Computer.Screen.Bounds.Width
                 Bureau2.Height = My.Computer.Screen.Bounds.Height
                 Arrêt.Width = My.Computer.Screen.Bounds.Width
@@ -85,6 +99,10 @@
                 Démarrage.Height = My.Computer.Screen.Bounds.Height
                 Login.Width = My.Computer.Screen.Bounds.Width
                 Login.Height = My.Computer.Screen.Bounds.Height
+                Login2bureau.Width = My.Computer.Screen.Bounds.Width
+                Login2bureau.Height = My.Computer.Screen.Bounds.Height
+                Login2bureau2.Width = My.Computer.Screen.Bounds.Width
+                Login2bureau2.Height = My.Computer.Screen.Bounds.Height
             End If
         End If
     End Sub

@@ -22,11 +22,11 @@
             End If
         ElseIf ComboBox1.SelectedItem = "Déconnecter" Then
             If Bureau.Visible = True Then
-                Bureau.Hide()
+                Bureau.Close()
                 Login.Show()
                 Me.Close()
             ElseIf Bureau2.Visible = True Then
-                Bureau2.Hide()
+                Bureau2.Close()
                 Login.Show()
                 Me.Close()
             ElseIf Login.Visible = True Then

@@ -1,5 +1,11 @@
 Notes de mises à jours :
 
+Version 4.2 (30/08/2020) :
+- Retour du Media Player !  Avec une refonte totale !
+- Changement des fonds d'écrans
+- Écran de chargement d'utilisateur ajouté
+- Possibilité de changer de fond d'écran
+
 Version 4.1 (22/08/2020) :
 - Nouvelle écran de déconnection
 - Suppresion du lecteur PDF, il ne marche plus trop bien mais vous pouvez toujours le télécharger avec ce lien : http://www.mediafire.com/file/nl4xa09md89rkfg/LecteurPDF.zip/file

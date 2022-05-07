@@ -21,6 +21,10 @@
             Démarrage.Height = My.Computer.Screen.Bounds.Height
             Login.Width = My.Computer.Screen.Bounds.Width
             Login.Height = My.Computer.Screen.Bounds.Height
+            Login2bureau.Width = My.Computer.Screen.Bounds.Width
+            Login2bureau.Height = My.Computer.Screen.Bounds.Height
+            Login2bureau2.Width = My.Computer.Screen.Bounds.Width
+            Login2bureau2.Height = My.Computer.Screen.Bounds.Height
         End If
         Me.Hide()
     End Sub

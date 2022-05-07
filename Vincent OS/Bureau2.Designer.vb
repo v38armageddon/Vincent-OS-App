@@ -294,9 +294,9 @@ Partial Class Bureau2
         Me.FlowLayoutPanel1.Controls.Add(Me.Button13)
         Me.FlowLayoutPanel1.Controls.Add(Me.Button14)
         Me.FlowLayoutPanel1.Controls.Add(Me.Button9)
-        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(0, 25)
+        Me.FlowLayoutPanel1.Location = New System.Drawing.Point(0, 22)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(866, 417)
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(863, 420)
         Me.FlowLayoutPanel1.TabIndex = 23
         '
         'Label1
