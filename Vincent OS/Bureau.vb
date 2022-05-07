@@ -129,4 +129,12 @@
     Private Sub Button26_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button26.Click
         Applications.BringToFront()
     End Sub
+
+    Private Sub FlowLayoutPanel1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles FlowLayoutPanel1.Click
+        If MonthCalendar1.Visible = False Then
+            MonthCalendar1.Visible = True
+        ElseIf MonthCalendar1.Visible = True Then
+            MonthCalendar1.Visible = False
+        End If
+    End Sub
 End Class

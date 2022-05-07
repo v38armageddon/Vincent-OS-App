@@ -22,11 +22,16 @@ Partial Class Azkan
     'Ne la modifiez pas à l'aide de l'éditeur de code.
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
+        Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Azkan))
         Me.TabControl1 = New System.Windows.Forms.TabControl()
         Me.TabPage1 = New System.Windows.Forms.TabPage()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
         Me.FlowLayoutPanel2 = New System.Windows.Forms.FlowLayoutPanel()
+        Me.RadioButton15 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton13 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton14 = New System.Windows.Forms.RadioButton()
+        Me.RadioButton16 = New System.Windows.Forms.RadioButton()
         Me.FlowLayoutPanel1 = New System.Windows.Forms.FlowLayoutPanel()
         Me.RadioButton1 = New System.Windows.Forms.RadioButton()
         Me.RadioButton2 = New System.Windows.Forms.RadioButton()
@@ -42,15 +47,11 @@ Partial Class Azkan
         Me.RadioButton6 = New System.Windows.Forms.RadioButton()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TabPage2 = New System.Windows.Forms.TabPage()
-        Me.RadioButton13 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton14 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton15 = New System.Windows.Forms.RadioButton()
-        Me.RadioButton16 = New System.Windows.Forms.RadioButton()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Button2 = New System.Windows.Forms.Button()
         Me.FlowLayoutPanel3 = New System.Windows.Forms.FlowLayoutPanel()
         Me.RadioButton17 = New System.Windows.Forms.RadioButton()
         Me.RadioButton18 = New System.Windows.Forms.RadioButton()
+        Me.Button2 = New System.Windows.Forms.Button()
+        Me.Label2 = New System.Windows.Forms.Label()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         Me.FlowLayoutPanel2.SuspendLayout()
@@ -115,6 +116,54 @@ Partial Class Azkan
         Me.FlowLayoutPanel2.Size = New System.Drawing.Size(258, 305)
         Me.FlowLayoutPanel2.TabIndex = 13
         Me.FlowLayoutPanel2.Visible = False
+        '
+        'RadioButton15
+        '
+        Me.RadioButton15.AutoSize = True
+        Me.RadioButton15.Location = New System.Drawing.Point(3, 3)
+        Me.RadioButton15.Name = "RadioButton15"
+        Me.RadioButton15.Size = New System.Drawing.Size(123, 17)
+        Me.RadioButton15.TabIndex = 2
+        Me.RadioButton15.TabStop = True
+        Me.RadioButton15.Text = "Applications.SerVOS"
+        Me.RadioButton15.UseVisualStyleBackColor = True
+        Me.RadioButton15.Visible = False
+        '
+        'RadioButton13
+        '
+        Me.RadioButton13.AutoSize = True
+        Me.RadioButton13.Location = New System.Drawing.Point(3, 26)
+        Me.RadioButton13.Name = "RadioButton13"
+        Me.RadioButton13.Size = New System.Drawing.Size(100, 17)
+        Me.RadioButton13.TabIndex = 0
+        Me.RadioButton13.TabStop = True
+        Me.RadioButton13.Text = "Bureau.SerVOS"
+        Me.RadioButton13.UseVisualStyleBackColor = True
+        Me.RadioButton13.Visible = False
+        '
+        'RadioButton14
+        '
+        Me.RadioButton14.AutoSize = True
+        Me.RadioButton14.Location = New System.Drawing.Point(3, 49)
+        Me.RadioButton14.Name = "RadioButton14"
+        Me.RadioButton14.Size = New System.Drawing.Size(106, 17)
+        Me.RadioButton14.TabIndex = 1
+        Me.RadioButton14.TabStop = True
+        Me.RadioButton14.Text = "Bureau2.SerVOS"
+        Me.RadioButton14.UseVisualStyleBackColor = True
+        Me.RadioButton14.Visible = False
+        '
+        'RadioButton16
+        '
+        Me.RadioButton16.AutoSize = True
+        Me.RadioButton16.Location = New System.Drawing.Point(3, 72)
+        Me.RadioButton16.Name = "RadioButton16"
+        Me.RadioButton16.Size = New System.Drawing.Size(102, 17)
+        Me.RadioButton16.TabIndex = 3
+        Me.RadioButton16.TabStop = True
+        Me.RadioButton16.Text = "Options.SerVOS"
+        Me.RadioButton16.UseVisualStyleBackColor = True
+        Me.RadioButton16.Visible = False
         '
         'FlowLayoutPanel1
         '
@@ -302,72 +351,6 @@ Partial Class Azkan
         Me.TabPage2.Text = "Session"
         Me.TabPage2.UseVisualStyleBackColor = True
         '
-        'RadioButton13
-        '
-        Me.RadioButton13.AutoSize = True
-        Me.RadioButton13.Location = New System.Drawing.Point(3, 26)
-        Me.RadioButton13.Name = "RadioButton13"
-        Me.RadioButton13.Size = New System.Drawing.Size(100, 17)
-        Me.RadioButton13.TabIndex = 0
-        Me.RadioButton13.TabStop = True
-        Me.RadioButton13.Text = "Bureau.SerVOS"
-        Me.RadioButton13.UseVisualStyleBackColor = True
-        Me.RadioButton13.Visible = False
-        '
-        'RadioButton14
-        '
-        Me.RadioButton14.AutoSize = True
-        Me.RadioButton14.Location = New System.Drawing.Point(3, 49)
-        Me.RadioButton14.Name = "RadioButton14"
-        Me.RadioButton14.Size = New System.Drawing.Size(106, 17)
-        Me.RadioButton14.TabIndex = 1
-        Me.RadioButton14.TabStop = True
-        Me.RadioButton14.Text = "Bureau2.SerVOS"
-        Me.RadioButton14.UseVisualStyleBackColor = True
-        '
-        'RadioButton15
-        '
-        Me.RadioButton15.AutoSize = True
-        Me.RadioButton15.Location = New System.Drawing.Point(3, 3)
-        Me.RadioButton15.Name = "RadioButton15"
-        Me.RadioButton15.Size = New System.Drawing.Size(123, 17)
-        Me.RadioButton15.TabIndex = 2
-        Me.RadioButton15.TabStop = True
-        Me.RadioButton15.Text = "Applications.SerVOS"
-        Me.RadioButton15.UseVisualStyleBackColor = True
-        Me.RadioButton15.Visible = False
-        '
-        'RadioButton16
-        '
-        Me.RadioButton16.AutoSize = True
-        Me.RadioButton16.Location = New System.Drawing.Point(3, 72)
-        Me.RadioButton16.Name = "RadioButton16"
-        Me.RadioButton16.Size = New System.Drawing.Size(102, 17)
-        Me.RadioButton16.TabIndex = 3
-        Me.RadioButton16.TabStop = True
-        Me.RadioButton16.Text = "Options.SerVOS"
-        Me.RadioButton16.UseVisualStyleBackColor = True
-        Me.RadioButton16.Visible = False
-        '
-        'Label2
-        '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Arial", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(24, 3)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(467, 36)
-        Me.Label2.TabIndex = 5
-        Me.Label2.Text = "Sélectionner la session à arrêter"
-        '
-        'Button2
-        '
-        Me.Button2.Location = New System.Drawing.Point(218, 351)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
-        Me.Button2.TabIndex = 16
-        Me.Button2.Text = "Arrêter"
-        Me.Button2.UseVisualStyleBackColor = True
-        '
         'FlowLayoutPanel3
         '
         Me.FlowLayoutPanel3.Controls.Add(Me.RadioButton17)
@@ -402,6 +385,25 @@ Partial Class Azkan
         Me.RadioButton18.UseVisualStyleBackColor = True
         Me.RadioButton18.Visible = False
         '
+        'Button2
+        '
+        Me.Button2.Location = New System.Drawing.Point(218, 351)
+        Me.Button2.Name = "Button2"
+        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.TabIndex = 16
+        Me.Button2.Text = "Arrêter"
+        Me.Button2.UseVisualStyleBackColor = True
+        '
+        'Label2
+        '
+        Me.Label2.AutoSize = True
+        Me.Label2.Font = New System.Drawing.Font("Arial", 24.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label2.Location = New System.Drawing.Point(24, 3)
+        Me.Label2.Name = "Label2"
+        Me.Label2.Size = New System.Drawing.Size(467, 36)
+        Me.Label2.TabIndex = 5
+        Me.Label2.Text = "Sélectionner la session à arrêter"
+        '
         'Azkan
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -409,6 +411,7 @@ Partial Class Azkan
         Me.ClientSize = New System.Drawing.Size(519, 402)
         Me.Controls.Add(Me.TabControl1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Azkan"

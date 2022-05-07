@@ -18,6 +18,11 @@
     Private Sub RadioButton1_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RadioButton1.CheckedChanged
         If RadioButton1.Checked = True Then
             If Bureau.Visible = True Then
+                Bureau.FormBorderStyle = Windows.Forms.FormBorderStyle.FixedSingle
+                Démarrage.FormBorderStyle = Windows.Forms.FormBorderStyle.FixedSingle
+                Arrêt.FormBorderStyle = Windows.Forms.FormBorderStyle.FixedSingle
+                Login.FormBorderStyle = Windows.Forms.FormBorderStyle.FixedSingle
+                Login2bureau.FormBorderStyle = Windows.Forms.FormBorderStyle.FixedSingle
                 Bureau.Location = New Point(480, 300)
                 Login.Location = New Point(480, 300)
                 Login2bureau.Location = New Point(480, 300)
@@ -38,6 +43,11 @@
                 Login2bureau.Height = 480
             End If
             If Bureau2.Visible = True Then
+                Bureau2.FormBorderStyle = Windows.Forms.FormBorderStyle.FixedSingle
+                Démarrage.FormBorderStyle = Windows.Forms.FormBorderStyle.FixedSingle
+                Arrêt.FormBorderStyle = Windows.Forms.FormBorderStyle.FixedSingle
+                Login.FormBorderStyle = Windows.Forms.FormBorderStyle.FixedSingle
+                Login2bureau2.FormBorderStyle = Windows.Forms.FormBorderStyle.FixedSingle
                 Bureau2.Location = New Point(480, 300)
                 Login.Location = New Point(480, 300)
                 Login2bureau2.Location = New Point(480, 300)
@@ -63,6 +73,11 @@
     Private Sub RadioButton2_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RadioButton2.CheckedChanged
         If RadioButton2.Checked = True Then
             If Bureau.Visible = True Then
+                Bureau.FormBorderStyle = Windows.Forms.FormBorderStyle.None
+                Démarrage.FormBorderStyle = Windows.Forms.FormBorderStyle.None
+                Arrêt.FormBorderStyle = Windows.Forms.FormBorderStyle.None
+                Login.FormBorderStyle = Windows.Forms.FormBorderStyle.None
+                Login2bureau.FormBorderStyle = Windows.Forms.FormBorderStyle.None
                 Bureau.Location = New Point(0, 0)
                 Login.Location = New Point(0, 0)
                 Login2bureau.Location = New Point(0, 0)
@@ -83,6 +98,11 @@
                 Login2bureau.Height = My.Computer.Screen.Bounds.Height
             End If
             If Bureau2.Visible = True Then
+                Bureau2.FormBorderStyle = Windows.Forms.FormBorderStyle.None
+                Démarrage.FormBorderStyle = Windows.Forms.FormBorderStyle.None
+                Arrêt.FormBorderStyle = Windows.Forms.FormBorderStyle.None
+                Login.FormBorderStyle = Windows.Forms.FormBorderStyle.None
+                Login2bureau2.FormBorderStyle = Windows.Forms.FormBorderStyle.None
                 Bureau2.Location = New Point(0, 0)
                 Login.Location = New Point(0, 0)
                 Login2bureau2.Location = New Point(0, 0)

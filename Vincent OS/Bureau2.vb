@@ -60,7 +60,7 @@
         News.Show()
     End Sub
 
-    Private Sub Button11_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button11.Click
+    Private Sub Button11_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Options.Show()
     End Sub
 
@@ -121,5 +121,21 @@
 
     Private Sub Button25_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button25.Click
         Options.BringToFront()
+    End Sub
+
+    Private Sub FlowLayoutPanel1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles FlowLayoutPanel1.Click
+        If MonthCalendar1.Visible = False Then
+            MonthCalendar1.Visible = True
+        ElseIf MonthCalendar1.Visible = True Then
+            MonthCalendar1.Visible = False
+        End If
+    End Sub
+
+    Private Sub Label1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label1.Click
+        If MonthCalendar1.Visible = False Then
+            MonthCalendar1.Visible = True
+        ElseIf MonthCalendar1.Visible = True Then
+            MonthCalendar1.Visible = False
+        End If
     End Sub
 End Class

@@ -61,4 +61,10 @@
         newPage.Controls.Add(webbrowswer)
         TabControl1.SelectedTab = newPage
     End Sub
+
+    Private Sub TextBox1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles TextBox1.Click
+        If TextBox1.Text = "Saisissez l'URL" Then
+            TextBox1.Text = ""
+        End If
+    End Sub
 End Class

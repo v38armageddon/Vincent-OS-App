@@ -25,7 +25,6 @@ Partial Class Bureau2
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Bureau2))
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button11 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
         Me.Button1 = New System.Windows.Forms.Button()
@@ -72,32 +71,20 @@ Partial Class Bureau2
         '
         Me.Panel1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel1.BackColor = System.Drawing.Color.Gray
-        Me.Panel1.Controls.Add(Me.Button11)
         Me.Panel1.Controls.Add(Me.Label3)
         Me.Panel1.Controls.Add(Me.PictureBox3)
         Me.Panel1.Controls.Add(Me.Button1)
-        Me.Panel1.Location = New System.Drawing.Point(700, 29)
+        Me.Panel1.Location = New System.Drawing.Point(694, 29)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(157, 123)
         Me.Panel1.TabIndex = 9
         Me.Panel1.Visible = False
         '
-        'Button11
-        '
-        Me.Button11.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
-        Me.Button11.Font = New System.Drawing.Font("Arial", 9.0!)
-        Me.Button11.Location = New System.Drawing.Point(74, 28)
-        Me.Button11.Name = "Button11"
-        Me.Button11.Size = New System.Drawing.Size(78, 38)
-        Me.Button11.TabIndex = 20
-        Me.Button11.Text = "Afficher tout les options"
-        Me.Button11.UseVisualStyleBackColor = False
-        '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(87, 3)
+        Me.Label3.Location = New System.Drawing.Point(77, 24)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(55, 22)
         Me.Label3.TabIndex = 2
@@ -149,7 +136,7 @@ Partial Class Bureau2
         Me.PictureBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox2.BackColor = System.Drawing.Color.Gray
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(827, 0)
+        Me.PictureBox2.Location = New System.Drawing.Point(821, 0)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(28, 25)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -162,7 +149,7 @@ Partial Class Bureau2
         Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Top
         Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(854, 25)
+        Me.PictureBox1.Size = New System.Drawing.Size(848, 25)
         Me.PictureBox1.TabIndex = 5
         Me.PictureBox1.TabStop = False
         '
@@ -229,7 +216,7 @@ Partial Class Bureau2
         Me.Button10.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button10.BackgroundImage = CType(resources.GetObject("Button10.BackgroundImage"), System.Drawing.Image)
         Me.Button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button10.Location = New System.Drawing.Point(829, 0)
+        Me.Button10.Location = New System.Drawing.Point(823, 0)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(28, 26)
         Me.Button10.TabIndex = 18
@@ -296,7 +283,7 @@ Partial Class Bureau2
         Me.FlowLayoutPanel1.Controls.Add(Me.Button9)
         Me.FlowLayoutPanel1.Location = New System.Drawing.Point(0, 22)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(854, 458)
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(848, 430)
         Me.FlowLayoutPanel1.TabIndex = 23
         '
         'Label1
@@ -314,13 +301,13 @@ Partial Class Bureau2
         'Panel2
         '
         Me.Panel2.BackColor = System.Drawing.Color.Gray
-        Me.Panel2.Controls.Add(Me.FlowLayoutPanel2)
         Me.Panel2.Controls.Add(Me.Button10)
+        Me.Panel2.Controls.Add(Me.FlowLayoutPanel2)
         Me.Panel2.Controls.Add(Me.Button12)
         Me.Panel2.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.Panel2.Location = New System.Drawing.Point(0, 455)
+        Me.Panel2.Location = New System.Drawing.Point(0, 427)
         Me.Panel2.Name = "Panel2"
-        Me.Panel2.Size = New System.Drawing.Size(854, 25)
+        Me.Panel2.Size = New System.Drawing.Size(848, 25)
         Me.Panel2.TabIndex = 25
         '
         'FlowLayoutPanel2
@@ -457,7 +444,8 @@ Partial Class Bureau2
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ClientSize = New System.Drawing.Size(854, 480)
+        Me.ClientSize = New System.Drawing.Size(848, 452)
+        Me.ControlBox = False
         Me.Controls.Add(Me.Panel2)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.MonthCalendar1)
@@ -466,10 +454,13 @@ Partial Class Bureau2
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.FlowLayoutPanel1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "Bureau2"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "l"
+        Me.Text = "Bureau - Session Invité"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
@@ -498,7 +489,6 @@ Partial Class Bureau2
     Friend WithEvents Button6 As System.Windows.Forms.Button
     Friend WithEvents Button10 As System.Windows.Forms.Button
     Friend WithEvents Button9 As System.Windows.Forms.Button
-    Friend WithEvents Button11 As System.Windows.Forms.Button
     Friend WithEvents Button12 As System.Windows.Forms.Button
     Friend WithEvents Button13 As System.Windows.Forms.Button
     Friend WithEvents Button14 As System.Windows.Forms.Button

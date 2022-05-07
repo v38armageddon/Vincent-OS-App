@@ -82,7 +82,7 @@ Partial Class Options
         Me.Label2.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.Location = New System.Drawing.Point(12, 9)
         Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(545, 36)
+        Me.Label2.Size = New System.Drawing.Size(544, 36)
         Me.Label2.TabIndex = 13
         Me.Label2.Text = "Tableau des options  :" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "Vous pouvez changer les options pour personnaliser Vincen" & _
             "t OS à votre guise" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10)
@@ -122,7 +122,7 @@ Partial Class Options
         Me.Label3.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.Location = New System.Drawing.Point(22, 142)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(88, 22)
+        Me.Label3.Size = New System.Drawing.Size(87, 22)
         Me.Label3.TabIndex = 17
         Me.Label3.Text = "A propos"
         '
@@ -163,6 +163,7 @@ Partial Class Options
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button3)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.MinimizeBox = False
         Me.Name = "Options"

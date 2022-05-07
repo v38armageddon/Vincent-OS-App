@@ -35,7 +35,7 @@ Partial Class Arrêt
         '
         Me.PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(275, 31)
+        Me.PictureBox1.Location = New System.Drawing.Point(272, 17)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(306, 301)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -48,7 +48,7 @@ Partial Class Arrêt
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(347, 384)
+        Me.Label1.Location = New System.Drawing.Point(344, 356)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(160, 24)
         Me.Label1.TabIndex = 3
@@ -59,11 +59,11 @@ Partial Class Arrêt
         Me.ProgressBar1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ProgressBar1.ForeColor = System.Drawing.SystemColors.GradientActiveCaption
-        Me.ProgressBar1.Location = New System.Drawing.Point(12, 444)
+        Me.ProgressBar1.Location = New System.Drawing.Point(12, 416)
         Me.ProgressBar1.Name = "ProgressBar1"
         Me.ProgressBar1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.ProgressBar1.RightToLeftLayout = True
-        Me.ProgressBar1.Size = New System.Drawing.Size(830, 24)
+        Me.ProgressBar1.Size = New System.Drawing.Size(824, 24)
         Me.ProgressBar1.TabIndex = 4
         '
         'Timer1
@@ -74,14 +74,18 @@ Partial Class Arrêt
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
-        Me.ClientSize = New System.Drawing.Size(854, 480)
+        Me.ClientSize = New System.Drawing.Size(848, 452)
+        Me.ControlBox = False
         Me.Controls.Add(Me.ProgressBar1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.PictureBox1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "Arrêt"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Arrêt"
+        Me.Text = "Arrêt en cours..."
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()

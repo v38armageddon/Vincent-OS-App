@@ -1,5 +1,14 @@
 Notes de mises à jours :
 
+Version 5.1 (27/01/2021) :
+- Correction d'un bug dans l'application Azkan, on peut fermer Bureau2.SerVOS alors qu'on est sur la session Superutilisateur
+- Suppression de l'accès des paramètres dans la session Invité
+- Changement dans l'écran de connexion : On peut désormait appuyer sur la touche Entrée quand on saisit le mot de passe pour se connecter à la session Superutilisateur
+- Mode fenêtré : Ajout le fait qu'on peut déplacer les fenêtres où on le souhaite
+- Ajout de la fonctionnalité quand on clique sur les barres de recherches de Bing Chrome et de l'explorateur de fichier, le texte qui est inscrit s'enlève
+- Dans le Terminal, nous pouvons appuyer sur la touche Entrée pour exécuter une commande
+- Correction d'un bug auquel un fond d'écran était remplacé par un autre
+
 Version 5 (18/10/2020) :
 - Résolution du mode fenêtré changé en 854x480
 - Changement du fond d'écran de connexion, merci à ZeyaTsu
