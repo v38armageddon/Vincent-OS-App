@@ -36,3 +36,5 @@ C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent 
 C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent OS.TrustInfo.xml
 C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent OS.exe.manifest
 C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent OS.application
+C:\Users\v38armageddon\documents\visual studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.mathingGame.resources
+C:\Users\v38armageddon\documents\visual studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.armageddon.resources

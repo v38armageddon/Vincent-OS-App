@@ -26,8 +26,8 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>2</ApplicationRevision>
-    <ApplicationVersion>2.0.0.%2a</ApplicationVersion>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>2.1.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -127,6 +127,12 @@
     <Compile Include="apropos.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="armageddon.Designer.vb">
+      <DependentUpon>armageddon.vb</DependentUpon>
+    </Compile>
+    <Compile Include="armageddon.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Arrêt.Designer.vb">
       <DependentUpon>Arrêt.vb</DependentUpon>
     </Compile>
@@ -168,6 +174,12 @@
       <DependentUpon>exewin.vb</DependentUpon>
     </Compile>
     <Compile Include="exewin.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mathingGame.Designer.vb">
+      <DependentUpon>mathingGame.vb</DependentUpon>
+    </Compile>
+    <Compile Include="mathingGame.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="News.Designer.vb">
@@ -244,6 +256,9 @@
     <EmbeddedResource Include="apropos.resx">
       <DependentUpon>apropos.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="armageddon.resx">
+      <DependentUpon>armageddon.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Arrêt.resx">
       <DependentUpon>Arrêt.vb</DependentUpon>
     </EmbeddedResource>
@@ -264,6 +279,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="exewin.resx">
       <DependentUpon>exewin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mathingGame.resx">
+      <DependentUpon>mathingGame.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="News.resx">
       <DependentUpon>News.vb</DependentUpon>

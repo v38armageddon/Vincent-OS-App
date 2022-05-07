@@ -117,14 +117,7 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="RichTextBox1.Text" xml:space="preserve">
-    <value>Version 2.1 :
-- Ajout de quelques easters eggs car on as des choses à vous dire
-
-Version 2.0 :
-- Suppresion du son au démarrage
-- Correction d'un bug sur certaines applications
-- Ajout de l'application "Exécuter une application Windows"
-- Ajout d'un bouton "Quitter" à l'écran de verrouillage</value>
-  </data>
+  <metadata name="Timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
 </root>
