@@ -6,6 +6,11 @@ Public Class Visio
     Dim Index As Integer = 0
 
     Private Sub Form1_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        If Bureau.Visible = True Then
+            Bureau.Button20.Visible = True
+        ElseIf Bureau2.Visible = True Then
+            Bureau2.Button20.Visible = True
+        End If
         Images = New List(Of String)
         Panel1.Controls.Add(PictureBox1)
     End Sub
@@ -119,6 +124,14 @@ Public Class Visio
             Const param2 As Integer = &H1
             Const param3 As Integer = &H2
             SystemParametersInfo(param1, 0, Images(Index), param2 Or param3)
+        End If
+    End Sub
+
+    Private Sub Visio_FormClosed(ByVal sender As System.Object, ByVal e As System.Windows.Forms.FormClosedEventArgs) Handles MyBase.FormClosed
+        If Bureau.Visible = True Then
+            Bureau.Button20.Visible = False
+        ElseIf Bureau2.Visible = True Then
+            Bureau2.Button20.Visible = False
         End If
     End Sub
 End Class

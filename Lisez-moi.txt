@@ -1,0 +1,14 @@
+Merci d'avoir téléchargé Vincent OS, pour accéder à l'OS :
+
+Pour les processeurs 32 bits : Vincent OS > Vincent OS > obj > x86 > Debug > Vincent OS.exe
+Pour les processeurs 64 bits : Vincent OS > Vincent OS > bin > Debug > Vincent OS.exe
+
+Ce projet est un projet Open Source, toute les modifications sont autorisé.
+
+Si au cours de votre utilisation, vous constatez des bugs ou même donner des idées, n'hésitez pas à rejoindre le serveur Discord : https://discord.gg/fvVREVE
+
+J'espère que le système d'exploitation va vous plaire.
+
+En souhaitant une agréable journée.
+
+- v38armageddon

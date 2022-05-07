@@ -1,16 +1,16 @@
 ﻿Public Class Bureau
 
     Private Sub Label2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label2.Click
-        MonthCalendar1.Visible = True
-    End Sub
-
-    Private Sub Bureau_MouthClick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.MouseClick
-        MonthCalendar1.Visible = False
-        Panel1.Visible = False
+        If MonthCalendar1.Visible = False Then
+            MonthCalendar1.Visible = True
+        ElseIf MonthCalendar1.Visible = True Then
+            MonthCalendar1.Visible = False
+        End If
     End Sub
 
     Private Sub Timer1_Tick(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Timer1.Tick
         Label2.Text = TimeOfDay
+        Label1.Text = Today
     End Sub
 
     Private Sub Bureau_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
@@ -24,7 +24,11 @@
     End Sub
 
     Private Sub PictureBox2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox2.Click
-        Panel1.Visible = True
+        If Panel1.Visible = False Then
+            Panel1.Visible = True
+        ElseIf Panel1.Visible = True Then
+            Panel1.Visible = False
+        End If
     End Sub
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
@@ -78,5 +82,57 @@
 
     Private Sub Button14_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button14.Click
         paints.Show()
+    End Sub
+
+    Private Sub Label1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Label1.Click
+        If MonthCalendar1.Visible = False Then
+            MonthCalendar1.Visible = True
+        ElseIf MonthCalendar1.Visible = True Then
+            MonthCalendar1.Visible = False
+        End If
+    End Sub
+
+    Private Sub Button15_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button15.Click
+        Bing_Chrome.BringToFront()
+    End Sub
+
+    Private Sub Button16_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button16.Click
+        meme.BringToFront()
+    End Sub
+
+    Private Sub Button17_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button17.Click
+        Notepad.BringToFront()
+    End Sub
+
+    Private Sub Button18_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button18.Click
+        pdf.BringToFront()
+    End Sub
+
+    Private Sub Button19_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button19.Click
+        Media.BringToFront()
+    End Sub
+
+    Private Sub Button20_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button20.Click
+        Visio.BringToFront()
+    End Sub
+
+    Private Sub Button21_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button21.Click
+        paints.BringToFront()
+    End Sub
+
+    Private Sub Button22_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button22.Click
+        game.BringToFront()
+    End Sub
+
+    Private Sub Button23_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button23.Click
+        exewin.BringToFront()
+    End Sub
+
+    Private Sub Button24_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button24.Click
+        Terminal.BringToFront()
+    End Sub
+
+    Private Sub Button25_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button25.Click
+        Options.BringToFront()
     End Sub
 End Class

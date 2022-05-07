@@ -27,4 +27,20 @@
             AxWindowsMediaPlayer1.fullScreen = False
         End If
     End Sub
+
+    Private Sub Media_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        If Bureau.Visible = True Then
+            Bureau.Button19.Visible = True
+        ElseIf Bureau2.Visible = True Then
+            Bureau2.Button19.Visible = True
+        End If
+    End Sub
+
+    Private Sub Media_FormClosed(ByVal sender As System.Object, ByVal e As System.Windows.Forms.FormClosedEventArgs) Handles MyBase.FormClosed
+        If Bureau.Visible = True Then
+            Bureau.Button19.Visible = False
+        ElseIf Bureau2.Visible = True Then
+            Bureau2.Button19.Visible = False
+        End If
+    End Sub
 End Class

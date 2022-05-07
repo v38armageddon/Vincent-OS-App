@@ -27,7 +27,7 @@
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>3.1.1.%2a</ApplicationVersion>
+    <ApplicationVersion>4.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -65,7 +65,7 @@
     <OptionInfer>On</OptionInfer>
   </PropertyGroup>
   <PropertyGroup>
-    <ApplicationIcon>unnamed.ico</ApplicationIcon>
+    <ApplicationIcon>Vincent OS.ico</ApplicationIcon>
   </PropertyGroup>
   <PropertyGroup>
     <TargetZone>LocalIntranet</TargetZone>
@@ -242,6 +242,12 @@
     <Compile Include="Notepad.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Terminal.Designer.vb">
+      <DependentUpon>Terminal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Terminal.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Visio.Designer.vb">
       <DependentUpon>Visio.vb</DependentUpon>
     </Compile>
@@ -343,6 +349,9 @@
     <EmbeddedResource Include="Notepad.resx">
       <DependentUpon>Notepad.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Terminal.resx">
+      <DependentUpon>Terminal.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Visio.resx">
       <DependentUpon>Visio.vb</DependentUpon>
     </EmbeddedResource>
@@ -393,6 +402,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="unnamed.ico" />
+    <Content Include="Vincent OS.ico" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">

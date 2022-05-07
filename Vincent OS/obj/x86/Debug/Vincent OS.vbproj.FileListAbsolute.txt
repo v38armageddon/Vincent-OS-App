@@ -43,3 +43,4 @@ C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent 
 C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.game.resources
 C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.MazeGame.resources
 C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.paints.resources
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Terminal.resources

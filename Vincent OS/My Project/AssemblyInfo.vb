@@ -1,4 +1,6 @@
-﻿Imports System
+﻿Imports System.Resources
+
+Imports System
 Imports System.Reflection
 Imports System.Runtime.InteropServices
 
@@ -9,13 +11,13 @@ Imports System.Runtime.InteropServices
 ' Passez en revue les valeurs des attributs de l'assembly
 
 <Assembly: AssemblyTitle("Vincent OS")> 
-<Assembly: AssemblyDescription("")> 
+<Assembly: AssemblyDescription("Découvrer un mini OS avec des logiciels sympa.")> 
 <Assembly: AssemblyCompany("")> 
 <Assembly: AssemblyProduct("Vincent OS")> 
-<Assembly: AssemblyCopyright("Copyright ©  2019")> 
+<Assembly: AssemblyCopyright("Open Source 2019-2020")> 
 <Assembly: AssemblyTrademark("")> 
 
-<Assembly: ComVisible(False)>
+<Assembly: ComVisible(False)> 
 
 'Le GUID suivant est pour l'ID de la typelib si ce projet est exposé à COM
 <Assembly: Guid("3a209b81-92f1-4ff4-8be0-d8adf651140e")> 
@@ -31,5 +33,7 @@ Imports System.Runtime.InteropServices
 ' en utilisant '*', comme indiqué ci-dessous :
 ' <Assembly: AssemblyVersion("1.0.*")> 
 
-<Assembly: AssemblyVersion("1.0.0.0")> 
-<Assembly: AssemblyFileVersion("1.0.0.0")> 
+<Assembly: AssemblyVersion("4.0.0.0")> 
+<Assembly: AssemblyFileVersion("4.0.0.0")> 
+
+<Assembly: NeutralResourcesLanguageAttribute("fr")> 

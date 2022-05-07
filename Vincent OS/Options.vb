@@ -5,14 +5,14 @@
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        Ecran.Show()
+        MessageBox.Show("Cette fonctionnalité n'est malheureusement pas disponible. Veuillez nous excuser pour la gêne occasionnée...")
     End Sub
 
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
         Alerte.Show()
     End Sub
     Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
-        MessageBox.Show("Du au développement de la version de Vincent OS 4, cette fonctionnalité n'est malheureusement pas disponible. Désolé du dérangement...")
+        Terminal.Show()
     End Sub
 
     Private Sub RadioButton1_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles RadioButton1.CheckedChanged
@@ -86,6 +86,22 @@
                 Login.Width = My.Computer.Screen.Bounds.Width
                 Login.Height = My.Computer.Screen.Bounds.Height
             End If
+        End If
+    End Sub
+
+    Private Sub Options_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        If Bureau.Visible = True Then
+            Bureau.Button25.Visible = True
+        ElseIf Bureau2.Visible = True Then
+            Bureau2.Button25.Visible = True
+        End If
+    End Sub
+
+    Private Sub Options_FormClosed(ByVal sender As System.Object, ByVal e As System.Windows.Forms.FormClosedEventArgs) Handles MyBase.FormClosed
+        If Bureau.Visible = True Then
+            Bureau.Button25.Visible = False
+        ElseIf Bureau2.Visible = True Then
+            Bureau2.Button25.Visible = False
         End If
     End Sub
 End Class

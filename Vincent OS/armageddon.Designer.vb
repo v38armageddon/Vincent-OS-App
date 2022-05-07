@@ -82,7 +82,7 @@ Partial Class armageddon
         Me.RichTextBox1.ReadOnly = True
         Me.RichTextBox1.Size = New System.Drawing.Size(292, 69)
         Me.RichTextBox1.TabIndex = 4
-        Me.RichTextBox1.Text = "Un grand merci à tout ceux qui le teste et à ceux qui croit au projet"
+        Me.RichTextBox1.Text = "Un grand merci à tout ceux qui le test et à ceux qui croient au projet"
         '
         'armageddon
         '

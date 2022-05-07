@@ -74,4 +74,20 @@
     Private Sub CheckBox1_CheckedChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles CheckBox1.CheckedChanged
         RichTextBox1.WordWrap = CheckBox1.Checked
     End Sub
+
+    Private Sub Notepad_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        If Bureau.Visible = True Then
+            Bureau.Button17.Visible = True
+        ElseIf Bureau2.Visible = True Then
+            Bureau2.Button17.Visible = True
+        End If
+    End Sub
+
+    Private Sub Notepad_FormClosed(ByVal sender As System.Object, ByVal e As System.Windows.Forms.FormClosedEventArgs) Handles MyBase.FormClosed
+        If Bureau.Visible = True Then
+            Bureau.Button17.Visible = False
+        ElseIf Bureau2.Visible = True Then
+            Bureau2.Button17.Visible = False
+        End If
+    End Sub
 End Class

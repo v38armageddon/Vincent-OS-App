@@ -27,7 +27,7 @@ Partial Class Ecran
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.OpenFileDialog1 = New System.Windows.Forms.OpenFileDialog()
         Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -57,9 +57,9 @@ Partial Class Ecran
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.Red
-        Me.Label3.Location = New System.Drawing.Point(19, 45)
+        Me.Label3.Location = New System.Drawing.Point(3, 43)
         Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(253, 44)
+        Me.Label3.Size = New System.Drawing.Size(254, 44)
         Me.Label3.TabIndex = 3
         Me.Label3.Text = "Votre fond d'écran a bien été" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "changé !"
         '
@@ -67,9 +67,9 @@ Partial Class Ecran
         '
         Me.Button1.BackColor = System.Drawing.Color.Lime
         Me.Button1.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(16, 136)
+        Me.Button1.Location = New System.Drawing.Point(16, 70)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(102, 58)
+        Me.Button1.Size = New System.Drawing.Size(394, 33)
         Me.Button1.TabIndex = 5
         Me.Button1.Text = "Changer"
         Me.Button1.UseVisualStyleBackColor = False
@@ -77,25 +77,21 @@ Partial Class Ecran
         'Panel1
         '
         Me.Panel1.Controls.Add(Me.Label3)
-        Me.Panel1.Location = New System.Drawing.Point(124, 109)
+        Me.Panel1.Location = New System.Drawing.Point(16, 109)
         Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(286, 137)
+        Me.Panel1.Size = New System.Drawing.Size(394, 137)
         Me.Panel1.TabIndex = 6
         Me.Panel1.Visible = False
         '
-        'TextBox1
+        'OpenFileDialog1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(18, 83)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(392, 20)
-        Me.TextBox1.TabIndex = 7
+        Me.OpenFileDialog1.FileName = "OpenFileDialog1"
         '
         'Ecran
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(422, 258)
-        Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.Label2)
@@ -117,5 +113,5 @@ Partial Class Ecran
     Friend WithEvents Label3 As System.Windows.Forms.Label
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
-    Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
+    Friend WithEvents OpenFileDialog1 As System.Windows.Forms.OpenFileDialog
 End Class
