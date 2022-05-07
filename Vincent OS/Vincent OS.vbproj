@@ -139,6 +139,12 @@
     <Compile Include="Arrêt.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Avant.Designer.vb">
+      <DependentUpon>Avant.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Avant.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Bing Chrome.Designer.vb">
       <DependentUpon>Bing Chrome.vb</DependentUpon>
     </Compile>
@@ -261,6 +267,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Arrêt.resx">
       <DependentUpon>Arrêt.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Avant.resx">
+      <DependentUpon>Avant.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Bing Chrome.resx">
       <DependentUpon>Bing Chrome.vb</DependentUpon>

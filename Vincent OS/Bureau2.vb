@@ -25,11 +25,6 @@
     Private Sub PictureBox2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PictureBox2.Click
         Panel1.Visible = True
     End Sub
-
-    Private Sub Bureau2_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        MessageBox.Show("Quand vous utilisez la session <<Invité>>, les paramètres ne sont pas affichés")
-    End Sub
-
     Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
         Bing_Chrome.Show()
     End Sub
@@ -65,5 +60,9 @@
 
     Private Sub Button10_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button10.Click
         News.Show()
+    End Sub
+
+    Private Sub Button11_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button11.Click
+        Options.Show()
     End Sub
 End Class

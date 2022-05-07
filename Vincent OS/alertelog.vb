@@ -5,7 +5,12 @@
     End Sub
 
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
-        Arrêt.Timer1.Start()
-        Arrêt.Show()
+        If Login.Visible = True Then
+            Arrêt.Timer1.Start()
+            Arrêt.Show()
+        ElseIf Avant.Visible = True Then
+            Avant.Close()
+            Me.Close()
+        End If
     End Sub
 End Class

@@ -17,4 +17,8 @@
     Private Sub Button3_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button3.Click
         alertelog.Show()
     End Sub
+
+    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
+        MessageBox.Show("Le mot de passe est : << Vincent OS >> ")
+    End Sub
 End Class

@@ -8,6 +8,8 @@
             Bureau.Close()
             Login.Close()
             Bureau2.Close()
+            alertelog.Close()
+            Avant.Close()
             Me.Close()
         End If
     End Sub

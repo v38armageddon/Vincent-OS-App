@@ -117,21 +117,4 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <data name="RichTextBox1.Text" xml:space="preserve">
-    <value>Version 3.0 :
-- Ajout d'un bouton d'aide pour le mot de passe
-- Correction des fenêtres qui n'ont pas besoin d'être redimensionnée
-- Menu démarrer modifié, ajout des options dans la session "Invité" et suppresion du message disant le contraire
-- Deux modes d'affichages disponibles : Fenêtré et Plein écran
-- Choix du mode d'affichage au démarrage
-
-Version 2.1 :
-- Ajout de quelques easters eggs car on as des choses à vous dire
-
-Version 2.0 :
-- Suppresion du son au démarrage
-- Correction d'un bug sur certaines applications
-- Ajout de l'application "Exécuter une application Windows"
-- Ajout d'un bouton "Quitter" à l'écran de verrouillage</value>
-  </data>
 </root>

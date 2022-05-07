@@ -25,6 +25,7 @@ Partial Class Bureau2
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Bureau2))
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.Button11 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.PictureBox3 = New System.Windows.Forms.PictureBox()
@@ -50,7 +51,9 @@ Partial Class Bureau2
         '
         'Panel1
         '
+        Me.Panel1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Panel1.BackColor = System.Drawing.Color.Gray
+        Me.Panel1.Controls.Add(Me.Button11)
         Me.Panel1.Controls.Add(Me.Button8)
         Me.Panel1.Controls.Add(Me.Label3)
         Me.Panel1.Controls.Add(Me.PictureBox3)
@@ -60,6 +63,17 @@ Partial Class Bureau2
         Me.Panel1.Size = New System.Drawing.Size(157, 165)
         Me.Panel1.TabIndex = 9
         Me.Panel1.Visible = False
+        '
+        'Button11
+        '
+        Me.Button11.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
+        Me.Button11.Font = New System.Drawing.Font("Arial", 9.0!)
+        Me.Button11.Location = New System.Drawing.Point(74, 28)
+        Me.Button11.Name = "Button11"
+        Me.Button11.Size = New System.Drawing.Size(78, 38)
+        Me.Button11.TabIndex = 20
+        Me.Button11.Text = "Afficher tout les options"
+        Me.Button11.UseVisualStyleBackColor = False
         '
         'Button8
         '
@@ -77,7 +91,7 @@ Partial Class Bureau2
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(87, 28)
+        Me.Label3.Location = New System.Drawing.Point(87, 3)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(55, 22)
         Me.Label3.TabIndex = 2
@@ -125,6 +139,7 @@ Partial Class Bureau2
         '
         'PictureBox2
         '
+        Me.PictureBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
         Me.PictureBox2.Location = New System.Drawing.Point(838, -2)
         Me.PictureBox2.Name = "PictureBox2"
@@ -135,11 +150,11 @@ Partial Class Bureau2
         '
         'PictureBox1
         '
-        Me.PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.Top
         Me.PictureBox1.BackColor = System.Drawing.Color.Gray
-        Me.PictureBox1.Location = New System.Drawing.Point(-9, -2)
+        Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Top
+        Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(875, 25)
+        Me.PictureBox1.Size = New System.Drawing.Size(863, 25)
         Me.PictureBox1.TabIndex = 5
         Me.PictureBox1.TabStop = False
         '
@@ -208,6 +223,7 @@ Partial Class Bureau2
         '
         'Button10
         '
+        Me.Button10.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.Button10.BackgroundImage = CType(resources.GetObject("Button10.BackgroundImage"), System.Drawing.Image)
         Me.Button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
         Me.Button10.Location = New System.Drawing.Point(772, 316)
@@ -249,7 +265,7 @@ Partial Class Bureau2
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None
         Me.Name = "Bureau2"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Bureau2"
+        Me.Text = "l"
         Me.Panel1.ResumeLayout(False)
         Me.Panel1.PerformLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).EndInit()
@@ -277,4 +293,5 @@ Partial Class Bureau2
     Friend WithEvents Button8 As System.Windows.Forms.Button
     Friend WithEvents Button10 As System.Windows.Forms.Button
     Friend WithEvents Button9 As System.Windows.Forms.Button
+    Friend WithEvents Button11 As System.Windows.Forms.Button
 End Class

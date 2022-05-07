@@ -55,7 +55,9 @@ Partial Class News
         Me.ClientSize = New System.Drawing.Size(278, 367)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.RichTextBox1)
-        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow
+        Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
+        Me.MaximizeBox = False
+        Me.MinimizeBox = False
         Me.Name = "News"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Notes de mises à jours"
