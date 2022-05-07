@@ -1,0 +1,31 @@
+Notes de mises à jours :
+
+Version 3.1 (21/05/2020) :
+- Ajout d'une icône "Application" pour exécuter toute les applications disponibles
+- Ajout d'un gestionnaire de jeux
+- Ajout du jeu : Labyrinth
+- Ajout d'un logiciel : Paint
+- Possibilité de cacher des logiciels du bureau dans le menu Applications (et aussi de les afficher)
+- Correction d'un bug sur le bureau de la session "Invité", le calendrier ne voulait pas s'afficher quand on clique sur l'heure
+
+Version 3.0.1 (19/05/2020) :
+- Correction du bug de la fenêtre de connexion qui était bugé en étant en mode plein écran.
+- Changement au niveau de la barre de progression
+- Ajout de la date de sortie de chaque version
+- Ajout d'un document texte disant les changements
+
+Version 3.0 (18/05/2020) :
+- Ajout d'un bouton d'aide pour le mot de passe
+- Correction des fenêtres qui n'ont pas besoin d'être redimensionnée
+- Menu démarrer modifié, ajout des options dans la session "Invité" et suppresion du message disant le contraire
+- Deux modes d'affichages disponibles : Fenêtré et Plein écran
+- Choix du mode d'affichage au démarrage
+
+Version 2.1 (02/09/2019) :
+- Ajout de quelques easters eggs car on as des choses à vous dire
+
+Version 2.0 (28/06/2019) :
+- Suppresion du son au démarrage
+- Correction d'un bug sur certaines applications
+- Ajout de l'application "Exécuter une application Windows"
+- Ajout d'un bouton "Quitter" à l'écran de verrouillage

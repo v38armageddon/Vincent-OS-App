@@ -13,3 +13,6 @@ C:\Users\v38armageddon\documents\visual studio 2010\Projects\Vincent OS\Vincent 
 C:\Users\v38armageddon\documents\visual studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Release\Vincent OS.exe
 C:\Users\v38armageddon\documents\visual studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Release\Vincent OS.xml
 C:\Users\v38armageddon\documents\visual studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Release\Vincent OS.pdb
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Release\Interop.WMPLib.dll
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Release\AxInterop.WMPLib.dll
+C:\Users\v38armageddon\Documents\Visual Studio 2010\Projects\Vincent OS\Vincent OS\obj\x86\Release\Vincent OS.vbproj.ResolveComReference.cache

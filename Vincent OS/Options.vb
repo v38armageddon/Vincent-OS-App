@@ -21,6 +21,7 @@
         If RadioButton1.Checked = True Then
             If Bureau.Visible = True Then
                 Bureau.Location = New Point(480, 300)
+                Login.Location = New Point(480, 300)
                 Bureau.StartPosition = FormStartPosition.CenterScreen
                 Démarrage.StartPosition = FormStartPosition.CenterScreen
                 Login.StartPosition = FormStartPosition.CenterScreen
@@ -36,6 +37,7 @@
             End If
             If Bureau2.Visible = True Then
                 Bureau2.Location = New Point(480, 300)
+                Login.Location = New Point(480, 300)
                 Bureau2.StartPosition = FormStartPosition.CenterScreen
                 Démarrage.StartPosition = FormStartPosition.CenterScreen
                 Login.StartPosition = FormStartPosition.CenterScreen
@@ -56,6 +58,7 @@
         If RadioButton2.Checked = True Then
             If Bureau.Visible = True Then
                 Bureau.Location = New Point(0, 0)
+                Login.Location = New Point(0, 0)
                 Bureau.StartPosition = FormStartPosition.Manual
                 Démarrage.StartPosition = FormStartPosition.Manual
                 Login.StartPosition = FormStartPosition.Manual
@@ -71,6 +74,7 @@
             End If
             If Bureau2.Visible = True Then
                 Bureau2.Location = New Point(0, 0)
+                Login.Location = New Point(0, 0)
                 Bureau2.StartPosition = FormStartPosition.Manual
                 Démarrage.StartPosition = FormStartPosition.Manual
                 Login.StartPosition = FormStartPosition.Manual

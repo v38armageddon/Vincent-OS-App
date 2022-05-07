@@ -43,6 +43,9 @@ Partial Class Bureau2
         Me.Button7 = New System.Windows.Forms.Button()
         Me.Button10 = New System.Windows.Forms.Button()
         Me.Button9 = New System.Windows.Forms.Button()
+        Me.Button12 = New System.Windows.Forms.Button()
+        Me.Button13 = New System.Windows.Forms.Button()
+        Me.Button14 = New System.Windows.Forms.Button()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -170,6 +173,7 @@ Partial Class Bureau2
         Me.Button2.Size = New System.Drawing.Size(91, 91)
         Me.Button2.TabIndex = 10
         Me.Button2.UseVisualStyleBackColor = True
+        Me.Button2.Visible = False
         '
         'Button3
         '
@@ -180,6 +184,7 @@ Partial Class Bureau2
         Me.Button3.Size = New System.Drawing.Size(91, 91)
         Me.Button3.TabIndex = 11
         Me.Button3.UseVisualStyleBackColor = True
+        Me.Button3.Visible = False
         '
         'Button4
         '
@@ -190,6 +195,7 @@ Partial Class Bureau2
         Me.Button4.Size = New System.Drawing.Size(91, 91)
         Me.Button4.TabIndex = 12
         Me.Button4.UseVisualStyleBackColor = True
+        Me.Button4.Visible = False
         '
         'Button5
         '
@@ -200,6 +206,7 @@ Partial Class Bureau2
         Me.Button5.Size = New System.Drawing.Size(91, 91)
         Me.Button5.TabIndex = 13
         Me.Button5.UseVisualStyleBackColor = True
+        Me.Button5.Visible = False
         '
         'Button6
         '
@@ -210,6 +217,7 @@ Partial Class Bureau2
         Me.Button6.Size = New System.Drawing.Size(91, 91)
         Me.Button6.TabIndex = 14
         Me.Button6.UseVisualStyleBackColor = True
+        Me.Button6.Visible = False
         '
         'Button7
         '
@@ -220,6 +228,7 @@ Partial Class Bureau2
         Me.Button7.Size = New System.Drawing.Size(91, 91)
         Me.Button7.TabIndex = 15
         Me.Button7.UseVisualStyleBackColor = True
+        Me.Button7.Visible = False
         '
         'Button10
         '
@@ -241,6 +250,40 @@ Partial Class Bureau2
         Me.Button9.Size = New System.Drawing.Size(91, 91)
         Me.Button9.TabIndex = 19
         Me.Button9.UseVisualStyleBackColor = True
+        Me.Button9.Visible = False
+        '
+        'Button12
+        '
+        Me.Button12.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button12.BackgroundImage = CType(resources.GetObject("Button12.BackgroundImage"), System.Drawing.Image)
+        Me.Button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button12.Location = New System.Drawing.Point(772, 219)
+        Me.Button12.Name = "Button12"
+        Me.Button12.Size = New System.Drawing.Size(91, 91)
+        Me.Button12.TabIndex = 20
+        Me.Button12.UseVisualStyleBackColor = True
+        '
+        'Button13
+        '
+        Me.Button13.BackgroundImage = CType(resources.GetObject("Button13.BackgroundImage"), System.Drawing.Image)
+        Me.Button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button13.Location = New System.Drawing.Point(104, 316)
+        Me.Button13.Name = "Button13"
+        Me.Button13.Size = New System.Drawing.Size(91, 91)
+        Me.Button13.TabIndex = 21
+        Me.Button13.UseVisualStyleBackColor = True
+        Me.Button13.Visible = False
+        '
+        'Button14
+        '
+        Me.Button14.BackgroundImage = CType(resources.GetObject("Button14.BackgroundImage"), System.Drawing.Image)
+        Me.Button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
+        Me.Button14.Location = New System.Drawing.Point(201, 25)
+        Me.Button14.Name = "Button14"
+        Me.Button14.Size = New System.Drawing.Size(89, 91)
+        Me.Button14.TabIndex = 22
+        Me.Button14.UseVisualStyleBackColor = True
+        Me.Button14.Visible = False
         '
         'Bureau2
         '
@@ -249,13 +292,16 @@ Partial Class Bureau2
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
         Me.ClientSize = New System.Drawing.Size(863, 442)
+        Me.Controls.Add(Me.MonthCalendar1)
+        Me.Controls.Add(Me.Button14)
+        Me.Controls.Add(Me.Button13)
+        Me.Controls.Add(Me.Button12)
         Me.Controls.Add(Me.Button9)
         Me.Controls.Add(Me.Button10)
         Me.Controls.Add(Me.Button5)
         Me.Controls.Add(Me.Button4)
         Me.Controls.Add(Me.Panel1)
         Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.MonthCalendar1)
         Me.Controls.Add(Me.PictureBox2)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.Button2)
@@ -294,4 +340,7 @@ Partial Class Bureau2
     Friend WithEvents Button10 As System.Windows.Forms.Button
     Friend WithEvents Button9 As System.Windows.Forms.Button
     Friend WithEvents Button11 As System.Windows.Forms.Button
+    Friend WithEvents Button12 As System.Windows.Forms.Button
+    Friend WithEvents Button13 As System.Windows.Forms.Button
+    Friend WithEvents Button14 As System.Windows.Forms.Button
 End Class

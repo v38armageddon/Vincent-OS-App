@@ -38,6 +38,8 @@ Partial Class Démarrage
         Me.ProgressBar1.ForeColor = System.Drawing.SystemColors.GradientActiveCaption
         Me.ProgressBar1.Location = New System.Drawing.Point(12, 406)
         Me.ProgressBar1.Name = "ProgressBar1"
+        Me.ProgressBar1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
+        Me.ProgressBar1.RightToLeftLayout = True
         Me.ProgressBar1.Size = New System.Drawing.Size(839, 24)
         Me.ProgressBar1.TabIndex = 0
         '

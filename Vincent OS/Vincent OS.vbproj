@@ -26,8 +26,8 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
-    <ApplicationRevision>1</ApplicationRevision>
-    <ApplicationVersion>2.1.0.%2a</ApplicationVersion>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>3.1.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
@@ -121,6 +121,12 @@
     <Compile Include="alertelog.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Applications.Designer.vb">
+      <DependentUpon>Applications.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Applications.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="apropos.Designer.vb">
       <DependentUpon>apropos.vb</DependentUpon>
     </Compile>
@@ -182,10 +188,22 @@
     <Compile Include="exewin.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="game.Designer.vb">
+      <DependentUpon>game.vb</DependentUpon>
+    </Compile>
+    <Compile Include="game.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="mathingGame.Designer.vb">
       <DependentUpon>mathingGame.vb</DependentUpon>
     </Compile>
     <Compile Include="mathingGame.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MazeGame.Designer.vb">
+      <DependentUpon>MazeGame.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MazeGame.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="News.Designer.vb">
@@ -198,6 +216,12 @@
       <DependentUpon>Options.vb</DependentUpon>
     </Compile>
     <Compile Include="Options.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="paints.Designer.vb">
+      <DependentUpon>paints.vb</DependentUpon>
+    </Compile>
+    <Compile Include="paints.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="PDF.Designer.vb">
@@ -259,6 +283,9 @@
     <EmbeddedResource Include="alertelog.resx">
       <DependentUpon>alertelog.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Applications.resx">
+      <DependentUpon>Applications.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="apropos.resx">
       <DependentUpon>apropos.vb</DependentUpon>
     </EmbeddedResource>
@@ -289,14 +316,23 @@
     <EmbeddedResource Include="exewin.resx">
       <DependentUpon>exewin.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="game.resx">
+      <DependentUpon>game.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="mathingGame.resx">
       <DependentUpon>mathingGame.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MazeGame.resx">
+      <DependentUpon>MazeGame.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="News.resx">
       <DependentUpon>News.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Options.resx">
       <DependentUpon>Options.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="paints.resx">
+      <DependentUpon>paints.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="PDF.resx">
       <DependentUpon>PDF.vb</DependentUpon>

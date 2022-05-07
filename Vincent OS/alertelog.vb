@@ -7,7 +7,9 @@
     Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
         If Login.Visible = True Then
             Arrêt.Timer1.Start()
+            Login.Hide()
             Arrêt.Show()
+            Me.Close()
         ElseIf Avant.Visible = True Then
             Avant.Close()
             Me.Close()

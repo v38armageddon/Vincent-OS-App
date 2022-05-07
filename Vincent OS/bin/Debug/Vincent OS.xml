@@ -19,6 +19,12 @@ VincentOS
 	<summary>
   Une classe de ressource fortement typée destinée, entre autres, à la consultation des chaînes localisées.
 </summary>
+</member><member name="M:Vincent_OS.MazeGame.MoveToStart">
+	<summary>
+ Move the mouse pointer to a point 10 pixels down and to the right
+ of the starting point in the upper-left corner of the maze.
+ </summary>
+	<remarks></remarks>
 </member>
 </members>
 </doc>
