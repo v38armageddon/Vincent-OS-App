@@ -23,6 +23,8 @@ Public Class Media
 
     Private Sub PleinÉcranToolStripMenuItem_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles PleinÉcranToolStripMenuItem.Click
         If AxWindowsMediaPlayer2.URL = Nothing Then
+            Dim backmusic As New System.Media.SoundPlayer(My.Resources.errorSound)
+            backmusic.Play()
             MessageBox.Show("Veuillez d'abord lancer un média...", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error)
         Else
             AxWindowsMediaPlayer2.fullScreen = True

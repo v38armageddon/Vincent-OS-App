@@ -4,14 +4,14 @@
         apropos.Show()
     End Sub
 
-    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+    Private Sub Button1_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Ecran.Show()
     End Sub
 
-    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+    Private Sub Button2_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Alerte.Show()
     End Sub
-    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
+    Private Sub Button4_Click(ByVal sender As System.Object, ByVal e As System.EventArgs)
         Terminal.Show()
     End Sub
 
@@ -26,16 +26,16 @@
                 Login.StartPosition = FormStartPosition.CenterScreen
                 Arrêt.StartPosition = FormStartPosition.CenterScreen
                 Login2bureau.StartPosition = FormStartPosition.CenterScreen
-                Bureau.Width = 863
-                Bureau.Height = 442
-                Arrêt.Width = 863
-                Arrêt.Height = 442
-                Démarrage.Width = 863
-                Démarrage.Height = 442
-                Login.Width = 863
-                Login.Height = 442
-                Login2bureau.Width = 863
-                Login2bureau.Height = 442
+                Bureau.Width = 854
+                Bureau.Height = 480
+                Arrêt.Width = 854
+                Arrêt.Height = 480
+                Démarrage.Width = 854
+                Démarrage.Height = 480
+                Login.Width = 854
+                Login.Height = 480
+                Login2bureau.Width = 854
+                Login2bureau.Height = 480
             End If
             If Bureau2.Visible = True Then
                 Bureau2.Location = New Point(480, 300)
@@ -46,16 +46,16 @@
                 Login.StartPosition = FormStartPosition.CenterScreen
                 Arrêt.StartPosition = FormStartPosition.CenterScreen
                 Login2bureau2.StartPosition = FormStartPosition.CenterScreen
-                Bureau2.Width = 863
-                Bureau2.Height = 442
-                Arrêt.Width = 863
-                Arrêt.Height = 442
-                Démarrage.Width = 863
-                Démarrage.Height = 442
-                Login.Width = 863
-                Login.Height = 442
-                Login2bureau2.Width = 863
-                Login2bureau2.Height = 442
+                Bureau2.Width = 854
+                Bureau2.Height = 480
+                Arrêt.Width = 854
+                Arrêt.Height = 480
+                Démarrage.Width = 854
+                Démarrage.Height = 480
+                Login.Width = 854
+                Login.Height = 480
+                Login2bureau2.Width = 854
+                Login2bureau2.Height = 480
             End If
         End If
     End Sub
@@ -121,5 +121,21 @@
         ElseIf Bureau2.Visible = True Then
             Bureau2.Button25.Visible = False
         End If
+    End Sub
+
+    Private Sub LinkLabel1_LinkClicked(ByVal sender As System.Object, ByVal e As System.Windows.Forms.LinkLabelLinkClickedEventArgs)
+        System.Diagnostics.Process.Start("https://discord.com/channels/702615233197244526/703188520671510550")
+    End Sub
+
+    Private Sub Button2_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button2.Click
+        Icones.Show()
+    End Sub
+
+    Private Sub Button4_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button4.Click
+        Azkan.Show()
+    End Sub
+
+    Private Sub Button1_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button1.Click
+        Ecran.Show()
     End Sub
 End Class

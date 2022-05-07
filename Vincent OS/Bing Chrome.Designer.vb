@@ -29,17 +29,19 @@ Partial Class Bing_Chrome
         Me.PictureBox4 = New System.Windows.Forms.PictureBox()
         Me.PictureBox5 = New System.Windows.Forms.PictureBox()
         Me.TextBox1 = New System.Windows.Forms.TextBox()
-        Me.WebBrowser1 = New System.Windows.Forms.WebBrowser()
         Me.PictureBox6 = New System.Windows.Forms.PictureBox()
-        Me.PictureBox7 = New System.Windows.Forms.PictureBox()
-        Me.TextBox2 = New System.Windows.Forms.TextBox()
+        Me.TabControl1 = New System.Windows.Forms.TabControl()
+        Me.TabPage2 = New System.Windows.Forms.TabPage()
+        Me.WebBrowser2 = New System.Windows.Forms.WebBrowser()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox3, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.TabControl1.SuspendLayout()
+        Me.TabPage2.SuspendLayout()
         Me.SuspendLayout()
         '
         'PictureBox1
@@ -102,18 +104,6 @@ Partial Class Bing_Chrome
         Me.TextBox1.TabIndex = 5
         Me.TextBox1.Text = "Saisissez l'URL"
         '
-        'WebBrowser1
-        '
-        Me.WebBrowser1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
-                    Or System.Windows.Forms.AnchorStyles.Left) _
-                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.WebBrowser1.Location = New System.Drawing.Point(0, 92)
-        Me.WebBrowser1.MinimumSize = New System.Drawing.Size(20, 20)
-        Me.WebBrowser1.Name = "WebBrowser1"
-        Me.WebBrowser1.Size = New System.Drawing.Size(760, 326)
-        Me.WebBrowser1.TabIndex = 6
-        Me.WebBrowser1.Url = New System.Uri("https://www.bing.com", System.UriKind.Absolute)
-        '
         'PictureBox6
         '
         Me.PictureBox6.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
@@ -125,35 +115,58 @@ Partial Class Bing_Chrome
         Me.PictureBox6.TabIndex = 7
         Me.PictureBox6.TabStop = False
         '
-        'PictureBox7
+        'TabControl1
         '
-        Me.PictureBox7.Image = CType(resources.GetObject("PictureBox7.Image"), System.Drawing.Image)
-        Me.PictureBox7.Location = New System.Drawing.Point(0, 46)
-        Me.PictureBox7.Name = "PictureBox7"
-        Me.PictureBox7.Size = New System.Drawing.Size(40, 40)
-        Me.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
-        Me.PictureBox7.TabIndex = 8
-        Me.PictureBox7.TabStop = False
-        '
-        'TextBox2
-        '
-        Me.TextBox2.Anchor = CType(((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Left) _
+        Me.TabControl1.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
-        Me.TextBox2.Location = New System.Drawing.Point(46, 56)
-        Me.TextBox2.Name = "TextBox2"
-        Me.TextBox2.Size = New System.Drawing.Size(714, 20)
-        Me.TextBox2.TabIndex = 9
-        Me.TextBox2.Text = "Rechercher"
+        Me.TabControl1.Controls.Add(Me.TabPage2)
+        Me.TabControl1.Location = New System.Drawing.Point(0, 46)
+        Me.TabControl1.Name = "TabControl1"
+        Me.TabControl1.SelectedIndex = 0
+        Me.TabControl1.Size = New System.Drawing.Size(760, 368)
+        Me.TabControl1.TabIndex = 10
+        '
+        'TabPage2
+        '
+        Me.TabPage2.Controls.Add(Me.WebBrowser2)
+        Me.TabPage2.Location = New System.Drawing.Point(4, 22)
+        Me.TabPage2.Name = "TabPage2"
+        Me.TabPage2.Padding = New System.Windows.Forms.Padding(3)
+        Me.TabPage2.Size = New System.Drawing.Size(752, 342)
+        Me.TabPage2.TabIndex = 1
+        Me.TabPage2.UseVisualStyleBackColor = True
+        '
+        'WebBrowser2
+        '
+        Me.WebBrowser2.Anchor = CType((((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Bottom) _
+                    Or System.Windows.Forms.AnchorStyles.Left) _
+                    Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.WebBrowser2.Location = New System.Drawing.Point(0, 0)
+        Me.WebBrowser2.MinimumSize = New System.Drawing.Size(20, 20)
+        Me.WebBrowser2.Name = "WebBrowser2"
+        Me.WebBrowser2.Size = New System.Drawing.Size(752, 342)
+        Me.WebBrowser2.TabIndex = 8
+        Me.WebBrowser2.Url = New System.Uri("https://www.bing.com", System.UriKind.Absolute)
+        '
+        'Button1
+        '
+        Me.Button1.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
+        Me.Button1.Location = New System.Drawing.Point(735, 46)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(21, 20)
+        Me.Button1.TabIndex = 8
+        Me.Button1.Text = "+"
+        Me.Button1.UseVisualStyleBackColor = True
         '
         'Bing_Chrome
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(762, 415)
-        Me.Controls.Add(Me.TextBox2)
-        Me.Controls.Add(Me.PictureBox7)
+        Me.Controls.Add(Me.Button1)
+        Me.Controls.Add(Me.TabControl1)
         Me.Controls.Add(Me.PictureBox6)
-        Me.Controls.Add(Me.WebBrowser1)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.PictureBox5)
         Me.Controls.Add(Me.PictureBox4)
@@ -171,7 +184,8 @@ Partial Class Bing_Chrome
         CType(Me.PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
-        CType(Me.PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.TabControl1.ResumeLayout(False)
+        Me.TabPage2.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
@@ -182,8 +196,9 @@ Partial Class Bing_Chrome
     Friend WithEvents PictureBox4 As System.Windows.Forms.PictureBox
     Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
     Friend WithEvents TextBox1 As System.Windows.Forms.TextBox
-    Friend WithEvents WebBrowser1 As System.Windows.Forms.WebBrowser
     Friend WithEvents PictureBox6 As System.Windows.Forms.PictureBox
-    Friend WithEvents PictureBox7 As System.Windows.Forms.PictureBox
-    Friend WithEvents TextBox2 As System.Windows.Forms.TextBox
+    Friend WithEvents TabControl1 As System.Windows.Forms.TabControl
+    Friend WithEvents TabPage2 As System.Windows.Forms.TabPage
+    Friend WithEvents WebBrowser2 As System.Windows.Forms.WebBrowser
+    Friend WithEvents Button1 As System.Windows.Forms.Button
 End Class

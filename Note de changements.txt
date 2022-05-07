@@ -1,5 +1,18 @@
 Notes de mises à jours :
 
+Version 5 (18/10/2020) :
+- Résolution du mode fenêtré changé en 854x480
+- Changement du fond d'écran de connexion, merci à ZeyaTsu
+- Changement du fond d'écran de la session invité, merci à Kiki79250CoC
+- Changement du fond d'écran de la session superutilisateur, merci à ZeyaTsu
+- Menu d'application refait de A à Z
+- Nouvelle option disponnible : Afficher les icônes sur le bureau
+- Ajout d'onglet dans le navigateur Bing Chrome
+- Refonte des fenêtres suivantes : Paramètres, applications, changement du fond d'écran
+- Changement des logos d'applications, merci à W4WAN
+- Ajout de son de démarrage, d'alerte, d'erreur et d'arrêt, merci à W4WAN
+
+
 Version 4.2 (30/08/2020) :
 - Retour du Media Player !  Avec une refonte totale !
 - Changement des fonds d'écrans

@@ -38,18 +38,18 @@ Partial Class Login2bureau2
         Me.ProgressBar1.Anchor = CType(((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left) _
                     Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.ProgressBar1.ForeColor = System.Drawing.Color.Lime
-        Me.ProgressBar1.Location = New System.Drawing.Point(12, 407)
+        Me.ProgressBar1.Location = New System.Drawing.Point(12, 445)
         Me.ProgressBar1.Name = "ProgressBar1"
         Me.ProgressBar1.RightToLeft = System.Windows.Forms.RightToLeft.Yes
         Me.ProgressBar1.RightToLeftLayout = True
-        Me.ProgressBar1.Size = New System.Drawing.Size(839, 23)
+        Me.ProgressBar1.Size = New System.Drawing.Size(830, 23)
         Me.ProgressBar1.TabIndex = 0
         '
         'PictureBox1
         '
         Me.PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
-        Me.PictureBox1.Location = New System.Drawing.Point(251, 102)
+        Me.PictureBox1.Location = New System.Drawing.Point(247, 121)
         Me.PictureBox1.Name = "PictureBox1"
         Me.PictureBox1.Size = New System.Drawing.Size(349, 190)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -61,7 +61,7 @@ Partial Class Login2bureau2
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.Black
-        Me.ClientSize = New System.Drawing.Size(863, 442)
+        Me.ClientSize = New System.Drawing.Size(854, 480)
         Me.Controls.Add(Me.PictureBox1)
         Me.Controls.Add(Me.ProgressBar1)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None

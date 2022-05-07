@@ -74,7 +74,7 @@ Partial Class Bureau
         Me.PictureBox1.Dock = System.Windows.Forms.DockStyle.Top
         Me.PictureBox1.Location = New System.Drawing.Point(0, 0)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(863, 25)
+        Me.PictureBox1.Size = New System.Drawing.Size(854, 25)
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False
         '
@@ -83,7 +83,7 @@ Partial Class Bureau
         Me.PictureBox2.Anchor = CType((System.Windows.Forms.AnchorStyles.Top Or System.Windows.Forms.AnchorStyles.Right), System.Windows.Forms.AnchorStyles)
         Me.PictureBox2.BackColor = System.Drawing.Color.Gray
         Me.PictureBox2.Image = CType(resources.GetObject("PictureBox2.Image"), System.Drawing.Image)
-        Me.PictureBox2.Location = New System.Drawing.Point(836, 0)
+        Me.PictureBox2.Location = New System.Drawing.Point(827, 0)
         Me.PictureBox2.Name = "PictureBox2"
         Me.PictureBox2.Size = New System.Drawing.Size(28, 25)
         Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
@@ -120,7 +120,7 @@ Partial Class Bureau
         Me.Panel1.Controls.Add(Me.Label3)
         Me.Panel1.Controls.Add(Me.PictureBox3)
         Me.Panel1.Controls.Add(Me.Button1)
-        Me.Panel1.Location = New System.Drawing.Point(707, 31)
+        Me.Panel1.Location = New System.Drawing.Point(698, 31)
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(157, 116)
         Me.Panel1.TabIndex = 4
@@ -230,7 +230,7 @@ Partial Class Bureau
         Me.Button10.BackColor = System.Drawing.Color.Gray
         Me.Button10.BackgroundImage = CType(resources.GetObject("Button10.BackgroundImage"), System.Drawing.Image)
         Me.Button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button10.Location = New System.Drawing.Point(836, 416)
+        Me.Button10.Location = New System.Drawing.Point(827, 454)
         Me.Button10.Name = "Button10"
         Me.Button10.Size = New System.Drawing.Size(28, 26)
         Me.Button10.TabIndex = 17
@@ -253,7 +253,7 @@ Partial Class Bureau
         Me.Button12.BackColor = System.Drawing.Color.Gray
         Me.Button12.BackgroundImage = CType(resources.GetObject("Button12.BackgroundImage"), System.Drawing.Image)
         Me.Button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch
-        Me.Button12.Location = New System.Drawing.Point(0, 416)
+        Me.Button12.Location = New System.Drawing.Point(0, 454)
         Me.Button12.Name = "Button12"
         Me.Button12.Size = New System.Drawing.Size(28, 26)
         Me.Button12.TabIndex = 19
@@ -311,16 +311,16 @@ Partial Class Bureau
         Me.FlowLayoutPanel1.Controls.Add(Me.Button11)
         Me.FlowLayoutPanel1.Location = New System.Drawing.Point(0, 22)
         Me.FlowLayoutPanel1.Name = "FlowLayoutPanel1"
-        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(864, 420)
+        Me.FlowLayoutPanel1.Size = New System.Drawing.Size(855, 458)
         Me.FlowLayoutPanel1.TabIndex = 23
         '
         'PictureBox4
         '
         Me.PictureBox4.BackColor = System.Drawing.Color.Gray
         Me.PictureBox4.Dock = System.Windows.Forms.DockStyle.Bottom
-        Me.PictureBox4.Location = New System.Drawing.Point(0, 416)
+        Me.PictureBox4.Location = New System.Drawing.Point(0, 454)
         Me.PictureBox4.Name = "PictureBox4"
-        Me.PictureBox4.Size = New System.Drawing.Size(863, 26)
+        Me.PictureBox4.Size = New System.Drawing.Size(854, 26)
         Me.PictureBox4.TabIndex = 22
         Me.PictureBox4.TabStop = False
         '
@@ -370,9 +370,9 @@ Partial Class Bureau
         Me.FlowLayoutPanel2.Controls.Add(Me.Button26)
         Me.FlowLayoutPanel2.Controls.Add(Me.Button25)
         Me.FlowLayoutPanel2.Controls.Add(Me.Button24)
-        Me.FlowLayoutPanel2.Location = New System.Drawing.Point(34, 416)
+        Me.FlowLayoutPanel2.Location = New System.Drawing.Point(34, 454)
         Me.FlowLayoutPanel2.Name = "FlowLayoutPanel2"
-        Me.FlowLayoutPanel2.Size = New System.Drawing.Size(796, 26)
+        Me.FlowLayoutPanel2.Size = New System.Drawing.Size(787, 26)
         Me.FlowLayoutPanel2.TabIndex = 27
         '
         'Button19
@@ -461,7 +461,7 @@ Partial Class Bureau
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(0, Byte), Integer), CType(CType(192, Byte), Integer), CType(CType(192, Byte), Integer))
         Me.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom
-        Me.ClientSize = New System.Drawing.Size(863, 442)
+        Me.ClientSize = New System.Drawing.Size(854, 480)
         Me.Controls.Add(Me.FlowLayoutPanel2)
         Me.Controls.Add(Me.Button12)
         Me.Controls.Add(Me.Button10)

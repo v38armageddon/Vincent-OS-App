@@ -13,6 +13,12 @@
             Login2bureau.Close()
             Login2bureau2.Close()
             Me.Close()
+            Application.Exit()
         End If
+    End Sub
+
+    Private Sub Arrêt_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+        Dim backmusic As New System.Media.SoundPlayer(My.Resources.shutdownSound)
+        backmusic.Play()
     End Sub
 End Class

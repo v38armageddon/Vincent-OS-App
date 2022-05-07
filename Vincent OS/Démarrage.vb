@@ -8,6 +8,8 @@
             Timer1.Stop()
             Login.Show()
             Me.Hide()
+            Dim backmusic As New System.Media.SoundPlayer(My.Resources.startingSound)
+            backmusic.Play()
         End If
     End Sub
 End Class

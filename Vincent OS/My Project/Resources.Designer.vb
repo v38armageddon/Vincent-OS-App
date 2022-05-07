@@ -59,5 +59,141 @@ Namespace My.Resources
                 resourceCulture = value
             End Set
         End Property
+        
+        Friend ReadOnly Property alertSound() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("alertSound", resourceCulture)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property errorSound() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("errorSound", resourceCulture)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property Fond_decran1() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Fond_decran1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property Fond_decran2() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Fond_decran2", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property Fond_decran6() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Fond_decran6", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property fond_écran_invité() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("fond écran invité", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property fond_écran_kiki() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("fond écran kiki", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property fond_écran_kiki2() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("fond écran kiki2", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property fond_écran_login() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("fond écran login", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property fond_écran_superutilisateur() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("fond écran superutilisateur", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property fond_écran_superutilisateur1() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("fond écran superutilisateur1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property fond_vincentOS_11() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("fond_vincentOS_11", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property image0() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("image0", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property shutdownSound() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("shutdownSound", resourceCulture)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property spaceutilisateur() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("spaceutilisateur", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property startingSound() As System.IO.UnmanagedMemoryStream
+            Get
+                Return ResourceManager.GetStream("startingSound", resourceCulture)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property Wallpaper_2() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Wallpaper 2", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property Wallpaper_3() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Wallpaper 3", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property Wallpaper_4() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("Wallpaper 4", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
+        
+        Friend ReadOnly Property zeyatsu1() As System.Drawing.Bitmap
+            Get
+                Dim obj As Object = ResourceManager.GetObject("zeyatsu1", resourceCulture)
+                Return CType(obj,System.Drawing.Bitmap)
+            End Get
+        End Property
     End Module
 End Namespace
