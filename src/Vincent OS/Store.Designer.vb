@@ -53,6 +53,7 @@ Partial Class Store
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
         Me.VosTéléchargementsToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.MiseÀJourToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.TabControl1.SuspendLayout()
         Me.TabPage1.SuspendLayout()
         CType(Me.PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -372,7 +373,7 @@ Partial Class Store
         '
         'MenuStrip1
         '
-        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.VosTéléchargementsToolStripMenuItem})
+        Me.MenuStrip1.Items.AddRange(New System.Windows.Forms.ToolStripItem() {Me.VosTéléchargementsToolStripMenuItem, Me.MiseÀJourToolStripMenuItem})
         Me.MenuStrip1.Location = New System.Drawing.Point(0, 0)
         Me.MenuStrip1.Name = "MenuStrip1"
         Me.MenuStrip1.Size = New System.Drawing.Size(450, 24)
@@ -384,6 +385,12 @@ Partial Class Store
         Me.VosTéléchargementsToolStripMenuItem.Name = "VosTéléchargementsToolStripMenuItem"
         Me.VosTéléchargementsToolStripMenuItem.Size = New System.Drawing.Size(129, 20)
         Me.VosTéléchargementsToolStripMenuItem.Text = "Vos téléchargements"
+        '
+        'MiseÀJourToolStripMenuItem
+        '
+        Me.MiseÀJourToolStripMenuItem.Name = "MiseÀJourToolStripMenuItem"
+        Me.MiseÀJourToolStripMenuItem.Size = New System.Drawing.Size(77, 20)
+        Me.MiseÀJourToolStripMenuItem.Text = "Mise à jour"
         '
         'Store
         '
@@ -447,4 +454,5 @@ Partial Class Store
     Friend WithEvents PictureBox5 As System.Windows.Forms.PictureBox
     Friend WithEvents Button5 As System.Windows.Forms.Button
     Friend WithEvents Label3 As System.Windows.Forms.Label
+    Friend WithEvents MiseÀJourToolStripMenuItem As ToolStripMenuItem
 End Class

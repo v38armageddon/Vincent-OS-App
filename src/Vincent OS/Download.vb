@@ -1,5 +1,16 @@
 ﻿Public Class Download
 
+    Private Sub Download_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        If My.Computer.Network.IsAvailable Then
+            '' Ne rien faire
+        Else
+            Dim backmusic As New System.Media.SoundPlayer(My.Resources.errorSound)
+            backmusic.Play()
+            MsgBox("Veuillez vous connecter à internet pour pouvoir effectuer des téléchargements.", MsgBoxStyle.Critical, "Erreur")
+            Me.Close()
+        End If
+    End Sub
+
     Private Sub Button5_Click_1(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles Button5.Click
         If Button6.Enabled = False Or Button7.Enabled = False Or Button8.Enabled = False Or Button2.Enabled = False Or Button3.Enabled = False Then
             Dim errorsound As New System.Media.SoundPlayer(My.Resources.errorSound)
@@ -87,7 +98,7 @@
             ProgressBar1.Increment(0.75)
             If ProgressBar1.Value = 100 Then
                 Timer1.Stop()
-                System.Diagnostics.Process.Start("https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86")
+                My.Computer.Network.DownloadFile("https://discord.com/api/downloads/distributions/app/installers/latest?channel=stable&platform=win&arch=x86", "C:\Users\All Users\Downloads\Discord.exe")
                 Button5.Text = "Lancer le téléchargement"
                 Button5.Enabled = True
                 ProgressBar1.Value = 0
@@ -100,7 +111,7 @@
             If ProgressBar2.Value = 100 Then
                 Timer1.Stop()
                 '' POURQUOI GOOGLE FONT DES LIENS ULTRA LONG SA MERE ???
-                System.Diagnostics.Process.Start("https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BC4F38CD2-40DE-EBE5-18B2-99D3A077C899%7D%26lang%3Dfr%26browser%3D2%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Dempty/update2/installers/ChromeSetup.exe")
+                My.Computer.Network.DownloadFile("https://dl.google.com/tag/s/appguid%3D%7B8A69D345-D564-463C-AFF1-A69D9E530F96%7D%26iid%3D%7BC4F38CD2-40DE-EBE5-18B2-99D3A077C899%7D%26lang%3Dfr%26browser%3D2%26usagestats%3D1%26appname%3DGoogle%2520Chrome%26needsadmin%3Dprefers%26ap%3Dx64-stable-statsdef_1%26installdataindex%3Dempty/update2/installers/ChromeSetup.exe", "C:\Users\All Users\Downloads\ChromeSetup.exe")
                 Button6.Text = "Lancer le téléchargemnt"
                 Button6.Enabled = True
                 ProgressBar2.Value = 0
@@ -112,7 +123,7 @@
             ProgressBar3.Increment(0.75)
             If ProgressBar3.Value = 100 Then
                 Timer1.Stop()
-                System.Diagnostics.Process.Start("https://download.mozilla.org/?product=firefox-stub&os=win&lang=fr")
+                My.Computer.Network.DownloadFile("https://download.mozilla.org/?product=firefox-stub&os=win&lang=fr", "C:\Users\All Users\Downloads\FirefoxSetup.exe")
                 Button7.Text = "Lancer le téléchargement"
                 Button7.Enabled = True
                 ProgressBar3.Value = 0
@@ -124,7 +135,7 @@
             ProgressBar4.Increment(0.75)
             If ProgressBar4.Value = 100 Then
                 Timer1.Stop()
-                System.Diagnostics.Process.Start("https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe")
+                My.Computer.Network.DownloadFile("https://cdn.akamai.steamstatic.com/client/installer/SteamSetup.exe", "C:\Users\All Users\Downloads\SteamSetup.exe")
                 Button8.Text = "Lancer le téléchargement"
                 Button8.Enabled = True
                 ProgressBar4.Value = 0
@@ -150,7 +161,7 @@
             ProgressBar7.Increment(0.75)
             If ProgressBar7.Value = 100 Then
                 Timer1.Stop()
-                System.Diagnostics.Process.Start("https://github.com/v38armageddon/Lecteur-PDF/archive/refs/heads/main.zip")
+                My.Computer.Network.DownloadFile("https://github.com/v38armageddon/Lecteur-PDF/archive/refs/heads/main.zip", "C:\Users\All Users\Downloads\Lecteur-PDF.zip")
                 Button3.Text = "Lancer le téléchargement"
                 Button3.Enabled = True
                 ProgressBar7.Value = 0

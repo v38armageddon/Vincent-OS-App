@@ -118,7 +118,6 @@ C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent OS.vbproj.ResolveComReference.cache
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.alertelog.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Applications.resources
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.armageddon.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Arrêt.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Avant.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Calc.resources
@@ -156,3 +155,4 @@ C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Custom.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.About.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Paramètres.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.UpdateStation.resources

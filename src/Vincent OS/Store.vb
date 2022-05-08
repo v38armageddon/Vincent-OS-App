@@ -63,4 +63,8 @@
             Bureau2.Button8.Visible = False
         End If
     End Sub
+
+    Private Sub MiseÀJourToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles MiseÀJourToolStripMenuItem.Click
+        UpdateStation.Show()
+    End Sub
 End Class

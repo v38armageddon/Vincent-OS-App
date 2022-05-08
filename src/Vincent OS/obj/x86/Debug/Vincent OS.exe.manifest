@@ -67,26 +67,17 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Vincent OS.exe" size="19579392">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Vincent OS.exe" size="19544064">
       <assemblyIdentity name="Vincent OS" version="7.1.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>fZNHjXoxjIJo+MS2IVmmlB1D1mo=</dsig:DigestValue>
+        <dsig:DigestValue>M7euSr6AwpJU6BgT89wnzs3mCmU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="unnamed.ico" size="7064">
-    <hash>
-      <dsig:Transforms>
-        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
-      </dsig:Transforms>
-      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-      <dsig:DigestValue>XvRxqdIjYym7kJyq0OzIju0HQ3U=</dsig:DigestValue>
-    </hash>
-  </file>
   <file name="Vincent OS.ico" size="7064">
     <hash>
       <dsig:Transforms>

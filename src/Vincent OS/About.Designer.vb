@@ -37,7 +37,7 @@ Partial Class About
         Me.Label1.AutoSize = True
         Me.Label1.Font = New System.Drawing.Font("Arial", 21.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(205, 22)
+        Me.Label1.Location = New System.Drawing.Point(199, 22)
         Me.Label1.Name = "Label1"
         Me.Label1.Size = New System.Drawing.Size(168, 34)
         Me.Label1.TabIndex = 1
@@ -48,30 +48,29 @@ Partial Class About
         Me.Label2.AutoSize = True
         Me.Label2.Font = New System.Drawing.Font("Arial", 21.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label2.ForeColor = System.Drawing.Color.White
-        Me.Label2.Location = New System.Drawing.Point(206, 56)
+        Me.Label2.Location = New System.Drawing.Point(200, 56)
         Me.Label2.Name = "Label2"
         Me.Label2.Size = New System.Drawing.Size(176, 33)
         Me.Label2.TabIndex = 2
-        Me.Label2.Text = "Version : 7.1"
+        Me.Label2.Text = "Version : 7.2"
         '
         'Label3
         '
         Me.Label3.AutoSize = True
         Me.Label3.Font = New System.Drawing.Font("Arial", 9.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label3.ForeColor = System.Drawing.Color.White
-        Me.Label3.Location = New System.Drawing.Point(205, 130)
+        Me.Label3.Location = New System.Drawing.Point(199, 130)
         Me.Label3.Name = "Label3"
         Me.Label3.Size = New System.Drawing.Size(258, 32)
         Me.Label3.TabIndex = 3
-        Me.Label3.Text = "Ce système d'exploitation est Open Source" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "soumis sous la licence : The Unlicense" &
-    ""
+        Me.Label3.Text = "Ce système d'exploitation est Open Source" & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "soumis sous la licence : GPL-v3.0"
         '
         'Label4
         '
         Me.Label4.AutoSize = True
         Me.Label4.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label4.ForeColor = System.Drawing.Color.White
-        Me.Label4.Location = New System.Drawing.Point(204, 169)
+        Me.Label4.Location = New System.Drawing.Point(198, 169)
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(260, 24)
         Me.Label4.TabIndex = 4
@@ -82,7 +81,7 @@ Partial Class About
         Me.Label5.AutoSize = True
         Me.Label5.Font = New System.Drawing.Font("Arial", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label5.ForeColor = System.Drawing.Color.White
-        Me.Label5.Location = New System.Drawing.Point(205, 89)
+        Me.Label5.Location = New System.Drawing.Point(199, 89)
         Me.Label5.Name = "Label5"
         Me.Label5.Size = New System.Drawing.Size(195, 32)
         Me.Label5.TabIndex = 5
@@ -93,7 +92,7 @@ Partial Class About
         Me.PictureBox1.Image = CType(resources.GetObject("PictureBox1.Image"), System.Drawing.Image)
         Me.PictureBox1.Location = New System.Drawing.Point(12, 12)
         Me.PictureBox1.Name = "PictureBox1"
-        Me.PictureBox1.Size = New System.Drawing.Size(187, 181)
+        Me.PictureBox1.Size = New System.Drawing.Size(181, 181)
         Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage
         Me.PictureBox1.TabIndex = 0
         Me.PictureBox1.TabStop = False

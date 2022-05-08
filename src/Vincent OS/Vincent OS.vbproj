@@ -133,12 +133,6 @@
     <Compile Include="About.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="armageddon.Designer.vb">
-      <DependentUpon>armageddon.vb</DependentUpon>
-    </Compile>
-    <Compile Include="armageddon.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Arrêt.Designer.vb">
       <DependentUpon>Arrêt.vb</DependentUpon>
     </Compile>
@@ -283,6 +277,12 @@
     <Compile Include="UAC.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="UpdateStation.Designer.vb">
+      <DependentUpon>UpdateStation.vb</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateStation.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Utilisateur.Designer.vb">
       <DependentUpon>Utilisateur.vb</DependentUpon>
     </Compile>
@@ -327,9 +327,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="armageddon.resx">
-      <DependentUpon>armageddon.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Arrêt.resx">
       <DependentUpon>Arrêt.vb</DependentUpon>
@@ -399,6 +396,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UAC.resx">
       <DependentUpon>UAC.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UpdateStation.resx">
+      <DependentUpon>UpdateStation.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Utilisateur.resx">
       <DependentUpon>Utilisateur.vb</DependentUpon>
@@ -476,7 +476,6 @@
     <None Include="Resources\wallpaper invité.png" />
     <None Include="Resources\wallpaper login.jpg" />
     <None Include="Resources\wallpaper superutilisateur.jpg" />
-    <Content Include="unnamed.ico" />
     <Content Include="Vincent OS.ico" />
   </ItemGroup>
   <ItemGroup>

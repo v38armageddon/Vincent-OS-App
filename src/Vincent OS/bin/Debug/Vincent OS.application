@@ -8,14 +8,14 @@
     <framework targetVersion="4.0" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Vincent OS.exe.manifest" size="6051">
+    <dependentAssembly dependencyType="install" codebase="Vincent OS.exe.manifest" size="5680">
       <assemblyIdentity name="Vincent OS.exe" version="7.1.0.0" publicKeyToken="0000000000000000" language="fr-FR" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
-        <dsig:DigestValue>ogYSVyOGZ98tTxux/I5J0nEMndU=</dsig:DigestValue>
+        <dsig:DigestValue>vu/+JjgfkBTqc6+ewbOCP4bwWMQ=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
