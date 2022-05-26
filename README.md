@@ -21,7 +21,7 @@ Pour les processeurs 64 bits : src/Vincent OS/bin/Debug/Vincent OS.exe
 
 ## Informations
 
-Ce projet est un projet Open Source sous la licence : The Unlicense.
+Ce projet est un projet Open Source sous la licence : GPL-3.0.
 
 Si au cours de votre utilisation, vous constatez des bugs ou même donner des idées, n'hésitez pas à le dire sur les différentes réseaux sociaux :
 
