@@ -155,4 +155,6 @@ C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Custom.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.About.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Paramètres.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Vincent OS.exe.config
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent OS.vbproj.SuggestedBindingRedirects.cache
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.UpdateStation.resources
