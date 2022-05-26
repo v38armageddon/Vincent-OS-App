@@ -169,7 +169,6 @@ C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Releas
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Release\Vincent OS.vbproj.ResolveComReference.cache
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Release\Vincent_OS.alertelog.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Release\Vincent_OS.Applications.resources
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Release\Vincent_OS.armageddon.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Release\Vincent_OS.Arrêt.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Release\Vincent_OS.Avant.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Release\Vincent_OS.Calc.resources
@@ -208,3 +207,6 @@ C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Releas
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Release\Vincent_OS.Custom.resources
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Release\Vincent OS.vbproj.AssemblyReference.cache
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Release\Vincent_OS.Paramètres.resources
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Release\Vincent OS.exe.config
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Release\Vincent OS.vbproj.SuggestedBindingRedirects.cache
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Release\Vincent_OS.UpdateStation.resources

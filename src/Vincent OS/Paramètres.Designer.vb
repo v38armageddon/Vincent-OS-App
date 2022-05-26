@@ -171,7 +171,7 @@ Partial Class Paramètres
         Me.Label7.TabIndex = 25
         Me.Label7.Text = "Utilisateur : [UTILISATEUR]"
         '
-        'Options
+        'Paramètres
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -192,7 +192,7 @@ Partial Class Paramètres
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
-        Me.Name = "Options"
+        Me.Name = "Paramètres"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Paramètres"
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
