@@ -42,3 +42,7 @@ C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\net6.0-w
 C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\net6.0-windows7.0\refint\Vincent OS.dll
 C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\net6.0-windows7.0\Vincent OS.genruntimeconfig.cache
 C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\net6.0-windows7.0\ref\Vincent OS.dll
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\bin\x86\Debug\net6.0-windows7.0\af-ZA\Vincent OS.resources.dll
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\net6.0-windows7.0\Vincent_OS.Properties.Resources.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\net6.0-windows7.0\Vincent_OS.Avant.af-ZA.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\net6.0-windows7.0\af-ZA\Vincent OS.resources.dll

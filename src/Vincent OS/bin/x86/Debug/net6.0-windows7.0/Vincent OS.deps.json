@@ -9,6 +9,11 @@
       "Vincent OS/8": {
         "runtime": {
           "Vincent OS.dll": {}
+        },
+        "resources": {
+          "af-ZA/Vincent OS.resources.dll": {
+            "locale": "af-ZA"
+          }
         }
       }
     }

@@ -16,5 +16,10 @@ namespace Vincent_OS
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
