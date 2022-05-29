@@ -20,7 +20,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyProductAttribute("Vincent OS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Vincent OS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("8.0.0.0")]
-[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/v38armageddon/Vincent-OS-NuGet")]
+[assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/v38armageddon/Vincent-OS")]
 [assembly: System.Resources.NeutralResourcesLanguageAttribute("fr-FR")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]

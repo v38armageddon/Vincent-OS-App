@@ -13,11 +13,11 @@
   "project": {
     "version": "8.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\v38armageddon\\source\\repos\\Vincent OS\\Vincent OS\\Vincent OS.csproj",
+      "projectUniqueName": "C:\\Users\\v38armageddon\\Documents\\GitHub\\Vincent-OS\\src\\Vincent OS\\Vincent OS.csproj",
       "projectName": "Vincent-OS",
-      "projectPath": "C:\\Users\\v38armageddon\\source\\repos\\Vincent OS\\Vincent OS\\Vincent OS.csproj",
+      "projectPath": "C:\\Users\\v38armageddon\\Documents\\GitHub\\Vincent-OS\\src\\Vincent OS\\Vincent OS.csproj",
       "packagesPath": "C:\\Users\\v38armageddon\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\v38armageddon\\source\\repos\\Vincent OS\\Vincent OS\\obj\\",
+      "outputPath": "C:\\Users\\v38armageddon\\Documents\\GitHub\\Vincent-OS\\src\\Vincent OS\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\v38armageddon\\AppData\\Roaming\\NuGet\\NuGet.Config",

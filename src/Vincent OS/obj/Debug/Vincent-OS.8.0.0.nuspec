@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Vincent-OS</id>
+    <version>8.0.0</version>
+    <authors>v38armageddon</authors>
+    <projectUrl>https://www.vincent-os.cf/</projectUrl>
+    <description>Découvrez un mini système d'exploitation avec des logiciels sympa !</description>
+    <copyright>GPL-v3.0 2019-2022</copyright>
+    <repository type="git" url="https://github.com/v38armageddon/Vincent-OS" />
+    <dependencies>
+      <group targetFramework="net6.0-windows7.0" />
+    </dependencies>
+    <frameworkReferences>
+      <group targetFramework="net6.0-windows7.0">
+        <frameworkReference name="Microsoft.WindowsDesktop.App.WindowsForms" />
+      </group>
+    </frameworkReferences>
+    <contentFiles>
+      <files include="any/net6.0-windows7.0/logo.ico" buildAction="Content" />
+    </contentFiles>
+  </metadata>
+  <files>
+    <file src="C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\net6.0-windows7.0\af-ZA\Vincent OS.resources.dll" target="lib\net6.0-windows7.0\af-ZA\Vincent OS.resources.dll" />
+    <file src="C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\x86\Debug\net6.0-windows7.0\Vincent OS.runtimeconfig.json" target="lib\net6.0-windows7.0\Vincent OS.runtimeconfig.json" />
+    <file src="C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\x86\Debug\net6.0-windows7.0\Vincent OS.dll" target="lib\net6.0-windows7.0\Vincent OS.dll" />
+    <file src="C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\logo.ico" target="content\logo.ico" />
+    <file src="C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\logo.ico" target="contentFiles\any\net6.0-windows7.0\logo.ico" />
+  </files>
+</package>

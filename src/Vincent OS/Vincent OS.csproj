@@ -19,14 +19,13 @@
     <Copyright>GPL-v3.0 2019-2022</Copyright>
     <PackageProjectUrl>https://www.vincent-os.cf</PackageProjectUrl>
     <PackageIcon></PackageIcon>
-    <PackageReadmeFile>README.md</PackageReadmeFile>
-    <RepositoryUrl>https://github.com/v38armageddon/Vincent-OS-NuGet</RepositoryUrl>
+    <RepositoryUrl>https://github.com/v38armageddon/Vincent-OS</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
     <NeutralLanguage>fr-FR</NeutralLanguage>
     <AssemblyVersion>8.0.0.0</AssemblyVersion>
     <FileVersion>8.0.0.0</FileVersion>
-    <PackageLicenseFile>LICENSE</PackageLicenseFile>
     <Platforms>AnyCPU;x86</Platforms>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
