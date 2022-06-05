@@ -16,29 +16,5 @@ namespace Vincent_OS
         {
             InitializeComponent();
         }
-        private void button1_Click(object sender, EventArgs e)
-        {
-            if (comboBox1.Text == "Arrêter")
-            {
-                
-            }
-            else if (comboBox1.Text == "Déconnecter")
-            {
-                
-            }
-            else if (comboBox1.Text == "Debug.Terminal")
-            {
-                
-            }
-            else
-            {
-                MessageBox.Show("", "");
-            }
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
     }
 }

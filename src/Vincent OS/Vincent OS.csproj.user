@@ -1,95 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <ItemGroup>
-    <Compile Update="About.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Alertelog.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Applications.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Arrêt.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Avant.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Bing Chrome.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Bureau.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Bureau2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Calc.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Chrono.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Custom.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Download.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Démarrage.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Exewin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Game.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Login.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Login2bureau.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Login2bureau2.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="MazeGame.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Media.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Meme.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Notepad.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Paints.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Paramètres.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Store.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="TaskVOS.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Terminal.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="UAC.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Utilisateur.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Update="Visio.cs">
-      <SubType>Form</SubType>
-    </Compile>
-  </ItemGroup>
+  <PropertyGroup>
+    <PublishUrlHistory>publish\</PublishUrlHistory>
+    <InstallUrlHistory />
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>fr-FR</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
 </Project>
