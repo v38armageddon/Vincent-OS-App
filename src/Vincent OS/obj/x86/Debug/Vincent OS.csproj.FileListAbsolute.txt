@@ -1,0 +1,11 @@
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\bin\x86\Debug\Vincent OS.exe.config
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\bin\x86\Debug\Vincent OS.exe
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\bin\x86\Debug\Vincent OS.pdb
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent OS.csproj.AssemblyReference.cache
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent OS.csproj.SuggestedBindingRedirects.cache
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Avant.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Properties.Resources.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent OS.csproj.GenerateResource.cache
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent OS.csproj.CoreCompileInputs.cache
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent OS.exe
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent OS.pdb
