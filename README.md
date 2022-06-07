@@ -2,14 +2,6 @@
 Ce projet consiste à créer un mini système d'exploitation dans mes temps perdus.
 
 ## Installation
-Plusieurs moyens d'installation sont disponible :
-
-### Installation via NuGet
-Vincent OS est disponible en tant que paquet NuGet, pour l'installer, ouvrez un terminal (que ce soit Invite de commande ou Windows PowerShell) et tapez la commande suivante :
-
-```> dotnet add package Vincent.OS``
-
-### Installation standard
 Vous pouvez télécharger les fichiers exécutables sans avoir besoin de tout le dossier : "src". Pour cela, reportez vous à la dernière version disponible et téléchargez le fichier .zip avec l'architechture de votre ordinateur.
 
 ## Pour les développeurs
