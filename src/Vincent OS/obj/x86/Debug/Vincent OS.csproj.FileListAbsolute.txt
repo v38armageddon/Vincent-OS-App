@@ -9,3 +9,27 @@ C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent 
 C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent OS.csproj.CoreCompileInputs.cache
 C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent OS.exe
 C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent OS.pdb
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\bin\x86\Debug\Interop.WMPLib.dll
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\bin\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent OS.csproj.ResolveComReference.cache
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.About.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Alertelog.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Applications.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Arrêt.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Bing_Chrome.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Bureau.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Bureau2.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Calc.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Chrono.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Custom.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Download.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Démarrage.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Exewin.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Game.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Login.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Login2bureau2.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Login2bureau.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.MazeGame.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Media.resources

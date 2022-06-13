@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Vincent_OS
 {
-    public partial class bureau2 : Form
+    public partial class Bureau2 : Form
     {
-        public bureau2()
+        public Bureau2()
         {
             InitializeComponent();
         }
