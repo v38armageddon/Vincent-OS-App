@@ -269,8 +269,35 @@
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Alertelog.resx">
+      <DependentUpon>Alertelog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Applications.resx">
+      <DependentUpon>Applications.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arrêt.resx">
+      <DependentUpon>Arrêt.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Avant.resx">
       <DependentUpon>Avant.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bing Chrome.resx">
+      <DependentUpon>Bing Chrome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bureau.resx">
+      <DependentUpon>Bureau.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Bureau2.resx">
+      <DependentUpon>Bureau2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calc.resx">
+      <DependentUpon>Calc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Chrono.resx">
+      <DependentUpon>Chrono.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Custom.resx">
+      <DependentUpon>Custom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -280,6 +307,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -296,6 +324,43 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="logo.ico" />
+    <Content Include="Resources\icons\BingChrome.ico" />
+    <Content Include="Resources\icons\Calculator.ico" />
+    <Content Include="Resources\icons\chrono.ico" />
+    <Content Include="Resources\icons\cmd.ico" />
+    <Content Include="Resources\icons\executer.ico" />
+    <Content Include="Resources\icons\gestion_jeux.ico" />
+    <Content Include="Resources\icons\MediaPlayer.ico" />
+    <Content Include="Resources\icons\meme.ico" />
+    <Content Include="Resources\icons\Notepad.ico" />
+    <Content Include="Resources\icons\Paint.ico" />
+    <Content Include="Resources\icons\store.ico" />
+    <Content Include="Resources\icons\visio.ico" />
+    <Content Include="Resources\sound\alertSound.wav" />
+    <Content Include="Resources\sound\errorSound.wav" />
+    <Content Include="Resources\sound\shutdownSound.wav" />
+    <Content Include="Resources\sound\startingSound.wav" />
+    <Content Include="Resources\wallpaper\Vincent OS 4\fond écran invité.png" />
+    <Content Include="Resources\wallpaper\Vincent OS 4\fond écran kiki.png" />
+    <Content Include="Resources\wallpaper\Vincent OS 4\fond écran login.png" />
+    <Content Include="Resources\wallpaper\Vincent OS 4\fond écran superutilisateur.png" />
+    <Content Include="Resources\wallpaper\Vincent OS 4\Fond_decran1.png" />
+    <Content Include="Resources\wallpaper\Vincent OS 4\Fond_decran2.png" />
+    <Content Include="Resources\wallpaper\Vincent OS 5\fond écran kiki2.png" />
+    <Content Include="Resources\wallpaper\Vincent OS 5\Fond_decran6.png" />
+    <Content Include="Resources\wallpaper\Vincent OS 5\fond_vincentOS_11.jpg" />
+    <Content Include="Resources\wallpaper\Vincent OS 5\image0.jpg" />
+    <Content Include="Resources\wallpaper\Vincent OS 5\spaceutilisateur.jpg" />
+    <Content Include="Resources\wallpaper\Vincent OS 5\Wallpaper 2.jpg" />
+    <Content Include="Resources\wallpaper\Vincent OS 5\Wallpaper 3.jpg" />
+    <Content Include="Resources\wallpaper\Vincent OS 5\Wallpaper 4.jpg" />
+    <Content Include="Resources\wallpaper\Vincent OS 5\zeyatsu1.jpg" />
+    <Content Include="Resources\wallpaper\Vincent OS 6\wallpaper invité.png" />
+    <Content Include="Resources\wallpaper\Vincent OS 6\wallpaper login.jpg" />
+    <Content Include="Resources\wallpaper\Vincent OS 6\wallpaper superutilisateur.jpg" />
+    <Content Include="Resources\wallpaper\Vincent OS 7\invite.jpg" />
+    <Content Include="Resources\wallpaper\Vincent OS 7\login.jpg" />
+    <Content Include="Resources\wallpaper\Vincent OS 7\superutilisateur.jpg" />
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
