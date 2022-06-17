@@ -351,6 +351,24 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Store.resx">
+      <DependentUpon>Store.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaskVOS.resx">
+      <DependentUpon>TaskVOS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Terminal.resx">
+      <DependentUpon>Terminal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UAC.resx">
+      <DependentUpon>UAC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utilisateur.resx">
+      <DependentUpon>Utilisateur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visio.resx">
+      <DependentUpon>Visio.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
