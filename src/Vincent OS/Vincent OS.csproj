@@ -329,6 +329,18 @@
     <EmbeddedResource Include="Media.resx">
       <DependentUpon>Media.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Meme.resx">
+      <DependentUpon>Meme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Notepad.resx">
+      <DependentUpon>Notepad.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paints.resx">
+      <DependentUpon>Paints.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Paramètres.resx">
+      <DependentUpon>Paramètres.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
