@@ -33,3 +33,13 @@ C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_
 C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Login2bureau.resources
 C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.MazeGame.resources
 C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Media.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Meme.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Notepad.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Paints.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Paramètres.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Store.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.TaskVOS.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Terminal.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.UAC.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Utilisateur.resources
+C:\Users\v38armageddon\source\repos\Vincent OS\Vincent OS\obj\x86\Debug\Vincent_OS.Visio.resources

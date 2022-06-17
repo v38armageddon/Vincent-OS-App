@@ -16,7 +16,7 @@ namespace Vincent_OS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Avant());
+            Application.Run(new Démarrage());
         }
     }
 }

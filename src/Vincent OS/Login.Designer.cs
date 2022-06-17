@@ -80,6 +80,7 @@
             this.button3.TabIndex = 8;
             this.button3.Text = "Connexion";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // label3
             // 
@@ -115,6 +116,7 @@
             this.button2.TabIndex = 5;
             this.button2.Text = "Connexion";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -127,6 +129,8 @@
             this.button1.TabIndex = 4;
             this.button1.Text = "?";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.button1_MouseDown);
+            this.button1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.button1_MouseUp);
             // 
             // textBox1
             // 
@@ -135,6 +139,7 @@
             this.textBox1.PasswordChar = '•';
             this.textBox1.Size = new System.Drawing.Size(124, 20);
             this.textBox1.TabIndex = 3;
+            this.textBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBox1_KeyPress);
             // 
             // pictureBox1
             // 
@@ -201,6 +206,7 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // Login
             // 

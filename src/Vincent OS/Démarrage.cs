@@ -16,5 +16,25 @@ namespace Vincent_OS
         {
             InitializeComponent();
         }
+
+        private void Démarrage_Load(object sender, EventArgs e)
+        {
+            timer1.Start();
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            progressBar1.Increment(2);
+            if (progressBar1.Value == 100)
+            {
+                timer1.Stop();
+                Login l = new Login();
+                l.Show();
+                this.Hide();
+                System.IO.Stream str = Properties.Resources.startingSound;
+                System.Media.SoundPlayer player = new System.Media.SoundPlayer(str);
+                player.Play();
+            }
+        }
     }
 }
