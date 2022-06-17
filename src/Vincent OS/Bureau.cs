@@ -139,6 +139,12 @@ namespace Vincent_OS
             Calc calc = new Calc();
             calc.Show();
         }
+        
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Paramètres paramètres = new Paramètres();
+            paramètres.Show();
+        }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {

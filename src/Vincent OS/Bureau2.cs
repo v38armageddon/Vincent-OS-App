@@ -16,7 +16,8 @@ namespace Vincent_OS
         {
             InitializeComponent();
         }
-        private void Bureau_Load(object sender, EventArgs e)
+
+        private void Bureau2_Load(object sender, EventArgs e)
         {
             timer1.Start();
         }
@@ -33,7 +34,6 @@ namespace Vincent_OS
                 monthCalendar1.Visible = false;
             }
         }
-
 
         private void label2_Click(object sender, EventArgs e)
         {
@@ -139,6 +139,12 @@ namespace Vincent_OS
             calc.Show();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Paramètres paramètres = new Paramètres();
+            paramètres.Show();
+        }
+
         private void pictureBox4_Click(object sender, EventArgs e)
         {
             Applications applications = new Applications();
@@ -149,7 +155,6 @@ namespace Vincent_OS
             }
         }
 
-        // Cette partie permet quand la fenêtre est trop caché par le bureau, qu'on puisse la récupérer via un bouton sans faire alt+tab
         private void button14_Click(object sender, EventArgs e)
         {
             Bing_Chrome bing_Chrome = new Bing_Chrome();

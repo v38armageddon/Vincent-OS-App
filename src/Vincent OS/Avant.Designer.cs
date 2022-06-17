@@ -59,6 +59,7 @@
             this.button1.TabIndex = 1;
             this.button1.Text = "Mode fenêtré";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -73,6 +74,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "Mode plein écran";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -86,6 +88,7 @@
             this.button3.TabIndex = 3;
             this.button3.Text = "Quitter";
             this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // Avant
             // 
