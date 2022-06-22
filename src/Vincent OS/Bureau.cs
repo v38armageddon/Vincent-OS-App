@@ -6,7 +6,6 @@ namespace Vincent_OS
 {
     public partial class Bureau
     {
-
         public Bureau()
         {
             InitializeComponent();
@@ -151,7 +150,7 @@ namespace Vincent_OS
             }
         }
 
-        // Cette partie permet quand la fenêtre est trop caché par le bureau, qu'on puisse la récupérer via un bouton sans faire alt+tab
+        // ' Cette partie permet quand la fenêtre est trop caché par le bureau, qu'on puisse la récupérer via un bouton sans faire alt+tab
         private void Button15_Click(object sender, EventArgs e)
         {
             My.MyProject.Forms.Bing_Chrome.BringToFront();
@@ -226,6 +225,10 @@ namespace Vincent_OS
             {
                 Panel2.Visible = false;
             }
+        }
+        private void TrackBar1_Scroll(object sender, EventArgs e)
+        {
+            // En dev
         }
 
         private void PictureBox5_Click(object sender, EventArgs e)

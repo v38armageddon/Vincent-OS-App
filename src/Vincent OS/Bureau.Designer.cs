@@ -608,6 +608,7 @@ namespace Vincent_OS
             this.TrackBar1.Name = "TrackBar1";
             this.TrackBar1.Size = new System.Drawing.Size(112, 45);
             this.TrackBar1.TabIndex = 0;
+            this.TrackBar1.Scroll += new System.EventHandler(this.TrackBar1_Scroll);
             // 
             // PictureBox5
             // 
