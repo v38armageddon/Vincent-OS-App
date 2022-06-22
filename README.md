@@ -2,8 +2,6 @@
 Ce projet consiste à créer un mini système d'exploitation dans mes temps perdus.
 
 ## Installation
-
-### Installation standard
 Vous pouvez télécharger les fichiers exécutables sans avoir besoin de tout le dossier : "src".
 
 ### Installation développeur
