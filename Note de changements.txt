@@ -1,6 +1,6 @@
 Notes de mises à jours :
 
-Version 8 (XX/XX/XXXX) :
+Version 8 (22/06/2022) :
 - Changement de la langue de programmation ! On passe désormait en C# !
 - Changement de la version .NET 4.0 => .NET 4.8.
 - Changement de l'affichage des applications tendances sur Vincent OS Store.
