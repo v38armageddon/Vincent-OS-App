@@ -1,216 +1,223 @@
-﻿namespace Vincent_OS
-{
-    partial class Paints
-    {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
-        private System.ComponentModel.IContainer components = null;
+﻿using System;
+using System.Diagnostics;
+using System.Drawing;
+using System.Windows.Forms;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+namespace Vincent_OS
+{
+    [Microsoft.VisualBasic.CompilerServices.DesignerGenerated()]
+    public partial class paints : Form
+    {
+
+        // Form remplace la méthode Dispose pour nettoyer la liste des composants.
+        [DebuggerNonUserCode()]
         protected override void Dispose(bool disposing)
         {
-            if (disposing && (components != null))
+            try
             {
-                components.Dispose();
+                if (disposing && components is not null)
+                {
+                    components.Dispose();
+                }
             }
-            base.Dispose(disposing);
+            finally
+            {
+                base.Dispose(disposing);
+            }
         }
 
-        #region Windows Form Designer generated code
+        // Requise par le Concepteur Windows Form
+        private System.ComponentModel.IContainer components;
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
+        // REMARQUE : la procédure suivante est requise par le Concepteur Windows Form
+        // Elle peut être modifiée à l'aide du Concepteur Windows Form.  
+        // Ne la modifiez pas à l'aide de l'éditeur de code.
+        [DebuggerStepThrough()]
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Paints));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.SuspendLayout();
+            var resources = new System.ComponentModel.ComponentResourceManager(typeof(paints));
+            PictureBox1 = new PictureBox();
+            PictureBox1.MouseMove += new MouseEventHandler(PictureBox1_MouseMove);
+            PictureBox1.Click += new EventHandler(PictureBox1_Click);
+            Panel1 = new Panel();
+            Panel1.Click += new EventHandler(Panel1_Click);
+            Panel2 = new Panel();
+            Panel2.Click += new EventHandler(Panel2_Click);
+            Panel3 = new Panel();
+            Panel3.Click += new EventHandler(Panel3_Click);
+            Panel4 = new Panel();
+            Panel4.Click += new EventHandler(Panel4_Click);
+            Button1 = new Button();
+            Button1.Click += new EventHandler(Button1_Click);
+            Button2 = new Button();
+            Button2.Click += new EventHandler(Button2_Click);
+            Button3 = new Button();
+            Button3.Click += new EventHandler(Button3_Click);
+            Button4 = new Button();
+            Button4.Click += new EventHandler(Button4_Click);
+            Button5 = new Button();
+            Button5.Click += new EventHandler(Button5_Click);
+            Button6 = new Button();
+            Button6.Click += new EventHandler(Button6_Click);
+            ((System.ComponentModel.ISupportInitialize)PictureBox1).BeginInit();
+            SuspendLayout();
             // 
-            // pictureBox1
+            // PictureBox1
             // 
-            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.Location = new System.Drawing.Point(108, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(591, 379);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            PictureBox1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+
+            PictureBox1.BackColor = Color.White;
+            PictureBox1.BackgroundImageLayout = ImageLayout.None;
+            PictureBox1.Location = new Point(108, 0);
+            PictureBox1.Name = "PictureBox1";
+            PictureBox1.Size = new Size(591, 379);
+            PictureBox1.TabIndex = 0;
+            PictureBox1.TabStop = false;
             // 
-            // pictureBox2
+            // Panel1
             // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Red;
-            this.pictureBox2.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(35, 33);
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            Panel1.BackColor = Color.Red;
+            Panel1.Location = new Point(12, 12);
+            Panel1.Name = "Panel1";
+            Panel1.Size = new Size(35, 33);
+            Panel1.TabIndex = 1;
             // 
-            // pictureBox3
+            // Panel2
             // 
-            this.pictureBox3.BackColor = System.Drawing.Color.Green;
-            this.pictureBox3.Location = new System.Drawing.Point(55, 12);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(35, 33);
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
+            Panel2.BackColor = Color.Green;
+            Panel2.Location = new Point(55, 12);
+            Panel2.Name = "Panel2";
+            Panel2.Size = new Size(35, 33);
+            Panel2.TabIndex = 2;
             // 
-            // pictureBox4
+            // Panel3
             // 
-            this.pictureBox4.BackColor = System.Drawing.Color.Blue;
-            this.pictureBox4.Location = new System.Drawing.Point(12, 51);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(35, 33);
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
+            Panel3.BackColor = Color.Blue;
+            Panel3.Location = new Point(12, 51);
+            Panel3.Name = "Panel3";
+            Panel3.Size = new Size(35, 33);
+            Panel3.TabIndex = 3;
             // 
-            // pictureBox5
+            // Panel4
             // 
-            this.pictureBox5.BackColor = System.Drawing.Color.Yellow;
-            this.pictureBox5.Location = new System.Drawing.Point(55, 51);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(35, 33);
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
+            Panel4.BackColor = Color.Yellow;
+            Panel4.Location = new Point(55, 51);
+            Panel4.Name = "Panel4";
+            Panel4.Size = new Size(35, 33);
+            Panel4.TabIndex = 2;
             // 
-            // button1
+            // Button1
             // 
-            this.button1.BackColor = System.Drawing.Color.White;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(12, 90);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(35, 33);
-            this.button1.TabIndex = 5;
-            this.button1.Text = "|";
-            this.button1.UseVisualStyleBackColor = false;
+            Button1.BackColor = Color.White;
+            Button1.FlatAppearance.BorderSize = 0;
+            Button1.FlatStyle = FlatStyle.Flat;
+            Button1.Location = new Point(12, 90);
+            Button1.Name = "Button1";
+            Button1.Size = new Size(35, 33);
+            Button1.TabIndex = 4;
+            Button1.Text = "|";
+            Button1.UseVisualStyleBackColor = false;
             // 
-            // button2
+            // Button2
             // 
-            this.button2.BackColor = System.Drawing.Color.White;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold);
-            this.button2.Location = new System.Drawing.Point(55, 90);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(35, 33);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "|";
-            this.button2.UseVisualStyleBackColor = false;
+            Button2.BackColor = Color.White;
+            Button2.FlatAppearance.BorderSize = 0;
+            Button2.FlatStyle = FlatStyle.Flat;
+            Button2.Font = new Font("Microsoft Sans Serif", 15.75f, FontStyle.Bold);
+            Button2.Location = new Point(55, 90);
+            Button2.Name = "Button2";
+            Button2.Size = new Size(35, 33);
+            Button2.TabIndex = 5;
+            Button2.Text = "|";
+            Button2.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // Button3
             // 
-            this.button3.BackColor = System.Drawing.Color.White;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(12, 129);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(78, 23);
-            this.button3.TabIndex = 7;
-            this.button3.Text = "Gomme";
-            this.button3.UseVisualStyleBackColor = false;
+            Button3.BackColor = Color.White;
+            Button3.FlatAppearance.BorderSize = 0;
+            Button3.FlatStyle = FlatStyle.Flat;
+            Button3.Location = new Point(12, 129);
+            Button3.Name = "Button3";
+            Button3.Size = new Size(78, 23);
+            Button3.TabIndex = 6;
+            Button3.Text = "Gomme";
+            Button3.UseVisualStyleBackColor = false;
             // 
-            // button4
+            // Button4
             // 
-            this.button4.BackColor = System.Drawing.Color.White;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(12, 158);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(78, 23);
-            this.button4.TabIndex = 8;
-            this.button4.Text = "Pinceau";
-            this.button4.UseVisualStyleBackColor = false;
+            Button4.BackColor = Color.White;
+            Button4.FlatAppearance.BorderSize = 0;
+            Button4.FlatStyle = FlatStyle.Flat;
+            Button4.Location = new Point(12, 158);
+            Button4.Name = "Button4";
+            Button4.Size = new Size(78, 23);
+            Button4.TabIndex = 7;
+            Button4.Text = "Pinceau";
+            Button4.UseVisualStyleBackColor = false;
             // 
-            // button5
+            // Button5
             // 
-            this.button5.BackColor = System.Drawing.Color.White;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(12, 187);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(78, 23);
-            this.button5.TabIndex = 9;
-            this.button5.Text = "Remplir";
-            this.button5.UseVisualStyleBackColor = false;
+            Button5.BackColor = Color.White;
+            Button5.FlatAppearance.BorderSize = 0;
+            Button5.FlatStyle = FlatStyle.Flat;
+            Button5.Location = new Point(12, 187);
+            Button5.Name = "Button5";
+            Button5.Size = new Size(78, 23);
+            Button5.TabIndex = 8;
+            Button5.Text = "Remplir";
+            Button5.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // Button6
             // 
-            this.button6.BackColor = System.Drawing.Color.White;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(12, 216);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(78, 23);
-            this.button6.TabIndex = 10;
-            this.button6.Text = "Supprimer";
-            this.button6.UseVisualStyleBackColor = false;
+            Button6.BackColor = Color.White;
+            Button6.FlatAppearance.BorderSize = 0;
+            Button6.FlatStyle = FlatStyle.Flat;
+            Button6.Location = new Point(12, 216);
+            Button6.Name = "Button6";
+            Button6.Size = new Size(78, 23);
+            Button6.TabIndex = 9;
+            Button6.Text = "Supprimer";
+            Button6.UseVisualStyleBackColor = false;
             // 
-            // Paints
+            // paints
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(699, 378);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MinimumSize = new System.Drawing.Size(715, 412);
-            this.Name = "Paints";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Paint";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.ResumeLayout(false);
+            AutoScaleDimensions = new SizeF(6.0f, 13.0f);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Silver;
+            ClientSize = new Size(699, 378);
+            Controls.Add(Button6);
+            Controls.Add(Button5);
+            Controls.Add(Button4);
+            Controls.Add(Button3);
+            Controls.Add(Button2);
+            Controls.Add(Button1);
+            Controls.Add(Panel4);
+            Controls.Add(Panel3);
+            Controls.Add(Panel2);
+            Controls.Add(Panel1);
+            Controls.Add(PictureBox1);
+            DoubleBuffered = true;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MinimumSize = new Size(715, 412);
+            Name = "paints";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Paint";
+            ((System.ComponentModel.ISupportInitialize)PictureBox1).EndInit();
+            Load += new EventHandler(paints_Load);
+            FormClosed += new FormClosedEventHandler(paints_FormClosed);
+            ResumeLayout(false);
 
         }
-
-        #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        internal PictureBox PictureBox1;
+        internal Panel Panel1;
+        internal Panel Panel2;
+        internal Panel Panel3;
+        internal Panel Panel4;
+        internal Button Button1;
+        internal Button Button2;
+        internal Button Button3;
+        internal Button Button4;
+        internal Button Button5;
+        internal Button Button6;
     }
 }

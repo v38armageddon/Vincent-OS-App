@@ -4,6 +4,8 @@ Version 8 (XX/XX/XXXX) :
 - Changement de la langue de programmation ! On passe désormait en C# !
 - Changement de la version .NET 4.0 => .NET 4.8.
 - Changement de l'affichage des applications tendances sur Vincent OS Store.
+- Changement de design du paramètre : Nom utilisateur.
+- Suppression des sons dans le jeu : Labyrinth.
 
 Version 7.1 (25/03/2022) :
 - Création de : ArmaAntiCheat, un Anti Cheat pour le jeu : Labyrinth.

@@ -1,98 +1,88 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.VisualBasic.CompilerServices;
 
 namespace Vincent_OS
 {
-    public partial class Alertelog : Form
+    public partial class alertelog
     {
-        public Alertelog()
+        public alertelog()
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
-            Login login = new Login();
-            Bureau bureau = new Bureau();
-            Bureau2 bureau2 = new Bureau2();
-            Avant avant = new Avant();
-            Arrêt arrêt = new Arrêt();
-            if (comboBox1.SelectedItem == "Arrêter")
+            if (Conversions.ToBoolean(Operators.ConditionalCompareObjectEqual(ComboBox1.SelectedItem, "Arrêter", false)))
             {
-                if (login.Visible == true)
+                if (My.MyProject.Forms.Login.Visible == true)
                 {
-                    login.Hide();
-                    arrêt.Show();
-                    this.Close();
+                    My.MyProject.Forms.Arrêt.Timer1.Start();
+                    My.MyProject.Forms.Login.Hide();
+                    My.MyProject.Forms.Arrêt.Show();
+                    Close();
                 }
-                else if (bureau.Visible == true)
+                else if (My.MyProject.Forms.Avant.Visible == true)
                 {
-                    arrêt.Show();
-                    bureau.Close();
-                    this.Close();
-                }
-                else if (bureau2.Visible == true)
-                {
-                    arrêt.Show();
-                    bureau2.Close();
-                    this.Close();
-                }
-                else if (avant.Visible == true)
-                {
-                    avant.Close();
-                    this.Close();
+                    My.MyProject.Forms.Avant.Close();
+                    Close();
                     Application.Exit();
                 }
+                else if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    My.MyProject.Forms.Arrêt.Timer1.Start();
+                    My.MyProject.Forms.Arrêt.Show();
+                    My.MyProject.Forms.Bureau.Hide();
+                    Close();
+                }
+                else if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    My.MyProject.Forms.Arrêt.Timer1.Start();
+                    My.MyProject.Forms.Arrêt.Show();
+                    My.MyProject.Forms.Bureau2.Hide();
+                    Close();
+                }
             }
-            else if (comboBox1.SelectedItem =="Déconnecter")
+            else if (Conversions.ToBoolean(Operators.ConditionalCompareObjectEqual(ComboBox1.SelectedItem, "Déconnecter", false)))
             {
-                if (login.Visible == true)
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau.Close();
+                    My.MyProject.Forms.Login.Show();
+                    Close();
+                }
+                else if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau2.Close();
+                    My.MyProject.Forms.Login.Show();
+                    Close();
+                }
+                else if (My.MyProject.Forms.Login.Visible == true)
                 {
                     MessageBox.Show("Vous ne pouvez pas vous déconnecter dans l'écran de connexion.");
                 }
-                else if (bureau.Visible == true)
-                {
-                    bureau.Close();
-                    login.Show();
-                    this.Close();
-                }
-                else if (bureau2.Visible == true)
-                {
-                    bureau2.Close();
-                    login.Show();
-                    this.Close();
-                }
-                else if (avant.Visible == true)
+                else if (My.MyProject.Forms.Avant.Visible == true)
                 {
                     MessageBox.Show("Vous ne pouvez pas vous déconnecter dans les paramètres d'affichages.");
                 }
             }
-            else if (comboBox1.Text == "Debug.Terminal")
+            else if (ComboBox1.Text == "Debug.Terminal")
             {
-                System.IO.Stream str = Properties.Resources.alertSound;
-                System.Media.SoundPlayer player = new System.Media.SoundPlayer(str);
-                player.Play();
-                MessageBox.Show("Vous entrez dans un Terminal, certains commandes et certaines fonctionnalités peuvent ne pas fonctionner comme prévu!", "Alerte", MessageBoxButtons.OK, MessageBoxIcon.Asterisk);
+                var backmusic = new System.Media.SoundPlayer(My.Resources.Resources.alertSound);
+                backmusic.Play();
+                MessageBox.Show("Vous entrez dans un Terminal, certains commandes et certaines fonctionnalités peuvent ne pas fonctionner comme prévu !", "Alerte");
+                My.MyProject.Forms.Terminal.Show();
             }
             else
             {
-                System.IO.Stream str = Properties.Resources.errorSound;
-                System.Media.SoundPlayer player = new System.Media.SoundPlayer(str);
-                player.Play();
-                MessageBox.Show("ERREUR : Cette option n'est pas reconnu par l'utilitaire des choix de sélections.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                var backmusic = new System.Media.SoundPlayer(My.Resources.Resources.errorSound);
+                backmusic.Play();
+                MessageBox.Show("Erreur : Cette option n'est pas reconnu par l'utilitaire des choix de sélections.", "Erreur");
             }
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Button2_Click(object sender, EventArgs e)
         {
-            this.Close();
+            Close();
         }
     }
 }

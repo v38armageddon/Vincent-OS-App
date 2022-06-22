@@ -1,16 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace Vincent_OS
 {
-    public partial class Arrêt : Form
+    public partial class Arrêt
     {
         public Arrêt()
         {
@@ -19,34 +12,25 @@ namespace Vincent_OS
 
         private void Arrêt_Load(object sender, EventArgs e)
         {
-            System.IO.Stream str = Properties.Resources.shutdownSound;
-            System.Media.SoundPlayer player = new System.Media.SoundPlayer(str);
-            player.Play();
-            timer1.Start();
+            var backmusic = new System.Media.SoundPlayer(My.Resources.Resources.shutdownSound);
+            backmusic.Play();
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void Timer1_Tick(object sender, EventArgs e)
         {
-            progressBar1.Increment(2);
-            if (progressBar1.Value == 100)
+            ProgressBar1.Increment(2);
+            if (ProgressBar1.Value == 100)
             {
-                Démarrage démarrage = new Démarrage();
-                Bureau bureau = new Bureau();
-                Login login = new Login();
-                Bureau2 bureau2 = new Bureau2();
-                Alertelog alertelog = new Alertelog();
-                Avant avant = new Avant();
-                Login2bureau login2Bureau = new Login2bureau();
-                Login2bureau2 login2Bureau2 = new Login2bureau2();
-                timer1.Stop();
-                démarrage.Close();
-                bureau.Close();
-                login.Close();
-                bureau2.Close();
-                alertelog.Close();
-                avant.Close();
-                login2Bureau.Close();
-                login2Bureau2.Close();
+                Timer1.Stop();
+                My.MyProject.Forms.Démarrage.Close();
+                My.MyProject.Forms.Bureau.Close();
+                My.MyProject.Forms.Login.Close();
+                My.MyProject.Forms.Bureau2.Close();
+                My.MyProject.Forms.alertelog.Close();
+                My.MyProject.Forms.Avant.Close();
+                My.MyProject.Forms.Login2bureau.Close();
+                My.MyProject.Forms.Login2bureau2.Close();
+                Close();
                 Application.Exit();
             }
         }

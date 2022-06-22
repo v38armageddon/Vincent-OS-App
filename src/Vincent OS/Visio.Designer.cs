@@ -1,99 +1,178 @@
-﻿namespace Vincent_OS
-{
-    partial class Visio
-    {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
-        private System.ComponentModel.IContainer components = null;
+﻿using System;
+using System.Diagnostics;
+using System.Drawing;
+using System.Windows.Forms;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+namespace Vincent_OS
+{
+    [Microsoft.VisualBasic.CompilerServices.DesignerGenerated()]
+    public partial class Visio : Form
+    {
+
+        // Form remplace la méthode Dispose pour nettoyer la liste des composants.
+        [DebuggerNonUserCode()]
         protected override void Dispose(bool disposing)
         {
-            if (disposing && (components != null))
+            try
             {
-                components.Dispose();
+                if (disposing && components is not null)
+                {
+                    components.Dispose();
+                }
             }
-            base.Dispose(disposing);
+            finally
+            {
+                base.Dispose(disposing);
+            }
         }
 
-        #region Windows Form Designer generated code
+        // Requise par le Concepteur Windows Form
+        private System.ComponentModel.IContainer components;
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
+        // REMARQUE : la procédure suivante est requise par le Concepteur Windows Form
+        // Elle peut être modifiée à l'aide du Concepteur Windows Form.  
+        // Ne la modifiez pas à l'aide de l'éditeur de code.
+        [DebuggerStepThrough()]
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Visio));
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.SuspendLayout();
+            components = new System.ComponentModel.Container();
+            var resources = new System.ComponentModel.ComponentResourceManager(typeof(Visio));
+            Panel1 = new Panel();
+            PictureBox1 = new PictureBox();
+            PictureBox1.DoubleClick += new EventHandler(PictureBox1_DoubleClick);
+            ContextMenuStrip1 = new ContextMenuStrip(components);
+            OuvrirToolStripMenuItem = new ToolStripMenuItem();
+            OuvrirToolStripMenuItem.Click += new EventHandler(OuvrirToolStripMenuItem_Click);
+            ToolStripMenuItem1 = new ToolStripSeparator();
+            SupprimerToolStripMenuItem = new ToolStripMenuItem();
+            SupprimerToolStripMenuItem.Click += new EventHandler(SupprimerToolStripMenuItem_Click);
+            ToolStripMenuItem2 = new ToolStripSeparator();
+            QuitterToolStripMenuItem = new ToolStripMenuItem();
+            Button1 = new Button();
+            Button1.Click += new EventHandler(Button1_Click);
+            Button2 = new Button();
+            Button2.Click += new EventHandler(Button2_Click);
+            Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)PictureBox1).BeginInit();
+            ContextMenuStrip1.SuspendLayout();
+            SuspendLayout();
             // 
-            // pictureBox1
+            // Panel1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.DimGray;
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(506, 264);
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
+            Panel1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+
+            Panel1.AutoScroll = true;
+            Panel1.BackColor = Color.DimGray;
+            Panel1.Controls.Add(PictureBox1);
+            Panel1.Location = new Point(0, 0);
+            Panel1.Name = "Panel1";
+            Panel1.Size = new Size(506, 264);
+            Panel1.TabIndex = 0;
             // 
-            // button1
+            // PictureBox1
             // 
-            this.button1.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.button1.BackColor = System.Drawing.Color.Cyan;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(176, 277);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 1;
-            this.button1.Text = "<<";
-            this.button1.UseVisualStyleBackColor = false;
+            PictureBox1.ContextMenuStrip = ContextMenuStrip1;
+            PictureBox1.Dock = DockStyle.Fill;
+            PictureBox1.Location = new Point(0, 0);
+            PictureBox1.Name = "PictureBox1";
+            PictureBox1.Size = new Size(506, 264);
+            PictureBox1.TabIndex = 0;
+            PictureBox1.TabStop = false;
             // 
-            // button2
+            // ContextMenuStrip1
             // 
-            this.button2.Anchor = System.Windows.Forms.AnchorStyles.Bottom;
-            this.button2.BackColor = System.Drawing.Color.Cyan;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(257, 277);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 2;
-            this.button2.Text = ">>";
-            this.button2.UseVisualStyleBackColor = false;
+            ContextMenuStrip1.Items.AddRange(new ToolStripItem[] { OuvrirToolStripMenuItem, ToolStripMenuItem1, SupprimerToolStripMenuItem, ToolStripMenuItem2, QuitterToolStripMenuItem });
+            ContextMenuStrip1.Name = "ContextMenuStrip1";
+            ContextMenuStrip1.Size = new Size(229, 104);
+            // 
+            // OuvrirToolStripMenuItem
+            // 
+            OuvrirToolStripMenuItem.Name = "OuvrirToolStripMenuItem";
+            OuvrirToolStripMenuItem.Size = new Size(228, 22);
+            OuvrirToolStripMenuItem.Text = "Ouvrir";
+            // 
+            // ToolStripMenuItem1
+            // 
+            ToolStripMenuItem1.Name = "ToolStripMenuItem1";
+            ToolStripMenuItem1.Size = new Size(225, 6);
+            // 
+            // SupprimerToolStripMenuItem
+            // 
+            SupprimerToolStripMenuItem.Name = "SupprimerToolStripMenuItem";
+            SupprimerToolStripMenuItem.Size = new Size(228, 22);
+            SupprimerToolStripMenuItem.Text = "Supprimer";
+            // 
+            // ToolStripMenuItem2
+            // 
+            ToolStripMenuItem2.Name = "ToolStripMenuItem2";
+            ToolStripMenuItem2.Size = new Size(225, 6);
+            // 
+            // QuitterToolStripMenuItem
+            // 
+            QuitterToolStripMenuItem.Name = "QuitterToolStripMenuItem";
+            QuitterToolStripMenuItem.Size = new Size(228, 22);
+            QuitterToolStripMenuItem.Text = "Quitter";
+            // 
+            // Button1
+            // 
+            Button1.Anchor = AnchorStyles.Bottom;
+            Button1.BackColor = Color.Cyan;
+            Button1.FlatAppearance.BorderSize = 0;
+            Button1.FlatStyle = FlatStyle.Flat;
+            Button1.Location = new Point(176, 277);
+            Button1.Name = "Button1";
+            Button1.Size = new Size(75, 23);
+            Button1.TabIndex = 0;
+            Button1.Text = "<<";
+            Button1.UseVisualStyleBackColor = false;
+            // 
+            // Button2
+            // 
+            Button2.Anchor = AnchorStyles.Bottom;
+            Button2.BackColor = Color.Cyan;
+            Button2.FlatAppearance.BorderSize = 0;
+            Button2.FlatStyle = FlatStyle.Flat;
+            Button2.Location = new Point(257, 277);
+            Button2.Name = "Button2";
+            Button2.Size = new Size(75, 23);
+            Button2.TabIndex = 1;
+            Button2.Text = ">>";
+            Button2.UseVisualStyleBackColor = false;
             // 
             // Visio
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(506, 312);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.pictureBox1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MinimumSize = new System.Drawing.Size(514, 339);
-            this.Name = "Visio";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Visionneuse d\'images";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.ResumeLayout(false);
+            AutoScaleDimensions = new SizeF(6.0f, 13.0f);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
+            ClientSize = new Size(506, 312);
+            Controls.Add(Button2);
+            Controls.Add(Button1);
+            Controls.Add(Panel1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MinimumSize = new Size(514, 339);
+            Name = "Visio";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Visionneuse d'images";
+            Panel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)PictureBox1).EndInit();
+            ContextMenuStrip1.ResumeLayout(false);
+            Load += new EventHandler(Form1_Load);
+            Resize += new EventHandler(Form1_Resize);
+            FormClosed += new FormClosedEventHandler(Visio_FormClosed);
+            ResumeLayout(false);
 
         }
+        internal Panel Panel1;
+        internal PictureBox PictureBox1;
+        internal ContextMenuStrip ContextMenuStrip1;
+        internal ToolStripMenuItem OuvrirToolStripMenuItem;
+        internal ToolStripSeparator ToolStripMenuItem1;
+        internal ToolStripMenuItem SupprimerToolStripMenuItem;
+        internal ToolStripMenuItem DéfinirEnTantQuarrièrePlanToolStripMenuItem;
+        internal ToolStripSeparator ToolStripMenuItem2;
+        internal ToolStripMenuItem QuitterToolStripMenuItem;
+        internal Button Button1;
+        internal Button Button2;
 
-        #endregion
-
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
     }
 }

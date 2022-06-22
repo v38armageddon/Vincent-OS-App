@@ -1,216 +1,233 @@
-﻿namespace Vincent_OS
-{
-    partial class Bing_Chrome
-    {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
-        private System.ComponentModel.IContainer components = null;
+﻿using System;
+using System.Diagnostics;
+using System.Drawing;
+using System.Windows.Forms;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+namespace Vincent_OS
+{
+    [Microsoft.VisualBasic.CompilerServices.DesignerGenerated()]
+    public partial class Bing_Chrome : Form
+    {
+
+        // Form remplace la méthode Dispose pour nettoyer la liste des composants.
+        [DebuggerNonUserCode()]
         protected override void Dispose(bool disposing)
         {
-            if (disposing && (components != null))
+            try
             {
-                components.Dispose();
+                if (disposing && components is not null)
+                {
+                    components.Dispose();
+                }
             }
-            base.Dispose(disposing);
+            finally
+            {
+                base.Dispose(disposing);
+            }
         }
 
-        #region Windows Form Designer generated code
+        // Requise par le Concepteur Windows Form
+        private System.ComponentModel.IContainer components;
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
+        // REMARQUE : la procédure suivante est requise par le Concepteur Windows Form
+        // Elle peut être modifiée à l'aide du Concepteur Windows Form.  
+        // Ne la modifiez pas à l'aide de l'éditeur de code.
+        [DebuggerStepThrough()]
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Bing_Chrome));
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.SuspendLayout();
+            var resources = new System.ComponentModel.ComponentResourceManager(typeof(Bing_Chrome));
+            TextBox1 = new TextBox();
+            TextBox1.Click += new EventHandler(TextBox1_Click);
+            TextBox1.KeyPress += new KeyPressEventHandler(TextBox1_KeyPress);
+            TabControl1 = new TabControl();
+            TabPage2 = new TabPage();
+            WebBrowser2 = new WebBrowser();
+            Button1 = new Button();
+            Button1.Click += new EventHandler(Button1_Click);
+            Button2 = new Button();
+            Button2.Click += new EventHandler(Button2_Click);
+            Button3 = new Button();
+            Button3.Click += new EventHandler(Button3_Click);
+            Button4 = new Button();
+            Button4.Click += new EventHandler(Button4_Click);
+            Button5 = new Button();
+            Button5.Click += new EventHandler(Button5_Click);
+            Button6 = new Button();
+            Button6.Click += new EventHandler(Button6_Click);
+            Button7 = new Button();
+            Button7.Click += new EventHandler(Button7_Click);
+            TabControl1.SuspendLayout();
+            TabPage2.SuspendLayout();
+            SuspendLayout();
             // 
-            // button1
+            // TextBox1
             // 
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(4, 0);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(40, 40);
-            this.button1.TabIndex = 0;
-            this.button1.UseVisualStyleBackColor = true;
+            TextBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            TextBox1.Location = new Point(230, 12);
+            TextBox1.Name = "TextBox1";
+            TextBox1.Size = new Size(526, 20);
+            TextBox1.TabIndex = 5;
+            TextBox1.Text = "Saisissez l'URL";
             // 
-            // button2
+            // TabControl1
             // 
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(46, 0);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(40, 40);
-            this.button2.TabIndex = 1;
-            this.button2.UseVisualStyleBackColor = true;
+            TabControl1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+
+            TabControl1.Controls.Add(TabPage2);
+            TabControl1.Location = new Point(0, 46);
+            TabControl1.Name = "TabControl1";
+            TabControl1.SelectedIndex = 0;
+            TabControl1.Size = new Size(760, 368);
+            TabControl1.TabIndex = 10;
             // 
-            // button3
+            // TabPage2
             // 
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(92, 0);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(40, 40);
-            this.button3.TabIndex = 2;
-            this.button3.UseVisualStyleBackColor = true;
+            TabPage2.Controls.Add(WebBrowser2);
+            TabPage2.Location = new Point(4, 22);
+            TabPage2.Name = "TabPage2";
+            TabPage2.Padding = new Padding(3);
+            TabPage2.Size = new Size(752, 342);
+            TabPage2.TabIndex = 1;
+            TabPage2.Text = "Bing";
+            TabPage2.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // WebBrowser2
             // 
-            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(138, 0);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(40, 40);
-            this.button4.TabIndex = 3;
-            this.button4.UseVisualStyleBackColor = true;
+            WebBrowser2.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+
+            WebBrowser2.Location = new Point(0, 0);
+            WebBrowser2.MinimumSize = new Size(20, 20);
+            WebBrowser2.Name = "WebBrowser2";
+            WebBrowser2.Size = new Size(752, 342);
+            WebBrowser2.TabIndex = 8;
+            WebBrowser2.Url = new Uri("https://www.bing.com", UriKind.Absolute);
             // 
-            // button5
+            // Button1
             // 
-            this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(184, 0);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(40, 40);
-            this.button5.TabIndex = 4;
-            this.button5.UseVisualStyleBackColor = true;
+            Button1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            Button1.BackColor = Color.Green;
+            Button1.FlatAppearance.BorderSize = 0;
+            Button1.FlatStyle = FlatStyle.Flat;
+            Button1.ForeColor = Color.White;
+            Button1.Location = new Point(735, 46);
+            Button1.Name = "Button1";
+            Button1.Size = new Size(21, 20);
+            Button1.TabIndex = 8;
+            Button1.Text = "+";
+            Button1.UseVisualStyleBackColor = false;
             // 
-            // textBox1
+            // Button2
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Location = new System.Drawing.Point(230, 12);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(526, 20);
-            this.textBox1.TabIndex = 5;
-            this.textBox1.Text = "Saisissez l\'URL";
+            Button2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            Button2.BackColor = Color.Green;
+            Button2.FlatAppearance.BorderSize = 0;
+            Button2.FlatStyle = FlatStyle.Flat;
+            Button2.ForeColor = Color.White;
+            Button2.Location = new Point(715, 46);
+            Button2.Name = "Button2";
+            Button2.Size = new Size(21, 20);
+            Button2.TabIndex = 11;
+            Button2.Text = "-";
+            Button2.UseVisualStyleBackColor = false;
             // 
-            // tabControl1
+            // Button3
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Location = new System.Drawing.Point(0, 46);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(760, 368);
-            this.tabControl1.TabIndex = 6;
+            Button3.BackgroundImage = (Image)resources.GetObject("Button3.BackgroundImage");
+            Button3.BackgroundImageLayout = ImageLayout.Stretch;
+            Button3.FlatAppearance.BorderSize = 0;
+            Button3.FlatStyle = FlatStyle.Flat;
+            Button3.Location = new Point(4, 0);
+            Button3.Name = "Button3";
+            Button3.Size = new Size(40, 40);
+            Button3.TabIndex = 9;
+            Button3.UseVisualStyleBackColor = true;
             // 
-            // tabPage1
+            // Button4
             // 
-            this.tabPage1.Controls.Add(this.webBrowser1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(752, 342);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Bing";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            Button4.BackgroundImage = (Image)resources.GetObject("Button4.BackgroundImage");
+            Button4.BackgroundImageLayout = ImageLayout.Stretch;
+            Button4.FlatAppearance.BorderSize = 0;
+            Button4.FlatStyle = FlatStyle.Flat;
+            Button4.Location = new Point(46, 0);
+            Button4.Name = "Button4";
+            Button4.Size = new Size(40, 40);
+            Button4.TabIndex = 12;
+            Button4.UseVisualStyleBackColor = true;
             // 
-            // webBrowser1
+            // Button5
             // 
-            this.webBrowser1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.webBrowser1.Location = new System.Drawing.Point(3, 3);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(746, 336);
-            this.webBrowser1.TabIndex = 0;
-            this.webBrowser1.Url = new System.Uri("https://www.bing.com", System.UriKind.Absolute);
+            Button5.BackgroundImage = (Image)resources.GetObject("Button5.BackgroundImage");
+            Button5.BackgroundImageLayout = ImageLayout.Stretch;
+            Button5.FlatAppearance.BorderSize = 0;
+            Button5.FlatStyle = FlatStyle.Flat;
+            Button5.Location = new Point(92, 0);
+            Button5.Name = "Button5";
+            Button5.Size = new Size(40, 40);
+            Button5.TabIndex = 9;
+            Button5.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // Button6
             // 
-            this.button6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button6.BackColor = System.Drawing.Color.Green;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(715, 46);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(21, 20);
-            this.button6.TabIndex = 1;
-            this.button6.Text = "-";
-            this.button6.UseVisualStyleBackColor = false;
+            Button6.BackgroundImage = (Image)resources.GetObject("Button6.BackgroundImage");
+            Button6.BackgroundImageLayout = ImageLayout.Stretch;
+            Button6.FlatAppearance.BorderSize = 0;
+            Button6.FlatStyle = FlatStyle.Flat;
+            Button6.Location = new Point(138, 0);
+            Button6.Name = "Button6";
+            Button6.Size = new Size(40, 40);
+            Button6.TabIndex = 9;
+            Button6.UseVisualStyleBackColor = true;
             // 
-            // button7
+            // Button7
             // 
-            this.button7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button7.BackColor = System.Drawing.Color.Green;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(735, 46);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(21, 20);
-            this.button7.TabIndex = 7;
-            this.button7.Text = "+";
-            this.button7.UseVisualStyleBackColor = false;
+            Button7.BackgroundImage = (Image)resources.GetObject("Button7.BackgroundImage");
+            Button7.BackgroundImageLayout = ImageLayout.Stretch;
+            Button7.FlatAppearance.BorderSize = 0;
+            Button7.FlatStyle = FlatStyle.Flat;
+            Button7.Location = new Point(184, 0);
+            Button7.Name = "Button7";
+            Button7.Size = new Size(40, 40);
+            Button7.TabIndex = 13;
+            Button7.UseVisualStyleBackColor = true;
             // 
             // Bing_Chrome
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(762, 415);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MinimumSize = new System.Drawing.Size(778, 454);
-            this.Name = "Bing_Chrome";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Bing Chrome";
-            this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new SizeF(6.0f, 13.0f);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
+            ClientSize = new Size(762, 415);
+            Controls.Add(Button7);
+            Controls.Add(Button6);
+            Controls.Add(Button5);
+            Controls.Add(Button4);
+            Controls.Add(Button3);
+            Controls.Add(Button2);
+            Controls.Add(Button1);
+            Controls.Add(TabControl1);
+            Controls.Add(TextBox1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MinimumSize = new Size(778, 449);
+            Name = "Bing_Chrome";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Bing Chrome";
+            TabControl1.ResumeLayout(false);
+            TabPage2.ResumeLayout(false);
+            FormClosed += new FormClosedEventHandler(Bing_Chrome_FormClosed);
+            Load += new EventHandler(Bing_Chrome_Load);
+            ResumeLayout(false);
+            PerformLayout();
 
         }
-
-        #endregion
-
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.WebBrowser webBrowser1;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
+        internal TextBox TextBox1;
+        internal TabControl TabControl1;
+        internal TabPage TabPage2;
+        internal WebBrowser WebBrowser2;
+        internal Button Button1;
+        internal Button Button2;
+        internal Button Button3;
+        internal Button Button4;
+        internal Button Button5;
+        internal Button Button6;
+        internal Button Button7;
     }
 }

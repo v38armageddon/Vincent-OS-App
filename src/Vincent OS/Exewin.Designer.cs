@@ -1,90 +1,96 @@
-﻿namespace Vincent_OS
-{
-    partial class Exewin
-    {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
-        private System.ComponentModel.IContainer components = null;
+﻿using System;
+using System.Diagnostics;
+using System.Drawing;
+using System.Windows.Forms;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+namespace Vincent_OS
+{
+    [Microsoft.VisualBasic.CompilerServices.DesignerGenerated()]
+    public partial class exewin : Form
+    {
+
+        // Form remplace la méthode Dispose pour nettoyer la liste des composants.
+        [DebuggerNonUserCode()]
         protected override void Dispose(bool disposing)
         {
-            if (disposing && (components != null))
+            try
             {
-                components.Dispose();
+                if (disposing && components is not null)
+                {
+                    components.Dispose();
+                }
             }
-            base.Dispose(disposing);
+            finally
+            {
+                base.Dispose(disposing);
+            }
         }
 
-        #region Windows Form Designer generated code
+        // Requise par le Concepteur Windows Form
+        private System.ComponentModel.IContainer components;
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
+        // REMARQUE : la procédure suivante est requise par le Concepteur Windows Form
+        // Elle peut être modifiée à l'aide du Concepteur Windows Form.  
+        // Ne la modifiez pas à l'aide de l'éditeur de code.
+        [DebuggerStepThrough()]
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Exewin));
-            this.label1 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            var resources = new System.ComponentModel.ComponentResourceManager(typeof(exewin));
+            Label1 = new Label();
+            TextBox1 = new TextBox();
+            TextBox1.KeyPress += new KeyPressEventHandler(TextBox1_KeyPress);
+            Button1 = new Button();
+            SuspendLayout();
             // 
-            // label1
+            // Label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 9.75F);
-            this.label1.Location = new System.Drawing.Point(-1, -1);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(395, 32);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Pour exécuter une application Windows, mettez l\'adresse du fichier\r\n(exemple : C:" +
-    "\\(nom du fichier)\\(nom de l\'application en .exe)";
+            Label1.AutoSize = true;
+            Label1.Font = new Font("Arial", 9.75f, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Label1.Location = new Point(-1, -1);
+            Label1.Name = "Label1";
+            Label1.Size = new Size(395, 32);
+            Label1.TabIndex = 0;
+            Label1.Text = "Pour exécuter une application Windows, mettez l'adresse du fichier" + '\r' + '\n' + "(exemple : C:" + @"\(nom du fichier)\(nom de l'application en .exe)" + '\r' + '\n';
             // 
-            // textBox1
+            // TextBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(2, 43);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(357, 20);
-            this.textBox1.TabIndex = 1;
+            TextBox1.Location = new Point(2, 43);
+            TextBox1.Name = "TextBox1";
+            TextBox1.Size = new Size(357, 20);
+            TextBox1.TabIndex = 2;
             // 
-            // button1
+            // Button1
             // 
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(365, 43);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(29, 20);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "->";
-            this.button1.UseVisualStyleBackColor = true;
+            Button1.FlatStyle = FlatStyle.Flat;
+            Button1.Location = new Point(365, 43);
+            Button1.Name = "Button1";
+            Button1.Size = new Size(29, 20);
+            Button1.TabIndex = 3;
+            Button1.Text = "->";
+            Button1.UseVisualStyleBackColor = true;
             // 
-            // Exewin
+            // exewin
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(393, 75);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.label1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximizeBox = false;
-            this.Name = "Exewin";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Exécuter une application Windows";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new SizeF(6.0f, 13.0f);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(393, 75);
+            Controls.Add(Button1);
+            Controls.Add(TextBox1);
+            Controls.Add(Label1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
+            Name = "exewin";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Exécuter une application Windows";
+            Load += new EventHandler(exewin_Load);
+            FormClosed += new FormClosedEventHandler(exewin_FormClosed);
+            ResumeLayout(false);
+            PerformLayout();
 
         }
-
-        #endregion
-
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button1;
+        internal Label Label1;
+        internal TextBox TextBox1;
+        internal Button Button1;
     }
 }

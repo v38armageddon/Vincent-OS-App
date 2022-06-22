@@ -1,74 +1,65 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
+using Microsoft.VisualBasic.CompilerServices;
 
 namespace Vincent_OS
 {
-    public partial class Login : Form
+    public partial class Login
     {
         public Login()
         {
             InitializeComponent();
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
             verifylog();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void Button2_Click(object sender, EventArgs e)
         {
-            Login2bureau2 l = new Login2bureau2();
-            l.Show();
-            this.Hide();
-        }
-        
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-            Alertelog a = new Alertelog();
-            a.Show();
+            My.MyProject.Forms.Login2bureau2.Show();
+            Hide();
         }
 
-        private void textBox1_KeyPress(object sender, KeyPressEventArgs e)
+        private void PictureBox4_Click(object sender, EventArgs e)
         {
-            if (e.KeyChar == (char)Keys.Enter)
+            My.MyProject.Forms.alertelog.Show();
+        }
+
+        private void TextBox2_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == Convert.ToChar((int)Keys.Enter))
             {
                 verifylog();
             }
         }
 
-        // Permet de révéler le mot de passe
-        private void button1_MouseDown(object sender, MouseEventArgs e)
+        // ' Permet de révéler le mot de passe
+        private void Button4_MouseDown(object sender, MouseEventArgs e)
         {
-            textBox1.PasswordChar = '\0';
-        }
-        
-        private void button1_MouseUp(object sender, MouseEventArgs e)
-        {
-            textBox1.PasswordChar = '*';
+            TextBox2.PasswordChar = Conversions.ToChar("");
         }
 
-        // Permet de vérifier le mot de passe
+        private void Button4_MouseUp(object sender, MouseEventArgs e)
+        {
+            TextBox2.PasswordChar = '*';
+        }
+
+        // ' Permet de vérifier le mot de passe
         private void verifylog()
         {
-            if (textBox1.Text == "Vincent OS")
+            if (TextBox2.Text == "Vincent OS")
             {
-                textBox1.Text = "";
-                Login2bureau l = new Login2bureau();
-                l.Show();
-                this.Hide();
+                TextBox2.Text = "";
+                My.MyProject.Forms.Login2bureau.Show();
+                Hide();
             }
             else
             {
-                System.IO.Stream str = Properties.Resources.errorSound;
-                System.Media.SoundPlayer player = new System.Media.SoundPlayer(str);
-                player.Play();
+                var backmusic = new System.Media.SoundPlayer(My.Resources.Resources.errorSound);
+                backmusic.Play();
                 MessageBox.Show("ERREUR : Le mot de passe est incorrecte.", "ERREUR", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }

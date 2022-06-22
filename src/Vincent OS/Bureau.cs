@@ -1,16 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+using Microsoft.VisualBasic;
+using Microsoft.VisualBasic.CompilerServices;
 
 namespace Vincent_OS
 {
-    public partial class Bureau : Form
+    public partial class Bureau
     {
         public Bureau()
         {
@@ -19,230 +13,254 @@ namespace Vincent_OS
 
         private void Bureau_Load(object sender, EventArgs e)
         {
-            timer1.Start();
-        }
-
-        // Date, heure, calendrier
-        private void label1_Click(object sender, EventArgs e)
-        {
-            if (monthCalendar1.Visible == false)
+            Timer1.Start();
+            if (My.MyProject.Forms.Login.Label2.Text == "Superutilisateur")
             {
-                monthCalendar1.Visible = true;
+                Text = "Bureau - Session Superutilisateur";
+                Label3.Text = "Superutilisateur";
             }
-            else if (monthCalendar1.Visible == true)
+            else
             {
-                monthCalendar1.Visible = false;
+                Text = "Bureau - Session " + My.MyProject.Forms.Login.Label2.Text;
+                Label3.Text = My.MyProject.Forms.Login.Label2.Text;
             }
-        }
-
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-            if (monthCalendar1.Visible == false)
+            if (My.MyProject.Computer.Network.IsAvailable)
             {
-                monthCalendar1.Visible = true;
+                PictureBox6.Visible = true;
             }
-            else if (monthCalendar1.Visible == true)
+            else
             {
-                monthCalendar1.Visible = false;
+                PictureBox7.Visible = true;
             }
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void Label2_Click(object sender, EventArgs e)
         {
-            label1.Text = DateTime.Now.ToString("HH:mm:ss");
-            label2.Text = DateTime.Now.ToString("dd/MM/yyyy");
-        }
-
-        // Un bouton pour fermer le bureau
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Alertelog alertelog = new Alertelog();
-            alertelog.Show();
-        }
-
-        private void pictureBox3_Click(object sender, EventArgs e)
-        {
-            if (panel1.Visible == false)
+            if (MonthCalendar1.Visible == false)
             {
-                panel1.Visible = true;
+                MonthCalendar1.Visible = true;
             }
-            else if (panel1.Visible == true)
+            else if (MonthCalendar1.Visible == true)
             {
-                panel1.Visible = false;
+                MonthCalendar1.Visible = false;
             }
         }
 
-        // Applications sur le bureau
-        private void button3_Click(object sender, EventArgs e)
+        private void Timer1_Tick(object sender, EventArgs e)
         {
-            Bing_Chrome bing_chrome = new Bing_Chrome();
-            bing_chrome.Show();
+            Label2.Text = Conversions.ToString(DateAndTime.TimeOfDay);
+            Label1.Text = Conversions.ToString(DateTime.Today);
         }
 
-        private void button4_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
-            Meme meme = new Meme();
-            meme.Show();
+            My.MyProject.Forms.alertelog.Show();
         }
 
-        private void button5_Click(object sender, EventArgs e)
+        private void PictureBox2_Click(object sender, EventArgs e)
         {
-            Notepad notepad = new Notepad();
-            notepad.Show();
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            Media media = new Media();
-            media.Show();
-        }
-
-        private void button7_Click(object sender, EventArgs e)
-        {
-            Visio visio = new Visio();
-            visio.Show();
-        }
-
-        private void button8_Click(object sender, EventArgs e)
-        {
-            Paints paints = new Paints();
-            paints.Show();
-        }
-
-        private void button9_Click(object sender, EventArgs e)
-        {
-            Game game = new Game();
-            game.Show();
-        }
-
-        private void button10_Click(object sender, EventArgs e)
-        {
-            Exewin exewin = new Exewin();
-            exewin.Show();
-        }
-
-        private void button11_Click(object sender, EventArgs e)
-        {
-            Store store = new Store();
-            store.Show();
-        }
-
-        private void button12_Click(object sender, EventArgs e)
-        {
-            Terminal terminal = new Terminal();
-            terminal.Show();
-        }
-
-        private void button13_Click(object sender, EventArgs e)
-        {
-            Calc calc = new Calc();
-            calc.Show();
-        }
-        
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Paramètres paramètres = new Paramètres();
-            paramètres.Show();
-        }
-
-        private void pictureBox4_Click(object sender, EventArgs e)
-        {
-            Applications applications = new Applications();
-            applications.Show();
-            if (applications.Visible == true)
+            if (Panel1.Visible == false)
             {
-                applications.BringToFront();
+                Panel1.Visible = true;
+            }
+            else if (Panel1.Visible == true)
+            {
+                Panel1.Visible = false;
             }
         }
 
-        // Cette partie permet quand la fenêtre est trop caché par le bureau, qu'on puisse la récupérer via un bouton sans faire alt+tab
-        private void button14_Click(object sender, EventArgs e)
+        private void Button2_Click(object sender, EventArgs e)
         {
-            Bing_Chrome bing_Chrome = new Bing_Chrome();
-            bing_Chrome.BringToFront();
+            My.MyProject.Forms.Bing_Chrome.Show();
         }
 
-        private void button15_Click(object sender, EventArgs e)
+        private void Button3_Click(object sender, EventArgs e)
         {
-            Meme meme = new Meme();
-            meme.BringToFront();
+            My.MyProject.Forms.meme.Show();
         }
 
-        private void button16_Click(object sender, EventArgs e)
+        private void Button4_Click(object sender, EventArgs e)
         {
-            Notepad notepad = new Notepad();
-            notepad.BringToFront();
+            My.MyProject.Forms.Media.Show();
         }
 
-        private void button17_Click(object sender, EventArgs e)
+        private void Button5_Click(object sender, EventArgs e)
         {
-            Media media = new Media();
-            media.BringToFront();
+            My.MyProject.Forms.Visio.Show();
         }
 
-        private void button18_Click(object sender, EventArgs e)
+        private void Button6_Click(object sender, EventArgs e)
         {
-            Visio visio = new Visio();
-            visio.BringToFront();
+            My.MyProject.Forms.Notepad.Show();
         }
 
-        private void button19_Click(object sender, EventArgs e)
+        private void Button7_Click(object sender, EventArgs e)
         {
-            Paints paints = new Paints();
-            paints.BringToFront();
+            My.MyProject.Forms.Store.Show();
         }
 
-        private void button20_Click(object sender, EventArgs e)
+        private void Button9_Click(object sender, EventArgs e)
         {
-            Game game = new Game();
-            game.BringToFront();
+            My.MyProject.Forms.Paramètres.Show();
         }
 
-        private void button21_Click(object sender, EventArgs e)
+        private void Button11_Click(object sender, EventArgs e)
         {
-            Exewin exewin = new Exewin();
-            exewin.BringToFront();
+            My.MyProject.Forms.exewin.Show();
         }
 
-        private void button22_Click(object sender, EventArgs e)
+        private void Button12_Click(object sender, EventArgs e)
         {
-            Terminal terminal = new Terminal();
-            terminal.BringToFront();
-        }
-
-        private void button23_Click(object sender, EventArgs e)
-        {
-            Store store = new Store();
-            store.BringToFront();
-        }
-
-        private void button24_Click(object sender, EventArgs e)
-        {
-            Chrono chrono = new Chrono();
-            chrono.BringToFront();
-        }
-
-        private void button25_Click(object sender, EventArgs e)
-        {
-            Calc calc = new Calc();
-            calc.BringToFront();
-        }
-
-        private void flowLayoutPanel1_Click(object sender, EventArgs e)
-        {
-            if (monthCalendar1.Visible == true)
+            My.MyProject.Forms.Applications.Show();
+            if (My.MyProject.Forms.Applications.Visible == true)
             {
-                monthCalendar1.Visible = false;
+                My.MyProject.Forms.Applications.BringToFront();
             }
-            if (panel1.Visible == true)
+        }
+
+        private void Button13_Click(object sender, EventArgs e)
+        {
+            My.MyProject.Forms.game.Show();
+        }
+
+        private void Button14_Click(object sender, EventArgs e)
+        {
+            My.MyProject.Forms.paints.Show();
+        }
+
+        private void Button10_Click(object sender, EventArgs e)
+        {
+            My.MyProject.Forms.Terminal.Show();
+        }
+
+        private void Button25_Click(object sender, EventArgs e)
+        {
+            My.MyProject.Forms.Calc.Show();
+        }
+
+        private void Label1_Click(object sender, EventArgs e)
+        {
+            if (MonthCalendar1.Visible == false)
             {
-                panel1.Visible = false;
+                MonthCalendar1.Visible = true;
             }
-            if (panel2.Visible == true)
+            else if (MonthCalendar1.Visible == true)
             {
-                panel2.Visible = false;
+                MonthCalendar1.Visible = false;
             }
+        }
+
+        // ' Cette partie permet quand la fenêtre est trop caché par le bureau, qu'on puisse la récupérer via un bouton sans faire alt+tab
+        private void Button15_Click(object sender, EventArgs e)
+        {
+            My.MyProject.Forms.Bing_Chrome.BringToFront();
+        }
+
+        private void Button16_Click(object sender, EventArgs e)
+        {
+            My.MyProject.Forms.meme.BringToFront();
+        }
+
+        private void Button17_Click(object sender, EventArgs e)
+        {
+            My.MyProject.Forms.Notepad.BringToFront();
+        }
+
+        private void Button19_Click(object sender, EventArgs e)
+        {
+            My.MyProject.Forms.Media.BringToFront();
+        }
+
+        private void Button20_Click(object sender, EventArgs e)
+        {
+            My.MyProject.Forms.Visio.BringToFront();
+        }
+
+        private void Button21_Click(object sender, EventArgs e)
+        {
+            My.MyProject.Forms.paints.BringToFront();
+        }
+
+        private void Button22_Click(object sender, EventArgs e)
+        {
+            My.MyProject.Forms.game.BringToFront();
+        }
+
+        private void Button23_Click(object sender, EventArgs e)
+        {
+            My.MyProject.Forms.exewin.BringToFront();
+        }
+
+        private void Button24_Click(object sender, EventArgs e)
+        {
+            My.MyProject.Forms.Terminal.BringToFront();
+        }
+
+        private void Button8_Click_1(object sender, EventArgs e)
+        {
+            My.MyProject.Forms.Store.BringToFront();
+        }
+
+        private void Button18_Click(object sender, EventArgs e)
+        {
+            My.MyProject.Forms.chrono.BringToFront();
+        }
+
+        private void Button26_Click(object sender, EventArgs e)
+        {
+            My.MyProject.Forms.Calc.BringToFront();
+        }
+
+        private void FlowLayoutPanel1_Click(object sender, EventArgs e)
+        {
+            if (MonthCalendar1.Visible == true)
+            {
+                MonthCalendar1.Visible = false;
+            }
+            if (Panel1.Visible == true)
+            {
+                Panel1.Visible = false;
+            }
+            if (Panel2.Visible == true)
+            {
+                Panel2.Visible = false;
+            }
+        }
+        private void TrackBar1_Scroll(object sender, EventArgs e)
+        {
+            // En dev
+        }
+
+        private void PictureBox5_Click(object sender, EventArgs e)
+        {
+            if (Panel2.Visible == false)
+            {
+                Panel2.Visible = true;
+            }
+            else if (Panel2.Visible == true)
+            {
+                Panel2.Visible = false;
+            }
+        }
+
+        private void PictureBox7_MouseHover(object sender, EventArgs e)
+        {
+            Label5.Visible = true;
+        }
+
+        private void PictureBox6_MouseHover(object sender, EventArgs e)
+        {
+            Label4.Visible = true;
+        }
+
+        private void PictureBox7_MouseLeave(object sender, EventArgs e)
+        {
+            Label5.Visible = false;
+        }
+
+        private void PictureBox6_MouseLeave(object sender, EventArgs e)
+        {
+            Label4.Visible = false;
         }
     }
 }

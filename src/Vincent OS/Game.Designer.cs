@@ -1,116 +1,125 @@
-﻿namespace Vincent_OS
-{
-    partial class Game
-    {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
-        private System.ComponentModel.IContainer components = null;
+﻿using System;
+using System.Diagnostics;
+using System.Drawing;
+using System.Windows.Forms;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+namespace Vincent_OS
+{
+    [Microsoft.VisualBasic.CompilerServices.DesignerGenerated()]
+    public partial class game : Form
+    {
+
+        // Form remplace la méthode Dispose pour nettoyer la liste des composants.
+        [DebuggerNonUserCode()]
         protected override void Dispose(bool disposing)
         {
-            if (disposing && (components != null))
+            try
             {
-                components.Dispose();
+                if (disposing && components is not null)
+                {
+                    components.Dispose();
+                }
             }
-            base.Dispose(disposing);
+            finally
+            {
+                base.Dispose(disposing);
+            }
         }
 
-        #region Windows Form Designer generated code
+        // Requise par le Concepteur Windows Form
+        private System.ComponentModel.IContainer components;
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
+        // REMARQUE : la procédure suivante est requise par le Concepteur Windows Form
+        // Elle peut être modifiée à l'aide du Concepteur Windows Form.  
+        // Ne la modifiez pas à l'aide de l'éditeur de code.
+        [DebuggerStepThrough()]
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Game));
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            var resources = new System.ComponentModel.ComponentResourceManager(typeof(game));
+            Button1 = new Button();
+            Button1.Click += new EventHandler(Button1_Click);
+            Label1 = new Label();
+            Button2 = new Button();
+            Button2.Click += new EventHandler(Button2_Click);
+            Button4 = new Button();
+            Button4.Click += new EventHandler(Button4_Click);
+            SuspendLayout();
             // 
-            // button1
+            // Button1
             // 
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(95, 8);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 73);
-            this.button1.TabIndex = 0;
-            this.button1.UseVisualStyleBackColor = true;
+            Button1.BackgroundImage = (Image)resources.GetObject("Button1.BackgroundImage");
+            Button1.BackgroundImageLayout = ImageLayout.Stretch;
+            Button1.FlatAppearance.BorderSize = 0;
+            Button1.FlatStyle = FlatStyle.Flat;
+            Button1.Location = new Point(95, 8);
+            Button1.Name = "Button1";
+            Button1.Size = new Size(75, 73);
+            Button1.TabIndex = 0;
+            Button1.UseVisualStyleBackColor = true;
             // 
-            // label1
+            // Label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 15.75F);
-            this.label1.Location = new System.Drawing.Point(176, 30);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(96, 24);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "Labyrinth";
+            Label1.AutoSize = true;
+            Label1.Font = new Font("Arial", 15.75f, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Label1.Location = new Point(176, 30);
+            Label1.Name = "Label1";
+            Label1.Size = new Size(96, 24);
+            Label1.TabIndex = 1;
+            Label1.Text = "Labyrinth";
             // 
-            // button2
+            // Button2
             // 
-            this.button2.BackColor = System.Drawing.Color.Green;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Calibri", 11.25F);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(7, 87);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(212, 30);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "Exécuter un jeu non-Vincent OS";
-            this.button2.UseVisualStyleBackColor = false;
+            Button2.BackColor = Color.Green;
+            Button2.FlatAppearance.BorderSize = 0;
+            Button2.FlatStyle = FlatStyle.Flat;
+            Button2.Font = new Font("Calibri", 11.25f);
+            Button2.ForeColor = Color.White;
+            Button2.Location = new Point(7, 87);
+            Button2.Name = "Button2";
+            Button2.Size = new Size(212, 30);
+            Button2.TabIndex = 2;
+            Button2.Text = "Exécuter un jeu non-Vincent OS";
+            Button2.UseVisualStyleBackColor = false;
             // 
-            // button3
+            // Button4
             // 
-            this.button3.BackColor = System.Drawing.Color.Green;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Calibri", 11.25F);
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(225, 87);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(146, 30);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "Obtenir plus de jeux";
-            this.button3.UseVisualStyleBackColor = false;
+            Button4.BackColor = Color.Green;
+            Button4.FlatAppearance.BorderSize = 0;
+            Button4.FlatStyle = FlatStyle.Flat;
+            Button4.Font = new Font("Calibri", 11.25f, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Button4.ForeColor = Color.White;
+            Button4.Location = new Point(225, 87);
+            Button4.Name = "Button4";
+            Button4.Size = new Size(146, 30);
+            Button4.TabIndex = 5;
+            Button4.Text = "Obtenir plus de jeux";
+            Button4.UseVisualStyleBackColor = false;
             // 
-            // Game
+            // game
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(383, 132);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.button1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximizeBox = false;
-            this.Name = "Game";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Gestionnaire de jeux";
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new SizeF(6.0f, 13.0f);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.White;
+            ClientSize = new Size(383, 132);
+            Controls.Add(Button4);
+            Controls.Add(Button2);
+            Controls.Add(Label1);
+            Controls.Add(Button1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
+            Name = "game";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Gestionnaire de jeux";
+            Load += new EventHandler(game_Load);
+            FormClosed += new FormClosedEventHandler(game_FormClosed);
+            ResumeLayout(false);
+            PerformLayout();
 
         }
-
-        #endregion
-
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
+        internal Button Button1;
+        internal Label Label1;
+        internal Button Button2;
+        internal Button Button4;
     }
 }

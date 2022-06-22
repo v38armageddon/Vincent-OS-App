@@ -1,101 +1,115 @@
-﻿namespace Vincent_OS
-{
-    partial class Chrono
-    {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
-        private System.ComponentModel.IContainer components = null;
+﻿using System;
+using System.Diagnostics;
+using System.Drawing;
+using System.Windows.Forms;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+namespace Vincent_OS
+{
+    [Microsoft.VisualBasic.CompilerServices.DesignerGenerated()]
+    public partial class chrono : Form
+    {
+
+        // Form remplace la méthode Dispose pour nettoyer la liste des composants.
+        [DebuggerNonUserCode()]
         protected override void Dispose(bool disposing)
         {
-            if (disposing && (components != null))
+            try
             {
-                components.Dispose();
+                if (disposing && components is not null)
+                {
+                    components.Dispose();
+                }
             }
-            base.Dispose(disposing);
+            finally
+            {
+                base.Dispose(disposing);
+            }
         }
 
-        #region Windows Form Designer generated code
+        // Requise par le Concepteur Windows Form
+        private System.ComponentModel.IContainer components;
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
+        // REMARQUE : la procédure suivante est requise par le Concepteur Windows Form
+        // Elle peut être modifiée à l'aide du Concepteur Windows Form.  
+        // Ne la modifiez pas à l'aide de l'éditeur de code.
+        [DebuggerStepThrough()]
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Chrono));
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.progressBar1 = new System.Windows.Forms.ProgressBar();
-            this.SuspendLayout();
+            components = new System.ComponentModel.Container();
+            var resources = new System.ComponentModel.ComponentResourceManager(typeof(chrono));
+            Button1 = new Button();
+            Button1.Click += new EventHandler(Button1_Click);
+            Button2 = new Button();
+            Button2.Click += new EventHandler(Button2_Click);
+            Button3 = new Button();
+            Button3.Click += new EventHandler(Button3_Click);
+            ProgressBar1 = new ProgressBar();
+            Timer1 = new Timer(components);
+            Timer1.Tick += new EventHandler(Timer1_Tick);
+            SuspendLayout();
             // 
-            // button1
+            // Button1
             // 
-            this.button1.Location = new System.Drawing.Point(12, 44);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Start";
-            this.button1.UseVisualStyleBackColor = true;
+            Button1.Location = new Point(12, 41);
+            Button1.Name = "Button1";
+            Button1.Size = new Size(75, 23);
+            Button1.TabIndex = 0;
+            Button1.Text = "Start";
+            Button1.UseVisualStyleBackColor = true;
             // 
-            // button2
+            // Button2
             // 
-            this.button2.Location = new System.Drawing.Point(96, 44);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Stop";
-            this.button2.UseVisualStyleBackColor = true;
+            Button2.Location = new Point(93, 41);
+            Button2.Name = "Button2";
+            Button2.Size = new Size(75, 23);
+            Button2.TabIndex = 1;
+            Button2.Text = "Stop";
+            Button2.UseVisualStyleBackColor = true;
             // 
-            // button3
+            // Button3
             // 
-            this.button3.Location = new System.Drawing.Point(177, 44);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Reset";
-            this.button3.UseVisualStyleBackColor = true;
+            Button3.Location = new Point(174, 41);
+            Button3.Name = "Button3";
+            Button3.Size = new Size(75, 23);
+            Button3.TabIndex = 2;
+            Button3.Text = "Reset";
+            Button3.UseVisualStyleBackColor = true;
             // 
-            // progressBar1
+            // ProgressBar1
             // 
-            this.progressBar1.Location = new System.Drawing.Point(12, 12);
-            this.progressBar1.Name = "progressBar1";
-            this.progressBar1.Size = new System.Drawing.Size(240, 23);
-            this.progressBar1.TabIndex = 3;
+            ProgressBar1.Location = new Point(12, 12);
+            ProgressBar1.Name = "ProgressBar1";
+            ProgressBar1.Size = new Size(240, 23);
+            ProgressBar1.TabIndex = 3;
             // 
-            // Chrono
+            // Timer1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(264, 79);
-            this.Controls.Add(this.progressBar1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MaximizeBox = false;
-            this.Name = "Chrono";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Chronomètre";
-            this.ResumeLayout(false);
+            // 
+            // chrono
+            // 
+            AutoScaleDimensions = new SizeF(6.0f, 13.0f);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(264, 79);
+            Controls.Add(ProgressBar1);
+            Controls.Add(Button3);
+            Controls.Add(Button2);
+            Controls.Add(Button1);
+            FormBorderStyle = FormBorderStyle.FixedDialog;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MaximizeBox = false;
+            Name = "chrono";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Chronomètre";
+            Load += new EventHandler(chrono_Load);
+            FormClosed += new FormClosedEventHandler(chrono_FormClosed);
+            ResumeLayout(false);
 
         }
+        internal Button Button1;
+        internal Button Button2;
+        internal Button Button3;
+        internal ProgressBar ProgressBar1;
+        internal Timer Timer1;
 
-        #endregion
-
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.ProgressBar progressBar1;
     }
 }

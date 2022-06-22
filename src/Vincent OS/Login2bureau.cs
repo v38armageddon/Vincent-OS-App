@@ -1,16 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 
 namespace Vincent_OS
 {
-    public partial class Login2bureau : Form
+    public partial class Login2bureau
     {
         public Login2bureau()
         {
@@ -19,21 +11,20 @@ namespace Vincent_OS
 
         private void Login2bureau_Load(object sender, EventArgs e)
         {
-            timer1.Stop();
-            progressBar1.Value = 0;
-            timer1.Start();
+            Timer1.Stop();
+            ProgressBar1.Value = 0;
+            Timer1.Start();
         }
 
-        private void timer1_Tick(object sender, EventArgs e)
+        private void Timer1_Tick(object sender, EventArgs e)
         {
-            progressBar1.Increment(3);
-            if (progressBar1.Value == 100)
+            ProgressBar1.Increment(3);
+            if (ProgressBar1.Value == 100)
             {
-                timer1.Stop();
-                progressBar1.Value = 0;
-                Bureau b = new Bureau();
-                b.Show();
-                this.Close();
+                Timer1.Stop();
+                ProgressBar1.Value = 0;
+                My.MyProject.Forms.Bureau.Show();
+                Close();
             }
         }
     }

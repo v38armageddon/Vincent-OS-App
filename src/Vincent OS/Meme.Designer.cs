@@ -1,355 +1,370 @@
-﻿namespace Vincent_OS
-{
-    partial class Meme
-    {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
-        private System.ComponentModel.IContainer components = null;
+﻿using System;
+using System.Diagnostics;
+using System.Drawing;
+using System.Windows.Forms;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+namespace Vincent_OS
+{
+    [Microsoft.VisualBasic.CompilerServices.DesignerGenerated()]
+    public partial class meme : Form
+    {
+
+        // Form remplace la méthode Dispose pour nettoyer la liste des composants.
+        [DebuggerNonUserCode()]
         protected override void Dispose(bool disposing)
         {
-            if (disposing && (components != null))
+            try
             {
-                components.Dispose();
+                if (disposing && components is not null)
+                {
+                    components.Dispose();
+                }
             }
-            base.Dispose(disposing);
+            finally
+            {
+                base.Dispose(disposing);
+            }
         }
 
-        #region Windows Form Designer generated code
+        // Requise par le Concepteur Windows Form
+        private System.ComponentModel.IContainer components;
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
+        // REMARQUE : la procédure suivante est requise par le Concepteur Windows Form
+        // Elle peut être modifiée à l'aide du Concepteur Windows Form.  
+        // Ne la modifiez pas à l'aide de l'éditeur de code.
+        [DebuggerStepThrough()]
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Meme));
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.webBrowser1 = new System.Windows.Forms.WebBrowser();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            this.tabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            this.SuspendLayout();
+            var resources = new System.ComponentModel.ComponentResourceManager(typeof(meme));
+            TextBox1 = new TextBox();
+            TextBox1.Click += new EventHandler(TextBox1_Click);
+            TextBox1.KeyPress += new KeyPressEventHandler(TextBox1_KeyPress);
+            WebBrowser1 = new WebBrowser();
+            TabControl1 = new TabControl();
+            TabPage2 = new TabPage();
+            Button2 = new Button();
+            Button2.Click += new EventHandler(Button2_Click);
+            Button1 = new Button();
+            Button1.Click += new EventHandler(Button1_Click);
+            Label1 = new Label();
+            Label2 = new Label();
+            PictureBox4 = new PictureBox();
+            PictureBox5 = new PictureBox();
+            PictureBox6 = new PictureBox();
+            PictureBox7 = new PictureBox();
+            Button3 = new Button();
+            Button3.Click += new EventHandler(Button3_Click);
+            Button4 = new Button();
+            Button4.Click += new EventHandler(Button4_Click);
+            Button5 = new Button();
+            Button5.Click += new EventHandler(Button5_Click);
+            Button6 = new Button();
+            Button6.Click += new EventHandler(Button6_Click);
+            Button7 = new Button();
+            Button7.Click += new EventHandler(Button7_Click);
+            PictureBox8 = new PictureBox();
+            Button8 = new Button();
+            Button8.Click += new EventHandler(Button8_Click);
+            Button9 = new Button();
+            Button9.Click += new EventHandler(Button9_Click);
+            TabControl1.SuspendLayout();
+            TabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)PictureBox4).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PictureBox5).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PictureBox6).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PictureBox7).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)PictureBox8).BeginInit();
+            SuspendLayout();
             // 
-            // button1
+            // TextBox1
             // 
-            this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
-            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Location = new System.Drawing.Point(4, 5);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(32, 32);
-            this.button1.TabIndex = 0;
-            this.button1.UseVisualStyleBackColor = true;
+            TextBox1.Anchor = AnchorStyles.Top | AnchorStyles.Left | AnchorStyles.Right;
+            TextBox1.Location = new Point(80, 12);
+            TextBox1.Name = "TextBox1";
+            TextBox1.Size = new Size(676, 20);
+            TextBox1.TabIndex = 0;
+            TextBox1.Text = @"Entrez votre destination (exemple : C:\(nom de dossier))";
             // 
-            // button2
+            // WebBrowser1
             // 
-            this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
-            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Location = new System.Drawing.Point(42, 5);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(32, 32);
-            this.button2.TabIndex = 1;
-            this.button2.UseVisualStyleBackColor = true;
+            WebBrowser1.Dock = DockStyle.Fill;
+            WebBrowser1.Location = new Point(3, 3);
+            WebBrowser1.MinimumSize = new Size(20, 20);
+            WebBrowser1.Name = "WebBrowser1";
+            WebBrowser1.Size = new Size(608, 336);
+            WebBrowser1.TabIndex = 4;
+            WebBrowser1.Url = new Uri(@"C:\Users\", UriKind.Absolute);
             // 
-            // textBox1
+            // TabControl1
             // 
-            this.textBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.textBox1.Location = new System.Drawing.Point(80, 12);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(676, 20);
-            this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "Entrez votre destination (exemple : C:\\(nom de dossier))";
+            TabControl1.Anchor = AnchorStyles.Top | AnchorStyles.Bottom | AnchorStyles.Left | AnchorStyles.Right;
+
+            TabControl1.Controls.Add(TabPage2);
+            TabControl1.Location = new Point(141, 47);
+            TabControl1.Name = "TabControl1";
+            TabControl1.SelectedIndex = 0;
+            TabControl1.Size = new Size(622, 368);
+            TabControl1.TabIndex = 11;
             // 
-            // label1
+            // TabPage2
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial", 14.25F);
-            this.label1.Location = new System.Drawing.Point(0, 45);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(105, 22);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Raccourcis";
+            TabPage2.Controls.Add(WebBrowser1);
+            TabPage2.Location = new Point(4, 22);
+            TabPage2.Name = "TabPage2";
+            TabPage2.Padding = new Padding(3);
+            TabPage2.Size = new Size(614, 342);
+            TabPage2.TabIndex = 1;
+            TabPage2.Text = @"C:\Users\";
+            TabPage2.UseVisualStyleBackColor = true;
             // 
-            // label2
+            // Button2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial", 14.25F);
-            this.label2.Location = new System.Drawing.Point(0, 193);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(135, 22);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "Mon ordinateur";
+            Button2.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            Button2.BackColor = Color.Green;
+            Button2.FlatAppearance.BorderSize = 0;
+            Button2.FlatStyle = FlatStyle.Flat;
+            Button2.ForeColor = Color.White;
+            Button2.Location = new Point(715, 46);
+            Button2.Name = "Button2";
+            Button2.Size = new Size(21, 20);
+            Button2.TabIndex = 13;
+            Button2.Text = "-";
+            Button2.UseVisualStyleBackColor = false;
             // 
-            // pictureBox1
+            // Button1
             // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(4, 69);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(23, 23);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 5;
-            this.pictureBox1.TabStop = false;
+            Button1.Anchor = AnchorStyles.Top | AnchorStyles.Right;
+            Button1.BackColor = Color.Green;
+            Button1.FlatAppearance.BorderSize = 0;
+            Button1.FlatStyle = FlatStyle.Flat;
+            Button1.ForeColor = Color.White;
+            Button1.Location = new Point(735, 46);
+            Button1.Name = "Button1";
+            Button1.Size = new Size(21, 20);
+            Button1.TabIndex = 12;
+            Button1.Text = "+";
+            Button1.UseVisualStyleBackColor = false;
             // 
-            // pictureBox2
+            // Label1
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(4, 98);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(23, 23);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 6;
-            this.pictureBox2.TabStop = false;
+            Label1.AutoSize = true;
+            Label1.Font = new Font("Arial", 14.25f, FontStyle.Regular, GraphicsUnit.Point, 0);
+            Label1.Location = new Point(0, 45);
+            Label1.Name = "Label1";
+            Label1.Size = new Size(105, 22);
+            Label1.TabIndex = 15;
+            Label1.Text = "Raccourcis";
             // 
-            // pictureBox3
+            // Label2
             // 
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(4, 127);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(23, 23);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 7;
-            this.pictureBox3.TabStop = false;
+            Label2.AutoSize = true;
+            Label2.Font = new Font("Arial", 14.25f);
+            Label2.Location = new Point(0, 193);
+            Label2.Name = "Label2";
+            Label2.Size = new Size(135, 22);
+            Label2.TabIndex = 16;
+            Label2.Text = "Mon ordinateur";
             // 
-            // pictureBox4
+            // PictureBox4
             // 
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(4, 156);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(23, 23);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 8;
-            this.pictureBox4.TabStop = false;
+            PictureBox4.Image = (Image)resources.GetObject("PictureBox4.Image");
+            PictureBox4.Location = new Point(4, 69);
+            PictureBox4.Name = "PictureBox4";
+            PictureBox4.Size = new Size(23, 23);
+            PictureBox4.SizeMode = PictureBoxSizeMode.StretchImage;
+            PictureBox4.TabIndex = 17;
+            PictureBox4.TabStop = false;
             // 
-            // pictureBox5
+            // PictureBox5
             // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(4, 218);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(23, 23);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 9;
-            this.pictureBox5.TabStop = false;
+            PictureBox5.Image = (Image)resources.GetObject("PictureBox5.Image");
+            PictureBox5.Location = new Point(4, 98);
+            PictureBox5.Name = "PictureBox5";
+            PictureBox5.Size = new Size(23, 23);
+            PictureBox5.SizeMode = PictureBoxSizeMode.StretchImage;
+            PictureBox5.TabIndex = 18;
+            PictureBox5.TabStop = false;
             // 
-            // button3
+            // PictureBox6
             // 
-            this.button3.BackColor = System.Drawing.Color.Green;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.ForeColor = System.Drawing.Color.White;
-            this.button3.Location = new System.Drawing.Point(30, 69);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 10;
-            this.button3.Text = "Documents";
-            this.button3.UseVisualStyleBackColor = false;
+            PictureBox6.Image = (Image)resources.GetObject("PictureBox6.Image");
+            PictureBox6.Location = new Point(4, 156);
+            PictureBox6.Name = "PictureBox6";
+            PictureBox6.Size = new Size(23, 23);
+            PictureBox6.SizeMode = PictureBoxSizeMode.StretchImage;
+            PictureBox6.TabIndex = 20;
+            PictureBox6.TabStop = false;
             // 
-            // button4
+            // PictureBox7
             // 
-            this.button4.BackColor = System.Drawing.Color.Green;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(30, 98);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(75, 23);
-            this.button4.TabIndex = 11;
-            this.button4.Text = "Images";
-            this.button4.UseVisualStyleBackColor = false;
+            PictureBox7.Image = (Image)resources.GetObject("PictureBox7.Image");
+            PictureBox7.Location = new Point(4, 127);
+            PictureBox7.Name = "PictureBox7";
+            PictureBox7.Size = new Size(23, 23);
+            PictureBox7.SizeMode = PictureBoxSizeMode.StretchImage;
+            PictureBox7.TabIndex = 19;
+            PictureBox7.TabStop = false;
             // 
-            // button5
+            // Button3
             // 
-            this.button5.BackColor = System.Drawing.Color.Green;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(30, 127);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(75, 23);
-            this.button5.TabIndex = 12;
-            this.button5.Text = "Musiques";
-            this.button5.UseVisualStyleBackColor = false;
+            Button3.BackColor = Color.Green;
+            Button3.FlatAppearance.BorderSize = 0;
+            Button3.FlatStyle = FlatStyle.Flat;
+            Button3.ForeColor = Color.White;
+            Button3.Location = new Point(30, 69);
+            Button3.Name = "Button3";
+            Button3.Size = new Size(75, 23);
+            Button3.TabIndex = 5;
+            Button3.Text = "Documents";
+            Button3.UseVisualStyleBackColor = false;
             // 
-            // button6
+            // Button4
             // 
-            this.button6.BackColor = System.Drawing.Color.Green;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.ForeColor = System.Drawing.Color.White;
-            this.button6.Location = new System.Drawing.Point(30, 156);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(75, 23);
-            this.button6.TabIndex = 13;
-            this.button6.Text = "Vidéos";
-            this.button6.UseVisualStyleBackColor = false;
+            Button4.BackColor = Color.Green;
+            Button4.FlatAppearance.BorderSize = 0;
+            Button4.FlatStyle = FlatStyle.Flat;
+            Button4.ForeColor = Color.White;
+            Button4.Location = new Point(30, 98);
+            Button4.Name = "Button4";
+            Button4.Size = new Size(75, 23);
+            Button4.TabIndex = 21;
+            Button4.Text = "Images";
+            Button4.UseVisualStyleBackColor = false;
             // 
-            // button7
+            // Button5
             // 
-            this.button7.BackColor = System.Drawing.Color.Green;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.ForeColor = System.Drawing.Color.White;
-            this.button7.Location = new System.Drawing.Point(30, 218);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(75, 23);
-            this.button7.TabIndex = 14;
-            this.button7.Text = "C:\\";
-            this.button7.UseVisualStyleBackColor = false;
+            Button5.BackColor = Color.Green;
+            Button5.FlatAppearance.BorderSize = 0;
+            Button5.FlatStyle = FlatStyle.Flat;
+            Button5.ForeColor = Color.White;
+            Button5.Location = new Point(30, 127);
+            Button5.Name = "Button5";
+            Button5.Size = new Size(75, 23);
+            Button5.TabIndex = 22;
+            Button5.Text = "Musiques";
+            Button5.UseVisualStyleBackColor = false;
             // 
-            // tabControl1
+            // Button6
             // 
-            this.tabControl1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Location = new System.Drawing.Point(141, 47);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(622, 368);
-            this.tabControl1.TabIndex = 15;
+            Button6.BackColor = Color.Green;
+            Button6.FlatAppearance.BorderSize = 0;
+            Button6.FlatStyle = FlatStyle.Flat;
+            Button6.ForeColor = Color.White;
+            Button6.Location = new Point(30, 156);
+            Button6.Name = "Button6";
+            Button6.Size = new Size(75, 23);
+            Button6.TabIndex = 23;
+            Button6.Text = "Vidéos";
+            Button6.UseVisualStyleBackColor = false;
             // 
-            // tabPage1
+            // Button7
             // 
-            this.tabPage1.Controls.Add(this.webBrowser1);
-            this.tabPage1.Location = new System.Drawing.Point(4, 22);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(614, 342);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "C:\\Users";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            Button7.BackColor = Color.Green;
+            Button7.FlatAppearance.BorderSize = 0;
+            Button7.FlatStyle = FlatStyle.Flat;
+            Button7.ForeColor = Color.White;
+            Button7.Location = new Point(30, 218);
+            Button7.Name = "Button7";
+            Button7.Size = new Size(75, 23);
+            Button7.TabIndex = 25;
+            Button7.Text = @"C:\";
+            Button7.UseVisualStyleBackColor = false;
             // 
-            // button8
+            // PictureBox8
             // 
-            this.button8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button8.BackColor = System.Drawing.Color.Green;
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.ForeColor = System.Drawing.Color.White;
-            this.button8.Location = new System.Drawing.Point(715, 46);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(21, 20);
-            this.button8.TabIndex = 16;
-            this.button8.Text = "-";
-            this.button8.UseVisualStyleBackColor = false;
+            PictureBox8.Image = (Image)resources.GetObject("PictureBox8.Image");
+            PictureBox8.Location = new Point(4, 218);
+            PictureBox8.Name = "PictureBox8";
+            PictureBox8.Size = new Size(23, 23);
+            PictureBox8.SizeMode = PictureBoxSizeMode.StretchImage;
+            PictureBox8.TabIndex = 24;
+            PictureBox8.TabStop = false;
             // 
-            // button9
+            // Button8
             // 
-            this.button9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.button9.BackColor = System.Drawing.Color.Green;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Location = new System.Drawing.Point(735, 46);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(21, 20);
-            this.button9.TabIndex = 0;
-            this.button9.Text = "+";
-            this.button9.UseVisualStyleBackColor = false;
+            Button8.BackgroundImage = (Image)resources.GetObject("Button8.BackgroundImage");
+            Button8.BackgroundImageLayout = ImageLayout.Stretch;
+            Button8.FlatAppearance.BorderSize = 0;
+            Button8.FlatStyle = FlatStyle.Flat;
+            Button8.Location = new Point(4, 5);
+            Button8.Name = "Button8";
+            Button8.Size = new Size(32, 32);
+            Button8.TabIndex = 26;
+            Button8.UseVisualStyleBackColor = true;
             // 
-            // webBrowser1
+            // Button9
             // 
-            this.webBrowser1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.webBrowser1.Location = new System.Drawing.Point(3, 3);
-            this.webBrowser1.MinimumSize = new System.Drawing.Size(20, 20);
-            this.webBrowser1.Name = "webBrowser1";
-            this.webBrowser1.Size = new System.Drawing.Size(608, 336);
-            this.webBrowser1.TabIndex = 0;
-            this.webBrowser1.Url = new System.Uri("C:\\Users", System.UriKind.Absolute);
+            Button9.BackgroundImage = (Image)resources.GetObject("Button9.BackgroundImage");
+            Button9.BackgroundImageLayout = ImageLayout.Stretch;
+            Button9.FlatAppearance.BorderSize = 0;
+            Button9.FlatStyle = FlatStyle.Flat;
+            Button9.Location = new Point(42, 5);
+            Button9.Name = "Button9";
+            Button9.Size = new Size(32, 32);
+            Button9.TabIndex = 5;
+            Button9.UseVisualStyleBackColor = true;
             // 
-            // Meme
+            // meme
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Silver;
-            this.ClientSize = new System.Drawing.Size(762, 415);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.tabControl1);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MinimumSize = new System.Drawing.Size(778, 449);
-            this.Name = "Meme";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Explorateur de fichier";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            this.tabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            this.ResumeLayout(false);
-            this.PerformLayout();
+            AutoScaleDimensions = new SizeF(6.0f, 13.0f);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Silver;
+            ClientSize = new Size(762, 415);
+            Controls.Add(Button9);
+            Controls.Add(Button8);
+            Controls.Add(Button7);
+            Controls.Add(PictureBox8);
+            Controls.Add(Button6);
+            Controls.Add(Button5);
+            Controls.Add(Button4);
+            Controls.Add(Button3);
+            Controls.Add(PictureBox6);
+            Controls.Add(PictureBox7);
+            Controls.Add(PictureBox5);
+            Controls.Add(PictureBox4);
+            Controls.Add(Label2);
+            Controls.Add(Label1);
+            Controls.Add(Button2);
+            Controls.Add(Button1);
+            Controls.Add(TextBox1);
+            Controls.Add(TabControl1);
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            MinimumSize = new Size(778, 449);
+            Name = "meme";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "Explorateur de fichier";
+            TabControl1.ResumeLayout(false);
+            TabPage2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)PictureBox4).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PictureBox5).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PictureBox6).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PictureBox7).EndInit();
+            ((System.ComponentModel.ISupportInitialize)PictureBox8).EndInit();
+            Load += new EventHandler(meme_Load);
+            FormClosed += new FormClosedEventHandler(meme_FormClosed);
+            ResumeLayout(false);
+            PerformLayout();
 
         }
-
-        #endregion
-
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.TabControl tabControl1;
-        private System.Windows.Forms.TabPage tabPage1;
-        private System.Windows.Forms.WebBrowser webBrowser1;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
+        internal TextBox TextBox1;
+        internal WebBrowser WebBrowser1;
+        internal TabControl TabControl1;
+        internal TabPage TabPage2;
+        internal Button Button2;
+        internal Button Button1;
+        internal Label Label1;
+        internal Label Label2;
+        internal PictureBox PictureBox4;
+        internal PictureBox PictureBox5;
+        internal PictureBox PictureBox6;
+        internal PictureBox PictureBox7;
+        internal Button Button3;
+        internal Button Button4;
+        internal Button Button5;
+        internal Button Button6;
+        internal Button Button7;
+        internal PictureBox PictureBox8;
+        internal Button Button8;
+        internal Button Button9;
     }
 }

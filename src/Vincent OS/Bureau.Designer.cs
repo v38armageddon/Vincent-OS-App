@@ -1,723 +1,706 @@
-﻿namespace Vincent_OS
-{
-    partial class Bureau
-    {
-        /// <summary>
-        /// Required designer variable.
-        /// </summary>
-        private System.ComponentModel.IContainer components = null;
+﻿using System;
+using System.Diagnostics;
+using System.Drawing;
+using System.Windows.Forms;
 
-        /// <summary>
-        /// Clean up any resources being used.
-        /// </summary>
-        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+namespace Vincent_OS
+{
+    [Microsoft.VisualBasic.CompilerServices.DesignerGenerated()]
+    public partial class Bureau : Form
+    {
+
+        // Form remplace la méthode Dispose pour nettoyer la liste des composants.
+        [DebuggerNonUserCode()]
         protected override void Dispose(bool disposing)
         {
-            if (disposing && (components != null))
+            try
             {
-                components.Dispose();
+                if (disposing && components is not null)
+                {
+                    components.Dispose();
+                }
             }
-            base.Dispose(disposing);
+            finally
+            {
+                base.Dispose(disposing);
+            }
         }
 
-        #region Windows Form Designer generated code
+        // Requise par le Concepteur Windows Form
+        private System.ComponentModel.IContainer components;
 
-        /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
-        /// </summary>
+        // REMARQUE : la procédure suivante est requise par le Concepteur Windows Form
+        // Elle peut être modifiée à l'aide du Concepteur Windows Form.  
+        // Ne la modifiez pas à l'aide de l'éditeur de code.
+        [DebuggerStepThrough()]
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Bureau));
-            this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            this.button10 = new System.Windows.Forms.Button();
-            this.button11 = new System.Windows.Forms.Button();
-            this.button12 = new System.Windows.Forms.Button();
-            this.button13 = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.timer1 = new System.Windows.Forms.Timer(this.components);
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.monthCalendar1 = new System.Windows.Forms.MonthCalendar();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.trackBar1 = new System.Windows.Forms.TrackBar();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.button14 = new System.Windows.Forms.Button();
-            this.button15 = new System.Windows.Forms.Button();
-            this.button16 = new System.Windows.Forms.Button();
-            this.button17 = new System.Windows.Forms.Button();
-            this.button18 = new System.Windows.Forms.Button();
-            this.button19 = new System.Windows.Forms.Button();
-            this.button20 = new System.Windows.Forms.Button();
-            this.button21 = new System.Windows.Forms.Button();
-            this.button22 = new System.Windows.Forms.Button();
-            this.button23 = new System.Windows.Forms.Button();
-            this.button24 = new System.Windows.Forms.Button();
-            this.button25 = new System.Windows.Forms.Button();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.flowLayoutPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            this.panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            this.panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).BeginInit();
-            this.flowLayoutPanel2.SuspendLayout();
+            this.Timer1 = new System.Windows.Forms.Timer(this.components);
+            this.MonthCalendar1 = new System.Windows.Forms.MonthCalendar();
+            this.Label2 = new System.Windows.Forms.Label();
+            this.Panel1 = new System.Windows.Forms.Panel();
+            this.Button9 = new System.Windows.Forms.Button();
+            this.Label3 = new System.Windows.Forms.Label();
+            this.PictureBox3 = new System.Windows.Forms.PictureBox();
+            this.Button1 = new System.Windows.Forms.Button();
+            this.Label1 = new System.Windows.Forms.Label();
+            this.FlowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.Button15 = new System.Windows.Forms.Button();
+            this.Button16 = new System.Windows.Forms.Button();
+            this.Button17 = new System.Windows.Forms.Button();
+            this.Button19 = new System.Windows.Forms.Button();
+            this.Button20 = new System.Windows.Forms.Button();
+            this.Button21 = new System.Windows.Forms.Button();
+            this.Button22 = new System.Windows.Forms.Button();
+            this.Button23 = new System.Windows.Forms.Button();
+            this.Button24 = new System.Windows.Forms.Button();
+            this.Button8 = new System.Windows.Forms.Button();
+            this.Button18 = new System.Windows.Forms.Button();
+            this.Button26 = new System.Windows.Forms.Button();
+            this.Button12 = new System.Windows.Forms.Button();
+            this.PictureBox4 = new System.Windows.Forms.PictureBox();
+            this.PictureBox2 = new System.Windows.Forms.PictureBox();
+            this.PictureBox1 = new System.Windows.Forms.PictureBox();
+            this.FlowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.Button2 = new System.Windows.Forms.Button();
+            this.Button3 = new System.Windows.Forms.Button();
+            this.Button6 = new System.Windows.Forms.Button();
+            this.Button4 = new System.Windows.Forms.Button();
+            this.Button5 = new System.Windows.Forms.Button();
+            this.Button14 = new System.Windows.Forms.Button();
+            this.Button13 = new System.Windows.Forms.Button();
+            this.Button11 = new System.Windows.Forms.Button();
+            this.Button7 = new System.Windows.Forms.Button();
+            this.Button10 = new System.Windows.Forms.Button();
+            this.Button25 = new System.Windows.Forms.Button();
+            this.Panel2 = new System.Windows.Forms.Panel();
+            this.TrackBar1 = new System.Windows.Forms.TrackBar();
+            this.PictureBox5 = new System.Windows.Forms.PictureBox();
+            this.PictureBox6 = new System.Windows.Forms.PictureBox();
+            this.PictureBox7 = new System.Windows.Forms.PictureBox();
+            this.Label4 = new System.Windows.Forms.Label();
+            this.Label5 = new System.Windows.Forms.Label();
+            this.Panel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox3)).BeginInit();
+            this.FlowLayoutPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
+            this.FlowLayoutPanel1.SuspendLayout();
+            this.Panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.TrackBar1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox7)).BeginInit();
             this.SuspendLayout();
             // 
-            // flowLayoutPanel1
+            // Timer1
             // 
-            this.flowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.flowLayoutPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("flowLayoutPanel1.BackgroundImage")));
-            this.flowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.flowLayoutPanel1.Controls.Add(this.button3);
-            this.flowLayoutPanel1.Controls.Add(this.button4);
-            this.flowLayoutPanel1.Controls.Add(this.button5);
-            this.flowLayoutPanel1.Controls.Add(this.button6);
-            this.flowLayoutPanel1.Controls.Add(this.button7);
-            this.flowLayoutPanel1.Controls.Add(this.button8);
-            this.flowLayoutPanel1.Controls.Add(this.button9);
-            this.flowLayoutPanel1.Controls.Add(this.button10);
-            this.flowLayoutPanel1.Controls.Add(this.button11);
-            this.flowLayoutPanel1.Controls.Add(this.button12);
-            this.flowLayoutPanel1.Controls.Add(this.button13);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 22);
-            this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(849, 429);
-            this.flowLayoutPanel1.TabIndex = 0;
-            this.flowLayoutPanel1.Click += new System.EventHandler(this.flowLayoutPanel1_Click);
+            this.Timer1.Tick += new System.EventHandler(this.Timer1_Tick);
             // 
-            // button3
+            // MonthCalendar1
             // 
-            this.button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button3.BackgroundImage")));
-            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Location = new System.Drawing.Point(3, 3);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(50, 50);
-            this.button3.TabIndex = 0;
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Visible = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.MonthCalendar1.Location = new System.Drawing.Point(3, 31);
+            this.MonthCalendar1.Name = "MonthCalendar1";
+            this.MonthCalendar1.TabIndex = 3;
+            this.MonthCalendar1.Visible = false;
             // 
-            // button4
+            // Label2
             // 
-            this.button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button4.BackgroundImage")));
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Location = new System.Drawing.Point(59, 3);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(50, 50);
-            this.button4.TabIndex = 1;
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Visible = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.Label2.AutoSize = true;
+            this.Label2.BackColor = System.Drawing.Color.Gray;
+            this.Label2.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.Label2.ForeColor = System.Drawing.Color.White;
+            this.Label2.Location = new System.Drawing.Point(5, 3);
+            this.Label2.Name = "Label2";
+            this.Label2.Size = new System.Drawing.Size(57, 16);
+            this.Label2.TabIndex = 2;
+            this.Label2.Text = "00:00:00";
+            this.Label2.Click += new System.EventHandler(this.Label2_Click);
             // 
-            // button5
+            // Panel1
             // 
-            this.button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button5.BackgroundImage")));
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Location = new System.Drawing.Point(115, 3);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(50, 50);
-            this.button5.TabIndex = 2;
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Visible = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.Panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.Panel1.BackColor = System.Drawing.Color.Gray;
+            this.Panel1.Controls.Add(this.Button9);
+            this.Panel1.Controls.Add(this.Label3);
+            this.Panel1.Controls.Add(this.PictureBox3);
+            this.Panel1.Controls.Add(this.Button1);
+            this.Panel1.Location = new System.Drawing.Point(694, 29);
+            this.Panel1.Name = "Panel1";
+            this.Panel1.Size = new System.Drawing.Size(157, 116);
+            this.Panel1.TabIndex = 4;
+            this.Panel1.Visible = false;
             // 
-            // button6
+            // Button9
             // 
-            this.button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button6.BackgroundImage")));
-            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button6.FlatAppearance.BorderSize = 0;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Location = new System.Drawing.Point(171, 3);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(50, 50);
-            this.button6.TabIndex = 3;
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Visible = false;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.Button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.Button9.FlatAppearance.BorderSize = 0;
+            this.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button9.Font = new System.Drawing.Font("Arial", 9F);
+            this.Button9.Location = new System.Drawing.Point(60, 20);
+            this.Button9.Name = "Button9";
+            this.Button9.Size = new System.Drawing.Size(94, 26);
+            this.Button9.TabIndex = 5;
+            this.Button9.Text = "Paramètres";
+            this.Button9.UseVisualStyleBackColor = false;
+            this.Button9.Click += new System.EventHandler(this.Button9_Click);
             // 
-            // button7
+            // Label3
             // 
-            this.button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button7.BackgroundImage")));
-            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button7.FlatAppearance.BorderSize = 0;
-            this.button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button7.Location = new System.Drawing.Point(227, 3);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(50, 50);
-            this.button7.TabIndex = 4;
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Visible = false;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.Label3.AutoSize = true;
+            this.Label3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label3.Location = new System.Drawing.Point(60, 3);
+            this.Label3.Name = "Label3";
+            this.Label3.Size = new System.Drawing.Size(94, 15);
+            this.Label3.TabIndex = 2;
+            this.Label3.Text = "Superutilisateur";
             // 
-            // button8
+            // PictureBox3
             // 
-            this.button8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button8.BackgroundImage")));
-            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button8.FlatAppearance.BorderSize = 0;
-            this.button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button8.Location = new System.Drawing.Point(283, 3);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(50, 50);
-            this.button8.TabIndex = 5;
-            this.button8.UseVisualStyleBackColor = true;
-            this.button8.Visible = false;
-            this.button8.Click += new System.EventHandler(this.button8_Click);
+            this.PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox3.Image")));
+            this.PictureBox3.Location = new System.Drawing.Point(3, 3);
+            this.PictureBox3.Name = "PictureBox3";
+            this.PictureBox3.Size = new System.Drawing.Size(55, 55);
+            this.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PictureBox3.TabIndex = 1;
+            this.PictureBox3.TabStop = false;
             // 
-            // button9
+            // Button1
             // 
-            this.button9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button9.BackgroundImage")));
-            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Location = new System.Drawing.Point(339, 3);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(50, 50);
-            this.button9.TabIndex = 6;
-            this.button9.UseVisualStyleBackColor = true;
-            this.button9.Visible = false;
-            this.button9.Click += new System.EventHandler(this.button9_Click);
+            this.Button1.BackColor = System.Drawing.Color.Red;
+            this.Button1.FlatAppearance.BorderSize = 0;
+            this.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Button1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button1.ForeColor = System.Drawing.Color.White;
+            this.Button1.Location = new System.Drawing.Point(3, 64);
+            this.Button1.Name = "Button1";
+            this.Button1.Size = new System.Drawing.Size(151, 44);
+            this.Button1.TabIndex = 0;
+            this.Button1.Text = "Quitter";
+            this.Button1.UseVisualStyleBackColor = false;
+            this.Button1.Click += new System.EventHandler(this.Button1_Click);
             // 
-            // button10
+            // Label1
             // 
-            this.button10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button10.BackgroundImage")));
-            this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button10.FlatAppearance.BorderSize = 0;
-            this.button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button10.Location = new System.Drawing.Point(395, 3);
-            this.button10.Name = "button10";
-            this.button10.Size = new System.Drawing.Size(50, 50);
-            this.button10.TabIndex = 7;
-            this.button10.UseVisualStyleBackColor = true;
-            this.button10.Visible = false;
-            this.button10.Click += new System.EventHandler(this.button10_Click);
+            this.Label1.AutoSize = true;
+            this.Label1.BackColor = System.Drawing.Color.Gray;
+            this.Label1.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.Label1.ForeColor = System.Drawing.Color.White;
+            this.Label1.Location = new System.Drawing.Point(69, 3);
+            this.Label1.Name = "Label1";
+            this.Label1.Size = new System.Drawing.Size(71, 16);
+            this.Label1.TabIndex = 22;
+            this.Label1.Text = "00/00/0000";
+            this.Label1.Click += new System.EventHandler(this.Label1_Click);
             // 
-            // button11
+            // FlowLayoutPanel2
             // 
-            this.button11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button11.BackgroundImage")));
-            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button11.FlatAppearance.BorderSize = 0;
-            this.button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button11.Location = new System.Drawing.Point(451, 3);
-            this.button11.Name = "button11";
-            this.button11.Size = new System.Drawing.Size(50, 50);
-            this.button11.TabIndex = 8;
-            this.button11.UseVisualStyleBackColor = true;
-            this.button11.Visible = false;
-            this.button11.Click += new System.EventHandler(this.button11_Click);
-            // 
-            // button12
-            // 
-            this.button12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button12.BackgroundImage")));
-            this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button12.FlatAppearance.BorderSize = 0;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Location = new System.Drawing.Point(507, 3);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(50, 50);
-            this.button12.TabIndex = 9;
-            this.button12.UseVisualStyleBackColor = true;
-            this.button12.Visible = false;
-            this.button12.Click += new System.EventHandler(this.button12_Click);
-            // 
-            // button13
-            // 
-            this.button13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button13.BackgroundImage")));
-            this.button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button13.FlatAppearance.BorderSize = 0;
-            this.button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button13.Location = new System.Drawing.Point(563, 3);
-            this.button13.Name = "button13";
-            this.button13.Size = new System.Drawing.Size(50, 50);
-            this.button13.TabIndex = 10;
-            this.button13.UseVisualStyleBackColor = true;
-            this.button13.Visible = false;
-            this.button13.Click += new System.EventHandler(this.button13_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Gray;
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(848, 25);
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackColor = System.Drawing.Color.Gray;
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 425);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(848, 26);
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            // 
-            // timer1
-            // 
-            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Gray;
-            this.label1.Font = new System.Drawing.Font("Arial", 9.75F);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(5, 3);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(57, 16);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "00:00:00";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Gray;
-            this.label2.Font = new System.Drawing.Font("Arial", 9.75F);
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(69, 3);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(71, 16);
-            this.label2.TabIndex = 4;
-            this.label2.Text = "00/00/0000";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox3.BackColor = System.Drawing.Color.Gray;
-            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
-            this.pictureBox3.Location = new System.Drawing.Point(821, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(28, 25);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox3.TabIndex = 5;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.pictureBox4.BackColor = System.Drawing.Color.Gray;
-            this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
-            this.pictureBox4.Location = new System.Drawing.Point(0, 425);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(28, 26);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox4.TabIndex = 6;
-            this.pictureBox4.TabStop = false;
-            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
-            // 
-            // panel1
-            // 
-            this.panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel1.BackColor = System.Drawing.Color.Gray;
-            this.panel1.Controls.Add(this.button2);
-            this.panel1.Controls.Add(this.button1);
-            this.panel1.Controls.Add(this.pictureBox5);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Location = new System.Drawing.Point(694, 29);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(157, 116);
-            this.panel1.TabIndex = 4;
-            this.panel1.Visible = false;
-            // 
-            // button2
-            // 
-            this.button2.BackColor = System.Drawing.Color.Red;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Arial", 14.25F);
-            this.button2.ForeColor = System.Drawing.Color.White;
-            this.button2.Location = new System.Drawing.Point(3, 64);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(151, 44);
-            this.button2.TabIndex = 3;
-            this.button2.Text = "Quitter";
-            this.button2.UseVisualStyleBackColor = false;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button1
-            // 
-            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Arial", 9F);
-            this.button1.Location = new System.Drawing.Point(60, 20);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 26);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "Paramètres";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox5.Image")));
-            this.pictureBox5.Location = new System.Drawing.Point(3, 3);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(55, 55);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox5.TabIndex = 1;
-            this.pictureBox5.TabStop = false;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Arial", 9F);
-            this.label3.Location = new System.Drawing.Point(60, 3);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(94, 15);
-            this.label3.TabIndex = 0;
-            this.label3.Text = "Superutilisateur";
-            // 
-            // monthCalendar1
-            // 
-            this.monthCalendar1.Location = new System.Drawing.Point(3, 31);
-            this.monthCalendar1.Name = "monthCalendar1";
-            this.monthCalendar1.ShowTodayCircle = false;
-            this.monthCalendar1.ShowWeekNumbers = true;
-            this.monthCalendar1.TabIndex = 7;
-            this.monthCalendar1.Visible = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox6.BackColor = System.Drawing.Color.Gray;
-            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
-            this.pictureBox6.Location = new System.Drawing.Point(820, 426);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(28, 25);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox6.TabIndex = 8;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox7.BackColor = System.Drawing.Color.Gray;
-            this.pictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox7.Image")));
-            this.pictureBox7.Location = new System.Drawing.Point(786, 425);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(28, 25);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox7.TabIndex = 9;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.pictureBox8.BackColor = System.Drawing.Color.Gray;
-            this.pictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox8.Image")));
-            this.pictureBox8.Location = new System.Drawing.Point(786, 425);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(28, 25);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox8.TabIndex = 10;
-            this.pictureBox8.TabStop = false;
-            // 
-            // panel2
-            // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.panel2.BackColor = System.Drawing.Color.Gray;
-            this.panel2.Controls.Add(this.trackBar1);
-            this.panel2.Location = new System.Drawing.Point(736, 386);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(112, 33);
-            this.panel2.TabIndex = 25;
-            this.panel2.Visible = false;
-            // 
-            // trackBar1
-            // 
-            this.trackBar1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.trackBar1.Location = new System.Drawing.Point(0, 0);
-            this.trackBar1.Name = "trackBar1";
-            this.trackBar1.Size = new System.Drawing.Size(112, 45);
-            this.trackBar1.TabIndex = 0;
-            // 
-            // flowLayoutPanel2
-            // 
-            this.flowLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            this.FlowLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.flowLayoutPanel2.BackColor = System.Drawing.Color.Gray;
-            this.flowLayoutPanel2.Controls.Add(this.button14);
-            this.flowLayoutPanel2.Controls.Add(this.button15);
-            this.flowLayoutPanel2.Controls.Add(this.button16);
-            this.flowLayoutPanel2.Controls.Add(this.button17);
-            this.flowLayoutPanel2.Controls.Add(this.button18);
-            this.flowLayoutPanel2.Controls.Add(this.button19);
-            this.flowLayoutPanel2.Controls.Add(this.button20);
-            this.flowLayoutPanel2.Controls.Add(this.button21);
-            this.flowLayoutPanel2.Controls.Add(this.button22);
-            this.flowLayoutPanel2.Controls.Add(this.button23);
-            this.flowLayoutPanel2.Controls.Add(this.button24);
-            this.flowLayoutPanel2.Controls.Add(this.button25);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(34, 425);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(746, 26);
-            this.flowLayoutPanel2.TabIndex = 11;
+            this.FlowLayoutPanel2.BackColor = System.Drawing.Color.Gray;
+            this.FlowLayoutPanel2.Controls.Add(this.Button15);
+            this.FlowLayoutPanel2.Controls.Add(this.Button16);
+            this.FlowLayoutPanel2.Controls.Add(this.Button17);
+            this.FlowLayoutPanel2.Controls.Add(this.Button19);
+            this.FlowLayoutPanel2.Controls.Add(this.Button20);
+            this.FlowLayoutPanel2.Controls.Add(this.Button21);
+            this.FlowLayoutPanel2.Controls.Add(this.Button22);
+            this.FlowLayoutPanel2.Controls.Add(this.Button23);
+            this.FlowLayoutPanel2.Controls.Add(this.Button24);
+            this.FlowLayoutPanel2.Controls.Add(this.Button8);
+            this.FlowLayoutPanel2.Controls.Add(this.Button18);
+            this.FlowLayoutPanel2.Controls.Add(this.Button26);
+            this.FlowLayoutPanel2.Location = new System.Drawing.Point(34, 425);
+            this.FlowLayoutPanel2.Name = "FlowLayoutPanel2";
+            this.FlowLayoutPanel2.Size = new System.Drawing.Size(746, 26);
+            this.FlowLayoutPanel2.TabIndex = 27;
             // 
-            // button14
+            // Button15
             // 
-            this.button14.BackColor = System.Drawing.Color.Gray;
-            this.button14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button14.BackgroundImage")));
-            this.button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button14.FlatAppearance.BorderSize = 0;
-            this.button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button14.Location = new System.Drawing.Point(3, 3);
-            this.button14.Name = "button14";
-            this.button14.Size = new System.Drawing.Size(23, 23);
-            this.button14.TabIndex = 26;
-            this.button14.UseVisualStyleBackColor = false;
-            this.button14.Visible = false;
-            this.button14.Click += new System.EventHandler(this.button14_Click);
+            this.Button15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button15.BackgroundImage")));
+            this.Button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button15.Location = new System.Drawing.Point(3, 3);
+            this.Button15.Name = "Button15";
+            this.Button15.Size = new System.Drawing.Size(23, 23);
+            this.Button15.TabIndex = 24;
+            this.Button15.UseVisualStyleBackColor = true;
+            this.Button15.Visible = false;
+            this.Button15.Click += new System.EventHandler(this.Button15_Click);
             // 
-            // button15
+            // Button16
             // 
-            this.button15.BackColor = System.Drawing.Color.Gray;
-            this.button15.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button15.BackgroundImage")));
-            this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button15.FlatAppearance.BorderSize = 0;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Location = new System.Drawing.Point(32, 3);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(23, 23);
-            this.button15.TabIndex = 27;
-            this.button15.UseVisualStyleBackColor = false;
-            this.button15.Visible = false;
-            this.button15.Click += new System.EventHandler(this.button15_Click);
+            this.Button16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button16.BackgroundImage")));
+            this.Button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button16.Location = new System.Drawing.Point(32, 3);
+            this.Button16.Name = "Button16";
+            this.Button16.Size = new System.Drawing.Size(23, 23);
+            this.Button16.TabIndex = 25;
+            this.Button16.UseVisualStyleBackColor = true;
+            this.Button16.Visible = false;
+            this.Button16.Click += new System.EventHandler(this.Button16_Click);
             // 
-            // button16
+            // Button17
             // 
-            this.button16.BackColor = System.Drawing.Color.Gray;
-            this.button16.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button16.BackgroundImage")));
-            this.button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button16.FlatAppearance.BorderSize = 0;
-            this.button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button16.Location = new System.Drawing.Point(61, 3);
-            this.button16.Name = "button16";
-            this.button16.Size = new System.Drawing.Size(23, 23);
-            this.button16.TabIndex = 28;
-            this.button16.UseVisualStyleBackColor = false;
-            this.button16.Visible = false;
-            this.button16.Click += new System.EventHandler(this.button16_Click);
+            this.Button17.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button17.BackgroundImage")));
+            this.Button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button17.Location = new System.Drawing.Point(61, 3);
+            this.Button17.Name = "Button17";
+            this.Button17.Size = new System.Drawing.Size(23, 23);
+            this.Button17.TabIndex = 26;
+            this.Button17.UseVisualStyleBackColor = true;
+            this.Button17.Visible = false;
+            this.Button17.Click += new System.EventHandler(this.Button17_Click);
             // 
-            // button17
+            // Button19
             // 
-            this.button17.BackColor = System.Drawing.Color.Gray;
-            this.button17.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button17.BackgroundImage")));
-            this.button17.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button17.FlatAppearance.BorderSize = 0;
-            this.button17.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button17.Location = new System.Drawing.Point(90, 3);
-            this.button17.Name = "button17";
-            this.button17.Size = new System.Drawing.Size(23, 23);
-            this.button17.TabIndex = 29;
-            this.button17.UseVisualStyleBackColor = false;
-            this.button17.Visible = false;
-            this.button17.Click += new System.EventHandler(this.button17_Click);
+            this.Button19.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button19.BackgroundImage")));
+            this.Button19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button19.Location = new System.Drawing.Point(90, 3);
+            this.Button19.Name = "Button19";
+            this.Button19.Size = new System.Drawing.Size(23, 23);
+            this.Button19.TabIndex = 28;
+            this.Button19.UseVisualStyleBackColor = true;
+            this.Button19.Visible = false;
+            this.Button19.Click += new System.EventHandler(this.Button19_Click);
             // 
-            // button18
+            // Button20
             // 
-            this.button18.BackColor = System.Drawing.Color.Gray;
-            this.button18.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button18.BackgroundImage")));
-            this.button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button18.FlatAppearance.BorderSize = 0;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Location = new System.Drawing.Point(119, 3);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(23, 23);
-            this.button18.TabIndex = 30;
-            this.button18.UseVisualStyleBackColor = false;
-            this.button18.Visible = false;
-            this.button18.Click += new System.EventHandler(this.button18_Click);
+            this.Button20.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button20.BackgroundImage")));
+            this.Button20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button20.Location = new System.Drawing.Point(119, 3);
+            this.Button20.Name = "Button20";
+            this.Button20.Size = new System.Drawing.Size(23, 23);
+            this.Button20.TabIndex = 29;
+            this.Button20.UseVisualStyleBackColor = true;
+            this.Button20.Visible = false;
+            this.Button20.Click += new System.EventHandler(this.Button20_Click);
             // 
-            // button19
+            // Button21
             // 
-            this.button19.BackColor = System.Drawing.Color.Gray;
-            this.button19.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button19.BackgroundImage")));
-            this.button19.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button19.FlatAppearance.BorderSize = 0;
-            this.button19.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button19.Location = new System.Drawing.Point(148, 3);
-            this.button19.Name = "button19";
-            this.button19.Size = new System.Drawing.Size(23, 23);
-            this.button19.TabIndex = 31;
-            this.button19.UseVisualStyleBackColor = false;
-            this.button19.Visible = false;
-            this.button19.Click += new System.EventHandler(this.button19_Click);
+            this.Button21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button21.BackgroundImage")));
+            this.Button21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button21.Location = new System.Drawing.Point(148, 3);
+            this.Button21.Name = "Button21";
+            this.Button21.Size = new System.Drawing.Size(23, 23);
+            this.Button21.TabIndex = 30;
+            this.Button21.UseVisualStyleBackColor = true;
+            this.Button21.Visible = false;
+            this.Button21.Click += new System.EventHandler(this.Button21_Click);
             // 
-            // button20
+            // Button22
             // 
-            this.button20.BackColor = System.Drawing.Color.Gray;
-            this.button20.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button20.BackgroundImage")));
-            this.button20.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button20.FlatAppearance.BorderSize = 0;
-            this.button20.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button20.Location = new System.Drawing.Point(177, 3);
-            this.button20.Name = "button20";
-            this.button20.Size = new System.Drawing.Size(23, 23);
-            this.button20.TabIndex = 32;
-            this.button20.UseVisualStyleBackColor = false;
-            this.button20.Visible = false;
-            this.button20.Click += new System.EventHandler(this.button20_Click);
+            this.Button22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button22.BackgroundImage")));
+            this.Button22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button22.Location = new System.Drawing.Point(177, 3);
+            this.Button22.Name = "Button22";
+            this.Button22.Size = new System.Drawing.Size(23, 23);
+            this.Button22.TabIndex = 31;
+            this.Button22.UseVisualStyleBackColor = true;
+            this.Button22.Visible = false;
+            this.Button22.Click += new System.EventHandler(this.Button22_Click);
             // 
-            // button21
+            // Button23
             // 
-            this.button21.BackColor = System.Drawing.Color.Gray;
-            this.button21.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button21.BackgroundImage")));
-            this.button21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button21.FlatAppearance.BorderSize = 0;
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.Location = new System.Drawing.Point(206, 3);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(23, 23);
-            this.button21.TabIndex = 33;
-            this.button21.UseVisualStyleBackColor = false;
-            this.button21.Visible = false;
-            this.button21.Click += new System.EventHandler(this.button21_Click);
+            this.Button23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button23.BackgroundImage")));
+            this.Button23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button23.Location = new System.Drawing.Point(206, 3);
+            this.Button23.Name = "Button23";
+            this.Button23.Size = new System.Drawing.Size(23, 23);
+            this.Button23.TabIndex = 32;
+            this.Button23.UseVisualStyleBackColor = true;
+            this.Button23.Visible = false;
+            this.Button23.Click += new System.EventHandler(this.Button23_Click);
             // 
-            // button22
+            // Button24
             // 
-            this.button22.BackColor = System.Drawing.Color.Gray;
-            this.button22.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button22.BackgroundImage")));
-            this.button22.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button22.FlatAppearance.BorderSize = 0;
-            this.button22.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button22.Location = new System.Drawing.Point(235, 3);
-            this.button22.Name = "button22";
-            this.button22.Size = new System.Drawing.Size(23, 23);
-            this.button22.TabIndex = 34;
-            this.button22.UseVisualStyleBackColor = false;
-            this.button22.Visible = false;
-            this.button22.Click += new System.EventHandler(this.button22_Click);
+            this.Button24.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button24.BackgroundImage")));
+            this.Button24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button24.Location = new System.Drawing.Point(235, 3);
+            this.Button24.Name = "Button24";
+            this.Button24.Size = new System.Drawing.Size(23, 23);
+            this.Button24.TabIndex = 33;
+            this.Button24.UseVisualStyleBackColor = true;
+            this.Button24.Visible = false;
+            this.Button24.Click += new System.EventHandler(this.Button24_Click);
             // 
-            // button23
+            // Button8
             // 
-            this.button23.BackColor = System.Drawing.Color.Gray;
-            this.button23.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button23.BackgroundImage")));
-            this.button23.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button23.FlatAppearance.BorderSize = 0;
-            this.button23.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button23.Location = new System.Drawing.Point(264, 3);
-            this.button23.Name = "button23";
-            this.button23.Size = new System.Drawing.Size(23, 23);
-            this.button23.TabIndex = 35;
-            this.button23.UseVisualStyleBackColor = false;
-            this.button23.Visible = false;
-            this.button23.Click += new System.EventHandler(this.button23_Click);
+            this.Button8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button8.BackgroundImage")));
+            this.Button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button8.Location = new System.Drawing.Point(264, 3);
+            this.Button8.Name = "Button8";
+            this.Button8.Size = new System.Drawing.Size(23, 23);
+            this.Button8.TabIndex = 34;
+            this.Button8.UseVisualStyleBackColor = true;
+            this.Button8.Visible = false;
+            this.Button8.Click += new System.EventHandler(this.Button8_Click_1);
             // 
-            // button24
+            // Button18
             // 
-            this.button24.BackColor = System.Drawing.Color.Gray;
-            this.button24.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button24.BackgroundImage")));
-            this.button24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button24.FlatAppearance.BorderSize = 0;
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button24.Location = new System.Drawing.Point(293, 3);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(23, 23);
-            this.button24.TabIndex = 36;
-            this.button24.UseVisualStyleBackColor = false;
-            this.button24.Visible = false;
-            this.button24.Click += new System.EventHandler(this.button24_Click);
+            this.Button18.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button18.BackgroundImage")));
+            this.Button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button18.Location = new System.Drawing.Point(293, 3);
+            this.Button18.Name = "Button18";
+            this.Button18.Size = new System.Drawing.Size(23, 23);
+            this.Button18.TabIndex = 35;
+            this.Button18.UseVisualStyleBackColor = true;
+            this.Button18.Visible = false;
+            this.Button18.Click += new System.EventHandler(this.Button18_Click);
             // 
-            // button25
+            // Button26
             // 
-            this.button25.BackColor = System.Drawing.Color.Gray;
-            this.button25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button25.BackgroundImage")));
-            this.button25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button25.FlatAppearance.BorderSize = 0;
-            this.button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button25.Location = new System.Drawing.Point(322, 3);
-            this.button25.Name = "button25";
-            this.button25.Size = new System.Drawing.Size(23, 23);
-            this.button25.TabIndex = 37;
-            this.button25.UseVisualStyleBackColor = false;
-            this.button25.Visible = false;
-            this.button25.Click += new System.EventHandler(this.button25_Click);
+            this.Button26.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button26.BackgroundImage")));
+            this.Button26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button26.Location = new System.Drawing.Point(322, 3);
+            this.Button26.Name = "Button26";
+            this.Button26.Size = new System.Drawing.Size(23, 23);
+            this.Button26.TabIndex = 36;
+            this.Button26.UseVisualStyleBackColor = true;
+            this.Button26.Visible = false;
+            this.Button26.Click += new System.EventHandler(this.Button26_Click);
             // 
-            // label4
+            // Button12
             // 
-            this.label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label4.Location = new System.Drawing.Point(660, 410);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(153, 13);
-            this.label4.TabIndex = 11;
-            this.label4.Text = "Vous êtes connecté à Internet.";
-            this.label4.Visible = false;
+            this.Button12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Button12.BackColor = System.Drawing.Color.Gray;
+            this.Button12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button12.BackgroundImage")));
+            this.Button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Button12.FlatAppearance.BorderSize = 0;
+            this.Button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button12.Location = new System.Drawing.Point(0, 425);
+            this.Button12.Name = "Button12";
+            this.Button12.Size = new System.Drawing.Size(28, 26);
+            this.Button12.TabIndex = 19;
+            this.Button12.UseVisualStyleBackColor = false;
+            this.Button12.Click += new System.EventHandler(this.Button12_Click);
             // 
-            // label5
+            // PictureBox4
             // 
-            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.label5.Location = new System.Drawing.Point(660, 410);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(181, 13);
-            this.label5.TabIndex = 26;
-            this.label5.Text = "Vous n\'êtes pas connecté à Internet.";
-            this.label5.Visible = false;
+            this.PictureBox4.BackColor = System.Drawing.Color.Gray;
+            this.PictureBox4.Dock = System.Windows.Forms.DockStyle.Bottom;
+            this.PictureBox4.Location = new System.Drawing.Point(0, 425);
+            this.PictureBox4.Name = "PictureBox4";
+            this.PictureBox4.Size = new System.Drawing.Size(848, 26);
+            this.PictureBox4.TabIndex = 22;
+            this.PictureBox4.TabStop = false;
+            // 
+            // PictureBox2
+            // 
+            this.PictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.PictureBox2.BackColor = System.Drawing.Color.Gray;
+            this.PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox2.Image")));
+            this.PictureBox2.Location = new System.Drawing.Point(821, 0);
+            this.PictureBox2.Name = "PictureBox2";
+            this.PictureBox2.Size = new System.Drawing.Size(28, 25);
+            this.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PictureBox2.TabIndex = 1;
+            this.PictureBox2.TabStop = false;
+            this.PictureBox2.Click += new System.EventHandler(this.PictureBox2_Click);
+            // 
+            // PictureBox1
+            // 
+            this.PictureBox1.BackColor = System.Drawing.Color.Gray;
+            this.PictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.PictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.PictureBox1.Name = "PictureBox1";
+            this.PictureBox1.Size = new System.Drawing.Size(848, 25);
+            this.PictureBox1.TabIndex = 0;
+            this.PictureBox1.TabStop = false;
+            // 
+            // FlowLayoutPanel1
+            // 
+            this.FlowLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.FlowLayoutPanel1.BackColor = System.Drawing.Color.Transparent;
+            this.FlowLayoutPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("FlowLayoutPanel1.BackgroundImage")));
+            this.FlowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.FlowLayoutPanel1.Controls.Add(this.Button2);
+            this.FlowLayoutPanel1.Controls.Add(this.Button3);
+            this.FlowLayoutPanel1.Controls.Add(this.Button6);
+            this.FlowLayoutPanel1.Controls.Add(this.Button4);
+            this.FlowLayoutPanel1.Controls.Add(this.Button5);
+            this.FlowLayoutPanel1.Controls.Add(this.Button14);
+            this.FlowLayoutPanel1.Controls.Add(this.Button13);
+            this.FlowLayoutPanel1.Controls.Add(this.Button11);
+            this.FlowLayoutPanel1.Controls.Add(this.Button7);
+            this.FlowLayoutPanel1.Controls.Add(this.Button10);
+            this.FlowLayoutPanel1.Controls.Add(this.Button25);
+            this.FlowLayoutPanel1.Location = new System.Drawing.Point(0, 22);
+            this.FlowLayoutPanel1.Name = "FlowLayoutPanel1";
+            this.FlowLayoutPanel1.Size = new System.Drawing.Size(849, 429);
+            this.FlowLayoutPanel1.TabIndex = 23;
+            this.FlowLayoutPanel1.Click += new System.EventHandler(this.FlowLayoutPanel1_Click);
+            // 
+            // Button2
+            // 
+            this.Button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button2.BackgroundImage")));
+            this.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button2.Location = new System.Drawing.Point(3, 3);
+            this.Button2.Name = "Button2";
+            this.Button2.Size = new System.Drawing.Size(50, 50);
+            this.Button2.TabIndex = 5;
+            this.Button2.UseVisualStyleBackColor = true;
+            this.Button2.Visible = false;
+            this.Button2.Click += new System.EventHandler(this.Button2_Click);
+            // 
+            // Button3
+            // 
+            this.Button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button3.BackgroundImage")));
+            this.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button3.Location = new System.Drawing.Point(59, 3);
+            this.Button3.Name = "Button3";
+            this.Button3.Size = new System.Drawing.Size(50, 50);
+            this.Button3.TabIndex = 12;
+            this.Button3.UseVisualStyleBackColor = true;
+            this.Button3.Visible = false;
+            this.Button3.Click += new System.EventHandler(this.Button3_Click);
+            // 
+            // Button6
+            // 
+            this.Button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button6.BackgroundImage")));
+            this.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button6.Location = new System.Drawing.Point(115, 3);
+            this.Button6.Name = "Button6";
+            this.Button6.Size = new System.Drawing.Size(50, 50);
+            this.Button6.TabIndex = 15;
+            this.Button6.UseVisualStyleBackColor = true;
+            this.Button6.Visible = false;
+            this.Button6.Click += new System.EventHandler(this.Button6_Click);
+            // 
+            // Button4
+            // 
+            this.Button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button4.BackgroundImage")));
+            this.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button4.Location = new System.Drawing.Point(171, 3);
+            this.Button4.Name = "Button4";
+            this.Button4.Size = new System.Drawing.Size(50, 50);
+            this.Button4.TabIndex = 13;
+            this.Button4.UseVisualStyleBackColor = true;
+            this.Button4.Visible = false;
+            this.Button4.Click += new System.EventHandler(this.Button4_Click);
+            // 
+            // Button5
+            // 
+            this.Button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button5.BackgroundImage")));
+            this.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button5.Location = new System.Drawing.Point(227, 3);
+            this.Button5.Name = "Button5";
+            this.Button5.Size = new System.Drawing.Size(50, 50);
+            this.Button5.TabIndex = 14;
+            this.Button5.UseVisualStyleBackColor = true;
+            this.Button5.Visible = false;
+            this.Button5.Click += new System.EventHandler(this.Button5_Click);
+            // 
+            // Button14
+            // 
+            this.Button14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button14.BackgroundImage")));
+            this.Button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button14.Location = new System.Drawing.Point(283, 3);
+            this.Button14.Name = "Button14";
+            this.Button14.Size = new System.Drawing.Size(50, 50);
+            this.Button14.TabIndex = 21;
+            this.Button14.UseVisualStyleBackColor = true;
+            this.Button14.Visible = false;
+            this.Button14.Click += new System.EventHandler(this.Button14_Click);
+            // 
+            // Button13
+            // 
+            this.Button13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button13.BackgroundImage")));
+            this.Button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button13.Location = new System.Drawing.Point(339, 3);
+            this.Button13.Name = "Button13";
+            this.Button13.Size = new System.Drawing.Size(50, 50);
+            this.Button13.TabIndex = 20;
+            this.Button13.UseVisualStyleBackColor = true;
+            this.Button13.Visible = false;
+            this.Button13.Click += new System.EventHandler(this.Button13_Click);
+            // 
+            // Button11
+            // 
+            this.Button11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button11.BackgroundImage")));
+            this.Button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button11.Location = new System.Drawing.Point(395, 3);
+            this.Button11.Name = "Button11";
+            this.Button11.Size = new System.Drawing.Size(50, 50);
+            this.Button11.TabIndex = 18;
+            this.Button11.UseVisualStyleBackColor = true;
+            this.Button11.Visible = false;
+            this.Button11.Click += new System.EventHandler(this.Button11_Click);
+            // 
+            // Button7
+            // 
+            this.Button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button7.BackgroundImage")));
+            this.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button7.Location = new System.Drawing.Point(451, 3);
+            this.Button7.Name = "Button7";
+            this.Button7.Size = new System.Drawing.Size(50, 50);
+            this.Button7.TabIndex = 22;
+            this.Button7.UseVisualStyleBackColor = true;
+            this.Button7.Visible = false;
+            this.Button7.Click += new System.EventHandler(this.Button7_Click);
+            // 
+            // Button10
+            // 
+            this.Button10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button10.BackgroundImage")));
+            this.Button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button10.Location = new System.Drawing.Point(507, 3);
+            this.Button10.Name = "Button10";
+            this.Button10.Size = new System.Drawing.Size(50, 50);
+            this.Button10.TabIndex = 23;
+            this.Button10.UseVisualStyleBackColor = true;
+            this.Button10.Visible = false;
+            this.Button10.Click += new System.EventHandler(this.Button10_Click);
+            // 
+            // Button25
+            // 
+            this.Button25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button25.BackgroundImage")));
+            this.Button25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button25.Location = new System.Drawing.Point(563, 3);
+            this.Button25.Name = "Button25";
+            this.Button25.Size = new System.Drawing.Size(50, 50);
+            this.Button25.TabIndex = 24;
+            this.Button25.UseVisualStyleBackColor = true;
+            this.Button25.Visible = false;
+            this.Button25.Click += new System.EventHandler(this.Button25_Click);
+            // 
+            // Panel2
+            // 
+            this.Panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Panel2.BackColor = System.Drawing.Color.Gray;
+            this.Panel2.Controls.Add(this.TrackBar1);
+            this.Panel2.Location = new System.Drawing.Point(736, 386);
+            this.Panel2.Name = "Panel2";
+            this.Panel2.Size = new System.Drawing.Size(112, 33);
+            this.Panel2.TabIndex = 25;
+            this.Panel2.Visible = false;
+            // 
+            // TrackBar1
+            // 
+            this.TrackBar1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.TrackBar1.Location = new System.Drawing.Point(0, 0);
+            this.TrackBar1.Name = "TrackBar1";
+            this.TrackBar1.Size = new System.Drawing.Size(112, 45);
+            this.TrackBar1.TabIndex = 0;
+            this.TrackBar1.Scroll += new System.EventHandler(this.TrackBar1_Scroll);
+            // 
+            // PictureBox5
+            // 
+            this.PictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.PictureBox5.BackColor = System.Drawing.Color.Gray;
+            this.PictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox5.Image")));
+            this.PictureBox5.Location = new System.Drawing.Point(820, 426);
+            this.PictureBox5.Name = "PictureBox5";
+            this.PictureBox5.Size = new System.Drawing.Size(28, 25);
+            this.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PictureBox5.TabIndex = 25;
+            this.PictureBox5.TabStop = false;
+            this.PictureBox5.Click += new System.EventHandler(this.PictureBox5_Click);
+            // 
+            // PictureBox6
+            // 
+            this.PictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.PictureBox6.BackColor = System.Drawing.Color.Gray;
+            this.PictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox6.Image")));
+            this.PictureBox6.Location = new System.Drawing.Point(786, 425);
+            this.PictureBox6.Name = "PictureBox6";
+            this.PictureBox6.Size = new System.Drawing.Size(28, 25);
+            this.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PictureBox6.TabIndex = 28;
+            this.PictureBox6.TabStop = false;
+            this.PictureBox6.Visible = false;
+            this.PictureBox6.MouseLeave += new System.EventHandler(this.PictureBox6_MouseLeave);
+            this.PictureBox6.MouseHover += new System.EventHandler(this.PictureBox6_MouseHover);
+            // 
+            // PictureBox7
+            // 
+            this.PictureBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.PictureBox7.BackColor = System.Drawing.Color.Gray;
+            this.PictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox7.Image")));
+            this.PictureBox7.Location = new System.Drawing.Point(786, 425);
+            this.PictureBox7.Name = "PictureBox7";
+            this.PictureBox7.Size = new System.Drawing.Size(28, 25);
+            this.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PictureBox7.TabIndex = 29;
+            this.PictureBox7.TabStop = false;
+            this.PictureBox7.Visible = false;
+            this.PictureBox7.MouseLeave += new System.EventHandler(this.PictureBox7_MouseLeave);
+            this.PictureBox7.MouseHover += new System.EventHandler(this.PictureBox7_MouseHover);
+            // 
+            // Label4
+            // 
+            this.Label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Label4.AutoSize = true;
+            this.Label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.Label4.Location = new System.Drawing.Point(660, 410);
+            this.Label4.Name = "Label4";
+            this.Label4.Size = new System.Drawing.Size(153, 13);
+            this.Label4.TabIndex = 25;
+            this.Label4.Text = "Vous êtes connecté à Internet.\r\n";
+            this.Label4.Visible = false;
+            // 
+            // Label5
+            // 
+            this.Label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.Label5.AutoSize = true;
+            this.Label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
+            this.Label5.Location = new System.Drawing.Point(660, 410);
+            this.Label5.Name = "Label5";
+            this.Label5.Size = new System.Drawing.Size(181, 13);
+            this.Label5.TabIndex = 30;
+            this.Label5.Text = "Vous n\'êtes pas connecté à Internet.\r\n";
+            this.Label5.Visible = false;
             // 
             // Bureau
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(848, 451);
             this.ControlBox = false;
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.flowLayoutPanel2);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.pictureBox8);
-            this.Controls.Add(this.pictureBox7);
-            this.Controls.Add(this.pictureBox6);
-            this.Controls.Add(this.monthCalendar1);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.pictureBox4);
-            this.Controls.Add(this.pictureBox3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.flowLayoutPanel1);
+            this.Controls.Add(this.Label5);
+            this.Controls.Add(this.Label4);
+            this.Controls.Add(this.PictureBox7);
+            this.Controls.Add(this.PictureBox6);
+            this.Controls.Add(this.PictureBox5);
+            this.Controls.Add(this.Panel2);
+            this.Controls.Add(this.FlowLayoutPanel2);
+            this.Controls.Add(this.Button12);
+            this.Controls.Add(this.PictureBox4);
+            this.Controls.Add(this.MonthCalendar1);
+            this.Controls.Add(this.Label1);
+            this.Controls.Add(this.Panel1);
+            this.Controls.Add(this.Label2);
+            this.Controls.Add(this.PictureBox2);
+            this.Controls.Add(this.PictureBox1);
+            this.Controls.Add(this.FlowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
@@ -726,72 +709,68 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bureau - Session Superutilisateur";
             this.Load += new System.EventHandler(this.Bureau_Load);
-            this.flowLayoutPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.trackBar1)).EndInit();
-            this.flowLayoutPanel2.ResumeLayout(false);
+            this.Panel1.ResumeLayout(false);
+            this.Panel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox3)).EndInit();
+            this.FlowLayoutPanel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
+            this.FlowLayoutPanel1.ResumeLayout(false);
+            this.Panel2.ResumeLayout(false);
+            this.Panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.TrackBar1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox7)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
-
-        #endregion
-
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.Timer timer1;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.MonthCalendar monthCalendar1;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
-        private System.Windows.Forms.Button button10;
-        private System.Windows.Forms.Button button11;
-        private System.Windows.Forms.Button button12;
-        private System.Windows.Forms.Button button13;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TrackBar trackBar1;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
-        private System.Windows.Forms.Button button14;
-        private System.Windows.Forms.Button button15;
-        private System.Windows.Forms.Button button16;
-        private System.Windows.Forms.Button button17;
-        private System.Windows.Forms.Button button18;
-        private System.Windows.Forms.Button button19;
-        private System.Windows.Forms.Button button20;
-        private System.Windows.Forms.Button button21;
-        private System.Windows.Forms.Button button22;
-        private System.Windows.Forms.Button button23;
-        private System.Windows.Forms.Button button24;
-        private System.Windows.Forms.Button button25;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label5;
+        internal PictureBox PictureBox1;
+        internal PictureBox PictureBox2;
+        internal Timer Timer1;
+        internal MonthCalendar MonthCalendar1;
+        internal Label Label2;
+        internal Panel Panel1;
+        internal Button Button1;
+        internal Label Label3;
+        internal PictureBox PictureBox3;
+        internal Button Button2;
+        internal Button Button3;
+        internal Button Button4;
+        internal Button Button5;
+        internal Button Button6;
+        internal Button Button9;
+        internal Button Button11;
+        internal Button Button12;
+        internal Button Button13;
+        internal Button Button14;
+        internal Label Label1;
+        internal FlowLayoutPanel FlowLayoutPanel1;
+        internal PictureBox PictureBox4;
+        internal Button Button15;
+        internal Button Button16;
+        internal Button Button17;
+        internal FlowLayoutPanel FlowLayoutPanel2;
+        internal Button Button19;
+        internal Button Button20;
+        internal Button Button21;
+        internal Button Button22;
+        internal Button Button23;
+        internal Button Button24;
+        internal Button Button7;
+        internal Button Button8;
+        internal Button Button18;
+        internal Button Button10;
+        internal Button Button25;
+        internal Button Button26;
+        internal Panel Panel2;
+        internal TrackBar TrackBar1;
+        internal PictureBox PictureBox5;
+        internal PictureBox PictureBox6;
+        internal PictureBox PictureBox7;
+        internal Label Label4;
+        internal Label Label5;
     }
 }
