@@ -1,11 +1,11 @@
 Notes de mises à jours :
 
-Version 7.2 (26/05/2022) :
-- Changement de la version .NET 4.0 => .NET 4.7.2 (fin de vie de la 4.0).
-- Ajout de la possibilité de mettre à jour Vincent OS. Attention ! Peut ne pas fonctionner correctement.
-- Refonte du code de téléchargements des différentes logiciels.
-- Changement de la licence.
-- Changement du logo.
+Version 8 (22/06/2022) :
+- Changement de la langue de programmation ! On passe désormait en C# !
+- Changement de la version .NET 4.0 => .NET 4.8.
+- Changement de l'affichage des applications tendances sur Vincent OS Store.
+- Changement de design du paramètre : Nom utilisateur.
+- Suppression des sons dans le jeu : Labyrinth.
 
 Version 7.1 (25/03/2022) :
 - Création de : ArmaAntiCheat, un Anti Cheat pour le jeu : Labyrinth.

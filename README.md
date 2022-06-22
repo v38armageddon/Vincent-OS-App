@@ -2,8 +2,6 @@
 Ce projet consiste à créer un mini système d'exploitation dans mes temps perdus.
 
 ## Installation
-
-### Installation standard
 Vous pouvez télécharger les fichiers exécutables sans avoir besoin de tout le dossier : "src".
 
 ### Installation développeur
@@ -21,7 +19,7 @@ Pour les processeurs 64 bits : src/Vincent OS/bin/Debug/Vincent OS.exe
 
 ## Informations
 
-Ce projet est un projet Open Source sous la licence : GPL-3.0.
+Ce projet est un projet Open Source sous la licence : GPL-v3.0.
 
 Si au cours de votre utilisation, vous constatez des bugs ou même donner des idées, n'hésitez pas à le dire sur les différentes réseaux sociaux :
 
