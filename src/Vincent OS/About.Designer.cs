@@ -96,9 +96,9 @@ namespace Vincent_OS
             this.Label5.ForeColor = System.Drawing.Color.White;
             this.Label5.Location = new System.Drawing.Point(205, 89);
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(221, 32);
+            this.Label5.Size = new System.Drawing.Size(195, 32);
             this.Label5.TabIndex = 5;
-            this.Label5.Text = "Branche : Officiel";
+            this.Label5.Text = "Branche : Beta";
             // 
             // PictureBox1
             // 
