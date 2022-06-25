@@ -62,19 +62,19 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>6q9Od0GLGO6oR/SKYP0/5DvRf+V8a7oj7ExTSAEVjNc=</dsig:DigestValue>
+        <dsig:DigestValue>HMEz+Dkyj/m7c/BPLGlgaSxqCG9zFekaFcXMTm8eJHg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Vincent OS.exe" size="20533760">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Vincent OS.exe" size="20577280">
       <assemblyIdentity name="Vincent OS" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>PCHQjrBM/WnQDILU9Np0xjpd2AXvUpoWfm9GbSEGq68=</dsig:DigestValue>
+        <dsig:DigestValue>EkR3avDjX5+wqYLEqtITjiEBuHGO26cCkc5cw34IKkE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -87,13 +87,13 @@
       <dsig:DigestValue>xovz7gyhTp1uFjnrm/g3yry8CWwPJP9pnydawLrUQPw=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Vincent OS.exe.config" size="1491">
+  <file name="Vincent OS.exe.config" size="1514">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>PHUzNLOF7oXrQWf5uRQxEKjWEafodmBV7vrd7O0QiUc=</dsig:DigestValue>
+      <dsig:DigestValue>WmDgqojoQTdpBwWVq4QB6BPWIfXNPhOBZaE/0joZ5pw=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">

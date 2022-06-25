@@ -67,14 +67,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Vincent OS.exe" size="20520448">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Vincent OS.exe" size="20563968">
       <assemblyIdentity name="Vincent OS" version="8.0.0.0" language="neutral" processorArchitecture="x86" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>v+bckbxA1AkkhnITQRDSwWUq1ygyErORa9Slie5ibcs=</dsig:DigestValue>
+        <dsig:DigestValue>JFumfFoONQENO0+YSF6Hbk7S6ie4n1J6cBmN6Kn7/Fc=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -87,13 +87,13 @@
       <dsig:DigestValue>xovz7gyhTp1uFjnrm/g3yry8CWwPJP9pnydawLrUQPw=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Vincent OS.exe.config" size="1491">
+  <file name="Vincent OS.exe.config" size="1514">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>PHUzNLOF7oXrQWf5uRQxEKjWEafodmBV7vrd7O0QiUc=</dsig:DigestValue>
+      <dsig:DigestValue>WmDgqojoQTdpBwWVq4QB6BPWIfXNPhOBZaE/0joZ5pw=</dsig:DigestValue>
     </hash>
   </file>
   <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
