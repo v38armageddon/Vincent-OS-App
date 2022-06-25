@@ -1,0 +1,576 @@
+﻿using System;
+using System.Drawing;
+using System.Windows.Forms;
+using Microsoft.VisualBasic.CompilerServices;
+
+namespace Vincent_OS
+{
+    public partial class Custom
+    {
+        public Custom()
+        {
+            InitializeComponent();
+        }
+
+        private void Ecran_Load(object sender, EventArgs e)
+        {
+            if (My.MyProject.Forms.Bureau.Visible == true)
+            {
+                PictureBox1.Image = My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage;
+            }
+            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            {
+                PictureBox1.Image = My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage;
+            }
+        }
+        // ' Fond d'écrans
+        private void Button1_Click_1(object sender, EventArgs e)
+        {
+            OpenFileDialog1.Filter = "Images|*.jpeg;*.jpg;*.png;*.bmp;"; // ' Peut être rajouter d'autres types d'images ?
+            if (OpenFileDialog1.ShowDialog() == DialogResult.OK)
+            {
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage = Image.FromFile(OpenFileDialog1.FileName);
+                    if (Conversions.ToBoolean(Conversions.ToInteger(My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage.Width > 864 & My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage.Height > 420) | My.MyProject.Computer.Screen.Bounds.Width & My.MyProject.Computer.Screen.Bounds.Height))
+                    {
+                        My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
+                    }
+                    else
+                    {
+                        My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Zoom;
+                    }
+                    PictureBox1.Image = My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage;
+                }
+                else if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage = Image.FromFile(OpenFileDialog1.FileName);
+                    if (Conversions.ToBoolean(Conversions.ToInteger(My.MyProject.Forms.Bureau2.FlowLayoutPanel1.Width > 864 & My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage.Height > 420) | My.MyProject.Computer.Screen.Bounds.Width & My.MyProject.Computer.Screen.Bounds.Height))
+                    {
+                        My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
+                    }
+                    else
+                    {
+                        My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Zoom;
+                    }
+                    PictureBox1.Image = My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage;
+                }
+            }
+        }
+
+        private void Button2_Click(object sender, EventArgs e)
+        {
+            if (My.MyProject.Forms.Bureau.Visible == true)
+            {
+                My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage = My.Resources.Resources.login;
+                if (Conversions.ToBoolean(Conversions.ToInteger(My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage.Width > 864 & My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage.Height > 420) | My.MyProject.Computer.Screen.Bounds.Width & My.MyProject.Computer.Screen.Bounds.Height))
+                {
+                    My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
+                }
+                else
+                {
+                    My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Zoom;
+                }
+                PictureBox1.Image = My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage;
+            }
+            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            {
+                My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage = My.Resources.Resources.login;
+                if (Conversions.ToBoolean(Conversions.ToInteger(My.MyProject.Forms.Bureau2.FlowLayoutPanel1.Width > 864 & My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage.Height > 420) | My.MyProject.Computer.Screen.Bounds.Width & My.MyProject.Computer.Screen.Bounds.Height))
+                {
+                    My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
+                }
+                else
+                {
+                    My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Zoom;
+                }
+                PictureBox1.Image = My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage;
+            }
+        }
+
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            if (My.MyProject.Forms.Bureau.Visible == true)
+            {
+                My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage = My.Resources.Resources.superutilisateur;
+                if (Conversions.ToBoolean(Conversions.ToInteger(My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage.Width > 864 & My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage.Height > 420) | My.MyProject.Computer.Screen.Bounds.Width & My.MyProject.Computer.Screen.Bounds.Height))
+                {
+                    My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
+                }
+                else
+                {
+                    My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Zoom;
+                }
+                PictureBox1.Image = My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage;
+            }
+            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            {
+                My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage = My.Resources.Resources.superutilisateur;
+                if (Conversions.ToBoolean(Conversions.ToInteger(My.MyProject.Forms.Bureau2.FlowLayoutPanel1.Width > 864 & My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage.Height > 420) | My.MyProject.Computer.Screen.Bounds.Width & My.MyProject.Computer.Screen.Bounds.Height))
+                {
+                    My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
+                }
+                else
+                {
+                    My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Zoom;
+                }
+                PictureBox1.Image = My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage;
+            }
+        }
+
+        private void Button4_Click(object sender, EventArgs e)
+        {
+            if (My.MyProject.Forms.Bureau.Visible == true)
+            {
+                My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage = My.Resources.Resources.invite;
+                if (Conversions.ToBoolean(Conversions.ToInteger(My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage.Width > 864 & My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage.Height > 420) | My.MyProject.Computer.Screen.Bounds.Width & My.MyProject.Computer.Screen.Bounds.Height))
+                {
+                    My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
+                }
+                else
+                {
+                    My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Zoom;
+                }
+                PictureBox1.Image = My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage;
+            }
+            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            {
+                My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage = My.Resources.Resources.invite;
+                if (Conversions.ToBoolean(Conversions.ToInteger(My.MyProject.Forms.Bureau2.FlowLayoutPanel1.Width > 864 & My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage.Height > 420) | My.MyProject.Computer.Screen.Bounds.Width & My.MyProject.Computer.Screen.Bounds.Height))
+                {
+                    My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
+                }
+                else
+                {
+                    My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Zoom;
+                }
+                PictureBox1.Image = My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage;
+            }
+        }
+        // ' Icônes
+        private void CheckBox1_CheckedChanged_1(object sender, EventArgs e)
+        {
+            if (CheckBox1.Checked == true)
+            {
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau.Button2.Visible = true;
+                }
+                if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau2.Button2.Visible = true;
+                }
+            }
+            else if (CheckBox1.Checked == false)
+            {
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau.Button2.Visible = false;
+                }
+                if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau2.Button2.Visible = false;
+                }
+            }
+        }
+
+        private void CheckBox5_CheckedChanged(object sender, EventArgs e)
+        {
+            if (CheckBox5.Checked == true)
+            {
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau.Button14.Visible = true;
+                }
+                if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau2.Button14.Visible = true;
+                }
+            }
+            else if (CheckBox5.Checked == false)
+            {
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau.Button14.Visible = false;
+                }
+                if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau2.Button14.Visible = false;
+                }
+            }
+        }
+
+        private void CheckBox9_CheckedChanged(object sender, EventArgs e)
+        {
+            if (CheckBox9.Checked == true)
+            {
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau.Button7.Visible = true;
+                }
+                if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau2.Button11.Visible = true;
+                }
+            }
+            else if (CheckBox9.Checked == false)
+            {
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau.Button7.Visible = false;
+                }
+                if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau2.Button11.Visible = false;
+                }
+            }
+        }
+
+        private void CheckBox2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (CheckBox2.Checked == true)
+            {
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau.Button6.Visible = true;
+                }
+                if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau2.Button6.Visible = true;
+                }
+            }
+            else if (CheckBox2.Checked == false)
+            {
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau.Button6.Visible = false;
+                }
+                if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau2.Button6.Visible = false;
+                }
+            }
+        }
+
+        private void CheckBox6_CheckedChanged(object sender, EventArgs e)
+        {
+            if (CheckBox6.Checked == true)
+            {
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau.Button5.Visible = true;
+                }
+                if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau2.Button5.Visible = true;
+                }
+            }
+            else if (CheckBox6.Checked == false)
+            {
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau.Button5.Visible = false;
+                }
+                if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau2.Button5.Visible = false;
+                }
+            }
+        }
+
+        private void CheckBox10_CheckedChanged(object sender, EventArgs e)
+        {
+            if (CheckBox10.Checked == true)
+            {
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau.Button10.Visible = true;
+                }
+                if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau2.Button10.Visible = true;
+                }
+            }
+            else if (CheckBox10.Checked == false)
+            {
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau.Button10.Visible = false;
+                }
+                if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau2.Button10.Visible = false;
+                }
+            }
+        }
+
+        private void CheckBox3_CheckedChanged(object sender, EventArgs e)
+        {
+            if (CheckBox3.Checked == true)
+            {
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau.Button3.Visible = true;
+                }
+                if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau2.Button3.Visible = true;
+                }
+            }
+            else if (CheckBox3.Checked == false)
+            {
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau.Button3.Visible = false;
+                }
+                if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau2.Button3.Visible = false;
+                }
+            }
+        }
+
+        private void CheckBox7_CheckedChanged(object sender, EventArgs e)
+        {
+            if (CheckBox7.Checked == true)
+            {
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau.Button11.Visible = true;
+                }
+                if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau2.Button9.Visible = true;
+                }
+            }
+            else if (CheckBox7.Checked == false)
+            {
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau.Button11.Visible = false;
+                }
+                if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau2.Button9.Visible = false;
+                }
+            }
+        }
+
+        private void CheckBox11_CheckedChanged(object sender, EventArgs e)
+        {
+            if (CheckBox11.Checked == true)
+            {
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau.Button25.Visible = true;
+                }
+                if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau2.Button25.Visible = true;
+                }
+            }
+            else if (CheckBox11.Checked == false)
+            {
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau.Button25.Visible = false;
+                }
+                if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau2.Button25.Visible = false;
+                }
+            }
+        }
+
+        private void CheckBox4_CheckedChanged(object sender, EventArgs e)
+        {
+            if (CheckBox4.Checked == true)
+            {
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau.Button4.Visible = true;
+                }
+                if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau2.Button4.Visible = true;
+                }
+            }
+            else if (CheckBox4.Checked == false)
+            {
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau.Button4.Visible = false;
+                }
+                if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau2.Button4.Visible = false;
+                }
+            }
+        }
+
+        private void CheckBox8_CheckedChanged(object sender, EventArgs e)
+        {
+            if (CheckBox8.Checked == true)
+            {
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau.Button13.Visible = true;
+                }
+                if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau2.Button13.Visible = true;
+                }
+            }
+            else if (CheckBox8.Checked == false)
+            {
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau.Button13.Visible = false;
+                }
+                if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    My.MyProject.Forms.Bureau2.Button13.Visible = false;
+                }
+            }
+        }
+        // ' Résolution
+        private void RadioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (RadioButton1.Checked == true)
+            {
+                // ' Essayer de regrouper Bureau et Bureau2 pour une optimisation du code ?
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    // ' On change de mode de forme de la fenêtre
+                    My.MyProject.Forms.Bureau.FormBorderStyle = FormBorderStyle.FixedSingle;
+                    My.MyProject.Forms.Démarrage.FormBorderStyle = FormBorderStyle.FixedSingle;
+                    My.MyProject.Forms.Arrêt.FormBorderStyle = FormBorderStyle.FixedSingle;
+                    My.MyProject.Forms.Login.FormBorderStyle = FormBorderStyle.FixedSingle;
+                    My.MyProject.Forms.Login2bureau.FormBorderStyle = FormBorderStyle.FixedSingle;
+                    // ' On met une nouvelle localisation
+                    My.MyProject.Forms.Bureau.Location = new Point(480, 300);
+                    My.MyProject.Forms.Login.Location = new Point(480, 300);
+                    My.MyProject.Forms.Login2bureau.Location = new Point(480, 300);
+                    // ' On met la position au milieu de l'écran
+                    // ' Bien qu'à revérifier si cela peut fonctionner sans ou non
+                    My.MyProject.Forms.Bureau.StartPosition = FormStartPosition.CenterScreen;
+                    My.MyProject.Forms.Démarrage.StartPosition = FormStartPosition.CenterScreen;
+                    My.MyProject.Forms.Login.StartPosition = FormStartPosition.CenterScreen;
+                    My.MyProject.Forms.Arrêt.StartPosition = FormStartPosition.CenterScreen;
+                    My.MyProject.Forms.Login2bureau.StartPosition = FormStartPosition.CenterScreen;
+                    // ' On change la taille
+                    My.MyProject.Forms.Bureau.Width = 854;
+                    My.MyProject.Forms.Bureau.Height = 480;
+                    My.MyProject.Forms.Arrêt.Width = 854;
+                    My.MyProject.Forms.Arrêt.Height = 480;
+                    My.MyProject.Forms.Démarrage.Width = 854;
+                    My.MyProject.Forms.Démarrage.Height = 480;
+                    My.MyProject.Forms.Login.Width = 854;
+                    My.MyProject.Forms.Login.Height = 480;
+                    My.MyProject.Forms.Login2bureau.Width = 854;
+                    My.MyProject.Forms.Login2bureau.Height = 480;
+                }
+                if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    // ' On change de mode de forme de la fenêtre
+                    My.MyProject.Forms.Bureau2.FormBorderStyle = FormBorderStyle.FixedSingle;
+                    My.MyProject.Forms.Démarrage.FormBorderStyle = FormBorderStyle.FixedSingle;
+                    My.MyProject.Forms.Arrêt.FormBorderStyle = FormBorderStyle.FixedSingle;
+                    My.MyProject.Forms.Login.FormBorderStyle = FormBorderStyle.FixedSingle;
+                    My.MyProject.Forms.Login2bureau2.FormBorderStyle = FormBorderStyle.FixedSingle;
+                    // ' On met une nouvelle localisation
+                    My.MyProject.Forms.Bureau2.Location = new Point(480, 300);
+                    My.MyProject.Forms.Login.Location = new Point(480, 300);
+                    My.MyProject.Forms.Login2bureau2.Location = new Point(480, 300);
+                    // ' On met la position au milieu de l'écran
+                    // ' Bien qu'à revérifier si cela peut fonctionner sans ou non
+                    My.MyProject.Forms.Bureau2.StartPosition = FormStartPosition.CenterScreen;
+                    My.MyProject.Forms.Démarrage.StartPosition = FormStartPosition.CenterScreen;
+                    My.MyProject.Forms.Login.StartPosition = FormStartPosition.CenterScreen;
+                    My.MyProject.Forms.Arrêt.StartPosition = FormStartPosition.CenterScreen;
+                    My.MyProject.Forms.Login2bureau2.StartPosition = FormStartPosition.CenterScreen;
+                    // ' On change la taille
+                    My.MyProject.Forms.Bureau2.Width = 854;
+                    My.MyProject.Forms.Bureau2.Height = 480;
+                    My.MyProject.Forms.Arrêt.Width = 854;
+                    My.MyProject.Forms.Arrêt.Height = 480;
+                    My.MyProject.Forms.Démarrage.Width = 854;
+                    My.MyProject.Forms.Démarrage.Height = 480;
+                    My.MyProject.Forms.Login.Width = 854;
+                    My.MyProject.Forms.Login.Height = 480;
+                    My.MyProject.Forms.Login2bureau2.Width = 854;
+                    My.MyProject.Forms.Login2bureau2.Height = 480;
+                }
+            }
+        }
+
+        private void RadioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            if (RadioButton2.Checked == true)
+            {
+                // ' Essayer de regrouper Bureau et Bureau2 pour une optimisation du code ?
+                if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    // ' On change de mode de forme de la fenêtre
+                    My.MyProject.Forms.Bureau.FormBorderStyle = FormBorderStyle.None;
+                    My.MyProject.Forms.Démarrage.FormBorderStyle = FormBorderStyle.None;
+                    My.MyProject.Forms.Arrêt.FormBorderStyle = FormBorderStyle.None;
+                    My.MyProject.Forms.Login.FormBorderStyle = FormBorderStyle.None;
+                    My.MyProject.Forms.Login2bureau.FormBorderStyle = FormBorderStyle.None;
+                    My.MyProject.Forms.Bureau.Location = new Point(0, 0);
+                    My.MyProject.Forms.Login.Location = new Point(0, 0);
+                    My.MyProject.Forms.Login2bureau.Location = new Point(0, 0);
+                    My.MyProject.Forms.Bureau.StartPosition = FormStartPosition.Manual;
+                    My.MyProject.Forms.Démarrage.StartPosition = FormStartPosition.Manual;
+                    My.MyProject.Forms.Login.StartPosition = FormStartPosition.Manual;
+                    My.MyProject.Forms.Arrêt.StartPosition = FormStartPosition.Manual;
+                    My.MyProject.Forms.Login2bureau.StartPosition = FormStartPosition.Manual;
+                    // ' On change la taille en fonction de la taille de l'écran de l'utilisateur
+                    My.MyProject.Forms.Bureau.Width = My.MyProject.Computer.Screen.Bounds.Width;
+                    My.MyProject.Forms.Bureau.Height = My.MyProject.Computer.Screen.Bounds.Height;
+                    My.MyProject.Forms.Arrêt.Width = My.MyProject.Computer.Screen.Bounds.Width;
+                    My.MyProject.Forms.Arrêt.Height = My.MyProject.Computer.Screen.Bounds.Height;
+                    My.MyProject.Forms.Démarrage.Width = My.MyProject.Computer.Screen.Bounds.Width;
+                    My.MyProject.Forms.Démarrage.Height = My.MyProject.Computer.Screen.Bounds.Height;
+                    My.MyProject.Forms.Login.Width = My.MyProject.Computer.Screen.Bounds.Width;
+                    My.MyProject.Forms.Login.Height = My.MyProject.Computer.Screen.Bounds.Height;
+                    My.MyProject.Forms.Login2bureau.Width = My.MyProject.Computer.Screen.Bounds.Width;
+                    My.MyProject.Forms.Login2bureau.Height = My.MyProject.Computer.Screen.Bounds.Height;
+                }
+                if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    // ' On change de mode de forme de la fenêtre
+                    My.MyProject.Forms.Bureau2.FormBorderStyle = FormBorderStyle.None;
+                    My.MyProject.Forms.Démarrage.FormBorderStyle = FormBorderStyle.None;
+                    My.MyProject.Forms.Arrêt.FormBorderStyle = FormBorderStyle.None;
+                    My.MyProject.Forms.Login.FormBorderStyle = FormBorderStyle.None;
+                    My.MyProject.Forms.Login2bureau2.FormBorderStyle = FormBorderStyle.None;
+                    // ' On met une nouvelle localisation
+                    My.MyProject.Forms.Bureau2.Location = new Point(0, 0);
+                    My.MyProject.Forms.Login.Location = new Point(0, 0);
+                    My.MyProject.Forms.Login2bureau2.Location = new Point(0, 0);
+                    // ' On met la position au milieu de l'écran
+                    // ' Bien qu'à revérifier si cela peut fonctionner sans ou non
+                    My.MyProject.Forms.Bureau2.StartPosition = FormStartPosition.Manual;
+                    My.MyProject.Forms.Démarrage.StartPosition = FormStartPosition.Manual;
+                    My.MyProject.Forms.Login.StartPosition = FormStartPosition.Manual;
+                    My.MyProject.Forms.Arrêt.StartPosition = FormStartPosition.Manual;
+                    My.MyProject.Forms.Login2bureau2.StartPosition = FormStartPosition.Manual;
+                    // ' On change la taille en fonction de la taille de l'écran de l'utilisateur
+                    My.MyProject.Forms.Bureau2.Width = My.MyProject.Computer.Screen.Bounds.Width;
+                    My.MyProject.Forms.Bureau2.Height = My.MyProject.Computer.Screen.Bounds.Height;
+                    My.MyProject.Forms.Arrêt.Width = My.MyProject.Computer.Screen.Bounds.Width;
+                    My.MyProject.Forms.Arrêt.Height = My.MyProject.Computer.Screen.Bounds.Height;
+                    My.MyProject.Forms.Démarrage.Width = My.MyProject.Computer.Screen.Bounds.Width;
+                    My.MyProject.Forms.Démarrage.Height = My.MyProject.Computer.Screen.Bounds.Height;
+                    My.MyProject.Forms.Login.Width = My.MyProject.Computer.Screen.Bounds.Width;
+                    My.MyProject.Forms.Login.Height = My.MyProject.Computer.Screen.Bounds.Height;
+                    My.MyProject.Forms.Login2bureau.Width = My.MyProject.Computer.Screen.Bounds.Width;
+                    My.MyProject.Forms.Login2bureau.Height = My.MyProject.Computer.Screen.Bounds.Height;
+                    My.MyProject.Forms.Login2bureau2.Width = My.MyProject.Computer.Screen.Bounds.Width;
+                    My.MyProject.Forms.Login2bureau2.Height = My.MyProject.Computer.Screen.Bounds.Height;
+                }
+            }
+        }
+    }
+}
