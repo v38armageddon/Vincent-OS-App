@@ -24,7 +24,7 @@ namespace Vincent_OS
             My.MyProject.Forms.Démarrage.Show();
             if (My.MyProject.Forms.Démarrage.Visible == true)
             {
-                // ' On change de mode de forme de la fenêtre
+                // On change de mode de forme de la fenêtre
                 My.MyProject.Forms.Démarrage.FormBorderStyle = FormBorderStyle.None;
                 My.MyProject.Forms.Arrêt.FormBorderStyle = FormBorderStyle.None;
                 My.MyProject.Forms.Login.FormBorderStyle = FormBorderStyle.None;
@@ -32,7 +32,7 @@ namespace Vincent_OS
                 My.MyProject.Forms.Login2bureau2.FormBorderStyle = FormBorderStyle.None;
                 My.MyProject.Forms.Bureau.FormBorderStyle = FormBorderStyle.None;
                 My.MyProject.Forms.Bureau2.FormBorderStyle = FormBorderStyle.None;
-                // ' On met une nouvelle localisation
+                // On met une nouvelle localisation
                 My.MyProject.Forms.Bureau.Width = My.MyProject.Computer.Screen.Bounds.Width;
                 My.MyProject.Forms.Bureau.Height = My.MyProject.Computer.Screen.Bounds.Height;
                 My.MyProject.Forms.Bureau2.Width = My.MyProject.Computer.Screen.Bounds.Width;

@@ -6,7 +6,7 @@ namespace Vincent_OS
 {
     public partial class Calc
     {
-        // 'Interface à Retravailler
+        // Interface à Retravailler
         private decimal Firstnum;
         private decimal Secondnum;
         private int Operation;
@@ -157,7 +157,8 @@ namespace Vincent_OS
         {
             TextBox1.Text = "0";
         }
-        // ' Système opération
+
+        // Système opération
         private void Button13_Click(object sender, EventArgs e)
         {
             Firstnum = Conversions.ToDecimal(TextBox1.Text);

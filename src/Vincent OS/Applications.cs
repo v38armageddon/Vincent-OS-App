@@ -99,7 +99,7 @@ namespace Vincent_OS
             }
             else if ((object)false is Exception)
             {
-                // ' /!\ Bien regarder si des changements de versions ont lieu pour mettre à jour la localisation du fichier ! /!\
+                // /!\ Bien regarder si des changements de versions ont lieu pour mettre à jour la localisation du fichier ! /!\
                 Process.Start(@"C:\Users\%Username%\AppData\Local\Discord\app-1.0.9005\Discord.exe");
             }
         }

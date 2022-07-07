@@ -23,10 +23,10 @@ namespace Vincent_OS
                 PictureBox1.Image = My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage;
             }
         }
-        // ' Fond d'écrans
+        // Fond d'écrans
         private void Button1_Click_1(object sender, EventArgs e)
         {
-            OpenFileDialog1.Filter = "Images|*.jpeg;*.jpg;*.png;*.bmp;"; // ' Peut être rajouter d'autres types d'images ?
+            OpenFileDialog1.Filter = "Images|*.jpeg;*.jpg;*.png;*.bmp;"; // Peut être rajouter d'autres types d'images ?
             if (OpenFileDialog1.ShowDialog() == DialogResult.OK)
             {
                 if (My.MyProject.Forms.Bureau.Visible == true)
@@ -147,7 +147,7 @@ namespace Vincent_OS
                 PictureBox1.Image = My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage;
             }
         }
-        // ' Icônes
+        // Icônes
         private void CheckBox1_CheckedChanged_1(object sender, EventArgs e)
         {
             if (CheckBox1.Checked == true)
@@ -433,32 +433,32 @@ namespace Vincent_OS
                 }
             }
         }
-        // ' Résolution
+        // Résolution
         private void RadioButton1_CheckedChanged(object sender, EventArgs e)
         {
             if (RadioButton1.Checked == true)
             {
-                // ' Essayer de regrouper Bureau et Bureau2 pour une optimisation du code ?
+                // Essayer de regrouper Bureau et Bureau2 pour une optimisation du code ?
                 if (My.MyProject.Forms.Bureau.Visible == true)
                 {
-                    // ' On change de mode de forme de la fenêtre
+                    // On change de mode de forme de la fenêtre
                     My.MyProject.Forms.Bureau.FormBorderStyle = FormBorderStyle.FixedSingle;
                     My.MyProject.Forms.Démarrage.FormBorderStyle = FormBorderStyle.FixedSingle;
                     My.MyProject.Forms.Arrêt.FormBorderStyle = FormBorderStyle.FixedSingle;
                     My.MyProject.Forms.Login.FormBorderStyle = FormBorderStyle.FixedSingle;
                     My.MyProject.Forms.Login2bureau.FormBorderStyle = FormBorderStyle.FixedSingle;
-                    // ' On met une nouvelle localisation
+                    // On met une nouvelle localisation
                     My.MyProject.Forms.Bureau.Location = new Point(480, 300);
                     My.MyProject.Forms.Login.Location = new Point(480, 300);
                     My.MyProject.Forms.Login2bureau.Location = new Point(480, 300);
-                    // ' On met la position au milieu de l'écran
-                    // ' Bien qu'à revérifier si cela peut fonctionner sans ou non
+                    // On met la position au milieu de l'écran
+                    // Bien qu'à revérifier si cela peut fonctionner sans ou non
                     My.MyProject.Forms.Bureau.StartPosition = FormStartPosition.CenterScreen;
                     My.MyProject.Forms.Démarrage.StartPosition = FormStartPosition.CenterScreen;
                     My.MyProject.Forms.Login.StartPosition = FormStartPosition.CenterScreen;
                     My.MyProject.Forms.Arrêt.StartPosition = FormStartPosition.CenterScreen;
                     My.MyProject.Forms.Login2bureau.StartPosition = FormStartPosition.CenterScreen;
-                    // ' On change la taille
+                    // On change la taille
                     My.MyProject.Forms.Bureau.Width = 854;
                     My.MyProject.Forms.Bureau.Height = 480;
                     My.MyProject.Forms.Arrêt.Width = 854;
@@ -472,24 +472,24 @@ namespace Vincent_OS
                 }
                 if (My.MyProject.Forms.Bureau2.Visible == true)
                 {
-                    // ' On change de mode de forme de la fenêtre
+                    // On change de mode de forme de la fenêtre
                     My.MyProject.Forms.Bureau2.FormBorderStyle = FormBorderStyle.FixedSingle;
                     My.MyProject.Forms.Démarrage.FormBorderStyle = FormBorderStyle.FixedSingle;
                     My.MyProject.Forms.Arrêt.FormBorderStyle = FormBorderStyle.FixedSingle;
                     My.MyProject.Forms.Login.FormBorderStyle = FormBorderStyle.FixedSingle;
                     My.MyProject.Forms.Login2bureau2.FormBorderStyle = FormBorderStyle.FixedSingle;
-                    // ' On met une nouvelle localisation
+                    // On met une nouvelle localisation
                     My.MyProject.Forms.Bureau2.Location = new Point(480, 300);
                     My.MyProject.Forms.Login.Location = new Point(480, 300);
                     My.MyProject.Forms.Login2bureau2.Location = new Point(480, 300);
-                    // ' On met la position au milieu de l'écran
-                    // ' Bien qu'à revérifier si cela peut fonctionner sans ou non
+                    // On met la position au milieu de l'écran
+                    // Bien qu'à revérifier si cela peut fonctionner sans ou non
                     My.MyProject.Forms.Bureau2.StartPosition = FormStartPosition.CenterScreen;
                     My.MyProject.Forms.Démarrage.StartPosition = FormStartPosition.CenterScreen;
                     My.MyProject.Forms.Login.StartPosition = FormStartPosition.CenterScreen;
                     My.MyProject.Forms.Arrêt.StartPosition = FormStartPosition.CenterScreen;
                     My.MyProject.Forms.Login2bureau2.StartPosition = FormStartPosition.CenterScreen;
-                    // ' On change la taille
+                    // On change la taille
                     My.MyProject.Forms.Bureau2.Width = 854;
                     My.MyProject.Forms.Bureau2.Height = 480;
                     My.MyProject.Forms.Arrêt.Width = 854;
@@ -508,10 +508,10 @@ namespace Vincent_OS
         {
             if (RadioButton2.Checked == true)
             {
-                // ' Essayer de regrouper Bureau et Bureau2 pour une optimisation du code ?
+                // Essayer de regrouper Bureau et Bureau2 pour une optimisation du code ?
                 if (My.MyProject.Forms.Bureau.Visible == true)
                 {
-                    // ' On change de mode de forme de la fenêtre
+                    // On change de mode de forme de la fenêtre
                     My.MyProject.Forms.Bureau.FormBorderStyle = FormBorderStyle.None;
                     My.MyProject.Forms.Démarrage.FormBorderStyle = FormBorderStyle.None;
                     My.MyProject.Forms.Arrêt.FormBorderStyle = FormBorderStyle.None;
@@ -525,7 +525,7 @@ namespace Vincent_OS
                     My.MyProject.Forms.Login.StartPosition = FormStartPosition.Manual;
                     My.MyProject.Forms.Arrêt.StartPosition = FormStartPosition.Manual;
                     My.MyProject.Forms.Login2bureau.StartPosition = FormStartPosition.Manual;
-                    // ' On change la taille en fonction de la taille de l'écran de l'utilisateur
+                    // On change la taille en fonction de la taille de l'écran de l'utilisateur
                     My.MyProject.Forms.Bureau.Width = My.MyProject.Computer.Screen.Bounds.Width;
                     My.MyProject.Forms.Bureau.Height = My.MyProject.Computer.Screen.Bounds.Height;
                     My.MyProject.Forms.Arrêt.Width = My.MyProject.Computer.Screen.Bounds.Width;
@@ -539,24 +539,24 @@ namespace Vincent_OS
                 }
                 if (My.MyProject.Forms.Bureau2.Visible == true)
                 {
-                    // ' On change de mode de forme de la fenêtre
+                    // On change de mode de forme de la fenêtre
                     My.MyProject.Forms.Bureau2.FormBorderStyle = FormBorderStyle.None;
                     My.MyProject.Forms.Démarrage.FormBorderStyle = FormBorderStyle.None;
                     My.MyProject.Forms.Arrêt.FormBorderStyle = FormBorderStyle.None;
                     My.MyProject.Forms.Login.FormBorderStyle = FormBorderStyle.None;
                     My.MyProject.Forms.Login2bureau2.FormBorderStyle = FormBorderStyle.None;
-                    // ' On met une nouvelle localisation
+                    // On met une nouvelle localisation
                     My.MyProject.Forms.Bureau2.Location = new Point(0, 0);
                     My.MyProject.Forms.Login.Location = new Point(0, 0);
                     My.MyProject.Forms.Login2bureau2.Location = new Point(0, 0);
-                    // ' On met la position au milieu de l'écran
-                    // ' Bien qu'à revérifier si cela peut fonctionner sans ou non
+                    // On met la position au milieu de l'écran
+                    // Bien qu'à revérifier si cela peut fonctionner sans ou non
                     My.MyProject.Forms.Bureau2.StartPosition = FormStartPosition.Manual;
                     My.MyProject.Forms.Démarrage.StartPosition = FormStartPosition.Manual;
                     My.MyProject.Forms.Login.StartPosition = FormStartPosition.Manual;
                     My.MyProject.Forms.Arrêt.StartPosition = FormStartPosition.Manual;
                     My.MyProject.Forms.Login2bureau2.StartPosition = FormStartPosition.Manual;
-                    // ' On change la taille en fonction de la taille de l'écran de l'utilisateur
+                    // On change la taille en fonction de la taille de l'écran de l'utilisateur
                     My.MyProject.Forms.Bureau2.Width = My.MyProject.Computer.Screen.Bounds.Width;
                     My.MyProject.Forms.Bureau2.Height = My.MyProject.Computer.Screen.Bounds.Height;
                     My.MyProject.Forms.Arrêt.Width = My.MyProject.Computer.Screen.Bounds.Width;

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Runtime.InteropServices;
 using Microsoft.VisualBasic;
 using Microsoft.VisualBasic.CompilerServices;
 
@@ -6,6 +7,7 @@ namespace Vincent_OS
 {
     public partial class Bureau2
     {
+
         public Bureau2()
         {
             InitializeComponent();
@@ -147,7 +149,7 @@ namespace Vincent_OS
             }
         }
 
-        // ' Cette partie permet quand la fenêtre est trop caché par le bureau, qu'on puisse la récupérer via un bouton sans faire alt+tab
+        // Cette partie permet quand la fenêtre est trop caché par le bureau, qu'on puisse la récupérer via un bouton sans faire alt+tab
         private void Button15_Click(object sender, EventArgs e)
         {
             My.MyProject.Forms.Bing_Chrome.BringToFront();
@@ -218,10 +220,6 @@ namespace Vincent_OS
             {
                 Panel1.Visible = false;
             }
-            if (Panel3.Visible == true)
-            {
-                Panel3.Visible = false;
-            }
         }
 
         private void Label1_Click(object sender, EventArgs e)
@@ -238,22 +236,6 @@ namespace Vincent_OS
             My.MyProject.Forms.UAC.Show();
         }
 
-        private void TrackBar1_Scroll(object sender, EventArgs e)
-        {
-            // En dev
-        }
-
-        private void PictureBox4_Click(object sender, EventArgs e)
-        {
-            if (Panel3.Visible == false)
-            {
-                Panel3.Visible = true;
-            }
-            else if (Panel3.Visible == true)
-            {
-                Panel3.Visible = false;
-            }
-        }
         private void PictureBox5_MouseHover(object sender, EventArgs e)
         {
             Label4.Visible = true;

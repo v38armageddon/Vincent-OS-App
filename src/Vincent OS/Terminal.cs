@@ -25,13 +25,13 @@ namespace Vincent_OS
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            // ' Création d'un Private Sub pour mieux se retrouver
+            // Création d'un Private Sub pour mieux se retrouver
             commande();
         }
 
         private void TextBox1_KeyPress(object sender, KeyPressEventArgs e)
         {
-            // ' Faire en sorte que la touche Entrée puisse marcher
+            // Faire en sorte que la touche Entrée puisse marcher
             if (e.KeyChar == Convert.ToChar((int)Keys.Enter))
             {
                 commande();
@@ -54,8 +54,8 @@ namespace Vincent_OS
         {
             if (TextBox1.Text == "ver")
             {
-                // 'ATTENTION A BIEN CHANGER LA VERSION CAR JE VAIS SUREMENT OUBLIER A LA PROCHAINE VERSION !!!!!!!!!!!
-                RichTextBox1.Text = "Nom du système d'exploitation : Vincent OS\nVersion : 8\nBranche : Officiel";
+                // ATTENTION A BIEN CHANGER LA VERSION CAR JE VAIS SUREMENT OUBLIER A LA PROCHAINE VERSION !!!!!!!!!!!
+                RichTextBox1.Text = "Nom du système d'exploitation : Vincent OS\nVersion : 8.1\nBranche : Officiel";
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "help")
@@ -119,7 +119,7 @@ namespace Vincent_OS
                 My.MyProject.Forms.Visio.Show();
                 TextBox1.Text = "";
             }
-            // ' Applications disponible sur le store
+            // Applications disponible sur le store
             else if (TextBox1.Text == "Chrono")
             {
                 if (My.MyProject.Forms.Applications.Button11.Visible == true)
@@ -132,7 +132,7 @@ namespace Vincent_OS
                 }
                 TextBox1.Text = "";
             }
-            // 'Ici commence les commandes de Debug, à utiliser avec précaution !
+            // Ici commence les commandes de Debug, à utiliser avec précaution !
 
             else if (TextBox1.Text == "Debug_Options")
             {

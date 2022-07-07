@@ -122,7 +122,7 @@ namespace Vincent_OS
             }
         }
 
-        // ' Permet de savoir le nom de l'utilisateur pour accéder à ses fichiers personnels
+        // Permet de savoir le nom de l'utilisateur pour accéder à ses fichiers personnels
         public string GetUserName()
         {
             if (My.MyProject.User.CurrentPrincipal is System.Security.Principal.WindowsPrincipal)

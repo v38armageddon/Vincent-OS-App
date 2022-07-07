@@ -34,8 +34,8 @@ namespace Vincent_OS
 
         private void Button4_Click(object sender, EventArgs e)
         {
-            // 'Si aucun jeu n'est détecté, commenter
-            // 'Store.Show()
+            // Si aucun jeu n'est détecté, commenter
+            // Store.Show()
             var errorsound = new System.Media.SoundPlayer(My.Resources.Resources.errorSound);
             errorsound.Play();
             MessageBox.Show("ERREUR : Aucun jeu supplémentaire n'as été détecté sur le Store.", "ERREUR", MessageBoxButtons.OK, MessageBoxIcon.Error);
