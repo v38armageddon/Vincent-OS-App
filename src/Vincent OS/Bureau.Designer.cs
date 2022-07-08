@@ -75,9 +75,6 @@ namespace Vincent_OS
             this.Button7 = new System.Windows.Forms.Button();
             this.Button10 = new System.Windows.Forms.Button();
             this.Button25 = new System.Windows.Forms.Button();
-            this.Panel2 = new System.Windows.Forms.Panel();
-            this.TrackBar1 = new System.Windows.Forms.TrackBar();
-            this.PictureBox5 = new System.Windows.Forms.PictureBox();
             this.PictureBox6 = new System.Windows.Forms.PictureBox();
             this.PictureBox7 = new System.Windows.Forms.PictureBox();
             this.Label4 = new System.Windows.Forms.Label();
@@ -89,9 +86,6 @@ namespace Vincent_OS
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
             this.FlowLayoutPanel1.SuspendLayout();
-            this.Panel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.TrackBar1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox6)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox7)).BeginInit();
             this.SuspendLayout();
@@ -215,7 +209,7 @@ namespace Vincent_OS
             this.FlowLayoutPanel2.Controls.Add(this.Button26);
             this.FlowLayoutPanel2.Location = new System.Drawing.Point(34, 425);
             this.FlowLayoutPanel2.Name = "FlowLayoutPanel2";
-            this.FlowLayoutPanel2.Size = new System.Drawing.Size(746, 26);
+            this.FlowLayoutPanel2.Size = new System.Drawing.Size(780, 26);
             this.FlowLayoutPanel2.TabIndex = 27;
             // 
             // Button15
@@ -590,45 +584,12 @@ namespace Vincent_OS
             this.Button25.Visible = false;
             this.Button25.Click += new System.EventHandler(this.Button25_Click);
             // 
-            // Panel2
-            // 
-            this.Panel2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.Panel2.BackColor = System.Drawing.Color.Gray;
-            this.Panel2.Controls.Add(this.TrackBar1);
-            this.Panel2.Location = new System.Drawing.Point(736, 386);
-            this.Panel2.Name = "Panel2";
-            this.Panel2.Size = new System.Drawing.Size(112, 33);
-            this.Panel2.TabIndex = 25;
-            this.Panel2.Visible = false;
-            // 
-            // TrackBar1
-            // 
-            this.TrackBar1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.TrackBar1.Location = new System.Drawing.Point(0, 0);
-            this.TrackBar1.Name = "TrackBar1";
-            this.TrackBar1.Size = new System.Drawing.Size(112, 45);
-            this.TrackBar1.TabIndex = 0;
-            this.TrackBar1.Scroll += new System.EventHandler(this.TrackBar1_Scroll);
-            // 
-            // PictureBox5
-            // 
-            this.PictureBox5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.PictureBox5.BackColor = System.Drawing.Color.Gray;
-            this.PictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox5.Image")));
-            this.PictureBox5.Location = new System.Drawing.Point(820, 426);
-            this.PictureBox5.Name = "PictureBox5";
-            this.PictureBox5.Size = new System.Drawing.Size(28, 25);
-            this.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PictureBox5.TabIndex = 25;
-            this.PictureBox5.TabStop = false;
-            this.PictureBox5.Click += new System.EventHandler(this.PictureBox5_Click);
-            // 
             // PictureBox6
             // 
             this.PictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PictureBox6.BackColor = System.Drawing.Color.Gray;
             this.PictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox6.Image")));
-            this.PictureBox6.Location = new System.Drawing.Point(786, 425);
+            this.PictureBox6.Location = new System.Drawing.Point(820, 426);
             this.PictureBox6.Name = "PictureBox6";
             this.PictureBox6.Size = new System.Drawing.Size(28, 25);
             this.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -643,7 +604,7 @@ namespace Vincent_OS
             this.PictureBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.PictureBox7.BackColor = System.Drawing.Color.Gray;
             this.PictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox7.Image")));
-            this.PictureBox7.Location = new System.Drawing.Point(786, 425);
+            this.PictureBox7.Location = new System.Drawing.Point(820, 426);
             this.PictureBox7.Name = "PictureBox7";
             this.PictureBox7.Size = new System.Drawing.Size(28, 25);
             this.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -658,7 +619,7 @@ namespace Vincent_OS
             this.Label4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.Label4.AutoSize = true;
             this.Label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
-            this.Label4.Location = new System.Drawing.Point(660, 410);
+            this.Label4.Location = new System.Drawing.Point(690, 410);
             this.Label4.Name = "Label4";
             this.Label4.Size = new System.Drawing.Size(153, 13);
             this.Label4.TabIndex = 25;
@@ -687,10 +648,7 @@ namespace Vincent_OS
             this.ControlBox = false;
             this.Controls.Add(this.Label5);
             this.Controls.Add(this.Label4);
-            this.Controls.Add(this.PictureBox7);
             this.Controls.Add(this.PictureBox6);
-            this.Controls.Add(this.PictureBox5);
-            this.Controls.Add(this.Panel2);
             this.Controls.Add(this.FlowLayoutPanel2);
             this.Controls.Add(this.Button12);
             this.Controls.Add(this.PictureBox4);
@@ -698,6 +656,7 @@ namespace Vincent_OS
             this.Controls.Add(this.Label1);
             this.Controls.Add(this.Panel1);
             this.Controls.Add(this.Label2);
+            this.Controls.Add(this.PictureBox7);
             this.Controls.Add(this.PictureBox2);
             this.Controls.Add(this.PictureBox1);
             this.Controls.Add(this.FlowLayoutPanel1);
@@ -717,10 +676,6 @@ namespace Vincent_OS
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
             this.FlowLayoutPanel1.ResumeLayout(false);
-            this.Panel2.ResumeLayout(false);
-            this.Panel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.TrackBar1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox6)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox7)).EndInit();
             this.ResumeLayout(false);
@@ -765,9 +720,6 @@ namespace Vincent_OS
         internal Button Button10;
         internal Button Button25;
         internal Button Button26;
-        internal Panel Panel2;
-        internal TrackBar TrackBar1;
-        internal PictureBox PictureBox5;
         internal PictureBox PictureBox6;
         internal PictureBox PictureBox7;
         internal Label Label4;

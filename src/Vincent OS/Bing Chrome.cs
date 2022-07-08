@@ -12,31 +12,31 @@ namespace Vincent_OS
         private void Button3_Click(object sender, EventArgs e)
         {
             WebBrowser2.GoBack();
-            TabPage2.Text = WebBrowser2.DocumentTitle; // ' Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
+            TabPage2.Text = WebBrowser2.DocumentTitle; // Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
         }
 
         private void Button4_Click(object sender, EventArgs e)
         {
             WebBrowser2.GoForward();
-            TabPage2.Text = WebBrowser2.DocumentTitle; // ' Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
+            TabPage2.Text = WebBrowser2.DocumentTitle; // Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
         }
 
         private void Button5_Click(object sender, EventArgs e)
         {
             WebBrowser2.GoHome();
-            TabPage2.Text = WebBrowser2.DocumentTitle; // ' Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
+            TabPage2.Text = WebBrowser2.DocumentTitle; // Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
         }
 
         private void Button6_Click(object sender, EventArgs e)
         {
             WebBrowser2.Refresh();
-            TabPage2.Text = WebBrowser2.DocumentTitle; // ' Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
+            TabPage2.Text = WebBrowser2.DocumentTitle; // Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
         }
 
         private void Button7_Click(object sender, EventArgs e)
         {
             WebBrowser2.Stop();
-            TabPage2.Text = WebBrowser2.DocumentTitle; // ' Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
+            TabPage2.Text = WebBrowser2.DocumentTitle; // Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
         }
 
         private void Button8_Click(object sender, EventArgs e)
@@ -66,7 +66,7 @@ namespace Vincent_OS
             {
                 My.MyProject.Forms.Bureau2.Button15.Visible = true;
             }
-            TabPage2.Text = WebBrowser2.DocumentTitle; // ' Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
+            TabPage2.Text = WebBrowser2.DocumentTitle; // Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -79,7 +79,7 @@ namespace Vincent_OS
             webbrowswer.Navigate("https://www.bing.com");
             newPage.Controls.Add(webbrowswer);
             TabControl1.SelectedTab = newPage;
-            TabPage2.Text = WebBrowser2.DocumentTitle; // ' Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
+            TabPage2.Text = WebBrowser2.DocumentTitle; // Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
         }
 
         private void TextBox1_Click(object sender, EventArgs e)
@@ -100,17 +100,17 @@ namespace Vincent_OS
 
         private void search()
         {
-            // ' Regarder si dans la TextBox, cela contient soit http ou https
+            // Regarder si dans la TextBox, cela contient soit http ou https
             if (TextBox1.Text.Contains("http://") | TextBox1.Text.Contains("https://"))
             {
                 WebBrowser2.Navigate(TextBox1.Text);
-                TabPage2.Text = WebBrowser2.DocumentTitle; // ' Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
+                TabPage2.Text = WebBrowser2.DocumentTitle; // Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
             }
             else
             {
                 WebBrowser2.Navigate("http://www.bing.com/search?q=" + TextBox1.Text);
                 TabPage2.Text = WebBrowser2.DocumentTitle;
-            } // ' Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
+            } // Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
         }
 
         private void Button2_Click(object sender, EventArgs e)

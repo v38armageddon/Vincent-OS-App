@@ -15,7 +15,7 @@ namespace Vincent_OS
             if (TextBox1.Text == "Vincent OS")
             {
                 TextBox1.Text = "";
-                // ' /!\ Faire attention aux potentiels changements dans le futur ! /!\
+                // /!\ Faire attention aux potentiels changements dans le futur ! /!\
                 if (My.MyProject.Forms.Applications.Visible == true)
                 {
                     My.MyProject.Forms.Store.Show();

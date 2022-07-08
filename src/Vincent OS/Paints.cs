@@ -6,7 +6,7 @@ namespace Vincent_OS
 {
     public partial class paints
     {
-        // ' Tout ceci permet de faire fonctionner les outils de dessins
+        // Tout ceci permet de faire fonctionner les outils de dessins
         private Bitmap b = new Bitmap(1000, 1000);
         private string tool = "pencil";
         private string color;

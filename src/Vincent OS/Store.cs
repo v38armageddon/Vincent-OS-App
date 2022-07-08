@@ -29,13 +29,13 @@ namespace Vincent_OS
             Process.Start("https//www.vincent-os.cf/pages/about");
         }
 
-        // ' Vincent OS Legacy
+        // Vincent OS Legacy
         private void Button5_Click(object sender, EventArgs e)
         {
             Process.Start("https://github.com/v38armageddon/Vincent-OS/tree/legacy");
         }
 
-        // ' Chrono
+        // Chrono
         private void Button9_Click(object sender, EventArgs e)
         {
             Button9.Text = "Ajouté !";

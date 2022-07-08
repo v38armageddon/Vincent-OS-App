@@ -36,7 +36,7 @@ namespace Vincent_OS
             }
         }
 
-        // ' Permet de révéler le mot de passe
+        // Permet de révéler le mot de passe
         private void Button4_MouseDown(object sender, MouseEventArgs e)
         {
             TextBox2.PasswordChar = Conversions.ToChar("");
@@ -44,10 +44,10 @@ namespace Vincent_OS
 
         private void Button4_MouseUp(object sender, MouseEventArgs e)
         {
-            TextBox2.PasswordChar = '*';
+            TextBox2.PasswordChar = '•';
         }
 
-        // ' Permet de vérifier le mot de passe
+        // Permet de vérifier le mot de passe
         private void verifylog()
         {
             if (TextBox2.Text == "Vincent OS")

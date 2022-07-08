@@ -63,9 +63,9 @@ namespace Vincent_OS
             this.Label2.ForeColor = System.Drawing.Color.White;
             this.Label2.Location = new System.Drawing.Point(206, 56);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(152, 33);
+            this.Label2.Size = new System.Drawing.Size(176, 33);
             this.Label2.TabIndex = 2;
-            this.Label2.Text = "Version : 8";
+            this.Label2.Text = "Version : 8.1";
             // 
             // Label3
             // 

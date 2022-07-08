@@ -58,7 +58,7 @@ namespace Vincent_OS
                 alertsound.Play();
                 MessageBox.Show("ALERTE : Vous n'avez rentré aucune destination.", "Alerte", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
             }
-            else if (TextBox1.Text.Contains(".exe")) // ' Regarde si le fichier est un fichier exécutable
+            else if (TextBox1.Text.Contains(".exe")) // Regarde si le fichier est un fichier exécutable
             {
                 if ((object)false is Exception)
                 {
