@@ -65,7 +65,7 @@ namespace Vincent_OS
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(176, 33);
             this.Label2.TabIndex = 2;
-            this.Label2.Text = "Version : 8.1";
+            this.Label2.Text = "Version : 8.2";
             // 
             // Label3
             // 
