@@ -1,5 +1,10 @@
 Notes de mises à jours :
 
+Version 8.2 (XX/07/2022) :
+- Changement de la technologie du navigateur Bing Chrome, il utilise désormait Microsoft WebView2 !
+- Suppression des onglets sur Bing Chrome.
+- Ajout de la possibilité d'installer Vincent OS via un fichier .msi !
+
 Version 8.1 (07/07/2022) :
 - Correction du bug n°23 où les boutons sont mélangés dans le Vincent OS Store.
 - Changement du fichier "Note de changements" pour être en norme UTF-8.
