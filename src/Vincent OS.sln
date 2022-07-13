@@ -1,7 +1,11 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Basic Express 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vincent OS", "Vincent OS\Vincent OS.csproj", "{B4346F8D-526A-0765-04F6-D85DA20882F7}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Vincent OS Setup", "Vincent OS Setup\Vincent OS Setup.vdproj", "{7F59A576-9F0A-4A7C-AAE2-3836EBE43B19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,8 +17,13 @@ Global
 		{B4346F8D-526A-0765-04F6-D85DA20882F7}.Debug|x86.Build.0 = Debug|x86
 		{B4346F8D-526A-0765-04F6-D85DA20882F7}.Release|x86.ActiveCfg = Release|x86
 		{B4346F8D-526A-0765-04F6-D85DA20882F7}.Release|x86.Build.0 = Release|x86
+		{7F59A576-9F0A-4A7C-AAE2-3836EBE43B19}.Debug|x86.ActiveCfg = Debug
+		{7F59A576-9F0A-4A7C-AAE2-3836EBE43B19}.Release|x86.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1678EB78-304D-4202-939D-CB42E3A59206}
 	EndGlobalSection
 EndGlobal
