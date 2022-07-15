@@ -219,6 +219,18 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_8CF99BEFDE2D4C9DA386A22ECC0AEBA5"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_912893E92D55A28BF31A727C7176A593"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_946FBC1AB1CBEC8D525AB7A70F9C0DAE"
         "OwnerKey" = "8:_41B690D23739C75E56E13CBA3A116246"
         "MsmSig" = "8:_UNDEFINED"
@@ -285,6 +297,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_B7CC1A637E3939085ECED61C304028E8"
+        "OwnerKey" = "8:_8CF99BEFDE2D4C9DA386A22ECC0AEBA5"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_BCBC499E6698ADA8B397E7381C6D5BF0"
         "OwnerKey" = "8:_1AD4C4202A124823886D404784A4869A"
         "MsmSig" = "8:_UNDEFINED"
@@ -329,6 +347,18 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_1AD4C4202A124823886D404784A4869A"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_8CF99BEFDE2D4C9DA386A22ECC0AEBA5"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_8CF99BEFDE2D4C9DA386A22ECC0AEBA5"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -383,6 +413,12 @@
         {
         "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_CDE11DBAB4EE194C219A0F5D21A5A753"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_UNDEFINED"
+        "OwnerKey" = "8:_77ADB747E7B6F3EBA977520EEE6BF786"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -482,7 +518,7 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
-            }
+        }
         }
         "Release"
         {
@@ -506,8 +542,8 @@
             "PrerequisitesLocation" = "2:1"
             "Url" = "8:"
             "ComponentsUrl" = "8:"
-            }
         }
+    }
     }
     "Deployable"
     {
@@ -1083,6 +1119,37 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_912893E92D55A28BF31A727C7176A593"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:SQLitePCLRaw.core, Version=2.0.2.669, Culture=neutral, PublicKeyToken=1488e028ca7ab535, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_912893E92D55A28BF31A727C7176A593"
+                    {
+                    "Name" = "8:SQLitePCLRaw.core.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:SQLitePCLRaw.core.dll"
+            "TargetName" = "8:"
+            "Tag" = "8:"
+            "Folder" = "8:_61A82800FD3443E9960AC131023D21DD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_946FBC1AB1CBEC8D525AB7A70F9C0DAE"
             {
             "AssemblyRegister" = "3:1"
@@ -1180,6 +1247,37 @@
             {
             "SourcePath" = "8:wmp.dll"
             "TargetName" = "8:wmp.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_61A82800FD3443E9960AC131023D21DD"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:TRUE"
+            "IsolateTo" = "8:"
+            }
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_B7CC1A637E3939085ECED61C304028E8"
+            {
+            "AssemblyRegister" = "3:1"
+            "AssemblyIsInGAC" = "11:FALSE"
+            "AssemblyAsmDisplayName" = "8:SQLitePCLRaw.nativelibrary, Version=2.0.2.669, Culture=neutral, PublicKeyToken=502ed628492ab262, processorArchitecture=MSIL"
+                "ScatterAssemblies"
+                {
+                    "_B7CC1A637E3939085ECED61C304028E8"
+                    {
+                    "Name" = "8:SQLitePCLRaw.nativelibrary.dll"
+                    "Attributes" = "3:512"
+                    }
+                }
+            "SourcePath" = "8:SQLitePCLRaw.nativelibrary.dll"
+            "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_61A82800FD3443E9960AC131023D21DD"
             "Condition" = "8:"
@@ -1367,9 +1465,9 @@
                     "Property" = "8:_E55851F94577442DBBA6B99724666E91"
                         "Folders"
                         {
-                        }
-                    }
                 }
+            }
+        }
             }
         }
         "LaunchCondition"
