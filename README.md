@@ -4,19 +4,16 @@ Ce projet consiste à créer un mini système d'exploitation dans mes temps perd
 ## Installation
 
 ### Installation recommandé
-<!-- Décommentez dès que possession du compte Microsoft Dev
 Le meilleur moyen d'obtenir Vincent OS est de télécharger depuis le Microsof Store.
 
--->
-Le meilleur moyen d'obtenir Vincent OS est de télécharger le fichier : Vincent OS Setup.msi
 
-<!-- Décommentez dès que possession du compte Microsoft Dev
+
 ### Installation alternatif
 Si vous ne souhaitez pas passer par le Microsoft Store, vous pouvez téléchargez le fichier : Vincent OS Setup.msi
 
 ### Installation Standalone
 Vous pouvez aussi téléchargez le fichier .zip et lancer l'exécutable : Vincent OS.exe
--->
+
 ### Installation développeur
 Si vous voulez avoir tout les fichiers, vous pouvez cloner le projet.
 
