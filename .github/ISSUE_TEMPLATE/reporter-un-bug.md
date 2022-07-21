@@ -2,7 +2,7 @@
 name: Bug
 about: Vous avez trouvé un bug ? Reportez le ici.
 title: "[BUG]"
-labels: Bug
+labels: A voir, Bug
 assignees: v38armageddon
 
 ---
