@@ -50,12 +50,40 @@ C:\Users\v38armageddon\Documents\test\Vincent OS\obj\x86\Debug\Vincent OS.exe.ma
 C:\Users\v38armageddon\Documents\test\Vincent OS\obj\x86\Debug\Vincent OS.application
 C:\Users\v38armageddon\Documents\test\Vincent OS\obj\x86\Debug\Vincent OS.exe
 C:\Users\v38armageddon\Documents\test\Vincent OS\obj\x86\Debug\Vincent OS.pdb
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Vincent OS.exe.config
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Vincent OS.exe.manifest
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Vincent OS.application
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Vincent OS.xml
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Vincent OS.exe
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Vincent OS.pdb
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.AppCenter.Analytics.dll
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.AppCenter.Crashes.dll
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.AppCenter.dll
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\System.Buffers.dll
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\System.Memory.dll
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.AppCenter.xml
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.AppCenter.Analytics.xml
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.AppCenter.Crashes.xml
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Newtonsoft.Json.xml
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\System.Buffers.xml
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\System.Memory.xml
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Interop.WMPLib.dll
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\AxInterop.WMPLib.dll
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent OS.csproj.AssemblyReference.cache
@@ -100,34 +128,82 @@ C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent OS.TrustInfo.xml
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent OS.exe.manifest
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent OS.application
+C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent OS.csproj.CopyComplete
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent OS.exe
 C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent OS.pdb
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.AppCenter.Analytics.dll
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.AppCenter.Crashes.dll
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.AppCenter.dll
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.Web.WebView2.Core.dll
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Newtonsoft.Json.dll
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\SQLitePCLRaw.batteries_v2.dll
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\SQLitePCLRaw.core.dll
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\System.Buffers.dll
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\System.Memory.dll
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\System.Numerics.Vectors.dll
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.AppCenter.xml
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.AppCenter.Analytics.xml
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.AppCenter.Crashes.xml
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.Web.WebView2.Core.xml
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\Newtonsoft.Json.xml
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\System.Buffers.xml
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\System.Memory.xml
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\System.Numerics.Vectors.xml
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\Users\v38armageddon\Documents\GitHub\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent OS.csproj.CopyComplete
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\Vincent OS.exe.config
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\Vincent OS.xml
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\Vincent OS.exe
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\Vincent OS.pdb
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.AppCenter.Analytics.dll
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.AppCenter.Crashes.dll
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.AppCenter.dll
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.Web.WebView2.Core.dll
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\Newtonsoft.Json.dll
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\SQLitePCLRaw.batteries_v2.dll
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\SQLitePCLRaw.core.dll
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\SQLitePCLRaw.provider.dynamic_cdecl.dll
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\System.Buffers.dll
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\System.Memory.dll
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.AppCenter.xml
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.AppCenter.Analytics.xml
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.AppCenter.Crashes.xml
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.Web.WebView2.Core.xml
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\Newtonsoft.Json.xml
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\System.Buffers.xml
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\System.Memory.xml
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\Interop.WMPLib.dll
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent OS.csproj.AssemblyReference.cache
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent OS.csproj.SuggestedBindingRedirects.cache
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Interop.WMPLib.dll
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Interop.WMPNSSCI.dll
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\AxInterop.WMPLib.dll
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent OS.csproj.ResolveComReference.cache
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.alertelog.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Applications.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.About.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Arrêt.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Avant.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Calc.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.TaskVOS.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Bing_Chrome.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Bureau.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Bureau2.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Download.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Démarrage.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Custom.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.exewin.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.chrono.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.game.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Login2bureau.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Login2bureau2.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.MazeGame.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Paramètres.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.paints.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Media.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Notepad.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Store.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Terminal.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.UAC.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Utilisateur.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Visio.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Login.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.meme.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Resources.resources
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent OS.csproj.GenerateResource.cache
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent OS.csproj.CoreCompileInputs.cache
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent OS.csproj.CopyComplete
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent OS.exe
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent OS.pdb

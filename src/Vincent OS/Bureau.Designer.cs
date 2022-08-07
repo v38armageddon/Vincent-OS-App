@@ -130,10 +130,11 @@ namespace Vincent_OS
             // 
             // Button9
             // 
-            this.Button9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.Button9.BackColor = System.Drawing.Color.Green;
             this.Button9.FlatAppearance.BorderSize = 0;
             this.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button9.Font = new System.Drawing.Font("Arial", 9F);
+            this.Button9.ForeColor = System.Drawing.Color.White;
             this.Button9.Location = new System.Drawing.Point(60, 20);
             this.Button9.Name = "Button9";
             this.Button9.Size = new System.Drawing.Size(94, 26);

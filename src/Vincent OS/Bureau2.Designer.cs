@@ -106,10 +106,11 @@ namespace Vincent_OS
             // 
             // Button7
             // 
-            this.Button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.Button7.BackColor = System.Drawing.Color.Green;
             this.Button7.FlatAppearance.BorderSize = 0;
             this.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button7.Font = new System.Drawing.Font("Arial", 9F);
+            this.Button7.ForeColor = System.Drawing.Color.White;
             this.Button7.Location = new System.Drawing.Point(60, 20);
             this.Button7.Name = "Button7";
             this.Button7.Size = new System.Drawing.Size(94, 26);

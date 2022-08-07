@@ -16,9 +16,9 @@ namespace Vincent_OS
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Avant());
             AppCenter.Start("0c52f0f9-8169-4918-a2a3-2641062645d0",
                   typeof(Analytics), typeof(Crashes));
-            Application.Run(new Avant());
         }
     }
 }
