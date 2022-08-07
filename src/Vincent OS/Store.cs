@@ -77,6 +77,12 @@ namespace Vincent_OS
             My.MyProject.Forms.Download.Show();
         }
 
+        private void miseÀJourToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Updates update = new Updates();
+            update.Show();
+        }
+
         private void Store_FormClosed(object sender, FormClosedEventArgs e)
         {
             if (My.MyProject.Forms.Bureau.Visible == true)

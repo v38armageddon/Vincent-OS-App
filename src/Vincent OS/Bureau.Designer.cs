@@ -147,6 +147,7 @@ namespace Vincent_OS
             // 
             this.Label3.AutoSize = true;
             this.Label3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label3.ForeColor = System.Drawing.Color.White;
             this.Label3.Location = new System.Drawing.Point(60, 3);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(94, 15);

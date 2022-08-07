@@ -55,7 +55,7 @@ namespace Vincent_OS
             if (TextBox1.Text == "ver")
             {
                 // ATTENTION A BIEN CHANGER LA VERSION CAR JE VAIS SUREMENT OUBLIER A LA PROCHAINE VERSION !!!!!!!!!!!
-                RichTextBox1.Text = "Nom du système d'exploitation : Vincent OS\nVersion : 8.2\nBranche : Officiel";
+                RichTextBox1.Text = "Nom du système d'exploitation : Vincent OS\nVersion : 9\nBranche : Officiel";
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "help")
