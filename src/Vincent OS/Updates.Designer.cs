@@ -68,6 +68,7 @@
             this.webView21.Location = new System.Drawing.Point(0, 175);
             this.webView21.Name = "webView21";
             this.webView21.Size = new System.Drawing.Size(692, 240);
+            this.webView21.Source = new System.Uri("https://bing.com", System.UriKind.Absolute);
             this.webView21.TabIndex = 2;
             this.webView21.Visible = false;
             this.webView21.ZoomFactor = 1D;
@@ -110,7 +111,7 @@
             // 
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // Update
+            // Updates
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -128,7 +129,7 @@
             this.MaximizeBox = false;
             this.MaximumSize = new System.Drawing.Size(708, 454);
             this.MinimumSize = new System.Drawing.Size(708, 454);
-            this.Name = "Update";
+            this.Name = "Updates";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Vincent OS Updater";
             ((System.ComponentModel.ISupportInitialize)(this.webView21)).EndInit();

@@ -20,7 +20,7 @@ namespace Vincent_OS
         private void Button2_Click(object sender, EventArgs e)
         {
             My.MyProject.Forms.Login2bureau2.Show();
-            Hide();
+            Close();
         }
 
         private void PictureBox4_Click(object sender, EventArgs e)
@@ -54,7 +54,7 @@ namespace Vincent_OS
             {
                 TextBox2.Text = "";
                 My.MyProject.Forms.Login2bureau.Show();
-                Hide();
+                Close();
             }
             else
             {

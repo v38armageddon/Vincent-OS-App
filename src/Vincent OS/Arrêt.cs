@@ -22,14 +22,6 @@ namespace Vincent_OS
             if (ProgressBar1.Value == 100)
             {
                 Timer1.Stop();
-                My.MyProject.Forms.Démarrage.Close();
-                My.MyProject.Forms.Bureau.Close();
-                My.MyProject.Forms.Login.Close();
-                My.MyProject.Forms.Bureau2.Close();
-                My.MyProject.Forms.alertelog.Close();
-                My.MyProject.Forms.Avant.Close();
-                My.MyProject.Forms.Login2bureau.Close();
-                My.MyProject.Forms.Login2bureau2.Close();
                 Close();
                 Application.Exit();
             }

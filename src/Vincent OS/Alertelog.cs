@@ -17,7 +17,7 @@ namespace Vincent_OS
                 if (My.MyProject.Forms.Login.Visible == true)
                 {
                     My.MyProject.Forms.Arrêt.Timer1.Start();
-                    My.MyProject.Forms.Login.Hide();
+                    My.MyProject.Forms.Login.Close();
                     My.MyProject.Forms.Arrêt.Show();
                     Close();
                 }
@@ -31,14 +31,47 @@ namespace Vincent_OS
                 {
                     My.MyProject.Forms.Arrêt.Timer1.Start();
                     My.MyProject.Forms.Arrêt.Show();
-                    My.MyProject.Forms.Bureau.Hide();
+                    My.MyProject.Forms.Bureau.Close();
                     Close();
                 }
                 else if (My.MyProject.Forms.Bureau2.Visible == true)
                 {
                     My.MyProject.Forms.Arrêt.Timer1.Start();
                     My.MyProject.Forms.Arrêt.Show();
-                    My.MyProject.Forms.Bureau2.Hide();
+                    My.MyProject.Forms.Bureau2.Close();
+                    Close();
+                }
+            }
+            else if (Conversions.ToBoolean(Operators.ConditionalCompareObjectEqual(ComboBox1.SelectedItem, "Redémarrer", false)))
+            {
+                if (My.MyProject.Forms.Login.Visible == true)
+                {
+                    Restart restart = new Restart();
+                    restart.Timer1.Start();
+                    My.MyProject.Forms.Login.Close();
+                    restart.Show();
+                    Close();
+                }
+                else if (My.MyProject.Forms.Avant.Visible == true)
+                {
+                    My.MyProject.Forms.Avant.Close();
+                    Close();
+                    Application.Restart();
+                }
+                else if (My.MyProject.Forms.Bureau.Visible == true)
+                {
+                    Restart restart = new Restart();
+                    restart.Timer1.Start();
+                    restart.Show();
+                    My.MyProject.Forms.Bureau.Close();
+                    Close();
+                }
+                else if (My.MyProject.Forms.Bureau2.Visible == true)
+                {
+                    Restart restart = new Restart();
+                    restart.Timer1.Start();
+                    restart.Show();
+                    My.MyProject.Forms.Bureau2.Close();
                     Close();
                 }
             }

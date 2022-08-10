@@ -63,6 +63,7 @@ namespace Vincent_OS
             this.ComboBox1.FormattingEnabled = true;
             this.ComboBox1.Items.AddRange(new object[] {
             "Arrêter",
+            "Redémarrer",
             "Déconnecter"});
             this.ComboBox1.Location = new System.Drawing.Point(109, 36);
             this.ComboBox1.Name = "ComboBox1";
