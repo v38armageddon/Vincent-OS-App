@@ -15,7 +15,7 @@ namespace Vincent_OS
             My.MyProject.Forms.Custom.RadioButton1.Checked = true;
             My.MyProject.Forms.Démarrage.StartPosition = FormStartPosition.CenterScreen;
             My.MyProject.Forms.Démarrage.Show();
-            Hide();
+            Close();
         }
 
         private void Button2_Click(object sender, EventArgs e)
@@ -24,6 +24,7 @@ namespace Vincent_OS
             My.MyProject.Forms.Démarrage.Show();
             if (My.MyProject.Forms.Démarrage.Visible == true)
             {
+                Restart restart = new Restart();
                 // On change de mode de forme de la fenêtre
                 My.MyProject.Forms.Démarrage.FormBorderStyle = FormBorderStyle.None;
                 My.MyProject.Forms.Arrêt.FormBorderStyle = FormBorderStyle.None;
@@ -32,6 +33,7 @@ namespace Vincent_OS
                 My.MyProject.Forms.Login2bureau2.FormBorderStyle = FormBorderStyle.None;
                 My.MyProject.Forms.Bureau.FormBorderStyle = FormBorderStyle.None;
                 My.MyProject.Forms.Bureau2.FormBorderStyle = FormBorderStyle.None;
+                restart.FormBorderStyle = FormBorderStyle.None;
                 // On met une nouvelle localisation
                 My.MyProject.Forms.Bureau.Width = My.MyProject.Computer.Screen.Bounds.Width;
                 My.MyProject.Forms.Bureau.Height = My.MyProject.Computer.Screen.Bounds.Height;
@@ -47,8 +49,10 @@ namespace Vincent_OS
                 My.MyProject.Forms.Login2bureau.Height = My.MyProject.Computer.Screen.Bounds.Height;
                 My.MyProject.Forms.Login2bureau2.Width = My.MyProject.Computer.Screen.Bounds.Width;
                 My.MyProject.Forms.Login2bureau2.Height = My.MyProject.Computer.Screen.Bounds.Height;
+                restart.Width = My.MyProject.Computer.Screen.Bounds.Width;
+                restart.Height = My.MyProject.Computer.Screen.Bounds.Height;
             }
-            Hide();
+            Close();
         }
 
         private void Button3_Click(object sender, EventArgs e)

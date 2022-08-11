@@ -66,6 +66,9 @@ namespace Vincent_OS
             this.Timer1 = new System.Windows.Forms.Timer(this.components);
             this.MenuStrip1 = new System.Windows.Forms.MenuStrip();
             this.VosTéléchargementsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.button6 = new System.Windows.Forms.Button();
             this.TabControl1.SuspendLayout();
             this.TabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox11)).BeginInit();
@@ -78,6 +81,7 @@ namespace Vincent_OS
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
             this.MenuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
             this.SuspendLayout();
             // 
             // TabControl1
@@ -93,6 +97,9 @@ namespace Vincent_OS
             // 
             // TabPage1
             // 
+            this.TabPage1.Controls.Add(this.button6);
+            this.TabPage1.Controls.Add(this.label6);
+            this.TabPage1.Controls.Add(this.pictureBox6);
             this.TabPage1.Controls.Add(this.Button5);
             this.TabPage1.Controls.Add(this.Label11);
             this.TabPage1.Controls.Add(this.PictureBox11);
@@ -114,7 +121,7 @@ namespace Vincent_OS
             this.Button5.FlatAppearance.BorderSize = 0;
             this.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button5.ForeColor = System.Drawing.Color.White;
-            this.Button5.Location = new System.Drawing.Point(311, 229);
+            this.Button5.Location = new System.Drawing.Point(154, 229);
             this.Button5.Name = "Button5";
             this.Button5.Size = new System.Drawing.Size(96, 23);
             this.Button5.TabIndex = 12;
@@ -126,7 +133,7 @@ namespace Vincent_OS
             // 
             this.Label11.AutoSize = true;
             this.Label11.Font = new System.Drawing.Font("Arial", 14.25F);
-            this.Label11.Location = new System.Drawing.Point(269, 204);
+            this.Label11.Location = new System.Drawing.Point(115, 204);
             this.Label11.Name = "Label11";
             this.Label11.Size = new System.Drawing.Size(173, 22);
             this.Label11.TabIndex = 6;
@@ -135,7 +142,7 @@ namespace Vincent_OS
             // PictureBox11
             // 
             this.PictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox11.Image")));
-            this.PictureBox11.Location = new System.Drawing.Point(311, 101);
+            this.PictureBox11.Location = new System.Drawing.Point(154, 101);
             this.PictureBox11.Name = "PictureBox11";
             this.PictureBox11.Size = new System.Drawing.Size(96, 97);
             this.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -412,6 +419,40 @@ namespace Vincent_OS
             this.VosTéléchargementsToolStripMenuItem.Text = "Vos téléchargements";
             this.VosTéléchargementsToolStripMenuItem.Click += new System.EventHandler(this.VosTéléchargementsToolStripMenuItem_Click);
             // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox6.Image")));
+            this.pictureBox6.Location = new System.Drawing.Point(311, 101);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(96, 97);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox6.TabIndex = 13;
+            this.pictureBox6.TabStop = false;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Arial", 14.25F);
+            this.label6.Location = new System.Drawing.Point(318, 204);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(79, 22);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "WebSM";
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.Green;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.ForeColor = System.Drawing.Color.White;
+            this.button6.Location = new System.Drawing.Point(311, 229);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(96, 23);
+            this.button6.TabIndex = 15;
+            this.button6.Text = "Obtenir";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
+            // 
             // Store
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -443,6 +484,7 @@ namespace Vincent_OS
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
             this.MenuStrip1.ResumeLayout(false);
             this.MenuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -476,5 +518,8 @@ namespace Vincent_OS
         internal Button Button5;
         internal PictureBox pictureBox5;
         internal Label label3;
+        internal Button button6;
+        internal Label label6;
+        internal PictureBox pictureBox6;
     }
 }

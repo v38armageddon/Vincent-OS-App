@@ -32,7 +32,7 @@ namespace Vincent_OS
         // Vincent OS Legacy
         private void Button5_Click(object sender, EventArgs e)
         {
-            Process.Start("https://github.com/v38armageddon/Vincent-OS/tree/legacy");
+            Process.Start("https://github.com/v38armageddon/Vincent-OS-App/tree/legacy");
         }
 
         // Chrono
@@ -41,6 +41,12 @@ namespace Vincent_OS
             Button9.Text = "Ajouté !";
             Button9.Enabled = false;
             My.MyProject.Forms.Download.Panel6.Visible = true;
+        }
+
+        // WebSM
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Process.Start("ms-windows-store://pdp/?productid=9NVMBH7W0HXF");
         }
 
         // Deuxième onglet

@@ -207,3 +207,4 @@ C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\
 C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent OS.csproj.CopyComplete
 C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent OS.exe
 C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent OS.pdb
+C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Restart.resources
