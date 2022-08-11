@@ -46,7 +46,7 @@ namespace Vincent_OS
         // WebSM
         private void button6_Click(object sender, EventArgs e)
         {
-            Process.Start("https://www.microsoft.com/store/productId/9NVMBH7W0HXF");
+            Process.Start("ms-windows-store://pdp/?productid=9NVMBH7W0HXF");
         }
 
         // Deuxième onglet
