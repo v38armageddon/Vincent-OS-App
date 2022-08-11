@@ -438,6 +438,7 @@ namespace Vincent_OS
         {
             if (RadioButton1.Checked == true)
             {
+                Restart restart = new Restart();
                 // Essayer de regrouper Bureau et Bureau2 pour une optimisation du code ?
                 if (My.MyProject.Forms.Bureau.Visible == true)
                 {
@@ -447,10 +448,12 @@ namespace Vincent_OS
                     My.MyProject.Forms.Arrêt.FormBorderStyle = FormBorderStyle.FixedSingle;
                     My.MyProject.Forms.Login.FormBorderStyle = FormBorderStyle.FixedSingle;
                     My.MyProject.Forms.Login2bureau.FormBorderStyle = FormBorderStyle.FixedSingle;
+                    restart.FormBorderStyle = FormBorderStyle.FixedSingle;
                     // On met une nouvelle localisation
                     My.MyProject.Forms.Bureau.Location = new Point(480, 300);
                     My.MyProject.Forms.Login.Location = new Point(480, 300);
                     My.MyProject.Forms.Login2bureau.Location = new Point(480, 300);
+                    restart.Location = new Point(480, 300);
                     // On met la position au milieu de l'écran
                     // Bien qu'à revérifier si cela peut fonctionner sans ou non
                     My.MyProject.Forms.Bureau.StartPosition = FormStartPosition.CenterScreen;
@@ -458,6 +461,7 @@ namespace Vincent_OS
                     My.MyProject.Forms.Login.StartPosition = FormStartPosition.CenterScreen;
                     My.MyProject.Forms.Arrêt.StartPosition = FormStartPosition.CenterScreen;
                     My.MyProject.Forms.Login2bureau.StartPosition = FormStartPosition.CenterScreen;
+                    restart.StartPosition = FormStartPosition.CenterScreen;
                     // On change la taille
                     My.MyProject.Forms.Bureau.Width = 854;
                     My.MyProject.Forms.Bureau.Height = 480;
@@ -469,6 +473,8 @@ namespace Vincent_OS
                     My.MyProject.Forms.Login.Height = 480;
                     My.MyProject.Forms.Login2bureau.Width = 854;
                     My.MyProject.Forms.Login2bureau.Height = 480;
+                    restart.Width = 854;
+                    restart.Height = 480;
                 }
                 if (My.MyProject.Forms.Bureau2.Visible == true)
                 {
@@ -508,6 +514,7 @@ namespace Vincent_OS
         {
             if (RadioButton2.Checked == true)
             {
+                Restart restart = new Restart();
                 // Essayer de regrouper Bureau et Bureau2 pour une optimisation du code ?
                 if (My.MyProject.Forms.Bureau.Visible == true)
                 {
@@ -520,11 +527,13 @@ namespace Vincent_OS
                     My.MyProject.Forms.Bureau.Location = new Point(0, 0);
                     My.MyProject.Forms.Login.Location = new Point(0, 0);
                     My.MyProject.Forms.Login2bureau.Location = new Point(0, 0);
+                    restart.Location = new Point(0, 0);
                     My.MyProject.Forms.Bureau.StartPosition = FormStartPosition.Manual;
                     My.MyProject.Forms.Démarrage.StartPosition = FormStartPosition.Manual;
                     My.MyProject.Forms.Login.StartPosition = FormStartPosition.Manual;
                     My.MyProject.Forms.Arrêt.StartPosition = FormStartPosition.Manual;
                     My.MyProject.Forms.Login2bureau.StartPosition = FormStartPosition.Manual;
+                    restart.StartPosition = FormStartPosition.Manual;
                     // On change la taille en fonction de la taille de l'écran de l'utilisateur
                     My.MyProject.Forms.Bureau.Width = My.MyProject.Computer.Screen.Bounds.Width;
                     My.MyProject.Forms.Bureau.Height = My.MyProject.Computer.Screen.Bounds.Height;
@@ -536,6 +545,8 @@ namespace Vincent_OS
                     My.MyProject.Forms.Login.Height = My.MyProject.Computer.Screen.Bounds.Height;
                     My.MyProject.Forms.Login2bureau.Width = My.MyProject.Computer.Screen.Bounds.Width;
                     My.MyProject.Forms.Login2bureau.Height = My.MyProject.Computer.Screen.Bounds.Height;
+                    restart.Width = My.MyProject.Computer.Screen.Bounds.Width;
+                    restart.Height = My.MyProject.Computer.Screen.Bounds.Height;
                 }
                 if (My.MyProject.Forms.Bureau2.Visible == true)
                 {
@@ -549,6 +560,7 @@ namespace Vincent_OS
                     My.MyProject.Forms.Bureau2.Location = new Point(0, 0);
                     My.MyProject.Forms.Login.Location = new Point(0, 0);
                     My.MyProject.Forms.Login2bureau2.Location = new Point(0, 0);
+                    restart.Location = new Point(0, 0);
                     // On met la position au milieu de l'écran
                     // Bien qu'à revérifier si cela peut fonctionner sans ou non
                     My.MyProject.Forms.Bureau2.StartPosition = FormStartPosition.Manual;
@@ -556,6 +568,7 @@ namespace Vincent_OS
                     My.MyProject.Forms.Login.StartPosition = FormStartPosition.Manual;
                     My.MyProject.Forms.Arrêt.StartPosition = FormStartPosition.Manual;
                     My.MyProject.Forms.Login2bureau2.StartPosition = FormStartPosition.Manual;
+                    restart.StartPosition = FormStartPosition.Manual;
                     // On change la taille en fonction de la taille de l'écran de l'utilisateur
                     My.MyProject.Forms.Bureau2.Width = My.MyProject.Computer.Screen.Bounds.Width;
                     My.MyProject.Forms.Bureau2.Height = My.MyProject.Computer.Screen.Bounds.Height;
@@ -565,10 +578,10 @@ namespace Vincent_OS
                     My.MyProject.Forms.Démarrage.Height = My.MyProject.Computer.Screen.Bounds.Height;
                     My.MyProject.Forms.Login.Width = My.MyProject.Computer.Screen.Bounds.Width;
                     My.MyProject.Forms.Login.Height = My.MyProject.Computer.Screen.Bounds.Height;
-                    My.MyProject.Forms.Login2bureau.Width = My.MyProject.Computer.Screen.Bounds.Width;
-                    My.MyProject.Forms.Login2bureau.Height = My.MyProject.Computer.Screen.Bounds.Height;
                     My.MyProject.Forms.Login2bureau2.Width = My.MyProject.Computer.Screen.Bounds.Width;
                     My.MyProject.Forms.Login2bureau2.Height = My.MyProject.Computer.Screen.Bounds.Height;
+                    restart.Width = My.MyProject.Computer.Screen.Bounds.Width;
+                    restart.Height = My.MyProject.Computer.Screen.Bounds.Height;
                 }
             }
         }
