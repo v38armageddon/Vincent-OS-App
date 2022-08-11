@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Vincent OS"
-#define MyAppVersion "8.2"
+#define MyAppVersion "9"
 #define MyAppPublisher "v38armageddon"
 #define MyAppURL "https://www.vincent-os.cf"
 #define MyAppExeName "Vincent OS.exe"

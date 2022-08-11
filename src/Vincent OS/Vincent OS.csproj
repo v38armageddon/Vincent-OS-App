@@ -349,12 +349,6 @@
     <Compile Include="UAC.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Updates.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Updates.Designer.cs">
-      <DependentUpon>Updates.cs</DependentUpon>
-    </Compile>
     <Compile Include="Utilisateur.Designer.cs">
       <DependentUpon>Utilisateur.cs</DependentUpon>
     </Compile>
@@ -472,9 +466,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UAC.resx">
       <DependentUpon>UAC.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Updates.resx">
-      <DependentUpon>Updates.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Utilisateur.resx">
       <DependentUpon>Utilisateur.cs</DependentUpon>

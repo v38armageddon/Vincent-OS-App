@@ -32,7 +32,7 @@ namespace Vincent_OS
         // Vincent OS Legacy
         private void Button5_Click(object sender, EventArgs e)
         {
-            Process.Start("https://github.com/v38armageddon/Vincent-OS/tree/legacy");
+            Process.Start("https://github.com/v38armageddon/Vincent-OS-App/tree/legacy");
         }
 
         // Chrono
@@ -41,6 +41,12 @@ namespace Vincent_OS
             Button9.Text = "Ajouté !";
             Button9.Enabled = false;
             My.MyProject.Forms.Download.Panel6.Visible = true;
+        }
+
+        // WebSM
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Process.Start("https://www.microsoft.com/store/productId/9NVMBH7W0HXF");
         }
 
         // Deuxième onglet
@@ -75,12 +81,6 @@ namespace Vincent_OS
         private void VosTéléchargementsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             My.MyProject.Forms.Download.Show();
-        }
-
-        private void miseÀJourToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Updates update = new Updates();
-            update.Show();
         }
 
         private void Store_FormClosed(object sender, FormClosedEventArgs e)
