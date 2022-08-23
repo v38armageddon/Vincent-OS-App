@@ -36,7 +36,7 @@
     <ProductName>Vincent OS</ProductName>
     <PublisherName>v38armageddon</PublisherName>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>9.0.0.%2a</ApplicationVersion>
+    <ApplicationVersion>9.0.1.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -249,11 +249,7 @@
     <Compile Include="Bureau2.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Démarrage.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Démarrage.Designer.vb">
-      <DependentUpon>Démarrage.vb</DependentUpon>
+    <Compile Include="Démarrage.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Custom.Designer.vb">
@@ -328,14 +324,8 @@
     <Compile Include="Terminal.vb">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="UAC.Designer.vb">
-      <DependentUpon>UAC.vb</DependentUpon>
-    </Compile>
-    <Compile Include="UAC.vb">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Utilisateur.Designer.vb">
-      <DependentUpon>Utilisateur.vb</DependentUpon>
+    <Compile Include="Terminal.Designer.cs">
+      <DependentUpon>Terminal.cs</DependentUpon>
     </Compile>
     <Compile Include="Utilisateur.vb">
       <SubType>Form</SubType>
@@ -405,7 +395,7 @@
       <DependentUpon>Bureau.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Bureau2.resx">
-      <DependentUpon>Bureau2.vb</DependentUpon>
+      <DependentUpon>Bureau2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Démarrage.resx">
       <DependentUpon>Démarrage.vb</DependentUpon>
@@ -441,7 +431,7 @@
       <DependentUpon>Media.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Notepad.resx">
-      <DependentUpon>Notepad.vb</DependentUpon>
+      <DependentUpon>Notepad.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Terminal.resx">
       <DependentUpon>Terminal.vb</DependentUpon>

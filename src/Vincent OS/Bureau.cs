@@ -96,11 +96,6 @@ namespace Vincent_OS
             My.MyProject.Forms.Notepad.Show();
         }
 
-        private void Button7_Click(object sender, EventArgs e)
-        {
-            My.MyProject.Forms.Store.Show();
-        }
-
         private void Button9_Click(object sender, EventArgs e)
         {
             My.MyProject.Forms.Paramètres.Show();
@@ -196,11 +191,6 @@ namespace Vincent_OS
         private void Button24_Click(object sender, EventArgs e)
         {
             My.MyProject.Forms.Terminal.BringToFront();
-        }
-
-        private void Button8_Click_1(object sender, EventArgs e)
-        {
-            My.MyProject.Forms.Store.BringToFront();
         }
 
         private void Button18_Click(object sender, EventArgs e)

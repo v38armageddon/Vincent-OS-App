@@ -71,9 +71,6 @@ namespace Vincent_OS
             this.panel10 = new System.Windows.Forms.Panel();
             this.PictureBox10 = new System.Windows.Forms.PictureBox();
             this.RadioButton7 = new System.Windows.Forms.RadioButton();
-            this.panel11 = new System.Windows.Forms.Panel();
-            this.PictureBox11 = new System.Windows.Forms.PictureBox();
-            this.RadioButton19 = new System.Windows.Forms.RadioButton();
             this.panel12 = new System.Windows.Forms.Panel();
             this.PictureBox13 = new System.Windows.Forms.PictureBox();
             this.RadioButton11 = new System.Windows.Forms.RadioButton();
@@ -81,9 +78,8 @@ namespace Vincent_OS
             this.PictureBox14 = new System.Windows.Forms.PictureBox();
             this.RadioButton6 = new System.Windows.Forms.RadioButton();
             this.TabPage3 = new System.Windows.Forms.TabPage();
-            this.panel17 = new System.Windows.Forms.Panel();
-            this.PictureBox18 = new System.Windows.Forms.PictureBox();
-            this.RadioButton16 = new System.Windows.Forms.RadioButton();
+            this.Button3 = new System.Windows.Forms.Button();
+            this.Label3 = new System.Windows.Forms.Label();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.panel14 = new System.Windows.Forms.Panel();
             this.PictureBox15 = new System.Windows.Forms.PictureBox();
@@ -94,8 +90,9 @@ namespace Vincent_OS
             this.panel16 = new System.Windows.Forms.Panel();
             this.PictureBox17 = new System.Windows.Forms.PictureBox();
             this.RadioButton14 = new System.Windows.Forms.RadioButton();
-            this.Button3 = new System.Windows.Forms.Button();
-            this.Label3 = new System.Windows.Forms.Label();
+            this.panel17 = new System.Windows.Forms.Panel();
+            this.PictureBox18 = new System.Windows.Forms.PictureBox();
+            this.RadioButton16 = new System.Windows.Forms.RadioButton();
             this.TabPage2 = new System.Windows.Forms.TabPage();
             this.PictureBox20 = new System.Windows.Forms.PictureBox();
             this.PictureBox19 = new System.Windows.Forms.PictureBox();
@@ -126,15 +123,11 @@ namespace Vincent_OS
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox9)).BeginInit();
             this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox10)).BeginInit();
-            this.panel11.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox11)).BeginInit();
             this.panel12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox13)).BeginInit();
             this.panel13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox14)).BeginInit();
             this.TabPage3.SuspendLayout();
-            this.panel17.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox18)).BeginInit();
             this.flowLayoutPanel2.SuspendLayout();
             this.panel14.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox15)).BeginInit();
@@ -142,6 +135,8 @@ namespace Vincent_OS
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox16)).BeginInit();
             this.panel16.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox17)).BeginInit();
+            this.panel17.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox18)).BeginInit();
             this.TabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox20)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox19)).BeginInit();
@@ -207,7 +202,6 @@ namespace Vincent_OS
             this.flowLayoutPanel1.Controls.Add(this.panel8);
             this.flowLayoutPanel1.Controls.Add(this.panel9);
             this.flowLayoutPanel1.Controls.Add(this.panel10);
-            this.flowLayoutPanel1.Controls.Add(this.panel11);
             this.flowLayoutPanel1.Controls.Add(this.panel12);
             this.flowLayoutPanel1.Controls.Add(this.panel13);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 38);
@@ -525,42 +519,11 @@ namespace Vincent_OS
             this.RadioButton7.Text = "Paints.AppVOS";
             this.RadioButton7.UseVisualStyleBackColor = true;
             // 
-            // panel11
-            // 
-            this.panel11.Controls.Add(this.PictureBox11);
-            this.panel11.Controls.Add(this.RadioButton19);
-            this.panel11.Location = new System.Drawing.Point(144, 408);
-            this.panel11.Name = "panel11";
-            this.panel11.Size = new System.Drawing.Size(135, 129);
-            this.panel11.TabIndex = 45;
-            this.panel11.Visible = false;
-            // 
-            // PictureBox11
-            // 
-            this.PictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox11.Image")));
-            this.PictureBox11.Location = new System.Drawing.Point(15, 3);
-            this.PictureBox11.Name = "PictureBox11";
-            this.PictureBox11.Size = new System.Drawing.Size(105, 104);
-            this.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PictureBox11.TabIndex = 31;
-            this.PictureBox11.TabStop = false;
-            // 
-            // RadioButton19
-            // 
-            this.RadioButton19.AutoSize = true;
-            this.RadioButton19.Location = new System.Drawing.Point(20, 110);
-            this.RadioButton19.Name = "RadioButton19";
-            this.RadioButton19.Size = new System.Drawing.Size(94, 17);
-            this.RadioButton19.TabIndex = 19;
-            this.RadioButton19.TabStop = true;
-            this.RadioButton19.Text = "Store.AppVOS";
-            this.RadioButton19.UseVisualStyleBackColor = true;
-            // 
             // panel12
             // 
             this.panel12.Controls.Add(this.PictureBox13);
             this.panel12.Controls.Add(this.RadioButton11);
-            this.panel12.Location = new System.Drawing.Point(285, 408);
+            this.panel12.Location = new System.Drawing.Point(144, 408);
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(135, 129);
             this.panel12.TabIndex = 46;
@@ -591,7 +554,7 @@ namespace Vincent_OS
             // 
             this.panel13.Controls.Add(this.PictureBox14);
             this.panel13.Controls.Add(this.RadioButton6);
-            this.panel13.Location = new System.Drawing.Point(3, 543);
+            this.panel13.Location = new System.Drawing.Point(285, 408);
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(135, 129);
             this.panel13.TabIndex = 47;
@@ -630,36 +593,28 @@ namespace Vincent_OS
             this.TabPage3.Text = "Service";
             this.TabPage3.UseVisualStyleBackColor = true;
             // 
-            // panel17
+            // Button3
             // 
-            this.panel17.Controls.Add(this.PictureBox18);
-            this.panel17.Controls.Add(this.RadioButton16);
-            this.panel17.Location = new System.Drawing.Point(3, 138);
-            this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(135, 129);
-            this.panel17.TabIndex = 26;
-            this.panel17.Visible = false;
+            this.Button3.BackColor = System.Drawing.Color.LightGray;
+            this.Button3.FlatAppearance.BorderSize = 0;
+            this.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.Button3.Location = new System.Drawing.Point(207, 324);
+            this.Button3.Name = "Button3";
+            this.Button3.Size = new System.Drawing.Size(75, 23);
+            this.Button3.TabIndex = 16;
+            this.Button3.Text = "Arrêter";
+            this.Button3.UseVisualStyleBackColor = false;
+            this.Button3.Click += new System.EventHandler(this.Button3_Click);
             // 
-            // PictureBox18
+            // Label3
             // 
-            this.PictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox18.Image")));
-            this.PictureBox18.Location = new System.Drawing.Point(12, 3);
-            this.PictureBox18.Name = "PictureBox18";
-            this.PictureBox18.Size = new System.Drawing.Size(105, 104);
-            this.PictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PictureBox18.TabIndex = 24;
-            this.PictureBox18.TabStop = false;
-            // 
-            // RadioButton16
-            // 
-            this.RadioButton16.AutoSize = true;
-            this.RadioButton16.Location = new System.Drawing.Point(3, 109);
-            this.RadioButton16.Name = "RadioButton16";
-            this.RadioButton16.Size = new System.Drawing.Size(119, 17);
-            this.RadioButton16.TabIndex = 3;
-            this.RadioButton16.TabStop = true;
-            this.RadioButton16.Text = "Paramètres.SerVOS";
-            this.RadioButton16.UseVisualStyleBackColor = true;
+            this.Label3.AutoSize = true;
+            this.Label3.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label3.Location = new System.Drawing.Point(20, 3);
+            this.Label3.Name = "Label3";
+            this.Label3.Size = new System.Drawing.Size(459, 36);
+            this.Label3.TabIndex = 6;
+            this.Label3.Text = "Sélectionner le service à arrêter";
             // 
             // flowLayoutPanel2
             // 
@@ -765,28 +720,36 @@ namespace Vincent_OS
             this.RadioButton14.Text = "Bureau2.SerVOS";
             this.RadioButton14.UseVisualStyleBackColor = true;
             // 
-            // Button3
+            // panel17
             // 
-            this.Button3.BackColor = System.Drawing.Color.LightGray;
-            this.Button3.FlatAppearance.BorderSize = 0;
-            this.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Button3.Location = new System.Drawing.Point(207, 324);
-            this.Button3.Name = "Button3";
-            this.Button3.Size = new System.Drawing.Size(75, 23);
-            this.Button3.TabIndex = 16;
-            this.Button3.Text = "Arrêter";
-            this.Button3.UseVisualStyleBackColor = false;
-            this.Button3.Click += new System.EventHandler(this.Button3_Click);
+            this.panel17.Controls.Add(this.PictureBox18);
+            this.panel17.Controls.Add(this.RadioButton16);
+            this.panel17.Location = new System.Drawing.Point(3, 138);
+            this.panel17.Name = "panel17";
+            this.panel17.Size = new System.Drawing.Size(135, 129);
+            this.panel17.TabIndex = 26;
+            this.panel17.Visible = false;
             // 
-            // Label3
+            // PictureBox18
             // 
-            this.Label3.AutoSize = true;
-            this.Label3.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label3.Location = new System.Drawing.Point(20, 3);
-            this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(459, 36);
-            this.Label3.TabIndex = 6;
-            this.Label3.Text = "Sélectionner le service à arrêter";
+            this.PictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox18.Image")));
+            this.PictureBox18.Location = new System.Drawing.Point(12, 3);
+            this.PictureBox18.Name = "PictureBox18";
+            this.PictureBox18.Size = new System.Drawing.Size(105, 104);
+            this.PictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PictureBox18.TabIndex = 24;
+            this.PictureBox18.TabStop = false;
+            // 
+            // RadioButton16
+            // 
+            this.RadioButton16.AutoSize = true;
+            this.RadioButton16.Location = new System.Drawing.Point(3, 109);
+            this.RadioButton16.Name = "RadioButton16";
+            this.RadioButton16.Size = new System.Drawing.Size(119, 17);
+            this.RadioButton16.TabIndex = 3;
+            this.RadioButton16.TabStop = true;
+            this.RadioButton16.Text = "Paramètres.SerVOS";
+            this.RadioButton16.UseVisualStyleBackColor = true;
             // 
             // TabPage2
             // 
@@ -920,9 +883,6 @@ namespace Vincent_OS
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox10)).EndInit();
-            this.panel11.ResumeLayout(false);
-            this.panel11.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox11)).EndInit();
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox13)).EndInit();
@@ -931,9 +891,6 @@ namespace Vincent_OS
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox14)).EndInit();
             this.TabPage3.ResumeLayout(false);
             this.TabPage3.PerformLayout();
-            this.panel17.ResumeLayout(false);
-            this.panel17.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox18)).EndInit();
             this.flowLayoutPanel2.ResumeLayout(false);
             this.panel14.ResumeLayout(false);
             this.panel14.PerformLayout();
@@ -944,6 +901,9 @@ namespace Vincent_OS
             this.panel16.ResumeLayout(false);
             this.panel16.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox17)).EndInit();
+            this.panel17.ResumeLayout(false);
+            this.panel17.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox18)).EndInit();
             this.TabPage2.ResumeLayout(false);
             this.TabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox20)).EndInit();
@@ -970,7 +930,6 @@ namespace Vincent_OS
         internal RadioButton RadioButton18;
         internal Button Button2;
         internal Label Label2;
-        internal RadioButton RadioButton19;
         internal RadioButton RadioButton20;
         internal RadioButton RadioButton12;
         internal TabPage TabPage3;
@@ -990,7 +949,6 @@ namespace Vincent_OS
         internal PictureBox PictureBox8;
         internal PictureBox PictureBox9;
         internal PictureBox PictureBox10;
-        internal PictureBox PictureBox11;
         internal PictureBox PictureBox13;
         internal PictureBox PictureBox14;
         internal PictureBox PictureBox15;
@@ -1010,7 +968,6 @@ namespace Vincent_OS
         private Panel panel8;
         private Panel panel9;
         private Panel panel10;
-        private Panel panel11;
         private Panel panel12;
         private Panel panel13;
         private Panel panel17;

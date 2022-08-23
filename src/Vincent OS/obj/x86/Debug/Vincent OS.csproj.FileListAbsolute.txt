@@ -181,7 +181,6 @@ C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\
 C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Bing_Chrome.resources
 C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Bureau.resources
 C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Bureau2.resources
-C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Download.resources
 C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Démarrage.resources
 C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Custom.resources
 C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.exewin.resources
@@ -194,7 +193,6 @@ C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\
 C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.paints.resources
 C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Media.resources
 C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Notepad.resources
-C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Store.resources
 C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Terminal.resources
 C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.UAC.resources
 C:\Users\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\obj\x86\Debug\Vincent_OS.Utilisateur.resources
