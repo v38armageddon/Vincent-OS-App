@@ -36,7 +36,7 @@
     <ProductName>Vincent OS</ProductName>
     <PublisherName>v38armageddon</PublisherName>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>9.0.0.%2a</ApplicationVersion>
+    <ApplicationVersion>9.0.1.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -252,12 +252,6 @@
     <Compile Include="Bureau2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Download.Designer.cs">
-      <DependentUpon>Download.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Download.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Démarrage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -329,12 +323,6 @@
       <DependentUpon>Notepad.cs</DependentUpon>
     </Compile>
     <Compile Include="Notepad.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Store.Designer.cs">
-      <DependentUpon>Store.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Store.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Terminal.Designer.cs">
@@ -419,9 +407,6 @@
     <EmbeddedResource Include="Bureau2.resx">
       <DependentUpon>Bureau2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Download.resx">
-      <DependentUpon>Download.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Démarrage.resx">
       <DependentUpon>Démarrage.cs</DependentUpon>
     </EmbeddedResource>
@@ -457,9 +442,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Notepad.resx">
       <DependentUpon>Notepad.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Store.resx">
-      <DependentUpon>Store.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Terminal.resx">
       <DependentUpon>Terminal.cs</DependentUpon>

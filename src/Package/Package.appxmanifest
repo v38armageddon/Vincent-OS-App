@@ -10,7 +10,7 @@
   <Identity
     Name="34823v38armageddon.VincentOSApp"
     Publisher="CN=EF25BC35-CB3A-4D06-953A-49E6117D3FA3"
-    Version="9.0.0.0" />
+    Version="9.0.1.0" />
 
   <Properties>
     <DisplayName>Vincent OS App</DisplayName>
