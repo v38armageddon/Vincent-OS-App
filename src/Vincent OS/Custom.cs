@@ -200,32 +200,6 @@ namespace Vincent_OS
             }
         }
 
-        private void CheckBox9_CheckedChanged(object sender, EventArgs e)
-        {
-            if (CheckBox9.Checked == true)
-            {
-                if (My.MyProject.Forms.Bureau.Visible == true)
-                {
-                    My.MyProject.Forms.Bureau.Button7.Visible = true;
-                }
-                if (My.MyProject.Forms.Bureau2.Visible == true)
-                {
-                    My.MyProject.Forms.Bureau2.Button11.Visible = true;
-                }
-            }
-            else if (CheckBox9.Checked == false)
-            {
-                if (My.MyProject.Forms.Bureau.Visible == true)
-                {
-                    My.MyProject.Forms.Bureau.Button7.Visible = false;
-                }
-                if (My.MyProject.Forms.Bureau2.Visible == true)
-                {
-                    My.MyProject.Forms.Bureau2.Button11.Visible = false;
-                }
-            }
-        }
-
         private void CheckBox2_CheckedChanged(object sender, EventArgs e)
         {
             if (CheckBox2.Checked == true)

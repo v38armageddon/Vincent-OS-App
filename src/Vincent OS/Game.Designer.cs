@@ -35,91 +35,73 @@ namespace Vincent_OS
         [DebuggerStepThrough()]
         private void InitializeComponent()
         {
-            var resources = new System.ComponentModel.ComponentResourceManager(typeof(game));
-            Button1 = new Button();
-            Button1.Click += new EventHandler(Button1_Click);
-            Label1 = new Label();
-            Button2 = new Button();
-            Button2.Click += new EventHandler(Button2_Click);
-            Button4 = new Button();
-            Button4.Click += new EventHandler(Button4_Click);
-            SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(game));
+            this.Button1 = new System.Windows.Forms.Button();
+            this.Label1 = new System.Windows.Forms.Label();
+            this.Button2 = new System.Windows.Forms.Button();
+            this.SuspendLayout();
             // 
             // Button1
             // 
-            Button1.BackgroundImage = (Image)resources.GetObject("Button1.BackgroundImage");
-            Button1.BackgroundImageLayout = ImageLayout.Stretch;
-            Button1.FlatAppearance.BorderSize = 0;
-            Button1.FlatStyle = FlatStyle.Flat;
-            Button1.Location = new Point(95, 8);
-            Button1.Name = "Button1";
-            Button1.Size = new Size(75, 73);
-            Button1.TabIndex = 0;
-            Button1.UseVisualStyleBackColor = true;
+            this.Button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button1.BackgroundImage")));
+            this.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.Button1.FlatAppearance.BorderSize = 0;
+            this.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button1.Location = new System.Drawing.Point(12, 8);
+            this.Button1.Name = "Button1";
+            this.Button1.Size = new System.Drawing.Size(75, 73);
+            this.Button1.TabIndex = 0;
+            this.Button1.UseVisualStyleBackColor = true;
+            this.Button1.Click += new System.EventHandler(this.Button1_Click);
             // 
             // Label1
             // 
-            Label1.AutoSize = true;
-            Label1.Font = new Font("Arial", 15.75f, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Label1.Location = new Point(176, 30);
-            Label1.Name = "Label1";
-            Label1.Size = new Size(96, 24);
-            Label1.TabIndex = 1;
-            Label1.Text = "Labyrinth";
+            this.Label1.AutoSize = true;
+            this.Label1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label1.Location = new System.Drawing.Point(93, 30);
+            this.Label1.Name = "Label1";
+            this.Label1.Size = new System.Drawing.Size(96, 24);
+            this.Label1.TabIndex = 1;
+            this.Label1.Text = "Labyrinth";
             // 
             // Button2
             // 
-            Button2.BackColor = Color.Green;
-            Button2.FlatAppearance.BorderSize = 0;
-            Button2.FlatStyle = FlatStyle.Flat;
-            Button2.Font = new Font("Calibri", 11.25f);
-            Button2.ForeColor = Color.White;
-            Button2.Location = new Point(7, 87);
-            Button2.Name = "Button2";
-            Button2.Size = new Size(212, 30);
-            Button2.TabIndex = 2;
-            Button2.Text = "Exécuter un jeu non-Vincent OS";
-            Button2.UseVisualStyleBackColor = false;
-            // 
-            // Button4
-            // 
-            Button4.BackColor = Color.Green;
-            Button4.FlatAppearance.BorderSize = 0;
-            Button4.FlatStyle = FlatStyle.Flat;
-            Button4.Font = new Font("Calibri", 11.25f, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Button4.ForeColor = Color.White;
-            Button4.Location = new Point(225, 87);
-            Button4.Name = "Button4";
-            Button4.Size = new Size(146, 30);
-            Button4.TabIndex = 5;
-            Button4.Text = "Obtenir plus de jeux";
-            Button4.UseVisualStyleBackColor = false;
+            this.Button2.BackColor = System.Drawing.Color.Green;
+            this.Button2.FlatAppearance.BorderSize = 0;
+            this.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button2.Font = new System.Drawing.Font("Calibri", 11.25F);
+            this.Button2.ForeColor = System.Drawing.Color.White;
+            this.Button2.Location = new System.Drawing.Point(7, 87);
+            this.Button2.Name = "Button2";
+            this.Button2.Size = new System.Drawing.Size(212, 30);
+            this.Button2.TabIndex = 2;
+            this.Button2.Text = "Exécuter un jeu non-Vincent OS";
+            this.Button2.UseVisualStyleBackColor = false;
+            this.Button2.Click += new System.EventHandler(this.Button2_Click);
             // 
             // game
             // 
-            AutoScaleDimensions = new SizeF(6.0f, 13.0f);
-            AutoScaleMode = AutoScaleMode.Font;
-            BackColor = Color.White;
-            ClientSize = new Size(383, 132);
-            Controls.Add(Button4);
-            Controls.Add(Button2);
-            Controls.Add(Label1);
-            Controls.Add(Button1);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
-            Icon = (Icon)resources.GetObject("$this.Icon");
-            MaximizeBox = false;
-            Name = "game";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "Gestionnaire de jeux";
-            Load += new EventHandler(game_Load);
-            FormClosed += new FormClosedEventHandler(game_FormClosed);
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.White;
+            this.ClientSize = new System.Drawing.Size(228, 132);
+            this.Controls.Add(this.Button2);
+            this.Controls.Add(this.Label1);
+            this.Controls.Add(this.Button1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
+            this.Name = "game";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Gestionnaire de jeux";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.game_FormClosed);
+            this.Load += new System.EventHandler(this.game_Load);
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
         internal Button Button1;
         internal Label Label1;
         internal Button Button2;
-        internal Button Button4;
     }
 }

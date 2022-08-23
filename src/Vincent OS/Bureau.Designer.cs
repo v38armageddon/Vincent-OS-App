@@ -56,7 +56,6 @@ namespace Vincent_OS
             this.Button22 = new System.Windows.Forms.Button();
             this.Button23 = new System.Windows.Forms.Button();
             this.Button24 = new System.Windows.Forms.Button();
-            this.Button8 = new System.Windows.Forms.Button();
             this.Button18 = new System.Windows.Forms.Button();
             this.Button26 = new System.Windows.Forms.Button();
             this.Button12 = new System.Windows.Forms.Button();
@@ -72,7 +71,6 @@ namespace Vincent_OS
             this.Button14 = new System.Windows.Forms.Button();
             this.Button13 = new System.Windows.Forms.Button();
             this.Button11 = new System.Windows.Forms.Button();
-            this.Button7 = new System.Windows.Forms.Button();
             this.Button10 = new System.Windows.Forms.Button();
             this.Button25 = new System.Windows.Forms.Button();
             this.PictureBox6 = new System.Windows.Forms.PictureBox();
@@ -206,7 +204,6 @@ namespace Vincent_OS
             this.FlowLayoutPanel2.Controls.Add(this.Button22);
             this.FlowLayoutPanel2.Controls.Add(this.Button23);
             this.FlowLayoutPanel2.Controls.Add(this.Button24);
-            this.FlowLayoutPanel2.Controls.Add(this.Button8);
             this.FlowLayoutPanel2.Controls.Add(this.Button18);
             this.FlowLayoutPanel2.Controls.Add(this.Button26);
             this.FlowLayoutPanel2.Location = new System.Drawing.Point(34, 425);
@@ -331,25 +328,12 @@ namespace Vincent_OS
             this.Button24.Visible = false;
             this.Button24.Click += new System.EventHandler(this.Button24_Click);
             // 
-            // Button8
-            // 
-            this.Button8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button8.BackgroundImage")));
-            this.Button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button8.Location = new System.Drawing.Point(264, 3);
-            this.Button8.Name = "Button8";
-            this.Button8.Size = new System.Drawing.Size(23, 23);
-            this.Button8.TabIndex = 34;
-            this.Button8.UseVisualStyleBackColor = true;
-            this.Button8.Visible = false;
-            this.Button8.Click += new System.EventHandler(this.Button8_Click_1);
-            // 
             // Button18
             // 
             this.Button18.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button18.BackgroundImage")));
             this.Button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button18.Location = new System.Drawing.Point(293, 3);
+            this.Button18.Location = new System.Drawing.Point(264, 3);
             this.Button18.Name = "Button18";
             this.Button18.Size = new System.Drawing.Size(23, 23);
             this.Button18.TabIndex = 35;
@@ -362,7 +346,7 @@ namespace Vincent_OS
             this.Button26.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button26.BackgroundImage")));
             this.Button26.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button26.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button26.Location = new System.Drawing.Point(322, 3);
+            this.Button26.Location = new System.Drawing.Point(293, 3);
             this.Button26.Name = "Button26";
             this.Button26.Size = new System.Drawing.Size(23, 23);
             this.Button26.TabIndex = 36;
@@ -434,7 +418,6 @@ namespace Vincent_OS
             this.FlowLayoutPanel1.Controls.Add(this.Button14);
             this.FlowLayoutPanel1.Controls.Add(this.Button13);
             this.FlowLayoutPanel1.Controls.Add(this.Button11);
-            this.FlowLayoutPanel1.Controls.Add(this.Button7);
             this.FlowLayoutPanel1.Controls.Add(this.Button10);
             this.FlowLayoutPanel1.Controls.Add(this.Button25);
             this.FlowLayoutPanel1.Location = new System.Drawing.Point(0, 22);
@@ -547,25 +530,12 @@ namespace Vincent_OS
             this.Button11.Visible = false;
             this.Button11.Click += new System.EventHandler(this.Button11_Click);
             // 
-            // Button7
-            // 
-            this.Button7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button7.BackgroundImage")));
-            this.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button7.Location = new System.Drawing.Point(451, 3);
-            this.Button7.Name = "Button7";
-            this.Button7.Size = new System.Drawing.Size(50, 50);
-            this.Button7.TabIndex = 22;
-            this.Button7.UseVisualStyleBackColor = true;
-            this.Button7.Visible = false;
-            this.Button7.Click += new System.EventHandler(this.Button7_Click);
-            // 
             // Button10
             // 
             this.Button10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button10.BackgroundImage")));
             this.Button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button10.Location = new System.Drawing.Point(507, 3);
+            this.Button10.Location = new System.Drawing.Point(451, 3);
             this.Button10.Name = "Button10";
             this.Button10.Size = new System.Drawing.Size(50, 50);
             this.Button10.TabIndex = 23;
@@ -578,7 +548,7 @@ namespace Vincent_OS
             this.Button25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button25.BackgroundImage")));
             this.Button25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button25.Location = new System.Drawing.Point(563, 3);
+            this.Button25.Location = new System.Drawing.Point(507, 3);
             this.Button25.Name = "Button25";
             this.Button25.Size = new System.Drawing.Size(50, 50);
             this.Button25.TabIndex = 24;
@@ -716,8 +686,6 @@ namespace Vincent_OS
         internal Button Button22;
         internal Button Button23;
         internal Button Button24;
-        internal Button Button7;
-        internal Button Button8;
         internal Button Button18;
         internal Button Button10;
         internal Button Button25;
