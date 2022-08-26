@@ -55,12 +55,12 @@ namespace Vincent_OS
             if (TextBox1.Text == "ver")
             {
                 // ATTENTION A BIEN CHANGER LA VERSION CAR JE VAIS SUREMENT OUBLIER A LA PROCHAINE VERSION !!!!!!!!!!!
-                RichTextBox1.Text = "Nom du système d'exploitation : Vincent OS\nVersion : 8.1\nBranche : Beta";
+                RichTextBox1.Text = "Nom du système d'exploitation : Vincent OS\nVersion : 9.0.1\nBranche : Officiel";
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "help")
             {
-                RichTextBox1.Text = "Bing Chrome        Lance Bing Chrome.\nCalc       Lance la calculatrice\nChrono       Lance le chronomètre\nExewin       Lance l'exécuteur d'application non Vincent OS.\nGame        Lance le gestionnaire de jeux.\nMediaPlayer      Lance le Media Player.\nMeme        Lance l'explorateur de fichiers.\nNotepad        Lance le Bloc Note.\nPaint       Lance Paint.\nStore        Lance Vincent OS Store.\nTerminal     Lance une autre fenêtre d'un Terminal.\nVisio       Lance la visionneuse d'images.\n\nCertaines commandes sont cachées !";
+                RichTextBox1.Text = "Bing Chrome        Lance Bing Chrome.\nCalc       Lance la calculatrice\nChrono       Lance le chronomètre\nExewin       Lance l'exécuteur d'application non Vincent OS.\nGame        Lance le gestionnaire de jeux.\nMediaPlayer      Lance le Media Player.\nMeme        Lance l'explorateur de fichiers.\nNotepad        Lance le Bloc Note.\nPaint       Lance Paint.\nTerminal     Lance une autre fenêtre d'un Terminal.\nVisio       Lance la visionneuse d'images.\n\nCertaines commandes sont cachées !";
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Bing Chrome")
@@ -103,11 +103,6 @@ namespace Vincent_OS
                 My.MyProject.Forms.paints.Show();
                 TextBox1.Text = "";
             }
-            else if (TextBox1.Text == "Store")
-            {
-                My.MyProject.Forms.Store.Show();
-                TextBox1.Text = "";
-            }
             else if (TextBox1.Text == "Terminal")
             {
                 var cp = new Terminal();
@@ -119,17 +114,9 @@ namespace Vincent_OS
                 My.MyProject.Forms.Visio.Show();
                 TextBox1.Text = "";
             }
-            // Applications disponible sur le store
             else if (TextBox1.Text == "Chrono")
             {
-                if (My.MyProject.Forms.Applications.Button11.Visible == true)
-                {
-                    My.MyProject.Forms.chrono.Show();
-                }
-                else
-                {
-                    RichTextBox1.Text = "ERREUR : Cette application n'est pas installé.";
-                }
+                My.MyProject.Forms.chrono.Show();
                 TextBox1.Text = "";
             }
             // Ici commence les commandes de Debug, à utiliser avec précaution !
@@ -168,6 +155,11 @@ namespace Vincent_OS
             else if (TextBox1.Text == "Debug_Help")
             {
                 RichTextBox1.Text = "Debug_AlerteLog\nDebug_AlerteLog_ForceCrash\nDebug_Options";
+                TextBox1.Text = "";
+            }
+            else if (TextBox1.Text == "Debug_App_ForceCrash")
+            {
+                Application.SetUnhandledExceptionMode(UnhandledExceptionMode.ThrowException);
                 TextBox1.Text = "";
             }
             else

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using Microsoft.Web.WebView2;
 
 namespace Vincent_OS
 {
@@ -8,52 +9,6 @@ namespace Vincent_OS
         public Bing_Chrome()
         {
             InitializeComponent();
-        }
-        private void Button3_Click(object sender, EventArgs e)
-        {
-            WebBrowser2.GoBack();
-            TabPage2.Text = WebBrowser2.DocumentTitle; // Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
-        }
-
-        private void Button4_Click(object sender, EventArgs e)
-        {
-            WebBrowser2.GoForward();
-            TabPage2.Text = WebBrowser2.DocumentTitle; // Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
-        }
-
-        private void Button5_Click(object sender, EventArgs e)
-        {
-            WebBrowser2.GoHome();
-            TabPage2.Text = WebBrowser2.DocumentTitle; // Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
-        }
-
-        private void Button6_Click(object sender, EventArgs e)
-        {
-            WebBrowser2.Refresh();
-            TabPage2.Text = WebBrowser2.DocumentTitle; // Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
-        }
-
-        private void Button7_Click(object sender, EventArgs e)
-        {
-            WebBrowser2.Stop();
-            TabPage2.Text = WebBrowser2.DocumentTitle; // Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
-        }
-
-        private void Button8_Click(object sender, EventArgs e)
-        {
-            search();
-        }
-
-        private void Bing_Chrome_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            if (My.MyProject.Forms.Bureau.Visible == true)
-            {
-                My.MyProject.Forms.Bureau.Button15.Visible = false;
-            }
-            else if (My.MyProject.Forms.Bureau2.Visible == true)
-            {
-                My.MyProject.Forms.Bureau2.Button15.Visible = false;
-            }
         }
 
         private void Bing_Chrome_Load(object sender, EventArgs e)
@@ -66,20 +21,36 @@ namespace Vincent_OS
             {
                 My.MyProject.Forms.Bureau2.Button15.Visible = true;
             }
-            TabPage2.Text = WebBrowser2.DocumentTitle; // Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
+        }
+        
+        private void Button3_Click(object sender, EventArgs e)
+        {
+            webView2.CoreWebView2.GoBack();
         }
 
-        private void Button1_Click(object sender, EventArgs e)
+        private void Button4_Click(object sender, EventArgs e)
         {
-            var newPage = new TabPage();
-            newPage.Text = WebBrowser2.DocumentTitle;
-            TabControl1.TabPages.Add(newPage);
-            var webbrowswer = new WebBrowser();
-            webbrowswer.Dock = DockStyle.Fill;
-            webbrowswer.Navigate("https://www.bing.com");
-            newPage.Controls.Add(webbrowswer);
-            TabControl1.SelectedTab = newPage;
-            TabPage2.Text = WebBrowser2.DocumentTitle; // Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
+            webView2.CoreWebView2.GoForward();
+        }
+
+        private void Button5_Click(object sender, EventArgs e)
+        {
+            webView2.CoreWebView2.Navigate("https://bing.com");
+        }
+
+        private void Button6_Click(object sender, EventArgs e)
+        {
+            webView2.CoreWebView2.Reload();
+        }
+
+        private void Button7_Click(object sender, EventArgs e)
+        {
+            webView2.CoreWebView2.Stop();
+        }
+
+        private void Button8_Click(object sender, EventArgs e)
+        {
+            search();
         }
 
         private void TextBox1_Click(object sender, EventArgs e)
@@ -98,28 +69,44 @@ namespace Vincent_OS
             }
         }
 
+        private void webView2_NavigationStarting(object sender, Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs e)
+        {
+            // Fix le problème de connexion à Google dû au UserAgent, voir https://github.com/MicrosoftEdge/WebView2Feedback/issues/1647
+            var settings = webView2.CoreWebView2.Settings;
+            if (webView2.Source.ToString().Contains("https://accounts.google.com"))
+            {
+                settings.UserAgent = GetMobileUserAgent();
+            }
+        }
+
+        private void Bing_Chrome_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            if (My.MyProject.Forms.Bureau.Visible == true)
+            {
+                My.MyProject.Forms.Bureau.Button15.Visible = false;
+            }
+            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            {
+                My.MyProject.Forms.Bureau2.Button15.Visible = false;
+            }
+        }
+
         private void search()
         {
             // Regarder si dans la TextBox, cela contient soit http ou https
             if (TextBox1.Text.Contains("http://") | TextBox1.Text.Contains("https://"))
             {
-                WebBrowser2.Navigate(TextBox1.Text);
-                TabPage2.Text = WebBrowser2.DocumentTitle; // Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
+                webView2.CoreWebView2.Navigate(TextBox1.Text);
             }
             else
             {
-                WebBrowser2.Navigate("http://www.bing.com/search?q=" + TextBox1.Text);
-                TabPage2.Text = WebBrowser2.DocumentTitle;
-            } // Bien que parfois cela puisse buger, à voir pour opter pour une alternative ?
+                webView2.CoreWebView2.Navigate("http://www.bing.com/search?q=" + TextBox1.Text);
+            }
         }
 
-        private void Button2_Click(object sender, EventArgs e)
+        private string GetMobileUserAgent()
         {
-            TabControl1.Controls.RemoveAt(0);
-            if (TabControl1.TabPages.Count == 0)
-            {
-                Close();
-            }
+            return "Chrome";
         }
     }
 }

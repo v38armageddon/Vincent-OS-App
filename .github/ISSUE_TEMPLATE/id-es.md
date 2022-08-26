@@ -2,7 +2,7 @@
 name: Idées
 about: Suggérez une idée pour améliorer Vincent OS.
 title: "[IDÉE]"
-labels: Idées
+labels: A voir, Idées
 assignees: v38armageddon
 
 ---

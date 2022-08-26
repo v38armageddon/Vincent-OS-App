@@ -32,15 +32,6 @@ namespace Vincent_OS
             My.MyProject.Forms.MazeGame.Show();
         }
 
-        private void Button4_Click(object sender, EventArgs e)
-        {
-            // Si aucun jeu n'est détecté, commenter
-            // Store.Show()
-            var errorsound = new System.Media.SoundPlayer(My.Resources.Resources.errorSound);
-            errorsound.Play();
-            MessageBox.Show("ERREUR : Aucun jeu supplémentaire n'as été détecté sur le Store.", "ERREUR", MessageBoxButtons.OK, MessageBoxIcon.Error);
-        }
-
         private void game_FormClosed(object sender, FormClosedEventArgs e)
         {
             if (My.MyProject.Forms.Bureau.Visible == true)

@@ -263,29 +263,6 @@ namespace Vincent_OS.My
 
 
             [EditorBrowsable(EditorBrowsableState.Never)]
-            public Download m_Download;
-
-            public Download Download
-            {
-                [DebuggerHidden]
-                get
-                {
-                    m_Download = Create__Instance__(m_Download);
-                    return m_Download;
-                }
-                [DebuggerHidden]
-                set
-                {
-                    if (ReferenceEquals(value, m_Download))
-                        return;
-                    if (value is not null)
-                        throw new ArgumentException("Property can only be set to Nothing");
-                    Dispose__Instance__(ref m_Download);
-                }
-            }
-
-
-            [EditorBrowsable(EditorBrowsableState.Never)]
             public Démarrage m_Démarrage;
 
             public Démarrage Démarrage
@@ -559,30 +536,6 @@ namespace Vincent_OS.My
                     Dispose__Instance__(ref m_Paramètres);
                 }
             }
-
-
-            [EditorBrowsable(EditorBrowsableState.Never)]
-            public Store m_Store;
-
-            public Store Store
-            {
-                [DebuggerHidden]
-                get
-                {
-                    m_Store = Create__Instance__(m_Store);
-                    return m_Store;
-                }
-                [DebuggerHidden]
-                set
-                {
-                    if (ReferenceEquals(value, m_Store))
-                        return;
-                    if (value is not null)
-                        throw new ArgumentException("Property can only be set to Nothing");
-                    Dispose__Instance__(ref m_Store);
-                }
-            }
-
 
             [EditorBrowsable(EditorBrowsableState.Never)]
             public TaskVOS m_TaskVOS;

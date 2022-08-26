@@ -9,26 +9,16 @@ namespace Vincent_OS
         {
             InitializeComponent();
         }
-        // (!) Vérification du mot de passe (!)
+        // /!\ Vérification du mot de passe /!\
         private void verifylog()
         {
             if (TextBox1.Text == "Vincent OS")
             {
                 TextBox1.Text = "";
                 // /!\ Faire attention aux potentiels changements dans le futur ! /!\
-                if (My.MyProject.Forms.Applications.Visible == true)
-                {
-                    My.MyProject.Forms.Store.Show();
-                    Close();
-                }
-                else if (My.MyProject.Forms.Bureau2.Panel1.Visible == true)
+                if (My.MyProject.Forms.Bureau2.Panel1.Visible == true)
                 {
                     My.MyProject.Forms.Paramètres.Show();
-                    Close();
-                }
-                else if (My.MyProject.Forms.Bureau2.Button11.Visible == true)
-                {
-                    My.MyProject.Forms.Store.Show();
                     Close();
                 }
             }

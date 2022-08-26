@@ -53,10 +53,6 @@ namespace Vincent_OS
             {
                 panel10.Visible = true;
             }
-            if (My.MyProject.Forms.Store.Visible == true)
-            {
-                panel11.Visible = true;
-            }
             if (My.MyProject.Forms.Terminal.Visible == true)
             {
                 panel12.Visible = true;
@@ -131,10 +127,6 @@ namespace Vincent_OS
             else if (RadioButton12.Checked == true)
             {
                 My.MyProject.Forms.Calc.Close();
-            }
-            else if (RadioButton19.Checked == true)
-            {
-                My.MyProject.Forms.Store.Close();
             }
             else if (RadioButton20.Checked == true)
             {

@@ -48,7 +48,6 @@ namespace Vincent_OS
             this.TabPage1 = new System.Windows.Forms.TabPage();
             this.CheckBox11 = new System.Windows.Forms.CheckBox();
             this.CheckBox10 = new System.Windows.Forms.CheckBox();
-            this.CheckBox9 = new System.Windows.Forms.CheckBox();
             this.CheckBox8 = new System.Windows.Forms.CheckBox();
             this.CheckBox7 = new System.Windows.Forms.CheckBox();
             this.CheckBox6 = new System.Windows.Forms.CheckBox();
@@ -60,7 +59,6 @@ namespace Vincent_OS
             this.Label3 = new System.Windows.Forms.Label();
             this.PictureBox14 = new System.Windows.Forms.PictureBox();
             this.PictureBox13 = new System.Windows.Forms.PictureBox();
-            this.PictureBox12 = new System.Windows.Forms.PictureBox();
             this.PictureBox11 = new System.Windows.Forms.PictureBox();
             this.PictureBox10 = new System.Windows.Forms.PictureBox();
             this.PictureBox9 = new System.Windows.Forms.PictureBox();
@@ -81,7 +79,6 @@ namespace Vincent_OS
             this.TabPage1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox14)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox12)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox11)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox10)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox9)).BeginInit();
@@ -203,7 +200,6 @@ namespace Vincent_OS
             // 
             this.TabPage1.Controls.Add(this.CheckBox11);
             this.TabPage1.Controls.Add(this.CheckBox10);
-            this.TabPage1.Controls.Add(this.CheckBox9);
             this.TabPage1.Controls.Add(this.CheckBox8);
             this.TabPage1.Controls.Add(this.CheckBox7);
             this.TabPage1.Controls.Add(this.CheckBox6);
@@ -215,7 +211,6 @@ namespace Vincent_OS
             this.TabPage1.Controls.Add(this.Label3);
             this.TabPage1.Controls.Add(this.PictureBox14);
             this.TabPage1.Controls.Add(this.PictureBox13);
-            this.TabPage1.Controls.Add(this.PictureBox12);
             this.TabPage1.Controls.Add(this.PictureBox11);
             this.TabPage1.Controls.Add(this.PictureBox10);
             this.TabPage1.Controls.Add(this.PictureBox9);
@@ -235,7 +230,7 @@ namespace Vincent_OS
             // CheckBox11
             // 
             this.CheckBox11.AutoSize = true;
-            this.CheckBox11.Location = new System.Drawing.Point(321, 188);
+            this.CheckBox11.Location = new System.Drawing.Point(327, 118);
             this.CheckBox11.Name = "CheckBox11";
             this.CheckBox11.Size = new System.Drawing.Size(15, 14);
             this.CheckBox11.TabIndex = 22;
@@ -245,22 +240,12 @@ namespace Vincent_OS
             // CheckBox10
             // 
             this.CheckBox10.AutoSize = true;
-            this.CheckBox10.Location = new System.Drawing.Point(321, 116);
+            this.CheckBox10.Location = new System.Drawing.Point(327, 46);
             this.CheckBox10.Name = "CheckBox10";
             this.CheckBox10.Size = new System.Drawing.Size(15, 14);
             this.CheckBox10.TabIndex = 21;
             this.CheckBox10.UseVisualStyleBackColor = true;
             this.CheckBox10.CheckedChanged += new System.EventHandler(this.CheckBox10_CheckedChanged);
-            // 
-            // CheckBox9
-            // 
-            this.CheckBox9.AutoSize = true;
-            this.CheckBox9.Location = new System.Drawing.Point(321, 47);
-            this.CheckBox9.Name = "CheckBox9";
-            this.CheckBox9.Size = new System.Drawing.Size(15, 14);
-            this.CheckBox9.TabIndex = 20;
-            this.CheckBox9.UseVisualStyleBackColor = true;
-            this.CheckBox9.CheckedChanged += new System.EventHandler(this.CheckBox9_CheckedChanged);
             // 
             // CheckBox8
             // 
@@ -355,7 +340,7 @@ namespace Vincent_OS
             // PictureBox14
             // 
             this.PictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox14.Image")));
-            this.PictureBox14.Location = new System.Drawing.Point(237, 162);
+            this.PictureBox14.Location = new System.Drawing.Point(243, 92);
             this.PictureBox14.Name = "PictureBox14";
             this.PictureBox14.Size = new System.Drawing.Size(64, 64);
             this.PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -365,22 +350,12 @@ namespace Vincent_OS
             // PictureBox13
             // 
             this.PictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox13.Image")));
-            this.PictureBox13.Location = new System.Drawing.Point(237, 92);
+            this.PictureBox13.Location = new System.Drawing.Point(243, 22);
             this.PictureBox13.Name = "PictureBox13";
             this.PictureBox13.Size = new System.Drawing.Size(64, 64);
             this.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox13.TabIndex = 10;
             this.PictureBox13.TabStop = false;
-            // 
-            // PictureBox12
-            // 
-            this.PictureBox12.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox12.Image")));
-            this.PictureBox12.Location = new System.Drawing.Point(237, 22);
-            this.PictureBox12.Name = "PictureBox12";
-            this.PictureBox12.Size = new System.Drawing.Size(64, 64);
-            this.PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PictureBox12.TabIndex = 9;
-            this.PictureBox12.TabStop = false;
             // 
             // PictureBox11
             // 
@@ -552,7 +527,6 @@ namespace Vincent_OS
             this.TabPage1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox14)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox12)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox11)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox10)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox9)).EndInit();
@@ -588,7 +562,6 @@ namespace Vincent_OS
         internal PictureBox PictureBox4;
         internal PictureBox PictureBox14;
         internal PictureBox PictureBox13;
-        internal PictureBox PictureBox12;
         internal PictureBox PictureBox11;
         internal PictureBox PictureBox10;
         internal PictureBox PictureBox9;
@@ -598,7 +571,6 @@ namespace Vincent_OS
         internal PictureBox PictureBox5;
         internal CheckBox CheckBox11;
         internal CheckBox CheckBox10;
-        internal CheckBox CheckBox9;
         internal CheckBox CheckBox8;
         internal CheckBox CheckBox7;
         internal CheckBox CheckBox6;

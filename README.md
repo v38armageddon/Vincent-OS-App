@@ -2,7 +2,19 @@
 Ce projet consiste à créer un mini système d'exploitation dans mes temps perdus.
 
 ## Installation
-Vous pouvez télécharger les fichiers exécutables sans avoir besoin de tout le dossier : "src".
+
+### Installation recommandé
+Le meilleur moyen d'obtenir Vincent OS est de télécharger depuis le Microsof Store.
+
+<a href="ms-windows-store://pdp/?productid=9PGNSPX24L00s">
+  <img src="https://github.com/v38armageddon/Vincent-OS-App/blob/officiel/Assets/Microsoft-store.png">
+</a>
+
+### Installation alternatif
+Si vous ne souhaitez pas passer par le Microsoft Store, vous pouvez téléchargez le fichier : Vincent OS Setup.exe
+
+### Installation Standalone
+Vous pouvez aussi téléchargez le fichier .zip et lancer l'exécutable : Vincent OS.exe
 
 ### Installation développeur
 Si vous voulez avoir tout les fichiers, vous pouvez cloner le projet.

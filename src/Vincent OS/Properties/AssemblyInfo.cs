@@ -9,9 +9,9 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyTitle("Vincent OS")]
 [assembly: AssemblyDescription("Découvrez un mini système d'exploitation avec des logiciels sympa !")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("v38armageddon Software")]
+[assembly: AssemblyCompany("v38armageddon")]
 [assembly: AssemblyProduct("Vincent OS")]
-[assembly: AssemblyCopyright("GPL-v3.0 2019-2022")]
+[assembly: AssemblyCopyright("GPL-3 2019-2022")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -30,6 +30,6 @@ using System.Runtime.InteropServices;
 //      Numéro de build
 //      Révision
 //
-[assembly: AssemblyVersion("8.1.0.0")]
-[assembly: AssemblyFileVersion("8.1.0.0")]
+[assembly: AssemblyVersion("9.0.1.0")]
+[assembly: AssemblyFileVersion("9.0.1.0")]
 [assembly: NeutralResourcesLanguage("fr-FR")]

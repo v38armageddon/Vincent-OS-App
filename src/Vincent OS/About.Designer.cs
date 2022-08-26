@@ -63,9 +63,9 @@ namespace Vincent_OS
             this.Label2.ForeColor = System.Drawing.Color.White;
             this.Label2.Location = new System.Drawing.Point(206, 56);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(176, 33);
+            this.Label2.Size = new System.Drawing.Size(200, 33);
             this.Label2.TabIndex = 2;
-            this.Label2.Text = "Version : 8.1";
+            this.Label2.Text = "Version : 9.0.1";
             // 
             // Label3
             // 
@@ -96,9 +96,9 @@ namespace Vincent_OS
             this.Label5.ForeColor = System.Drawing.Color.White;
             this.Label5.Location = new System.Drawing.Point(205, 89);
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(195, 32);
+            this.Label5.Size = new System.Drawing.Size(221, 32);
             this.Label5.TabIndex = 5;
-            this.Label5.Text = "Branche : Beta";
+            this.Label5.Text = "Branche : Officiel";
             // 
             // PictureBox1
             // 
