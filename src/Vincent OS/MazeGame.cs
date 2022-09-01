@@ -65,5 +65,11 @@ namespace Vincent_OS
             MoveToStart();
             MessageBox.Show("Tricher, c'est mal.");
         }
+
+        private void MazeGame_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
+        }
     }
 }

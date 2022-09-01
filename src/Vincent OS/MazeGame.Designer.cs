@@ -864,6 +864,7 @@ namespace Vincent_OS
             this.Name = "MazeGame";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Labyrinth";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.MazeGame_FormClosed);
             this.Load += new System.EventHandler(this.MazeGame_Load);
             this.Panel1.ResumeLayout(false);
             this.Panel2.ResumeLayout(false);
