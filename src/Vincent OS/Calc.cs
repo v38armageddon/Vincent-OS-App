@@ -230,6 +230,8 @@ namespace Vincent_OS
             {
                 My.MyProject.Forms.Bureau2.Button26.Visible = false;
             }
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
         }
     }
 }

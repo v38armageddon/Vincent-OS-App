@@ -25,6 +25,8 @@ namespace Vincent_OS
                 ProgressBar1.Value = 0;
                 My.MyProject.Forms.Bureau2.Show();
                 Close();
+                GC.Collect();
+                GC.WaitForPendingFinalizers();
             }
         }
     }

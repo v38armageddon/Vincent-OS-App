@@ -77,6 +77,10 @@ namespace Vincent_OS
             {
                 settings.UserAgent = GetMobileUserAgent();
             }
+            else
+            {
+                settings.UserAgent = DefaultUserAgent();
+            }
         }
 
         private void Bing_Chrome_FormClosed(object sender, FormClosedEventArgs e)
@@ -89,6 +93,8 @@ namespace Vincent_OS
             {
                 My.MyProject.Forms.Bureau2.Button15.Visible = false;
             }
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
         }
 
         private void search()
@@ -107,6 +113,11 @@ namespace Vincent_OS
         private string GetMobileUserAgent()
         {
             return "Chrome";
+        }
+
+        private string DefaultUserAgent()
+        {
+            return "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5060.134 Safari/537.36 Edge/103.0.1264.77";
         }
     }
 }

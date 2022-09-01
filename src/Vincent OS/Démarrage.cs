@@ -22,6 +22,8 @@ namespace Vincent_OS
                 Close();
                 var backmusic = new System.Media.SoundPlayer(My.Resources.Resources.startingSound);
                 backmusic.Play();
+                GC.Collect();
+                GC.WaitForPendingFinalizers();
             }
         }
     }

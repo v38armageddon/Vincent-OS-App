@@ -131,6 +131,8 @@ namespace Vincent_OS
             {
                 My.MyProject.Forms.Bureau2.Button17.Visible = false;
             }
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
         }
     }
 }

@@ -62,5 +62,11 @@ namespace Vincent_OS
         {
             My.MyProject.Forms.Calc.Show();
         }
+
+        private void Applications_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
+        }
     }
 }

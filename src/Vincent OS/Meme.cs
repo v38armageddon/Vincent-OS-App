@@ -120,6 +120,8 @@ namespace Vincent_OS
             {
                 My.MyProject.Forms.Bureau2.Button16.Visible = false;
             }
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
         }
 
         // Permet de savoir le nom de l'utilisateur pour accéder à ses fichiers personnels
