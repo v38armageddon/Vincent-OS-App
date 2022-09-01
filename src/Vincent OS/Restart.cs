@@ -25,6 +25,8 @@ namespace Vincent_OS
                 ProgressBar1.Value = 0;
                 Close();
                 Application.Restart();
+                GC.Collect();
+                GC.WaitForPendingFinalizers();
             }
         }
     }

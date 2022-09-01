@@ -20,6 +20,8 @@ namespace Vincent_OS
                     My.MyProject.Forms.Login.Close();
                     My.MyProject.Forms.Arrêt.Show();
                     Close();
+                    GC.Collect();
+                    GC.WaitForPendingFinalizers();
                 }
                 else if (My.MyProject.Forms.Avant.Visible == true)
                 {
@@ -33,6 +35,8 @@ namespace Vincent_OS
                     My.MyProject.Forms.Arrêt.Show();
                     My.MyProject.Forms.Bureau.Close();
                     Close();
+                    GC.Collect();
+                    GC.WaitForPendingFinalizers();
                 }
                 else if (My.MyProject.Forms.Bureau2.Visible == true)
                 {
@@ -40,6 +44,8 @@ namespace Vincent_OS
                     My.MyProject.Forms.Arrêt.Show();
                     My.MyProject.Forms.Bureau2.Close();
                     Close();
+                    GC.Collect();
+                    GC.WaitForPendingFinalizers();
                 }
             }
             else if (Conversions.ToBoolean(Operators.ConditionalCompareObjectEqual(ComboBox1.SelectedItem, "Redémarrer", false)))
@@ -51,6 +57,8 @@ namespace Vincent_OS
                     My.MyProject.Forms.Login.Close();
                     restart.Show();
                     Close();
+                    GC.Collect();
+                    GC.WaitForPendingFinalizers();
                 }
                 else if (My.MyProject.Forms.Avant.Visible == true)
                 {
@@ -65,6 +73,8 @@ namespace Vincent_OS
                     restart.Show();
                     My.MyProject.Forms.Bureau.Close();
                     Close();
+                    GC.Collect();
+                    GC.WaitForPendingFinalizers();
                 }
                 else if (My.MyProject.Forms.Bureau2.Visible == true)
                 {
@@ -73,6 +83,8 @@ namespace Vincent_OS
                     restart.Show();
                     My.MyProject.Forms.Bureau2.Close();
                     Close();
+                    GC.Collect();
+                    GC.WaitForPendingFinalizers();
                 }
             }
             else if (Conversions.ToBoolean(Operators.ConditionalCompareObjectEqual(ComboBox1.SelectedItem, "Déconnecter", false)))
@@ -82,12 +94,16 @@ namespace Vincent_OS
                     My.MyProject.Forms.Bureau.Close();
                     My.MyProject.Forms.Login.Show();
                     Close();
+                    GC.Collect();
+                    GC.WaitForPendingFinalizers();
                 }
                 else if (My.MyProject.Forms.Bureau2.Visible == true)
                 {
                     My.MyProject.Forms.Bureau2.Close();
                     My.MyProject.Forms.Login.Show();
                     Close();
+                    GC.Collect();
+                    GC.WaitForPendingFinalizers();
                 }
                 else if (My.MyProject.Forms.Login.Visible == true)
                 {
@@ -116,6 +132,8 @@ namespace Vincent_OS
         private void Button2_Click(object sender, EventArgs e)
         {
             Close();
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
         }
     }
 }

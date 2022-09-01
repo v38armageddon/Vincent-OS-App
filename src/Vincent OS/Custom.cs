@@ -559,5 +559,11 @@ namespace Vincent_OS
                 }
             }
         }
+
+        private void Custom_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
+        }
     }
 }

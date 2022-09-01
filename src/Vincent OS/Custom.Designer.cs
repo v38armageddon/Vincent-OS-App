@@ -518,6 +518,7 @@ namespace Vincent_OS
             this.Name = "Custom";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Personnalisation";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Custom_FormClosed);
             this.Load += new System.EventHandler(this.Ecran_Load);
             this.TabControl1.ResumeLayout(false);
             this.TabPage4.ResumeLayout(false);

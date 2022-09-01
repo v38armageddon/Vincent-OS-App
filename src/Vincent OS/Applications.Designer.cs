@@ -210,6 +210,7 @@ namespace Vincent_OS
             this.Name = "Applications";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Applications";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Applications_FormClosed);
             this.ResumeLayout(false);
 
         }

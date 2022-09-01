@@ -16,6 +16,8 @@ namespace Vincent_OS
             My.MyProject.Forms.Démarrage.StartPosition = FormStartPosition.CenterScreen;
             My.MyProject.Forms.Démarrage.Show();
             Close();
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
         }
 
         private void Button2_Click(object sender, EventArgs e)
@@ -53,6 +55,8 @@ namespace Vincent_OS
                 restart.Height = My.MyProject.Computer.Screen.Bounds.Height;
             }
             Close();
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
         }
 
         private void Button3_Click(object sender, EventArgs e)
