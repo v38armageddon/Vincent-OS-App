@@ -50,9 +50,10 @@ namespace Vincent_OS
             // 
             this.TextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.TextBox1.Location = new System.Drawing.Point(230, 12);
+            this.TextBox1.Location = new System.Drawing.Point(268, 14);
+            this.TextBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TextBox1.Name = "TextBox1";
-            this.TextBox1.Size = new System.Drawing.Size(526, 20);
+            this.TextBox1.Size = new System.Drawing.Size(613, 23);
             this.TextBox1.TabIndex = 5;
             this.TextBox1.Text = "Saisissez l\'URL";
             this.TextBox1.Click += new System.EventHandler(this.TextBox1_Click);
@@ -64,9 +65,10 @@ namespace Vincent_OS
             this.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button3.FlatAppearance.BorderSize = 0;
             this.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button3.Location = new System.Drawing.Point(4, 0);
+            this.Button3.Location = new System.Drawing.Point(5, 0);
+            this.Button3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button3.Name = "Button3";
-            this.Button3.Size = new System.Drawing.Size(40, 40);
+            this.Button3.Size = new System.Drawing.Size(47, 46);
             this.Button3.TabIndex = 9;
             this.Button3.UseVisualStyleBackColor = true;
             this.Button3.Click += new System.EventHandler(this.Button3_Click);
@@ -77,9 +79,10 @@ namespace Vincent_OS
             this.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button4.FlatAppearance.BorderSize = 0;
             this.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button4.Location = new System.Drawing.Point(46, 0);
+            this.Button4.Location = new System.Drawing.Point(54, 0);
+            this.Button4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button4.Name = "Button4";
-            this.Button4.Size = new System.Drawing.Size(40, 40);
+            this.Button4.Size = new System.Drawing.Size(47, 46);
             this.Button4.TabIndex = 12;
             this.Button4.UseVisualStyleBackColor = true;
             this.Button4.Click += new System.EventHandler(this.Button4_Click);
@@ -90,9 +93,10 @@ namespace Vincent_OS
             this.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button5.FlatAppearance.BorderSize = 0;
             this.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button5.Location = new System.Drawing.Point(92, 0);
+            this.Button5.Location = new System.Drawing.Point(107, 0);
+            this.Button5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button5.Name = "Button5";
-            this.Button5.Size = new System.Drawing.Size(40, 40);
+            this.Button5.Size = new System.Drawing.Size(47, 46);
             this.Button5.TabIndex = 9;
             this.Button5.UseVisualStyleBackColor = true;
             this.Button5.Click += new System.EventHandler(this.Button5_Click);
@@ -103,9 +107,10 @@ namespace Vincent_OS
             this.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button6.FlatAppearance.BorderSize = 0;
             this.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button6.Location = new System.Drawing.Point(138, 0);
+            this.Button6.Location = new System.Drawing.Point(161, 0);
+            this.Button6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button6.Name = "Button6";
-            this.Button6.Size = new System.Drawing.Size(40, 40);
+            this.Button6.Size = new System.Drawing.Size(47, 46);
             this.Button6.TabIndex = 9;
             this.Button6.UseVisualStyleBackColor = true;
             this.Button6.Click += new System.EventHandler(this.Button6_Click);
@@ -116,9 +121,10 @@ namespace Vincent_OS
             this.Button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button7.FlatAppearance.BorderSize = 0;
             this.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button7.Location = new System.Drawing.Point(184, 0);
+            this.Button7.Location = new System.Drawing.Point(215, 0);
+            this.Button7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button7.Name = "Button7";
-            this.Button7.Size = new System.Drawing.Size(40, 40);
+            this.Button7.Size = new System.Drawing.Size(47, 46);
             this.Button7.TabIndex = 13;
             this.Button7.UseVisualStyleBackColor = true;
             this.Button7.Click += new System.EventHandler(this.Button7_Click);
@@ -131,20 +137,21 @@ namespace Vincent_OS
             | System.Windows.Forms.AnchorStyles.Right)));
             this.webView2.CreationProperties = null;
             this.webView2.DefaultBackgroundColor = System.Drawing.Color.White;
-            this.webView2.Location = new System.Drawing.Point(-2, 46);
+            this.webView2.Location = new System.Drawing.Point(-2, 53);
+            this.webView2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.webView2.Name = "webView2";
-            this.webView2.Size = new System.Drawing.Size(765, 369);
+            this.webView2.Size = new System.Drawing.Size(892, 426);
             this.webView2.Source = new System.Uri("https://bing.com", System.UriKind.Absolute);
             this.webView2.TabIndex = 0;
             this.webView2.ZoomFactor = 1D;
-            this.webView2.NavigationStarting += new System.EventHandler<Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs>(this.webView2_NavigationStarting);
+            //this.webView2.NavigationStarting += new System.EventHandler<Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs>(this.webView2_NavigationStarting);
             // 
             // Bing_Chrome
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(762, 415);
+            this.ClientSize = new System.Drawing.Size(889, 479);
             this.Controls.Add(this.webView2);
             this.Controls.Add(this.Button7);
             this.Controls.Add(this.Button6);
@@ -153,7 +160,8 @@ namespace Vincent_OS
             this.Controls.Add(this.TextBox1);
             this.Controls.Add(this.Button3);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MinimumSize = new System.Drawing.Size(778, 449);
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.MinimumSize = new System.Drawing.Size(905, 512);
             this.Name = "Bing_Chrome";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bing Chrome";

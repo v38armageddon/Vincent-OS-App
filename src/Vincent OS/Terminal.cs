@@ -57,7 +57,7 @@ namespace Vincent_OS
             if (TextBox1.Text == "ver")
             {
                 // ATTENTION A BIEN CHANGER LA VERSION CAR JE VAIS SUREMENT OUBLIER A LA PROCHAINE VERSION !!!!!!!!!!!
-                RichTextBox1.Text = "Nom du système d'exploitation : Vincent OS\nVersion : 9.0.2\nBranche : Beta";
+                RichTextBox1.Text = "Nom du système d'exploitation : Vincent OS\nVersion : 9.0.2\nBranche : Officiel";
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "help")
@@ -125,7 +125,7 @@ namespace Vincent_OS
 
             else if (TextBox1.Text == "Debug_Options")
             {
-                RichTextBox1.Text = "DEBUG_ERREUR : Veuillez rentrer une sous option\nPour savoir les différentes commandes, tapez : Debug_Options_Help";
+                RichTextBox1.Text = "[DEBUG]: Enter a valid command.\nDebug_Options_Help";
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Debug_Options_Custom")
@@ -136,7 +136,7 @@ namespace Vincent_OS
                 }
                 else
                 {
-                    MessageBox.Show("DEBUG_ERREUR : Il n'y a pas d'interface graphique et/ou de bureau d'ouvert", "DEBUG_ERREUR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    RichTextBox1.Text = "[DEBUG_ERROR]: No Bureau opened.";
                 }
                 TextBox1.Text = "";
             }
@@ -156,7 +156,7 @@ namespace Vincent_OS
             }
             else if (TextBox1.Text == "Debug_Help")
             {
-                RichTextBox1.Text = "Debug_AlerteLog\nDebug_AlerteLog_ForceCrash\nDebug_Options\nDebug_ClearMemory";
+                RichTextBox1.Text = "Debug_AlerteLog\nDebug_AlerteLog_ForceCrash\nDebug_Options\nDebug_ClearMemory\nDebug_OpenTestWindow";
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Debug_App_ForceCrash")
@@ -168,6 +168,13 @@ namespace Vincent_OS
             {
                 GC.Collect();
                 GC.WaitForPendingFinalizers();
+                TextBox1.Text = "";
+            }
+            else if (TextBox1.Text == "Debug_OpenTestWindow")
+            {
+                TestApp testApp = new TestApp();
+                testApp.Show();
+                RichTextBox1.Text = "[DEBUG] Opened TestApp";
                 TextBox1.Text = "";
             }
             else

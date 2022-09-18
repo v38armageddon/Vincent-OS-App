@@ -33,7 +33,7 @@ namespace Vincent_OS.My
         [DebuggerStepThrough()]
         protected override void OnCreateMainForm()
         {
-            MainForm = MyProject.Forms.Avant;
+            MainForm = MyProject.Forms.Démarrage;
         }
     }
 }

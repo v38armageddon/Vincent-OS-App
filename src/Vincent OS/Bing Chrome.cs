@@ -69,7 +69,7 @@ namespace Vincent_OS
             }
         }
 
-        private void webView2_NavigationStarting(object sender, Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs e)
+        /*private void webView2_NavigationStarting(object sender, Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs e)
         {
             // Fix le problème de connexion à Google dû au UserAgent, voir https://github.com/MicrosoftEdge/WebView2Feedback/issues/1647
             var settings = webView2.CoreWebView2.Settings;
@@ -81,7 +81,7 @@ namespace Vincent_OS
             {
                 settings.UserAgent = DefaultUserAgent();
             }
-        }
+        }*/
 
         private void Bing_Chrome_FormClosed(object sender, FormClosedEventArgs e)
         {

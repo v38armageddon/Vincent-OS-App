@@ -7,6 +7,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vincent OS", "Vincent OS\Vi
 EndProject
 Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "Package", "Package\Package.wapproj", "{D5BC4827-FD30-4D11-A9D4-52CE838B9A79}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6CE2A16E-9445-4EBF-8910-E081A9D158DD}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,8 +34,8 @@ Global
 		{B4346F8D-526A-0765-04F6-D85DA20882F7}.Debug|ARM64.Build.0 = Debug|Any CPU
 		{B4346F8D-526A-0765-04F6-D85DA20882F7}.Debug|x64.ActiveCfg = Debug|Any CPU
 		{B4346F8D-526A-0765-04F6-D85DA20882F7}.Debug|x64.Build.0 = Debug|Any CPU
-		{B4346F8D-526A-0765-04F6-D85DA20882F7}.Debug|x86.ActiveCfg = Debug|x86
-		{B4346F8D-526A-0765-04F6-D85DA20882F7}.Debug|x86.Build.0 = Debug|x86
+		{B4346F8D-526A-0765-04F6-D85DA20882F7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{B4346F8D-526A-0765-04F6-D85DA20882F7}.Debug|x86.Build.0 = Debug|Any CPU
 		{B4346F8D-526A-0765-04F6-D85DA20882F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B4346F8D-526A-0765-04F6-D85DA20882F7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{B4346F8D-526A-0765-04F6-D85DA20882F7}.Release|ARM.ActiveCfg = Release|Any CPU
