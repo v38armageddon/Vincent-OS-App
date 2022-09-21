@@ -103,7 +103,7 @@ namespace Vincent_OS
             // 
             this.Label2.AutoSize = true;
             this.Label2.BackColor = System.Drawing.Color.Gray;
-            this.Label2.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.Label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label2.ForeColor = System.Drawing.Color.White;
             this.Label2.Location = new System.Drawing.Point(5, 3);
             this.Label2.Name = "Label2";
@@ -131,7 +131,7 @@ namespace Vincent_OS
             this.Button9.BackColor = System.Drawing.Color.Green;
             this.Button9.FlatAppearance.BorderSize = 0;
             this.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button9.Font = new System.Drawing.Font("Arial", 9F);
+            this.Button9.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button9.ForeColor = System.Drawing.Color.White;
             this.Button9.Location = new System.Drawing.Point(60, 20);
             this.Button9.Name = "Button9";
@@ -144,7 +144,7 @@ namespace Vincent_OS
             // Label3
             // 
             this.Label3.AutoSize = true;
-            this.Label3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label3.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label3.ForeColor = System.Drawing.Color.White;
             this.Label3.Location = new System.Drawing.Point(60, 3);
             this.Label3.Name = "Label3";
@@ -167,7 +167,7 @@ namespace Vincent_OS
             this.Button1.BackColor = System.Drawing.Color.Red;
             this.Button1.FlatAppearance.BorderSize = 0;
             this.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Button1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button1.ForeColor = System.Drawing.Color.White;
             this.Button1.Location = new System.Drawing.Point(3, 64);
             this.Button1.Name = "Button1";
@@ -181,7 +181,7 @@ namespace Vincent_OS
             // 
             this.Label1.AutoSize = true;
             this.Label1.BackColor = System.Drawing.Color.Gray;
-            this.Label1.Font = new System.Drawing.Font("Arial", 9.75F);
+            this.Label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label1.ForeColor = System.Drawing.Color.White;
             this.Label1.Location = new System.Drawing.Point(69, 3);
             this.Label1.Name = "Label1";
@@ -384,9 +384,9 @@ namespace Vincent_OS
             this.PictureBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.PictureBox2.BackColor = System.Drawing.Color.Gray;
             this.PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox2.Image")));
-            this.PictureBox2.Location = new System.Drawing.Point(821, 0);
+            this.PictureBox2.Location = new System.Drawing.Point(823, 0);
             this.PictureBox2.Name = "PictureBox2";
-            this.PictureBox2.Size = new System.Drawing.Size(28, 25);
+            this.PictureBox2.Size = new System.Drawing.Size(25, 25);
             this.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox2.TabIndex = 1;
             this.PictureBox2.TabStop = false;
@@ -593,7 +593,7 @@ namespace Vincent_OS
             this.Label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.Label4.Location = new System.Drawing.Point(690, 410);
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(153, 13);
+            this.Label4.Size = new System.Drawing.Size(164, 15);
             this.Label4.TabIndex = 25;
             this.Label4.Text = "Vous êtes connecté à Internet.\r\n";
             this.Label4.Visible = false;
@@ -605,7 +605,7 @@ namespace Vincent_OS
             this.Label5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(192)))));
             this.Label5.Location = new System.Drawing.Point(660, 410);
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(181, 13);
+            this.Label5.Size = new System.Drawing.Size(195, 15);
             this.Label5.TabIndex = 30;
             this.Label5.Text = "Vous n\'êtes pas connecté à Internet.\r\n";
             this.Label5.Visible = false;
@@ -614,7 +614,7 @@ namespace Vincent_OS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.ClientSize = new System.Drawing.Size(848, 451);
             this.ControlBox = false;
@@ -632,7 +632,7 @@ namespace Vincent_OS
             this.Controls.Add(this.PictureBox2);
             this.Controls.Add(this.PictureBox1);
             this.Controls.Add(this.FlowLayoutPanel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.MinimizeBox = false;

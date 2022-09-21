@@ -170,13 +170,6 @@ namespace Vincent_OS
                 GC.WaitForPendingFinalizers();
                 TextBox1.Text = "";
             }
-            else if (TextBox1.Text == "Debug_OpenTestWindow")
-            {
-                TestApp testApp = new TestApp();
-                testApp.Show();
-                RichTextBox1.Text = "[DEBUG] Opened TestApp";
-                TextBox1.Text = "";
-            }
             else
             {
                 RichTextBox1.Text = "Commande non reconnu.";

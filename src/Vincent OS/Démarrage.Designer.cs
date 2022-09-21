@@ -40,8 +40,9 @@ namespace Vincent_OS
             this.ProgressBar1 = new System.Windows.Forms.ProgressBar();
             this.PictureBox1 = new System.Windows.Forms.PictureBox();
             this.Timer1 = new System.Windows.Forms.Timer(this.components);
-            this.metroProgressSpinner1 = new MetroFramework.Controls.MetroProgressSpinner();
+            this.PictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // ProgressBar1
@@ -74,19 +75,17 @@ namespace Vincent_OS
             // 
             this.Timer1.Tick += new System.EventHandler(this.Timer1_Tick);
             // 
-            // metroProgressSpinner1
+            // PictureBox2
             // 
-            this.metroProgressSpinner1.Location = new System.Drawing.Point(472, 375);
-            this.metroProgressSpinner1.Maximum = 100;
-            this.metroProgressSpinner1.Name = "metroProgressSpinner1";
-            this.metroProgressSpinner1.Size = new System.Drawing.Size(100, 100);
-            this.metroProgressSpinner1.Style = MetroFramework.MetroColorStyle.Green;
-            this.metroProgressSpinner1.TabIndex = 4;
-            this.metroProgressSpinner1.Text = "metroProgressSpinner1";
-            this.metroProgressSpinner1.Theme = MetroFramework.MetroThemeStyle.Dark;
-            this.metroProgressSpinner1.UseCustomForeColor = true;
-            this.metroProgressSpinner1.UseSelectable = true;
-            this.metroProgressSpinner1.Value = 10;
+            this.PictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox2.Image")));
+            this.PictureBox2.Location = new System.Drawing.Point(426, 373);
+            this.PictureBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.PictureBox2.Name = "PictureBox2";
+            this.PictureBox2.Size = new System.Drawing.Size(184, 102);
+            this.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.PictureBox2.TabIndex = 3;
+            this.PictureBox2.TabStop = false;
             // 
             // Démarrage
             // 
@@ -95,25 +94,26 @@ namespace Vincent_OS
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(989, 520);
             this.ControlBox = false;
-            this.Controls.Add(this.metroProgressSpinner1);
+            this.Controls.Add(this.PictureBox2);
             this.Controls.Add(this.PictureBox1);
             this.Controls.Add(this.ProgressBar1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Démarrage";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Démarrage en cours...";
             this.Load += new System.EventHandler(this.Démarrage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
         internal ProgressBar ProgressBar1;
         internal PictureBox PictureBox1;
         internal Timer Timer1;
-        private MetroFramework.Controls.MetroProgressSpinner metroProgressSpinner1;
+        internal PictureBox PictureBox2;
     }
 }

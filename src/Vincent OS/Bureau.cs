@@ -15,6 +15,7 @@ namespace Vincent_OS
 
         private void Bureau_Load(object sender, EventArgs e)
         {
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             Timer1.Start();
             if (My.MyProject.Forms.Login.Label2.Text == "Superutilisateur")
             {

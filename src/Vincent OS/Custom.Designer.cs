@@ -104,9 +104,10 @@ namespace Vincent_OS
             this.TabControl1.Controls.Add(this.TabPage2);
             this.TabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TabControl1.Location = new System.Drawing.Point(0, 0);
+            this.TabControl1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TabControl1.Name = "TabControl1";
             this.TabControl1.SelectedIndex = 0;
-            this.TabControl1.Size = new System.Drawing.Size(605, 325);
+            this.TabControl1.Size = new System.Drawing.Size(706, 375);
             this.TabControl1.TabIndex = 7;
             // 
             // TabPage4
@@ -117,10 +118,11 @@ namespace Vincent_OS
             this.TabPage4.Controls.Add(this.PictureBox1);
             this.TabPage4.Controls.Add(this.Button1);
             this.TabPage4.Controls.Add(this.Button4);
-            this.TabPage4.Location = new System.Drawing.Point(4, 22);
+            this.TabPage4.Location = new System.Drawing.Point(4, 24);
+            this.TabPage4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TabPage4.Name = "TabPage4";
-            this.TabPage4.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPage4.Size = new System.Drawing.Size(597, 299);
+            this.TabPage4.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.TabPage4.Size = new System.Drawing.Size(698, 347);
             this.TabPage4.TabIndex = 3;
             this.TabPage4.Text = "Fond d\'écran";
             this.TabPage4.UseVisualStyleBackColor = true;
@@ -130,9 +132,10 @@ namespace Vincent_OS
             this.Button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button3.BackgroundImage")));
             this.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button3.Location = new System.Drawing.Point(218, 212);
+            this.Button3.Location = new System.Drawing.Point(254, 245);
+            this.Button3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button3.Name = "Button3";
-            this.Button3.Size = new System.Drawing.Size(67, 62);
+            this.Button3.Size = new System.Drawing.Size(78, 72);
             this.Button3.TabIndex = 34;
             this.Button3.UseVisualStyleBackColor = true;
             this.Button3.Click += new System.EventHandler(this.Button3_Click);
@@ -142,9 +145,10 @@ namespace Vincent_OS
             this.Button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button2.BackgroundImage")));
             this.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button2.Location = new System.Drawing.Point(145, 212);
+            this.Button2.Location = new System.Drawing.Point(169, 245);
+            this.Button2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button2.Name = "Button2";
-            this.Button2.Size = new System.Drawing.Size(67, 62);
+            this.Button2.Size = new System.Drawing.Size(78, 72);
             this.Button2.TabIndex = 33;
             this.Button2.UseVisualStyleBackColor = true;
             this.Button2.Click += new System.EventHandler(this.Button2_Click);
@@ -152,8 +156,9 @@ namespace Vincent_OS
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label1.Location = new System.Drawing.Point(131, 2);
+            this.Label1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label1.Location = new System.Drawing.Point(191, 0);
+            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
             this.Label1.Size = new System.Drawing.Size(312, 24);
             this.Label1.TabIndex = 32;
@@ -162,9 +167,10 @@ namespace Vincent_OS
             // PictureBox1
             // 
             this.PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox1.Image")));
-            this.PictureBox1.Location = new System.Drawing.Point(135, 29);
+            this.PictureBox1.Location = new System.Drawing.Point(158, 33);
+            this.PictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox1.Name = "PictureBox1";
-            this.PictureBox1.Size = new System.Drawing.Size(308, 177);
+            this.PictureBox1.Size = new System.Drawing.Size(359, 204);
             this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PictureBox1.TabIndex = 31;
             this.PictureBox1.TabStop = false;
@@ -174,10 +180,11 @@ namespace Vincent_OS
             this.Button1.BackColor = System.Drawing.Color.Transparent;
             this.Button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Button1.Location = new System.Drawing.Point(364, 212);
+            this.Button1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Button1.Location = new System.Drawing.Point(425, 245);
+            this.Button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button1.Name = "Button1";
-            this.Button1.Size = new System.Drawing.Size(67, 62);
+            this.Button1.Size = new System.Drawing.Size(78, 72);
             this.Button1.TabIndex = 17;
             this.Button1.Text = "+";
             this.Button1.UseVisualStyleBackColor = false;
@@ -188,9 +195,10 @@ namespace Vincent_OS
             this.Button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button4.BackgroundImage")));
             this.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button4.Location = new System.Drawing.Point(291, 212);
+            this.Button4.Location = new System.Drawing.Point(340, 245);
+            this.Button4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button4.Name = "Button4";
-            this.Button4.Size = new System.Drawing.Size(67, 62);
+            this.Button4.Size = new System.Drawing.Size(78, 72);
             this.Button4.TabIndex = 35;
             this.Button4.Text = "8";
             this.Button4.UseVisualStyleBackColor = true;
@@ -219,10 +227,11 @@ namespace Vincent_OS
             this.TabPage1.Controls.Add(this.PictureBox6);
             this.TabPage1.Controls.Add(this.PictureBox5);
             this.TabPage1.Controls.Add(this.PictureBox4);
-            this.TabPage1.Location = new System.Drawing.Point(4, 22);
+            this.TabPage1.Location = new System.Drawing.Point(4, 24);
+            this.TabPage1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TabPage1.Name = "TabPage1";
-            this.TabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPage1.Size = new System.Drawing.Size(597, 299);
+            this.TabPage1.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.TabPage1.Size = new System.Drawing.Size(698, 347);
             this.TabPage1.TabIndex = 5;
             this.TabPage1.Text = "Icônes";
             this.TabPage1.UseVisualStyleBackColor = true;
@@ -230,7 +239,8 @@ namespace Vincent_OS
             // CheckBox11
             // 
             this.CheckBox11.AutoSize = true;
-            this.CheckBox11.Location = new System.Drawing.Point(327, 118);
+            this.CheckBox11.Location = new System.Drawing.Point(382, 136);
+            this.CheckBox11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.CheckBox11.Name = "CheckBox11";
             this.CheckBox11.Size = new System.Drawing.Size(15, 14);
             this.CheckBox11.TabIndex = 22;
@@ -240,7 +250,8 @@ namespace Vincent_OS
             // CheckBox10
             // 
             this.CheckBox10.AutoSize = true;
-            this.CheckBox10.Location = new System.Drawing.Point(327, 46);
+            this.CheckBox10.Location = new System.Drawing.Point(382, 53);
+            this.CheckBox10.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.CheckBox10.Name = "CheckBox10";
             this.CheckBox10.Size = new System.Drawing.Size(15, 14);
             this.CheckBox10.TabIndex = 21;
@@ -250,7 +261,8 @@ namespace Vincent_OS
             // CheckBox8
             // 
             this.CheckBox8.AutoSize = true;
-            this.CheckBox8.Location = new System.Drawing.Point(207, 258);
+            this.CheckBox8.Location = new System.Drawing.Point(241, 298);
+            this.CheckBox8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.CheckBox8.Name = "CheckBox8";
             this.CheckBox8.Size = new System.Drawing.Size(15, 14);
             this.CheckBox8.TabIndex = 19;
@@ -260,7 +272,8 @@ namespace Vincent_OS
             // CheckBox7
             // 
             this.CheckBox7.AutoSize = true;
-            this.CheckBox7.Location = new System.Drawing.Point(207, 188);
+            this.CheckBox7.Location = new System.Drawing.Point(241, 217);
+            this.CheckBox7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.CheckBox7.Name = "CheckBox7";
             this.CheckBox7.Size = new System.Drawing.Size(15, 14);
             this.CheckBox7.TabIndex = 18;
@@ -270,7 +283,8 @@ namespace Vincent_OS
             // CheckBox6
             // 
             this.CheckBox6.AutoSize = true;
-            this.CheckBox6.Location = new System.Drawing.Point(207, 116);
+            this.CheckBox6.Location = new System.Drawing.Point(241, 134);
+            this.CheckBox6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.CheckBox6.Name = "CheckBox6";
             this.CheckBox6.Size = new System.Drawing.Size(15, 14);
             this.CheckBox6.TabIndex = 17;
@@ -280,7 +294,8 @@ namespace Vincent_OS
             // CheckBox5
             // 
             this.CheckBox5.AutoSize = true;
-            this.CheckBox5.Location = new System.Drawing.Point(207, 47);
+            this.CheckBox5.Location = new System.Drawing.Point(241, 54);
+            this.CheckBox5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.CheckBox5.Name = "CheckBox5";
             this.CheckBox5.Size = new System.Drawing.Size(15, 14);
             this.CheckBox5.TabIndex = 16;
@@ -290,7 +305,8 @@ namespace Vincent_OS
             // CheckBox4
             // 
             this.CheckBox4.AutoSize = true;
-            this.CheckBox4.Location = new System.Drawing.Point(93, 258);
+            this.CheckBox4.Location = new System.Drawing.Point(108, 298);
+            this.CheckBox4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.CheckBox4.Name = "CheckBox4";
             this.CheckBox4.Size = new System.Drawing.Size(15, 14);
             this.CheckBox4.TabIndex = 15;
@@ -300,7 +316,8 @@ namespace Vincent_OS
             // CheckBox3
             // 
             this.CheckBox3.AutoSize = true;
-            this.CheckBox3.Location = new System.Drawing.Point(93, 188);
+            this.CheckBox3.Location = new System.Drawing.Point(108, 217);
+            this.CheckBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.CheckBox3.Name = "CheckBox3";
             this.CheckBox3.Size = new System.Drawing.Size(15, 14);
             this.CheckBox3.TabIndex = 14;
@@ -310,7 +327,8 @@ namespace Vincent_OS
             // CheckBox2
             // 
             this.CheckBox2.AutoSize = true;
-            this.CheckBox2.Location = new System.Drawing.Point(93, 116);
+            this.CheckBox2.Location = new System.Drawing.Point(108, 134);
+            this.CheckBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.CheckBox2.Name = "CheckBox2";
             this.CheckBox2.Size = new System.Drawing.Size(15, 14);
             this.CheckBox2.TabIndex = 13;
@@ -320,7 +338,8 @@ namespace Vincent_OS
             // CheckBox1
             // 
             this.CheckBox1.AutoSize = true;
-            this.CheckBox1.Location = new System.Drawing.Point(93, 47);
+            this.CheckBox1.Location = new System.Drawing.Point(108, 54);
+            this.CheckBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.CheckBox1.Name = "CheckBox1";
             this.CheckBox1.Size = new System.Drawing.Size(15, 14);
             this.CheckBox1.TabIndex = 12;
@@ -330,8 +349,9 @@ namespace Vincent_OS
             // Label3
             // 
             this.Label3.AutoSize = true;
-            this.Label3.Font = new System.Drawing.Font("Arial", 15.75F);
-            this.Label3.Location = new System.Drawing.Point(89, 0);
+            this.Label3.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label3.Location = new System.Drawing.Point(146, 0);
+            this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(422, 24);
             this.Label3.TabIndex = 0;
@@ -340,9 +360,10 @@ namespace Vincent_OS
             // PictureBox14
             // 
             this.PictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox14.Image")));
-            this.PictureBox14.Location = new System.Drawing.Point(243, 92);
+            this.PictureBox14.Location = new System.Drawing.Point(284, 106);
+            this.PictureBox14.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox14.Name = "PictureBox14";
-            this.PictureBox14.Size = new System.Drawing.Size(64, 64);
+            this.PictureBox14.Size = new System.Drawing.Size(75, 74);
             this.PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox14.TabIndex = 11;
             this.PictureBox14.TabStop = false;
@@ -350,9 +371,10 @@ namespace Vincent_OS
             // PictureBox13
             // 
             this.PictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox13.Image")));
-            this.PictureBox13.Location = new System.Drawing.Point(243, 22);
+            this.PictureBox13.Location = new System.Drawing.Point(284, 25);
+            this.PictureBox13.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox13.Name = "PictureBox13";
-            this.PictureBox13.Size = new System.Drawing.Size(64, 64);
+            this.PictureBox13.Size = new System.Drawing.Size(75, 74);
             this.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox13.TabIndex = 10;
             this.PictureBox13.TabStop = false;
@@ -360,9 +382,10 @@ namespace Vincent_OS
             // PictureBox11
             // 
             this.PictureBox11.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox11.Image")));
-            this.PictureBox11.Location = new System.Drawing.Point(125, 232);
+            this.PictureBox11.Location = new System.Drawing.Point(146, 268);
+            this.PictureBox11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox11.Name = "PictureBox11";
-            this.PictureBox11.Size = new System.Drawing.Size(64, 64);
+            this.PictureBox11.Size = new System.Drawing.Size(75, 74);
             this.PictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox11.TabIndex = 8;
             this.PictureBox11.TabStop = false;
@@ -370,9 +393,10 @@ namespace Vincent_OS
             // PictureBox10
             // 
             this.PictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox10.Image")));
-            this.PictureBox10.Location = new System.Drawing.Point(125, 162);
+            this.PictureBox10.Location = new System.Drawing.Point(146, 187);
+            this.PictureBox10.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox10.Name = "PictureBox10";
-            this.PictureBox10.Size = new System.Drawing.Size(64, 64);
+            this.PictureBox10.Size = new System.Drawing.Size(75, 74);
             this.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox10.TabIndex = 7;
             this.PictureBox10.TabStop = false;
@@ -380,9 +404,10 @@ namespace Vincent_OS
             // PictureBox9
             // 
             this.PictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox9.Image")));
-            this.PictureBox9.Location = new System.Drawing.Point(125, 92);
+            this.PictureBox9.Location = new System.Drawing.Point(146, 106);
+            this.PictureBox9.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox9.Name = "PictureBox9";
-            this.PictureBox9.Size = new System.Drawing.Size(64, 64);
+            this.PictureBox9.Size = new System.Drawing.Size(75, 74);
             this.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox9.TabIndex = 6;
             this.PictureBox9.TabStop = false;
@@ -390,9 +415,10 @@ namespace Vincent_OS
             // PictureBox8
             // 
             this.PictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox8.Image")));
-            this.PictureBox8.Location = new System.Drawing.Point(125, 22);
+            this.PictureBox8.Location = new System.Drawing.Point(146, 25);
+            this.PictureBox8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox8.Name = "PictureBox8";
-            this.PictureBox8.Size = new System.Drawing.Size(64, 64);
+            this.PictureBox8.Size = new System.Drawing.Size(75, 74);
             this.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox8.TabIndex = 5;
             this.PictureBox8.TabStop = false;
@@ -400,9 +426,10 @@ namespace Vincent_OS
             // PictureBox7
             // 
             this.PictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox7.Image")));
-            this.PictureBox7.Location = new System.Drawing.Point(6, 232);
+            this.PictureBox7.Location = new System.Drawing.Point(7, 268);
+            this.PictureBox7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox7.Name = "PictureBox7";
-            this.PictureBox7.Size = new System.Drawing.Size(64, 64);
+            this.PictureBox7.Size = new System.Drawing.Size(75, 74);
             this.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox7.TabIndex = 4;
             this.PictureBox7.TabStop = false;
@@ -410,9 +437,10 @@ namespace Vincent_OS
             // PictureBox6
             // 
             this.PictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox6.Image")));
-            this.PictureBox6.Location = new System.Drawing.Point(6, 162);
+            this.PictureBox6.Location = new System.Drawing.Point(7, 187);
+            this.PictureBox6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox6.Name = "PictureBox6";
-            this.PictureBox6.Size = new System.Drawing.Size(64, 64);
+            this.PictureBox6.Size = new System.Drawing.Size(75, 74);
             this.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox6.TabIndex = 3;
             this.PictureBox6.TabStop = false;
@@ -420,9 +448,10 @@ namespace Vincent_OS
             // PictureBox5
             // 
             this.PictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox5.Image")));
-            this.PictureBox5.Location = new System.Drawing.Point(6, 92);
+            this.PictureBox5.Location = new System.Drawing.Point(7, 106);
+            this.PictureBox5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox5.Name = "PictureBox5";
-            this.PictureBox5.Size = new System.Drawing.Size(64, 64);
+            this.PictureBox5.Size = new System.Drawing.Size(75, 74);
             this.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox5.TabIndex = 2;
             this.PictureBox5.TabStop = false;
@@ -430,9 +459,10 @@ namespace Vincent_OS
             // PictureBox4
             // 
             this.PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox4.Image")));
-            this.PictureBox4.Location = new System.Drawing.Point(6, 22);
+            this.PictureBox4.Location = new System.Drawing.Point(7, 25);
+            this.PictureBox4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox4.Name = "PictureBox4";
-            this.PictureBox4.Size = new System.Drawing.Size(64, 64);
+            this.PictureBox4.Size = new System.Drawing.Size(75, 74);
             this.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox4.TabIndex = 1;
             this.PictureBox4.TabStop = false;
@@ -444,10 +474,11 @@ namespace Vincent_OS
             this.TabPage2.Controls.Add(this.Label2);
             this.TabPage2.Controls.Add(this.PictureBox2);
             this.TabPage2.Controls.Add(this.PictureBox3);
-            this.TabPage2.Location = new System.Drawing.Point(4, 22);
+            this.TabPage2.Location = new System.Drawing.Point(4, 24);
+            this.TabPage2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TabPage2.Name = "TabPage2";
-            this.TabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPage2.Size = new System.Drawing.Size(597, 299);
+            this.TabPage2.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.TabPage2.Size = new System.Drawing.Size(698, 347);
             this.TabPage2.TabIndex = 6;
             this.TabPage2.Text = "Résolution";
             this.TabPage2.UseVisualStyleBackColor = true;
@@ -455,8 +486,9 @@ namespace Vincent_OS
             // RadioButton2
             // 
             this.RadioButton2.AutoSize = true;
-            this.RadioButton2.Font = new System.Drawing.Font("Arial", 14.25F);
-            this.RadioButton2.Location = new System.Drawing.Point(380, 191);
+            this.RadioButton2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RadioButton2.Location = new System.Drawing.Point(451, 219);
+            this.RadioButton2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.RadioButton2.Name = "RadioButton2";
             this.RadioButton2.Size = new System.Drawing.Size(122, 26);
             this.RadioButton2.TabIndex = 14;
@@ -467,20 +499,22 @@ namespace Vincent_OS
             // RadioButton1
             // 
             this.RadioButton1.AutoSize = true;
-            this.RadioButton1.Font = new System.Drawing.Font("Arial", 14.25F);
-            this.RadioButton1.Location = new System.Drawing.Point(93, 191);
+            this.RadioButton1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RadioButton1.Location = new System.Drawing.Point(97, 219);
+            this.RadioButton1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.RadioButton1.Name = "RadioButton1";
-            this.RadioButton1.Size = new System.Drawing.Size(94, 26);
+            this.RadioButton1.Size = new System.Drawing.Size(171, 26);
             this.RadioButton1.TabIndex = 13;
-            this.RadioButton1.Text = "Fenêtré";
+            this.RadioButton1.Text = "[Legacy] Fenêtré";
             this.RadioButton1.UseVisualStyleBackColor = true;
             this.RadioButton1.CheckedChanged += new System.EventHandler(this.RadioButton1_CheckedChanged);
             // 
             // Label2
             // 
             this.Label2.AutoSize = true;
-            this.Label2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label2.Location = new System.Drawing.Point(237, 3);
+            this.Label2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label2.Location = new System.Drawing.Point(291, 3);
+            this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(100, 22);
             this.Label2.TabIndex = 12;
@@ -489,9 +523,10 @@ namespace Vincent_OS
             // PictureBox2
             // 
             this.PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox2.Image")));
-            this.PictureBox2.Location = new System.Drawing.Point(17, 28);
+            this.PictureBox2.Location = new System.Drawing.Point(20, 32);
+            this.PictureBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox2.Name = "PictureBox2";
-            this.PictureBox2.Size = new System.Drawing.Size(264, 157);
+            this.PictureBox2.Size = new System.Drawing.Size(308, 181);
             this.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox2.TabIndex = 15;
             this.PictureBox2.TabStop = false;
@@ -499,21 +534,23 @@ namespace Vincent_OS
             // PictureBox3
             // 
             this.PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox3.Image")));
-            this.PictureBox3.Location = new System.Drawing.Point(307, 28);
+            this.PictureBox3.Location = new System.Drawing.Point(358, 32);
+            this.PictureBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox3.Name = "PictureBox3";
-            this.PictureBox3.Size = new System.Drawing.Size(264, 157);
+            this.PictureBox3.Size = new System.Drawing.Size(308, 181);
             this.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox3.TabIndex = 16;
             this.PictureBox3.TabStop = false;
             // 
             // Custom
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(605, 325);
+            this.ClientSize = new System.Drawing.Size(706, 375);
             this.Controls.Add(this.TabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.Name = "Custom";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

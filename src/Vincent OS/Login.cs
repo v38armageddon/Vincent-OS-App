@@ -12,6 +12,11 @@ namespace Vincent_OS
             InitializeComponent();
         }
 
+        private void Login_Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
+        }
+
         private void Button1_Click(object sender, EventArgs e)
         {
             verifylog();

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.Devices;
+using System;
 
 namespace Vincent_OS
 {
@@ -11,6 +12,7 @@ namespace Vincent_OS
         private void Démarrage_Load(object sender, EventArgs e)
         {
             Timer1.Start();
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
         }
         private void Timer1_Tick(object sender, EventArgs e)
         {

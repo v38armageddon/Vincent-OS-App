@@ -20,10 +20,10 @@
     <MapFileExtensions>true</MapFileExtensions>
     <SupportUrl>https://github.com/v38armageddon/Vincent-OS/issues</SupportUrl>
     <TargetCulture>fr-FR</TargetCulture>
-    <ProductName>Vincent OS</ProductName>
+    <ProductName>Vincent OS App</ProductName>
     <PublisherName>v38armageddon</PublisherName>
     <ApplicationRevision>0</ApplicationRevision>
-    <ApplicationVersion>9.0.1.%2a</ApplicationVersion>
+    <ApplicationVersion>10.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <CreateDesktopShortcut>true</CreateDesktopShortcut>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -189,26 +189,24 @@
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
-  <ItemGroup>
+  <!--<ItemGroup>
     <FileAssociation Include=".msi">
       <Visible>False</Visible>
       <Description>Installateur Vincent OS</Description>
       <Progid>001</Progid>
       <DefaultIcon>logo.ico</DefaultIcon>
     </FileAssociation>
-  </ItemGroup>
+  </ItemGroup>-->
   <ItemGroup>
-    <PackageReference Include="CommunityToolkit.WinUI" Version="7.1.2" />
-    <PackageReference Include="MetroModernUI" Version="1.4.0" />
     <PackageReference Include="Microsoft.AppCenter" Version="4.5.3" />
     <PackageReference Include="Microsoft.AppCenter.Analytics" Version="4.5.3" />
     <PackageReference Include="Microsoft.AppCenter.Crashes" Version="4.5.3" />
     <PackageReference Include="Microsoft.VisualBasic" Version="10.3.0" />
     <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1343.22" />
-    <PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.1" />
+    <PackageReference Include="SQLitePCLRaw.bundle_green" Version="2.1.2" />
     <PackageReference Include="System.Memory" Version="4.5.5" />
     <PackageReference Include="System.Runtime.CompilerServices.Unsafe" Version="6.0.0" />
-    <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers" Version="0.4.346201">
+    <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers" Version="0.4.346202">
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
     <PackageReference Include="Microsoft.Windows.Compatibility" Version="6.0.0" />
