@@ -102,29 +102,6 @@ namespace Vincent_OS.My
 
 
             [EditorBrowsable(EditorBrowsableState.Never)]
-            public Avant m_Avant;
-
-            public Avant Avant
-            {
-                [DebuggerHidden]
-                get
-                {
-                    m_Avant = Create__Instance__(m_Avant);
-                    return m_Avant;
-                }
-                [DebuggerHidden]
-                set
-                {
-                    if (ReferenceEquals(value, m_Avant))
-                        return;
-                    if (value is not null)
-                        throw new ArgumentException("Property can only be set to Nothing");
-                    Dispose__Instance__(ref m_Avant);
-                }
-            }
-
-
-            [EditorBrowsable(EditorBrowsableState.Never)]
             public Bing_Chrome m_Bing_Chrome;
 
             public Bing_Chrome Bing_Chrome

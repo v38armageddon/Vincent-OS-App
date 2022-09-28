@@ -46,8 +46,9 @@ namespace Vincent_OS
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label1.Location = new System.Drawing.Point(41, 9);
+            this.Label1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label1.Location = new System.Drawing.Point(41, 8);
+            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
             this.Label1.Size = new System.Drawing.Size(257, 22);
             this.Label1.TabIndex = 0;
@@ -56,12 +57,14 @@ namespace Vincent_OS
             // Label2
             // 
             this.Label2.AutoSize = true;
-            this.Label2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label2.Location = new System.Drawing.Point(95, 31);
+            this.Label2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label2.Location = new System.Drawing.Point(95, 30);
+            this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(145, 22);
             this.Label2.TabIndex = 1;
             this.Label2.Text = "[UTILISATEUR]";
+            this.Label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // Button1
             // 
@@ -69,9 +72,10 @@ namespace Vincent_OS
             this.Button1.FlatAppearance.BorderSize = 0;
             this.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button1.ForeColor = System.Drawing.Color.White;
-            this.Button1.Location = new System.Drawing.Point(263, 99);
+            this.Button1.Location = new System.Drawing.Point(257, 114);
+            this.Button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button1.Name = "Button1";
-            this.Button1.Size = new System.Drawing.Size(59, 20);
+            this.Button1.Size = new System.Drawing.Size(69, 23);
             this.Button1.TabIndex = 2;
             this.Button1.Text = "Changer";
             this.Button1.UseVisualStyleBackColor = false;
@@ -79,18 +83,20 @@ namespace Vincent_OS
             // 
             // TextBox1
             // 
-            this.TextBox1.Location = new System.Drawing.Point(3, 99);
+            this.TextBox1.Location = new System.Drawing.Point(4, 114);
+            this.TextBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TextBox1.MaxLength = 16;
             this.TextBox1.Name = "TextBox1";
-            this.TextBox1.Size = new System.Drawing.Size(253, 20);
+            this.TextBox1.Size = new System.Drawing.Size(245, 23);
             this.TextBox1.TabIndex = 3;
             // 
             // Label3
             // 
             this.Label3.AutoSize = true;
-            this.Label3.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label3.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label3.ForeColor = System.Drawing.Color.Red;
-            this.Label3.Location = new System.Drawing.Point(0, 68);
+            this.Label3.Location = new System.Drawing.Point(4, 66);
+            this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(322, 28);
             this.Label3.TabIndex = 4;
@@ -100,10 +106,10 @@ namespace Vincent_OS
             // 
             // Utilisateur
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(333, 131);
+            this.ClientSize = new System.Drawing.Size(330, 151);
             this.Controls.Add(this.Label3);
             this.Controls.Add(this.TextBox1);
             this.Controls.Add(this.Button1);
@@ -112,6 +118,7 @@ namespace Vincent_OS
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.Name = "Utilisateur";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

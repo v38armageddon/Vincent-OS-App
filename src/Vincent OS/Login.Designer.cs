@@ -133,7 +133,7 @@ namespace Vincent_OS
             this.Label3.AutoSize = true;
             this.Label3.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label3.ForeColor = System.Drawing.Color.White;
-            this.Label3.Location = new System.Drawing.Point(176, 189);
+            this.Label3.Location = new System.Drawing.Point(172, 177);
             this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(55, 22);
@@ -147,7 +147,7 @@ namespace Vincent_OS
             this.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button2.ForeColor = System.Drawing.Color.White;
-            this.Button2.Location = new System.Drawing.Point(172, 218);
+            this.Button2.Location = new System.Drawing.Point(172, 202);
             this.Button2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button2.Name = "Button2";
             this.Button2.Size = new System.Drawing.Size(174, 37);
@@ -158,10 +158,10 @@ namespace Vincent_OS
             // 
             // Button4
             // 
-            this.Button4.BackColor = System.Drawing.Color.Lime;
+            this.Button4.BackColor = System.Drawing.Color.Green;
             this.Button4.FlatAppearance.BorderSize = 0;
             this.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button4.ForeColor = System.Drawing.Color.Black;
+            this.Button4.ForeColor = System.Drawing.Color.White;
             this.Button4.Location = new System.Drawing.Point(320, 68);
             this.Button4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button4.Name = "Button4";

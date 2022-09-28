@@ -144,13 +144,12 @@ namespace Vincent_OS
             this.webView2.Source = new System.Uri("https://bing.com", System.UriKind.Absolute);
             this.webView2.TabIndex = 0;
             this.webView2.ZoomFactor = 1D;
-            //this.webView2.NavigationStarting += new System.EventHandler<Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs>(this.webView2_NavigationStarting);
             // 
             // Bing_Chrome
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(889, 479);
             this.Controls.Add(this.webView2);
             this.Controls.Add(this.Button7);
@@ -159,6 +158,7 @@ namespace Vincent_OS
             this.Controls.Add(this.Button4);
             this.Controls.Add(this.TextBox1);
             this.Controls.Add(this.Button3);
+            this.ForeColor = System.Drawing.Color.White;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MinimumSize = new System.Drawing.Size(905, 512);

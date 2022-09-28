@@ -23,12 +23,6 @@ namespace Vincent_OS
                     GC.Collect();
                     GC.WaitForPendingFinalizers();
                 }
-                else if (My.MyProject.Forms.Avant.Visible == true)
-                {
-                    My.MyProject.Forms.Avant.Close();
-                    Close();
-                    Application.Exit();
-                }
                 else if (My.MyProject.Forms.Bureau.Visible == true)
                 {
                     My.MyProject.Forms.Arrêt.Timer1.Start();
@@ -59,12 +53,6 @@ namespace Vincent_OS
                     Close();
                     GC.Collect();
                     GC.WaitForPendingFinalizers();
-                }
-                else if (My.MyProject.Forms.Avant.Visible == true)
-                {
-                    My.MyProject.Forms.Avant.Close();
-                    Close();
-                    Application.Restart();
                 }
                 else if (My.MyProject.Forms.Bureau.Visible == true)
                 {
@@ -108,10 +96,6 @@ namespace Vincent_OS
                 else if (My.MyProject.Forms.Login.Visible == true)
                 {
                     MessageBox.Show("Vous ne pouvez pas vous déconnecter dans l'écran de connexion.");
-                }
-                else if (My.MyProject.Forms.Avant.Visible == true)
-                {
-                    MessageBox.Show("Vous ne pouvez pas vous déconnecter dans les paramètres d'affichages.");
                 }
             }
             else if (ComboBox1.Text == "Debug.Terminal")
