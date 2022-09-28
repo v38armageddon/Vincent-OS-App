@@ -50,7 +50,7 @@ namespace Vincent_OS
             this.Label1.AutoSize = true;
             this.Label1.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.Label1.ForeColor = System.Drawing.Color.White;
-            this.Label1.Location = new System.Drawing.Point(239, 25);
+            this.Label1.Location = new System.Drawing.Point(231, 14);
             this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
             this.Label1.Size = new System.Drawing.Size(168, 34);
@@ -62,7 +62,7 @@ namespace Vincent_OS
             this.Label2.AutoSize = true;
             this.Label2.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label2.ForeColor = System.Drawing.Color.White;
-            this.Label2.Location = new System.Drawing.Point(240, 65);
+            this.Label2.Location = new System.Drawing.Point(232, 54);
             this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(168, 33);
@@ -74,7 +74,7 @@ namespace Vincent_OS
             this.Label3.AutoSize = true;
             this.Label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label3.ForeColor = System.Drawing.Color.White;
-            this.Label3.Location = new System.Drawing.Point(239, 150);
+            this.Label3.Location = new System.Drawing.Point(231, 124);
             this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(258, 32);
@@ -86,7 +86,7 @@ namespace Vincent_OS
             this.Label4.AutoSize = true;
             this.Label4.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label4.ForeColor = System.Drawing.Color.White;
-            this.Label4.Location = new System.Drawing.Point(238, 195);
+            this.Label4.Location = new System.Drawing.Point(229, 167);
             this.Label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label4.Name = "Label4";
             this.Label4.Size = new System.Drawing.Size(260, 24);
@@ -98,7 +98,7 @@ namespace Vincent_OS
             this.Label5.AutoSize = true;
             this.Label5.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label5.ForeColor = System.Drawing.Color.White;
-            this.Label5.Location = new System.Drawing.Point(239, 103);
+            this.Label5.Location = new System.Drawing.Point(231, 92);
             this.Label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label5.Name = "Label5";
             this.Label5.Size = new System.Drawing.Size(221, 32);
@@ -111,7 +111,7 @@ namespace Vincent_OS
             this.PictureBox1.Location = new System.Drawing.Point(14, 14);
             this.PictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox1.Name = "PictureBox1";
-            this.PictureBox1.Size = new System.Drawing.Size(218, 209);
+            this.PictureBox1.Size = new System.Drawing.Size(209, 209);
             this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox1.TabIndex = 0;
             this.PictureBox1.TabStop = false;
@@ -121,7 +121,7 @@ namespace Vincent_OS
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(551, 252);
+            this.ClientSize = new System.Drawing.Size(502, 244);
             this.Controls.Add(this.Label5);
             this.Controls.Add(this.Label4);
             this.Controls.Add(this.Label3);
