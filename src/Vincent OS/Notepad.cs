@@ -111,14 +111,14 @@ namespace Vincent_OS
             }
         }
 
+        private void revenirÀLaLigneAutomatiquementToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            RichTextBox1.WordWrap = revenirÀLaLigneAutomatiquementToolStripMenuItem.Checked;
+        }
+
         private void PrintDocument1_PrintPage(object sender, System.Drawing.Printing.PrintPageEventArgs e)
         {
             e.Graphics.DrawString(RichTextBox1.Text, RichTextBox1.SelectionFont, Brushes.Black, 100f, 100f);
-        }
-
-        private void CheckBox1_CheckedChanged(object sender, EventArgs e)
-        {
-            RichTextBox1.WordWrap = CheckBox1.Checked;
         }
 
         private void Notepad_FormClosed(object sender, FormClosedEventArgs e)
