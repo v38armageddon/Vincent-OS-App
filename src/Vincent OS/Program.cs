@@ -19,7 +19,7 @@ namespace Vincent_OS
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Démarrage());
-            AppCenter.Start("0c52f0f9-8169-4918-a2a3-2641062645d0",
+            AppCenter.Start("TOKEN",
                   typeof(Analytics), typeof(Crashes));
             // Hérité de Avant.cs
             My.MyProject.Forms.Custom.RadioButton2.Checked = true;

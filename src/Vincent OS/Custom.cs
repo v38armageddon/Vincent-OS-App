@@ -23,7 +23,7 @@ namespace Vincent_OS
                 PictureBox1.Image = My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage;
             }
         }
-        // Fond d'écrans
+        #region Fond d'écran
         private void Button1_Click_1(object sender, EventArgs e)
         {
             OpenFileDialog1.Filter = "Images|*.jpeg;*.jpg;*.png;*.bmp;"; // Peut être rajouter d'autres types d'images ?
@@ -147,7 +147,8 @@ namespace Vincent_OS
                 PictureBox1.Image = My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage;
             }
         }
-        // Icônes
+        #endregion
+        #region Icônes
         private void CheckBox1_CheckedChanged_1(object sender, EventArgs e)
         {
             if (CheckBox1.Checked == true)
@@ -407,13 +408,13 @@ namespace Vincent_OS
                 }
             }
         }
-        // Résolution
+        #endregion
+        #region Résolution
         private void RadioButton1_CheckedChanged(object sender, EventArgs e)
         {
             if (RadioButton1.Checked == true)
             {
                 Restart restart = new Restart();
-                // Essayer de regrouper Bureau et Bureau2 pour une optimisation du code ?
                 if (My.MyProject.Forms.Bureau.Visible == true)
                 {
                     // On change de mode de forme de la fenêtre
@@ -489,7 +490,6 @@ namespace Vincent_OS
             if (RadioButton2.Checked == true)
             {
                 Restart restart = new Restart();
-                // Essayer de regrouper Bureau et Bureau2 pour une optimisation du code ?
                 if (My.MyProject.Forms.Bureau.Visible == true)
                 {
                     // On change de mode de forme de la fenêtre
@@ -559,7 +559,7 @@ namespace Vincent_OS
                 }
             }
         }
-
+        #endregion
         private void Custom_FormClosed(object sender, FormClosedEventArgs e)
         {
             GC.Collect();

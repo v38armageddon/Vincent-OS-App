@@ -194,11 +194,6 @@ namespace Vincent_OS
             My.MyProject.Forms.Terminal.BringToFront();
         }
 
-        private void Button18_Click(object sender, EventArgs e)
-        {
-            My.MyProject.Forms.chrono.BringToFront();
-        }
-
         private void Button26_Click(object sender, EventArgs e)
         {
             My.MyProject.Forms.Calc.BringToFront();

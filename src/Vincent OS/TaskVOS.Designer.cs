@@ -47,9 +47,6 @@ namespace Vincent_OS
             this.panel2 = new System.Windows.Forms.Panel();
             this.PictureBox2 = new System.Windows.Forms.PictureBox();
             this.RadioButton12 = new System.Windows.Forms.RadioButton();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.PictureBox3 = new System.Windows.Forms.PictureBox();
-            this.RadioButton20 = new System.Windows.Forms.RadioButton();
             this.panel4 = new System.Windows.Forms.Panel();
             this.PictureBox4 = new System.Windows.Forms.PictureBox();
             this.RadioButton10 = new System.Windows.Forms.RadioButton();
@@ -107,8 +104,6 @@ namespace Vincent_OS
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
-            this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox3)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox4)).BeginInit();
             this.panel5.SuspendLayout();
@@ -149,32 +144,36 @@ namespace Vincent_OS
             this.TabControl1.Controls.Add(this.TabPage2);
             this.TabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TabControl1.Location = new System.Drawing.Point(0, 0);
+            this.TabControl1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TabControl1.Name = "TabControl1";
             this.TabControl1.SelectedIndex = 0;
-            this.TabControl1.Size = new System.Drawing.Size(507, 604);
+            this.TabControl1.Size = new System.Drawing.Size(592, 697);
+            this.TabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.TabControl1.TabIndex = 0;
             // 
             // TabPage1
             // 
+            this.TabPage1.BackColor = System.Drawing.Color.Black;
             this.TabPage1.Controls.Add(this.Button1);
             this.TabPage1.Controls.Add(this.Label1);
             this.TabPage1.Controls.Add(this.flowLayoutPanel1);
-            this.TabPage1.Location = new System.Drawing.Point(4, 22);
+            this.TabPage1.Location = new System.Drawing.Point(4, 24);
+            this.TabPage1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TabPage1.Name = "TabPage1";
-            this.TabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPage1.Size = new System.Drawing.Size(499, 578);
+            this.TabPage1.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.TabPage1.Size = new System.Drawing.Size(584, 669);
             this.TabPage1.TabIndex = 0;
             this.TabPage1.Text = "Applications";
-            this.TabPage1.UseVisualStyleBackColor = true;
             // 
             // Button1
             // 
-            this.Button1.BackColor = System.Drawing.Color.LightGray;
+            this.Button1.BackColor = System.Drawing.Color.Green;
             this.Button1.FlatAppearance.BorderSize = 0;
             this.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Button1.Location = new System.Drawing.Point(424, 38);
+            this.Button1.Location = new System.Drawing.Point(495, 44);
+            this.Button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button1.Name = "Button1";
-            this.Button1.Size = new System.Drawing.Size(75, 23);
+            this.Button1.Size = new System.Drawing.Size(88, 27);
             this.Button1.TabIndex = 15;
             this.Button1.Text = "Arrêter";
             this.Button1.UseVisualStyleBackColor = false;
@@ -183,8 +182,9 @@ namespace Vincent_OS
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label1.Location = new System.Drawing.Point(8, 3);
+            this.Label1.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label1.Location = new System.Drawing.Point(9, 3);
+            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
             this.Label1.Size = new System.Drawing.Size(489, 36);
             this.Label1.TabIndex = 4;
@@ -194,7 +194,6 @@ namespace Vincent_OS
             // 
             this.flowLayoutPanel1.Controls.Add(this.panel1);
             this.flowLayoutPanel1.Controls.Add(this.panel2);
-            this.flowLayoutPanel1.Controls.Add(this.panel3);
             this.flowLayoutPanel1.Controls.Add(this.panel4);
             this.flowLayoutPanel1.Controls.Add(this.panel5);
             this.flowLayoutPanel1.Controls.Add(this.panel6);
@@ -204,27 +203,30 @@ namespace Vincent_OS
             this.flowLayoutPanel1.Controls.Add(this.panel10);
             this.flowLayoutPanel1.Controls.Add(this.panel12);
             this.flowLayoutPanel1.Controls.Add(this.panel13);
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 38);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(0, 44);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(428, 540);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(499, 623);
             this.flowLayoutPanel1.TabIndex = 48;
             // 
             // panel1
             // 
             this.panel1.Controls.Add(this.PictureBox1);
             this.panel1.Controls.Add(this.RadioButton2);
-            this.panel1.Location = new System.Drawing.Point(3, 3);
+            this.panel1.Location = new System.Drawing.Point(4, 3);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(135, 129);
+            this.panel1.Size = new System.Drawing.Size(158, 149);
             this.panel1.TabIndex = 35;
             this.panel1.Visible = false;
             // 
             // PictureBox1
             // 
             this.PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox1.Image")));
-            this.PictureBox1.Location = new System.Drawing.Point(16, 3);
+            this.PictureBox1.Location = new System.Drawing.Point(19, 3);
+            this.PictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox1.Name = "PictureBox1";
-            this.PictureBox1.Size = new System.Drawing.Size(105, 104);
+            this.PictureBox1.Size = new System.Drawing.Size(122, 120);
             this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox1.TabIndex = 20;
             this.PictureBox1.TabStop = false;
@@ -232,9 +234,10 @@ namespace Vincent_OS
             // RadioButton2
             // 
             this.RadioButton2.AutoSize = true;
-            this.RadioButton2.Location = new System.Drawing.Point(6, 110);
+            this.RadioButton2.Location = new System.Drawing.Point(7, 127);
+            this.RadioButton2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.RadioButton2.Name = "RadioButton2";
-            this.RadioButton2.Size = new System.Drawing.Size(129, 17);
+            this.RadioButton2.Size = new System.Drawing.Size(142, 19);
             this.RadioButton2.TabIndex = 9;
             this.RadioButton2.TabStop = true;
             this.RadioButton2.Text = "Bing Chrome.AppVOS";
@@ -244,18 +247,20 @@ namespace Vincent_OS
             // 
             this.panel2.Controls.Add(this.PictureBox2);
             this.panel2.Controls.Add(this.RadioButton12);
-            this.panel2.Location = new System.Drawing.Point(144, 3);
+            this.panel2.Location = new System.Drawing.Point(170, 3);
+            this.panel2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(135, 129);
+            this.panel2.Size = new System.Drawing.Size(158, 149);
             this.panel2.TabIndex = 36;
             this.panel2.Visible = false;
             // 
             // PictureBox2
             // 
             this.PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox2.Image")));
-            this.PictureBox2.Location = new System.Drawing.Point(13, 3);
+            this.PictureBox2.Location = new System.Drawing.Point(15, 3);
+            this.PictureBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox2.Name = "PictureBox2";
-            this.PictureBox2.Size = new System.Drawing.Size(105, 104);
+            this.PictureBox2.Size = new System.Drawing.Size(122, 120);
             this.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox2.TabIndex = 22;
             this.PictureBox2.TabStop = false;
@@ -263,61 +268,33 @@ namespace Vincent_OS
             // RadioButton12
             // 
             this.RadioButton12.AutoSize = true;
-            this.RadioButton12.Location = new System.Drawing.Point(23, 109);
+            this.RadioButton12.Location = new System.Drawing.Point(27, 126);
+            this.RadioButton12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.RadioButton12.Name = "RadioButton12";
-            this.RadioButton12.Size = new System.Drawing.Size(90, 17);
+            this.RadioButton12.Size = new System.Drawing.Size(95, 19);
             this.RadioButton12.TabIndex = 21;
             this.RadioButton12.TabStop = true;
             this.RadioButton12.Text = "Calc.AppVOS";
             this.RadioButton12.UseVisualStyleBackColor = true;
             // 
-            // panel3
-            // 
-            this.panel3.Controls.Add(this.PictureBox3);
-            this.panel3.Controls.Add(this.RadioButton20);
-            this.panel3.Location = new System.Drawing.Point(285, 3);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(135, 129);
-            this.panel3.TabIndex = 37;
-            this.panel3.Visible = false;
-            // 
-            // PictureBox3
-            // 
-            this.PictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox3.Image")));
-            this.PictureBox3.Location = new System.Drawing.Point(17, 3);
-            this.PictureBox3.Name = "PictureBox3";
-            this.PictureBox3.Size = new System.Drawing.Size(105, 104);
-            this.PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PictureBox3.TabIndex = 23;
-            this.PictureBox3.TabStop = false;
-            // 
-            // RadioButton20
-            // 
-            this.RadioButton20.AutoSize = true;
-            this.RadioButton20.Location = new System.Drawing.Point(17, 109);
-            this.RadioButton20.Name = "RadioButton20";
-            this.RadioButton20.Size = new System.Drawing.Size(103, 17);
-            this.RadioButton20.TabIndex = 20;
-            this.RadioButton20.TabStop = true;
-            this.RadioButton20.Text = "Chrono.AppVOS";
-            this.RadioButton20.UseVisualStyleBackColor = true;
-            // 
             // panel4
             // 
             this.panel4.Controls.Add(this.PictureBox4);
             this.panel4.Controls.Add(this.RadioButton10);
-            this.panel4.Location = new System.Drawing.Point(3, 138);
+            this.panel4.Location = new System.Drawing.Point(336, 3);
+            this.panel4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel4.Name = "panel4";
-            this.panel4.Size = new System.Drawing.Size(135, 129);
+            this.panel4.Size = new System.Drawing.Size(158, 149);
             this.panel4.TabIndex = 38;
             this.panel4.Visible = false;
             // 
             // PictureBox4
             // 
             this.PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox4.Image")));
-            this.PictureBox4.Location = new System.Drawing.Point(15, 3);
+            this.PictureBox4.Location = new System.Drawing.Point(18, 3);
+            this.PictureBox4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox4.Name = "PictureBox4";
-            this.PictureBox4.Size = new System.Drawing.Size(105, 104);
+            this.PictureBox4.Size = new System.Drawing.Size(122, 120);
             this.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox4.TabIndex = 24;
             this.PictureBox4.TabStop = false;
@@ -325,9 +302,10 @@ namespace Vincent_OS
             // RadioButton10
             // 
             this.RadioButton10.AutoSize = true;
-            this.RadioButton10.Location = new System.Drawing.Point(15, 108);
+            this.RadioButton10.Location = new System.Drawing.Point(18, 125);
+            this.RadioButton10.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.RadioButton10.Name = "RadioButton10";
-            this.RadioButton10.Size = new System.Drawing.Size(103, 17);
+            this.RadioButton10.Size = new System.Drawing.Size(109, 19);
             this.RadioButton10.TabIndex = 17;
             this.RadioButton10.TabStop = true;
             this.RadioButton10.Text = "Exewin.AppVOS";
@@ -337,18 +315,20 @@ namespace Vincent_OS
             // 
             this.panel5.Controls.Add(this.PictureBox5);
             this.panel5.Controls.Add(this.RadioButton8);
-            this.panel5.Location = new System.Drawing.Point(144, 138);
+            this.panel5.Location = new System.Drawing.Point(4, 158);
+            this.panel5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(135, 129);
+            this.panel5.Size = new System.Drawing.Size(158, 149);
             this.panel5.TabIndex = 39;
             this.panel5.Visible = false;
             // 
             // PictureBox5
             // 
             this.PictureBox5.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox5.Image")));
-            this.PictureBox5.Location = new System.Drawing.Point(12, 3);
+            this.PictureBox5.Location = new System.Drawing.Point(14, 3);
+            this.PictureBox5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox5.Name = "PictureBox5";
-            this.PictureBox5.Size = new System.Drawing.Size(105, 104);
+            this.PictureBox5.Size = new System.Drawing.Size(122, 120);
             this.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox5.TabIndex = 25;
             this.PictureBox5.TabStop = false;
@@ -356,9 +336,10 @@ namespace Vincent_OS
             // RadioButton8
             // 
             this.RadioButton8.AutoSize = true;
-            this.RadioButton8.Location = new System.Drawing.Point(17, 110);
+            this.RadioButton8.Location = new System.Drawing.Point(20, 127);
+            this.RadioButton8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.RadioButton8.Name = "RadioButton8";
-            this.RadioButton8.Size = new System.Drawing.Size(97, 17);
+            this.RadioButton8.Size = new System.Drawing.Size(103, 19);
             this.RadioButton8.TabIndex = 15;
             this.RadioButton8.TabStop = true;
             this.RadioButton8.Text = "Game.AppVOS";
@@ -368,18 +349,20 @@ namespace Vincent_OS
             // 
             this.panel6.Controls.Add(this.PictureBox6);
             this.panel6.Controls.Add(this.RadioButton9);
-            this.panel6.Location = new System.Drawing.Point(285, 138);
+            this.panel6.Location = new System.Drawing.Point(170, 158);
+            this.panel6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(135, 129);
+            this.panel6.Size = new System.Drawing.Size(158, 149);
             this.panel6.TabIndex = 40;
             this.panel6.Visible = false;
             // 
             // PictureBox6
             // 
             this.PictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox6.Image")));
-            this.PictureBox6.Location = new System.Drawing.Point(16, 3);
+            this.PictureBox6.Location = new System.Drawing.Point(19, 3);
+            this.PictureBox6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox6.Name = "PictureBox6";
-            this.PictureBox6.Size = new System.Drawing.Size(105, 104);
+            this.PictureBox6.Size = new System.Drawing.Size(122, 120);
             this.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox6.TabIndex = 26;
             this.PictureBox6.TabStop = false;
@@ -387,9 +370,10 @@ namespace Vincent_OS
             // RadioButton9
             // 
             this.RadioButton9.AutoSize = true;
-            this.RadioButton9.Location = new System.Drawing.Point(9, 109);
+            this.RadioButton9.Location = new System.Drawing.Point(10, 126);
+            this.RadioButton9.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.RadioButton9.Name = "RadioButton9";
-            this.RadioButton9.Size = new System.Drawing.Size(123, 17);
+            this.RadioButton9.Size = new System.Drawing.Size(131, 19);
             this.RadioButton9.TabIndex = 16;
             this.RadioButton9.TabStop = true;
             this.RadioButton9.Text = "MazeGame.AppVOS";
@@ -399,18 +383,20 @@ namespace Vincent_OS
             // 
             this.panel7.Controls.Add(this.PictureBox7);
             this.panel7.Controls.Add(this.RadioButton5);
-            this.panel7.Location = new System.Drawing.Point(3, 273);
+            this.panel7.Location = new System.Drawing.Point(336, 158);
+            this.panel7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(135, 129);
+            this.panel7.Size = new System.Drawing.Size(158, 149);
             this.panel7.TabIndex = 41;
             this.panel7.Visible = false;
             // 
             // PictureBox7
             // 
             this.PictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox7.Image")));
-            this.PictureBox7.Location = new System.Drawing.Point(14, 3);
+            this.PictureBox7.Location = new System.Drawing.Point(16, 3);
+            this.PictureBox7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox7.Name = "PictureBox7";
-            this.PictureBox7.Size = new System.Drawing.Size(105, 104);
+            this.PictureBox7.Size = new System.Drawing.Size(122, 120);
             this.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox7.TabIndex = 27;
             this.PictureBox7.TabStop = false;
@@ -418,9 +404,10 @@ namespace Vincent_OS
             // RadioButton5
             // 
             this.RadioButton5.AutoSize = true;
-            this.RadioButton5.Location = new System.Drawing.Point(18, 109);
+            this.RadioButton5.Location = new System.Drawing.Point(21, 126);
+            this.RadioButton5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.RadioButton5.Name = "RadioButton5";
-            this.RadioButton5.Size = new System.Drawing.Size(98, 17);
+            this.RadioButton5.Size = new System.Drawing.Size(105, 19);
             this.RadioButton5.TabIndex = 12;
             this.RadioButton5.TabStop = true;
             this.RadioButton5.Text = "Media.AppVOS";
@@ -430,18 +417,20 @@ namespace Vincent_OS
             // 
             this.panel8.Controls.Add(this.PictureBox8);
             this.panel8.Controls.Add(this.RadioButton3);
-            this.panel8.Location = new System.Drawing.Point(144, 273);
+            this.panel8.Location = new System.Drawing.Point(4, 313);
+            this.panel8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel8.Name = "panel8";
-            this.panel8.Size = new System.Drawing.Size(135, 129);
+            this.panel8.Size = new System.Drawing.Size(158, 149);
             this.panel8.TabIndex = 42;
             this.panel8.Visible = false;
             // 
             // PictureBox8
             // 
             this.PictureBox8.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox8.Image")));
-            this.PictureBox8.Location = new System.Drawing.Point(16, 3);
+            this.PictureBox8.Location = new System.Drawing.Point(19, 3);
+            this.PictureBox8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox8.Name = "PictureBox8";
-            this.PictureBox8.Size = new System.Drawing.Size(105, 104);
+            this.PictureBox8.Size = new System.Drawing.Size(122, 120);
             this.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox8.TabIndex = 28;
             this.PictureBox8.TabStop = false;
@@ -449,9 +438,10 @@ namespace Vincent_OS
             // RadioButton3
             // 
             this.RadioButton3.AutoSize = true;
-            this.RadioButton3.Location = new System.Drawing.Point(19, 113);
+            this.RadioButton3.Location = new System.Drawing.Point(22, 130);
+            this.RadioButton3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.RadioButton3.Name = "RadioButton3";
-            this.RadioButton3.Size = new System.Drawing.Size(98, 17);
+            this.RadioButton3.Size = new System.Drawing.Size(106, 19);
             this.RadioButton3.TabIndex = 10;
             this.RadioButton3.TabStop = true;
             this.RadioButton3.Text = "Meme.AppVOS";
@@ -461,18 +451,20 @@ namespace Vincent_OS
             // 
             this.panel9.Controls.Add(this.PictureBox9);
             this.panel9.Controls.Add(this.RadioButton4);
-            this.panel9.Location = new System.Drawing.Point(285, 273);
+            this.panel9.Location = new System.Drawing.Point(170, 313);
+            this.panel9.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel9.Name = "panel9";
-            this.panel9.Size = new System.Drawing.Size(135, 129);
+            this.panel9.Size = new System.Drawing.Size(158, 149);
             this.panel9.TabIndex = 43;
             this.panel9.Visible = false;
             // 
             // PictureBox9
             // 
             this.PictureBox9.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox9.Image")));
-            this.PictureBox9.Location = new System.Drawing.Point(14, 3);
+            this.PictureBox9.Location = new System.Drawing.Point(16, 3);
+            this.PictureBox9.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox9.Name = "PictureBox9";
-            this.PictureBox9.Size = new System.Drawing.Size(105, 104);
+            this.PictureBox9.Size = new System.Drawing.Size(122, 120);
             this.PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox9.TabIndex = 29;
             this.PictureBox9.TabStop = false;
@@ -480,9 +472,10 @@ namespace Vincent_OS
             // RadioButton4
             // 
             this.RadioButton4.AutoSize = true;
-            this.RadioButton4.Location = new System.Drawing.Point(14, 113);
+            this.RadioButton4.Location = new System.Drawing.Point(16, 130);
+            this.RadioButton4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.RadioButton4.Name = "RadioButton4";
-            this.RadioButton4.Size = new System.Drawing.Size(110, 17);
+            this.RadioButton4.Size = new System.Drawing.Size(118, 19);
             this.RadioButton4.TabIndex = 11;
             this.RadioButton4.TabStop = true;
             this.RadioButton4.Text = "Notepad.AppVOS";
@@ -492,18 +485,20 @@ namespace Vincent_OS
             // 
             this.panel10.Controls.Add(this.PictureBox10);
             this.panel10.Controls.Add(this.RadioButton7);
-            this.panel10.Location = new System.Drawing.Point(3, 408);
+            this.panel10.Location = new System.Drawing.Point(336, 313);
+            this.panel10.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(135, 129);
+            this.panel10.Size = new System.Drawing.Size(158, 149);
             this.panel10.TabIndex = 44;
             this.panel10.Visible = false;
             // 
             // PictureBox10
             // 
             this.PictureBox10.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox10.Image")));
-            this.PictureBox10.Location = new System.Drawing.Point(14, 3);
+            this.PictureBox10.Location = new System.Drawing.Point(16, 3);
+            this.PictureBox10.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox10.Name = "PictureBox10";
-            this.PictureBox10.Size = new System.Drawing.Size(105, 104);
+            this.PictureBox10.Size = new System.Drawing.Size(122, 120);
             this.PictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox10.TabIndex = 30;
             this.PictureBox10.TabStop = false;
@@ -511,9 +506,10 @@ namespace Vincent_OS
             // RadioButton7
             // 
             this.RadioButton7.AutoSize = true;
-            this.RadioButton7.Location = new System.Drawing.Point(19, 113);
+            this.RadioButton7.Location = new System.Drawing.Point(22, 130);
+            this.RadioButton7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.RadioButton7.Name = "RadioButton7";
-            this.RadioButton7.Size = new System.Drawing.Size(98, 17);
+            this.RadioButton7.Size = new System.Drawing.Size(104, 19);
             this.RadioButton7.TabIndex = 14;
             this.RadioButton7.TabStop = true;
             this.RadioButton7.Text = "Paints.AppVOS";
@@ -523,18 +519,20 @@ namespace Vincent_OS
             // 
             this.panel12.Controls.Add(this.PictureBox13);
             this.panel12.Controls.Add(this.RadioButton11);
-            this.panel12.Location = new System.Drawing.Point(144, 408);
+            this.panel12.Location = new System.Drawing.Point(4, 468);
+            this.panel12.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel12.Name = "panel12";
-            this.panel12.Size = new System.Drawing.Size(135, 129);
+            this.panel12.Size = new System.Drawing.Size(158, 149);
             this.panel12.TabIndex = 46;
             this.panel12.Visible = false;
             // 
             // PictureBox13
             // 
             this.PictureBox13.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox13.Image")));
-            this.PictureBox13.Location = new System.Drawing.Point(17, 3);
+            this.PictureBox13.Location = new System.Drawing.Point(20, 3);
+            this.PictureBox13.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox13.Name = "PictureBox13";
-            this.PictureBox13.Size = new System.Drawing.Size(105, 104);
+            this.PictureBox13.Size = new System.Drawing.Size(122, 120);
             this.PictureBox13.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox13.TabIndex = 33;
             this.PictureBox13.TabStop = false;
@@ -542,9 +540,10 @@ namespace Vincent_OS
             // RadioButton11
             // 
             this.RadioButton11.AutoSize = true;
-            this.RadioButton11.Location = new System.Drawing.Point(19, 110);
+            this.RadioButton11.Location = new System.Drawing.Point(22, 127);
+            this.RadioButton11.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.RadioButton11.Name = "RadioButton11";
-            this.RadioButton11.Size = new System.Drawing.Size(102, 17);
+            this.RadioButton11.Size = new System.Drawing.Size(110, 19);
             this.RadioButton11.TabIndex = 0;
             this.RadioButton11.TabStop = true;
             this.RadioButton11.Text = "Terminal.AppOS";
@@ -554,18 +553,20 @@ namespace Vincent_OS
             // 
             this.panel13.Controls.Add(this.PictureBox14);
             this.panel13.Controls.Add(this.RadioButton6);
-            this.panel13.Location = new System.Drawing.Point(285, 408);
+            this.panel13.Location = new System.Drawing.Point(170, 468);
+            this.panel13.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(135, 129);
+            this.panel13.Size = new System.Drawing.Size(158, 149);
             this.panel13.TabIndex = 47;
             this.panel13.Visible = false;
             // 
             // PictureBox14
             // 
             this.PictureBox14.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox14.Image")));
-            this.PictureBox14.Location = new System.Drawing.Point(15, 3);
+            this.PictureBox14.Location = new System.Drawing.Point(18, 3);
+            this.PictureBox14.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox14.Name = "PictureBox14";
-            this.PictureBox14.Size = new System.Drawing.Size(105, 104);
+            this.PictureBox14.Size = new System.Drawing.Size(122, 120);
             this.PictureBox14.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox14.TabIndex = 34;
             this.PictureBox14.TabStop = false;
@@ -573,9 +574,10 @@ namespace Vincent_OS
             // RadioButton6
             // 
             this.RadioButton6.AutoSize = true;
-            this.RadioButton6.Location = new System.Drawing.Point(21, 113);
+            this.RadioButton6.Location = new System.Drawing.Point(24, 130);
+            this.RadioButton6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.RadioButton6.Name = "RadioButton6";
-            this.RadioButton6.Size = new System.Drawing.Size(91, 17);
+            this.RadioButton6.Size = new System.Drawing.Size(97, 19);
             this.RadioButton6.TabIndex = 13;
             this.RadioButton6.TabStop = true;
             this.RadioButton6.Text = "Visio.AppVOS";
@@ -586,11 +588,12 @@ namespace Vincent_OS
             this.TabPage3.Controls.Add(this.Button3);
             this.TabPage3.Controls.Add(this.Label3);
             this.TabPage3.Controls.Add(this.flowLayoutPanel2);
-            this.TabPage3.Location = new System.Drawing.Point(4, 22);
+            this.TabPage3.Location = new System.Drawing.Point(4, 24);
+            this.TabPage3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TabPage3.Name = "TabPage3";
-            this.TabPage3.Size = new System.Drawing.Size(499, 578);
+            this.TabPage3.Size = new System.Drawing.Size(584, 669);
             this.TabPage3.TabIndex = 2;
-            this.TabPage3.Text = "Service";
+            this.TabPage3.Text = "Services";
             this.TabPage3.UseVisualStyleBackColor = true;
             // 
             // Button3
@@ -598,9 +601,10 @@ namespace Vincent_OS
             this.Button3.BackColor = System.Drawing.Color.LightGray;
             this.Button3.FlatAppearance.BorderSize = 0;
             this.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Button3.Location = new System.Drawing.Point(207, 324);
+            this.Button3.Location = new System.Drawing.Point(241, 374);
+            this.Button3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button3.Name = "Button3";
-            this.Button3.Size = new System.Drawing.Size(75, 23);
+            this.Button3.Size = new System.Drawing.Size(88, 27);
             this.Button3.TabIndex = 16;
             this.Button3.Text = "Arrêter";
             this.Button3.UseVisualStyleBackColor = false;
@@ -609,8 +613,9 @@ namespace Vincent_OS
             // Label3
             // 
             this.Label3.AutoSize = true;
-            this.Label3.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label3.Location = new System.Drawing.Point(20, 3);
+            this.Label3.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label3.Location = new System.Drawing.Point(23, 3);
+            this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(459, 36);
             this.Label3.TabIndex = 6;
@@ -622,27 +627,30 @@ namespace Vincent_OS
             this.flowLayoutPanel2.Controls.Add(this.panel15);
             this.flowLayoutPanel2.Controls.Add(this.panel16);
             this.flowLayoutPanel2.Controls.Add(this.panel17);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 42);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(4, 48);
+            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(488, 276);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(569, 318);
             this.flowLayoutPanel2.TabIndex = 25;
             // 
             // panel14
             // 
             this.panel14.Controls.Add(this.PictureBox15);
             this.panel14.Controls.Add(this.RadioButton15);
-            this.panel14.Location = new System.Drawing.Point(3, 3);
+            this.panel14.Location = new System.Drawing.Point(4, 3);
+            this.panel14.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel14.Name = "panel14";
-            this.panel14.Size = new System.Drawing.Size(135, 129);
+            this.panel14.Size = new System.Drawing.Size(158, 149);
             this.panel14.TabIndex = 26;
             this.panel14.Visible = false;
             // 
             // PictureBox15
             // 
             this.PictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox15.Image")));
-            this.PictureBox15.Location = new System.Drawing.Point(15, 3);
+            this.PictureBox15.Location = new System.Drawing.Point(18, 3);
+            this.PictureBox15.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox15.Name = "PictureBox15";
-            this.PictureBox15.Size = new System.Drawing.Size(105, 104);
+            this.PictureBox15.Size = new System.Drawing.Size(122, 120);
             this.PictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox15.TabIndex = 21;
             this.PictureBox15.TabStop = false;
@@ -650,9 +658,10 @@ namespace Vincent_OS
             // RadioButton15
             // 
             this.RadioButton15.AutoSize = true;
-            this.RadioButton15.Location = new System.Drawing.Point(9, 109);
+            this.RadioButton15.Location = new System.Drawing.Point(10, 126);
+            this.RadioButton15.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.RadioButton15.Name = "RadioButton15";
-            this.RadioButton15.Size = new System.Drawing.Size(123, 17);
+            this.RadioButton15.Size = new System.Drawing.Size(132, 19);
             this.RadioButton15.TabIndex = 2;
             this.RadioButton15.TabStop = true;
             this.RadioButton15.Text = "Applications.SerVOS";
@@ -662,18 +671,20 @@ namespace Vincent_OS
             // 
             this.panel15.Controls.Add(this.PictureBox16);
             this.panel15.Controls.Add(this.RadioButton13);
-            this.panel15.Location = new System.Drawing.Point(144, 3);
+            this.panel15.Location = new System.Drawing.Point(170, 3);
+            this.panel15.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(135, 129);
+            this.panel15.Size = new System.Drawing.Size(158, 149);
             this.panel15.TabIndex = 26;
             this.panel15.Visible = false;
             // 
             // PictureBox16
             // 
             this.PictureBox16.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox16.Image")));
-            this.PictureBox16.Location = new System.Drawing.Point(14, 3);
+            this.PictureBox16.Location = new System.Drawing.Point(16, 3);
+            this.PictureBox16.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox16.Name = "PictureBox16";
-            this.PictureBox16.Size = new System.Drawing.Size(105, 104);
+            this.PictureBox16.Size = new System.Drawing.Size(122, 120);
             this.PictureBox16.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox16.TabIndex = 22;
             this.PictureBox16.TabStop = false;
@@ -681,9 +692,10 @@ namespace Vincent_OS
             // RadioButton13
             // 
             this.RadioButton13.AutoSize = true;
-            this.RadioButton13.Location = new System.Drawing.Point(17, 112);
+            this.RadioButton13.Location = new System.Drawing.Point(20, 129);
+            this.RadioButton13.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.RadioButton13.Name = "RadioButton13";
-            this.RadioButton13.Size = new System.Drawing.Size(100, 17);
+            this.RadioButton13.Size = new System.Drawing.Size(103, 19);
             this.RadioButton13.TabIndex = 0;
             this.RadioButton13.TabStop = true;
             this.RadioButton13.Text = "Bureau.SerVOS";
@@ -693,18 +705,20 @@ namespace Vincent_OS
             // 
             this.panel16.Controls.Add(this.PictureBox17);
             this.panel16.Controls.Add(this.RadioButton14);
-            this.panel16.Location = new System.Drawing.Point(285, 3);
+            this.panel16.Location = new System.Drawing.Point(336, 3);
+            this.panel16.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel16.Name = "panel16";
-            this.panel16.Size = new System.Drawing.Size(135, 129);
+            this.panel16.Size = new System.Drawing.Size(158, 149);
             this.panel16.TabIndex = 26;
             this.panel16.Visible = false;
             // 
             // PictureBox17
             // 
             this.PictureBox17.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox17.Image")));
-            this.PictureBox17.Location = new System.Drawing.Point(13, 3);
+            this.PictureBox17.Location = new System.Drawing.Point(15, 3);
+            this.PictureBox17.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox17.Name = "PictureBox17";
-            this.PictureBox17.Size = new System.Drawing.Size(105, 104);
+            this.PictureBox17.Size = new System.Drawing.Size(122, 120);
             this.PictureBox17.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox17.TabIndex = 23;
             this.PictureBox17.TabStop = false;
@@ -712,9 +726,10 @@ namespace Vincent_OS
             // RadioButton14
             // 
             this.RadioButton14.AutoSize = true;
-            this.RadioButton14.Location = new System.Drawing.Point(12, 109);
+            this.RadioButton14.Location = new System.Drawing.Point(14, 126);
+            this.RadioButton14.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.RadioButton14.Name = "RadioButton14";
-            this.RadioButton14.Size = new System.Drawing.Size(106, 17);
+            this.RadioButton14.Size = new System.Drawing.Size(109, 19);
             this.RadioButton14.TabIndex = 1;
             this.RadioButton14.TabStop = true;
             this.RadioButton14.Text = "Bureau2.SerVOS";
@@ -724,18 +739,20 @@ namespace Vincent_OS
             // 
             this.panel17.Controls.Add(this.PictureBox18);
             this.panel17.Controls.Add(this.RadioButton16);
-            this.panel17.Location = new System.Drawing.Point(3, 138);
+            this.panel17.Location = new System.Drawing.Point(4, 158);
+            this.panel17.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.panel17.Name = "panel17";
-            this.panel17.Size = new System.Drawing.Size(135, 129);
+            this.panel17.Size = new System.Drawing.Size(158, 149);
             this.panel17.TabIndex = 26;
             this.panel17.Visible = false;
             // 
             // PictureBox18
             // 
             this.PictureBox18.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox18.Image")));
-            this.PictureBox18.Location = new System.Drawing.Point(12, 3);
+            this.PictureBox18.Location = new System.Drawing.Point(14, 3);
+            this.PictureBox18.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox18.Name = "PictureBox18";
-            this.PictureBox18.Size = new System.Drawing.Size(105, 104);
+            this.PictureBox18.Size = new System.Drawing.Size(122, 120);
             this.PictureBox18.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox18.TabIndex = 24;
             this.PictureBox18.TabStop = false;
@@ -743,9 +760,10 @@ namespace Vincent_OS
             // RadioButton16
             // 
             this.RadioButton16.AutoSize = true;
-            this.RadioButton16.Location = new System.Drawing.Point(3, 109);
+            this.RadioButton16.Location = new System.Drawing.Point(4, 126);
+            this.RadioButton16.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.RadioButton16.Name = "RadioButton16";
-            this.RadioButton16.Size = new System.Drawing.Size(119, 17);
+            this.RadioButton16.Size = new System.Drawing.Size(125, 19);
             this.RadioButton16.TabIndex = 3;
             this.RadioButton16.TabStop = true;
             this.RadioButton16.Text = "Paramètres.SerVOS";
@@ -759,10 +777,11 @@ namespace Vincent_OS
             this.TabPage2.Controls.Add(this.RadioButton17);
             this.TabPage2.Controls.Add(this.Button2);
             this.TabPage2.Controls.Add(this.Label2);
-            this.TabPage2.Location = new System.Drawing.Point(4, 22);
+            this.TabPage2.Location = new System.Drawing.Point(4, 24);
+            this.TabPage2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TabPage2.Name = "TabPage2";
-            this.TabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.TabPage2.Size = new System.Drawing.Size(499, 578);
+            this.TabPage2.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.TabPage2.Size = new System.Drawing.Size(584, 669);
             this.TabPage2.TabIndex = 1;
             this.TabPage2.Text = "Session";
             this.TabPage2.UseVisualStyleBackColor = true;
@@ -770,9 +789,10 @@ namespace Vincent_OS
             // PictureBox20
             // 
             this.PictureBox20.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox20.Image")));
-            this.PictureBox20.Location = new System.Drawing.Point(269, 56);
+            this.PictureBox20.Location = new System.Drawing.Point(314, 65);
+            this.PictureBox20.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox20.Name = "PictureBox20";
-            this.PictureBox20.Size = new System.Drawing.Size(105, 104);
+            this.PictureBox20.Size = new System.Drawing.Size(122, 120);
             this.PictureBox20.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox20.TabIndex = 23;
             this.PictureBox20.TabStop = false;
@@ -781,9 +801,10 @@ namespace Vincent_OS
             // PictureBox19
             // 
             this.PictureBox19.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox19.Image")));
-            this.PictureBox19.Location = new System.Drawing.Point(117, 56);
+            this.PictureBox19.Location = new System.Drawing.Point(136, 65);
+            this.PictureBox19.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox19.Name = "PictureBox19";
-            this.PictureBox19.Size = new System.Drawing.Size(105, 104);
+            this.PictureBox19.Size = new System.Drawing.Size(122, 120);
             this.PictureBox19.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox19.TabIndex = 22;
             this.PictureBox19.TabStop = false;
@@ -792,9 +813,10 @@ namespace Vincent_OS
             // RadioButton18
             // 
             this.RadioButton18.AutoSize = true;
-            this.RadioButton18.Location = new System.Drawing.Point(299, 166);
+            this.RadioButton18.Location = new System.Drawing.Point(349, 192);
+            this.RadioButton18.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.RadioButton18.Name = "RadioButton18";
-            this.RadioButton18.Size = new System.Drawing.Size(51, 17);
+            this.RadioButton18.Size = new System.Drawing.Size(54, 19);
             this.RadioButton18.TabIndex = 1;
             this.RadioButton18.Text = "Invité";
             this.RadioButton18.UseVisualStyleBackColor = true;
@@ -804,9 +826,10 @@ namespace Vincent_OS
             // 
             this.RadioButton17.AutoSize = true;
             this.RadioButton17.Checked = true;
-            this.RadioButton17.Location = new System.Drawing.Point(125, 166);
+            this.RadioButton17.Location = new System.Drawing.Point(146, 192);
+            this.RadioButton17.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.RadioButton17.Name = "RadioButton17";
-            this.RadioButton17.Size = new System.Drawing.Size(97, 17);
+            this.RadioButton17.Size = new System.Drawing.Size(107, 19);
             this.RadioButton17.TabIndex = 0;
             this.RadioButton17.TabStop = true;
             this.RadioButton17.Text = "Superutilisateur";
@@ -818,9 +841,10 @@ namespace Vincent_OS
             this.Button2.BackColor = System.Drawing.Color.LightGray;
             this.Button2.FlatAppearance.BorderSize = 0;
             this.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Button2.Location = new System.Drawing.Point(209, 207);
+            this.Button2.Location = new System.Drawing.Point(244, 239);
+            this.Button2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button2.Name = "Button2";
-            this.Button2.Size = new System.Drawing.Size(75, 23);
+            this.Button2.Size = new System.Drawing.Size(88, 27);
             this.Button2.TabIndex = 16;
             this.Button2.Text = "Arrêter";
             this.Button2.UseVisualStyleBackColor = false;
@@ -829,8 +853,9 @@ namespace Vincent_OS
             // Label2
             // 
             this.Label2.AutoSize = true;
-            this.Label2.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Label2.Location = new System.Drawing.Point(20, 3);
+            this.Label2.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label2.Location = new System.Drawing.Point(23, 3);
+            this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(467, 36);
             this.Label2.TabIndex = 5;
@@ -838,12 +863,15 @@ namespace Vincent_OS
             // 
             // TaskVOS
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(507, 604);
+            this.BackColor = System.Drawing.Color.Black;
+            this.ClientSize = new System.Drawing.Size(592, 697);
             this.Controls.Add(this.TabControl1);
+            this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.Name = "TaskVOS";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -859,9 +887,6 @@ namespace Vincent_OS
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).EndInit();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox3)).EndInit();
             this.panel4.ResumeLayout(false);
             this.panel4.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox4)).EndInit();
@@ -930,7 +955,6 @@ namespace Vincent_OS
         internal RadioButton RadioButton18;
         internal Button Button2;
         internal Label Label2;
-        internal RadioButton RadioButton20;
         internal RadioButton RadioButton12;
         internal TabPage TabPage3;
         internal Button Button3;
@@ -941,7 +965,6 @@ namespace Vincent_OS
         internal RadioButton RadioButton14;
         internal RadioButton RadioButton16;
         internal PictureBox PictureBox2;
-        internal PictureBox PictureBox3;
         internal PictureBox PictureBox4;
         internal PictureBox PictureBox5;
         internal PictureBox PictureBox6;
@@ -960,7 +983,6 @@ namespace Vincent_OS
         private FlowLayoutPanel flowLayoutPanel1;
         private Panel panel1;
         private Panel panel2;
-        private Panel panel3;
         private Panel panel5;
         private Panel panel6;
         private Panel panel4;
