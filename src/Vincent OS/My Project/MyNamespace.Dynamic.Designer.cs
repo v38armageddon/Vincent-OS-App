@@ -217,29 +217,6 @@ namespace Vincent_OS.My
 
 
             [EditorBrowsable(EditorBrowsableState.Never)]
-            public chrono m_chrono;
-
-            public chrono chrono
-            {
-                [DebuggerHidden]
-                get
-                {
-                    m_chrono = Create__Instance__(m_chrono);
-                    return m_chrono;
-                }
-                [DebuggerHidden]
-                set
-                {
-                    if (ReferenceEquals(value, m_chrono))
-                        return;
-                    if (value is not null)
-                        throw new ArgumentException("Property can only be set to Nothing");
-                    Dispose__Instance__(ref m_chrono);
-                }
-            }
-
-
-            [EditorBrowsable(EditorBrowsableState.Never)]
             public Custom m_Custom;
 
             public Custom Custom

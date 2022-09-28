@@ -25,7 +25,7 @@ namespace Vincent_OS
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            // Création d'un Private Sub pour mieux se retrouver
+            // Création d'un private void pour mieux se retrouver
             commande();
         }
 
@@ -57,12 +57,25 @@ namespace Vincent_OS
             if (TextBox1.Text == "ver")
             {
                 // ATTENTION A BIEN CHANGER LA VERSION CAR JE VAIS SUREMENT OUBLIER A LA PROCHAINE VERSION !!!!!!!!!!!
-                RichTextBox1.Text = "Nom du système d'exploitation : Vincent OS\nVersion : 9.0.2\nBranche : Officiel";
+                RichTextBox1.Text = 
+                    "Nom du système d'exploitation : Vincent OS\n" +
+                    "Version : 10\n" +
+                    "Branche : Officiel";
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "help")
             {
-                RichTextBox1.Text = "Bing Chrome        Lance Bing Chrome.\nCalc       Lance la calculatrice\nChrono       Lance le chronomètre\nExewin       Lance l'exécuteur d'application non Vincent OS.\nGame        Lance le gestionnaire de jeux.\nMediaPlayer      Lance le Media Player.\nMeme        Lance l'explorateur de fichiers.\nNotepad        Lance le Bloc Note.\nPaint       Lance Paint.\nTerminal     Lance une autre fenêtre d'un Terminal.\nVisio       Lance la visionneuse d'images.\n\nCertaines commandes sont cachées !";
+                RichTextBox1.Text = "Bing Chrome - Lance Bing Chrome.\n" +
+                    "Calc - Lance la calculatrice\n" +
+                    "Exewin - Lance l'exécuteur d'application non Vincent OS.\n" +
+                    "Game - Lance le gestionnaire de jeux.\n" +
+                    "MediaPlayer - Lance le Media Player.\n" +
+                    "Meme - Lance l'explorateur de fichiers.\n" +
+                    "Notepad - Lance le Bloc Note.\n" +
+                    "Paint - Lance Paint.\n" +
+                    "Terminal - Lance une autre fenêtre d'un Terminal.\n" +
+                    "Visio - Lance la visionneuse d'images.\n\n" +
+                    "Certaines commandes sont cachées !";
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Bing Chrome")
@@ -116,16 +129,13 @@ namespace Vincent_OS
                 My.MyProject.Forms.Visio.Show();
                 TextBox1.Text = "";
             }
-            else if (TextBox1.Text == "Chrono")
-            {
-                My.MyProject.Forms.chrono.Show();
-                TextBox1.Text = "";
-            }
             // Ici commence les commandes de Debug, à utiliser avec précaution !
 
             else if (TextBox1.Text == "Debug_Options")
             {
-                RichTextBox1.Text = "[DEBUG]: Enter a valid command.\nDebug_Options_Help";
+                RichTextBox1.Text = 
+                    "[DEBUG]: Enter a valid command.\n" +
+                    "Debug_Options_Help";
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Debug_Options_Custom")
@@ -156,7 +166,12 @@ namespace Vincent_OS
             }
             else if (TextBox1.Text == "Debug_Help")
             {
-                RichTextBox1.Text = "Debug_AlerteLog\nDebug_AlerteLog_ForceCrash\nDebug_Options\nDebug_ClearMemory\nDebug_OpenTestWindow";
+                RichTextBox1.Text = 
+                    "Debug_AlerteLog\n" +
+                    "Debug_AlerteLog_ForceCrash\n" +
+                    "Debug_Options\n" +
+                    "Debug_ClearMemory\n" +
+                    "Debug_OpenTestWindow";
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Debug_App_ForceCrash")
@@ -168,6 +183,7 @@ namespace Vincent_OS
             {
                 GC.Collect();
                 GC.WaitForPendingFinalizers();
+                RichTextBox1.Text = "[DEBUG]: Memory Cleared!";
                 TextBox1.Text = "";
             }
             else

@@ -57,7 +57,7 @@ namespace Vincent_OS
             this.RichTextBox1.ReadOnly = true;
             this.RichTextBox1.Size = new System.Drawing.Size(671, 361);
             this.RichTextBox1.TabIndex = 0;
-            this.RichTextBox1.Text = "Vincent OS [version 9.0.2.0]\nProjet Open Source";
+            this.RichTextBox1.Text = "Vincent OS [version 10.0.0.0]\nProjet Open Source";
             // 
             // Label1
             // 
