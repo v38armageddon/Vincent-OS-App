@@ -174,7 +174,7 @@ namespace Vincent_OS
             // 
             // PictureBox3
             // 
-            this.PictureBox3.BackColor = System.Drawing.Color.Gray;
+            this.PictureBox3.BackColor = System.Drawing.Color.DimGray;
             this.PictureBox3.Dock = System.Windows.Forms.DockStyle.Top;
             this.PictureBox3.Location = new System.Drawing.Point(0, 0);
             this.PictureBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -186,7 +186,7 @@ namespace Vincent_OS
             // PictureBox4
             // 
             this.PictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.PictureBox4.BackColor = System.Drawing.Color.Gray;
+            this.PictureBox4.BackColor = System.Drawing.Color.DimGray;
             this.PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox4.Image")));
             this.PictureBox4.Location = new System.Drawing.Point(959, 0);
             this.PictureBox4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -200,7 +200,7 @@ namespace Vincent_OS
             // Label4
             // 
             this.Label4.AutoSize = true;
-            this.Label4.BackColor = System.Drawing.Color.Gray;
+            this.Label4.BackColor = System.Drawing.Color.DimGray;
             this.Label4.Font = new System.Drawing.Font("Arial", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label4.ForeColor = System.Drawing.Color.White;
             this.Label4.Location = new System.Drawing.Point(6, 6);
@@ -233,7 +233,7 @@ namespace Vincent_OS
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(989, 522);
