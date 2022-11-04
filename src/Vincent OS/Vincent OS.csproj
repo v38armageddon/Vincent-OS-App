@@ -221,6 +221,9 @@
     <EmbeddedResource Remove="Properties\Resources.resx" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Vincent OS.Registry\Vincent OS.Registry.vcxproj" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Update="My Project\Settings.Designer.cs">
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <AutoGen>True</AutoGen>
