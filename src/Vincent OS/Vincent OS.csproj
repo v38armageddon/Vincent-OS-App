@@ -155,13 +155,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.editorconfig" Link=".editorconfig" />
-    <None Include="Resources\alertSound.wav" />
-    <None Include="Resources\errorSound.wav" />
-    <None Include="Resources\shutdownSound.wav" />
-    <None Include="Resources\startingSound.wav" />
-    <None Include="Resources\wallpaper invité.png" />
-    <None Include="Resources\wallpaper login.jpg" />
-    <None Include="Resources\wallpaper superutilisateur.jpg" />
     <Content Include="logo.ico" />
   </ItemGroup>
   <ItemGroup>
