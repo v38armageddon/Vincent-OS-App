@@ -73,6 +73,13 @@ namespace Vincent_OS
             this.Label2 = new System.Windows.Forms.Label();
             this.PictureBox2 = new System.Windows.Forms.PictureBox();
             this.PictureBox3 = new System.Windows.Forms.PictureBox();
+            this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox12 = new System.Windows.Forms.PictureBox();
+            this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.TabControl1.SuspendLayout();
             this.TabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
@@ -90,6 +97,9 @@ namespace Vincent_OS
             this.TabPage2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox3)).BeginInit();
+            this.tabPage3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).BeginInit();
             this.SuspendLayout();
             // 
             // OpenFileDialog1
@@ -102,16 +112,19 @@ namespace Vincent_OS
             this.TabControl1.Controls.Add(this.TabPage4);
             this.TabControl1.Controls.Add(this.TabPage1);
             this.TabControl1.Controls.Add(this.TabPage2);
+            this.TabControl1.Controls.Add(this.tabPage3);
             this.TabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TabControl1.Location = new System.Drawing.Point(0, 0);
             this.TabControl1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TabControl1.Name = "TabControl1";
             this.TabControl1.SelectedIndex = 0;
             this.TabControl1.Size = new System.Drawing.Size(706, 375);
+            this.TabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.TabControl1.TabIndex = 7;
             // 
             // TabPage4
             // 
+            this.TabPage4.BackColor = System.Drawing.Color.Black;
             this.TabPage4.Controls.Add(this.Button3);
             this.TabPage4.Controls.Add(this.Button2);
             this.TabPage4.Controls.Add(this.Label1);
@@ -125,7 +138,6 @@ namespace Vincent_OS
             this.TabPage4.Size = new System.Drawing.Size(698, 347);
             this.TabPage4.TabIndex = 3;
             this.TabPage4.Text = "Fond d\'écran";
-            this.TabPage4.UseVisualStyleBackColor = true;
             // 
             // Button3
             // 
@@ -206,6 +218,7 @@ namespace Vincent_OS
             // 
             // TabPage1
             // 
+            this.TabPage1.BackColor = System.Drawing.Color.Black;
             this.TabPage1.Controls.Add(this.CheckBox11);
             this.TabPage1.Controls.Add(this.CheckBox10);
             this.TabPage1.Controls.Add(this.CheckBox8);
@@ -234,7 +247,6 @@ namespace Vincent_OS
             this.TabPage1.Size = new System.Drawing.Size(698, 347);
             this.TabPage1.TabIndex = 5;
             this.TabPage1.Text = "Icônes";
-            this.TabPage1.UseVisualStyleBackColor = true;
             // 
             // CheckBox11
             // 
@@ -469,6 +481,7 @@ namespace Vincent_OS
             // 
             // TabPage2
             // 
+            this.TabPage2.BackColor = System.Drawing.Color.Black;
             this.TabPage2.Controls.Add(this.RadioButton2);
             this.TabPage2.Controls.Add(this.RadioButton1);
             this.TabPage2.Controls.Add(this.Label2);
@@ -481,7 +494,6 @@ namespace Vincent_OS
             this.TabPage2.Size = new System.Drawing.Size(698, 347);
             this.TabPage2.TabIndex = 6;
             this.TabPage2.Text = "Résolution";
-            this.TabPage2.UseVisualStyleBackColor = true;
             // 
             // RadioButton2
             // 
@@ -542,19 +554,97 @@ namespace Vincent_OS
             this.PictureBox3.TabIndex = 16;
             this.PictureBox3.TabStop = false;
             // 
+            // tabPage3
+            // 
+            this.tabPage3.BackColor = System.Drawing.Color.Black;
+            this.tabPage3.Controls.Add(this.radioButton4);
+            this.tabPage3.Controls.Add(this.radioButton3);
+            this.tabPage3.Controls.Add(this.pictureBox15);
+            this.tabPage3.Controls.Add(this.pictureBox12);
+            this.tabPage3.Controls.Add(this.label5);
+            this.tabPage3.Controls.Add(this.label4);
+            this.tabPage3.Location = new System.Drawing.Point(4, 24);
+            this.tabPage3.Name = "tabPage3";
+            this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage3.Size = new System.Drawing.Size(698, 347);
+            this.tabPage3.TabIndex = 7;
+            this.tabPage3.Text = "Shell";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(240, 3);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(213, 24);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Mode Shell par défaut";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.ForeColor = System.Drawing.Color.Red;
+            this.label5.Location = new System.Drawing.Point(8, 27);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(675, 120);
+            this.label5.TabIndex = 1;
+            this.label5.Text = resources.GetString("label5.Text");
+            this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
+            // pictureBox12
+            // 
+            this.pictureBox12.Location = new System.Drawing.Point(126, 176);
+            this.pictureBox12.Name = "pictureBox12";
+            this.pictureBox12.Size = new System.Drawing.Size(154, 91);
+            this.pictureBox12.TabIndex = 2;
+            this.pictureBox12.TabStop = false;
+            // 
+            // pictureBox15
+            // 
+            this.pictureBox15.Location = new System.Drawing.Point(426, 176);
+            this.pictureBox15.Name = "pictureBox15";
+            this.pictureBox15.Size = new System.Drawing.Size(154, 91);
+            this.pictureBox15.TabIndex = 3;
+            this.pictureBox15.TabStop = false;
+            // 
+            // radioButton3
+            // 
+            this.radioButton3.AutoSize = true;
+            this.radioButton3.Location = new System.Drawing.Point(160, 273);
+            this.radioButton3.Name = "radioButton3";
+            this.radioButton3.Size = new System.Drawing.Size(89, 19);
+            this.radioButton3.TabIndex = 4;
+            this.radioButton3.TabStop = true;
+            this.radioButton3.Text = "Explorer.exe";
+            this.radioButton3.UseVisualStyleBackColor = true;
+            // 
+            // radioButton4
+            // 
+            this.radioButton4.AutoSize = true;
+            this.radioButton4.Location = new System.Drawing.Point(452, 273);
+            this.radioButton4.Name = "radioButton4";
+            this.radioButton4.Size = new System.Drawing.Size(104, 19);
+            this.radioButton4.TabIndex = 5;
+            this.radioButton4.TabStop = true;
+            this.radioButton4.Text = "Vincent OS.exe";
+            this.radioButton4.UseVisualStyleBackColor = true;
+            // 
             // Custom
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(706, 375);
             this.Controls.Add(this.TabControl1);
+            this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.Name = "Custom";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Personnalisation";
+            this.Text = "Personnalisation VinDesk";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Custom_FormClosed);
             this.Load += new System.EventHandler(this.Ecran_Load);
             this.TabControl1.ResumeLayout(false);
@@ -577,6 +667,10 @@ namespace Vincent_OS
             this.TabPage2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox3)).EndInit();
+            this.tabPage3.ResumeLayout(false);
+            this.tabPage3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox15)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -617,5 +711,12 @@ namespace Vincent_OS
         internal CheckBox CheckBox3;
         internal CheckBox CheckBox2;
         internal CheckBox CheckBox1;
+        private TabPage tabPage3;
+        private PictureBox pictureBox12;
+        private Label label5;
+        private Label label4;
+        private RadioButton radioButton4;
+        private RadioButton radioButton3;
+        private PictureBox pictureBox15;
     }
 }
