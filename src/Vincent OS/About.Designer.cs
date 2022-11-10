@@ -39,10 +39,11 @@ namespace Vincent_OS
             this.Label1 = new System.Windows.Forms.Label();
             this.Label2 = new System.Windows.Forms.Label();
             this.Label3 = new System.Windows.Forms.Label();
-            this.Label4 = new System.Windows.Forms.Label();
             this.Label5 = new System.Windows.Forms.Label();
             this.PictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // Label1
@@ -53,16 +54,16 @@ namespace Vincent_OS
             this.Label1.Location = new System.Drawing.Point(231, 14);
             this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(168, 34);
+            this.Label1.Size = new System.Drawing.Size(230, 34);
             this.Label1.TabIndex = 1;
-            this.Label1.Text = "Vincent OS";
+            this.Label1.Text = "Vincent OS App";
             // 
             // Label2
             // 
             this.Label2.AutoSize = true;
             this.Label2.Font = new System.Drawing.Font("Arial", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label2.ForeColor = System.Drawing.Color.White;
-            this.Label2.Location = new System.Drawing.Point(232, 54);
+            this.Label2.Location = new System.Drawing.Point(231, 48);
             this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
             this.Label2.Size = new System.Drawing.Size(168, 33);
@@ -74,31 +75,19 @@ namespace Vincent_OS
             this.Label3.AutoSize = true;
             this.Label3.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label3.ForeColor = System.Drawing.Color.White;
-            this.Label3.Location = new System.Drawing.Point(231, 124);
+            this.Label3.Location = new System.Drawing.Point(231, 113);
             this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(258, 32);
             this.Label3.TabIndex = 3;
             this.Label3.Text = "Ce système d\'exploitation est Open Source\r\nsoumis sous la licence : GPL-v3.0";
             // 
-            // Label4
-            // 
-            this.Label4.AutoSize = true;
-            this.Label4.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Label4.ForeColor = System.Drawing.Color.White;
-            this.Label4.Location = new System.Drawing.Point(229, 167);
-            this.Label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(260, 24);
-            this.Label4.TabIndex = 4;
-            this.Label4.Text = "Créateur : v38armageddon";
-            // 
             // Label5
             // 
             this.Label5.AutoSize = true;
             this.Label5.Font = new System.Drawing.Font("Arial", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label5.ForeColor = System.Drawing.Color.White;
-            this.Label5.Location = new System.Drawing.Point(231, 92);
+            this.Label5.Location = new System.Drawing.Point(231, 81);
             this.Label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label5.Name = "Label5";
             this.Label5.Size = new System.Drawing.Size(221, 32);
@@ -116,14 +105,24 @@ namespace Vincent_OS
             this.PictureBox1.TabIndex = 0;
             this.PictureBox1.TabStop = false;
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(280, 193);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(210, 39);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 6;
+            this.pictureBox2.TabStop = false;
+            // 
             // About
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(502, 244);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.Label5);
-            this.Controls.Add(this.Label4);
             this.Controls.Add(this.Label3);
             this.Controls.Add(this.Label2);
             this.Controls.Add(this.Label1);
@@ -136,6 +135,7 @@ namespace Vincent_OS
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "A propos";
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -144,7 +144,7 @@ namespace Vincent_OS
         internal Label Label1;
         internal Label Label2;
         internal Label Label3;
-        internal Label Label4;
         internal Label Label5;
+        private PictureBox pictureBox2;
     }
 }
