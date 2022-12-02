@@ -37,6 +37,8 @@ Reddit : https://www.reddit.com/r/VincentOS/
 
 GitHub : https://github.com/v38armageddon/Vincent-OS-App
 
+Discord : https://discord.gg/YMpAM8qT8E
+
 J'espère que le système d'exploitation va vous plaire.
 
 En souhaitant une agréable journée.
