@@ -43,4 +43,4 @@ J'espère que le système d'exploitation va vous plaire.
 
 En souhaitant une agréable journée.
 
-- v38armageddon
+\- v38armageddon
