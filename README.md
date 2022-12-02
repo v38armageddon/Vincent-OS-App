@@ -23,9 +23,9 @@ N'oubliez pas que les fichiers exécutables qui sont hors du dossier : "src" ne 
 
 Si vous faites un changement, voici la structure de où se situes les nouveaux fichiers exécutables :
 
-Pour les processeurs 32 bits : src/Vincent OS/obj/x86/Debug/Vincent OS.exe
+Pour les processeurs 32 bits : src/Vincent OS/obj/x86/Debug/net6.0-windows10.0.22621.0/Vincent OS.exe
 
-Pour les processeurs 64 bits : src/Vincent OS/bin/Debug/Vincent OS.exe
+Pour les processeurs 64 bits : src/Vincent OS/bin/Debug/net6.0-windows10.0.22621.0/Vincent OS.exe
 
 ## Informations
 
