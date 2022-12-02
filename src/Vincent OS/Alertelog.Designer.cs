@@ -63,15 +63,18 @@ namespace Vincent_OS
             // 
             this.ComboBox1.FormattingEnabled = true;
             this.ComboBox1.Items.AddRange(new object[] {
-            "Arrêter",
-            "Redémarrer",
-            "Déconnecter"});
+            "Arrêter Vincent OS",
+            "Redémarrer Vincent OS",
+            "Déconnecter de la session Vincent OS",
+            "Arrêter Windows",
+            "Redémarrer Windows",
+            "Déconnecter la session Windows"});
             this.ComboBox1.Location = new System.Drawing.Point(127, 42);
             this.ComboBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ComboBox1.Name = "ComboBox1";
             this.ComboBox1.Size = new System.Drawing.Size(182, 23);
             this.ComboBox1.TabIndex = 3;
-            this.ComboBox1.Text = "Arrêter";
+            this.ComboBox1.Text = "Arrêter Vincent OS";
             // 
             // Label2
             // 

@@ -101,7 +101,7 @@ namespace Vincent_OS
             // Label2
             // 
             this.Label2.AutoSize = true;
-            this.Label2.BackColor = System.Drawing.Color.Gray;
+            this.Label2.BackColor = System.Drawing.Color.Black;
             this.Label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label2.ForeColor = System.Drawing.Color.White;
             this.Label2.Location = new System.Drawing.Point(5, 3);
@@ -114,7 +114,7 @@ namespace Vincent_OS
             // Panel1
             // 
             this.Panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Panel1.BackColor = System.Drawing.Color.Gray;
+            this.Panel1.BackColor = System.Drawing.Color.Black;
             this.Panel1.Controls.Add(this.Button9);
             this.Panel1.Controls.Add(this.Label3);
             this.Panel1.Controls.Add(this.PictureBox3);
@@ -179,7 +179,7 @@ namespace Vincent_OS
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.BackColor = System.Drawing.Color.Gray;
+            this.Label1.BackColor = System.Drawing.Color.Black;
             this.Label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label1.ForeColor = System.Drawing.Color.White;
             this.Label1.Location = new System.Drawing.Point(69, 3);
@@ -193,7 +193,7 @@ namespace Vincent_OS
             // 
             this.FlowLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
-            this.FlowLayoutPanel2.BackColor = System.Drawing.Color.Gray;
+            this.FlowLayoutPanel2.BackColor = System.Drawing.Color.Black;
             this.FlowLayoutPanel2.Controls.Add(this.Button15);
             this.FlowLayoutPanel2.Controls.Add(this.Button16);
             this.FlowLayoutPanel2.Controls.Add(this.Button17);
@@ -342,7 +342,7 @@ namespace Vincent_OS
             // Button12
             // 
             this.Button12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.Button12.BackColor = System.Drawing.Color.Gray;
+            this.Button12.BackColor = System.Drawing.Color.Black;
             this.Button12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button12.BackgroundImage")));
             this.Button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button12.FlatAppearance.BorderSize = 0;
@@ -356,7 +356,7 @@ namespace Vincent_OS
             // 
             // PictureBox4
             // 
-            this.PictureBox4.BackColor = System.Drawing.Color.Gray;
+            this.PictureBox4.BackColor = System.Drawing.Color.Black;
             this.PictureBox4.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.PictureBox4.Location = new System.Drawing.Point(0, 425);
             this.PictureBox4.Name = "PictureBox4";
@@ -379,7 +379,7 @@ namespace Vincent_OS
             // 
             // PictureBox1
             // 
-            this.PictureBox1.BackColor = System.Drawing.Color.Gray;
+            this.PictureBox1.BackColor = System.Drawing.Color.Black;
             this.PictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.PictureBox1.Location = new System.Drawing.Point(0, 0);
             this.PictureBox1.Name = "PictureBox1";
@@ -544,7 +544,7 @@ namespace Vincent_OS
             // PictureBox6
             // 
             this.PictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.PictureBox6.BackColor = System.Drawing.Color.Gray;
+            this.PictureBox6.BackColor = System.Drawing.Color.Black;
             this.PictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox6.Image")));
             this.PictureBox6.Location = new System.Drawing.Point(820, 426);
             this.PictureBox6.Name = "PictureBox6";
@@ -559,7 +559,7 @@ namespace Vincent_OS
             // PictureBox7
             // 
             this.PictureBox7.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.PictureBox7.BackColor = System.Drawing.Color.Gray;
+            this.PictureBox7.BackColor = System.Drawing.Color.Black;
             this.PictureBox7.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox7.Image")));
             this.PictureBox7.Location = new System.Drawing.Point(820, 426);
             this.PictureBox7.Name = "PictureBox7";

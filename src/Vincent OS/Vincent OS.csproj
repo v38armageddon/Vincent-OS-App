@@ -214,6 +214,9 @@
     <EmbeddedResource Remove="Properties\Resources.resx" />
   </ItemGroup>
   <ItemGroup>
+    <None Remove="Login.resx~RF8e6cf3e.TMP" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\Vincent OS.Registry\Vincent OS.Registry.vcxproj" />
   </ItemGroup>
   <ItemGroup>

@@ -42,6 +42,7 @@ namespace Vincent_OS
             this.Label5 = new System.Windows.Forms.Label();
             this.PictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
@@ -80,7 +81,7 @@ namespace Vincent_OS
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(258, 32);
             this.Label3.TabIndex = 3;
-            this.Label3.Text = "Ce système d\'exploitation est Open Source\r\nsoumis sous la licence : GPL-v3.0";
+            this.Label3.Text = "Ce système d\'exploitation est Open Source\r\nsoumis sous la licence :";
             // 
             // Label5
             // 
@@ -115,12 +116,25 @@ namespace Vincent_OS
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
             // 
+            // linkLabel1
+            // 
+            this.linkLabel1.AutoSize = true;
+            this.linkLabel1.LinkColor = System.Drawing.Color.White;
+            this.linkLabel1.Location = new System.Drawing.Point(377, 130);
+            this.linkLabel1.Name = "linkLabel1";
+            this.linkLabel1.Size = new System.Drawing.Size(39, 15);
+            this.linkLabel1.TabIndex = 7;
+            this.linkLabel1.TabStop = true;
+            this.linkLabel1.Text = "GPL-3";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            // 
             // About
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(502, 244);
+            this.Controls.Add(this.linkLabel1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.Label5);
             this.Controls.Add(this.Label3);
@@ -146,5 +160,6 @@ namespace Vincent_OS
         internal Label Label3;
         internal Label Label5;
         private PictureBox pictureBox2;
+        private LinkLabel linkLabel1;
     }
 }

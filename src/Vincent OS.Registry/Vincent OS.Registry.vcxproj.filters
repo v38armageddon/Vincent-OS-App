@@ -24,9 +24,6 @@
     <ClInclude Include="ExplorerToVinDesk.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
-    <ClInclude Include="Check.h">
-      <Filter>Fichiers d%27en-tête</Filter>
-    </ClInclude>
     <ClInclude Include="VinDeskToExplorer.h">
       <Filter>Fichiers d%27en-tête</Filter>
     </ClInclude>
@@ -42,9 +39,6 @@
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="ExplorerToVinDesk.cpp">
-      <Filter>Fichiers sources</Filter>
-    </ClCompile>
-    <ClCompile Include="Check.cpp">
       <Filter>Fichiers sources</Filter>
     </ClCompile>
     <ClCompile Include="VinDeskToExplorer.cpp">

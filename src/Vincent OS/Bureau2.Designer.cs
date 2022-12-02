@@ -90,7 +90,7 @@ namespace Vincent_OS
             // Panel1
             // 
             this.Panel1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.Panel1.BackColor = System.Drawing.Color.Gray;
+            this.Panel1.BackColor = System.Drawing.Color.Black;
             this.Panel1.Controls.Add(this.Button7);
             this.Panel1.Controls.Add(this.Label3);
             this.Panel1.Controls.Add(this.PictureBox3);
@@ -160,7 +160,7 @@ namespace Vincent_OS
             // Label2
             // 
             this.Label2.AutoSize = true;
-            this.Label2.BackColor = System.Drawing.Color.Gray;
+            this.Label2.BackColor = System.Drawing.Color.Black;
             this.Label2.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label2.ForeColor = System.Drawing.Color.White;
             this.Label2.Location = new System.Drawing.Point(5, 3);
@@ -195,7 +195,7 @@ namespace Vincent_OS
             // 
             // PictureBox1
             // 
-            this.PictureBox1.BackColor = System.Drawing.Color.Gray;
+            this.PictureBox1.BackColor = System.Drawing.Color.Black;
             this.PictureBox1.Dock = System.Windows.Forms.DockStyle.Top;
             this.PictureBox1.Location = new System.Drawing.Point(0, 0);
             this.PictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -295,6 +295,7 @@ namespace Vincent_OS
             // Button12
             // 
             this.Button12.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.Button12.BackColor = System.Drawing.Color.Black;
             this.Button12.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button12.BackgroundImage")));
             this.Button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button12.FlatAppearance.BorderSize = 0;
@@ -304,7 +305,7 @@ namespace Vincent_OS
             this.Button12.Name = "Button12";
             this.Button12.Size = new System.Drawing.Size(28, 26);
             this.Button12.TabIndex = 20;
-            this.Button12.UseVisualStyleBackColor = true;
+            this.Button12.UseVisualStyleBackColor = false;
             this.Button12.Click += new System.EventHandler(this.Button12_Click);
             // 
             // Button13
@@ -390,7 +391,7 @@ namespace Vincent_OS
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.BackColor = System.Drawing.Color.Gray;
+            this.Label1.BackColor = System.Drawing.Color.Black;
             this.Label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label1.ForeColor = System.Drawing.Color.White;
             this.Label1.Location = new System.Drawing.Point(69, 3);
@@ -403,7 +404,7 @@ namespace Vincent_OS
             // 
             // Panel2
             // 
-            this.Panel2.BackColor = System.Drawing.Color.Gray;
+            this.Panel2.BackColor = System.Drawing.Color.Black;
             this.Panel2.Controls.Add(this.PictureBox6);
             this.Panel2.Controls.Add(this.PictureBox5);
             this.Panel2.Controls.Add(this.FlowLayoutPanel2);
@@ -418,6 +419,7 @@ namespace Vincent_OS
             // PictureBox6
             // 
             this.PictureBox6.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
+            this.PictureBox6.BackColor = System.Drawing.Color.Black;
             this.PictureBox6.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox6.Image")));
             this.PictureBox6.Location = new System.Drawing.Point(820, 0);
             this.PictureBox6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -447,6 +449,7 @@ namespace Vincent_OS
             // 
             // FlowLayoutPanel2
             // 
+            this.FlowLayoutPanel2.BackColor = System.Drawing.Color.Black;
             this.FlowLayoutPanel2.Controls.Add(this.Button15);
             this.FlowLayoutPanel2.Controls.Add(this.Button16);
             this.FlowLayoutPanel2.Controls.Add(this.Button17);

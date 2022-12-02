@@ -174,19 +174,19 @@ namespace Vincent_OS
             // 
             // PictureBox3
             // 
-            this.PictureBox3.BackColor = System.Drawing.Color.DimGray;
+            this.PictureBox3.BackColor = System.Drawing.Color.Black;
             this.PictureBox3.Dock = System.Windows.Forms.DockStyle.Top;
             this.PictureBox3.Location = new System.Drawing.Point(0, 0);
             this.PictureBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox3.Name = "PictureBox3";
-            this.PictureBox3.Size = new System.Drawing.Size(989, 29);
+            this.PictureBox3.Size = new System.Drawing.Size(989, 30);
             this.PictureBox3.TabIndex = 12;
             this.PictureBox3.TabStop = false;
             // 
             // PictureBox4
             // 
             this.PictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.PictureBox4.BackColor = System.Drawing.Color.DimGray;
+            this.PictureBox4.BackColor = System.Drawing.Color.Black;
             this.PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox4.Image")));
             this.PictureBox4.Location = new System.Drawing.Point(959, 0);
             this.PictureBox4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -200,7 +200,7 @@ namespace Vincent_OS
             // Label4
             // 
             this.Label4.AutoSize = true;
-            this.Label4.BackColor = System.Drawing.Color.DimGray;
+            this.Label4.BackColor = System.Drawing.Color.Black;
             this.Label4.Font = new System.Drawing.Font("Arial", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label4.ForeColor = System.Drawing.Color.White;
             this.Label4.Location = new System.Drawing.Point(6, 6);
