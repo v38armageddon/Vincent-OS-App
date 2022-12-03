@@ -11,6 +11,8 @@ namespace Vincent_OS_Registry {
 	public ref class Registry
 	{
 		public:
-			
+			void Location();
+			void ToVinDesk();
+			void ToExplorer();
 	};
 }

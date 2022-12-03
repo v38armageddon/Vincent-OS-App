@@ -5,4 +5,5 @@
 using namespace System;
 using namespace Microsoft::Win32;
 
-void switchToVinDesk();
+void switchToVinDesk_MS();
+void switchToVinDesk_ISS();

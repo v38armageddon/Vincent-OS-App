@@ -21,7 +21,7 @@ namespace Vincent_OS
             {
                 Timer1.Stop();
                 My.MyProject.Forms.Login.Show();
-                Close();
+                Hide();
                 var backmusic = new System.Media.SoundPlayer(My.Resources.Resources.startingSound);
                 backmusic.Play();
                 GC.Collect();

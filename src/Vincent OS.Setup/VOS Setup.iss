@@ -25,9 +25,9 @@ LicenseFile=E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\LICENSE
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
-OutputDir=E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS.Setup\Output
+OutputDir=Output\
 OutputBaseFilename=Vincent OS App Setup
-SetupIconFile=E:\v38armageddon\Pictures\Projets\Vincent OS\logo.ico
+SetupIconFile=logo setup.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -79,7 +79,7 @@ Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent 
 Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\zh-Hant\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
 Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\AxInterop.WMPLib.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\DesktopBridge.Helpers.dll"; DestDir: "{app}"; Flags: ignoreversion
+;Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\DesktopBridge.Helpers.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\Ijwhost.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\Interop.WMPLib.dll"; DestDir: "{app}"; Flags: ignoreversion
 Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\Microsoft.AppCenter.Analytics.dll"; DestDir: "{app}"; Flags: ignoreversion
