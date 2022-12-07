@@ -32,27 +32,11 @@ namespace Vincent_OS
                 if (My.MyProject.Forms.Bureau.Visible == true)
                 {
                     My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage = Image.FromFile(OpenFileDialog1.FileName);
-                    if (Conversions.ToBoolean(Conversions.ToInteger(My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage.Width > 864 & My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage.Height > 420) | My.MyProject.Computer.Screen.Bounds.Width & My.MyProject.Computer.Screen.Bounds.Height))
-                    {
-                        My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
-                    }
-                    else
-                    {
-                        My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Zoom;
-                    }
                     PictureBox1.Image = My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage;
                 }
                 else if (My.MyProject.Forms.Bureau2.Visible == true)
                 {
                     My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage = Image.FromFile(OpenFileDialog1.FileName);
-                    if (Conversions.ToBoolean(Conversions.ToInteger(My.MyProject.Forms.Bureau2.FlowLayoutPanel1.Width > 864 & My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage.Height > 420) | My.MyProject.Computer.Screen.Bounds.Width & My.MyProject.Computer.Screen.Bounds.Height))
-                    {
-                        My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
-                    }
-                    else
-                    {
-                        My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Zoom;
-                    }
                     PictureBox1.Image = My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage;
                 }
             }
@@ -63,27 +47,11 @@ namespace Vincent_OS
             if (My.MyProject.Forms.Bureau.Visible == true)
             {
                 My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage = My.Resources.Resources.login;
-                if (Conversions.ToBoolean(Conversions.ToInteger(My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage.Width > 864 & My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage.Height > 420) | My.MyProject.Computer.Screen.Bounds.Width & My.MyProject.Computer.Screen.Bounds.Height))
-                {
-                    My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
-                }
-                else
-                {
-                    My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Zoom;
-                }
                 PictureBox1.Image = My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage;
             }
             else if (My.MyProject.Forms.Bureau2.Visible == true)
             {
                 My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage = My.Resources.Resources.login;
-                if (Conversions.ToBoolean(Conversions.ToInteger(My.MyProject.Forms.Bureau2.FlowLayoutPanel1.Width > 864 & My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage.Height > 420) | My.MyProject.Computer.Screen.Bounds.Width & My.MyProject.Computer.Screen.Bounds.Height))
-                {
-                    My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
-                }
-                else
-                {
-                    My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Zoom;
-                }
                 PictureBox1.Image = My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage;
             }
         }
@@ -93,27 +61,11 @@ namespace Vincent_OS
             if (My.MyProject.Forms.Bureau.Visible == true)
             {
                 My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage = My.Resources.Resources.superutilisateur;
-                if (Conversions.ToBoolean(Conversions.ToInteger(My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage.Width > 864 & My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage.Height > 420) | My.MyProject.Computer.Screen.Bounds.Width & My.MyProject.Computer.Screen.Bounds.Height))
-                {
-                    My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
-                }
-                else
-                {
-                    My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Zoom;
-                }
                 PictureBox1.Image = My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage;
             }
             else if (My.MyProject.Forms.Bureau2.Visible == true)
             {
                 My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage = My.Resources.Resources.superutilisateur;
-                if (Conversions.ToBoolean(Conversions.ToInteger(My.MyProject.Forms.Bureau2.FlowLayoutPanel1.Width > 864 & My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage.Height > 420) | My.MyProject.Computer.Screen.Bounds.Width & My.MyProject.Computer.Screen.Bounds.Height))
-                {
-                    My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
-                }
-                else
-                {
-                    My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Zoom;
-                }
                 PictureBox1.Image = My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage;
             }
         }
@@ -123,27 +75,11 @@ namespace Vincent_OS
             if (My.MyProject.Forms.Bureau.Visible == true)
             {
                 My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage = My.Resources.Resources.invite;
-                if (Conversions.ToBoolean(Conversions.ToInteger(My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage.Width > 864 & My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage.Height > 420) | My.MyProject.Computer.Screen.Bounds.Width & My.MyProject.Computer.Screen.Bounds.Height))
-                {
-                    My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
-                }
-                else
-                {
-                    My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Zoom;
-                }
                 PictureBox1.Image = My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage;
             }
             else if (My.MyProject.Forms.Bureau2.Visible == true)
             {
                 My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage = My.Resources.Resources.invite;
-                if (Conversions.ToBoolean(Conversions.ToInteger(My.MyProject.Forms.Bureau2.FlowLayoutPanel1.Width > 864 & My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage.Height > 420) | My.MyProject.Computer.Screen.Bounds.Width & My.MyProject.Computer.Screen.Bounds.Height))
-                {
-                    My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
-                }
-                else
-                {
-                    My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Zoom;
-                }
                 PictureBox1.Image = My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage;
             }
         }

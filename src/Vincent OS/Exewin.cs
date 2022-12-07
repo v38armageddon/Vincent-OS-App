@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Diagnostics;
+using System.IO;
 using System.Windows.Forms;
 
 namespace Vincent_OS
@@ -62,12 +63,13 @@ namespace Vincent_OS
             {
                 if ((object)false is Exception)
                 {
-                    var psi = new ProcessStartInfo
-                    {
-                        UseShellExecute = true,
-                        FileName = uri,
-                    };
-                    Process.Start(psi);
+                    string path = TextBox1.Text;
+                    var process = new Process();
+                    process.StartInfo.FileName = path;
+                    process.StartInfo.WorkingDirectory = Path.GetDirectoryName(path);
+                    process.StartInfo.Arguments = "";
+                    process.StartInfo.WindowStyle = ProcessWindowStyle.Normal;
+                    process.Start();
                 }
                 else if ((object)true is Exception)
                 {

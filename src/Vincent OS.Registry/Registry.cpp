@@ -3,10 +3,15 @@
 #include "ExplorerToVinDesk.h"
 #include "VinDeskToExplorer.h"
 
-void ToVinDesk() {
+
+void Vincent_OS_Registry::Registry::Location() {
+	
+}
+
+void Vincent_OS_Registry::Registry::ToVinDesk() {
 
 }
 
-void ToExplorer() {
+void Vincent_OS_Registry::Registry::ToExplorer() {
 	switchToExplorer();
 }

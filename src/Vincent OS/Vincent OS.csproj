@@ -218,6 +218,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Vincent OS.Registry\Vincent OS.Registry.vcxproj" />
+    <ProjectReference Include="..\Vincent OS.Units.Tests\Vincent OS.Units.Tests.csproj" />
   </ItemGroup>
   <ItemGroup>
     <Compile Update="My Project\Settings.Designer.cs">

@@ -14,6 +14,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vincent OS.Registry", "Vinc
 EndProject
 Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "Vincent OS.Package", "Vincent OS.Package\Vincent OS.Package.wapproj", "{D5BC4827-FD30-4D11-A9D4-52CE838B9A79}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vincent OS.Units.Tests", "Vincent OS.Units.Tests\Vincent OS.Units.Tests.csproj", "{9545B9C6-8D2C-40CD-972A-18F0B5A1851B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -98,6 +100,26 @@ Global
 		{D5BC4827-FD30-4D11-A9D4-52CE838B9A79}.Release|x86.ActiveCfg = Release|x86
 		{D5BC4827-FD30-4D11-A9D4-52CE838B9A79}.Release|x86.Build.0 = Release|x86
 		{D5BC4827-FD30-4D11-A9D4-52CE838B9A79}.Release|x86.Deploy.0 = Release|x86
+		{9545B9C6-8D2C-40CD-972A-18F0B5A1851B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9545B9C6-8D2C-40CD-972A-18F0B5A1851B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9545B9C6-8D2C-40CD-972A-18F0B5A1851B}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{9545B9C6-8D2C-40CD-972A-18F0B5A1851B}.Debug|ARM.Build.0 = Debug|Any CPU
+		{9545B9C6-8D2C-40CD-972A-18F0B5A1851B}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{9545B9C6-8D2C-40CD-972A-18F0B5A1851B}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{9545B9C6-8D2C-40CD-972A-18F0B5A1851B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{9545B9C6-8D2C-40CD-972A-18F0B5A1851B}.Debug|x64.Build.0 = Debug|Any CPU
+		{9545B9C6-8D2C-40CD-972A-18F0B5A1851B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9545B9C6-8D2C-40CD-972A-18F0B5A1851B}.Debug|x86.Build.0 = Debug|Any CPU
+		{9545B9C6-8D2C-40CD-972A-18F0B5A1851B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9545B9C6-8D2C-40CD-972A-18F0B5A1851B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9545B9C6-8D2C-40CD-972A-18F0B5A1851B}.Release|ARM.ActiveCfg = Release|Any CPU
+		{9545B9C6-8D2C-40CD-972A-18F0B5A1851B}.Release|ARM.Build.0 = Release|Any CPU
+		{9545B9C6-8D2C-40CD-972A-18F0B5A1851B}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{9545B9C6-8D2C-40CD-972A-18F0B5A1851B}.Release|ARM64.Build.0 = Release|Any CPU
+		{9545B9C6-8D2C-40CD-972A-18F0B5A1851B}.Release|x64.ActiveCfg = Release|Any CPU
+		{9545B9C6-8D2C-40CD-972A-18F0B5A1851B}.Release|x64.Build.0 = Release|Any CPU
+		{9545B9C6-8D2C-40CD-972A-18F0B5A1851B}.Release|x86.ActiveCfg = Release|Any CPU
+		{9545B9C6-8D2C-40CD-972A-18F0B5A1851B}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
