@@ -217,6 +217,7 @@
     <None Remove="Login.resx~RF8e6cf3e.TMP" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Bing Chrome\Bing Chrome.csproj" />
     <ProjectReference Include="..\Vincent OS.Registry\Vincent OS.Registry.vcxproj" />
     <ProjectReference Include="..\Vincent OS.Units.Tests\Vincent OS.Units.Tests.csproj" />
   </ItemGroup>
