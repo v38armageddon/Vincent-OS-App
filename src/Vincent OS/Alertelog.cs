@@ -97,7 +97,7 @@ namespace Vincent_OS
                     }
                     else if (My.MyProject.Forms.Login.Visible == true)
                     {
-                        MessageBox.Show("Vous ne pouvez pas vous déconnecter dans l'écran de connexion.");
+                        MessageBox.Show("Vous ne pouvez pas vous déconnecter dans l'écran de connexion.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     break;
                 case "Arrêter Windows":
@@ -121,13 +121,13 @@ namespace Vincent_OS
                 case "Debug.Terminal":
                     var backmusic1 = new System.Media.SoundPlayer(My.Resources.Resources.alertSound);
                     backmusic1.Play();
-                    MessageBox.Show("Vous entrez dans un Terminal, certains commandes et certaines fonctionnalités peuvent ne pas fonctionner comme prévu !", "Alerte");
+                    MessageBox.Show("Vous entrez dans un Terminal, certains commandes et certaines fonctionnalités peuvent ne pas fonctionner comme prévu !", "Alerte", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                     My.MyProject.Forms.Terminal.Show();
                     break;
                 default:
                     var backmusic2 = new System.Media.SoundPlayer(My.Resources.Resources.errorSound);
                     backmusic2.Play();
-                    MessageBox.Show("Erreur : Cette option n'est pas reconnu par l'utilitaire des choix de sélections.", "Erreur");
+                    MessageBox.Show("Erreur : Cette option n'est pas reconnu par l'utilitaire des choix de sélections.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     break;
             }
         }

@@ -168,7 +168,7 @@ namespace Vincent_OS
             {
                 RichTextBox1.Text = 
                     "Debug_AlerteLog\n" +
-                    "Debug_AlerteLog_ForceCrash\n" +
+                    "Debug_App_ForceCrash\n" +
                     "Debug_Options\n" +
                     "Debug_ClearMemory\n" +
                     "Debug_OpenTestWindow";

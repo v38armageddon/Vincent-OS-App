@@ -402,6 +402,8 @@ namespace Vincent_OS
             // 
             // FlowLayoutPanel2
             // 
+            this.FlowLayoutPanel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.FlowLayoutPanel2.BackColor = System.Drawing.Color.Black;
             this.FlowLayoutPanel2.Controls.Add(this.Button15);
             this.FlowLayoutPanel2.Controls.Add(this.Button16);
