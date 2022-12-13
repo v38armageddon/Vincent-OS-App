@@ -3,7 +3,7 @@ using Microsoft.Win32;
 namespace Vincent_OS.Units.Tests
 {
     [TestClass]
-    public class UnitTestRegistry
+    public class TestRegistry
     {
         [TestMethod]
         public void CheckRegistry()
@@ -22,4 +22,14 @@ namespace Vincent_OS.Units.Tests
             }
         }
     }
+
+    //[TestClass]
+    //public class TestApp
+    //{
+    //    [TestMethod]
+    //    public void CheckSound()
+    //    {
+            
+    //    }
+    //}
 }

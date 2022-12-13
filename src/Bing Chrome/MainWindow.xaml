@@ -7,34 +7,34 @@
         xmlns:Wpf="clr-namespace:Microsoft.Web.WebView2.Wpf;assembly=Microsoft.Web.WebView2.Wpf" x:Class="Bing_Chrome.MainWindow"
         mc:Ignorable="d"
         Title="Bing Chrome" Height="518" Width="905" MinHeight="512" MinWidth="905" WindowStartupLocation="CenterScreen"
-        Background="Black" Foreground="White">
+        Background="Black" Foreground="White" Loaded="Window_Loaded" Closed="Window_Closed">
     <Grid>
-        <Button Width="47" Height="46" Margin="4,3,4,3" HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="{x:Null}">
+        <Button x:Name="backButton" Width="47" Height="46" Margin="4,3,4,3" HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="{x:Null}" Click="backButton_Click">
             <Button.Background>
-                <ImageBrush ImageSource="../Images/left.png"/>
+                <ImageBrush ImageSource="Images/left.png"/>
             </Button.Background>
         </Button>
-        <Button Width="46" Height="46" Margin="212,3,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="{x:Null}">
+        <Button x:Name="stopReloadButton" Width="46" Height="46" Margin="212,3,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="{x:Null}" Click="stopReloadButton_Click">
             <Button.Background>
-                <ImageBrush ImageSource="../Images/stop.png"/>
+                <ImageBrush ImageSource="Images/stop.png"/>
             </Button.Background>
         </Button>
-        <Button Width="47" Height="46" Margin="160,3,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="{x:Null}">
+        <Button x:Name="reloadButton" Width="47" Height="46" Margin="160,3,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="{x:Null}" Click="reloadButton_Click">
             <Button.Background>
-                <ImageBrush ImageSource="../Images/load.png"/>
+                <ImageBrush ImageSource="Images/load.png"/>
             </Button.Background>
         </Button>
-        <Button Width="47" Height="46" Margin="108,3,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="{x:Null}">
+        <Button x:Name="homeButton" Width="47" Height="46" Margin="108,3,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="{x:Null}" Click="homeButton_Click">
             <Button.Background>
-                <ImageBrush ImageSource="../Images/home.png"/>
+                <ImageBrush ImageSource="Images/home.png"/>
             </Button.Background>
         </Button>
-        <Button Width="47" Height="46" Margin="56,3,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="{x:Null}">
+        <Button x:Name="forwardButton" Width="47" Height="46" Margin="56,3,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" BorderBrush="{x:Null}" Click="forwardButton_Click">
             <Button.Background>
-                <ImageBrush ImageSource="../Images/right.png"/>
+                <ImageBrush ImageSource="Images/right.png"/>
             </Button.Background>
         </Button>
-        <TextBox TextWrapping="Wrap" Text="Saisissez l'URL" Margin="263,14,10,464"/>
-        <Wpf:WebView2 Source="https://www.bing.com" Margin="1,54,1,1"/>
+        <TextBox x:Name="textBox" TextWrapping="Wrap" Text="Saisissez l'URL" Margin="0,14,10,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="632" MouseDoubleClick="textBox_MouseDoubleClick" KeyDown="textBox_KeyDown" />
+        <Wpf:WebView2 x:Name="webView2" Source="https://www.bing.com" Margin="1,54,1,1" NavigationStarting="webView2_NavigationStarting"/>
     </Grid>
 </Window>
