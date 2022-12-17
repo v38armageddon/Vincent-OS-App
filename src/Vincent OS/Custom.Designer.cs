@@ -74,12 +74,13 @@ namespace Vincent_OS
             this.PictureBox2 = new System.Windows.Forms.PictureBox();
             this.PictureBox3 = new System.Windows.Forms.PictureBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button5 = new System.Windows.Forms.Button();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
             this.pictureBox12 = new System.Windows.Forms.PictureBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.TabControl1.SuspendLayout();
             this.TabPage4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
@@ -558,6 +559,7 @@ namespace Vincent_OS
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.Black;
+            this.tabPage3.Controls.Add(this.button5);
             this.tabPage3.Controls.Add(this.radioButton4);
             this.tabPage3.Controls.Add(this.radioButton3);
             this.tabPage3.Controls.Add(this.pictureBox15);
@@ -571,6 +573,19 @@ namespace Vincent_OS
             this.tabPage3.TabIndex = 7;
             this.tabPage3.Text = "Shell";
             // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Green;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Location = new System.Drawing.Point(297, 278);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(105, 33);
+            this.button5.TabIndex = 6;
+            this.button5.Text = "Changer le Shell";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
@@ -579,7 +594,6 @@ namespace Vincent_OS
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(171, 34);
             this.radioButton4.TabIndex = 5;
-            this.radioButton4.TabStop = true;
             this.radioButton4.Text = "Vincent OS.exe";
             this.radioButton4.UseVisualStyleBackColor = true;
             this.radioButton4.Visible = false;
@@ -587,6 +601,7 @@ namespace Vincent_OS
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
+            this.radioButton3.Checked = true;
             this.radioButton3.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.radioButton3.Location = new System.Drawing.Point(137, 273);
             this.radioButton3.Name = "radioButton3";
@@ -617,6 +632,16 @@ namespace Vincent_OS
             this.pictureBox12.TabStop = false;
             this.pictureBox12.Visible = false;
             // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label4.Location = new System.Drawing.Point(240, 3);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(219, 30);
+            this.label4.TabIndex = 0;
+            this.label4.Text = "Mode Shell par défaut";
+            // 
             // label5
             // 
             this.label5.AutoSize = true;
@@ -628,16 +653,6 @@ namespace Vincent_OS
             this.label5.TabIndex = 1;
             this.label5.Text = resources.GetString("label5.Text");
             this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(240, 3);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(219, 30);
-            this.label4.TabIndex = 0;
-            this.label4.Text = "Mode Shell par défaut";
             // 
             // Custom
             // 
@@ -724,8 +739,9 @@ namespace Vincent_OS
         private PictureBox pictureBox12;
         private Label label5;
         private Label label4;
-        private RadioButton radioButton4;
-        private RadioButton radioButton3;
         private PictureBox pictureBox15;
+        private Button button5;
+        internal RadioButton radioButton4;
+        internal RadioButton radioButton3;
     }
 }

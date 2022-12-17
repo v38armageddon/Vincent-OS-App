@@ -6,12 +6,12 @@ using namespace System::Runtime::CompilerServices;
 using namespace System::Runtime::InteropServices;
 using namespace System::Security::Permissions;
 
-[assembly:AssemblyTitleAttribute(L"VincentOSRegistry")];
-[assembly:AssemblyDescriptionAttribute(L"")];
+[assembly:AssemblyTitleAttribute(L"Vincent OS App Registry")];
+[assembly:AssemblyDescriptionAttribute(L"Code C++ pour pouvoir gérer le Registry pour Vincent OS App")];
 [assembly:AssemblyConfigurationAttribute(L"")];
-[assembly:AssemblyCompanyAttribute(L"")];
-[assembly:AssemblyProductAttribute(L"VincentOSRegistry")];
-[assembly:AssemblyCopyrightAttribute(L"Copyright (c)  2022")];
+[assembly:AssemblyCompanyAttribute(L"v38armageddon")];
+[assembly:AssemblyProductAttribute(L"Vincent OS App Registry")];
+[assembly:AssemblyCopyrightAttribute(L"GPL-3 2019-2022")];
 [assembly:AssemblyTrademarkAttribute(L"")];
 [assembly:AssemblyCultureAttribute(L"")];
 

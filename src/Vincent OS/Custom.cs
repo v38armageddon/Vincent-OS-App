@@ -1,12 +1,16 @@
 ﻿using System;
 using System.Drawing;
+using System.Runtime.InteropServices;
 using System.Windows.Forms;
 using Microsoft.VisualBasic.CompilerServices;
+using Vincent_OS_Registry;
 
 namespace Vincent_OS
 {
     public partial class Custom
     {
+        Registry registry = new Registry();
+
         public Custom()
         {
             InitializeComponent();
@@ -495,6 +499,17 @@ namespace Vincent_OS
                 }
             }
         }
+        #endregion
+        #region Shell
+        private void button5_Click(object sender, EventArgs e)
+        {
+            pictureBox12.Visible = true;
+            pictureBox15.Visible = true;
+            radioButton3.Visible = true;
+            radioButton4.Visible = true;
+            button5.Visible = false;
+        }
+
         #endregion
         private void Custom_FormClosed(object sender, FormClosedEventArgs e)
         {

@@ -8,5 +8,10 @@
 #define PCH_H
 
 // ajouter les en-têtes à précompiler ici
+#include <windows.h>
+#include <msclr/marshal_cppstd.h>
+#include <string>
+#include <iostream>
+#include <filesystem>
 
 #endif //PCH_H

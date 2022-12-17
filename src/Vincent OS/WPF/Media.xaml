@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Vincent_OS.WPF"
         mc:Ignorable="d"
         Title="Media Player" Height="383" Width="562" MinHeight="360" MinWidth="562"
-        Background="Black" Loaded="Window_Loaded">
+        Background="Black" Loaded="Window_Loaded" Closed="Window_Closed">
     <Grid>
         <Menu VerticalAlignment="Top">
             <MenuItem Header="Ouvrir">

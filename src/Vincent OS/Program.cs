@@ -13,6 +13,8 @@ namespace Vincent_OS
 {
     internal static class Program
     {
+        static Custom custom = new Custom();
+
         [STAThread]
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Interoperability", "CA1416:Valider la compatibilité de la plateforme", Justification = "<En attente>")]
         static void Main()
@@ -26,14 +28,17 @@ namespace Vincent_OS
             if ((string)o == "explorer.exe")
             {
                 Application.Run(new Démarrage());
+                custom.radioButton3.Checked = true;
             }
             else if ((string)o == "C:\\Program Files\\WindowsApps\\34823v38armageddon.VincentOSApp_10.0.0.0_x86__ysx05jt3gv6z0\\Vincent OS\\Vincent OS.exe")
             {
                 Application.Run(new Bureau());
+                custom.radioButton4.Checked = true;
             }
             else if ((string)o == "C:\\Program Files (x86)\\Vincent OS App\\Vincent OS.exe")
             {
                 Application.Run(new Bureau());
+                custom.radioButton4.Checked = true;
             }
             else
             {
