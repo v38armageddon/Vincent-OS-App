@@ -6,19 +6,19 @@
         xmlns:local="clr-namespace:Vincent_OS.WPF"
         mc:Ignorable="d"
         Title="Media Player" Height="383" Width="562" MinHeight="360" MinWidth="562"
-        Background="Black">
+        Background="Black" Loaded="Window_Loaded">
     <Grid>
         <Menu VerticalAlignment="Top">
             <MenuItem Header="Ouvrir">
-                <MenuItem x:Name="ouvrirMusiqueMenu" Header="Musique"/>
-                <MenuItem x:Name="ouvrirVideoMenu" Header="Vidéo"/>
+                <MenuItem x:Name="ouvrirMusiqueMenu" Header="Musique" Click="ouvrirMusiqueMenu_Click"/>
+                <MenuItem x:Name="ouvrirVideoMenu" Header="Vidéo" Click="ouvrirVideoMenu_Click"/>
             </MenuItem>
             <MenuItem Header="Lecture">
-                <MenuItem x:Name="arreterMenu" Header="Arrêter"/>
-                <MenuItem x:Name="pleinEcranMenu" Header="Plein écran"/>
+                <MenuItem x:Name="arreterMenu" Header="Arrêter" Click="arreterMenu_Click"/>
+                <MenuItem x:Name="pleinEcranMenu" Header="Plein écran" Click="pleinEcranMenu_Click"/>
             </MenuItem>
             <MenuItem Header="Autres">
-                <MenuItem x:Name="quitterMenu" Header="Quitter"/>
+                <MenuItem x:Name="quitterMenu" Header="Quitter" Click="quitterMenu_Click"/>
             </MenuItem>
         </Menu>
         <MediaElement x:Name="mediaElement" Margin="0,18,0,40" />
