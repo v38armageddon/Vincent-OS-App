@@ -16,8 +16,6 @@ Project("{C7167F0D-BC9F-4E6E-AFE1-012C56B48DB5}") = "Vincent OS.Package", "Vince
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vincent OS.Units.Tests", "Vincent OS.Units.Tests\Vincent OS.Units.Tests.csproj", "{9545B9C6-8D2C-40CD-972A-18F0B5A1851B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Bing Chrome", "Bing Chrome\Bing Chrome.csproj", "{A3422DF6-32E6-498A-AB7D-9635974DC284}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -122,26 +120,6 @@ Global
 		{9545B9C6-8D2C-40CD-972A-18F0B5A1851B}.Release|x64.Build.0 = Release|Any CPU
 		{9545B9C6-8D2C-40CD-972A-18F0B5A1851B}.Release|x86.ActiveCfg = Release|Any CPU
 		{9545B9C6-8D2C-40CD-972A-18F0B5A1851B}.Release|x86.Build.0 = Release|Any CPU
-		{A3422DF6-32E6-498A-AB7D-9635974DC284}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A3422DF6-32E6-498A-AB7D-9635974DC284}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A3422DF6-32E6-498A-AB7D-9635974DC284}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{A3422DF6-32E6-498A-AB7D-9635974DC284}.Debug|ARM.Build.0 = Debug|Any CPU
-		{A3422DF6-32E6-498A-AB7D-9635974DC284}.Debug|ARM64.ActiveCfg = Debug|Any CPU
-		{A3422DF6-32E6-498A-AB7D-9635974DC284}.Debug|ARM64.Build.0 = Debug|Any CPU
-		{A3422DF6-32E6-498A-AB7D-9635974DC284}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{A3422DF6-32E6-498A-AB7D-9635974DC284}.Debug|x64.Build.0 = Debug|Any CPU
-		{A3422DF6-32E6-498A-AB7D-9635974DC284}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{A3422DF6-32E6-498A-AB7D-9635974DC284}.Debug|x86.Build.0 = Debug|Any CPU
-		{A3422DF6-32E6-498A-AB7D-9635974DC284}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A3422DF6-32E6-498A-AB7D-9635974DC284}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A3422DF6-32E6-498A-AB7D-9635974DC284}.Release|ARM.ActiveCfg = Release|Any CPU
-		{A3422DF6-32E6-498A-AB7D-9635974DC284}.Release|ARM.Build.0 = Release|Any CPU
-		{A3422DF6-32E6-498A-AB7D-9635974DC284}.Release|ARM64.ActiveCfg = Release|Any CPU
-		{A3422DF6-32E6-498A-AB7D-9635974DC284}.Release|ARM64.Build.0 = Release|Any CPU
-		{A3422DF6-32E6-498A-AB7D-9635974DC284}.Release|x64.ActiveCfg = Release|Any CPU
-		{A3422DF6-32E6-498A-AB7D-9635974DC284}.Release|x64.Build.0 = Release|Any CPU
-		{A3422DF6-32E6-498A-AB7D-9635974DC284}.Release|x86.ActiveCfg = Release|Any CPU
-		{A3422DF6-32E6-498A-AB7D-9635974DC284}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
