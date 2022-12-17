@@ -5,6 +5,8 @@ namespace Vincent_OS
 {
     public partial class TaskVOS
     {
+        WPF.Bing_Chrome bingChrome = new WPF.Bing_Chrome();
+
         public TaskVOS()
         {
             InitializeComponent();
@@ -13,7 +15,7 @@ namespace Vincent_OS
         private void TaskVOS_Load(object sender, EventArgs e)
         {
             // Application
-            if (My.MyProject.Forms.Bing_Chrome.Visible == true)
+            if (bingChrome.Visibility == System.Windows.Visibility.Visible)
             {
                 panel1.Visible = true;
             }
@@ -82,7 +84,7 @@ namespace Vincent_OS
         {
             if (RadioButton2.Checked == true)
             {
-                My.MyProject.Forms.Bing_Chrome.Close();
+                bingChrome.Close();
             }
             else if (RadioButton3.Checked == true)
             {
@@ -130,6 +132,8 @@ namespace Vincent_OS
                 backmusic.Play();
                 MessageBox.Show("Erreur : Vous n'avez sélectionné aucune application à arrêter.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
         }
 
         private void Button2_Click(object sender, EventArgs e)

@@ -172,9 +172,9 @@ namespace Vincent_OS
             this.Label2.Location = new System.Drawing.Point(247, 25);
             this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(115, 24);
+            this.Label2.Size = new System.Drawing.Size(155, 24);
             this.Label2.TabIndex = 22;
-            this.Label2.Text = "Vincent OS";
+            this.Label2.Text = "Vincent OS App";
             // 
             // PictureBox1
             // 
@@ -196,7 +196,7 @@ namespace Vincent_OS
             this.PictureBox2.Location = new System.Drawing.Point(120, 14);
             this.PictureBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox2.Name = "PictureBox2";
-            this.PictureBox2.Size = new System.Drawing.Size(118, 106);
+            this.PictureBox2.Size = new System.Drawing.Size(118, 118);
             this.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox2.TabIndex = 24;
             this.PictureBox2.TabStop = false;

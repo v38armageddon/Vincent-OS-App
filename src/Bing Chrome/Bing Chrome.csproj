@@ -18,4 +18,8 @@
     <PackageReference Include="Microsoft.Web.WebView2" Version="1.0.1462.37" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Images\" />
+  </ItemGroup>
+
 </Project>

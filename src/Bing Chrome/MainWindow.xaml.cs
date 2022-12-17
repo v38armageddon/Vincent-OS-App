@@ -22,11 +22,6 @@ namespace Bing_Chrome
             InitializeComponent();
         }
 
-        private void Window_Loaded(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void backButton_Click(object sender, RoutedEventArgs e)
         {
             webView2.CoreWebView2.GoBack();
@@ -73,11 +68,6 @@ namespace Bing_Chrome
             // Mettre un UserAgent de Edge pour éviter les bloquages des sites
             var settings = webView2.CoreWebView2.Settings;
             settings.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.5026.0 Safari/537.36 Edg/103.0.1254.0";
-        }
-
-        private void Window_Closed(object sender, EventArgs e)
-        {
-
         }
 
         private void search()

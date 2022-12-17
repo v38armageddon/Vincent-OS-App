@@ -7,6 +7,7 @@ namespace Vincent_OS
 {
     public partial class Bureau
     {
+        WPF.Bing_Chrome bingChrome = new WPF.Bing_Chrome();
 
         public Bureau()
         {
@@ -74,7 +75,7 @@ namespace Vincent_OS
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Bing_Chrome.Show();
+            bingChrome.Show();
         }
 
         private void Button3_Click(object sender, EventArgs e)
@@ -151,7 +152,7 @@ namespace Vincent_OS
         // Cette partie permet quand la fenêtre est trop caché par le bureau, qu'on puisse la récupérer via un bouton sans faire alt+tab
         private void Button15_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Bing_Chrome.BringToFront();
+            bingChrome.BringIntoView();
         }
 
         private void Button16_Click(object sender, EventArgs e)

@@ -75,7 +75,7 @@ namespace Vincent_OS
             this.Label4 = new System.Windows.Forms.Label();
             this.PictureBox7 = new System.Windows.Forms.PictureBox();
             this.PictureBox6 = new System.Windows.Forms.PictureBox();
-            this.FlowLayoutPanel1 = new System.Windows.Forms.PictureBox();
+            this.FlowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox3)).BeginInit();
             this.FlowLayoutPanel2.SuspendLayout();
@@ -84,7 +84,7 @@ namespace Vincent_OS
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox7)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FlowLayoutPanel1)).BeginInit();
+            this.FlowLayoutPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // Timer1
@@ -392,7 +392,7 @@ namespace Vincent_OS
             this.Button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button2.BackgroundImage")));
             this.Button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button2.Location = new System.Drawing.Point(5, 52);
+            this.Button2.Location = new System.Drawing.Point(3, 3);
             this.Button2.Name = "Button2";
             this.Button2.Size = new System.Drawing.Size(50, 50);
             this.Button2.TabIndex = 5;
@@ -405,7 +405,7 @@ namespace Vincent_OS
             this.Button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button3.BackgroundImage")));
             this.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button3.Location = new System.Drawing.Point(61, 52);
+            this.Button3.Location = new System.Drawing.Point(59, 3);
             this.Button3.Name = "Button3";
             this.Button3.Size = new System.Drawing.Size(50, 50);
             this.Button3.TabIndex = 12;
@@ -418,7 +418,7 @@ namespace Vincent_OS
             this.Button6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button6.BackgroundImage")));
             this.Button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button6.Location = new System.Drawing.Point(115, 52);
+            this.Button6.Location = new System.Drawing.Point(115, 3);
             this.Button6.Name = "Button6";
             this.Button6.Size = new System.Drawing.Size(50, 50);
             this.Button6.TabIndex = 15;
@@ -431,7 +431,7 @@ namespace Vincent_OS
             this.Button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button4.BackgroundImage")));
             this.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button4.Location = new System.Drawing.Point(171, 52);
+            this.Button4.Location = new System.Drawing.Point(171, 3);
             this.Button4.Name = "Button4";
             this.Button4.Size = new System.Drawing.Size(50, 50);
             this.Button4.TabIndex = 13;
@@ -444,7 +444,7 @@ namespace Vincent_OS
             this.Button5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button5.BackgroundImage")));
             this.Button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button5.Location = new System.Drawing.Point(227, 52);
+            this.Button5.Location = new System.Drawing.Point(227, 3);
             this.Button5.Name = "Button5";
             this.Button5.Size = new System.Drawing.Size(50, 50);
             this.Button5.TabIndex = 14;
@@ -457,7 +457,7 @@ namespace Vincent_OS
             this.Button14.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button14.BackgroundImage")));
             this.Button14.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button14.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button14.Location = new System.Drawing.Point(283, 52);
+            this.Button14.Location = new System.Drawing.Point(283, 3);
             this.Button14.Name = "Button14";
             this.Button14.Size = new System.Drawing.Size(50, 50);
             this.Button14.TabIndex = 21;
@@ -470,7 +470,7 @@ namespace Vincent_OS
             this.Button13.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button13.BackgroundImage")));
             this.Button13.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button13.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button13.Location = new System.Drawing.Point(339, 52);
+            this.Button13.Location = new System.Drawing.Point(339, 3);
             this.Button13.Name = "Button13";
             this.Button13.Size = new System.Drawing.Size(50, 50);
             this.Button13.TabIndex = 20;
@@ -483,7 +483,7 @@ namespace Vincent_OS
             this.Button11.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button11.BackgroundImage")));
             this.Button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button11.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button11.Location = new System.Drawing.Point(395, 52);
+            this.Button11.Location = new System.Drawing.Point(395, 3);
             this.Button11.Name = "Button11";
             this.Button11.Size = new System.Drawing.Size(50, 50);
             this.Button11.TabIndex = 18;
@@ -496,7 +496,7 @@ namespace Vincent_OS
             this.Button10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button10.BackgroundImage")));
             this.Button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button10.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button10.Location = new System.Drawing.Point(451, 52);
+            this.Button10.Location = new System.Drawing.Point(451, 3);
             this.Button10.Name = "Button10";
             this.Button10.Size = new System.Drawing.Size(50, 50);
             this.Button10.TabIndex = 23;
@@ -509,7 +509,7 @@ namespace Vincent_OS
             this.Button25.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button25.BackgroundImage")));
             this.Button25.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button25.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button25.Location = new System.Drawing.Point(507, 52);
+            this.Button25.Location = new System.Drawing.Point(507, 3);
             this.Button25.Name = "Button25";
             this.Button25.Size = new System.Drawing.Size(50, 50);
             this.Button25.TabIndex = 24;
@@ -575,13 +575,25 @@ namespace Vincent_OS
             // 
             // FlowLayoutPanel1
             // 
-            this.FlowLayoutPanel1.Image = ((System.Drawing.Image)(resources.GetObject("FlowLayoutPanel1.Image")));
+            this.FlowLayoutPanel1.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.FlowLayoutPanel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("FlowLayoutPanel1.BackgroundImage")));
+            this.FlowLayoutPanel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.FlowLayoutPanel1.Controls.Add(this.Button2);
+            this.FlowLayoutPanel1.Controls.Add(this.Button3);
+            this.FlowLayoutPanel1.Controls.Add(this.Button6);
+            this.FlowLayoutPanel1.Controls.Add(this.Button4);
+            this.FlowLayoutPanel1.Controls.Add(this.Button5);
+            this.FlowLayoutPanel1.Controls.Add(this.Button14);
+            this.FlowLayoutPanel1.Controls.Add(this.Button13);
+            this.FlowLayoutPanel1.Controls.Add(this.Button11);
+            this.FlowLayoutPanel1.Controls.Add(this.Button10);
+            this.FlowLayoutPanel1.Controls.Add(this.Button25);
             this.FlowLayoutPanel1.Location = new System.Drawing.Point(0, 46);
             this.FlowLayoutPanel1.Name = "FlowLayoutPanel1";
             this.FlowLayoutPanel1.Size = new System.Drawing.Size(1078, 487);
-            this.FlowLayoutPanel1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.FlowLayoutPanel1.TabIndex = 31;
-            this.FlowLayoutPanel1.TabStop = false;
             // 
             // Bureau
             // 
@@ -597,23 +609,13 @@ namespace Vincent_OS
             this.Controls.Add(this.Label4);
             this.Controls.Add(this.FlowLayoutPanel2);
             this.Controls.Add(this.Label5);
-            this.Controls.Add(this.Button2);
-            this.Controls.Add(this.Button3);
             this.Controls.Add(this.Button12);
-            this.Controls.Add(this.Button6);
             this.Controls.Add(this.Label1);
-            this.Controls.Add(this.Button4);
             this.Controls.Add(this.Panel1);
-            this.Controls.Add(this.Button5);
             this.Controls.Add(this.Label2);
-            this.Controls.Add(this.Button14);
             this.Controls.Add(this.PictureBox2);
-            this.Controls.Add(this.Button13);
             this.Controls.Add(this.PictureBox1);
-            this.Controls.Add(this.Button11);
             this.Controls.Add(this.PictureBox4);
-            this.Controls.Add(this.Button10);
-            this.Controls.Add(this.Button25);
             this.Controls.Add(this.FlowLayoutPanel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -632,7 +634,7 @@ namespace Vincent_OS
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox7)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.FlowLayoutPanel1)).EndInit();
+            this.FlowLayoutPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -675,6 +677,6 @@ namespace Vincent_OS
         internal Label Label4;
         internal Label Label5;
         internal PictureBox PictureBox6;
-        public PictureBox FlowLayoutPanel1;
+        public FlowLayoutPanel FlowLayoutPanel1;
     }
 }

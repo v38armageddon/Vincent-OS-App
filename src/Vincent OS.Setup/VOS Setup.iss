@@ -2,10 +2,10 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "Vincent OS App"
-#define MyAppVersion "10"
+#define MyAppVersion "10.0.0.0"
 #define MyAppPublisher "v38armageddon"
 #define MyAppURL "https://www.vincent-os.cf/"
-#define MyAppExeName "Vincent OS.exe"
+#define MyAppExeName "Vincent OS App.exe"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.

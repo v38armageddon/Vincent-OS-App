@@ -100,30 +100,6 @@ namespace Vincent_OS.My
                 }
             }
 
-
-            [EditorBrowsable(EditorBrowsableState.Never)]
-            public Bing_Chrome m_Bing_Chrome;
-
-            public Bing_Chrome Bing_Chrome
-            {
-                [DebuggerHidden]
-                get
-                {
-                    m_Bing_Chrome = Create__Instance__(m_Bing_Chrome);
-                    return m_Bing_Chrome;
-                }
-                [DebuggerHidden]
-                set
-                {
-                    if (ReferenceEquals(value, m_Bing_Chrome))
-                        return;
-                    if (value is not null)
-                        throw new ArgumentException("Property can only be set to Nothing");
-                    Dispose__Instance__(ref m_Bing_Chrome);
-                }
-            }
-
-
             [EditorBrowsable(EditorBrowsableState.Never)]
             public Bureau m_Bureau;
 

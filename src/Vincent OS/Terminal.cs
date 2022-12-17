@@ -80,7 +80,8 @@ namespace Vincent_OS
             }
             else if (TextBox1.Text == "Bing Chrome")
             {
-                My.MyProject.Forms.Bing_Chrome.Show();
+                WPF.Bing_Chrome bingChrome = new WPF.Bing_Chrome();
+                bingChrome.Show();
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Calc")

@@ -82,7 +82,8 @@
   </PropertyGroup>
   <PropertyGroup>
     <AssemblyOriginatorKeyFile></AssemblyOriginatorKeyFile>
-    <SupportedOSPlatformVersion>7.0</SupportedOSPlatformVersion>
+    <SupportedOSPlatformVersion>10.0.19041.0</SupportedOSPlatformVersion>
+    <UseWPF>True</UseWPF>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
     <NoWarn>1701;1702;0649</NoWarn>
@@ -143,53 +144,14 @@
       <Isolated>False</Isolated>
       <EmbedInteropTypes>True</EmbedInteropTypes>
     </COMReference>
-    <COMReference Include="WMPNSSCI">
-      <Guid>{453E9E02-8BA4-474C-BFA0-37727E44F6AE}</Guid>
-      <VersionMajor>1</VersionMajor>
-      <VersionMinor>0</VersionMinor>
-      <Lcid>0</Lcid>
-      <WrapperTool>tlbimp</WrapperTool>
-      <Isolated>False</Isolated>
-      <EmbedInteropTypes>True</EmbedInteropTypes>
-    </COMReference>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.editorconfig" Link=".editorconfig" />
     <Content Include="logo.ico" />
   </ItemGroup>
   <ItemGroup>
-    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
-      <Visible>False</Visible>
-      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 et x64%29</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
-      <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
-      <Install>false</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
-      <Visible>False</Visible>
-      <ProductName>.NET Framework 3.5 SP1</ProductName>
-      <Install>false</Install>
-    </BootstrapperPackage>
-    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
-      <Visible>False</Visible>
-      <ProductName>Windows Installer 3.1</ProductName>
-      <Install>true</Install>
-    </BootstrapperPackage>
-  </ItemGroup>
-  <ItemGroup>
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
-  <!--<ItemGroup>
-    <FileAssociation Include=".msi">
-      <Visible>False</Visible>
-      <Description>Installateur Vincent OS</Description>
-      <Progid>001</Progid>
-      <DefaultIcon>logo.ico</DefaultIcon>
-    </FileAssociation>
-  </ItemGroup>-->
   <ItemGroup>
     <PackageReference Include="Microsoft.AppCenter" Version="5.0.1" />
     <PackageReference Include="Microsoft.AppCenter.Analytics" Version="5.0.1" />
@@ -211,13 +173,8 @@
     <Compile Remove="Store.cs" />
     <Compile Remove="Store.Designer.cs" />
     <EmbeddedResource Remove="My Project\Resources.resx" />
-    <EmbeddedResource Remove="Properties\Resources.resx" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="Login.resx~RF8e6cf3e.TMP" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Bing Chrome\Bing Chrome.csproj" />
     <ProjectReference Include="..\Vincent OS.Registry\Vincent OS.Registry.vcxproj" />
     <ProjectReference Include="..\Vincent OS.Units.Tests\Vincent OS.Units.Tests.csproj" />
   </ItemGroup>
@@ -232,5 +189,13 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+  </ItemGroup>
+  <ItemGroup>
+	  <Resource Include="WPF\BingChrome2.ico" />
+	  <Resource Include="WPF\Images\Bing_Chrome\left.png" />
+	  <Resource Include="WPF\Images\Bing_Chrome\right.png" />
+	  <Resource Include="WPF\Images\Bing_Chrome\home.png" />
+	  <Resource Include="WPF\Images\Bing_Chrome\load.png" />
+	  <Resource Include="WPF\Images\Bing_Chrome\stop.png" />
   </ItemGroup>
 </Project>
