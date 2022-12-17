@@ -20,25 +20,27 @@ namespace Vincent_OS
             {
                 My.MyProject.Forms.Bureau2.Button19.Visible = true;
             }
+            WPF.Media media = new WPF.Media();
+            media.Show();
         }
 
         private void ArrêterToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AxWindowsMediaPlayer3.URL = "";
+            //AxWindowsMediaPlayer3.URL = "";
         }
 
         private void PleinÉcranToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(AxWindowsMediaPlayer3.URL))
-            {
-                var backmusic = new System.Media.SoundPlayer(My.Resources.Resources.errorSound);
-                backmusic.Play();
-                MessageBox.Show("Veuillez d'abord lancer un média...", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
-            else
-            {
-                AxWindowsMediaPlayer3.fullScreen = true;
-            }
+            //if (string.IsNullOrEmpty(AxWindowsMediaPlayer3.URL))
+            //{
+            //    var backmusic = new System.Media.SoundPlayer(My.Resources.Resources.errorSound);
+            //    backmusic.Play();
+            //    MessageBox.Show("Veuillez d'abord lancer un média...", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //}
+            //else
+            //{
+            //    AxWindowsMediaPlayer3.fullScreen = true;
+            //}
         }
 
         private void QuitterToolStripMenuItem_Click(object sender, EventArgs e)
@@ -48,7 +50,7 @@ namespace Vincent_OS
 
         private void OptionsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            AxWindowsMediaPlayer3.ShowPropertyPages();
+            //AxWindowsMediaPlayer3.ShowPropertyPages();
         }
 
         private void MusiqueToolStripMenuItem_Click(object sender, EventArgs e)
@@ -57,7 +59,7 @@ namespace Vincent_OS
             OpenFileDialog2.RestoreDirectory = true;
             if (OpenFileDialog2.ShowDialog() == DialogResult.OK)
             {
-                AxWindowsMediaPlayer3.URL = OpenFileDialog2.FileName;
+                //AxWindowsMediaPlayer3.URL = OpenFileDialog2.FileName;
             }
         }
 
@@ -67,7 +69,7 @@ namespace Vincent_OS
             OpenFileDialog2.RestoreDirectory = true;
             if (OpenFileDialog2.ShowDialog() == DialogResult.OK)
             {
-                AxWindowsMediaPlayer3.URL = OpenFileDialog2.FileName;
+                //AxWindowsMediaPlayer3.URL = OpenFileDialog2.FileName;
             }
         }
 

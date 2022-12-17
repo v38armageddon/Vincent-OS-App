@@ -11,17 +11,54 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
+
 
 namespace Vincent_OS.WPF
 {
-    /// <summary>
-    /// Logique d'interaction pour Media.xaml
-    /// </summary>
     public partial class Media : Window
     {
         public Media()
         {
             InitializeComponent();
+        }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            if (My.MyProject.Forms.Bureau.Visible == true)
+            {
+                My.MyProject.Forms.Bureau.Button19.Visible = true;
+            }
+            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            {
+                My.MyProject.Forms.Bureau2.Button19.Visible = true;
+            }
+        }
+
+        // Menu
+        private void ouvrirMusiqueMenu_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ouvrirVideoMenu_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void arreterMenu_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void pleinEcranMenu_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void quitterMenu_Click(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }
