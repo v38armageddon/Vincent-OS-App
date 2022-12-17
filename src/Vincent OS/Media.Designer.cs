@@ -35,141 +35,148 @@ namespace Vincent_OS
         [DebuggerStepThrough()]
         private void InitializeComponent()
         {
-            var resources = new System.ComponentModel.ComponentResourceManager(typeof(Media));
-            MenuStrip1 = new MenuStrip();
-            OuvrirToolStripMenuItem = new ToolStripMenuItem();
-            MusiqueToolStripMenuItem = new ToolStripMenuItem();
-            MusiqueToolStripMenuItem.Click += new EventHandler(MusiqueToolStripMenuItem_Click);
-            VidéoToolStripMenuItem = new ToolStripMenuItem();
-            VidéoToolStripMenuItem.Click += new EventHandler(VidéoToolStripMenuItem_Click);
-            LectureToolStripMenuItem = new ToolStripMenuItem();
-            ArrêterToolStripMenuItem = new ToolStripMenuItem();
-            ArrêterToolStripMenuItem.Click += new EventHandler(ArrêterToolStripMenuItem_Click);
-            PleinÉcranToolStripMenuItem = new ToolStripMenuItem();
-            PleinÉcranToolStripMenuItem.Click += new EventHandler(PleinÉcranToolStripMenuItem_Click);
-            AutresToolStripMenuItem = new ToolStripMenuItem();
-            OptionsToolStripMenuItem = new ToolStripMenuItem();
-            OptionsToolStripMenuItem.Click += new EventHandler(OptionsToolStripMenuItem_Click);
-            QuitterToolStripMenuItem = new ToolStripMenuItem();
-            QuitterToolStripMenuItem.Click += new EventHandler(QuitterToolStripMenuItem_Click);
-            OpenFileDialog2 = new OpenFileDialog();
-            AxWindowsMediaPlayer3 = new AxWMPLib.AxWindowsMediaPlayer();
-            MenuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)AxWindowsMediaPlayer3).BeginInit();
-            SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Media));
+            this.MenuStrip1 = new System.Windows.Forms.MenuStrip();
+            this.OuvrirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.MusiqueToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.VidéoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.LectureToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ArrêterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.PleinÉcranToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.AutresToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.OptionsToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.QuitterToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.OpenFileDialog2 = new System.Windows.Forms.OpenFileDialog();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.MenuStrip1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
             // 
             // MenuStrip1
             // 
-            MenuStrip1.Items.AddRange(new ToolStripItem[] { OuvrirToolStripMenuItem, LectureToolStripMenuItem, AutresToolStripMenuItem });
-            MenuStrip1.Location = new Point(0, 0);
-            MenuStrip1.Name = "MenuStrip1";
-            MenuStrip1.Size = new Size(546, 24);
-            MenuStrip1.TabIndex = 7;
-            MenuStrip1.Text = "MenuStrip1";
+            this.MenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.OuvrirToolStripMenuItem,
+            this.LectureToolStripMenuItem,
+            this.AutresToolStripMenuItem});
+            this.MenuStrip1.Location = new System.Drawing.Point(0, 0);
+            this.MenuStrip1.Name = "MenuStrip1";
+            this.MenuStrip1.Size = new System.Drawing.Size(546, 24);
+            this.MenuStrip1.TabIndex = 7;
+            this.MenuStrip1.Text = "MenuStrip1";
             // 
             // OuvrirToolStripMenuItem
             // 
-            OuvrirToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { MusiqueToolStripMenuItem, VidéoToolStripMenuItem });
-            OuvrirToolStripMenuItem.Name = "OuvrirToolStripMenuItem";
-            OuvrirToolStripMenuItem.Size = new Size(52, 20);
-            OuvrirToolStripMenuItem.Text = "Ouvrir";
+            this.OuvrirToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.MusiqueToolStripMenuItem,
+            this.VidéoToolStripMenuItem});
+            this.OuvrirToolStripMenuItem.Name = "OuvrirToolStripMenuItem";
+            this.OuvrirToolStripMenuItem.Size = new System.Drawing.Size(52, 20);
+            this.OuvrirToolStripMenuItem.Text = "Ouvrir";
             // 
             // MusiqueToolStripMenuItem
             // 
-            MusiqueToolStripMenuItem.Name = "MusiqueToolStripMenuItem";
-            MusiqueToolStripMenuItem.Size = new Size(120, 22);
-            MusiqueToolStripMenuItem.Text = "Musique";
+            this.MusiqueToolStripMenuItem.Name = "MusiqueToolStripMenuItem";
+            this.MusiqueToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.MusiqueToolStripMenuItem.Text = "Musique";
+            this.MusiqueToolStripMenuItem.Click += new System.EventHandler(this.MusiqueToolStripMenuItem_Click);
             // 
             // VidéoToolStripMenuItem
             // 
-            VidéoToolStripMenuItem.Name = "VidéoToolStripMenuItem";
-            VidéoToolStripMenuItem.Size = new Size(120, 22);
-            VidéoToolStripMenuItem.Text = "Vidéo";
+            this.VidéoToolStripMenuItem.Name = "VidéoToolStripMenuItem";
+            this.VidéoToolStripMenuItem.Size = new System.Drawing.Size(120, 22);
+            this.VidéoToolStripMenuItem.Text = "Vidéo";
+            this.VidéoToolStripMenuItem.Click += new System.EventHandler(this.VidéoToolStripMenuItem_Click);
             // 
             // LectureToolStripMenuItem
             // 
-            LectureToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { ArrêterToolStripMenuItem, PleinÉcranToolStripMenuItem });
-            LectureToolStripMenuItem.Name = "LectureToolStripMenuItem";
-            LectureToolStripMenuItem.Size = new Size(58, 20);
-            LectureToolStripMenuItem.Text = "Lecture";
+            this.LectureToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ArrêterToolStripMenuItem,
+            this.PleinÉcranToolStripMenuItem});
+            this.LectureToolStripMenuItem.Name = "LectureToolStripMenuItem";
+            this.LectureToolStripMenuItem.Size = new System.Drawing.Size(58, 20);
+            this.LectureToolStripMenuItem.Text = "Lecture";
             // 
             // ArrêterToolStripMenuItem
             // 
-            ArrêterToolStripMenuItem.Name = "ArrêterToolStripMenuItem";
-            ArrêterToolStripMenuItem.Size = new Size(132, 22);
-            ArrêterToolStripMenuItem.Text = "Arrêter";
+            this.ArrêterToolStripMenuItem.Name = "ArrêterToolStripMenuItem";
+            this.ArrêterToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.ArrêterToolStripMenuItem.Text = "Arrêter";
+            this.ArrêterToolStripMenuItem.Click += new System.EventHandler(this.ArrêterToolStripMenuItem_Click);
             // 
             // PleinÉcranToolStripMenuItem
             // 
-            PleinÉcranToolStripMenuItem.Name = "PleinÉcranToolStripMenuItem";
-            PleinÉcranToolStripMenuItem.Size = new Size(132, 22);
-            PleinÉcranToolStripMenuItem.Text = "Plein écran";
+            this.PleinÉcranToolStripMenuItem.Name = "PleinÉcranToolStripMenuItem";
+            this.PleinÉcranToolStripMenuItem.Size = new System.Drawing.Size(132, 22);
+            this.PleinÉcranToolStripMenuItem.Text = "Plein écran";
+            this.PleinÉcranToolStripMenuItem.Click += new System.EventHandler(this.PleinÉcranToolStripMenuItem_Click);
             // 
             // AutresToolStripMenuItem
             // 
-            AutresToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { OptionsToolStripMenuItem, QuitterToolStripMenuItem });
-            AutresToolStripMenuItem.Name = "AutresToolStripMenuItem";
-            AutresToolStripMenuItem.Size = new Size(53, 20);
-            AutresToolStripMenuItem.Text = "Autres";
+            this.AutresToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.OptionsToolStripMenuItem,
+            this.QuitterToolStripMenuItem});
+            this.AutresToolStripMenuItem.Name = "AutresToolStripMenuItem";
+            this.AutresToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
+            this.AutresToolStripMenuItem.Text = "Autres";
             // 
             // OptionsToolStripMenuItem
             // 
-            OptionsToolStripMenuItem.Name = "OptionsToolStripMenuItem";
-            OptionsToolStripMenuItem.Size = new Size(116, 22);
-            OptionsToolStripMenuItem.Text = "Options";
+            this.OptionsToolStripMenuItem.Name = "OptionsToolStripMenuItem";
+            this.OptionsToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.OptionsToolStripMenuItem.Text = "Options";
+            this.OptionsToolStripMenuItem.Click += new System.EventHandler(this.OptionsToolStripMenuItem_Click);
             // 
             // QuitterToolStripMenuItem
             // 
-            QuitterToolStripMenuItem.Name = "QuitterToolStripMenuItem";
-            QuitterToolStripMenuItem.Size = new Size(116, 22);
-            QuitterToolStripMenuItem.Text = "Quitter";
+            this.QuitterToolStripMenuItem.Name = "QuitterToolStripMenuItem";
+            this.QuitterToolStripMenuItem.Size = new System.Drawing.Size(116, 22);
+            this.QuitterToolStripMenuItem.Text = "Quitter";
+            this.QuitterToolStripMenuItem.Click += new System.EventHandler(this.QuitterToolStripMenuItem_Click);
             // 
             // OpenFileDialog2
             // 
-            OpenFileDialog2.CheckFileExists = false;
-            OpenFileDialog2.CheckPathExists = false;
-            OpenFileDialog2.FileName = "OpenFileDialog2";
-            OpenFileDialog2.RestoreDirectory = true;
+            this.OpenFileDialog2.CheckFileExists = false;
+            this.OpenFileDialog2.CheckPathExists = false;
+            this.OpenFileDialog2.FileName = "OpenFileDialog2";
+            this.OpenFileDialog2.RestoreDirectory = true;
             // 
-            // AxWindowsMediaPlayer3
+            // pictureBox1
             // 
-            AxWindowsMediaPlayer3.Dock = DockStyle.Fill;
-            AxWindowsMediaPlayer3.Enabled = true;
-            AxWindowsMediaPlayer3.Location = new Point(0, 24);
-            AxWindowsMediaPlayer3.Name = "AxWindowsMediaPlayer3";
-            AxWindowsMediaPlayer3.OcxState = (AxHost.State)resources.GetObject("AxWindowsMediaPlayer3.OcxState");
-            AxWindowsMediaPlayer3.Size = new Size(546, 320);
-            AxWindowsMediaPlayer3.TabIndex = 8;
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Location = new System.Drawing.Point(160, 54);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(228, 228);
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
             // 
             // Media
             // 
-            BackColor = Color.DimGray;
-            ClientSize = new Size(546, 344);
-            Controls.Add(AxWindowsMediaPlayer3);
-            Controls.Add(MenuStrip1);
-            Icon = (Icon)resources.GetObject("$this.Icon");
-            MainMenuStrip = MenuStrip1;
-            MinimumSize = new Size(562, 360);
-            Name = "Media";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "Media Player";
-            MenuStrip1.ResumeLayout(false);
-            MenuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)AxWindowsMediaPlayer3).EndInit();
-            Load += new EventHandler(Media_Load);
-            FormClosed += new FormClosedEventHandler(Media_FormClosed);
-            ResumeLayout(false);
-            PerformLayout();
+            this.BackColor = System.Drawing.Color.DimGray;
+            this.ClientSize = new System.Drawing.Size(546, 344);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.MenuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MainMenuStrip = this.MenuStrip1;
+            this.MinimumSize = new System.Drawing.Size(562, 360);
+            this.Name = "Media";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Media Player";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Media_FormClosed);
+            this.Load += new System.EventHandler(this.Media_Load);
+            this.MenuStrip1.ResumeLayout(false);
+            this.MenuStrip1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
         internal Button Button1;
         internal Button Button2;
         internal Button Button3;
         internal CheckBox CheckBox1;
-        internal AxWMPLib.AxWindowsMediaPlayer AxWindowsMediaPlayer1;
         internal TextBox TextBox1;
         internal OpenFileDialog OpenFileDialog1;
-        internal AxWMPLib.AxWindowsMediaPlayer AxWindowsMediaPlayer2;
         internal MenuStrip MenuStrip1;
         internal OpenFileDialog OpenFileDialog2;
         internal ToolStripMenuItem OuvrirToolStripMenuItem;
@@ -181,6 +188,6 @@ namespace Vincent_OS
         internal ToolStripMenuItem AutresToolStripMenuItem;
         internal ToolStripMenuItem OptionsToolStripMenuItem;
         internal ToolStripMenuItem QuitterToolStripMenuItem;
-        internal AxWMPLib.AxWindowsMediaPlayer AxWindowsMediaPlayer3;
+        private PictureBox pictureBox1;
     }
 }

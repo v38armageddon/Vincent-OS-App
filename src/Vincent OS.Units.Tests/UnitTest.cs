@@ -22,14 +22,4 @@ namespace Vincent_OS.Units.Tests
             }
         }
     }
-
-    //[TestClass]
-    //public class TestApp
-    //{
-    //    [TestMethod]
-    //    public void CheckSound()
-    //    {
-            
-    //    }
-    //}
 }

@@ -1,0 +1,27 @@
+﻿<Window x:Class="Vincent_OS.WPF.Media"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vincent_OS.WPF"
+        mc:Ignorable="d"
+        Title="Media Player" Height="383" Width="562" MinHeight="360" MinWidth="562"
+        Background="Black">
+    <Grid>
+        <Menu VerticalAlignment="Top">
+            <MenuItem Header="Ouvrir">
+                <MenuItem x:Name="ouvrirMusiqueMenu" Header="Musique"/>
+                <MenuItem x:Name="ouvrirVideoMenu" Header="Vidéo"/>
+            </MenuItem>
+            <MenuItem Header="Lecture">
+                <MenuItem x:Name="arreterMenu" Header="Arrêter"/>
+                <MenuItem x:Name="pleinEcranMenu" Header="Plein écran"/>
+            </MenuItem>
+            <MenuItem Header="Autres">
+                <MenuItem x:Name="quitterMenu" Header="Quitter"/>
+            </MenuItem>
+        </Menu>
+        <MediaElement x:Name="mediaElement" Margin="0,18,0,40" />
+        <Button x:Name="playButton" HorizontalAlignment="Center" Margin="0,334,0,0" VerticalAlignment="Top" Background="Green" Height="23" Width="60" BorderBrush="Green"/>
+    </Grid>
+</Window>
