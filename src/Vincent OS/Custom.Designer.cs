@@ -170,12 +170,12 @@ namespace Vincent_OS
             // 
             this.Label1.AutoSize = true;
             this.Label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Label1.Location = new System.Drawing.Point(184, 0);
+            this.Label1.Location = new System.Drawing.Point(193, 0);
             this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(319, 30);
+            this.Label1.Size = new System.Drawing.Size(310, 30);
             this.Label1.TabIndex = 32;
-            this.Label1.Text = "Aperçus du fond d\'écran actuelle";
+            this.Label1.Text = "Aperçu du fond d\'écran actuelle";
             // 
             // PictureBox1
             // 

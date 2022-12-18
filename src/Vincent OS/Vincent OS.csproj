@@ -159,6 +159,10 @@
     <EmbeddedResource Remove="My Project\Resources.resx" />
   </ItemGroup>
   <ItemGroup>
+    <None Remove="Exewin.resx~RF6bd410.TMP" />
+    <None Remove="TaskVOS.resx~RF4cc8bd.TMP" />
+  </ItemGroup>
+  <ItemGroup>
     <ProjectReference Include="..\Vincent OS.Registry\Vincent OS.Registry.vcxproj" />
     <ProjectReference Include="..\Vincent OS.Units.Tests\Vincent OS.Units.Tests.csproj" />
   </ItemGroup>

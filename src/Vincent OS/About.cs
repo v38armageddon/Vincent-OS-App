@@ -19,5 +19,21 @@ namespace Vincent_OS
             };
             System.Diagnostics.Process.Start(psi);
         }
+
+        private void PictureBox1_MouseClick(object sender, System.Windows.Forms.MouseEventArgs e)
+        {
+            var i = 0;
+            i += 1;
+            if (i == 5)
+            {
+                var backmusic = new System.Media.SoundPlayer(@"C:\Windows\Media\tada.wav");
+                backmusic.Play();
+            }
+            if (i == 10)
+            {
+                var backmusic = new System.Media.SoundPlayer(My.Resources.Resources.startingSound);
+                backmusic.Play();
+            }
+        }
     }
 }

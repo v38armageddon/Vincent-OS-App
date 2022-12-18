@@ -46,11 +46,11 @@ namespace Vincent_OS
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.Font = new System.Drawing.Font("Arial", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label1.Location = new System.Drawing.Point(65, 9);
             this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(395, 32);
+            this.Label1.Size = new System.Drawing.Size(398, 34);
             this.Label1.TabIndex = 0;
             this.Label1.Text = "Pour exécuter une application Windows, mettez l\'adresse du fichier\r\n(exemple : C:" +
     "\\(nom du fichier)\\(nom de l\'application en .exe)\r\n";
@@ -60,7 +60,7 @@ namespace Vincent_OS
             this.TextBox1.Location = new System.Drawing.Point(69, 50);
             this.TextBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TextBox1.Name = "TextBox1";
-            this.TextBox1.Size = new System.Drawing.Size(336, 23);
+            this.TextBox1.Size = new System.Drawing.Size(343, 23);
             this.TextBox1.TabIndex = 2;
             this.TextBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox1_KeyPress);
             // 
@@ -69,7 +69,7 @@ namespace Vincent_OS
             this.Button1.BackColor = System.Drawing.Color.Green;
             this.Button1.FlatAppearance.BorderSize = 0;
             this.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button1.Location = new System.Drawing.Point(413, 50);
+            this.Button1.Location = new System.Drawing.Point(420, 50);
             this.Button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button1.Name = "Button1";
             this.Button1.Size = new System.Drawing.Size(34, 23);
@@ -92,7 +92,7 @@ namespace Vincent_OS
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(458, 87);
+            this.ClientSize = new System.Drawing.Size(467, 87);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.Button1);
             this.Controls.Add(this.TextBox1);
@@ -102,6 +102,8 @@ namespace Vincent_OS
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(483, 126);
+            this.MinimumSize = new System.Drawing.Size(483, 126);
             this.Name = "exewin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Exécuter une application Windows";

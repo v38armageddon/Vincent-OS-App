@@ -48,12 +48,12 @@ namespace Vincent_OS
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label1.ForeColor = System.Drawing.Color.White;
-            this.Label1.Location = new System.Drawing.Point(80, 12);
+            this.Label1.Location = new System.Drawing.Point(80, 3);
             this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(356, 66);
+            this.Label1.Size = new System.Drawing.Size(359, 75);
             this.Label1.TabIndex = 2;
             this.Label1.Text = "Une application a besoin de privilèges de\r\nl\'utilisateur :\r\nSuperutilisateur";
             this.Label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -114,12 +114,12 @@ namespace Vincent_OS
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(13, 78);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(431, 44);
+            this.label2.Size = new System.Drawing.Size(433, 50);
             this.label2.TabIndex = 11;
             this.label2.Text = "Veuillez entrez le mot de passe de cette utilisateur\r\npour donner accès aux autor" +
     "isations supérieur.";

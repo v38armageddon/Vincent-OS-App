@@ -54,6 +54,7 @@ namespace Vincent_OS
             // 
             // Button3
             // 
+            this.Button3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button3.BackgroundImage")));
             this.Button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button3.FlatAppearance.BorderSize = 0;
             this.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -64,12 +65,12 @@ namespace Vincent_OS
             this.Button3.Name = "Button3";
             this.Button3.Size = new System.Drawing.Size(118, 118);
             this.Button3.TabIndex = 2;
-            this.Button3.Text = "i";
             this.Button3.UseVisualStyleBackColor = true;
             this.Button3.Click += new System.EventHandler(this.Button3_Click);
             // 
             // Button4
             // 
+            this.Button4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("Button4.BackgroundImage")));
             this.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button4.FlatAppearance.BorderSize = 0;
             this.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -80,7 +81,6 @@ namespace Vincent_OS
             this.Button4.Name = "Button4";
             this.Button4.Size = new System.Drawing.Size(118, 118);
             this.Button4.TabIndex = 15;
-            this.Button4.Text = "@";
             this.Button4.UseVisualStyleBackColor = true;
             this.Button4.Click += new System.EventHandler(this.Button4_Click_1);
             // 
@@ -103,36 +103,36 @@ namespace Vincent_OS
             // Label3
             // 
             this.Label3.AutoSize = true;
-            this.Label3.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label3.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label3.ForeColor = System.Drawing.Color.White;
-            this.Label3.Location = new System.Drawing.Point(50, 287);
+            this.Label3.Location = new System.Drawing.Point(56, 282);
             this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(87, 22);
+            this.Label3.Size = new System.Drawing.Size(88, 25);
             this.Label3.TabIndex = 17;
             this.Label3.Text = "A propos";
             // 
             // Label4
             // 
             this.Label4.AutoSize = true;
-            this.Label4.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label4.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label4.ForeColor = System.Drawing.Color.White;
             this.Label4.Location = new System.Drawing.Point(178, 282);
             this.Label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(149, 22);
+            this.Label4.Size = new System.Drawing.Size(151, 25);
             this.Label4.TabIndex = 18;
             this.Label4.Text = "Personnalisation";
             // 
             // Label5
             // 
             this.Label5.AutoSize = true;
-            this.Label5.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label5.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label5.ForeColor = System.Drawing.Color.White;
             this.Label5.Location = new System.Drawing.Point(352, 281);
             this.Label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(117, 44);
+            this.Label5.Size = new System.Drawing.Size(119, 50);
             this.Label5.TabIndex = 19;
             this.Label5.Text = "Gestionnaire\r\ndes tâches";
             this.Label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -154,12 +154,12 @@ namespace Vincent_OS
             // Label6
             // 
             this.Label6.AutoSize = true;
-            this.Label6.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label6.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label6.ForeColor = System.Drawing.Color.White;
             this.Label6.Location = new System.Drawing.Point(502, 282);
             this.Label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label6.Name = "Label6";
-            this.Label6.Size = new System.Drawing.Size(136, 44);
+            this.Label6.Size = new System.Drawing.Size(146, 50);
             this.Label6.TabIndex = 21;
             this.Label6.Text = "Changer le\r\nnom d\'utiliateur";
             this.Label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -167,12 +167,12 @@ namespace Vincent_OS
             // Label2
             // 
             this.Label2.AutoSize = true;
-            this.Label2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label2.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label2.ForeColor = System.Drawing.Color.White;
-            this.Label2.Location = new System.Drawing.Point(280, 27);
+            this.Label2.Location = new System.Drawing.Point(280, 25);
             this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(155, 24);
+            this.Label2.Size = new System.Drawing.Size(160, 30);
             this.Label2.TabIndex = 22;
             this.Label2.Text = "Vincent OS App";
             // 
@@ -205,12 +205,12 @@ namespace Vincent_OS
             // Label7
             // 
             this.Label7.AutoSize = true;
-            this.Label7.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label7.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label7.ForeColor = System.Drawing.Color.White;
             this.Label7.Location = new System.Drawing.Point(280, 55);
             this.Label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label7.Name = "Label7";
-            this.Label7.Size = new System.Drawing.Size(263, 24);
+            this.Label7.Size = new System.Drawing.Size(254, 30);
             this.Label7.TabIndex = 25;
             this.Label7.Text = "Utilisateur : [UTILISATEUR]";
             // 

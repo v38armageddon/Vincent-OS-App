@@ -113,16 +113,10 @@ namespace Vincent_OS
                     Process.Start(psi2);
                     break;
                 case "Déconnecter la session Windows":
-                    var psi3 = new ProcessStartInfo("shutdown", "/l /t 0");
+                    var psi3 = new ProcessStartInfo("shutdown", "/l");
                     psi3.CreateNoWindow = true;
                     psi3.UseShellExecute = false;
                     Process.Start(psi3);
-                    break;
-                case "Debug.Terminal":
-                    var backmusic1 = new System.Media.SoundPlayer(My.Resources.Resources.alertSound);
-                    backmusic1.Play();
-                    MessageBox.Show("Vous entrez dans un Terminal, certains commandes et certaines fonctionnalités peuvent ne pas fonctionner comme prévu !", "Alerte", MessageBoxButtons.OK, MessageBoxIcon.Warning);
-                    My.MyProject.Forms.Terminal.Show();
                     break;
                 default:
                     var backmusic2 = new System.Media.SoundPlayer(My.Resources.Resources.errorSound);

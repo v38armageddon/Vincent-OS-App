@@ -46,6 +46,13 @@ namespace Vincent_OS
             this.Button3 = new System.Windows.Forms.Button();
             this.Button6 = new System.Windows.Forms.Button();
             this.Button5 = new System.Windows.Forms.Button();
+            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.tabControl1.SuspendLayout();
+            this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // Button16
@@ -54,7 +61,7 @@ namespace Vincent_OS
             this.Button16.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button16.FlatAppearance.BorderSize = 0;
             this.Button16.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button16.Location = new System.Drawing.Point(532, 141);
+            this.Button16.Location = new System.Drawing.Point(527, 127);
             this.Button16.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button16.Name = "Button16";
             this.Button16.Size = new System.Drawing.Size(122, 120);
@@ -69,7 +76,7 @@ namespace Vincent_OS
             this.Button1.FlatAppearance.BorderSize = 0;
             this.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Button1.Location = new System.Drawing.Point(14, 14);
+            this.Button1.Location = new System.Drawing.Point(9, 0);
             this.Button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button1.Name = "Button1";
             this.Button1.Size = new System.Drawing.Size(122, 120);
@@ -83,7 +90,7 @@ namespace Vincent_OS
             this.Button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.Button4.FlatAppearance.BorderSize = 0;
             this.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button4.Location = new System.Drawing.Point(402, 141);
+            this.Button4.Location = new System.Drawing.Point(397, 127);
             this.Button4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button4.Name = "Button4";
             this.Button4.Size = new System.Drawing.Size(122, 120);
@@ -98,7 +105,7 @@ namespace Vincent_OS
             this.Button2.FlatAppearance.BorderSize = 0;
             this.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Button2.Location = new System.Drawing.Point(144, 14);
+            this.Button2.Location = new System.Drawing.Point(139, 0);
             this.Button2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button2.Name = "Button2";
             this.Button2.Size = new System.Drawing.Size(122, 120);
@@ -113,7 +120,7 @@ namespace Vincent_OS
             this.Button7.FlatAppearance.BorderSize = 0;
             this.Button7.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button7.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Button7.Location = new System.Drawing.Point(273, 141);
+            this.Button7.Location = new System.Drawing.Point(268, 127);
             this.Button7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button7.Name = "Button7";
             this.Button7.Size = new System.Drawing.Size(122, 120);
@@ -128,7 +135,7 @@ namespace Vincent_OS
             this.Button8.FlatAppearance.BorderSize = 0;
             this.Button8.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button8.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Button8.Location = new System.Drawing.Point(144, 141);
+            this.Button8.Location = new System.Drawing.Point(139, 127);
             this.Button8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button8.Name = "Button8";
             this.Button8.Size = new System.Drawing.Size(122, 120);
@@ -143,7 +150,7 @@ namespace Vincent_OS
             this.Button9.FlatAppearance.BorderSize = 0;
             this.Button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button9.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Button9.Location = new System.Drawing.Point(532, 14);
+            this.Button9.Location = new System.Drawing.Point(527, 0);
             this.Button9.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button9.Name = "Button9";
             this.Button9.Size = new System.Drawing.Size(122, 120);
@@ -158,7 +165,7 @@ namespace Vincent_OS
             this.Button3.FlatAppearance.BorderSize = 0;
             this.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button3.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Button3.Location = new System.Drawing.Point(273, 14);
+            this.Button3.Location = new System.Drawing.Point(268, 0);
             this.Button3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button3.Name = "Button3";
             this.Button3.Size = new System.Drawing.Size(122, 120);
@@ -173,7 +180,7 @@ namespace Vincent_OS
             this.Button6.FlatAppearance.BorderSize = 0;
             this.Button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button6.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Button6.Location = new System.Drawing.Point(14, 141);
+            this.Button6.Location = new System.Drawing.Point(9, 127);
             this.Button6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button6.Name = "Button6";
             this.Button6.Size = new System.Drawing.Size(122, 120);
@@ -188,13 +195,71 @@ namespace Vincent_OS
             this.Button5.FlatAppearance.BorderSize = 0;
             this.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button5.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Button5.Location = new System.Drawing.Point(402, 14);
+            this.Button5.Location = new System.Drawing.Point(397, 0);
             this.Button5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button5.Name = "Button5";
             this.Button5.Size = new System.Drawing.Size(122, 120);
             this.Button5.TabIndex = 24;
             this.Button5.UseVisualStyleBackColor = true;
             this.Button5.Click += new System.EventHandler(this.Button5_Click_1);
+            // 
+            // tabControl1
+            // 
+            this.tabControl1.Controls.Add(this.tabPage1);
+            this.tabControl1.Controls.Add(this.tabPage2);
+            this.tabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.tabControl1.Location = new System.Drawing.Point(0, 0);
+            this.tabControl1.Name = "tabControl1";
+            this.tabControl1.SelectedIndex = 0;
+            this.tabControl1.Size = new System.Drawing.Size(668, 284);
+            this.tabControl1.TabIndex = 31;
+            // 
+            // tabPage1
+            // 
+            this.tabPage1.BackColor = System.Drawing.Color.Black;
+            this.tabPage1.Controls.Add(this.Button16);
+            this.tabPage1.Controls.Add(this.Button1);
+            this.tabPage1.Controls.Add(this.Button5);
+            this.tabPage1.Controls.Add(this.Button4);
+            this.tabPage1.Controls.Add(this.Button6);
+            this.tabPage1.Controls.Add(this.Button2);
+            this.tabPage1.Controls.Add(this.Button3);
+            this.tabPage1.Controls.Add(this.Button7);
+            this.tabPage1.Controls.Add(this.Button9);
+            this.tabPage1.Controls.Add(this.Button8);
+            this.tabPage1.ForeColor = System.Drawing.Color.White;
+            this.tabPage1.Location = new System.Drawing.Point(4, 24);
+            this.tabPage1.Name = "tabPage1";
+            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage1.Size = new System.Drawing.Size(660, 256);
+            this.tabPage1.TabIndex = 0;
+            this.tabPage1.Text = "Applications Vincent OS";
+            // 
+            // tabPage2
+            // 
+            this.tabPage2.BackColor = System.Drawing.Color.Black;
+            this.tabPage2.Controls.Add(this.listBox1);
+            this.tabPage2.ForeColor = System.Drawing.Color.White;
+            this.tabPage2.Location = new System.Drawing.Point(4, 24);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(660, 256);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Applications Windows";
+            // 
+            // listBox1
+            // 
+            this.listBox1.BackColor = System.Drawing.Color.Black;
+            this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.listBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.listBox1.ForeColor = System.Drawing.Color.White;
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 15;
+            this.listBox1.Location = new System.Drawing.Point(3, 3);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(654, 250);
+            this.listBox1.TabIndex = 0;
+            this.listBox1.DoubleClick += new System.EventHandler(this.listBox1_DoubleClick);
             // 
             // Applications
             // 
@@ -203,16 +268,7 @@ namespace Vincent_OS
             this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(668, 284);
-            this.Controls.Add(this.Button16);
-            this.Controls.Add(this.Button1);
-            this.Controls.Add(this.Button4);
-            this.Controls.Add(this.Button2);
-            this.Controls.Add(this.Button7);
-            this.Controls.Add(this.Button8);
-            this.Controls.Add(this.Button9);
-            this.Controls.Add(this.Button3);
-            this.Controls.Add(this.Button6);
-            this.Controls.Add(this.Button5);
+            this.Controls.Add(this.tabControl1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
@@ -222,6 +278,9 @@ namespace Vincent_OS
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Applications";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Applications_FormClosed);
+            this.tabControl1.ResumeLayout(false);
+            this.tabPage1.ResumeLayout(false);
+            this.tabPage2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -236,5 +295,9 @@ namespace Vincent_OS
         internal Button Button3;
         internal Button Button6;
         internal Button Button5;
+        private TabControl tabControl1;
+        private TabPage tabPage1;
+        private TabPage tabPage2;
+        private ListBox listBox1;
     }
 }

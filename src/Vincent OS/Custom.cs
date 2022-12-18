@@ -54,12 +54,12 @@ namespace Vincent_OS
         {
             if (My.MyProject.Forms.Bureau.Visible == true)
             {
-                My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage = My.Resources.Resources.login;
+                My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage = Button2.BackgroundImage;
                 PictureBox1.Image = My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage;
             }
             else if (My.MyProject.Forms.Bureau2.Visible == true)
             {
-                My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage = My.Resources.Resources.login;
+                My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage = Button2.BackgroundImage;
                 PictureBox1.Image = My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage;
             }
         }
@@ -68,12 +68,12 @@ namespace Vincent_OS
         {
             if (My.MyProject.Forms.Bureau.Visible == true)
             {
-                My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage = My.Resources.Resources.superutilisateur;
+                My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage = Button3.BackgroundImage;
                 PictureBox1.Image = My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage;
             }
             else if (My.MyProject.Forms.Bureau2.Visible == true)
             {
-                My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage = My.Resources.Resources.superutilisateur;
+                My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage = Button3.BackgroundImage;
                 PictureBox1.Image = My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage;
             }
         }
@@ -82,12 +82,12 @@ namespace Vincent_OS
         {
             if (My.MyProject.Forms.Bureau.Visible == true)
             {
-                My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage = My.Resources.Resources.invite;
+                My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage = Button4.BackgroundImage;
                 PictureBox1.Image = My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage;
             }
             else if (My.MyProject.Forms.Bureau2.Visible == true)
             {
-                My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage = My.Resources.Resources.invite;
+                My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage = Button4.BackgroundImage;
                 PictureBox1.Image = My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage;
             }
         }

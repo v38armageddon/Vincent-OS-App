@@ -10,6 +10,7 @@ namespace Vincent_OS
         public Login()
         {
             InitializeComponent();
+            Panel1.BackColor = Color.FromArgb(170,0,0,0);
         }
 
         private void Login_Load(object sender, EventArgs e)

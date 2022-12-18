@@ -49,11 +49,11 @@ namespace Vincent_OS
             // 
             this.PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox1.Image")));
-            this.PictureBox1.Location = new System.Drawing.Point(285, 123);
+            this.PictureBox1.Location = new System.Drawing.Point(168, 57);
             this.PictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox1.Name = "PictureBox1";
-            this.PictureBox1.Size = new System.Drawing.Size(407, 219);
-            this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PictureBox1.Size = new System.Drawing.Size(629, 353);
+            this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PictureBox1.TabIndex = 0;
             this.PictureBox1.TabStop = false;
             // 

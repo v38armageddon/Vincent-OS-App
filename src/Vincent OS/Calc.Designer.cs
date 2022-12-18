@@ -261,6 +261,7 @@ namespace Vincent_OS
             this.TextBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.TextBox1.BackColor = System.Drawing.Color.Black;
+            this.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.TextBox1.ForeColor = System.Drawing.Color.White;
             this.TextBox1.Location = new System.Drawing.Point(14, 14);
             this.TextBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);

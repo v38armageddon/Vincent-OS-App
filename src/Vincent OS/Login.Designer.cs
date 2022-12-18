@@ -75,12 +75,12 @@ namespace Vincent_OS
             // Label2
             // 
             this.Label2.AutoSize = true;
-            this.Label2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label2.ForeColor = System.Drawing.Color.White;
             this.Label2.Location = new System.Drawing.Point(167, 3);
             this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(140, 22);
+            this.Label2.Size = new System.Drawing.Size(145, 25);
             this.Label2.TabIndex = 2;
             this.Label2.Text = "Superutilisateur";
             // 
@@ -108,12 +108,12 @@ namespace Vincent_OS
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Label1.ForeColor = System.Drawing.Color.Black;
+            this.Label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label1.ForeColor = System.Drawing.Color.White;
             this.Label1.Location = new System.Drawing.Point(170, 39);
             this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(125, 22);
+            this.Label1.Size = new System.Drawing.Size(124, 25);
             this.Label1.TabIndex = 6;
             this.Label1.Text = "Mot de passe";
             // 
@@ -192,7 +192,7 @@ namespace Vincent_OS
             this.PictureBox4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox4.Name = "PictureBox4";
             this.PictureBox4.Size = new System.Drawing.Size(30, 29);
-            this.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PictureBox4.TabIndex = 13;
             this.PictureBox4.TabStop = false;
             this.PictureBox4.Click += new System.EventHandler(this.PictureBox4_Click);
@@ -201,12 +201,12 @@ namespace Vincent_OS
             // 
             this.Label4.AutoSize = true;
             this.Label4.BackColor = System.Drawing.Color.Black;
-            this.Label4.Font = new System.Drawing.Font("Arial", 9.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label4.ForeColor = System.Drawing.Color.White;
             this.Label4.Location = new System.Drawing.Point(6, 6);
             this.Label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(66, 16);
+            this.Label4.Size = new System.Drawing.Size(61, 15);
             this.Label4.TabIndex = 14;
             this.Label4.Text = "vincentOS";
             // 

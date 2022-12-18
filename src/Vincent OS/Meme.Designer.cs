@@ -85,7 +85,7 @@ namespace Vincent_OS
             this.WebBrowser1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.WebBrowser1.MinimumSize = new System.Drawing.Size(23, 23);
             this.WebBrowser1.Name = "WebBrowser1";
-            this.WebBrowser1.Size = new System.Drawing.Size(731, 391);
+            this.WebBrowser1.Size = new System.Drawing.Size(721, 391);
             this.WebBrowser1.TabIndex = 4;
             this.WebBrowser1.Url = new System.Uri("file:///C:/Users", System.UriKind.Absolute);
             // 
@@ -95,11 +95,11 @@ namespace Vincent_OS
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.TabControl1.Controls.Add(this.TabPage2);
-            this.TabControl1.Location = new System.Drawing.Point(143, 54);
+            this.TabControl1.Location = new System.Drawing.Point(153, 54);
             this.TabControl1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TabControl1.Name = "TabControl1";
             this.TabControl1.SelectedIndex = 0;
-            this.TabControl1.Size = new System.Drawing.Size(747, 425);
+            this.TabControl1.Size = new System.Drawing.Size(737, 425);
             this.TabControl1.SizeMode = System.Windows.Forms.TabSizeMode.Fixed;
             this.TabControl1.TabIndex = 11;
             // 
@@ -110,7 +110,7 @@ namespace Vincent_OS
             this.TabPage2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TabPage2.Name = "TabPage2";
             this.TabPage2.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.TabPage2.Size = new System.Drawing.Size(739, 397);
+            this.TabPage2.Size = new System.Drawing.Size(729, 397);
             this.TabPage2.TabIndex = 1;
             this.TabPage2.Text = "C:\\Users\\";
             this.TabPage2.UseVisualStyleBackColor = true;
@@ -150,22 +150,22 @@ namespace Vincent_OS
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Label1.Location = new System.Drawing.Point(0, 52);
+            this.Label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label1.Location = new System.Drawing.Point(5, 53);
             this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(105, 22);
+            this.Label1.Size = new System.Drawing.Size(102, 25);
             this.Label1.TabIndex = 15;
             this.Label1.Text = "Raccourcis";
             // 
             // Label2
             // 
             this.Label2.AutoSize = true;
-            this.Label2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Label2.Location = new System.Drawing.Point(0, 223);
+            this.Label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label2.Location = new System.Drawing.Point(5, 224);
             this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(135, 22);
+            this.Label2.Size = new System.Drawing.Size(145, 25);
             this.Label2.TabIndex = 16;
             this.Label2.Text = "Mon ordinateur";
             // 
@@ -176,7 +176,7 @@ namespace Vincent_OS
             this.PictureBox4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox4.Name = "PictureBox4";
             this.PictureBox4.Size = new System.Drawing.Size(27, 27);
-            this.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PictureBox4.TabIndex = 17;
             this.PictureBox4.TabStop = false;
             // 
@@ -187,7 +187,7 @@ namespace Vincent_OS
             this.PictureBox5.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox5.Name = "PictureBox5";
             this.PictureBox5.Size = new System.Drawing.Size(27, 27);
-            this.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PictureBox5.TabIndex = 18;
             this.PictureBox5.TabStop = false;
             // 
@@ -198,7 +198,7 @@ namespace Vincent_OS
             this.PictureBox6.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox6.Name = "PictureBox6";
             this.PictureBox6.Size = new System.Drawing.Size(27, 27);
-            this.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PictureBox6.TabIndex = 20;
             this.PictureBox6.TabStop = false;
             // 
@@ -209,7 +209,7 @@ namespace Vincent_OS
             this.PictureBox7.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox7.Name = "PictureBox7";
             this.PictureBox7.Size = new System.Drawing.Size(27, 27);
-            this.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PictureBox7.TabIndex = 19;
             this.PictureBox7.TabStop = false;
             // 
@@ -295,7 +295,7 @@ namespace Vincent_OS
             this.PictureBox8.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox8.Name = "PictureBox8";
             this.PictureBox8.Size = new System.Drawing.Size(27, 27);
-            this.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PictureBox8.TabIndex = 24;
             this.PictureBox8.TabStop = false;
             // 

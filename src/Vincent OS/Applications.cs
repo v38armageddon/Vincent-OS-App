@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
+using System.Management;
 using System.Windows.Forms;
 
 namespace Vincent_OS
@@ -11,6 +13,11 @@ namespace Vincent_OS
         public Applications()
         {
             InitializeComponent();
+            ManagementObjectSearcher mos = new ManagementObjectSearcher("SELECT * FROM Win32_Product");
+            foreach (ManagementObject mo in mos.Get())
+            {
+                Console.WriteLine(mo["Name"]);
+            }
         }
 
         private void Button1_Click(object sender, EventArgs e)
@@ -62,6 +69,11 @@ namespace Vincent_OS
         private void Button16_Click_1(object sender, EventArgs e)
         {
             My.MyProject.Forms.Calc.Show();
+        }
+
+        private void listBox1_DoubleClick(object sender, EventArgs e)
+        {
+
         }
 
         private void Applications_FormClosed(object sender, FormClosedEventArgs e)

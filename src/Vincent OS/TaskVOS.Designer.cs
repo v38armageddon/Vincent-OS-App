@@ -182,11 +182,11 @@ namespace Vincent_OS
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Label1.Location = new System.Drawing.Point(9, 3);
+            this.Label1.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label1.Location = new System.Drawing.Point(41, -4);
             this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(489, 36);
+            this.Label1.Size = new System.Drawing.Size(505, 45);
             this.Label1.TabIndex = 4;
             this.Label1.Text = "Sélectionner l\'application à arrêter";
             // 
@@ -585,6 +585,7 @@ namespace Vincent_OS
             // 
             // TabPage3
             // 
+            this.TabPage3.BackColor = System.Drawing.Color.Black;
             this.TabPage3.Controls.Add(this.Button3);
             this.TabPage3.Controls.Add(this.Label3);
             this.TabPage3.Controls.Add(this.flowLayoutPanel2);
@@ -594,11 +595,10 @@ namespace Vincent_OS
             this.TabPage3.Size = new System.Drawing.Size(584, 669);
             this.TabPage3.TabIndex = 2;
             this.TabPage3.Text = "Services";
-            this.TabPage3.UseVisualStyleBackColor = true;
             // 
             // Button3
             // 
-            this.Button3.BackColor = System.Drawing.Color.LightGray;
+            this.Button3.BackColor = System.Drawing.Color.Green;
             this.Button3.FlatAppearance.BorderSize = 0;
             this.Button3.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Button3.Location = new System.Drawing.Point(241, 374);
@@ -613,11 +613,11 @@ namespace Vincent_OS
             // Label3
             // 
             this.Label3.AutoSize = true;
-            this.Label3.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Label3.Location = new System.Drawing.Point(23, 3);
+            this.Label3.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label3.Location = new System.Drawing.Point(63, 0);
             this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(459, 36);
+            this.Label3.Size = new System.Drawing.Size(464, 45);
             this.Label3.TabIndex = 6;
             this.Label3.Text = "Sélectionner le service à arrêter";
             // 
@@ -771,6 +771,7 @@ namespace Vincent_OS
             // 
             // TabPage2
             // 
+            this.TabPage2.BackColor = System.Drawing.Color.Black;
             this.TabPage2.Controls.Add(this.PictureBox20);
             this.TabPage2.Controls.Add(this.PictureBox19);
             this.TabPage2.Controls.Add(this.RadioButton18);
@@ -784,7 +785,6 @@ namespace Vincent_OS
             this.TabPage2.Size = new System.Drawing.Size(584, 669);
             this.TabPage2.TabIndex = 1;
             this.TabPage2.Text = "Session";
-            this.TabPage2.UseVisualStyleBackColor = true;
             // 
             // PictureBox20
             // 
@@ -838,7 +838,7 @@ namespace Vincent_OS
             // 
             // Button2
             // 
-            this.Button2.BackColor = System.Drawing.Color.LightGray;
+            this.Button2.BackColor = System.Drawing.Color.Green;
             this.Button2.FlatAppearance.BorderSize = 0;
             this.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Button2.Location = new System.Drawing.Point(244, 239);
@@ -853,11 +853,11 @@ namespace Vincent_OS
             // Label2
             // 
             this.Label2.AutoSize = true;
-            this.Label2.Font = new System.Drawing.Font("Arial", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Label2.Location = new System.Drawing.Point(23, 3);
+            this.Label2.Font = new System.Drawing.Font("Segoe UI", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label2.Location = new System.Drawing.Point(58, 0);
             this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(467, 36);
+            this.Label2.Size = new System.Drawing.Size(470, 45);
             this.Label2.TabIndex = 5;
             this.Label2.Text = "Sélectionner la session à arrêter";
             // 

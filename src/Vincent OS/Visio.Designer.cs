@@ -68,6 +68,7 @@ namespace Vincent_OS
             // 
             // PictureBox1
             // 
+            this.PictureBox1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
             this.PictureBox1.ContextMenuStrip = this.ContextMenuStrip1;
             this.PictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PictureBox1.Location = new System.Drawing.Point(0, 0);

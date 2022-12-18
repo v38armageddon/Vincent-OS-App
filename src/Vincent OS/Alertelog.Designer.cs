@@ -41,6 +41,7 @@ namespace Vincent_OS
             this.Label2 = new System.Windows.Forms.Label();
             this.PictureBox1 = new System.Windows.Forms.PictureBox();
             this.Button2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -79,12 +80,12 @@ namespace Vincent_OS
             // Label2
             // 
             this.Label2.AutoSize = true;
-            this.Label2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label2.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label2.ForeColor = System.Drawing.Color.White;
             this.Label2.Location = new System.Drawing.Point(133, 10);
             this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(171, 24);
+            this.Label2.Size = new System.Drawing.Size(168, 30);
             this.Label2.TabIndex = 4;
             this.Label2.Text = "Souhaitez vous ?";
             // 
@@ -114,6 +115,18 @@ namespace Vincent_OS
             this.Button2.UseVisualStyleBackColor = false;
             this.Button2.Click += new System.EventHandler(this.Button2_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(133, 7);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(168, 30);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Souhaitez vous ?";
+            // 
             // alertelog
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -123,6 +136,7 @@ namespace Vincent_OS
             this.ControlBox = false;
             this.Controls.Add(this.Button2);
             this.Controls.Add(this.PictureBox1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.Label2);
             this.Controls.Add(this.ComboBox1);
             this.Controls.Add(this.Button1);
@@ -144,5 +158,6 @@ namespace Vincent_OS
         internal Label Label2;
         internal PictureBox PictureBox1;
         internal Button Button2;
+        internal Label label1;
     }
 }
