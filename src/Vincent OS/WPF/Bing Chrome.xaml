@@ -34,7 +34,7 @@
                 <ImageBrush ImageSource="/WPF/Images/Bing_Chrome/right.png"/>
             </Button.Background>
         </Button>
-        <TextBox x:Name="textBox" TextWrapping="Wrap" Text="Saisissez l'URL" Margin="0,14,10,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="632" MouseDoubleClick="textBox_MouseDoubleClick" KeyDown="textBox_KeyDown" />
+        <TextBox x:Name="textBox" TextWrapping="Wrap" Margin="0,14,10,0" VerticalAlignment="Top" HorizontalAlignment="Right" Width="632" KeyDown="textBox_KeyDown" />
         <Wpf:WebView2 x:Name="webView2" Source="https://www.bing.com" Margin="1,54,1,1" NavigationStarting="webView2_NavigationStarting"/>
     </Grid>
 </Window>

@@ -171,14 +171,12 @@ namespace Vincent_OS
                     "Debug_AlerteLog\n" +
                     "Debug_App_ForceCrash\n" +
                     "Debug_Options\n" +
-                    "Debug_ClearMemory\n" +
-                    "Debug_OpenTestWindow";
+                    "Debug_ClearMemory";
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Debug_App_ForceCrash")
             {
-                Application.SetUnhandledExceptionMode(UnhandledExceptionMode.ThrowException);
-                TextBox1.Text = "";
+                Application.ExitThread();
             }
             else if (TextBox1.Text == "Debug_ClearMemory")
             {

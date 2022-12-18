@@ -58,14 +58,6 @@ namespace Vincent_OS.WPF
             webView2.CoreWebView2.Stop();
         }
 
-        private void textBox_MouseDoubleClick(object sender, MouseButtonEventArgs e)
-        {
-            if (textBox.Text == "Saisissez l'URL")
-            {
-                textBox.Text = "";
-            }
-        }
-
         private void textBox_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.Key == Key.Enter)

@@ -597,6 +597,7 @@ namespace Vincent_OS
             this.radioButton4.Text = "Vincent OS.exe";
             this.radioButton4.UseVisualStyleBackColor = true;
             this.radioButton4.Visible = false;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // radioButton3
             // 
@@ -611,6 +612,7 @@ namespace Vincent_OS
             this.radioButton3.Text = "Explorer.exe";
             this.radioButton3.UseVisualStyleBackColor = true;
             this.radioButton3.Visible = false;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // pictureBox15
             // 
