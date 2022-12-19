@@ -3,6 +3,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography.X509Certificates;
+using System.Security.Principal;
 using System.Windows.Forms;
 using Microsoft.VisualBasic.CompilerServices;
 using Vincent_OS_Registry;
@@ -11,11 +12,6 @@ namespace Vincent_OS
 {
     public partial class Custom
     {
-        //[DllImport("Vincent OS.Registry.dll")]
-        //public static extern void ToVinDesk();
-        //[DllImport("Vincent OS.Registry.dll")]
-        //public static extern void ToExplorer();
-
         Registry registry = new Registry();
 
         public Custom()
@@ -522,6 +518,7 @@ namespace Vincent_OS
             if (radioButton3.Checked)
             {
                 //registry.ToExplorer();
+
             }
         }
 

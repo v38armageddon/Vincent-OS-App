@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Windows.Forms;
 using Microsoft.VisualBasic;
 
@@ -6,6 +7,9 @@ namespace Vincent_OS
 {
     public partial class meme
     {
+        // Permet de savoir le nom de l'utilisateur pour accéder à ses fichiers personnels
+        string userName = Environment.UserName;
+
         public meme()
         {
             InitializeComponent();
@@ -43,7 +47,7 @@ namespace Vincent_OS
 
         private void TextBox1_Click(object sender, EventArgs e)
         {
-            if (TextBox1.Text == @"Entrez votre destination (exemple : C:\(nom de dossier))")
+            if (TextBox1.Text == "Entrez votre destination (exemple : C:\\(nom de dossier))")
             {
                 TextBox1.Text = "";
             }
@@ -65,7 +69,7 @@ namespace Vincent_OS
             TabControl1.TabPages.Add(newPage);
             var webbrowswer = new WebBrowser();
             webbrowswer.Dock = DockStyle.Fill;
-            webbrowswer.Navigate(@"C:\Users\");
+            webbrowswer.Navigate("C:\\Users\\");
             newPage.Controls.Add(webbrowswer);
             TabControl1.SelectedTab = newPage;
             TabPage2.Text = WebBrowser1.DocumentTitle;
@@ -82,31 +86,31 @@ namespace Vincent_OS
 
         private void Button3_Click(object sender, EventArgs e)
         {
-            WebBrowser1.Navigate(@"C:\Users\" + GetUserName() + @"\Documents");
+            WebBrowser1.Navigate("C:\\Users\\" + userName + "\\Documents");
             TabPage2.Text = Button3.Text;
         }
 
         private void Button4_Click(object sender, EventArgs e)
         {
-            WebBrowser1.Navigate(@"C:\Users\" + GetUserName() + @"\Pictures");
+            WebBrowser1.Navigate("C:\\Users\\" + userName + "\\Pictures");
             TabPage2.Text = Button4.Text;
         }
 
         private void Button5_Click(object sender, EventArgs e)
         {
-            WebBrowser1.Navigate(@"C:\Users\" + GetUserName() + @"\Music");
+            WebBrowser1.Navigate("C:\\Users\\" + userName + "\\Music");
             TabPage2.Text = Button5.Text;
         }
 
         private void Button6_Click(object sender, EventArgs e)
         {
-            WebBrowser1.Navigate(@"C:\Users\" + GetUserName() + @"\Videos");
+            WebBrowser1.Navigate("C:\\Users\\" + userName + "\\Videos");
             TabPage2.Text = Button6.Text;
         }
 
         private void Button7_Click(object sender, EventArgs e)
         {
-            WebBrowser1.Navigate(@"C:\");
+            WebBrowser1.Navigate("C:\\");
             TabPage2.Text = Button7.Text;
         }
 
@@ -122,21 +126,6 @@ namespace Vincent_OS
             }
             GC.Collect();
             GC.WaitForPendingFinalizers();
-        }
-
-        // Permet de savoir le nom de l'utilisateur pour accéder à ses fichiers personnels
-        public string GetUserName()
-        {
-            if (My.MyProject.User.CurrentPrincipal is System.Security.Principal.WindowsPrincipal)
-            {
-                var parts = Strings.Split(My.MyProject.User.Name, @"\");
-                string username = parts[1];
-                return username;
-            }
-            else
-            {
-                return My.MyProject.User.Name;
-            }
         }
     }
 }
