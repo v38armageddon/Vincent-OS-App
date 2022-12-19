@@ -5,12 +5,12 @@
 #define MyAppVersion "10.0.0.0"
 #define MyAppPublisher "v38armageddon"
 #define MyAppURL "https://www.vincent-os.cf/"
-#define MyAppExeName "Vincent OS App.exe"
+#define MyAppExeName "Vincent OS.exe"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application. Do not use the same AppId value in installers for other applications.
 ; (To generate a new GUID, click Tools | Generate GUID inside the IDE.)
-AppId={{343384D8-FBA4-4984-BC9B-277960A47326}
+AppId={{CA020039-9C9E-4347-B28E-0598B8D8BF8F}
 AppName={#MyAppName}
 AppVersion={#MyAppVersion}
 ;AppVerName={#MyAppName} {#MyAppVersion}
@@ -21,13 +21,13 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={autopf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
-LicenseFile=E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\LICENSE
+LicenseFile=E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS-App\LICENSE
 ; Uncomment the following line to run in non administrative install mode (install for current user only.)
 ;PrivilegesRequired=lowest
 PrivilegesRequiredOverridesAllowed=dialog
-OutputDir=Output\
+OutputDir=E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS-App\src\Vincent OS.Setup\Output
 OutputBaseFilename=Vincent OS App Setup
-SetupIconFile=logo setup.ico
+SetupIconFile=E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS-App\src\Vincent OS.Setup\logo setup.ico
 Compression=lzma
 SolidCompression=yes
 WizardStyle=modern
@@ -63,73 +63,8 @@ Name: "ukrainian"; MessagesFile: "compiler:Languages\Ukrainian.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-; It's a fucking hell to add all new dlls in hand
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\cs\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\de\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\es\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\fr\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\it\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\ja\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\ko\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\pt-BR\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\ru\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\runtimes\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\tr\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\zh-Hans\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\zh-Hant\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\AxInterop.WMPLib.dll"; DestDir: "{app}"; Flags: ignoreversion
-;Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\DesktopBridge.Helpers.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\Ijwhost.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\Interop.WMPLib.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\Microsoft.AppCenter.Analytics.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\Microsoft.AppCenter.Crashes.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\Microsoft.AppCenter.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\Microsoft.Bcl.AsyncInterfaces.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\Microsoft.Extensions.ObjectPool.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\Microsoft.Web.WebView2.Core.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\Microsoft.Web.WebView2.WinForms.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\Microsoft.Web.WebView2.Wpf.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\Microsoft.Win32.SystemEvents.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\Microsoft.Windows.SDK.NET.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\Newtonsoft.Json.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\SQLitePCLRaw.batteries_v2.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\SQLitePCLRaw.core.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\SQLitePCLRaw.provider.e_sqlite3.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.ComponentModel.Composition.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.ComponentModel.Composition.Registration.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.Configuration.ConfigurationManager.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.Data.Odbc.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.Data.OleDb.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.Data.SqlClient.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.Diagnostics.PerformanceCounter.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.DirectoryServices.AccountManagement.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.DirectoryServices.Protocols.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.IO.Ports.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.Management.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.Private.ServiceModel.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.Reflection.Context.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.Runtime.Caching.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.Security.Cryptography.Pkcs.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.Security.Cryptography.Xml.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.ServiceModel.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.ServiceModel.Duplex.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.ServiceModel.Http.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.ServiceModel.NetTcp.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.ServiceModel.Primitives.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.ServiceModel.Security.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.ServiceModel.Syndication.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.ServiceProcess.ServiceController.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.Speech.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\System.Web.Services.Description.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\Vincent OS.deps.json"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\Vincent OS.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\Vincent OS.dll.config"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\Vincent OS.pdb"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\Vincent OS.Registry.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\Vincent OS.Registry.pdb"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\Vincent OS.runtimeconfig.json"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\WinRT.Runtime.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS-App\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS-App\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]

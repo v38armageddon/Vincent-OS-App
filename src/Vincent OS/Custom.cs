@@ -13,6 +13,7 @@ namespace Vincent_OS
     public partial class Custom
     {
         Registry registry = new Registry();
+        WindowsIdentity identity = WindowsIdentity.GetCurrent();
 
         public Custom()
         {
@@ -515,18 +516,53 @@ namespace Vincent_OS
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
+            WindowsPrincipal principal = new WindowsPrincipal(identity);
             if (radioButton3.Checked)
             {
-                //registry.ToExplorer();
-
+                if (principal.IsInRole(WindowsBuiltInRole.Administrator))
+                {
+                    registry.ToExplorer();
+                    DialogResult result = MessageBox.Show("Pour pouvoir appliquer les changements et en profiter, vous devez redémarrer votre système. Souhaitez vous que Vincent OS App le fasse pour vous ?", "Information", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                    if (result == DialogResult.Yes)
+                    {
+                        var psi = new ProcessStartInfo("shutdown", "/r /t 0");
+                        psi.CreateNoWindow = true;
+                        psi.UseShellExecute = false;
+                        Process.Start(psi);
+                    }
+                }
+                else
+                {
+                    var backmusic = new System.Media.SoundPlayer(My.Resources.Resources.errorSound);
+                    backmusic.Play();
+                    MessageBox.Show("ERREUR : Vous n'avez pas lancé en mode Administrateur, veuillez le relancer en mode administrateur pour pouvoir changer.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
 
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
+            WindowsPrincipal principal = new WindowsPrincipal(identity);
             if (radioButton4.Checked)
             {
-                //registry.ToVinDesk();
+                if (principal.IsInRole(WindowsBuiltInRole.Administrator))
+                {
+                    registry.ToVinDesk();
+                    DialogResult result = MessageBox.Show("Pour pouvoir appliquer les changements et en profiter, vous devez redémarrer votre système. Souhaitez vous que Vincent OS App le fasse pour vous ?", "Information", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                    if (result == DialogResult.Yes)
+                    {
+                        var psi = new ProcessStartInfo("shutdown", "/r /t 0");
+                        psi.CreateNoWindow = true;
+                        psi.UseShellExecute = false;
+                        Process.Start(psi);
+                    }
+                }
+                else
+                {
+                    var backmusic = new System.Media.SoundPlayer(My.Resources.Resources.errorSound);
+                    backmusic.Play();
+                    MessageBox.Show("ERREUR : Vous n'avez pas lancé en mode Administrateur, veuillez le relancer en mode administrateur pour pouvoir changer.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
             }
         }
         #endregion
