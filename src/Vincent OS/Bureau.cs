@@ -200,7 +200,7 @@ namespace Vincent_OS
             My.MyProject.Forms.Calc.BringToFront();
         }
 
-        private void FlowLayoutPanel1_Click(object sender, EventArgs e)
+        private void FlowLayoutPanel1_Click_1(object sender, EventArgs e)
         {
             if (MonthCalendar1.Visible == true)
             {

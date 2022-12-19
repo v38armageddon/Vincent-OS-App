@@ -185,5 +185,8 @@
 	  <Resource Include="WPF\Images\Bing_Chrome\home.png" />
 	  <Resource Include="WPF\Images\Bing_Chrome\load.png" />
 	  <Resource Include="WPF\Images\Bing_Chrome\stop.png" />
+	  <Resource Include="WPF\video projector.ico" />
+	  <Resource Include="WPF\Images\Media\play.png" />
+	  <Resource Include="WPF\Images\Media\pause.png" />
   </ItemGroup>
 </Project>

@@ -602,13 +602,11 @@ namespace Vincent_OS
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Checked = true;
             this.radioButton3.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.radioButton3.Location = new System.Drawing.Point(137, 273);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(143, 34);
             this.radioButton3.TabIndex = 4;
-            this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Explorer.exe";
             this.radioButton3.UseVisualStyleBackColor = true;
             this.radioButton3.Visible = false;
@@ -616,9 +614,11 @@ namespace Vincent_OS
             // 
             // pictureBox15
             // 
+            this.pictureBox15.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox15.Image")));
             this.pictureBox15.Location = new System.Drawing.Point(426, 176);
             this.pictureBox15.Name = "pictureBox15";
             this.pictureBox15.Size = new System.Drawing.Size(154, 91);
+            this.pictureBox15.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox15.TabIndex = 3;
             this.pictureBox15.TabStop = false;
             this.pictureBox15.Visible = false;

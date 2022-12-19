@@ -594,6 +594,7 @@ namespace Vincent_OS
             this.FlowLayoutPanel1.Name = "FlowLayoutPanel1";
             this.FlowLayoutPanel1.Size = new System.Drawing.Size(1078, 487);
             this.FlowLayoutPanel1.TabIndex = 31;
+            this.FlowLayoutPanel1.Click += new System.EventHandler(this.FlowLayoutPanel1_Click_1);
             // 
             // Bureau
             // 

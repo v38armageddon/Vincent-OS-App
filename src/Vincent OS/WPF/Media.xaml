@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:Vincent_OS.WPF"
         mc:Ignorable="d"
         Title="Media Player" Height="383" Width="562" MinHeight="360" MinWidth="562"
-        Background="Black" Loaded="Window_Loaded" Closed="Window_Closed">
+        Background="Black" Loaded="Window_Loaded" Closed="Window_Closed" Icon="video projector.ico">
     <Grid>
         <Menu VerticalAlignment="Top">
             <MenuItem Header="Ouvrir">
@@ -22,6 +22,10 @@
             </MenuItem>
         </Menu>
         <MediaElement x:Name="mediaElement" Margin="0,18,0,40" />
-        <Button x:Name="playButton" HorizontalAlignment="Center" Margin="0,334,0,0" VerticalAlignment="Top" Background="Green" Height="23" Width="60" BorderBrush="Green"/>
+        <Button x:Name="playButton" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Green" Height="23" Width="60" BorderBrush="Green" Margin="0,334,0,0">
+            <Button.Content>
+                <Image Source="/WPF/Images/Media/play.png"/>
+            </Button.Content>
+        </Button>
     </Grid>
 </Window>
