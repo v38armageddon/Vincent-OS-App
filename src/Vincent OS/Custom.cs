@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Drawing;
 using System.Runtime.InteropServices;
 using System.Security.Cryptography.X509Certificates;
@@ -10,10 +11,12 @@ namespace Vincent_OS
 {
     public partial class Custom
     {
-        [DllImport("Vincent OS.Registry.dll")]
-        public static extern void ToVinDesk();
-        [DllImport("Vincent OS.Registry.dll")]
-        public static extern void ToExplorer();
+        //[DllImport("Vincent OS.Registry.dll")]
+        //public static extern void ToVinDesk();
+        //[DllImport("Vincent OS.Registry.dll")]
+        //public static extern void ToExplorer();
+
+        Registry registry = new Registry();
 
         public Custom()
         {
@@ -516,12 +519,18 @@ namespace Vincent_OS
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
-            ToExplorer();
+            if (radioButton3.Checked)
+            {
+                //registry.ToExplorer();
+            }
         }
 
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
-            ToVinDesk();
+            if (radioButton4.Checked)
+            {
+                //registry.ToVinDesk();
+            }
         }
         #endregion
         private void Custom_FormClosed(object sender, FormClosedEventArgs e)

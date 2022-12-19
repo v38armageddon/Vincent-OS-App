@@ -6,6 +6,7 @@
 
 #ifndef PCH_H
 #define PCH_H
+#define DLL_EXPORT __declspec(dllexport)
 
 // ajouter les en-têtes à précompiler ici
 #include <windows.h>

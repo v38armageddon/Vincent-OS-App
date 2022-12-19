@@ -14,7 +14,7 @@ namespace Vincent_OS
 
         private void TaskVOS_Load(object sender, EventArgs e)
         {
-            // Application
+            #region Application
             if (bingChrome.Visibility == System.Windows.Visibility.Visible)
             {
                 panel1.Visible = true;
@@ -59,8 +59,8 @@ namespace Vincent_OS
             {
                 panel13.Visible = true;
             }
-
-            // Service
+            #endregion
+            #region Services
 
             if (My.MyProject.Forms.Applications.Visible == true)
             {
@@ -78,8 +78,23 @@ namespace Vincent_OS
             {
                 panel17.Visible = true;
             }
+            #endregion
+            #region Session
+
+            if (My.MyProject.Forms.Bureau.Visible == true)
+            {
+                PictureBox19.Visible = true;
+                RadioButton17.Visible = true;
+            }
+            if (My.MyProject.Forms.Bureau2.Visible == true)
+            {
+                PictureBox20.Visible = true;
+                RadioButton18.Visible = true;
+            }
+            #endregion
         }
 
+        #region Applications
         private void Button1_Click(object sender, EventArgs e)
         {
             if (RadioButton2.Checked == true)
@@ -135,7 +150,8 @@ namespace Vincent_OS
             GC.Collect();
             GC.WaitForPendingFinalizers();
         }
-
+        #endregion
+        #region Session
         private void Button2_Click(object sender, EventArgs e)
         {
             if (RadioButton17.Checked == true)
@@ -157,7 +173,8 @@ namespace Vincent_OS
                 MessageBox.Show("Erreur : Vous avez sélectionné aucun utilisateur à arrêter.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
+        #endregion
+        #region Services
         private void Button3_Click(object sender, EventArgs e)
         {
             if (RadioButton13.Checked == true)
@@ -183,5 +200,6 @@ namespace Vincent_OS
                 MessageBox.Show("Erreur : Vous avez sélectionné aucun service à arrêter.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        #endregion
     }
 }
