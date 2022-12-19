@@ -6,6 +6,7 @@ namespace Vincent_OS
     public partial class TaskVOS
     {
         WPF.Bing_Chrome bingChrome = new WPF.Bing_Chrome();
+        WPF.Media media = new WPF.Media();
 
         public TaskVOS()
         {
@@ -43,7 +44,7 @@ namespace Vincent_OS
             {
                 panel6.Visible = true;
             }
-            if (My.MyProject.Forms.Media.Visible == true)
+            if (media.Visibility == System.Windows.Visibility.Visible)
             {
                 panel7.Visible = true;
             }
@@ -111,7 +112,7 @@ namespace Vincent_OS
             }
             else if (RadioButton5.Checked == true)
             {
-                My.MyProject.Forms.Media.Close();
+                media.Close();
             }
             else if (RadioButton6.Checked == true)
             {

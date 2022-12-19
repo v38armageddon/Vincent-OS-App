@@ -354,29 +354,6 @@ namespace Vincent_OS.My
 
 
             [EditorBrowsable(EditorBrowsableState.Never)]
-            public Media m_Media;
-
-            public Media Media
-            {
-                [DebuggerHidden]
-                get
-                {
-                    m_Media = Create__Instance__(m_Media);
-                    return m_Media;
-                }
-                [DebuggerHidden]
-                set
-                {
-                    if (ReferenceEquals(value, m_Media))
-                        return;
-                    if (value is not null)
-                        throw new ArgumentException("Property can only be set to Nothing");
-                    Dispose__Instance__(ref m_Media);
-                }
-            }
-
-
-            [EditorBrowsable(EditorBrowsableState.Never)]
             public meme m_meme;
 
             public meme meme

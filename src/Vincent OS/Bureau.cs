@@ -8,6 +8,7 @@ namespace Vincent_OS
     public partial class Bureau
     {
         WPF.Bing_Chrome bingChrome = new WPF.Bing_Chrome();
+        WPF.Media media = new WPF.Media();
 
         public Bureau()
         {
@@ -85,7 +86,7 @@ namespace Vincent_OS
 
         private void Button4_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Media.Show();
+            media.Show();
         }
 
         private void Button5_Click(object sender, EventArgs e)
@@ -167,7 +168,7 @@ namespace Vincent_OS
 
         private void Button19_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Media.BringToFront();
+            media.BringIntoView();
         }
 
         private void Button20_Click(object sender, EventArgs e)

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Vincent_OS.WPF"
         mc:Ignorable="d"
-        Title="Media Player" Height="383" Width="562" MinHeight="360" MinWidth="562"
+        Title="Media Player" Height="383" Width="562" MinHeight="383" MinWidth="562"
         Background="Black" Loaded="Window_Loaded" Closed="Window_Closed" Icon="video projector.ico">
     <Grid>
         <Menu VerticalAlignment="Top">
@@ -15,17 +15,24 @@
             </MenuItem>
             <MenuItem Header="Lecture">
                 <MenuItem x:Name="arreterMenu" Header="Arrêter" Click="arreterMenu_Click"/>
-                <MenuItem x:Name="pleinEcranMenu" Header="Plein écran" Click="pleinEcranMenu_Click"/>
             </MenuItem>
             <MenuItem Header="Autres">
                 <MenuItem x:Name="quitterMenu" Header="Quitter" Click="quitterMenu_Click"/>
             </MenuItem>
         </Menu>
-        <MediaElement x:Name="mediaElement" Margin="0,18,0,40" />
-        <Button x:Name="playButton" HorizontalAlignment="Center" VerticalAlignment="Top" Background="Green" Height="23" Width="60" BorderBrush="Green" Margin="0,334,0,0">
+        <MediaElement x:Name="mediaElement" Width="auto" Height="auto" Margin="0,18,0,56" LoadedBehavior="Manual" UnloadedBehavior="Stop" MediaOpened="mediaElement_MediaOpened" MediaEnded="mediaElement_MediaEnded"/>
+        <Button x:Name="playButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Background="Green" Height="23" Width="60" BorderBrush="Green" Margin="0,334,0,6" Click="playButton_Click" Visibility="Collapsed">
             <Button.Content>
                 <Image Source="/WPF/Images/Media/play.png"/>
             </Button.Content>
         </Button>
+        <Button x:Name="pauseButton" HorizontalAlignment="Center" VerticalAlignment="Bottom" Background="Green" Height="23" Width="60" BorderBrush="Green" Margin="0,334,0,6" Click="pauseButton_Click">
+            <Button.Content>
+                <Image Source="/WPF/Images/Media/pause.png"/>
+            </Button.Content>
+        </Button>
+        <Slider Name="volumeSlider" VerticalAlignment="Bottom" HorizontalAlignment="Left" ValueChanged="volumeSlider_ValueChanged" 
+                Minimum="0" Maximum="1" Value="0.5" Width="70" Margin="10,0,0,10"/>
+        <Slider Name="timelineSlider" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="0,318,0,30.1" ValueChanged="timelineSlider_ValueChanged" Width="542" Height="16"/>
     </Grid>
 </Window>

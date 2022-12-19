@@ -33,7 +33,8 @@ namespace Vincent_OS
 
         private void Button5_Click_1(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Media.Show();
+            WPF.Media media = new WPF.Media();
+            media.Show();
         }
 
         private void Button9_Click_1(object sender, EventArgs e)

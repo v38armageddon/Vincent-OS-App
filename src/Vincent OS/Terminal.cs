@@ -101,7 +101,8 @@ namespace Vincent_OS
             }
             else if (TextBox1.Text == "MediaPlayer")
             {
-                My.MyProject.Forms.Media.Show();
+                WPF.Media media = new WPF.Media();
+                media.Show();
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Meme")
