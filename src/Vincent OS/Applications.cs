@@ -15,7 +15,7 @@ namespace Vincent_OS
             InitializeComponent();
         }
 
-        private void Button1_Click(object sender, EventArgs e)
+        private void Button1_Click_1(object sender, EventArgs e)
         {
             WPF.Bing_Chrome bingChrome = new WPF.Bing_Chrome();
             bingChrome.Show();

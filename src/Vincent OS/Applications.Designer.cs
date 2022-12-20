@@ -60,6 +60,7 @@ namespace Vincent_OS
             this.Button16.Size = new System.Drawing.Size(122, 120);
             this.Button16.TabIndex = 40;
             this.Button16.UseVisualStyleBackColor = true;
+            this.Button16.Click += new System.EventHandler(this.Button16_Click_1);
             // 
             // Button1
             // 
@@ -75,6 +76,7 @@ namespace Vincent_OS
             this.Button1.Size = new System.Drawing.Size(122, 120);
             this.Button1.TabIndex = 31;
             this.Button1.UseVisualStyleBackColor = true;
+            this.Button1.Click += new System.EventHandler(this.Button1_Click_1);
             // 
             // Button5
             // 
@@ -89,6 +91,7 @@ namespace Vincent_OS
             this.Button5.Size = new System.Drawing.Size(122, 120);
             this.Button5.TabIndex = 34;
             this.Button5.UseVisualStyleBackColor = true;
+            this.Button5.Click += new System.EventHandler(this.Button5_Click_1);
             // 
             // Button4
             // 
@@ -102,6 +105,7 @@ namespace Vincent_OS
             this.Button4.Size = new System.Drawing.Size(122, 120);
             this.Button4.TabIndex = 39;
             this.Button4.UseVisualStyleBackColor = true;
+            this.Button4.Click += new System.EventHandler(this.Button4_Click_1);
             // 
             // Button6
             // 
@@ -116,6 +120,7 @@ namespace Vincent_OS
             this.Button6.Size = new System.Drawing.Size(122, 120);
             this.Button6.TabIndex = 35;
             this.Button6.UseVisualStyleBackColor = true;
+            this.Button6.Click += new System.EventHandler(this.Button6_Click_1);
             // 
             // Button2
             // 
@@ -130,6 +135,7 @@ namespace Vincent_OS
             this.Button2.Size = new System.Drawing.Size(122, 120);
             this.Button2.TabIndex = 32;
             this.Button2.UseVisualStyleBackColor = true;
+            this.Button2.Click += new System.EventHandler(this.Button2_Click_1);
             // 
             // Button3
             // 
@@ -144,6 +150,7 @@ namespace Vincent_OS
             this.Button3.Size = new System.Drawing.Size(122, 120);
             this.Button3.TabIndex = 33;
             this.Button3.UseVisualStyleBackColor = true;
+            this.Button3.Click += new System.EventHandler(this.Button3_Click_1);
             // 
             // Button7
             // 
@@ -158,6 +165,7 @@ namespace Vincent_OS
             this.Button7.Size = new System.Drawing.Size(122, 120);
             this.Button7.TabIndex = 36;
             this.Button7.UseVisualStyleBackColor = true;
+            this.Button7.Click += new System.EventHandler(this.Button7_Click_1);
             // 
             // Button9
             // 
@@ -172,6 +180,7 @@ namespace Vincent_OS
             this.Button9.Size = new System.Drawing.Size(122, 120);
             this.Button9.TabIndex = 38;
             this.Button9.UseVisualStyleBackColor = true;
+            this.Button9.Click += new System.EventHandler(this.Button9_Click_1);
             // 
             // Button8
             // 
@@ -186,6 +195,7 @@ namespace Vincent_OS
             this.Button8.Size = new System.Drawing.Size(122, 120);
             this.Button8.TabIndex = 37;
             this.Button8.UseVisualStyleBackColor = true;
+            this.Button8.Click += new System.EventHandler(this.Button8_Click_1);
             // 
             // Applications
             // 
