@@ -4,7 +4,10 @@ using Microsoft.AppCenter.Crashes;
 using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
+using System.Reflection;
+using System.Security.Principal;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Vincent_OS.Units.Tests;
@@ -33,11 +36,13 @@ namespace Vincent_OS
             }
             else if ((string)o == "C:\\Program Files\\WindowsApps\\34823v38armageddon.VincentOSApp_10.0.0.0_x86__ysx05jt3gv6z0\\Vincent OS\\Vincent OS.exe")
             {
+                AdminRelauncher();
                 Application.Run(new Bureau());
                 custom.radioButton4.Checked = true;
             }
             else if ((string)o == "C:\\Program Files (x86)\\Vincent OS App\\Vincent OS.exe")
             {
+                AdminRelauncher();
                 Application.Run(new Bureau());
                 custom.radioButton4.Checked = true;
             }
@@ -51,6 +56,37 @@ namespace Vincent_OS
                   typeof(Analytics), typeof(Crashes));
             // Hérité de Avant.cs
             My.MyProject.Forms.Custom.RadioButton2.Checked = true;
+        }
+
+        private static void AdminRelauncher()
+        {
+            if (!IsRunAsAdmin())
+            {
+                ProcessStartInfo proc = new ProcessStartInfo();
+                proc.UseShellExecute = true;
+                proc.WorkingDirectory = Environment.CurrentDirectory;
+                proc.FileName = Assembly.GetEntryAssembly().Location;
+
+                proc.Verb = "runas";
+
+                try
+                {
+                    Process.Start(proc);
+                    Application.Exit();
+                }
+                catch (Exception ex)
+                {
+                    Console.WriteLine("This program must be run as an administrator! \n\n" + ex.ToString());
+                }
+            }
+        }
+
+        private static bool IsRunAsAdmin()
+        {
+            WindowsIdentity id = WindowsIdentity.GetCurrent();
+            WindowsPrincipal principal = new WindowsPrincipal(id);
+
+            return principal.IsInRole(WindowsBuiltInRole.Administrator);
         }
     }
 }
