@@ -511,10 +511,12 @@ namespace Vincent_OS
             pictureBox15.Visible = true;
             radioButton3.Visible = true;
             radioButton4.Visible = true;
+            button6.Visible = true;
             button5.Visible = false;
         }
 
-        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+
+        private void button6_Click(object sender, EventArgs e)
         {
             WindowsPrincipal principal = new WindowsPrincipal(identity);
             if (radioButton3.Checked)
@@ -538,11 +540,6 @@ namespace Vincent_OS
                     MessageBox.Show("ERREUR : Vous n'avez pas lancé en mode Administrateur, veuillez le relancer en mode administrateur pour pouvoir changer.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
-        }
-
-        private void radioButton4_CheckedChanged(object sender, EventArgs e)
-        {
-            WindowsPrincipal principal = new WindowsPrincipal(identity);
             if (radioButton4.Checked)
             {
                 if (principal.IsInRole(WindowsBuiltInRole.Administrator))

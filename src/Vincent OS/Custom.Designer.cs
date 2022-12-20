@@ -74,6 +74,7 @@ namespace Vincent_OS
             this.PictureBox2 = new System.Windows.Forms.PictureBox();
             this.PictureBox3 = new System.Windows.Forms.PictureBox();
             this.tabPage3 = new System.Windows.Forms.TabPage();
+            this.button6 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.radioButton4 = new System.Windows.Forms.RadioButton();
             this.radioButton3 = new System.Windows.Forms.RadioButton();
@@ -559,6 +560,7 @@ namespace Vincent_OS
             // tabPage3
             // 
             this.tabPage3.BackColor = System.Drawing.Color.Black;
+            this.tabPage3.Controls.Add(this.button6);
             this.tabPage3.Controls.Add(this.button5);
             this.tabPage3.Controls.Add(this.radioButton4);
             this.tabPage3.Controls.Add(this.radioButton3);
@@ -572,6 +574,20 @@ namespace Vincent_OS
             this.tabPage3.Size = new System.Drawing.Size(698, 347);
             this.tabPage3.TabIndex = 7;
             this.tabPage3.Text = "Shell";
+            // 
+            // button6
+            // 
+            this.button6.BackColor = System.Drawing.Color.DarkRed;
+            this.button6.FlatAppearance.BorderSize = 0;
+            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button6.Location = new System.Drawing.Point(297, 209);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(105, 33);
+            this.button6.TabIndex = 7;
+            this.button6.Text = "Changer le Shell";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Visible = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -597,7 +613,6 @@ namespace Vincent_OS
             this.radioButton4.Text = "Vincent OS.exe";
             this.radioButton4.UseVisualStyleBackColor = true;
             this.radioButton4.Visible = false;
-            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // radioButton3
             // 
@@ -610,7 +625,6 @@ namespace Vincent_OS
             this.radioButton3.Text = "Explorer.exe";
             this.radioButton3.UseVisualStyleBackColor = true;
             this.radioButton3.Visible = false;
-            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // pictureBox15
             // 
@@ -745,5 +759,6 @@ namespace Vincent_OS
         private Button button5;
         internal RadioButton radioButton4;
         internal RadioButton radioButton3;
+        private Button button6;
     }
 }

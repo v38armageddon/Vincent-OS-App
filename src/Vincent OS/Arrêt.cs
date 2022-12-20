@@ -24,7 +24,7 @@ namespace Vincent_OS
             {
                 Timer1.Stop();
                 Close();
-                Application.Exit();
+                Application.ExitThread();
                 GC.Collect();
                 GC.WaitForPendingFinalizers();
             }

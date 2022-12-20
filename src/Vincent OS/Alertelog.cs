@@ -45,7 +45,7 @@ namespace Vincent_OS
                         GC.Collect();
                         GC.WaitForPendingFinalizers();
                     }
-                    break;
+                    return;
                 case "Redémarrer Vincent OS":
                     if (My.MyProject.Forms.Login.Visible == true)
                     {
