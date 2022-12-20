@@ -1,6 +1,8 @@
 # ![Logo Vincent OS](Assets/logo.png)Bienvenue sur Vincent OS !
 Ce projet consiste à créer un mini système d'exploitation dans mes temps perdus.
 
+![Screenshot](Assets/screenshot.png)
+
 ## Installation
 
 ### Installation recommandé
