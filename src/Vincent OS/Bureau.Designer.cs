@@ -163,7 +163,7 @@ namespace Vincent_OS
             // 
             // Button1
             // 
-            this.Button1.BackColor = System.Drawing.Color.Red;
+            this.Button1.BackColor = System.Drawing.Color.DarkRed;
             this.Button1.FlatAppearance.BorderSize = 0;
             this.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Button1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);

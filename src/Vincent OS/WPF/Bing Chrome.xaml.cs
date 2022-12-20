@@ -58,13 +58,10 @@ namespace Vincent_OS.WPF
             webView2.CoreWebView2.Stop();
         }
 
-        //private void textBox_KeyDown(object sender, KeyEventArgs e)
-        //{
-        //    if (e.Key == Key.Enter)
-        //    {
-        //        search();
-        //    }
-        //}
+        private void searchButton_Click(object sender, RoutedEventArgs e)
+        {
+            search();
+        }
 
         private void webView2_NavigationStarting(object sender, Microsoft.Web.WebView2.Core.CoreWebView2NavigationStartingEventArgs e)
         {

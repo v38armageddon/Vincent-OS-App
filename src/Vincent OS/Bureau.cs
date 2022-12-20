@@ -153,7 +153,10 @@ namespace Vincent_OS
         // Cette partie permet quand la fenêtre est trop caché par le bureau, qu'on puisse la récupérer via un bouton sans faire alt+tab
         private void Button15_Click(object sender, EventArgs e)
         {
-            bingChrome.BringIntoView();
+            bingChrome.Activate();
+            bingChrome.Topmost = true;
+            bingChrome.Topmost = false;
+            bingChrome.Focus();
         }
 
         private void Button16_Click(object sender, EventArgs e)
@@ -168,7 +171,10 @@ namespace Vincent_OS
 
         private void Button19_Click(object sender, EventArgs e)
         {
-            media.BringIntoView();
+            media.Activate();
+            media.Topmost = true;
+            media.Topmost = false;
+            media.Focus();
         }
 
         private void Button20_Click(object sender, EventArgs e)
