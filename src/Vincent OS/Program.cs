@@ -10,7 +10,6 @@ using System.Reflection;
 using System.Security.Principal;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using Vincent_OS.Units.Tests;
 
 namespace Vincent_OS
 {
@@ -34,7 +33,7 @@ namespace Vincent_OS
                 Application.Run(new Démarrage());
                 custom.radioButton3.Checked = true;
             }
-            else if ((string)o == "C:\\Program Files\\WindowsApps\\34823v38armageddon.VincentOSApp_10.0.0.0_x86__ysx05jt3gv6z0\\Vincent OS\\Vincent OS.exe")
+            else if ((string)o == "C:\\Program Files\\WindowsApps\\34823v38armageddon.VincentOSApp_10.0.0.0_x64__ysx05jt3gv6z0\\Vincent OS\\Vincent OS.exe")
             {
                 AdminRelauncher();
                 Application.Run(new Bureau());

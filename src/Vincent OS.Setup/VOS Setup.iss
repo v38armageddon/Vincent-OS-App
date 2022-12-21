@@ -63,8 +63,8 @@ Name: "ukrainian"; MessagesFile: "compiler:Languages\Ukrainian.isl"
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS-App\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
-Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS-App\src\Vincent OS\bin\Release\net6.0-windows10.0.22621.0\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS-App\src\Vincent OS\bin\x64\Release\net6.0-windows10.0.22621.0\win-x64\{#MyAppExeName}"; DestDir: "{app}"; Flags: ignoreversion
+Source: "E:\v38armageddon\Documents\GitHub\v38armageddon\Vincent-OS-App\src\Vincent OS\bin\x64\Release\net6.0-windows10.0.22621.0\win-x64\*"; DestDir: "{app}"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
