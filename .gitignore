@@ -305,3 +305,6 @@ __pycache__/
 # Old VB.NET files
 *.Designer.vb
 *.vb
+
+# Generated Setup exe files
+src/Vincent OS.Setup/Output/

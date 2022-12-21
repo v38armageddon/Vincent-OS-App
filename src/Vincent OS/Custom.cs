@@ -1,12 +1,20 @@
 ﻿using System;
+using System.Diagnostics;
 using System.Drawing;
+using System.Runtime.InteropServices;
+using System.Security.Cryptography.X509Certificates;
+using System.Security.Principal;
 using System.Windows.Forms;
 using Microsoft.VisualBasic.CompilerServices;
+using Vincent_OS_Registry;
 
 namespace Vincent_OS
 {
     public partial class Custom
     {
+        Registry registry = new Registry();
+        WindowsIdentity identity = WindowsIdentity.GetCurrent();
+
         public Custom()
         {
             InitializeComponent();
@@ -23,7 +31,7 @@ namespace Vincent_OS
                 PictureBox1.Image = My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage;
             }
         }
-        // Fond d'écrans
+        #region Fond d'écran
         private void Button1_Click_1(object sender, EventArgs e)
         {
             OpenFileDialog1.Filter = "Images|*.jpeg;*.jpg;*.png;*.bmp;"; // Peut être rajouter d'autres types d'images ?
@@ -32,27 +40,11 @@ namespace Vincent_OS
                 if (My.MyProject.Forms.Bureau.Visible == true)
                 {
                     My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage = Image.FromFile(OpenFileDialog1.FileName);
-                    if (Conversions.ToBoolean(Conversions.ToInteger(My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage.Width > 864 & My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage.Height > 420) | My.MyProject.Computer.Screen.Bounds.Width & My.MyProject.Computer.Screen.Bounds.Height))
-                    {
-                        My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
-                    }
-                    else
-                    {
-                        My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Zoom;
-                    }
                     PictureBox1.Image = My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage;
                 }
                 else if (My.MyProject.Forms.Bureau2.Visible == true)
                 {
                     My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage = Image.FromFile(OpenFileDialog1.FileName);
-                    if (Conversions.ToBoolean(Conversions.ToInteger(My.MyProject.Forms.Bureau2.FlowLayoutPanel1.Width > 864 & My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage.Height > 420) | My.MyProject.Computer.Screen.Bounds.Width & My.MyProject.Computer.Screen.Bounds.Height))
-                    {
-                        My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
-                    }
-                    else
-                    {
-                        My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Zoom;
-                    }
                     PictureBox1.Image = My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage;
                 }
             }
@@ -62,28 +54,12 @@ namespace Vincent_OS
         {
             if (My.MyProject.Forms.Bureau.Visible == true)
             {
-                My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage = My.Resources.Resources.login;
-                if (Conversions.ToBoolean(Conversions.ToInteger(My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage.Width > 864 & My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage.Height > 420) | My.MyProject.Computer.Screen.Bounds.Width & My.MyProject.Computer.Screen.Bounds.Height))
-                {
-                    My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
-                }
-                else
-                {
-                    My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Zoom;
-                }
+                My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage = Button2.BackgroundImage;
                 PictureBox1.Image = My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage;
             }
             else if (My.MyProject.Forms.Bureau2.Visible == true)
             {
-                My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage = My.Resources.Resources.login;
-                if (Conversions.ToBoolean(Conversions.ToInteger(My.MyProject.Forms.Bureau2.FlowLayoutPanel1.Width > 864 & My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage.Height > 420) | My.MyProject.Computer.Screen.Bounds.Width & My.MyProject.Computer.Screen.Bounds.Height))
-                {
-                    My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
-                }
-                else
-                {
-                    My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Zoom;
-                }
+                My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage = Button2.BackgroundImage;
                 PictureBox1.Image = My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage;
             }
         }
@@ -92,28 +68,12 @@ namespace Vincent_OS
         {
             if (My.MyProject.Forms.Bureau.Visible == true)
             {
-                My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage = My.Resources.Resources.superutilisateur;
-                if (Conversions.ToBoolean(Conversions.ToInteger(My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage.Width > 864 & My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage.Height > 420) | My.MyProject.Computer.Screen.Bounds.Width & My.MyProject.Computer.Screen.Bounds.Height))
-                {
-                    My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
-                }
-                else
-                {
-                    My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Zoom;
-                }
+                My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage = Button3.BackgroundImage;
                 PictureBox1.Image = My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage;
             }
             else if (My.MyProject.Forms.Bureau2.Visible == true)
             {
-                My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage = My.Resources.Resources.superutilisateur;
-                if (Conversions.ToBoolean(Conversions.ToInteger(My.MyProject.Forms.Bureau2.FlowLayoutPanel1.Width > 864 & My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage.Height > 420) | My.MyProject.Computer.Screen.Bounds.Width & My.MyProject.Computer.Screen.Bounds.Height))
-                {
-                    My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
-                }
-                else
-                {
-                    My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Zoom;
-                }
+                My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage = Button3.BackgroundImage;
                 PictureBox1.Image = My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage;
             }
         }
@@ -122,32 +82,17 @@ namespace Vincent_OS
         {
             if (My.MyProject.Forms.Bureau.Visible == true)
             {
-                My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage = My.Resources.Resources.invite;
-                if (Conversions.ToBoolean(Conversions.ToInteger(My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage.Width > 864 & My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage.Height > 420) | My.MyProject.Computer.Screen.Bounds.Width & My.MyProject.Computer.Screen.Bounds.Height))
-                {
-                    My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
-                }
-                else
-                {
-                    My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Zoom;
-                }
+                My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage = Button4.BackgroundImage;
                 PictureBox1.Image = My.MyProject.Forms.Bureau.FlowLayoutPanel1.BackgroundImage;
             }
             else if (My.MyProject.Forms.Bureau2.Visible == true)
             {
-                My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage = My.Resources.Resources.invite;
-                if (Conversions.ToBoolean(Conversions.ToInteger(My.MyProject.Forms.Bureau2.FlowLayoutPanel1.Width > 864 & My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage.Height > 420) | My.MyProject.Computer.Screen.Bounds.Width & My.MyProject.Computer.Screen.Bounds.Height))
-                {
-                    My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Stretch;
-                }
-                else
-                {
-                    My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImageLayout = ImageLayout.Zoom;
-                }
+                My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage = Button4.BackgroundImage;
                 PictureBox1.Image = My.MyProject.Forms.Bureau2.FlowLayoutPanel1.BackgroundImage;
             }
         }
-        // Icônes
+        #endregion
+        #region Icônes
         private void CheckBox1_CheckedChanged_1(object sender, EventArgs e)
         {
             if (CheckBox1.Checked == true)
@@ -407,13 +352,13 @@ namespace Vincent_OS
                 }
             }
         }
-        // Résolution
+        #endregion
+        #region Résolution
         private void RadioButton1_CheckedChanged(object sender, EventArgs e)
         {
             if (RadioButton1.Checked == true)
             {
                 Restart restart = new Restart();
-                // Essayer de regrouper Bureau et Bureau2 pour une optimisation du code ?
                 if (My.MyProject.Forms.Bureau.Visible == true)
                 {
                     // On change de mode de forme de la fenêtre
@@ -489,7 +434,6 @@ namespace Vincent_OS
             if (RadioButton2.Checked == true)
             {
                 Restart restart = new Restart();
-                // Essayer de regrouper Bureau et Bureau2 pour une optimisation du code ?
                 if (My.MyProject.Forms.Bureau.Visible == true)
                 {
                     // On change de mode de forme de la fenêtre
@@ -558,6 +502,71 @@ namespace Vincent_OS
                     restart.Height = My.MyProject.Computer.Screen.Bounds.Height;
                 }
             }
+        }
+        #endregion
+        #region Shell
+        private void button5_Click(object sender, EventArgs e)
+        {
+            pictureBox12.Visible = true;
+            pictureBox15.Visible = true;
+            radioButton3.Visible = true;
+            radioButton4.Visible = true;
+            button6.Visible = true;
+            button5.Visible = false;
+        }
+
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            WindowsPrincipal principal = new WindowsPrincipal(identity);
+            if (radioButton3.Checked)
+            {
+                if (principal.IsInRole(WindowsBuiltInRole.Administrator))
+                {
+                    registry.ToExplorer();
+                    DialogResult result = MessageBox.Show("Pour pouvoir appliquer les changements et en profiter, vous devez redémarrer votre système. Souhaitez vous que Vincent OS App le fasse pour vous ?", "Information", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                    if (result == DialogResult.Yes)
+                    {
+                        var psi = new ProcessStartInfo("shutdown", "/r /t 0");
+                        psi.CreateNoWindow = true;
+                        psi.UseShellExecute = false;
+                        Process.Start(psi);
+                    }
+                }
+                else
+                {
+                    var backmusic = new System.Media.SoundPlayer(My.Resources.Resources.errorSound);
+                    backmusic.Play();
+                    MessageBox.Show("ERREUR : Vous n'avez pas lancé en mode Administrateur, veuillez le relancer en mode administrateur pour pouvoir changer.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+            if (radioButton4.Checked)
+            {
+                if (principal.IsInRole(WindowsBuiltInRole.Administrator))
+                {
+                    registry.ToVinDesk();
+                    DialogResult result = MessageBox.Show("Pour pouvoir appliquer les changements et en profiter, vous devez redémarrer votre système. Souhaitez vous que Vincent OS App le fasse pour vous ?", "Information", MessageBoxButtons.YesNo, MessageBoxIcon.Information);
+                    if (result == DialogResult.Yes)
+                    {
+                        var psi = new ProcessStartInfo("shutdown", "/r /t 0");
+                        psi.CreateNoWindow = true;
+                        psi.UseShellExecute = false;
+                        Process.Start(psi);
+                    }
+                }
+                else
+                {
+                    var backmusic = new System.Media.SoundPlayer(My.Resources.Resources.errorSound);
+                    backmusic.Play();
+                    MessageBox.Show("ERREUR : Vous n'avez pas lancé en mode Administrateur, veuillez le relancer en mode administrateur pour pouvoir changer.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                }
+            }
+        }
+        #endregion
+        private void Custom_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
         }
     }
 }

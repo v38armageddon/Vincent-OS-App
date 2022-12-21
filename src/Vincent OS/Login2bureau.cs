@@ -14,6 +14,7 @@ namespace Vincent_OS
             Timer1.Stop();
             ProgressBar1.Value = 0;
             Timer1.Start();
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
         }
 
         private void Timer1_Tick(object sender, EventArgs e)
@@ -25,6 +26,8 @@ namespace Vincent_OS
                 ProgressBar1.Value = 0;
                 My.MyProject.Forms.Bureau.Show();
                 Close();
+                GC.Collect();
+                GC.WaitForPendingFinalizers();
             }
         }
     }

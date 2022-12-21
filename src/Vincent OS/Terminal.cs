@@ -25,7 +25,7 @@ namespace Vincent_OS
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            // Création d'un Private Sub pour mieux se retrouver
+            // Création d'un private void pour mieux se retrouver
             commande();
         }
 
@@ -48,6 +48,8 @@ namespace Vincent_OS
             {
                 My.MyProject.Forms.Bureau2.Button24.Visible = false;
             }
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
         }
 
         private void commande()
@@ -55,17 +57,31 @@ namespace Vincent_OS
             if (TextBox1.Text == "ver")
             {
                 // ATTENTION A BIEN CHANGER LA VERSION CAR JE VAIS SUREMENT OUBLIER A LA PROCHAINE VERSION !!!!!!!!!!!
-                RichTextBox1.Text = "Nom du système d'exploitation : Vincent OS\nVersion : 9.0.1\nBranche : Officiel";
+                RichTextBox1.Text = 
+                    "Nom du système d'exploitation : Vincent OS\n" +
+                    "Version : 10\n" +
+                    "Branche : Officiel";
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "help")
             {
-                RichTextBox1.Text = "Bing Chrome        Lance Bing Chrome.\nCalc       Lance la calculatrice\nChrono       Lance le chronomètre\nExewin       Lance l'exécuteur d'application non Vincent OS.\nGame        Lance le gestionnaire de jeux.\nMediaPlayer      Lance le Media Player.\nMeme        Lance l'explorateur de fichiers.\nNotepad        Lance le Bloc Note.\nPaint       Lance Paint.\nTerminal     Lance une autre fenêtre d'un Terminal.\nVisio       Lance la visionneuse d'images.\n\nCertaines commandes sont cachées !";
+                RichTextBox1.Text = "Bing Chrome - Lance Bing Chrome.\n" +
+                    "Calc - Lance la calculatrice\n" +
+                    "Exewin - Lance l'exécuteur d'application non Vincent OS.\n" +
+                    "Game - Lance le gestionnaire de jeux.\n" +
+                    "MediaPlayer - Lance le Media Player.\n" +
+                    "Meme - Lance l'explorateur de fichiers.\n" +
+                    "Notepad - Lance le Bloc Note.\n" +
+                    "Paint - Lance Paint.\n" +
+                    "Terminal - Lance une autre fenêtre d'un Terminal.\n" +
+                    "Visio - Lance la visionneuse d'images.\n\n" +
+                    "Certaines commandes sont cachées !";
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Bing Chrome")
             {
-                My.MyProject.Forms.Bing_Chrome.Show();
+                WPF.Bing_Chrome bingChrome = new WPF.Bing_Chrome();
+                bingChrome.Show();
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Calc")
@@ -85,7 +101,8 @@ namespace Vincent_OS
             }
             else if (TextBox1.Text == "MediaPlayer")
             {
-                My.MyProject.Forms.Media.Show();
+                WPF.Media media = new WPF.Media();
+                media.Show();
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Meme")
@@ -114,16 +131,13 @@ namespace Vincent_OS
                 My.MyProject.Forms.Visio.Show();
                 TextBox1.Text = "";
             }
-            else if (TextBox1.Text == "Chrono")
-            {
-                My.MyProject.Forms.chrono.Show();
-                TextBox1.Text = "";
-            }
             // Ici commence les commandes de Debug, à utiliser avec précaution !
 
             else if (TextBox1.Text == "Debug_Options")
             {
-                RichTextBox1.Text = "DEBUG_ERREUR : Veuillez rentrer une sous option\nPour savoir les différentes commandes, tapez : Debug_Options_Help";
+                RichTextBox1.Text = 
+                    "[DEBUG]: Enter a valid command.\n" +
+                    "Debug_Options_Help";
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Debug_Options_Custom")
@@ -134,7 +148,7 @@ namespace Vincent_OS
                 }
                 else
                 {
-                    MessageBox.Show("DEBUG_ERREUR : Il n'y a pas d'interface graphique et/ou de bureau d'ouvert", "DEBUG_ERREUR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                    RichTextBox1.Text = "[DEBUG_ERROR]: No Bureau opened.";
                 }
                 TextBox1.Text = "";
             }
@@ -154,12 +168,22 @@ namespace Vincent_OS
             }
             else if (TextBox1.Text == "Debug_Help")
             {
-                RichTextBox1.Text = "Debug_AlerteLog\nDebug_AlerteLog_ForceCrash\nDebug_Options";
+                RichTextBox1.Text = 
+                    "Debug_AlerteLog\n" +
+                    "Debug_App_ForceCrash\n" +
+                    "Debug_Options\n" +
+                    "Debug_ClearMemory";
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Debug_App_ForceCrash")
             {
-                Application.SetUnhandledExceptionMode(UnhandledExceptionMode.ThrowException);
+                Application.ExitThread();
+            }
+            else if (TextBox1.Text == "Debug_ClearMemory")
+            {
+                GC.Collect();
+                GC.WaitForPendingFinalizers();
+                RichTextBox1.Text = "[DEBUG]: Memory Cleared!";
                 TextBox1.Text = "";
             }
             else

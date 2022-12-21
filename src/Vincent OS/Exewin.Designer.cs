@@ -35,62 +35,88 @@ namespace Vincent_OS
         [DebuggerStepThrough()]
         private void InitializeComponent()
         {
-            var resources = new System.ComponentModel.ComponentResourceManager(typeof(exewin));
-            Label1 = new Label();
-            TextBox1 = new TextBox();
-            TextBox1.KeyPress += new KeyPressEventHandler(TextBox1_KeyPress);
-            Button1 = new Button();
-            SuspendLayout();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(exewin));
+            this.Label1 = new System.Windows.Forms.Label();
+            this.TextBox1 = new System.Windows.Forms.TextBox();
+            this.Button1 = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.SuspendLayout();
             // 
             // Label1
             // 
-            Label1.AutoSize = true;
-            Label1.Font = new Font("Arial", 9.75f, FontStyle.Regular, GraphicsUnit.Point, 0);
-            Label1.Location = new Point(-1, -1);
-            Label1.Name = "Label1";
-            Label1.Size = new Size(395, 32);
-            Label1.TabIndex = 0;
-            Label1.Text = "Pour exécuter une application Windows, mettez l'adresse du fichier" + '\r' + '\n' + "(exemple : C:" + @"\(nom du fichier)\(nom de l'application en .exe)" + '\r' + '\n';
+            this.Label1.AutoSize = true;
+            this.Label1.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.Label1.Location = new System.Drawing.Point(65, 9);
+            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.Label1.Name = "Label1";
+            this.Label1.Size = new System.Drawing.Size(398, 34);
+            this.Label1.TabIndex = 0;
+            this.Label1.Text = "Pour exécuter une application Windows, mettez l\'adresse du fichier\r\n(exemple : C:" +
+    "\\(nom du fichier)\\(nom de l\'application en .exe)\r\n";
             // 
             // TextBox1
             // 
-            TextBox1.Location = new Point(2, 43);
-            TextBox1.Name = "TextBox1";
-            TextBox1.Size = new Size(357, 20);
-            TextBox1.TabIndex = 2;
+            this.TextBox1.Location = new System.Drawing.Point(69, 50);
+            this.TextBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.TextBox1.Name = "TextBox1";
+            this.TextBox1.Size = new System.Drawing.Size(343, 23);
+            this.TextBox1.TabIndex = 2;
+            this.TextBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox1_KeyPress);
             // 
             // Button1
             // 
-            Button1.FlatStyle = FlatStyle.Flat;
-            Button1.Location = new Point(365, 43);
-            Button1.Name = "Button1";
-            Button1.Size = new Size(29, 20);
-            Button1.TabIndex = 3;
-            Button1.Text = "->";
-            Button1.UseVisualStyleBackColor = true;
+            this.Button1.BackColor = System.Drawing.Color.Green;
+            this.Button1.FlatAppearance.BorderSize = 0;
+            this.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button1.Location = new System.Drawing.Point(420, 50);
+            this.Button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.Button1.Name = "Button1";
+            this.Button1.Size = new System.Drawing.Size(34, 23);
+            this.Button1.TabIndex = 3;
+            this.Button1.Text = "->";
+            this.Button1.UseVisualStyleBackColor = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(8, 9);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(50, 50);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 4;
+            this.pictureBox1.TabStop = false;
             // 
             // exewin
             // 
-            AutoScaleDimensions = new SizeF(6.0f, 13.0f);
-            AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(393, 75);
-            Controls.Add(Button1);
-            Controls.Add(TextBox1);
-            Controls.Add(Label1);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
-            Icon = (Icon)resources.GetObject("$this.Icon");
-            MaximizeBox = false;
-            Name = "exewin";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "Exécuter une application Windows";
-            Load += new EventHandler(exewin_Load);
-            FormClosed += new FormClosedEventHandler(exewin_FormClosed);
-            ResumeLayout(false);
-            PerformLayout();
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Black;
+            this.ClientSize = new System.Drawing.Size(467, 87);
+            this.Controls.Add(this.pictureBox1);
+            this.Controls.Add(this.Button1);
+            this.Controls.Add(this.TextBox1);
+            this.Controls.Add(this.Label1);
+            this.ForeColor = System.Drawing.Color.White;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            this.MaximizeBox = false;
+            this.MaximumSize = new System.Drawing.Size(483, 126);
+            this.MinimumSize = new System.Drawing.Size(483, 126);
+            this.Name = "exewin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Exécuter une application Windows";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.exewin_FormClosed);
+            this.Load += new System.EventHandler(this.exewin_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
         internal Label Label1;
         internal TextBox TextBox1;
         internal Button Button1;
+        private PictureBox pictureBox1;
     }
 }

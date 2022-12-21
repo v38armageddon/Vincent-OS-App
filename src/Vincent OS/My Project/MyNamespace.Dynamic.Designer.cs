@@ -100,53 +100,6 @@ namespace Vincent_OS.My
                 }
             }
 
-
-            [EditorBrowsable(EditorBrowsableState.Never)]
-            public Avant m_Avant;
-
-            public Avant Avant
-            {
-                [DebuggerHidden]
-                get
-                {
-                    m_Avant = Create__Instance__(m_Avant);
-                    return m_Avant;
-                }
-                [DebuggerHidden]
-                set
-                {
-                    if (ReferenceEquals(value, m_Avant))
-                        return;
-                    if (value is not null)
-                        throw new ArgumentException("Property can only be set to Nothing");
-                    Dispose__Instance__(ref m_Avant);
-                }
-            }
-
-
-            [EditorBrowsable(EditorBrowsableState.Never)]
-            public Bing_Chrome m_Bing_Chrome;
-
-            public Bing_Chrome Bing_Chrome
-            {
-                [DebuggerHidden]
-                get
-                {
-                    m_Bing_Chrome = Create__Instance__(m_Bing_Chrome);
-                    return m_Bing_Chrome;
-                }
-                [DebuggerHidden]
-                set
-                {
-                    if (ReferenceEquals(value, m_Bing_Chrome))
-                        return;
-                    if (value is not null)
-                        throw new ArgumentException("Property can only be set to Nothing");
-                    Dispose__Instance__(ref m_Bing_Chrome);
-                }
-            }
-
-
             [EditorBrowsable(EditorBrowsableState.Never)]
             public Bureau m_Bureau;
 
@@ -212,29 +165,6 @@ namespace Vincent_OS.My
                     if (value is not null)
                         throw new ArgumentException("Property can only be set to Nothing");
                     Dispose__Instance__(ref m_Calc);
-                }
-            }
-
-
-            [EditorBrowsable(EditorBrowsableState.Never)]
-            public chrono m_chrono;
-
-            public chrono chrono
-            {
-                [DebuggerHidden]
-                get
-                {
-                    m_chrono = Create__Instance__(m_chrono);
-                    return m_chrono;
-                }
-                [DebuggerHidden]
-                set
-                {
-                    if (ReferenceEquals(value, m_chrono))
-                        return;
-                    if (value is not null)
-                        throw new ArgumentException("Property can only be set to Nothing");
-                    Dispose__Instance__(ref m_chrono);
                 }
             }
 
@@ -419,29 +349,6 @@ namespace Vincent_OS.My
                     if (value is not null)
                         throw new ArgumentException("Property can only be set to Nothing");
                     Dispose__Instance__(ref m_MazeGame);
-                }
-            }
-
-
-            [EditorBrowsable(EditorBrowsableState.Never)]
-            public Media m_Media;
-
-            public Media Media
-            {
-                [DebuggerHidden]
-                get
-                {
-                    m_Media = Create__Instance__(m_Media);
-                    return m_Media;
-                }
-                [DebuggerHidden]
-                set
-                {
-                    if (ReferenceEquals(value, m_Media))
-                        return;
-                    if (value is not null)
-                        throw new ArgumentException("Property can only be set to Nothing");
-                    Dispose__Instance__(ref m_Media);
                 }
             }
 

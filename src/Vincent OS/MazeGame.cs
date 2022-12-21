@@ -21,7 +21,7 @@ namespace Vincent_OS
         private void MoveToStart()
         {
             var startingPoint = Panel1.Location;
-            startingPoint.Offset(20, 20);
+            startingPoint.Offset(20, 30);
             Cursor.Position = PointToScreen(startingPoint);
         }
         private void finishLabel_MouseEnter(object sender, EventArgs e)
@@ -64,6 +64,12 @@ namespace Vincent_OS
         {
             MoveToStart();
             MessageBox.Show("Tricher, c'est mal.");
+        }
+
+        private void MazeGame_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
         }
     }
 }

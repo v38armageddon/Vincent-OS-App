@@ -14,6 +14,7 @@ namespace Vincent_OS
         {
             var backmusic = new System.Media.SoundPlayer(My.Resources.Resources.shutdownSound);
             backmusic.Play();
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void Timer1_Tick(object sender, EventArgs e)
@@ -25,6 +26,8 @@ namespace Vincent_OS
                 ProgressBar1.Value = 0;
                 Close();
                 Application.Restart();
+                GC.Collect();
+                GC.WaitForPendingFinalizers();
             }
         }
     }

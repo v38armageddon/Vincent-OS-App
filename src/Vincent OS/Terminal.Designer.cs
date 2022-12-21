@@ -49,22 +49,24 @@ namespace Vincent_OS
             | System.Windows.Forms.AnchorStyles.Right)));
             this.RichTextBox1.BackColor = System.Drawing.Color.Black;
             this.RichTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.RichTextBox1.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.RichTextBox1.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.RichTextBox1.ForeColor = System.Drawing.Color.White;
             this.RichTextBox1.Location = new System.Drawing.Point(0, 0);
+            this.RichTextBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.RichTextBox1.Name = "RichTextBox1";
             this.RichTextBox1.ReadOnly = true;
-            this.RichTextBox1.Size = new System.Drawing.Size(575, 313);
+            this.RichTextBox1.Size = new System.Drawing.Size(671, 361);
             this.RichTextBox1.TabIndex = 0;
-            this.RichTextBox1.Text = "Vincent OS [version 9.0.1.0]\nProjet Open Source";
+            this.RichTextBox1.Text = "Vincent OS [version 10.0.0.0]\nProjet Open Source";
             // 
             // Label1
             // 
             this.Label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.Label1.AutoSize = true;
-            this.Label1.Font = new System.Drawing.Font("Lucida Console", 12F);
+            this.Label1.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label1.ForeColor = System.Drawing.Color.White;
-            this.Label1.Location = new System.Drawing.Point(12, 316);
+            this.Label1.Location = new System.Drawing.Point(14, 365);
+            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
             this.Label1.Size = new System.Drawing.Size(127, 16);
             this.Label1.TabIndex = 1;
@@ -76,11 +78,12 @@ namespace Vincent_OS
             | System.Windows.Forms.AnchorStyles.Right)));
             this.TextBox1.BackColor = System.Drawing.Color.Black;
             this.TextBox1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.TextBox1.Font = new System.Drawing.Font("Lucida Console", 12F);
+            this.TextBox1.Font = new System.Drawing.Font("Lucida Console", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.TextBox1.ForeColor = System.Drawing.Color.Transparent;
-            this.TextBox1.Location = new System.Drawing.Point(146, 313);
+            this.TextBox1.Location = new System.Drawing.Point(170, 361);
+            this.TextBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TextBox1.Name = "TextBox1";
-            this.TextBox1.Size = new System.Drawing.Size(388, 23);
+            this.TextBox1.Size = new System.Drawing.Size(452, 23);
             this.TextBox1.TabIndex = 2;
             this.TextBox1.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox1_KeyPress);
             // 
@@ -90,9 +93,10 @@ namespace Vincent_OS
             this.Button1.BackColor = System.Drawing.Color.ForestGreen;
             this.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.Button1.ForeColor = System.Drawing.Color.White;
-            this.Button1.Location = new System.Drawing.Point(540, 313);
+            this.Button1.Location = new System.Drawing.Point(630, 361);
+            this.Button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button1.Name = "Button1";
-            this.Button1.Size = new System.Drawing.Size(35, 23);
+            this.Button1.Size = new System.Drawing.Size(41, 27);
             this.Button1.TabIndex = 3;
             this.Button1.Text = "->";
             this.Button1.UseVisualStyleBackColor = false;
@@ -100,16 +104,17 @@ namespace Vincent_OS
             // 
             // Terminal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(575, 341);
+            this.ClientSize = new System.Drawing.Size(671, 393);
             this.Controls.Add(this.Button1);
             this.Controls.Add(this.TextBox1);
             this.Controls.Add(this.Label1);
             this.Controls.Add(this.RichTextBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "Terminal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Terminal";
