@@ -41,6 +41,7 @@ namespace Vincent_OS
             this.Label2 = new System.Windows.Forms.Label();
             this.PictureBox1 = new System.Windows.Forms.PictureBox();
             this.Button2 = new System.Windows.Forms.Button();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,11 +49,12 @@ namespace Vincent_OS
             // 
             this.Button1.BackColor = System.Drawing.Color.Green;
             this.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Button1.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button1.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Button1.Location = new System.Drawing.Point(109, 64);
+            this.Button1.Location = new System.Drawing.Point(127, 74);
+            this.Button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button1.Name = "Button1";
-            this.Button1.Size = new System.Drawing.Size(80, 29);
+            this.Button1.Size = new System.Drawing.Size(92, 32);
             this.Button1.TabIndex = 0;
             this.Button1.Text = "Confirmer";
             this.Button1.UseVisualStyleBackColor = false;
@@ -62,32 +64,38 @@ namespace Vincent_OS
             // 
             this.ComboBox1.FormattingEnabled = true;
             this.ComboBox1.Items.AddRange(new object[] {
-            "Arrêter",
-            "Redémarrer",
-            "Déconnecter"});
-            this.ComboBox1.Location = new System.Drawing.Point(109, 36);
+            "Arrêter Vincent OS",
+            "Redémarrer Vincent OS",
+            "Déconnecter de la session Vincent OS",
+            "Arrêter Windows",
+            "Redémarrer Windows",
+            "Déconnecter la session Windows"});
+            this.ComboBox1.Location = new System.Drawing.Point(127, 42);
+            this.ComboBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ComboBox1.Name = "ComboBox1";
-            this.ComboBox1.Size = new System.Drawing.Size(157, 21);
+            this.ComboBox1.Size = new System.Drawing.Size(182, 23);
             this.ComboBox1.TabIndex = 3;
-            this.ComboBox1.Text = "Arrêter";
+            this.ComboBox1.Text = "Arrêter Vincent OS";
             // 
             // Label2
             // 
             this.Label2.AutoSize = true;
-            this.Label2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label2.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label2.ForeColor = System.Drawing.Color.White;
-            this.Label2.Location = new System.Drawing.Point(105, 9);
+            this.Label2.Location = new System.Drawing.Point(133, 10);
+            this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(171, 24);
+            this.Label2.Size = new System.Drawing.Size(168, 30);
             this.Label2.TabIndex = 4;
             this.Label2.Text = "Souhaitez vous ?";
             // 
             // PictureBox1
             // 
             this.PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox1.Image")));
-            this.PictureBox1.Location = new System.Drawing.Point(12, 9);
+            this.PictureBox1.Location = new System.Drawing.Point(13, 7);
+            this.PictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox1.Name = "PictureBox1";
-            this.PictureBox1.Size = new System.Drawing.Size(87, 83);
+            this.PictureBox1.Size = new System.Drawing.Size(102, 102);
             this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox1.TabIndex = 5;
             this.PictureBox1.TabStop = false;
@@ -96,30 +104,45 @@ namespace Vincent_OS
             // 
             this.Button2.BackColor = System.Drawing.Color.Green;
             this.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.Button2.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button2.Font = new System.Drawing.Font("Calibri", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.Button2.Location = new System.Drawing.Point(195, 64);
+            this.Button2.Location = new System.Drawing.Point(227, 74);
+            this.Button2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button2.Name = "Button2";
-            this.Button2.Size = new System.Drawing.Size(71, 29);
+            this.Button2.Size = new System.Drawing.Size(83, 32);
             this.Button2.TabIndex = 6;
             this.Button2.Text = "Annuler";
             this.Button2.UseVisualStyleBackColor = false;
             this.Button2.Click += new System.EventHandler(this.Button2_Click);
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Segoe UI", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.ForeColor = System.Drawing.Color.White;
+            this.label1.Location = new System.Drawing.Point(133, 7);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(168, 30);
+            this.label1.TabIndex = 4;
+            this.label1.Text = "Souhaitez vous ?";
+            // 
             // alertelog
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(278, 105);
+            this.ClientSize = new System.Drawing.Size(324, 121);
             this.ControlBox = false;
             this.Controls.Add(this.Button2);
             this.Controls.Add(this.PictureBox1);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.Label2);
             this.Controls.Add(this.ComboBox1);
             this.Controls.Add(this.Button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "alertelog";
@@ -135,5 +158,6 @@ namespace Vincent_OS
         internal Label Label2;
         internal PictureBox PictureBox1;
         internal Button Button2;
+        internal Label label1;
     }
 }

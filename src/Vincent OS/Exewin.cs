@@ -1,13 +1,12 @@
 ﻿using System;
 using System.Diagnostics;
+using System.IO;
 using System.Windows.Forms;
 
 namespace Vincent_OS
 {
     public partial class exewin
     {
-        private Process executeur = new Process();
-
         public exewin()
         {
             InitializeComponent();
@@ -53,7 +52,7 @@ namespace Vincent_OS
 
         private void exécution()
         {
-            executeur.StartInfo.FileName = TextBox1.Text;
+            var uri = TextBox1.Text;
             if (string.IsNullOrEmpty(TextBox1.Text))
             {
                 var alertsound = new System.Media.SoundPlayer(My.Resources.Resources.alertSound);
@@ -64,7 +63,13 @@ namespace Vincent_OS
             {
                 if ((object)false is Exception)
                 {
-                    executeur.Start();
+                    string path = TextBox1.Text;
+                    var process = new Process();
+                    process.StartInfo.FileName = path;
+                    process.StartInfo.WorkingDirectory = Path.GetDirectoryName(path);
+                    process.StartInfo.Arguments = "";
+                    process.StartInfo.WindowStyle = ProcessWindowStyle.Normal;
+                    process.Start();
                 }
                 else if ((object)true is Exception)
                 {

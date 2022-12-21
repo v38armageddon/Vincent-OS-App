@@ -10,6 +10,12 @@ namespace Vincent_OS
         public Login()
         {
             InitializeComponent();
+            Panel1.BackColor = Color.FromArgb(170,0,0,0);
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Maximized;
         }
 
         private void Button1_Click(object sender, EventArgs e)

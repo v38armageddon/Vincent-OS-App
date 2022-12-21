@@ -5,6 +5,9 @@ namespace Vincent_OS
 {
     public partial class TaskVOS
     {
+        WPF.Bing_Chrome bingChrome = new WPF.Bing_Chrome();
+        WPF.Media media = new WPF.Media();
+
         public TaskVOS()
         {
             InitializeComponent();
@@ -12,18 +15,14 @@ namespace Vincent_OS
 
         private void TaskVOS_Load(object sender, EventArgs e)
         {
-            // Application
-            if (My.MyProject.Forms.Bing_Chrome.Visible == true)
+            #region Application
+            if (bingChrome.Visibility == System.Windows.Visibility.Visible)
             {
                 panel1.Visible = true;
             }
             if (My.MyProject.Forms.Calc.Visible == true)
             {
                 panel2.Visible = true;
-            }
-            if (My.MyProject.Forms.chrono.Visible == true)
-            {
-                panel3.Visible = true;
             }
             if (My.MyProject.Forms.exewin.Visible == true)
             {
@@ -45,7 +44,7 @@ namespace Vincent_OS
             {
                 panel6.Visible = true;
             }
-            if (My.MyProject.Forms.Media.Visible == true)
+            if (media.Visibility == System.Windows.Visibility.Visible)
             {
                 panel7.Visible = true;
             }
@@ -61,8 +60,8 @@ namespace Vincent_OS
             {
                 panel13.Visible = true;
             }
-
-            // Service
+            #endregion
+            #region Services
 
             if (My.MyProject.Forms.Applications.Visible == true)
             {
@@ -80,13 +79,28 @@ namespace Vincent_OS
             {
                 panel17.Visible = true;
             }
+            #endregion
+            #region Session
+
+            if (My.MyProject.Forms.Bureau.Visible == true)
+            {
+                PictureBox19.Visible = true;
+                RadioButton17.Visible = true;
+            }
+            if (My.MyProject.Forms.Bureau2.Visible == true)
+            {
+                PictureBox20.Visible = true;
+                RadioButton18.Visible = true;
+            }
+            #endregion
         }
 
+        #region Applications
         private void Button1_Click(object sender, EventArgs e)
         {
             if (RadioButton2.Checked == true)
             {
-                My.MyProject.Forms.Bing_Chrome.Close();
+                bingChrome.Close();
             }
             else if (RadioButton3.Checked == true)
             {
@@ -98,7 +112,7 @@ namespace Vincent_OS
             }
             else if (RadioButton5.Checked == true)
             {
-                My.MyProject.Forms.Media.Close();
+                media.Close();
             }
             else if (RadioButton6.Checked == true)
             {
@@ -128,18 +142,17 @@ namespace Vincent_OS
             {
                 My.MyProject.Forms.Calc.Close();
             }
-            else if (RadioButton20.Checked == true)
-            {
-                My.MyProject.Forms.chrono.Close();
-            }
             else
             {
                 var backmusic = new System.Media.SoundPlayer(My.Resources.Resources.errorSound);
                 backmusic.Play();
                 MessageBox.Show("Erreur : Vous n'avez sélectionné aucune application à arrêter.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+            GC.Collect();
+            GC.WaitForPendingFinalizers();
         }
-
+        #endregion
+        #region Session
         private void Button2_Click(object sender, EventArgs e)
         {
             if (RadioButton17.Checked == true)
@@ -161,7 +174,8 @@ namespace Vincent_OS
                 MessageBox.Show("Erreur : Vous avez sélectionné aucun utilisateur à arrêter.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
+        #endregion
+        #region Services
         private void Button3_Click(object sender, EventArgs e)
         {
             if (RadioButton13.Checked == true)
@@ -187,5 +201,6 @@ namespace Vincent_OS
                 MessageBox.Show("Erreur : Vous avez sélectionné aucun service à arrêter.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        #endregion
     }
 }

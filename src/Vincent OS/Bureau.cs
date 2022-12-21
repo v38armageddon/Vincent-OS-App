@@ -7,6 +7,8 @@ namespace Vincent_OS
 {
     public partial class Bureau
     {
+        WPF.Bing_Chrome bingChrome = new WPF.Bing_Chrome();
+        WPF.Media media = new WPF.Media();
 
         public Bureau()
         {
@@ -15,6 +17,7 @@ namespace Vincent_OS
 
         private void Bureau_Load(object sender, EventArgs e)
         {
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             Timer1.Start();
             if (My.MyProject.Forms.Login.Label2.Text == "Superutilisateur")
             {
@@ -73,7 +76,7 @@ namespace Vincent_OS
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Bing_Chrome.Show();
+            bingChrome.Show();
         }
 
         private void Button3_Click(object sender, EventArgs e)
@@ -83,7 +86,7 @@ namespace Vincent_OS
 
         private void Button4_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Media.Show();
+            media.Show();
         }
 
         private void Button5_Click(object sender, EventArgs e)
@@ -150,7 +153,10 @@ namespace Vincent_OS
         // Cette partie permet quand la fenêtre est trop caché par le bureau, qu'on puisse la récupérer via un bouton sans faire alt+tab
         private void Button15_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Bing_Chrome.BringToFront();
+            bingChrome.Activate();
+            bingChrome.Topmost = true;
+            bingChrome.Topmost = false;
+            bingChrome.Focus();
         }
 
         private void Button16_Click(object sender, EventArgs e)
@@ -165,7 +171,10 @@ namespace Vincent_OS
 
         private void Button19_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Media.BringToFront();
+            media.Activate();
+            media.Topmost = true;
+            media.Topmost = false;
+            media.Focus();
         }
 
         private void Button20_Click(object sender, EventArgs e)
@@ -193,17 +202,12 @@ namespace Vincent_OS
             My.MyProject.Forms.Terminal.BringToFront();
         }
 
-        private void Button18_Click(object sender, EventArgs e)
-        {
-            My.MyProject.Forms.chrono.BringToFront();
-        }
-
         private void Button26_Click(object sender, EventArgs e)
         {
             My.MyProject.Forms.Calc.BringToFront();
         }
 
-        private void FlowLayoutPanel1_Click(object sender, EventArgs e)
+        private void FlowLayoutPanel1_Click_1(object sender, EventArgs e)
         {
             if (MonthCalendar1.Visible == true)
             {
