@@ -61,11 +61,12 @@ namespace Vincent_OS
             this.Button1.BackColor = System.Drawing.Color.Green;
             this.Button1.FlatAppearance.BorderSize = 0;
             this.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button1.ForeColor = System.Drawing.Color.White;
-            this.Button1.Location = new System.Drawing.Point(147, 99);
+            this.Button1.Location = new System.Drawing.Point(172, 114);
+            this.Button1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button1.Name = "Button1";
-            this.Button1.Size = new System.Drawing.Size(149, 32);
+            this.Button1.Size = new System.Drawing.Size(174, 37);
             this.Button1.TabIndex = 0;
             this.Button1.Text = "Connexion";
             this.Button1.UseVisualStyleBackColor = false;
@@ -74,11 +75,12 @@ namespace Vincent_OS
             // Label2
             // 
             this.Label2.AutoSize = true;
-            this.Label2.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label2.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label2.ForeColor = System.Drawing.Color.White;
-            this.Label2.Location = new System.Drawing.Point(143, 3);
+            this.Label2.Location = new System.Drawing.Point(167, 3);
+            this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(140, 22);
+            this.Label2.Size = new System.Drawing.Size(145, 25);
             this.Label2.TabIndex = 2;
             this.Label2.Text = "Superutilisateur";
             // 
@@ -86,38 +88,42 @@ namespace Vincent_OS
             // 
             this.PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox1.Image")));
             this.PictureBox1.Location = new System.Drawing.Point(2, 3);
+            this.PictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox1.Name = "PictureBox1";
-            this.PictureBox1.Size = new System.Drawing.Size(142, 138);
+            this.PictureBox1.Size = new System.Drawing.Size(166, 159);
             this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox1.TabIndex = 4;
             this.PictureBox1.TabStop = false;
             // 
             // TextBox2
             // 
-            this.TextBox2.Location = new System.Drawing.Point(147, 59);
+            this.TextBox2.Location = new System.Drawing.Point(172, 68);
+            this.TextBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.TextBox2.Name = "TextBox2";
             this.TextBox2.PasswordChar = '•';
-            this.TextBox2.Size = new System.Drawing.Size(124, 20);
+            this.TextBox2.Size = new System.Drawing.Size(144, 23);
             this.TextBox2.TabIndex = 5;
             this.TextBox2.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TextBox2_KeyPress);
             // 
             // Label1
             // 
             this.Label1.AutoSize = true;
-            this.Label1.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label1.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label1.ForeColor = System.Drawing.Color.White;
-            this.Label1.Location = new System.Drawing.Point(146, 34);
+            this.Label1.Location = new System.Drawing.Point(170, 39);
+            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(125, 22);
+            this.Label1.Size = new System.Drawing.Size(124, 25);
             this.Label1.TabIndex = 6;
             this.Label1.Text = "Mot de passe";
             // 
             // PictureBox2
             // 
             this.PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox2.Image")));
-            this.PictureBox2.Location = new System.Drawing.Point(3, 153);
+            this.PictureBox2.Location = new System.Drawing.Point(4, 177);
+            this.PictureBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox2.Name = "PictureBox2";
-            this.PictureBox2.Size = new System.Drawing.Size(142, 138);
+            this.PictureBox2.Size = new System.Drawing.Size(166, 159);
             this.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox2.TabIndex = 7;
             this.PictureBox2.TabStop = false;
@@ -125,9 +131,10 @@ namespace Vincent_OS
             // Label3
             // 
             this.Label3.AutoSize = true;
-            this.Label3.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Label3.Font = new System.Drawing.Font("Arial", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label3.ForeColor = System.Drawing.Color.White;
-            this.Label3.Location = new System.Drawing.Point(151, 164);
+            this.Label3.Location = new System.Drawing.Point(172, 177);
+            this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label3.Name = "Label3";
             this.Label3.Size = new System.Drawing.Size(55, 22);
             this.Label3.TabIndex = 8;
@@ -138,11 +145,12 @@ namespace Vincent_OS
             this.Button2.BackColor = System.Drawing.Color.Green;
             this.Button2.FlatAppearance.BorderSize = 0;
             this.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Button2.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Button2.ForeColor = System.Drawing.Color.White;
-            this.Button2.Location = new System.Drawing.Point(147, 189);
+            this.Button2.Location = new System.Drawing.Point(172, 202);
+            this.Button2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button2.Name = "Button2";
-            this.Button2.Size = new System.Drawing.Size(149, 32);
+            this.Button2.Size = new System.Drawing.Size(174, 37);
             this.Button2.TabIndex = 9;
             this.Button2.Text = "Connexion";
             this.Button2.UseVisualStyleBackColor = false;
@@ -150,13 +158,14 @@ namespace Vincent_OS
             // 
             // Button4
             // 
-            this.Button4.BackColor = System.Drawing.Color.Lime;
+            this.Button4.BackColor = System.Drawing.Color.Green;
             this.Button4.FlatAppearance.BorderSize = 0;
             this.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.Button4.ForeColor = System.Drawing.Color.Black;
-            this.Button4.Location = new System.Drawing.Point(274, 59);
+            this.Button4.ForeColor = System.Drawing.Color.White;
+            this.Button4.Location = new System.Drawing.Point(320, 68);
+            this.Button4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Button4.Name = "Button4";
-            this.Button4.Size = new System.Drawing.Size(22, 20);
+            this.Button4.Size = new System.Drawing.Size(26, 23);
             this.Button4.TabIndex = 12;
             this.Button4.Text = "?";
             this.Button4.UseVisualStyleBackColor = false;
@@ -165,23 +174,25 @@ namespace Vincent_OS
             // 
             // PictureBox3
             // 
-            this.PictureBox3.BackColor = System.Drawing.Color.Gray;
+            this.PictureBox3.BackColor = System.Drawing.Color.Black;
             this.PictureBox3.Dock = System.Windows.Forms.DockStyle.Top;
             this.PictureBox3.Location = new System.Drawing.Point(0, 0);
+            this.PictureBox3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox3.Name = "PictureBox3";
-            this.PictureBox3.Size = new System.Drawing.Size(848, 25);
+            this.PictureBox3.Size = new System.Drawing.Size(989, 30);
             this.PictureBox3.TabIndex = 12;
             this.PictureBox3.TabStop = false;
             // 
             // PictureBox4
             // 
             this.PictureBox4.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.PictureBox4.BackColor = System.Drawing.Color.Gray;
+            this.PictureBox4.BackColor = System.Drawing.Color.Black;
             this.PictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox4.Image")));
-            this.PictureBox4.Location = new System.Drawing.Point(822, 0);
+            this.PictureBox4.Location = new System.Drawing.Point(959, 0);
+            this.PictureBox4.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox4.Name = "PictureBox4";
-            this.PictureBox4.Size = new System.Drawing.Size(26, 25);
-            this.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.PictureBox4.Size = new System.Drawing.Size(30, 29);
+            this.PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PictureBox4.TabIndex = 13;
             this.PictureBox4.TabStop = false;
             this.PictureBox4.Click += new System.EventHandler(this.PictureBox4_Click);
@@ -189,14 +200,15 @@ namespace Vincent_OS
             // Label4
             // 
             this.Label4.AutoSize = true;
-            this.Label4.BackColor = System.Drawing.Color.Gray;
-            this.Label4.Font = new System.Drawing.Font("Arial", 9.25F);
+            this.Label4.BackColor = System.Drawing.Color.Black;
+            this.Label4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Label4.ForeColor = System.Drawing.Color.White;
-            this.Label4.Location = new System.Drawing.Point(5, 3);
+            this.Label4.Location = new System.Drawing.Point(6, 6);
+            this.Label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Label4.Name = "Label4";
-            this.Label4.Size = new System.Drawing.Size(74, 16);
+            this.Label4.Size = new System.Drawing.Size(61, 15);
             this.Label4.TabIndex = 14;
-            this.Label4.Text = "Vincent OS";
+            this.Label4.Text = "vincentOS";
             // 
             // Panel1
             // 
@@ -211,32 +223,35 @@ namespace Vincent_OS
             this.Panel1.Controls.Add(this.Label2);
             this.Panel1.Controls.Add(this.Button1);
             this.Panel1.Controls.Add(this.PictureBox2);
-            this.Panel1.Location = new System.Drawing.Point(28, 99);
+            this.Panel1.Location = new System.Drawing.Point(33, 114);
+            this.Panel1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Panel1.Name = "Panel1";
-            this.Panel1.Size = new System.Drawing.Size(299, 304);
+            this.Panel1.Size = new System.Drawing.Size(349, 351);
             this.Panel1.TabIndex = 15;
             // 
             // Login
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.BackColor = System.Drawing.Color.Black;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(848, 452);
+            this.ClientSize = new System.Drawing.Size(989, 522);
             this.ControlBox = false;
             this.Controls.Add(this.Label4);
             this.Controls.Add(this.PictureBox4);
             this.Controls.Add(this.PictureBox3);
             this.Controls.Add(this.Panel1);
             this.DoubleBuffered = true;
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Écran de connexion";
+            this.Load += new System.EventHandler(this.Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox3)).EndInit();

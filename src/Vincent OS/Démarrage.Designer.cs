@@ -50,11 +50,12 @@ namespace Vincent_OS
             this.ProgressBar1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.ProgressBar1.ForeColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.ProgressBar1.Location = new System.Drawing.Point(12, 415);
+            this.ProgressBar1.Location = new System.Drawing.Point(14, 479);
+            this.ProgressBar1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.ProgressBar1.Name = "ProgressBar1";
             this.ProgressBar1.RightToLeft = System.Windows.Forms.RightToLeft.Yes;
             this.ProgressBar1.RightToLeftLayout = true;
-            this.ProgressBar1.Size = new System.Drawing.Size(824, 24);
+            this.ProgressBar1.Size = new System.Drawing.Size(961, 28);
             this.ProgressBar1.TabIndex = 0;
             this.ProgressBar1.Visible = false;
             // 
@@ -62,9 +63,10 @@ namespace Vincent_OS
             // 
             this.PictureBox1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox1.Image")));
-            this.PictureBox1.Location = new System.Drawing.Point(294, 16);
+            this.PictureBox1.Location = new System.Drawing.Point(343, 18);
+            this.PictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox1.Name = "PictureBox1";
-            this.PictureBox1.Size = new System.Drawing.Size(306, 301);
+            this.PictureBox1.Size = new System.Drawing.Size(357, 347);
             this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.PictureBox1.TabIndex = 1;
             this.PictureBox1.TabStop = false;
@@ -77,29 +79,31 @@ namespace Vincent_OS
             // 
             this.PictureBox2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.PictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox2.Image")));
-            this.PictureBox2.Location = new System.Drawing.Point(365, 323);
+            this.PictureBox2.Location = new System.Drawing.Point(426, 373);
+            this.PictureBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.PictureBox2.Name = "PictureBox2";
-            this.PictureBox2.Size = new System.Drawing.Size(158, 88);
+            this.PictureBox2.Size = new System.Drawing.Size(184, 102);
             this.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PictureBox2.TabIndex = 3;
             this.PictureBox2.TabStop = false;
             // 
             // Démarrage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(848, 451);
+            this.ClientSize = new System.Drawing.Size(989, 520);
             this.ControlBox = false;
             this.Controls.Add(this.PictureBox2);
             this.Controls.Add(this.PictureBox1);
             this.Controls.Add(this.ProgressBar1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Démarrage";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Démarrage en cours...";
             this.Load += new System.EventHandler(this.Démarrage_Load);
             ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();

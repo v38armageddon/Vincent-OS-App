@@ -1,5 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Diagnostics;
+using System.Management;
 using System.Windows.Forms;
 
 namespace Vincent_OS
@@ -13,9 +15,10 @@ namespace Vincent_OS
             InitializeComponent();
         }
 
-        private void Button1_Click(object sender, EventArgs e)
+        private void Button1_Click_1(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Bing_Chrome.Show();
+            WPF.Bing_Chrome bingChrome = new WPF.Bing_Chrome();
+            bingChrome.Show();
         }
 
         private void Button2_Click_1(object sender, EventArgs e)
@@ -30,7 +33,8 @@ namespace Vincent_OS
 
         private void Button5_Click_1(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Media.Show();
+            WPF.Media media = new WPF.Media();
+            media.Show();
         }
 
         private void Button9_Click_1(object sender, EventArgs e)
