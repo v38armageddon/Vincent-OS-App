@@ -1,0 +1,24 @@
+## Description
+
+Veuillez décrire pourquoi ce changement doit être appliqué à Vincent OS App.
+
+## Utilité
+
+Comment ce changement va-t-il être utile ?
+
+## Essais
+
+Veuillez vérifier les tests que vous avez effectués.
+<!--Mettez un X entre les crochets pour cochez-->
+- [ ] Logiciel fonctionnant sous Windows
+- [ ] Test du multimédia
+- [ ] Test des différents logiciels
+- [ ] Test des différents paramètres
+
+## Liste de contrôle :
+<!--Mettez un X entre les crochets pour cochez-->
+- [ ] Mon code suit les directives de style de ce projet
+- [ ] Mon code respecte le code de conduite
+- [ ] J'ai effectué une auto-révision de mon propre code
+- [ ] Mes modifications ne génèrent aucun nouvel avertissement ou erreur
+- [ ] Je m'engage à ne pas nuir au Registry Windows pour les utilisateurs
