@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows.Forms;
-using Microsoft.VisualBasic.CompilerServices;
 
 namespace Vincent_OS
 {
@@ -19,13 +18,13 @@ namespace Vincent_OS
 
         private void Calc_Load(object sender, EventArgs e)
         {
-            if (My.MyProject.Forms.Bureau.Visible == true)
+            if (bureau.Visible == true)
             {
-                My.MyProject.Forms.Bureau.Button26.Visible = true;
+                bureau.Button26.Visible = true;
             }
-            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            else if (bureau2.Visible == true)
             {
-                My.MyProject.Forms.Bureau2.Button26.Visible = true;
+                bureau2.Button26.Visible = true;
             }
         }
 
@@ -161,7 +160,7 @@ namespace Vincent_OS
         // Système opération
         private void Button13_Click(object sender, EventArgs e)
         {
-            Firstnum = Conversions.ToDecimal(TextBox1.Text);
+            Firstnum = decimal.Parse(TextBox1.Text);
             TextBox1.Text = "0";
             Operator_Selector = true;
             Operation = 1;
@@ -169,7 +168,7 @@ namespace Vincent_OS
 
         private void Button14_Click(object sender, EventArgs e)
         {
-            Firstnum = Conversions.ToDecimal(TextBox1.Text);
+            Firstnum = decimal.Parse(TextBox1.Text);
             TextBox1.Text = "0";
             Operator_Selector = true;
             Operation = 2;
@@ -177,7 +176,7 @@ namespace Vincent_OS
 
         private void Button15_Click(object sender, EventArgs e)
         {
-            Firstnum = Conversions.ToDecimal(TextBox1.Text);
+            Firstnum = decimal.Parse(TextBox1.Text);
             TextBox1.Text = "0";
             Operator_Selector = true;
             Operation = 3;
@@ -185,7 +184,7 @@ namespace Vincent_OS
 
         private void Button16_Click(object sender, EventArgs e)
         {
-            Firstnum = Conversions.ToDecimal(TextBox1.Text);
+            Firstnum = decimal.Parse(TextBox1.Text);
             TextBox1.Text = "0";
             Operator_Selector = true;
             Operation = 4;
@@ -195,7 +194,7 @@ namespace Vincent_OS
         {
             if (Operator_Selector == true)
             {
-                Secondnum = Conversions.ToDecimal(TextBox1.Text);
+                Secondnum = decimal.Parse(TextBox1.Text);
                 if (Operation == 1)
                 {
                     TextBox1.Text = (Firstnum + Secondnum).ToString();
@@ -222,13 +221,13 @@ namespace Vincent_OS
 
         private void Calc_FormClosed(object sender, FormClosedEventArgs e)
         {
-            if (My.MyProject.Forms.Bureau.Visible == true)
+            if (bureau.Visible == true)
             {
-                My.MyProject.Forms.Bureau.Button26.Visible = false;
+                bureau.Button26.Visible = false;
             }
-            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            else if (bureau2.Visible == true)
             {
-                My.MyProject.Forms.Bureau2.Button26.Visible = false;
+                bureau2.Button26.Visible = false;
             }
             GC.Collect();
             GC.WaitForPendingFinalizers();

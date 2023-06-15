@@ -16,7 +16,7 @@ namespace Vincent_OS
             {
                 TextBox1.Text = "";
                 // /!\ Faire attention aux potentiels changements dans le futur ! /!\
-                if (My.MyProject.Forms.Bureau2.Panel1.Visible == true)
+                if (bureau2.Panel1.Visible == true)
                 {
                     My.MyProject.Forms.Paramètres.Show();
                     Close();

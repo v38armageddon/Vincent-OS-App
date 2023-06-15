@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Windows.Forms;
-using Microsoft.VisualBasic;
 
 namespace Vincent_OS
 {
     public partial class Terminal
     {
+        Bureau bureau = new Bureau();
+        Bureau2 bureau2 = new Bureau2();
         public Terminal()
         {
             InitializeComponent();
@@ -13,13 +14,13 @@ namespace Vincent_OS
 
         private void Terminal_Load(object sender, EventArgs e)
         {
-            if (My.MyProject.Forms.Bureau.Visible == true)
+            if (bureau.Visible == true)
             {
-                My.MyProject.Forms.Bureau.Button24.Visible = true;
+                bureau.Button24.Visible = true;
             }
-            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            else if (bureau2.Visible == true)
             {
-                My.MyProject.Forms.Bureau2.Button24.Visible = true;
+                bureau2.Button24.Visible = true;
             }
         }
 
@@ -40,13 +41,13 @@ namespace Vincent_OS
 
         private void Terminal_FormClosed(object sender, FormClosedEventArgs e)
         {
-            if (My.MyProject.Forms.Bureau.Visible == true)
+            if (bureau.Visible == true)
             {
-                My.MyProject.Forms.Bureau.Button24.Visible = false;
+                bureau.Button24.Visible = false;
             }
-            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            else if (bureau2.Visible == true)
             {
-                My.MyProject.Forms.Bureau2.Button24.Visible = false;
+                bureau2.Button24.Visible = false;
             }
             GC.Collect();
             GC.WaitForPendingFinalizers();
@@ -86,17 +87,20 @@ namespace Vincent_OS
             }
             else if (TextBox1.Text == "Calc")
             {
-                My.MyProject.Forms.Calc.Show();
+                Calc calc = new Calc();
+                calc.Show();
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Exewin")
             {
-                My.MyProject.Forms.exewin.Show();
+                exewin exewin = new exewin();
+                exewin.Show();
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Game")
             {
-                My.MyProject.Forms.game.Show();
+                game game = new game();
+                game.Show();
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "MediaPlayer")
@@ -107,28 +111,32 @@ namespace Vincent_OS
             }
             else if (TextBox1.Text == "Meme")
             {
-                My.MyProject.Forms.meme.Show();
+                meme meme = new meme();
+                meme.Show();
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Notepad")
             {
-                My.MyProject.Forms.Notepad.Show();
+                Notepad notepad = new Notepad();
+                notepad.Show();
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Paint")
             {
-                My.MyProject.Forms.paints.Show();
+                paints paints = new paints();
+                paints.Show();
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Terminal")
             {
-                var cp = new Terminal();
-                cp.Show();
+                Terminal terminal = new Terminal();
+                terminal.Show();
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Visio")
             {
-                My.MyProject.Forms.Visio.Show();
+                Visio visio = new Visio();
+                visio.Show();
                 TextBox1.Text = "";
             }
             // Ici commence les commandes de Debug, à utiliser avec précaution !
@@ -142,9 +150,10 @@ namespace Vincent_OS
             }
             else if (TextBox1.Text == "Debug_Options_Custom")
             {
-                if (My.MyProject.Forms.Bureau.Visible == true | My.MyProject.Forms.Bureau2.Visible == true)
+                if (bureau.Visible == true | bureau2.Visible == true)
                 {
-                    My.MyProject.Forms.Custom.Show();
+                    Custom custom = new Custom();
+                    custom.Show();
                 }
                 else
                 {
@@ -163,7 +172,8 @@ namespace Vincent_OS
             }
             else if (TextBox1.Text == "Debug_AlerteLog")
             {
-                My.MyProject.Forms.alertelog.Show();
+                alertelog alertelog = new alertelog();
+                alertelog.Show();
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Debug_Help")

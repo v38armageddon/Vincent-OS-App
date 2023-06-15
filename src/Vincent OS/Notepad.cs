@@ -13,13 +13,13 @@ namespace Vincent_OS
 
         private void Notepad_Load(object sender, EventArgs e)
         {
-            if (My.MyProject.Forms.Bureau.Visible == true)
+            if (bureau.Visible == true)
             {
-                My.MyProject.Forms.Bureau.Button17.Visible = true;
+                bureau.Button17.Visible = true;
             }
-            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            else if (bureau2.Visible == true)
             {
-                My.MyProject.Forms.Bureau2.Button17.Visible = true;
+                bureau2.Button17.Visible = true;
             }
         }
 
@@ -123,13 +123,13 @@ namespace Vincent_OS
 
         private void Notepad_FormClosed(object sender, FormClosedEventArgs e)
         {
-            if (My.MyProject.Forms.Bureau.Visible == true)
+            if (bureau.Visible == true)
             {
-                My.MyProject.Forms.Bureau.Button17.Visible = false;
+                bureau.Button17.Visible = false;
             }
-            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            else if (bureau2.Visible == true)
             {
-                My.MyProject.Forms.Bureau2.Button17.Visible = false;
+                bureau2.Button17.Visible = false;
             }
             GC.Collect();
             GC.WaitForPendingFinalizers();

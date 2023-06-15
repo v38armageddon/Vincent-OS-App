@@ -11,12 +11,12 @@ namespace Vincent_OS
 
         private void Options_Load(object sender, EventArgs e)
         {
-            if (My.MyProject.Forms.Bureau.Visible == true)
+            if (bureau.Visible == true)
             {
                 PictureBox1.Visible = true;
                 Label7.Text = "Utilisateur : Superutilisateur";
             }
-            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            else if (bureau2.Visible == true)
             {
                 PictureBox2.Visible = true;
                 Label7.Text = "Utilisateur : Invité";

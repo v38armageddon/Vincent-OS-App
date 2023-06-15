@@ -1,29 +1,29 @@
 ﻿using System;
 using System.Diagnostics;
 using System.Windows.Forms;
-using Microsoft.VisualBasic;
 
 namespace Vincent_OS
 {
-    public partial class meme
+    public partial class Meme
     {
-        // Permet de savoir le nom de l'utilisateur pour accéder à ses fichiers personnels
         string userName = Environment.UserName;
+        Bureau bureau = new Bureau();
+        Bureau2 bureau2 = new Bureau2();
 
-        public meme()
+        public Meme()
         {
             InitializeComponent();
         }
 
         private void meme_Load(object sender, EventArgs e)
         {
-            if (My.MyProject.Forms.Bureau.Visible == true)
+            if (bureau.Visible == true)
             {
-                My.MyProject.Forms.Bureau.Button16.Visible = true;
+                bureau.Button16.Visible = true;
             }
-            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            else if (bureau2.Visible == true)
             {
-                My.MyProject.Forms.Bureau2.Button16.Visible = true;
+                bureau2.Button16.Visible = true;
             }
         }
 
@@ -116,13 +116,13 @@ namespace Vincent_OS
 
         private void meme_FormClosed(object sender, FormClosedEventArgs e)
         {
-            if (My.MyProject.Forms.Bureau.Visible == true)
+            if (bureau.Visible == true)
             {
-                My.MyProject.Forms.Bureau.Button16.Visible = false;
+                bureau.Button16.Visible = false;
             }
-            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            else if (bureau2.Visible == true)
             {
-                My.MyProject.Forms.Bureau2.Button16.Visible = false;
+                bureau2.Button16.Visible = false;
             }
             GC.Collect();
             GC.WaitForPendingFinalizers();

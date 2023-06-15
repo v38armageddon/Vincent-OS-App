@@ -12,13 +12,13 @@ namespace Vincent_OS
 
         private void game_Load(object sender, EventArgs e)
         {
-            if (My.MyProject.Forms.Bureau.Visible == true)
+            if (bureau.Visible == true)
             {
-                My.MyProject.Forms.Bureau.Button22.Visible = true;
+                bureau.Button22.Visible = true;
             }
-            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            else if (bureau2.Visible == true)
             {
-                My.MyProject.Forms.Bureau2.Button22.Visible = true;
+                bureau2.Button22.Visible = true;
             }
         }
 
@@ -34,13 +34,13 @@ namespace Vincent_OS
 
         private void game_FormClosed(object sender, FormClosedEventArgs e)
         {
-            if (My.MyProject.Forms.Bureau.Visible == true)
+            if (bureau.Visible == true)
             {
-                My.MyProject.Forms.Bureau.Button22.Visible = false;
+                bureau.Button22.Visible = false;
             }
-            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            else if (bureau2.Visible == true)
             {
-                My.MyProject.Forms.Bureau2.Button22.Visible = false;
+                bureau2.Button22.Visible = false;
             }
             GC.Collect();
             GC.WaitForPendingFinalizers();

@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
-using Microsoft.VisualBasic.CompilerServices;
 
 namespace Vincent_OS
 {
@@ -45,7 +44,7 @@ namespace Vincent_OS
         // Permet de révéler le mot de passe
         private void Button4_MouseDown(object sender, MouseEventArgs e)
         {
-            TextBox2.PasswordChar = Conversions.ToChar("");
+            TextBox2.PasswordChar = char.Parse("");
         }
 
         private void Button4_MouseUp(object sender, MouseEventArgs e)

@@ -1,7 +1,5 @@
 ﻿using System;
 using System.Runtime.InteropServices;
-using Microsoft.VisualBasic;
-using Microsoft.VisualBasic.CompilerServices;
 
 namespace Vincent_OS
 {
@@ -53,8 +51,8 @@ namespace Vincent_OS
 
         private void Timer1_Tick(object sender, EventArgs e)
         {
-            Label2.Text = Conversions.ToString(DateAndTime.TimeOfDay);
-            Label1.Text = Conversions.ToString(DateTime.Today);
+            DateTime time = DateTime.Today;
+            Label1.Text = time.ToString();
         }
 
         private void Button1_Click(object sender, EventArgs e)

@@ -1,0 +1,9 @@
+<Project>
+	<PropertyGroup>
+		<ScriptFile>VOS Setup.iss</ScriptFile>
+	</PropertyGroup>
+
+	<Target Name="CreateSetupISSExe" AfterTargets="Build" Condition="'$(Configuration)'=='Release'">
+		<Exec Command="&quot;C:\Program Files (x86)\Inno Setup 6\ISCC.exe&quot; &quot;$(ScriptFile)&quot;" ConsoleToMSBuild="true"/>
+	</Target>
+</Project>

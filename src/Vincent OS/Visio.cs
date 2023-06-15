@@ -23,13 +23,13 @@ namespace Vincent_OS
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            if (My.MyProject.Forms.Bureau.Visible == true)
+            if (bureau.Visible == true)
             {
-                My.MyProject.Forms.Bureau.Button20.Visible = true;
+                bureau.Button20.Visible = true;
             }
-            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            else if (bureau2.Visible == true)
             {
-                My.MyProject.Forms.Bureau2.Button20.Visible = true;
+                bureau2.Button20.Visible = true;
             }
             Images = new List<string>();
             Panel1.Controls.Add(PictureBox1);
@@ -178,13 +178,13 @@ namespace Vincent_OS
 
         private void Visio_FormClosed(object sender, FormClosedEventArgs e)
         {
-            if (My.MyProject.Forms.Bureau.Visible == true)
+            if (bureau.Visible == true)
             {
-                My.MyProject.Forms.Bureau.Button20.Visible = false;
+                bureau.Button20.Visible = false;
             }
-            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            else if (bureau2.Visible == true)
             {
-                My.MyProject.Forms.Bureau2.Button20.Visible = false;
+                bureau2.Button20.Visible = false;
             }
             GC.Collect();
             GC.WaitForPendingFinalizers();

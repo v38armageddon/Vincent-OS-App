@@ -11,7 +11,7 @@ namespace Vincent_OS
 
         private void Utilisateur_Load(object sender, EventArgs e)
         {
-            if (My.MyProject.Forms.Bureau.Visible == true)
+            if (bureau.Visible == true)
             {
                 if (My.MyProject.Forms.Login.Label2.Text == "Superutilisateur")
                 {
@@ -22,7 +22,7 @@ namespace Vincent_OS
                     Label2.Text = My.MyProject.Forms.Login.Label2.Text;
                 }
             }
-            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            else if (bureau2.Visible == true)
             {
                 if (My.MyProject.Forms.Login.Label3.Text == "Invité")
                 {
@@ -37,21 +37,21 @@ namespace Vincent_OS
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            if (My.MyProject.Forms.Bureau.Visible == true)
+            if (bureau.Visible == true)
             {
                 My.MyProject.Forms.Login.Label2.Text = TextBox1.Text;
                 My.MyProject.Forms.Login2bureau.Text = "Bienvenue sur Vincent OS : " + TextBox1.Text;
-                My.MyProject.Forms.Bureau.Text = "Bureau - Session " + TextBox1.Text;
-                My.MyProject.Forms.Bureau.Label3.Text = TextBox1.Text;
+                bureau.Text = "Bureau - Session " + TextBox1.Text;
+                bureau.Label3.Text = TextBox1.Text;
                 My.MyProject.Forms.Paramètres.Label7.Text = "Utilisateur : " + TextBox1.Text;
                 Label2.Text = TextBox1.Text;
             }
-            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            else if (bureau2.Visible == true)
             {
                 My.MyProject.Forms.Login.Label3.Text = TextBox1.Text;
                 My.MyProject.Forms.Login2bureau2.Text = "Bienvenue sur Vincent OS : " + TextBox1.Text;
-                My.MyProject.Forms.Bureau2.Text = "Bureau - Session " + TextBox1.Text;
-                My.MyProject.Forms.Bureau2.Label3.Text = TextBox1.Text;
+                bureau2.Text = "Bureau - Session " + TextBox1.Text;
+                bureau2.Label3.Text = TextBox1.Text;
                 My.MyProject.Forms.Paramètres.Label7.Text = "Utilisateur : " + TextBox1.Text;
                 Label2.Text = TextBox1.Text;
             }

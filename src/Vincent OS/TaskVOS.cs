@@ -67,11 +67,11 @@ namespace Vincent_OS
             {
                 panel14.Visible = true;
             }
-            if (My.MyProject.Forms.Bureau.Visible == true)
+            if (bureau.Visible == true)
             {
                 panel15.Visible = true;
             }
-            if (My.MyProject.Forms.Bureau2.Visible == true)
+            if (bureau2.Visible == true)
             {
                 panel16.Visible = true;
             }
@@ -82,12 +82,12 @@ namespace Vincent_OS
             #endregion
             #region Session
 
-            if (My.MyProject.Forms.Bureau.Visible == true)
+            if (bureau.Visible == true)
             {
                 PictureBox19.Visible = true;
                 RadioButton17.Visible = true;
             }
-            if (My.MyProject.Forms.Bureau2.Visible == true)
+            if (bureau2.Visible == true)
             {
                 PictureBox20.Visible = true;
                 RadioButton18.Visible = true;
@@ -157,13 +157,13 @@ namespace Vincent_OS
         {
             if (RadioButton17.Checked == true)
             {
-                My.MyProject.Forms.Bureau.Close();
+                bureau.Close();
                 My.MyProject.Forms.Login.Show();
                 Close();
             }
             else if (RadioButton18.Checked == true)
             {
-                My.MyProject.Forms.Bureau2.Close();
+                bureau2.Close();
                 My.MyProject.Forms.Login.Show();
                 Close();
             }
@@ -180,11 +180,11 @@ namespace Vincent_OS
         {
             if (RadioButton13.Checked == true)
             {
-                My.MyProject.Forms.Bureau.Close();
+                bureau.Close();
             }
             else if (RadioButton14.Checked == true)
             {
-                My.MyProject.Forms.Bureau2.Close();
+                bureau2.Close();
             }
             else if (RadioButton15.Checked == true)
             {
