@@ -12,6 +12,8 @@ namespace Vincent_OS
 
         private void game_Load(object sender, EventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (bureau.Visible == true)
             {
                 bureau.Button22.Visible = true;
@@ -24,16 +26,20 @@ namespace Vincent_OS
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.exewin.Show();
+            exewin exewin = new exewin();
+            exewin.Show();
         }
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.MazeGame.Show();
+            MazeGame mazeGame = new MazeGame();
+            mazeGame.Show();
         }
 
         private void game_FormClosed(object sender, FormClosedEventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (bureau.Visible == true)
             {
                 bureau.Button22.Visible = false;

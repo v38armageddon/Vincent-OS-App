@@ -53,9 +53,6 @@
 	<GenerateManifests>false</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-	<ApplicationManifest>My Project\app.manifest</ApplicationManifest>
-  </PropertyGroup>
-  <PropertyGroup>
 	<ManifestCertificateThumbprint>2D1A670F454C5B83AC2BB7DE9F1A1A80E9296CF6</ManifestCertificateThumbprint>
   </PropertyGroup>
   <PropertyGroup>

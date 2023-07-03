@@ -11,6 +11,8 @@ namespace Vincent_OS
 
         private void Options_Load(object sender, EventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (bureau.Visible == true)
             {
                 PictureBox1.Visible = true;
@@ -25,32 +27,38 @@ namespace Vincent_OS
 
         private void Button3_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.About.Show();
+            About about = new About();
+            about.Show();
         }
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Custom.Show();
+            Custom custom = new Custom();
+            custom.Show();
         }
 
         private void Button4_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Terminal.Show();
+            Terminal terminal = new Terminal();
+            terminal.Show();
         }
 
         private void Button4_Click_1(object sender, EventArgs e)
         {
-            My.MyProject.Forms.TaskVOS.Show();
+            TaskVOS taskVOS = new TaskVOS();
+            taskVOS.Show();
         }
 
         private void Button1_Click_1(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Custom.Show();
+            Custom custom = new Custom();
+            custom.Show();
         }
 
         private void Button5_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Utilisateur.Show();
+            Utilisateur utilisateur = new Utilisateur();
+            utilisateur.Show();
         }
     }
 }

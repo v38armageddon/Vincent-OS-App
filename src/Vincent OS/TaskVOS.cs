@@ -5,9 +5,6 @@ namespace Vincent_OS
 {
     public partial class TaskVOS
     {
-        WPF.Bing_Chrome bingChrome = new WPF.Bing_Chrome();
-        WPF.Media media = new WPF.Media();
-
         public TaskVOS()
         {
             InitializeComponent();
@@ -15,32 +12,47 @@ namespace Vincent_OS
 
         private void TaskVOS_Load(object sender, EventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau bureau2 = new Bureau();
+            WPF.Bing_Chrome bingChrome = new WPF.Bing_Chrome();
+            WPF.Media media = new WPF.Media();
+            Applications applications = new Applications();
+            Calc calc = new Calc();
+            exewin exewin = new exewin();
+            game game = new game();
+            MazeGame MazeGame = new MazeGame();
+            Meme meme = new Meme();
+            Notepad Notepad = new Notepad();
+            Paramètres Paramètres = new Paramètres();
+            Paints paints = new Paints();
+            Terminal Terminal = new Terminal();
+            Visio Visio = new Visio();
             #region Application
             if (bingChrome.Visibility == System.Windows.Visibility.Visible)
             {
                 panel1.Visible = true;
             }
-            if (My.MyProject.Forms.Calc.Visible == true)
+            if (calc.Visible == true)
             {
                 panel2.Visible = true;
             }
-            if (My.MyProject.Forms.exewin.Visible == true)
+            if (exewin.Visible == true)
             {
                 panel4.Visible = true;
             }
-            if (My.MyProject.Forms.game.Visible == true)
+            if (game.Visible == true)
             {
                 panel5.Visible = true;
             }
-            if (My.MyProject.Forms.meme.Visible == true)
+            if (meme.Visible == true)
             {
                 panel8.Visible = true;
             }
-            if (My.MyProject.Forms.Notepad.Visible == true)
+            if (Notepad.Visible == true)
             {
                 panel9.Visible = true;
             }
-            if (My.MyProject.Forms.MazeGame.Visible == true)
+            if (MazeGame.Visible == true)
             {
                 panel6.Visible = true;
             }
@@ -48,22 +60,22 @@ namespace Vincent_OS
             {
                 panel7.Visible = true;
             }
-            if (My.MyProject.Forms.paints.Visible == true)
+            if (paints.Visible == true)
             {
                 panel10.Visible = true;
             }
-            if (My.MyProject.Forms.Terminal.Visible == true)
+            if (Terminal.Visible == true)
             {
                 panel12.Visible = true;
             }
-            if (My.MyProject.Forms.Visio.Visible == true)
+            if (Visio.Visible == true)
             {
                 panel13.Visible = true;
             }
             #endregion
             #region Services
 
-            if (My.MyProject.Forms.Applications.Visible == true)
+            if (applications.Visible == true)
             {
                 panel14.Visible = true;
             }
@@ -75,7 +87,7 @@ namespace Vincent_OS
             {
                 panel16.Visible = true;
             }
-            if (My.MyProject.Forms.Paramètres.Visible == true)
+            if (Paramètres.Visible == true)
             {
                 panel17.Visible = true;
             }
@@ -98,17 +110,27 @@ namespace Vincent_OS
         #region Applications
         private void Button1_Click(object sender, EventArgs e)
         {
+            WPF.Bing_Chrome bingChrome = new WPF.Bing_Chrome();
+            WPF.Media media = new WPF.Media();
+            exewin exewin = new exewin();
+            game game = new game();
+            MazeGame MazeGame = new MazeGame();
+            Meme meme = new Meme();
+            Notepad Notepad = new Notepad();
+            Paints paints = new Paints();
+            Terminal Terminal = new Terminal();
+            Visio Visio = new Visio();
             if (RadioButton2.Checked == true)
             {
                 bingChrome.Close();
             }
             else if (RadioButton3.Checked == true)
             {
-                My.MyProject.Forms.meme.Close();
+                meme.Close();
             }
             else if (RadioButton4.Checked == true)
             {
-                My.MyProject.Forms.Notepad.Close();
+                Notepad.Close();
             }
             else if (RadioButton5.Checked == true)
             {
@@ -116,31 +138,27 @@ namespace Vincent_OS
             }
             else if (RadioButton6.Checked == true)
             {
-                My.MyProject.Forms.Visio.Close();
+                Visio.Close();
             }
             else if (RadioButton7.Checked == true)
             {
-                My.MyProject.Forms.paints.Close();
+                paints.Close();
             }
             else if (RadioButton8.Checked == true)
             {
-                My.MyProject.Forms.game.Close();
+                game.Close();
             }
             else if (RadioButton9.Checked == true)
             {
-                My.MyProject.Forms.MazeGame.Close();
+                MazeGame.Close();
             }
             else if (RadioButton10.Checked == true)
             {
-                My.MyProject.Forms.exewin.Close();
+                exewin.Close();
             }
             else if (RadioButton11.Checked == true)
             {
-                My.MyProject.Forms.Terminal.Close();
-            }
-            else if (RadioButton12.Checked == true)
-            {
-                My.MyProject.Forms.Calc.Close();
+                Terminal.Close();
             }
             else
             {
@@ -155,16 +173,19 @@ namespace Vincent_OS
         #region Session
         private void Button2_Click(object sender, EventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau bureau2 = new Bureau();
+            Login login = new Login();
             if (RadioButton17.Checked == true)
             {
                 bureau.Close();
-                My.MyProject.Forms.Login.Show();
+                login.Show();
                 Close();
             }
             else if (RadioButton18.Checked == true)
             {
                 bureau2.Close();
-                My.MyProject.Forms.Login.Show();
+                login.Show();
                 Close();
             }
             else
@@ -178,6 +199,10 @@ namespace Vincent_OS
         #region Services
         private void Button3_Click(object sender, EventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau bureau2 = new Bureau();
+            Applications applications = new Applications();
+            Paramètres Paramètres = new Paramètres();
             if (RadioButton13.Checked == true)
             {
                 bureau.Close();
@@ -188,11 +213,11 @@ namespace Vincent_OS
             }
             else if (RadioButton15.Checked == true)
             {
-                My.MyProject.Forms.Applications.Close();
+                applications.Close();
             }
             else if (RadioButton16.Checked == true)
             {
-                My.MyProject.Forms.Paramètres.Close();
+                Paramètres.Close();
             }
             else
             {

@@ -24,13 +24,15 @@ namespace Vincent_OS
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Login2bureau2.Show();
+            Login2bureau login2Bureau2 = new Login2bureau();
+            login2Bureau2.Show();
             Close();
         }
 
         private void PictureBox4_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.alertelog.Show();
+            alertelog alerteLog = new alertelog();
+            alerteLog.Show();
         }
 
         private void TextBox2_KeyPress(object sender, KeyPressEventArgs e)
@@ -58,8 +60,10 @@ namespace Vincent_OS
             if (TextBox2.Text == "Vincent OS")
             {
                 TextBox2.Text = "";
-                My.MyProject.Forms.Login2bureau.Show();
+                Login2bureau login2Bureau = new Login2bureau();
+                login2Bureau.Show();
                 Close();
+                Dispose();
             }
             else
             {

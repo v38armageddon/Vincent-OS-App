@@ -16,6 +16,9 @@ namespace Vincent_OS.WPF
 {
     public partial class Bing_Chrome : Window
     {
+        Bureau bureau = new Bureau();
+        Bureau2 bureau2 = new Bureau2();
+
         public Bing_Chrome()
         {
             InitializeComponent();

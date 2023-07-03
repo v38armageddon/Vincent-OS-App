@@ -6,10 +6,6 @@ namespace Vincent_OS
 {
     public partial class Meme
     {
-        string userName = Environment.UserName;
-        Bureau bureau = new Bureau();
-        Bureau2 bureau2 = new Bureau2();
-
         public Meme()
         {
             InitializeComponent();
@@ -17,6 +13,8 @@ namespace Vincent_OS
 
         private void meme_Load(object sender, EventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (bureau.Visible == true)
             {
                 bureau.Button16.Visible = true;
@@ -86,25 +84,25 @@ namespace Vincent_OS
 
         private void Button3_Click(object sender, EventArgs e)
         {
-            WebBrowser1.Navigate("C:\\Users\\" + userName + "\\Documents");
+            WebBrowser1.Navigate("C:\\Users\\" + Environment.UserName + "\\Documents");
             TabPage2.Text = Button3.Text;
         }
 
         private void Button4_Click(object sender, EventArgs e)
         {
-            WebBrowser1.Navigate("C:\\Users\\" + userName + "\\Pictures");
+            WebBrowser1.Navigate("C:\\Users\\" + Environment.UserName + "\\Pictures");
             TabPage2.Text = Button4.Text;
         }
 
         private void Button5_Click(object sender, EventArgs e)
         {
-            WebBrowser1.Navigate("C:\\Users\\" + userName + "\\Music");
+            WebBrowser1.Navigate("C:\\Users\\" + Environment.UserName + "\\Music");
             TabPage2.Text = Button5.Text;
         }
 
         private void Button6_Click(object sender, EventArgs e)
         {
-            WebBrowser1.Navigate("C:\\Users\\" + userName + "\\Videos");
+            WebBrowser1.Navigate("C:\\Users\\" + Environment.UserName + "\\Videos");
             TabPage2.Text = Button6.Text;
         }
 
@@ -116,6 +114,8 @@ namespace Vincent_OS
 
         private void meme_FormClosed(object sender, FormClosedEventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (bureau.Visible == true)
             {
                 bureau.Button16.Visible = false;

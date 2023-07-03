@@ -18,13 +18,12 @@ namespace Vincent_OS
             ProgressBar1.Increment(2);
             if (ProgressBar1.Value == 100)
             {
+                Login Login = new Login();
                 Timer1.Stop();
-                My.MyProject.Forms.Login.Show();
-                Hide();
+                Login.Show();
+                Dispose();
                 var backmusic = new System.Media.SoundPlayer(My.Resources.Resources.startingSound);
                 backmusic.Play();
-                GC.Collect();
-                GC.WaitForPendingFinalizers();
             }
         }
     }

@@ -11,11 +11,6 @@ namespace Vincent_OS
 {
     public partial class Custom
     {
-        Registry registry = new Registry();
-        WindowsIdentity identity = WindowsIdentity.GetCurrent();
-        Bureau bureau = new Bureau();
-        Bureau2 bureau2 = new Bureau2();
-
         public Custom()
         {
             InitializeComponent();
@@ -23,6 +18,8 @@ namespace Vincent_OS
 
         private void Ecran_Load(object sender, EventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (bureau.Visible == true)
             {
                 PictureBox1.Image = bureau.FlowLayoutPanel1.BackgroundImage;
@@ -35,6 +32,8 @@ namespace Vincent_OS
         #region Fond d'écran
         private void Button1_Click_1(object sender, EventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             OpenFileDialog1.Filter = "Images|*.jpeg;*.jpg;*.png;*.bmp;"; // Peut être rajouter d'autres types d'images ?
             if (OpenFileDialog1.ShowDialog() == DialogResult.OK)
             {
@@ -53,6 +52,8 @@ namespace Vincent_OS
 
         private void Button2_Click(object sender, EventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (bureau.Visible == true)
             {
                 bureau.FlowLayoutPanel1.BackgroundImage = Button2.BackgroundImage;
@@ -67,6 +68,8 @@ namespace Vincent_OS
 
         private void Button3_Click(object sender, EventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (bureau.Visible == true)
             {
                 bureau.FlowLayoutPanel1.BackgroundImage = Button3.BackgroundImage;
@@ -81,6 +84,8 @@ namespace Vincent_OS
 
         private void Button4_Click(object sender, EventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (bureau.Visible == true)
             {
                 bureau.FlowLayoutPanel1.BackgroundImage = Button4.BackgroundImage;
@@ -96,6 +101,8 @@ namespace Vincent_OS
         #region Icônes
         private void CheckBox1_CheckedChanged_1(object sender, EventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (CheckBox1.Checked == true)
             {
                 if (bureau.Visible == true)
@@ -122,6 +129,8 @@ namespace Vincent_OS
 
         private void CheckBox5_CheckedChanged(object sender, EventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (CheckBox5.Checked == true)
             {
                 if (bureau.Visible == true)
@@ -148,6 +157,8 @@ namespace Vincent_OS
 
         private void CheckBox2_CheckedChanged(object sender, EventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (CheckBox2.Checked == true)
             {
                 if (bureau.Visible == true)
@@ -174,6 +185,8 @@ namespace Vincent_OS
 
         private void CheckBox6_CheckedChanged(object sender, EventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (CheckBox6.Checked == true)
             {
                 if (bureau.Visible == true)
@@ -200,6 +213,8 @@ namespace Vincent_OS
 
         private void CheckBox10_CheckedChanged(object sender, EventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (CheckBox10.Checked == true)
             {
                 if (bureau.Visible == true)
@@ -226,6 +241,8 @@ namespace Vincent_OS
 
         private void CheckBox3_CheckedChanged(object sender, EventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (CheckBox3.Checked == true)
             {
                 if (bureau.Visible == true)
@@ -252,6 +269,8 @@ namespace Vincent_OS
 
         private void CheckBox7_CheckedChanged(object sender, EventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (CheckBox7.Checked == true)
             {
                 if (bureau.Visible == true)
@@ -278,6 +297,8 @@ namespace Vincent_OS
 
         private void CheckBox11_CheckedChanged(object sender, EventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (CheckBox11.Checked == true)
             {
                 if (bureau.Visible == true)
@@ -304,6 +325,8 @@ namespace Vincent_OS
 
         private void CheckBox4_CheckedChanged(object sender, EventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (CheckBox4.Checked == true)
             {
                 if (bureau.Visible == true)
@@ -330,6 +353,8 @@ namespace Vincent_OS
 
         private void CheckBox8_CheckedChanged(object sender, EventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (CheckBox8.Checked == true)
             {
                 if (bureau.Visible == true)
@@ -368,6 +393,8 @@ namespace Vincent_OS
 
         private void button6_Click(object sender, EventArgs e)
         {
+            Registry registry = new Registry();
+            WindowsIdentity identity = WindowsIdentity.GetCurrent();
             WindowsPrincipal principal = new WindowsPrincipal(identity);
             if (radioButton3.Checked)
             {

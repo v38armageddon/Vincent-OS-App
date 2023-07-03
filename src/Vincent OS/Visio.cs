@@ -11,18 +11,20 @@ namespace Vincent_OS
 {
     public partial class Visio
     {
-        public Visio()
-        {
-            InitializeComponent();
-        }
-
         [DllImport("user32.dll", CharSet = CharSet.Auto)]
         private static extern int SystemParametersInfo(int uAction, int uParam, string lpvParam, int fuWinIni);
         private List<string> Images;
         private int Index = 0;
 
+        public Visio()
+        {
+            InitializeComponent();
+        }
+
         private void Form1_Load(object sender, EventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (bureau.Visible == true)
             {
                 bureau.Button20.Visible = true;
@@ -178,6 +180,8 @@ namespace Vincent_OS
 
         private void Visio_FormClosed(object sender, FormClosedEventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (bureau.Visible == true)
             {
                 bureau.Button20.Visible = false;

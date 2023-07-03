@@ -20,6 +20,9 @@ namespace Vincent_OS.WPF
 {
     public partial class Media : Window
     {
+        Bureau bureau = new Bureau();
+        Bureau2 bureau2 = new Bureau2();
+
         public Media()
         {
             InitializeComponent();

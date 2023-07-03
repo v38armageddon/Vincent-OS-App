@@ -7,16 +7,15 @@ namespace Vincent_OS
 {
     public partial class alertelog
     {
-        Bureau bureau = new Bureau();
-        Bureau2 bureau2 = new Bureau2();
-        Login login = new Login();
-
         public alertelog()
         {
             InitializeComponent();
         }
         private void Button1_Click(object sender, EventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
+            Login login = new Login();
             Arrêt arrêt = new Arrêt();
             switch (ComboBox1.SelectedItem)
             {

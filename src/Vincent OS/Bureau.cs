@@ -7,11 +7,6 @@ namespace Vincent_OS
 {
     public partial class Bureau
     {
-        WPF.Bing_Chrome bingChrome = new WPF.Bing_Chrome();
-        WPF.Media media = new WPF.Media();
-        Login login = new Login();
-        alertelog alertelog = new alertelog();
-
         public Bureau()
         {
             InitializeComponent();
@@ -19,8 +14,9 @@ namespace Vincent_OS
 
         private void Bureau_Load(object sender, EventArgs e)
         {
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.WindowState = FormWindowState.Maximized;
             Timer1.Start();
+            Login login = new Login();
             if (login.Label2.Text == "Superutilisateur")
             {
                 Text = "Bureau - Session Superutilisateur";
@@ -61,6 +57,7 @@ namespace Vincent_OS
 
         private void Button1_Click(object sender, EventArgs e)
         {
+            alertelog alertelog = new alertelog();
             alertelog.Show();
         }
 
@@ -78,6 +75,7 @@ namespace Vincent_OS
 
         private void Button2_Click(object sender, EventArgs e)
         {
+            WPF.Bing_Chrome bingChrome = new WPF.Bing_Chrome();
             bingChrome.Show();
         }
 
@@ -89,6 +87,7 @@ namespace Vincent_OS
 
         private void Button4_Click(object sender, EventArgs e)
         {
+            WPF.Media media = new WPF.Media();
             media.Show();
         }
 
@@ -165,6 +164,7 @@ namespace Vincent_OS
         // Cette partie permet quand la fenêtre est trop caché par le bureau, qu'on puisse la récupérer via un bouton sans faire alt+tab
         private void Button15_Click(object sender, EventArgs e)
         {
+            WPF.Bing_Chrome bingChrome = new WPF.Bing_Chrome();
             bingChrome.Activate();
             bingChrome.Topmost = true;
             bingChrome.Topmost = false;
@@ -185,6 +185,7 @@ namespace Vincent_OS
 
         private void Button19_Click(object sender, EventArgs e)
         {
+            WPF.Media media = new WPF.Media();
             media.Activate();
             media.Topmost = true;
             media.Topmost = false;

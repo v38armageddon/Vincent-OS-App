@@ -6,9 +6,6 @@ namespace Vincent_OS
 {
     public partial class Paints
     {
-        Bureau bureau = new Bureau();
-        Bureau2 bureau2 = new Bureau2();
-
         // Tout ceci permet de faire fonctionner les outils de dessins
         private Bitmap b = new Bitmap(1000, 1000);
         private string tool = "pencil";
@@ -35,6 +32,8 @@ namespace Vincent_OS
 
         private void paints_Load(object sender, EventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (bureau.Visible == true)
             {
                 bureau.Button21.Visible = true;
@@ -220,6 +219,8 @@ namespace Vincent_OS
 
         private void paints_FormClosed(object sender, FormClosedEventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (bureau.Visible == true)
             {
                 bureau.Button21.Visible = false;

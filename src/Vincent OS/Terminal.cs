@@ -5,8 +5,6 @@ namespace Vincent_OS
 {
     public partial class Terminal
     {
-        Bureau bureau = new Bureau();
-        Bureau2 bureau2 = new Bureau2();
         public Terminal()
         {
             InitializeComponent();
@@ -14,6 +12,8 @@ namespace Vincent_OS
 
         private void Terminal_Load(object sender, EventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (bureau.Visible == true)
             {
                 bureau.Button24.Visible = true;
@@ -41,6 +41,8 @@ namespace Vincent_OS
 
         private void Terminal_FormClosed(object sender, FormClosedEventArgs e)
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (bureau.Visible == true)
             {
                 bureau.Button24.Visible = false;
@@ -55,12 +57,14 @@ namespace Vincent_OS
 
         private void commande()
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (TextBox1.Text == "ver")
             {
                 // ATTENTION A BIEN CHANGER LA VERSION CAR JE VAIS SUREMENT OUBLIER A LA PROCHAINE VERSION !!!!!!!!!!!
-                RichTextBox1.Text = 
-                    "Nom du système d'exploitation : Vincent OS\n" +
-                    "Version : 10\n" +
+                RichTextBox1.Text =
+                    "Nom du système d'exploitation : Vincent OS App\n" +
+                    "Version : 10.1\n" +
                     "Branche : Officiel";
                 TextBox1.Text = "";
             }
@@ -111,7 +115,7 @@ namespace Vincent_OS
             }
             else if (TextBox1.Text == "Meme")
             {
-                meme meme = new meme();
+                Meme meme = new Meme();
                 meme.Show();
                 TextBox1.Text = "";
             }
@@ -123,7 +127,7 @@ namespace Vincent_OS
             }
             else if (TextBox1.Text == "Paint")
             {
-                paints paints = new paints();
+                Meme paints = new Meme();
                 paints.Show();
                 TextBox1.Text = "";
             }
@@ -139,11 +143,29 @@ namespace Vincent_OS
                 visio.Show();
                 TextBox1.Text = "";
             }
+            else if (TextBox1.Text == "ls")
+            {
+                RichTextBox1.Text =
+                    "vincentOS\\Apps" +
+                    "vincentOS\\Users" +
+                    "vincentOS\\Sys";
+                TextBox1.Text = "";
+            }
+            else if (TextBox1.Text == "hello")
+            {
+                RichTextBox1.Text = "Bienvenue sur Vincent OS App!\nTout réécrit en C# !";
+                TextBox1.Text = "";
+            }
+            else if (TextBox1.Text == "clear")
+            {
+                RichTextBox1.Text = "";
+                TextBox1.Text = "";
+            }
             // Ici commence les commandes de Debug, à utiliser avec précaution !
 
             else if (TextBox1.Text == "Debug_Options")
             {
-                RichTextBox1.Text = 
+                RichTextBox1.Text =
                     "[DEBUG]: Enter a valid command.\n" +
                     "Debug_Options_Help";
                 TextBox1.Text = "";
@@ -178,7 +200,7 @@ namespace Vincent_OS
             }
             else if (TextBox1.Text == "Debug_Help")
             {
-                RichTextBox1.Text = 
+                RichTextBox1.Text =
                     "Debug_AlerteLog\n" +
                     "Debug_App_ForceCrash\n" +
                     "Debug_Options\n" +
