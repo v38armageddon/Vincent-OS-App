@@ -5,7 +5,6 @@ using System.Windows.Forms;
 
 namespace Vincent_OS
 {
-    [Microsoft.VisualBasic.CompilerServices.DesignerGenerated()]
     public partial class Custom : Form
     {
 
@@ -509,7 +508,6 @@ namespace Vincent_OS
             this.RadioButton2.TabIndex = 14;
             this.RadioButton2.Text = "Plein écran\r\n";
             this.RadioButton2.UseVisualStyleBackColor = true;
-            this.RadioButton2.CheckedChanged += new System.EventHandler(this.RadioButton2_CheckedChanged);
             // 
             // RadioButton1
             // 
@@ -522,7 +520,6 @@ namespace Vincent_OS
             this.RadioButton1.TabIndex = 13;
             this.RadioButton1.Text = "[Legacy] Fenêtré";
             this.RadioButton1.UseVisualStyleBackColor = true;
-            this.RadioButton1.CheckedChanged += new System.EventHandler(this.RadioButton1_CheckedChanged);
             // 
             // Label2
             // 

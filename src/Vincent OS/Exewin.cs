@@ -14,13 +14,15 @@ namespace Vincent_OS
 
         private void exewin_Load(object sender, EventArgs e)
         {
-            if (My.MyProject.Forms.Bureau.Visible == true)
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
+            if (bureau.Visible == true)
             {
-                My.MyProject.Forms.Bureau.Button23.Visible = true;
+                bureau.Button23.Visible = true;
             }
-            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            else if (bureau2.Visible == true)
             {
-                My.MyProject.Forms.Bureau2.Button23.Visible = true;
+                bureau2.Button23.Visible = true;
             }
         }
         private void Button1_Click_1(object sender, EventArgs e)
@@ -38,13 +40,15 @@ namespace Vincent_OS
 
         private void exewin_FormClosed(object sender, FormClosedEventArgs e)
         {
-            if (My.MyProject.Forms.Bureau.Visible == true)
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
+            if (bureau.Visible == true)
             {
-                My.MyProject.Forms.Bureau.Button23.Visible = false;
+                bureau.Button23.Visible = false;
             }
-            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            else if (bureau2.Visible == true)
             {
-                My.MyProject.Forms.Bureau2.Button23.Visible = false;
+                bureau2.Button23.Visible = false;
             }
             GC.Collect();
             GC.WaitForPendingFinalizers();

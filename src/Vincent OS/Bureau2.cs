@@ -1,7 +1,6 @@
 ﻿using System;
+using System.Net.NetworkInformation;
 using System.Runtime.InteropServices;
-using Microsoft.VisualBasic;
-using Microsoft.VisualBasic.CompilerServices;
 
 namespace Vincent_OS
 {
@@ -9,6 +8,8 @@ namespace Vincent_OS
     {
         WPF.Bing_Chrome bingChrome = new WPF.Bing_Chrome();
         WPF.Media media = new WPF.Media();
+        Login login = new Login();
+        alertelog alertelog = new alertelog();
 
         public Bureau2()
         {
@@ -19,17 +20,17 @@ namespace Vincent_OS
         {
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             Timer1.Start();
-            if (My.MyProject.Forms.Login.Label3.Text == "Invité")
+            if (login.Label3.Text == "Invité")
             {
                 Text = "Bureau - Session Invité";
                 Label3.Text = "Invité";
             }
             else
             {
-                Text = "Bureau - Session " + My.MyProject.Forms.Login.Label3.Text;
-                Label3.Text = My.MyProject.Forms.Login.Label3.Text;
+                Text = "Bureau - Session " + login.Label3.Text;
+                Label3.Text = login.Label3.Text;
             }
-            if (My.MyProject.Computer.Network.IsAvailable)
+            if (NetworkInterface.GetIsNetworkAvailable())
             {
                 PictureBox5.Visible = true;
             }
@@ -53,13 +54,13 @@ namespace Vincent_OS
 
         private void Timer1_Tick(object sender, EventArgs e)
         {
-            Label2.Text = Conversions.ToString(DateAndTime.TimeOfDay);
-            Label1.Text = Conversions.ToString(DateTime.Today);
+            DateTime time = DateTime.Today;
+            Label1.Text = time.ToString();
         }
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.alertelog.Show();
+            alertelog.Show();
         }
 
         private void PictureBox2_Click(object sender, EventArgs e)
@@ -81,7 +82,8 @@ namespace Vincent_OS
 
         private void Button3_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.meme.Show();
+            Meme meme = new Meme();
+            meme.Show();
         }
 
         private void Button4_Click(object sender, EventArgs e)
@@ -91,53 +93,61 @@ namespace Vincent_OS
 
         private void Button5_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Visio.Show();
+            Visio visio = new Visio();
+            visio.Show();
         }
 
         private void Button6_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Notepad.Show();
+            Notepad notepad = new Notepad();
+            notepad.Show();
         }
 
         private void Button8_Click(object sender, EventArgs e)
         {
             Hide();
-            My.MyProject.Forms.Login.Show();
+            login.Show();
         }
 
         private void Button9_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.exewin.Show();
+            exewin exewin = new exewin();
+            exewin.Show();
         }
 
         private void Button11_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Paramètres.Show();
+            Paramètres paramètres = new Paramètres();
+            paramètres.Show();
         }
 
         private void Button12_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Applications.Show();
-            if (My.MyProject.Forms.Applications.Visible == true)
+            Applications applications = new Applications();
+            applications.Show();
+            if (applications.Visible == true)
             {
-                My.MyProject.Forms.Applications.BringToFront();
+                applications.BringToFront();
             }
         }
 
         private void Button13_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.game.Show();
+            game game = new game();
+            game.Show();
         }
 
         private void Button14_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.paints.Show();
+            Paints paints = new Paints();
+            paints.Show();
         }
 
         private void Button11_Click_1(object sender, EventArgs e)
         {
-            My.MyProject.Forms.UAC.Text = "Bureau2.SerVOS a besoin de votre autorisation !";
-            My.MyProject.Forms.UAC.Show();
+            UAC UAC = new UAC();
+            UAC.Text = "Bureau2.SerVOS a besoin de votre autorisation !";
+            UAC.Show();
         }
 
         private void Label2_Click_1(object sender, EventArgs e)
@@ -163,12 +173,14 @@ namespace Vincent_OS
 
         private void Button16_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.meme.BringToFront();
+            Meme meme = new Meme();
+            meme.BringToFront();
         }
 
         private void Button17_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Notepad.BringToFront();
+            Notepad notepad = new Notepad();
+            notepad.BringToFront();
         }
 
         private void Button19_Click(object sender, EventArgs e)
@@ -181,32 +193,38 @@ namespace Vincent_OS
 
         private void Button20_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Visio.BringToFront();
+            Visio visio = new Visio();
+            visio.BringToFront();
         }
 
         private void Button21_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.paints.BringToFront();
+            Paints paints = new Paints();
+            paints.BringToFront();
         }
 
         private void Button22_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.game.BringToFront();
+            game game = new game();
+            game.BringToFront();
         }
 
         private void Button23_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.exewin.BringToFront();
+            exewin exewin = new exewin();
+            exewin.BringToFront();
         }
 
         private void Button24_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Terminal.BringToFront();
+            Terminal terminal = new Terminal();
+            terminal.BringToFront();
         }
 
         private void Button26_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Calc.BringToFront();
+            Calc calc = new Calc();
+            calc.BringToFront();
         }
 
         private void FlowLayoutPanel1_Click(object sender, EventArgs e)
@@ -231,8 +249,9 @@ namespace Vincent_OS
 
         private void Button7_Click(object sender, EventArgs e)
         {
-            My.MyProject.Forms.UAC.Text = "Bureau2.SerVOS a besoin de votre autorisation !";
-            My.MyProject.Forms.UAC.Show();
+            UAC UAC = new UAC();
+            UAC.Text = "Bureau2.SerVOS a besoin de votre autorisation !";
+            UAC.Show();
         }
 
         private void PictureBox5_MouseHover(object sender, EventArgs e)

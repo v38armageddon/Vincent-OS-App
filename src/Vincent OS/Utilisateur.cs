@@ -11,48 +11,57 @@ namespace Vincent_OS
 
         private void Utilisateur_Load(object sender, EventArgs e)
         {
-            if (My.MyProject.Forms.Bureau.Visible == true)
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
+            Login login = new Login();
+            if (bureau.Visible == true)
             {
-                if (My.MyProject.Forms.Login.Label2.Text == "Superutilisateur")
+                if (login.Label2.Text == "Superutilisateur")
                 {
                     Label2.Text = "Superutilisateur";
                 }
                 else
                 {
-                    Label2.Text = My.MyProject.Forms.Login.Label2.Text;
+                    Label2.Text = login.Label2.Text;
                 }
             }
-            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            else if (bureau2.Visible == true)
             {
-                if (My.MyProject.Forms.Login.Label3.Text == "Invité")
+                if (login.Label3.Text == "Invité")
                 {
                     Label2.Text = "Invité";
                 }
                 else
                 {
-                    Label2.Text = My.MyProject.Forms.Login.Label3.Text;
+                    Label2.Text = login.Label3.Text;
                 }
             }
         }
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            if (My.MyProject.Forms.Bureau.Visible == true)
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
+            Login login = new Login();
+            Login2bureau login2bureau = new Login2bureau();
+            Login2bureau2 login2bureau2 = new Login2bureau2();
+            Paramètres paramètres = new Paramètres();
+            if (bureau.Visible == true)
             {
-                My.MyProject.Forms.Login.Label2.Text = TextBox1.Text;
-                My.MyProject.Forms.Login2bureau.Text = "Bienvenue sur Vincent OS : " + TextBox1.Text;
-                My.MyProject.Forms.Bureau.Text = "Bureau - Session " + TextBox1.Text;
-                My.MyProject.Forms.Bureau.Label3.Text = TextBox1.Text;
-                My.MyProject.Forms.Paramètres.Label7.Text = "Utilisateur : " + TextBox1.Text;
+                login.Label2.Text = TextBox1.Text;
+                login2bureau.Text = "Bienvenue sur Vincent OS : " + TextBox1.Text;
+                bureau.Text = "Bureau - Session " + TextBox1.Text;
+                bureau.Label3.Text = TextBox1.Text;
+                paramètres.Label7.Text = "Utilisateur : " + TextBox1.Text;
                 Label2.Text = TextBox1.Text;
             }
-            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            else if (bureau2.Visible == true)
             {
-                My.MyProject.Forms.Login.Label3.Text = TextBox1.Text;
-                My.MyProject.Forms.Login2bureau2.Text = "Bienvenue sur Vincent OS : " + TextBox1.Text;
-                My.MyProject.Forms.Bureau2.Text = "Bureau - Session " + TextBox1.Text;
-                My.MyProject.Forms.Bureau2.Label3.Text = TextBox1.Text;
-                My.MyProject.Forms.Paramètres.Label7.Text = "Utilisateur : " + TextBox1.Text;
+                login.Label3.Text = TextBox1.Text;
+                login2bureau2.Text = "Bienvenue sur Vincent OS : " + TextBox1.Text;
+                bureau2.Text = "Bureau - Session " + TextBox1.Text;
+                bureau2.Label3.Text = TextBox1.Text;
+                paramètres.Label7.Text = "Utilisateur : " + TextBox1.Text;
                 Label2.Text = TextBox1.Text;
             }
         }

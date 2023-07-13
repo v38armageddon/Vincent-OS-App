@@ -20,6 +20,9 @@ namespace Vincent_OS.WPF
 {
     public partial class Media : Window
     {
+        Bureau bureau = new Bureau();
+        Bureau2 bureau2 = new Bureau2();
+
         public Media()
         {
             InitializeComponent();
@@ -27,13 +30,13 @@ namespace Vincent_OS.WPF
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            if (My.MyProject.Forms.Bureau.Visible == true)
+            if (bureau.Visible == true)
             {
-                My.MyProject.Forms.Bureau.Button19.Visible = true;
+                bureau.Button19.Visible = true;
             }
-            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            else if (bureau2.Visible == true)
             {
-                My.MyProject.Forms.Bureau2.Button19.Visible = true;
+                bureau2.Button19.Visible = true;
             }
         }
 
@@ -98,13 +101,13 @@ namespace Vincent_OS.WPF
 
         private void Window_Closed(object sender, EventArgs e)
         {
-            if (My.MyProject.Forms.Bureau.Visible == true)
+            if (bureau.Visible == true)
             {
-                My.MyProject.Forms.Bureau.Button19.Visible = false;
+                bureau.Button19.Visible = false;
             }
-            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            else if (bureau2.Visible == true)
             {
-                My.MyProject.Forms.Bureau2.Button19.Visible = false;
+                bureau2.Button19.Visible = false;
             }
             GC.Collect();
             GC.WaitForPendingFinalizers();

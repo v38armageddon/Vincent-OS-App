@@ -7,6 +7,7 @@ using System.Reflection;
 using System.Security.Principal;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.DataFormats;
 
 namespace Vincent_OS
 {
@@ -15,7 +16,6 @@ namespace Vincent_OS
         static Custom custom = new Custom();
 
         [STAThread]
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Interoperability", "CA1416:Valider la compatibilité de la plateforme", Justification = "<En attente>")]
         static void Main()
         {
             Application.EnableVisualStyles();
@@ -25,26 +25,36 @@ namespace Vincent_OS
             RegistryKey rk = Registry.LocalMachine.OpenSubKey("SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Winlogon", false);
             string shell = "Shell";
             Object o = rk.GetValue(shell);
+            var main1 = new Démarrage();
+            var main2 = new Bureau();
             if ((string)o == "explorer.exe")
             {
-                Application.Run(new Démarrage());
+                main1.FormClosed += new FormClosedEventHandler(FormClosed);
+                main1.Show();
+                Application.Run();
                 custom.radioButton3.Checked = true;
             }
-            else if ((string)o == "C:\\Program Files\\WindowsApps\\34823v38armageddon.VincentOSApp_10.0.0.0_x64__ysx05jt3gv6z0\\Vincent OS\\Vincent OS.exe")
+            else if ((string)o == "C:\\Program Files\\WindowsApps\\34823v38armageddon.VincentOSApp_10.1.0.0_x64__ysx05jt3gv6z0\\Vincent OS\\Vincent OS.exe")
             {
                 AdminRelauncher();
-                Application.Run(new Bureau());
+                main2.FormClosed += new FormClosedEventHandler(FormClosed);
+                main2.Show();
+                Application.Run();
                 custom.radioButton4.Checked = true;
             }
-            else if ((string)o == "C:\\Program Files (x86)\\Vincent OS App\\Vincent OS.exe")
+            else if ((string)o == "C:\\Program Files\\Vincent OS App\\Vincent OS.exe")
             {
                 AdminRelauncher();
-                Application.Run(new Bureau());
+                main2.FormClosed += new FormClosedEventHandler(FormClosed);
+                main2.Show();
+                Application.Run();
                 custom.radioButton4.Checked = true;
             }
             else
             {
-                Application.Run(new Démarrage());
+                main1.FormClosed += new FormClosedEventHandler(FormClosed);
+                main1.Show();
+                Application.Run();
                 // L'utilisateur sous un autre OS ne peut pas accéder au Shell, bah oui, c'est réservé à Windows ces trucs.
                 custom.TabControl1.TabPages.Remove(custom.TabPage4);
             }

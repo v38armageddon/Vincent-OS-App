@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Windows.Forms;
-using Microsoft.VisualBasic;
 
 namespace Vincent_OS
 {
@@ -13,13 +12,15 @@ namespace Vincent_OS
 
         private void Terminal_Load(object sender, EventArgs e)
         {
-            if (My.MyProject.Forms.Bureau.Visible == true)
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
+            if (bureau.Visible == true)
             {
-                My.MyProject.Forms.Bureau.Button24.Visible = true;
+                bureau.Button24.Visible = true;
             }
-            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            else if (bureau2.Visible == true)
             {
-                My.MyProject.Forms.Bureau2.Button24.Visible = true;
+                bureau2.Button24.Visible = true;
             }
         }
 
@@ -40,13 +41,15 @@ namespace Vincent_OS
 
         private void Terminal_FormClosed(object sender, FormClosedEventArgs e)
         {
-            if (My.MyProject.Forms.Bureau.Visible == true)
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
+            if (bureau.Visible == true)
             {
-                My.MyProject.Forms.Bureau.Button24.Visible = false;
+                bureau.Button24.Visible = false;
             }
-            else if (My.MyProject.Forms.Bureau2.Visible == true)
+            else if (bureau2.Visible == true)
             {
-                My.MyProject.Forms.Bureau2.Button24.Visible = false;
+                bureau2.Button24.Visible = false;
             }
             GC.Collect();
             GC.WaitForPendingFinalizers();
@@ -54,12 +57,14 @@ namespace Vincent_OS
 
         private void commande()
         {
+            Bureau bureau = new Bureau();
+            Bureau2 bureau2 = new Bureau2();
             if (TextBox1.Text == "ver")
             {
                 // ATTENTION A BIEN CHANGER LA VERSION CAR JE VAIS SUREMENT OUBLIER A LA PROCHAINE VERSION !!!!!!!!!!!
-                RichTextBox1.Text = 
-                    "Nom du système d'exploitation : Vincent OS\n" +
-                    "Version : 10\n" +
+                RichTextBox1.Text =
+                    "Nom du système d'exploitation : Vincent OS App\n" +
+                    "Version : 10.1\n" +
                     "Branche : Officiel";
                 TextBox1.Text = "";
             }
@@ -86,17 +91,20 @@ namespace Vincent_OS
             }
             else if (TextBox1.Text == "Calc")
             {
-                My.MyProject.Forms.Calc.Show();
+                Calc calc = new Calc();
+                calc.Show();
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Exewin")
             {
-                My.MyProject.Forms.exewin.Show();
+                exewin exewin = new exewin();
+                exewin.Show();
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Game")
             {
-                My.MyProject.Forms.game.Show();
+                game game = new game();
+                game.Show();
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "MediaPlayer")
@@ -107,44 +115,67 @@ namespace Vincent_OS
             }
             else if (TextBox1.Text == "Meme")
             {
-                My.MyProject.Forms.meme.Show();
+                Meme meme = new Meme();
+                meme.Show();
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Notepad")
             {
-                My.MyProject.Forms.Notepad.Show();
+                Notepad notepad = new Notepad();
+                notepad.Show();
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Paint")
             {
-                My.MyProject.Forms.paints.Show();
+                Meme paints = new Meme();
+                paints.Show();
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Terminal")
             {
-                var cp = new Terminal();
-                cp.Show();
+                Terminal terminal = new Terminal();
+                terminal.Show();
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Visio")
             {
-                My.MyProject.Forms.Visio.Show();
+                Visio visio = new Visio();
+                visio.Show();
+                TextBox1.Text = "";
+            }
+            else if (TextBox1.Text == "ls")
+            {
+                RichTextBox1.Text =
+                    "vincentOS\\Apps" +
+                    "vincentOS\\Users" +
+                    "vincentOS\\Sys";
+                TextBox1.Text = "";
+            }
+            else if (TextBox1.Text == "hello")
+            {
+                RichTextBox1.Text = "Bienvenue sur Vincent OS App!\nTout réécrit en C# !";
+                TextBox1.Text = "";
+            }
+            else if (TextBox1.Text == "clear")
+            {
+                RichTextBox1.Text = "";
                 TextBox1.Text = "";
             }
             // Ici commence les commandes de Debug, à utiliser avec précaution !
 
             else if (TextBox1.Text == "Debug_Options")
             {
-                RichTextBox1.Text = 
+                RichTextBox1.Text =
                     "[DEBUG]: Enter a valid command.\n" +
                     "Debug_Options_Help";
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Debug_Options_Custom")
             {
-                if (My.MyProject.Forms.Bureau.Visible == true | My.MyProject.Forms.Bureau2.Visible == true)
+                if (bureau.Visible == true | bureau2.Visible == true)
                 {
-                    My.MyProject.Forms.Custom.Show();
+                    Custom custom = new Custom();
+                    custom.Show();
                 }
                 else
                 {
@@ -163,12 +194,13 @@ namespace Vincent_OS
             }
             else if (TextBox1.Text == "Debug_AlerteLog")
             {
-                My.MyProject.Forms.alertelog.Show();
+                alertelog alertelog = new alertelog();
+                alertelog.Show();
                 TextBox1.Text = "";
             }
             else if (TextBox1.Text == "Debug_Help")
             {
-                RichTextBox1.Text = 
+                RichTextBox1.Text =
                     "Debug_AlerteLog\n" +
                     "Debug_App_ForceCrash\n" +
                     "Debug_Options\n" +

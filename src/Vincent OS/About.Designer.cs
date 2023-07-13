@@ -5,7 +5,6 @@ using System.Windows.Forms;
 
 namespace Vincent_OS
 {
-    [Microsoft.VisualBasic.CompilerServices.DesignerGenerated()]
     public partial class About : Form
     {
 
@@ -36,125 +35,125 @@ namespace Vincent_OS
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(About));
-            this.Label1 = new System.Windows.Forms.Label();
-            this.Label2 = new System.Windows.Forms.Label();
-            this.Label3 = new System.Windows.Forms.Label();
-            this.Label5 = new System.Windows.Forms.Label();
-            this.PictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.SuspendLayout();
+            Label1 = new Label();
+            Label2 = new Label();
+            Label3 = new Label();
+            Label5 = new Label();
+            PictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            linkLabel1 = new LinkLabel();
+            ((System.ComponentModel.ISupportInitialize)PictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            SuspendLayout();
             // 
             // Label1
             // 
-            this.Label1.AutoSize = true;
-            this.Label1.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.Label1.ForeColor = System.Drawing.Color.White;
-            this.Label1.Location = new System.Drawing.Point(231, 14);
-            this.Label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Label1.Name = "Label1";
-            this.Label1.Size = new System.Drawing.Size(231, 40);
-            this.Label1.TabIndex = 1;
-            this.Label1.Text = "Vincent OS App";
+            Label1.AutoSize = true;
+            Label1.Font = new Font("Segoe UI", 21.75F, FontStyle.Bold, GraphicsUnit.Point);
+            Label1.ForeColor = Color.White;
+            Label1.Location = new Point(231, 14);
+            Label1.Margin = new Padding(4, 0, 4, 0);
+            Label1.Name = "Label1";
+            Label1.Size = new Size(231, 40);
+            Label1.TabIndex = 1;
+            Label1.Text = "Vincent OS App";
             // 
             // Label2
             // 
-            this.Label2.AutoSize = true;
-            this.Label2.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Label2.ForeColor = System.Drawing.Color.White;
-            this.Label2.Location = new System.Drawing.Point(231, 54);
-            this.Label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Label2.Name = "Label2";
-            this.Label2.Size = new System.Drawing.Size(164, 40);
-            this.Label2.TabIndex = 2;
-            this.Label2.Text = "Version : 10";
+            Label2.AutoSize = true;
+            Label2.Font = new Font("Segoe UI", 21.75F, FontStyle.Regular, GraphicsUnit.Point);
+            Label2.ForeColor = Color.White;
+            Label2.Location = new Point(231, 54);
+            Label2.Margin = new Padding(4, 0, 4, 0);
+            Label2.Name = "Label2";
+            Label2.Size = new Size(186, 40);
+            Label2.TabIndex = 2;
+            Label2.Text = "Version : 10.1";
             // 
             // Label3
             // 
-            this.Label3.AutoSize = true;
-            this.Label3.Font = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Label3.ForeColor = System.Drawing.Color.White;
-            this.Label3.Location = new System.Drawing.Point(232, 130);
-            this.Label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Label3.Name = "Label3";
-            this.Label3.Size = new System.Drawing.Size(258, 34);
-            this.Label3.TabIndex = 3;
-            this.Label3.Text = "Ce système d\'exploitation est Open Source\r\nsoumis sous la licence :";
+            Label3.AutoSize = true;
+            Label3.Font = new Font("Segoe UI", 9.75F, FontStyle.Regular, GraphicsUnit.Point);
+            Label3.ForeColor = Color.White;
+            Label3.Location = new Point(232, 130);
+            Label3.Margin = new Padding(4, 0, 4, 0);
+            Label3.Name = "Label3";
+            Label3.Size = new Size(258, 34);
+            Label3.TabIndex = 3;
+            Label3.Text = "Ce système d'exploitation est Open Source\r\nsoumis sous la licence :";
             // 
             // Label5
             // 
-            this.Label5.AutoSize = true;
-            this.Label5.Font = new System.Drawing.Font("Segoe UI", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Label5.ForeColor = System.Drawing.Color.White;
-            this.Label5.Location = new System.Drawing.Point(231, 93);
-            this.Label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
-            this.Label5.Name = "Label5";
-            this.Label5.Size = new System.Drawing.Size(214, 37);
-            this.Label5.TabIndex = 5;
-            this.Label5.Text = "Branche : Officiel";
+            Label5.AutoSize = true;
+            Label5.Font = new Font("Segoe UI", 20.25F, FontStyle.Regular, GraphicsUnit.Point);
+            Label5.ForeColor = Color.White;
+            Label5.Location = new Point(231, 93);
+            Label5.Margin = new Padding(4, 0, 4, 0);
+            Label5.Name = "Label5";
+            Label5.Size = new Size(214, 37);
+            Label5.TabIndex = 5;
+            Label5.Text = "Branche : Officiel";
             // 
             // PictureBox1
             // 
-            this.PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("PictureBox1.Image")));
-            this.PictureBox1.Location = new System.Drawing.Point(14, 14);
-            this.PictureBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.PictureBox1.Name = "PictureBox1";
-            this.PictureBox1.Size = new System.Drawing.Size(209, 209);
-            this.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.PictureBox1.TabIndex = 0;
-            this.PictureBox1.TabStop = false;
-            this.PictureBox1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.PictureBox1_MouseClick);
+            PictureBox1.Image = (Image)resources.GetObject("PictureBox1.Image");
+            PictureBox1.Location = new Point(14, 14);
+            PictureBox1.Margin = new Padding(4, 3, 4, 3);
+            PictureBox1.Name = "PictureBox1";
+            PictureBox1.Size = new Size(209, 209);
+            PictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            PictureBox1.TabIndex = 0;
+            PictureBox1.TabStop = false;
+            PictureBox1.MouseClick += PictureBox1_MouseClick;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(280, 193);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(210, 39);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 6;
-            this.pictureBox2.TabStop = false;
+            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
+            pictureBox2.Location = new Point(280, 193);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(210, 39);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox2.TabIndex = 6;
+            pictureBox2.TabStop = false;
             // 
             // linkLabel1
             // 
-            this.linkLabel1.AutoSize = true;
-            this.linkLabel1.LinkColor = System.Drawing.Color.White;
-            this.linkLabel1.Location = new System.Drawing.Point(377, 149);
-            this.linkLabel1.Name = "linkLabel1";
-            this.linkLabel1.Size = new System.Drawing.Size(39, 15);
-            this.linkLabel1.TabIndex = 7;
-            this.linkLabel1.TabStop = true;
-            this.linkLabel1.Text = "GPL-3";
-            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
+            linkLabel1.AutoSize = true;
+            linkLabel1.LinkColor = Color.White;
+            linkLabel1.Location = new Point(377, 149);
+            linkLabel1.Name = "linkLabel1";
+            linkLabel1.Size = new Size(39, 15);
+            linkLabel1.TabIndex = 7;
+            linkLabel1.TabStop = true;
+            linkLabel1.Text = "GPL-3";
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
             // 
             // About
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.Black;
-            this.ClientSize = new System.Drawing.Size(502, 244);
-            this.Controls.Add(this.linkLabel1);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.Label5);
-            this.Controls.Add(this.Label3);
-            this.Controls.Add(this.Label2);
-            this.Controls.Add(this.Label1);
-            this.Controls.Add(this.PictureBox1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.MaximizeBox = false;
-            this.Name = "About";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "A propos";
-            ((System.ComponentModel.ISupportInitialize)(this.PictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.ResumeLayout(false);
-            this.PerformLayout();
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.Black;
+            ClientSize = new Size(502, 244);
+            Controls.Add(linkLabel1);
+            Controls.Add(pictureBox2);
+            Controls.Add(Label5);
+            Controls.Add(Label3);
+            Controls.Add(Label2);
+            Controls.Add(Label1);
+            Controls.Add(PictureBox1);
+            FormBorderStyle = FormBorderStyle.FixedSingle;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Margin = new Padding(4, 3, 4, 3);
+            MaximizeBox = false;
+            Name = "About";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "A propos";
+            ((System.ComponentModel.ISupportInitialize)PictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ResumeLayout(false);
+            PerformLayout();
         }
+
         internal PictureBox PictureBox1;
         internal Label Label1;
         internal Label Label2;

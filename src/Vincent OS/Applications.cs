@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
-using System.Management;
 using System.Windows.Forms;
 
 namespace Vincent_OS
@@ -23,12 +22,14 @@ namespace Vincent_OS
 
         private void Button2_Click_1(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Notepad.Show();
+            Notepad notepad = new Notepad();
+            notepad.Show();
         }
 
         private void Button3_Click_1(object sender, EventArgs e)
         {
-            My.MyProject.Forms.meme.Show();
+            Meme meme = new Meme();
+            meme.Show();
         }
 
         private void Button5_Click_1(object sender, EventArgs e)
@@ -39,32 +40,38 @@ namespace Vincent_OS
 
         private void Button9_Click_1(object sender, EventArgs e)
         {
-            My.MyProject.Forms.paints.Show();
+            Paints paints = new Paints();
+            paints.Show();
         }
 
         private void Button6_Click_1(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Visio.Show();
+            Visio visio = new Visio();
+            visio.Show();
         }
 
         private void Button8_Click_1(object sender, EventArgs e)
         {
-            My.MyProject.Forms.game.Show();
+            game game = new game();
+            game.Show();
         }
 
         private void Button7_Click_1(object sender, EventArgs e)
         {
-            My.MyProject.Forms.exewin.Show();
+            exewin exewin = new exewin();
+            exewin.Show();
         }
 
         private void Button4_Click_1(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Terminal.Show();
+            Terminal terminal = new Terminal();
+            terminal.Show();
         }
 
         private void Button16_Click_1(object sender, EventArgs e)
         {
-            My.MyProject.Forms.Calc.Show();
+            Calc calc = new Calc();
+            calc.Show();
         }
 
         private void Applications_FormClosed(object sender, FormClosedEventArgs e)
