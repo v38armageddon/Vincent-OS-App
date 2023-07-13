@@ -1,7 +1,4 @@
-﻿using Microsoft.AppCenter;
-using Microsoft.AppCenter.Analytics;
-using Microsoft.AppCenter.Crashes;
-using Microsoft.Win32;
+﻿using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
@@ -51,8 +48,6 @@ namespace Vincent_OS
                 // L'utilisateur sous un autre OS ne peut pas accéder au Shell, bah oui, c'est réservé à Windows ces trucs.
                 custom.TabControl1.TabPages.Remove(custom.TabPage4);
             }
-            AppCenter.Start("TOKEN",
-                  typeof(Analytics), typeof(Crashes));
             // Hérité de Avant.cs
             My.MyProject.Forms.Custom.RadioButton2.Checked = true;
         }
