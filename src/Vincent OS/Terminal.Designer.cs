@@ -55,7 +55,7 @@ namespace Vincent_OS
             RichTextBox1.ReadOnly = true;
             RichTextBox1.Size = new Size(671, 361);
             RichTextBox1.TabIndex = 0;
-            RichTextBox1.Text = "v38armageddon - Vincent OS App [10.1.0.0]\n\n\nObtenez une version Standalone pour avoir\nplus de fonctionnalités :\nhttps://github.com/v38armageddon/Vincent-OS-Shell";
+            RichTextBox1.Text = "Vincent OS [version 10.1.0.0]\nProjet Open Source";
             // 
             // Label1
             // 

@@ -2,6 +2,8 @@
 using System.Diagnostics;
 using System.Net.Sockets;
 using System.Windows.Forms;
+using Microsoft.VisualBasic.CompilerServices;
+using Windows.System;
 
 namespace Vincent_OS
 {
@@ -13,91 +15,87 @@ namespace Vincent_OS
         }
         private void Button1_Click(object sender, EventArgs e)
         {
-            Bureau bureau = new Bureau();
-            Bureau2 bureau2 = new Bureau2();
-            Login login = new Login();
-            Arrêt arrêt = new Arrêt();
             switch (ComboBox1.SelectedItem)
             {
                 case "Arrêter Vincent OS":
-                    if (login.Visible == true)
+                    if (My.MyProject.Forms.Login.Visible == true)
                     {
-                        arrêt.Timer1.Start();
-                        login.Close();
-                        arrêt.Show();
+                        My.MyProject.Forms.Arrêt.Timer1.Start();
+                        My.MyProject.Forms.Login.Close();
+                        My.MyProject.Forms.Arrêt.Show();
                         Close();
                         GC.Collect();
                         GC.WaitForPendingFinalizers();
                     }
-                    else if (bureau.Visible == true)
+                    else if (My.MyProject.Forms.Bureau.Visible == true)
                     {
-                        arrêt.Timer1.Start();
-                        arrêt.Show();
-                        bureau.Close();
+                        My.MyProject.Forms.Arrêt.Timer1.Start();
+                        My.MyProject.Forms.Arrêt.Show();
+                        My.MyProject.Forms.Bureau.Close();
                         Close();
                         GC.Collect();
                         GC.WaitForPendingFinalizers();
                     }
-                    else if (bureau2.Visible == true)
+                    else if (My.MyProject.Forms.Bureau2.Visible == true)
                     {
-                        arrêt.Timer1.Start();
-                        arrêt.Show();
-                        bureau2.Close();
+                        My.MyProject.Forms.Arrêt.Timer1.Start();
+                        My.MyProject.Forms.Arrêt.Show();
+                        My.MyProject.Forms.Bureau2.Close();
                         Close();
                         GC.Collect();
                         GC.WaitForPendingFinalizers();
                     }
                     return;
                 case "Redémarrer Vincent OS":
-                    if (login.Visible == true)
+                    if (My.MyProject.Forms.Login.Visible == true)
                     {
                         Restart restart = new Restart();
                         restart.Timer1.Start();
-                        login.Close();
+                        My.MyProject.Forms.Login.Close();
                         restart.Show();
                         Close();
                         GC.Collect();
                         GC.WaitForPendingFinalizers();
                     }
-                    else if (bureau.Visible == true)
+                    else if (My.MyProject.Forms.Bureau.Visible == true)
                     {
                         Restart restart = new Restart();
                         restart.Timer1.Start();
                         restart.Show();
-                        bureau.Close();
+                        My.MyProject.Forms.Bureau.Close();
                         Close();
                         GC.Collect();
                         GC.WaitForPendingFinalizers();
                     }
-                    else if (bureau2.Visible == true)
+                    else if (My.MyProject.Forms.Bureau2.Visible == true)
                     {
                         Restart restart = new Restart();
                         restart.Timer1.Start();
                         restart.Show();
-                        bureau2.Close();
+                        My.MyProject.Forms.Bureau2.Close();
                         Close();
                         GC.Collect();
                         GC.WaitForPendingFinalizers();
                     }
                     break;
                 case "Déconnecter de la session Vincent OS":
-                    if (bureau.Visible == true)
+                    if (My.MyProject.Forms.Bureau.Visible == true)
                     {
-                        bureau.Close();
-                        login.Show();
+                        My.MyProject.Forms.Bureau.Close();
+                        My.MyProject.Forms.Login.Show();
                         Close();
                         GC.Collect();
                         GC.WaitForPendingFinalizers();
                     }
-                    else if (bureau2.Visible == true)
+                    else if (My.MyProject.Forms.Bureau2.Visible == true)
                     {
-                        bureau2.Close();
-                        login.Show();
+                        My.MyProject.Forms.Bureau2.Close();
+                        My.MyProject.Forms.Login.Show();
                         Close();
                         GC.Collect();
                         GC.WaitForPendingFinalizers();
                     }
-                    else if (login.Visible == true)
+                    else if (My.MyProject.Forms.Login.Visible == true)
                     {
                         MessageBox.Show("Vous ne pouvez pas vous déconnecter dans l'écran de connexion.", "Erreur", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }

@@ -39,7 +39,7 @@ namespace Vincent_OS
             {
                 var uri = "https://web.archive.org/web/20201101124848/https://lbp.me/u/v38armageddon/photos";
                 var psi = new System.Diagnostics.ProcessStartInfo
-                {
+                { 
                     UseShellExecute = true,
                     FileName = uri,
                 };

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Microsoft.VisualBasic.Devices;
+using System;
 
 namespace Vincent_OS
 {
@@ -18,12 +19,13 @@ namespace Vincent_OS
             ProgressBar1.Increment(2);
             if (ProgressBar1.Value == 100)
             {
-                Login Login = new Login();
                 Timer1.Stop();
-                Login.Show();
-                Dispose();
+                My.MyProject.Forms.Login.Show();
+                Hide();
                 var backmusic = new System.Media.SoundPlayer(My.Resources.Resources.startingSound);
                 backmusic.Play();
+                GC.Collect();
+                GC.WaitForPendingFinalizers();
             }
         }
     }

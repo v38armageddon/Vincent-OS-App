@@ -11,27 +11,25 @@ namespace Vincent_OS
 {
     public partial class Visio
     {
-        [DllImport("user32.dll", CharSet = CharSet.Auto)]
-        private static extern int SystemParametersInfo(int uAction, int uParam, string lpvParam, int fuWinIni);
-        private List<string> Images;
-        private int Index = 0;
-
         public Visio()
         {
             InitializeComponent();
         }
 
+        [DllImport("user32.dll", CharSet = CharSet.Auto)]
+        private static extern int SystemParametersInfo(int uAction, int uParam, string lpvParam, int fuWinIni);
+        private List<string> Images;
+        private int Index = 0;
+
         private void Form1_Load(object sender, EventArgs e)
         {
-            Bureau bureau = new Bureau();
-            Bureau2 bureau2 = new Bureau2();
-            if (bureau.Visible == true)
+            if (My.MyProject.Forms.Bureau.Visible == true)
             {
-                bureau.Button20.Visible = true;
+                My.MyProject.Forms.Bureau.Button20.Visible = true;
             }
-            else if (bureau2.Visible == true)
+            else if (My.MyProject.Forms.Bureau2.Visible == true)
             {
-                bureau2.Button20.Visible = true;
+                My.MyProject.Forms.Bureau2.Button20.Visible = true;
             }
             Images = new List<string>();
             Panel1.Controls.Add(PictureBox1);
@@ -180,15 +178,13 @@ namespace Vincent_OS
 
         private void Visio_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Bureau bureau = new Bureau();
-            Bureau2 bureau2 = new Bureau2();
-            if (bureau.Visible == true)
+            if (My.MyProject.Forms.Bureau.Visible == true)
             {
-                bureau.Button20.Visible = false;
+                My.MyProject.Forms.Bureau.Button20.Visible = false;
             }
-            else if (bureau2.Visible == true)
+            else if (My.MyProject.Forms.Bureau2.Visible == true)
             {
-                bureau2.Button20.Visible = false;
+                My.MyProject.Forms.Bureau2.Button20.Visible = false;
             }
             GC.Collect();
             GC.WaitForPendingFinalizers();

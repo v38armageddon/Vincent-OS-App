@@ -1,12 +1,15 @@
 ﻿using System;
-using System.Net.NetworkInformation;
 using System.Runtime.InteropServices;
-using System.Windows.Forms;
+using Microsoft.VisualBasic;
+using Microsoft.VisualBasic.CompilerServices;
 
 namespace Vincent_OS
 {
     public partial class Bureau
     {
+        WPF.Bing_Chrome bingChrome = new WPF.Bing_Chrome();
+        WPF.Media media = new WPF.Media();
+
         public Bureau()
         {
             InitializeComponent();
@@ -14,20 +17,19 @@ namespace Vincent_OS
 
         private void Bureau_Load(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Maximized;
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             Timer1.Start();
-            Login login = new Login();
-            if (login.Label2.Text == "Superutilisateur")
+            if (My.MyProject.Forms.Login.Label2.Text == "Superutilisateur")
             {
                 Text = "Bureau - Session Superutilisateur";
                 Label3.Text = "Superutilisateur";
             }
             else
             {
-                Text = "Bureau - Session " + login.Label2.Text;
-                Label3.Text = login.Label2.Text;
+                Text = "Bureau - Session " + My.MyProject.Forms.Login.Label2.Text;
+                Label3.Text = My.MyProject.Forms.Login.Label2.Text;
             }
-            if (NetworkInterface.GetIsNetworkAvailable())
+            if (My.MyProject.Computer.Network.IsAvailable)
             {
                 PictureBox6.Visible = true;
             }
@@ -51,14 +53,13 @@ namespace Vincent_OS
 
         private void Timer1_Tick(object sender, EventArgs e)
         {
-            DateTime time = DateTime.Today;
-            Label1.Text = time.ToString();
+            Label2.Text = Conversions.ToString(DateAndTime.TimeOfDay);
+            Label1.Text = Conversions.ToString(DateTime.Today);
         }
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            alertelog alertelog = new alertelog();
-            alertelog.Show();
+            My.MyProject.Forms.alertelog.Show();
         }
 
         private void PictureBox2_Click(object sender, EventArgs e)
@@ -75,78 +76,66 @@ namespace Vincent_OS
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            WPF.Bing_Chrome bingChrome = new WPF.Bing_Chrome();
             bingChrome.Show();
         }
 
         private void Button3_Click(object sender, EventArgs e)
         {
-            Meme meme = new Meme();
-            meme.Show();
+            My.MyProject.Forms.meme.Show();
         }
 
         private void Button4_Click(object sender, EventArgs e)
         {
-            WPF.Media media = new WPF.Media();
             media.Show();
         }
 
         private void Button5_Click(object sender, EventArgs e)
         {
-            Visio visio = new Visio();
-            visio.Show();
+            My.MyProject.Forms.Visio.Show();
         }
 
         private void Button6_Click(object sender, EventArgs e)
         {
-            Notepad notepad = new Notepad();
-            notepad.Show();
+            My.MyProject.Forms.Notepad.Show();
         }
 
         private void Button9_Click(object sender, EventArgs e)
         {
-            Paramètres paramètres = new Paramètres();
-            paramètres.Show();
+            My.MyProject.Forms.Paramètres.Show();
         }
 
         private void Button11_Click(object sender, EventArgs e)
         {
-            exewin exewin = new exewin();
-            exewin.Show();
+            My.MyProject.Forms.exewin.Show();
         }
 
         private void Button12_Click(object sender, EventArgs e)
         {
-            Applications applications = new Applications();
-            applications.Show();
-            if (applications.Visible == true)
+            My.MyProject.Forms.Applications.Show();
+            if (My.MyProject.Forms.Applications.Visible == true)
             {
-                applications.BringToFront();
+                My.MyProject.Forms.Applications.BringToFront();
             }
         }
 
         private void Button13_Click(object sender, EventArgs e)
         {
-            game game = new game();
-            game.Show();
+            My.MyProject.Forms.game.Show();
         }
 
         private void Button14_Click(object sender, EventArgs e)
         {
-            Paints paints = new Paints();
-            paints.Show();
+            My.MyProject.Forms.paints.Show();
         }
 
         private void Button10_Click(object sender, EventArgs e)
         {
-            Terminal terminal = new Terminal();
-            terminal.Show();
+            My.MyProject.Forms.Terminal.Show();
         }
 
         private void Button25_Click(object sender, EventArgs e)
         {
-            Calc calc = new Calc();
-            calc.Show();
+            My.MyProject.Forms.Calc.Show();
         }
 
         private void Label1_Click(object sender, EventArgs e)
@@ -164,7 +153,6 @@ namespace Vincent_OS
         // Cette partie permet quand la fenêtre est trop caché par le bureau, qu'on puisse la récupérer via un bouton sans faire alt+tab
         private void Button15_Click(object sender, EventArgs e)
         {
-            WPF.Bing_Chrome bingChrome = new WPF.Bing_Chrome();
             bingChrome.Activate();
             bingChrome.Topmost = true;
             bingChrome.Topmost = false;
@@ -173,19 +161,16 @@ namespace Vincent_OS
 
         private void Button16_Click(object sender, EventArgs e)
         {
-            Meme meme = new Meme();
-            meme.BringToFront();
+            My.MyProject.Forms.meme.BringToFront();
         }
 
         private void Button17_Click(object sender, EventArgs e)
         {
-            Notepad notepad = new Notepad();
-            notepad.BringToFront();
+            My.MyProject.Forms.Notepad.BringToFront();
         }
 
         private void Button19_Click(object sender, EventArgs e)
         {
-            WPF.Media media = new WPF.Media();
             media.Activate();
             media.Topmost = true;
             media.Topmost = false;
@@ -194,38 +179,32 @@ namespace Vincent_OS
 
         private void Button20_Click(object sender, EventArgs e)
         {
-            Visio visio = new Visio();
-            visio.BringToFront();
+            My.MyProject.Forms.Visio.BringToFront();
         }
 
         private void Button21_Click(object sender, EventArgs e)
         {
-            Paints paints = new Paints();
-            paints.BringToFront();
+            My.MyProject.Forms.paints.BringToFront();
         }
 
         private void Button22_Click(object sender, EventArgs e)
         {
-            game game = new game();
-            game.BringToFront();
+            My.MyProject.Forms.game.BringToFront();
         }
 
         private void Button23_Click(object sender, EventArgs e)
         {
-            exewin exewin = new exewin();
-            exewin.BringToFront();
+            My.MyProject.Forms.exewin.BringToFront();
         }
 
         private void Button24_Click(object sender, EventArgs e)
         {
-            Terminal terminal = new Terminal();
-            terminal.BringToFront();
+            My.MyProject.Forms.Terminal.BringToFront();
         }
 
         private void Button26_Click(object sender, EventArgs e)
         {
-            Calc calc = new Calc();
-            calc.BringToFront();
+            My.MyProject.Forms.Calc.BringToFront();
         }
 
         private void FlowLayoutPanel1_Click_1(object sender, EventArgs e)

@@ -16,9 +16,6 @@ namespace Vincent_OS.WPF
 {
     public partial class Bing_Chrome : Window
     {
-        Bureau bureau = new Bureau();
-        Bureau2 bureau2 = new Bureau2();
-
         public Bing_Chrome()
         {
             InitializeComponent();
@@ -26,13 +23,13 @@ namespace Vincent_OS.WPF
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            if (bureau.Visible == true)
+            if (My.MyProject.Forms.Bureau.Visible == true)
             {
-                bureau.Button15.Visible = true;
+                My.MyProject.Forms.Bureau.Button15.Visible = true;
             }
-            else if (bureau2.Visible == true)
+            else if (My.MyProject.Forms.Bureau2.Visible == true)
             {
-                bureau2.Button15.Visible = true;
+                My.MyProject.Forms.Bureau2.Button15.Visible = true;
             }
         }
 
@@ -75,13 +72,13 @@ namespace Vincent_OS.WPF
 
         private void Window_Closed(object sender, EventArgs e)
         {
-            if (bureau.Visible == true)
+            if (My.MyProject.Forms.Bureau.Visible == true)
             {
-                bureau.Button15.Visible = false;
+                My.MyProject.Forms.Bureau.Button15.Visible = false;
             }
-            else if (bureau2.Visible == true)
+            else if (My.MyProject.Forms.Bureau2.Visible == true)
             {
-                bureau2.Button15.Visible = false;
+                My.MyProject.Forms.Bureau2.Button15.Visible = false;
             }
             GC.Collect();
             GC.WaitForPendingFinalizers();

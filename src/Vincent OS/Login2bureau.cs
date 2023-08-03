@@ -24,8 +24,7 @@ namespace Vincent_OS
             {
                 Timer1.Stop();
                 ProgressBar1.Value = 0;
-                Bureau bureau = new Bureau();
-                bureau.Show();
+                My.MyProject.Forms.Bureau.Show();
                 Close();
                 GC.Collect();
                 GC.WaitForPendingFinalizers();

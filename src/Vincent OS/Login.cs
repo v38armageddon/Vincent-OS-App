@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
+using Microsoft.VisualBasic.CompilerServices;
 
 namespace Vincent_OS
 {
@@ -24,15 +25,13 @@ namespace Vincent_OS
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            Login2bureau login2Bureau2 = new Login2bureau();
-            login2Bureau2.Show();
+            My.MyProject.Forms.Login2bureau2.Show();
             Close();
         }
 
         private void PictureBox4_Click(object sender, EventArgs e)
         {
-            alertelog alerteLog = new alertelog();
-            alerteLog.Show();
+            My.MyProject.Forms.alertelog.Show();
         }
 
         private void TextBox2_KeyPress(object sender, KeyPressEventArgs e)
@@ -46,7 +45,7 @@ namespace Vincent_OS
         // Permet de révéler le mot de passe
         private void Button4_MouseDown(object sender, MouseEventArgs e)
         {
-            TextBox2.PasswordChar = char.Parse("");
+            TextBox2.PasswordChar = Conversions.ToChar("");
         }
 
         private void Button4_MouseUp(object sender, MouseEventArgs e)
@@ -60,10 +59,8 @@ namespace Vincent_OS
             if (TextBox2.Text == "Vincent OS")
             {
                 TextBox2.Text = "";
-                Login2bureau login2Bureau = new Login2bureau();
-                login2Bureau.Show();
+                My.MyProject.Forms.Login2bureau.Show();
                 Close();
-                Dispose();
             }
             else
             {

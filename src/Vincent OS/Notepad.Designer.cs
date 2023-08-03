@@ -5,6 +5,7 @@ using System.Windows.Forms;
 
 namespace Vincent_OS
 {
+    [Microsoft.VisualBasic.CompilerServices.DesignerGenerated()]
     public partial class Notepad : Form
     {
 

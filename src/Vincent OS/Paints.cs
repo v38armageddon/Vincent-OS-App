@@ -4,7 +4,7 @@ using System.Windows.Forms;
 
 namespace Vincent_OS
 {
-    public partial class Paints
+    public partial class paints
     {
         // Tout ceci permet de faire fonctionner les outils de dessins
         private Bitmap b = new Bitmap(1000, 1000);
@@ -25,22 +25,20 @@ namespace Vincent_OS
         private Pen deleteS = new Pen(Brushes.White, 8f);
         private Pen delete = new Pen(Brushes.White, 20f);
 
-        public Paints()
+        public paints()
         {
             InitializeComponent();
         }
 
         private void paints_Load(object sender, EventArgs e)
         {
-            Bureau bureau = new Bureau();
-            Bureau2 bureau2 = new Bureau2();
-            if (bureau.Visible == true)
+            if (My.MyProject.Forms.Bureau.Visible == true)
             {
-                bureau.Button21.Visible = true;
+                My.MyProject.Forms.Bureau.Button21.Visible = true;
             }
-            else if (bureau2.Visible == true)
+            else if (My.MyProject.Forms.Bureau2.Visible == true)
             {
-                bureau2.Button21.Visible = true;
+                My.MyProject.Forms.Bureau2.Button21.Visible = true;
             }
         }
         private Point _PictureBox1_MouseMove_coord = new Point();
@@ -219,15 +217,13 @@ namespace Vincent_OS
 
         private void paints_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Bureau bureau = new Bureau();
-            Bureau2 bureau2 = new Bureau2();
-            if (bureau.Visible == true)
+            if (My.MyProject.Forms.Bureau.Visible == true)
             {
-                bureau.Button21.Visible = false;
+                My.MyProject.Forms.Bureau.Button21.Visible = false;
             }
-            else if (bureau2.Visible == true)
+            else if (My.MyProject.Forms.Bureau2.Visible == true)
             {
-                bureau2.Button21.Visible = false;
+                My.MyProject.Forms.Bureau2.Button21.Visible = false;
             }
             GC.Collect();
             GC.WaitForPendingFinalizers();

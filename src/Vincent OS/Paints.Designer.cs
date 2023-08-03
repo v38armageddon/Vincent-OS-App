@@ -5,7 +5,8 @@ using System.Windows.Forms;
 
 namespace Vincent_OS
 {
-    public partial class Paints : Form
+    [Microsoft.VisualBasic.CompilerServices.DesignerGenerated()]
+    public partial class paints : Form
     {
 
         // Form remplace la méthode Dispose pour nettoyer la liste des composants.
@@ -34,7 +35,7 @@ namespace Vincent_OS
         [DebuggerStepThrough()]
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Paints));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(paints));
             this.PictureBox1 = new System.Windows.Forms.PictureBox();
             this.Panel1 = new System.Windows.Forms.Panel();
             this.Panel2 = new System.Windows.Forms.Panel();

@@ -12,41 +12,35 @@ namespace Vincent_OS
 
         private void game_Load(object sender, EventArgs e)
         {
-            Bureau bureau = new Bureau();
-            Bureau2 bureau2 = new Bureau2();
-            if (bureau.Visible == true)
+            if (My.MyProject.Forms.Bureau.Visible == true)
             {
-                bureau.Button22.Visible = true;
+                My.MyProject.Forms.Bureau.Button22.Visible = true;
             }
-            else if (bureau2.Visible == true)
+            else if (My.MyProject.Forms.Bureau2.Visible == true)
             {
-                bureau2.Button22.Visible = true;
+                My.MyProject.Forms.Bureau2.Button22.Visible = true;
             }
         }
 
         private void Button2_Click(object sender, EventArgs e)
         {
-            exewin exewin = new exewin();
-            exewin.Show();
+            My.MyProject.Forms.exewin.Show();
         }
 
         private void Button1_Click(object sender, EventArgs e)
         {
-            MazeGame mazeGame = new MazeGame();
-            mazeGame.Show();
+            My.MyProject.Forms.MazeGame.Show();
         }
 
         private void game_FormClosed(object sender, FormClosedEventArgs e)
         {
-            Bureau bureau = new Bureau();
-            Bureau2 bureau2 = new Bureau2();
-            if (bureau.Visible == true)
+            if (My.MyProject.Forms.Bureau.Visible == true)
             {
-                bureau.Button22.Visible = false;
+                My.MyProject.Forms.Bureau.Button22.Visible = false;
             }
-            else if (bureau2.Visible == true)
+            else if (My.MyProject.Forms.Bureau2.Visible == true)
             {
-                bureau2.Button22.Visible = false;
+                My.MyProject.Forms.Bureau2.Button22.Visible = false;
             }
             GC.Collect();
             GC.WaitForPendingFinalizers();

@@ -12,15 +12,13 @@ namespace Vincent_OS
         // /!\ Vérification du mot de passe /!\
         private void verifylog()
         {
-            Bureau2 bureau2 = new Bureau2();
             if (TextBox1.Text == "Vincent OS")
             {
                 TextBox1.Text = "";
                 // /!\ Faire attention aux potentiels changements dans le futur ! /!\
-                if (bureau2.Panel1.Visible == true)
+                if (My.MyProject.Forms.Bureau2.Panel1.Visible == true)
                 {
-                    Paramètres paramètres = new Paramètres();
-                    paramètres.Show();
+                    My.MyProject.Forms.Paramètres.Show();
                     Close();
                 }
             }
@@ -52,7 +50,7 @@ namespace Vincent_OS
 
         private void UAC_Load(object sender, EventArgs e)
         {
-            System.Media.SystemSounds.Exclamation.Play();
+            My.MyProject.Computer.Audio.PlaySystemSound(System.Media.SystemSounds.Exclamation);
         }
     }
 }
