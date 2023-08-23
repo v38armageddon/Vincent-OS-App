@@ -1,7 +1,0 @@
-﻿[*.cs]
-
-# CA1416: Valider la compatibilité de la plateforme
-dotnet_diagnostic.CA1416.severity = none
-
-# CS1591: Commentaire XML manquant pour le type ou le membre visible publiquement
-dotnet_diagnostic.CS1591.severity = none
