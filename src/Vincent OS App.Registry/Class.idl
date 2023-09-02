@@ -1,0 +1,9 @@
+namespace Vincent_OS_App_Registry
+{
+    [default_interface]
+    runtimeclass Class
+    {
+        Class();
+        Int32 MyProperty;
+    }
+}

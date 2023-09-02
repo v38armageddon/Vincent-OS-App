@@ -4,64 +4,62 @@
   xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
   xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest"
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
-  xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+  xmlns:iot="http://schemas.microsoft.com/appx/manifest/iot/windows10"
   xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3"
-  IgnorableNamespaces="uap rescap uap3">
+  xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+  IgnorableNamespaces="uap mp iot uap3 rescap">
 
   <Identity
-    Name="34823v38armageddon.VincentOSApp"
-    Publisher="CN=EF25BC35-CB3A-4D06-953A-49E6117D3FA3"
-    Version="10.1.0.0" />
+	Name="34823v38armageddon.VincentOSApp"
+	Publisher="CN=EF25BC35-CB3A-4D06-953A-49E6117D3FA3"
+	Version="10.1.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="1e231bf0-9421-43d5-950c-c3b84314d516" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="559ff360-de7e-438c-a217-8aded9c9cd3f" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
-    <DisplayName>Vincent OS App</DisplayName>
-    <PublisherDisplayName>v38armageddon</PublisherDisplayName>
-    <Logo>Assets\StoreLogo.png</Logo>
+	<DisplayName>Vincent OS App</DisplayName>
+	<PublisherDisplayName>v38armageddon</PublisherDisplayName>
+	<Logo>Assets\StoreLogo.png</Logo>
   </Properties>
 
   <Dependencies>
-    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
-    <TargetDeviceFamily Name="Windows.Desktop" MinVersion="10.0.17763.0" MaxVersionTested="10.0.19041.0" />
+	<TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
   </Dependencies>
 
   <Resources>
-    <Resource Language="x-generate"/>
+	<Resource Language="x-generate"/>
   </Resources>
 
   <Applications>
-    <Application Id="App"
-      Executable="$targetnametoken$.exe"
-      EntryPoint="$targetentrypoint$">
-      <uap:VisualElements
-        DisplayName="Vincent OS App"
-        Description="Découvrez un mini système d&apos;exploitation avec des logiciels sympa !"
-        BackgroundColor="#000000"
-        Square150x150Logo="Assets\Square150x150Logo.png"
-        Square44x44Logo="Assets\Square44x44Logo.png">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png"  ShortName="Vincent OS App" Square71x71Logo="Assets\SmallTile.png" Square310x310Logo="Assets\LargeTile.png">
-          <uap:ShowNameOnTiles>
-            <uap:ShowOn Tile="square150x150Logo"/>
-            <uap:ShowOn Tile="wide310x150Logo"/>
-            <uap:ShowOn Tile="square310x310Logo"/>
-          </uap:ShowNameOnTiles>
-        </uap:DefaultTile >
-        <uap:SplashScreen Image="Assets\SplashScreen.png"  BackgroundColor="#000000"/>
-        <uap:InitialRotationPreference>
-          <uap:Rotation Preference="landscape"/>
-          <uap:Rotation Preference="landscapeFlipped"/></uap:InitialRotationPreference>
-      </uap:VisualElements>
-    </Application>
+	<Application Id="App"
+	  Executable="$targetnametoken$.exe"
+	  EntryPoint="Vincent_OS_App.App">
+	  <uap:VisualElements
+		DisplayName="Vincent OS App"
+		Square150x150Logo="Assets\Square150x150Logo.png"
+		Square44x44Logo="Assets\Square44x44Logo.png"
+		Description="Vincent_OS_App"
+		BackgroundColor="#000000">
+		<uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" ShortName="Vincent OS App" Square71x71Logo="Assets\SmallTile.png" Square310x310Logo="Assets\LargeTile.png">
+		  <uap:ShowNameOnTiles>
+			<uap:ShowOn Tile="square150x150Logo"/>
+			<uap:ShowOn Tile="wide310x150Logo"/>
+			<uap:ShowOn Tile="square310x310Logo"/>
+		  </uap:ShowNameOnTiles>
+		</uap:DefaultTile >
+		<uap:SplashScreen Image="Assets\SplashScreen.png"  BackgroundColor="#000000"/>
+	  </uap:VisualElements>
+	</Application>
   </Applications>
 
   <Capabilities>
-    <rescap:Capability Name="runFullTrust" />
-    <uap:Capability Name="musicLibrary"/>
-    <uap:Capability Name="picturesLibrary"/>
-    <Capability Name="internetClient"/>
-    <uap3:Capability Name="backgroundMediaPlayback"/>
-    <uap:Capability Name="removableStorage"/>
-    <uap:Capability Name="videosLibrary"/>
+	<Capability Name="internetClient" />
+	<uap:Capability Name="musicLibrary"/>
+	<uap:Capability Name="picturesLibrary"/>
+	<iot:Capability Name="systemManagement"/>
+	<uap3:Capability Name="backgroundMediaPlayback"/>
+	<uap:Capability Name="removableStorage"/>
+	<uap:Capability Name="videosLibrary"/>
+	<rescap:Capability Name="runFullTrust" />
   </Capabilities>
 </Package>
