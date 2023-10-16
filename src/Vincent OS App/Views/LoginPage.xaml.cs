@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
+using Vincent_OS_App.Dialogs;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -21,6 +22,12 @@ namespace Vincent_OS_App.Views
         {
             this.InitializeComponent();
             this.DataContext = new ViewModels.LoginPageViewModels();
+        }
+
+        private void bootButton_Click(object sender, RoutedEventArgs e)
+        {
+            PowerDialog powerDialog = new PowerDialog();
+            powerDialog.ShowAsync();
         }
     }
 }

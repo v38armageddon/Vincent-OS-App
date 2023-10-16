@@ -10,11 +10,21 @@
 
     <Grid>
         <TextBlock Text="vincentOS" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+        <Button x:Name="bootButton" Margin="912,0,0,0" VerticalAlignment="Top" HorizontalAlignment="Right" Height="36" Width="48" Background="{x:Null}" Click="bootButton_Click">
+            <Image Source="/Assets/Vincent OS App/Utilities/Power.png" Stretch="Uniform"/>
+        </Button>
         <Image Source="/Assets/Vincent OS App/Desktop/10/spacetrain.png" Margin="0,36,0,0" Stretch="UniformToFill"/>
-        <StackPanel HorizontalAlignment="Left" VerticalAlignment="Center" Height="138" Width="242" Margin="10,0,0,0">
-            <TextBlock Text="{Binding Username}" Margin="0,0,0,10"/>
-            <PasswordBox x:Name="passwordBox" PlaceholderText="Mot de passe" Margin="0,0,0,10"/>
-            <Button x:Name="loginButton" Content="Connexion" Margin="0,0,0,10"/>
-        </StackPanel>
+
+        <Grid HorizontalAlignment="Left" VerticalAlignment="Top" Height="138" Width="320" Margin="81,142,0,0" Background="#7F000000">
+            <Image Source="{Binding Userpicture}" Margin="10,15,212,23"/>
+            <TextBlock Text="{Binding Username}" Foreground="White" Margin="115,10,10,88"/>
+            <PasswordBox x:Name="passwordBox" PlaceholderText="Mot de passe" Margin="115,53,0,52"/>
+            <Button x:Name="loginButton" Content="Connexion" Margin="0,91,0,0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+        </Grid>
+        <Grid HorizontalAlignment="Left" VerticalAlignment="Top" Height="138" Width="320" Margin="81,285,0,0" Background="#7F000000">
+            <Image Source="{Binding Userpicture}" Margin="10,15,212,23"/>
+            <TextBlock Text="{Binding Username}" Foreground="White" Margin="115,10,10,88"/>
+            <Button x:Name="login2Button" Content="Connexion" Margin="0,91,0,0" VerticalAlignment="Top" HorizontalAlignment="Center"/>
+        </Grid>
     </Grid>
 </Page>
