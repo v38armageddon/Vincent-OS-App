@@ -1,0 +1,12 @@
+﻿<Window x:Class="Vincent.OS.App.Views.Startup"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Vincent.OS.App.Views"
+        mc:Ignorable="d"
+        Title="Démarrage" Height="450" Width="800">
+    <Grid Background="Black">
+        <Image Source="/Assets/Shared/logo.png" HorizontalAlignment="Center" VerticalAlignment="Center" Height="171" Width="171"/>
+    </Grid>
+</Window>
