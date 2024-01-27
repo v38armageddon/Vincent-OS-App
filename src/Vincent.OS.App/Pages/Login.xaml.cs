@@ -10,16 +10,17 @@ using System.Windows.Documents;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace Vincent.OS.App.Views
+namespace Vincent.OS.App.Pages
 {
     /// <summary>
-    /// Logique d'interaction pour Startup.xaml
+    /// Logique d'interaction pour Login.xaml
     /// </summary>
-    public partial class Startup : Window
+    public partial class Login : Page
     {
-        public Startup()
+        public Login()
         {
             InitializeComponent();
         }

@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
-    <TargetFramework>net7.0-windows10.0.22621.0</TargetFramework>
+    <TargetFramework>net8.0-windows10.0.22621.0</TargetFramework>
     <Nullable>enable</Nullable>
     <UseWPF>true</UseWPF>
     <SupportedOSPlatformVersion>10.0.20348.0</SupportedOSPlatformVersion>
@@ -10,16 +10,62 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Models\**" />
+    <Compile Remove="ViewModels\**" />
+    <EmbeddedResource Remove="Models\**" />
+    <EmbeddedResource Remove="ViewModels\**" />
+    <None Remove="Models\**" />
+    <None Remove="ViewModels\**" />
+    <Page Remove="Models\**" />
+    <Page Remove="ViewModels\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\Shared\logo.png" />
+    <None Remove="Assets\Shared\Power.png" />
+    <None Remove="Assets\Shared\Software\calculator.png" />
+    <None Remove="Assets\Shared\Software\executor.png" />
+    <None Remove="Assets\Shared\Software\files.png" />
+    <None Remove="Assets\Shared\Software\gallery.png" />
+    <None Remove="Assets\Shared\Software\games.png" />
+    <None Remove="Assets\Shared\Software\mediaplayer.png" />
+    <None Remove="Assets\Shared\Software\notes.png" />
+    <None Remove="Assets\Shared\Software\paint.png" />
+    <None Remove="Assets\Shared\Software\terminal.png" />
+    <None Remove="Assets\Shared\spinner-gif-10.gif" />
+    <None Remove="Assets\Wallpapers\dev-test.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="logo.ico" />
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Models\" />
-    <Folder Include="ViewModels\" />
+    <ProjectReference Include="..\Vincent.OS.App.Library\Vincent.OS.App.Library.vcxproj" />
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Vincent.OS.App.Library\Vincent.OS.App.Library.vcxproj" />
+    <Folder Include="Apps\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="WpfAnimatedGif" Version="2.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Shared\logo.png" />
+    <Resource Include="Assets\Shared\Software\calculator.png" />
+    <Resource Include="Assets\Shared\Software\executor.png" />
+    <Resource Include="Assets\Shared\Software\files.png" />
+    <Resource Include="Assets\Shared\Software\gallery.png" />
+    <Resource Include="Assets\Shared\Software\games.png" />
+    <Resource Include="Assets\Shared\Software\mediaplayer.png" />
+    <Resource Include="Assets\Shared\Software\notes.png" />
+    <Resource Include="Assets\Shared\Software\paint.png" />
+    <Resource Include="Assets\Shared\Software\terminal.png" />
+    <Resource Include="Assets\Wallpapers\dev-test.jpg" />
+    <Resource Include="Assets\Shared\Power.png" />
+    <Resource Include="Assets\Shared\spinner-gif-10.gif" />
   </ItemGroup>
 
 </Project>
