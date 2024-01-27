@@ -309,6 +309,3 @@ __pycache__/
 # Generated Setup exe files
 src/Vincent OS.Setup/Output/
 /src/Vincent OS.Package/Output
-
-# Test files destined to interne development only
-/src/Vincent.OS.App/Assets/Test

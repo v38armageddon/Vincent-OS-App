@@ -1,42 +1,24 @@
-# Contribuer à Vincent OS App
+# Contribute to Vincent OS App
+Vincent OS App is open to all contributions! All you have to do is respect the code of conduct.
 
-Vincent OS App est ouvert à toutes les contributions ! Il vous suffit de respecter le code de conduite.
-
-## Comment contribuer ?
-
-Vous pouvez contribuer à Vincent OS App de plusieurs manières :
-- Logiciel
+## How to contribute?
+You can contribute to Vincent OS App in several ways:
+- Software
 - Documentation
-- Traduction
+- Translation
 
-### Logiciel
+### Software
+What you need to contribute to Vincent OS App :
+1. Visual Studio 2022 with .NET Desktop and C++ tools.
+2. .NET 8.0 SDK
 
-Ce dont vous avez besoin pour contribuer à MediaBrowser :
-1. Visual Studio 2022 avec .NET Desktop et les outils C++.
-2. .NET SDK 6 / 7
-
-Contribuer:
-1. Forkez ce dépôt
-2. Sur votre dépôt forké, créez une nouvelle branche pour développer votre travail.
-3. Faites des modifications.
-4. Testez toujours votre modification.
-5. Si tout va bien, envoyez un Pull Request à votre branche principale sur votre référentiel forké.
-6. Envoyez un Pull Request à ce référentiel et suivez les instructions.
+Contribute:
+1. Fork this repository
+2. On your forked repository, create a new branch to develop your work.
+3. Make modifications.
+4. Always test your modification.
+5. If all goes well, send a Pull Request to your main branch on your forked repository.
+6. Send a Pull Request to this repository and follow the instructions.
 
 ### Documentation
-
-Vous pouvez forkez ce référentiel pour apporter des modifications à la documentation.
-
-### Traduction
-
-Ce dont vous avez besoin pour contribuer à Vincent OS App :
-1. Visual Studio 2022 avec .NET Desktop et les outils C++.
-2. Multilingual App Toolkit
-
-Contribuer:
-1. Forkez ce dépôt
-2. Sur votre référentiel forké, créez une nouvelle branche pour développer votre travail.
-3. Faites des modifications.
-4. Testez toujours votre modification.
-5. Si tout va bien, envoyez une demande d'extraction à votre branche principale sur votre référentiel forké.
-6. Envoyez une demande d'extraction à ce référentiel et suivez les instructions.
+You can fork this repository to make changes to the documentation.
