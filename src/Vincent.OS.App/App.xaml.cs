@@ -1,47 +1,62 @@
-﻿/*
- * Vincent OS App, This is the repository of the project of the mini operating system Open Source: Vincent OS
- * Copyright (C) 2016 - 2024 - v38armageddon
- * 
- * This program is free software: you can redistribute it and/or modify
- * it under the terms of the GNU General Public License as published by
- * the Free Software Foundation, either version 3 of the License, or
- * (at your option) any later version.
- * 
- * This program is distributed in the hope that it will be useful,
- * but WITHOUT ANY WARRANTY; without even the implied warranty of
- * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- * GNU General Public License for more details.
- * 
- * You should have received a copy of the GNU General Public License
- * along with this program.  If not, see <https://www.gnu.org/licenses/>.
- */
-using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Windows;
+using Uno.Resizetizer;
 
-namespace Vincent.OS.App
+namespace Vincent.OS.App;
+public partial class App : Application
 {
-    public partial class App : Application
+    /// <summary>
+    /// Initializes the singleton application object. This is the first line of authored code
+    /// executed, and as such is the logical equivalent of main() or WinMain().
+    /// </summary>
+    public App()
     {
-        MainWindow mainWindow = new MainWindow();
+        this.InitializeComponent();
+    }
 
-        private void AppStart(object sender, StartupEventArgs e)
+    protected Window? MainWindow { get; private set; }
+    protected IHost? Host { get; private set; }
+
+    protected override void OnLaunched(LaunchActivatedEventArgs args)
+    {
+        var builder = this.CreateBuilder(args)
+            .Configure(host => host
+#if DEBUG
+                // Switch to Development environment when running in DEBUG
+                .UseEnvironment(Environments.Development)
+#endif
+                .ConfigureServices((context, services) =>
+                {
+                    // TODO: Register your services
+                    //services.AddSingleton<IMyService, MyService>();
+                })
+            );
+        MainWindow = builder.Window;
+
+#if DEBUG
+        MainWindow.EnableHotReload();
+#endif
+        MainWindow.SetWindowIcon();
+
+        Host = builder.Build();
+
+        // Do not repeat app initialization when the Window already has content,
+        // just ensure that the window is active
+        if (MainWindow.Content is not Frame rootFrame)
         {
-            // Set the window to fullscreen
-            mainWindow.WindowState = WindowState.Maximized;
-            mainWindow.WindowStyle = WindowStyle.None;
+            // Create a Frame to act as the navigation context and navigate to the first page
+            rootFrame = new Frame();
 
-            // Place here to start the default page
-            Pages.Startup startup = new Pages.Startup();
-            mainWindow.mainFrame.NavigationService.Navigate(startup);
-
-            // Init the window
-            mainWindow.InitializeComponent();
-            mainWindow.Show();
+            // Place the frame in the current Window
+            MainWindow.Content = rootFrame;
         }
+
+        if (rootFrame.Content == null)
+        {
+            // When the navigation stack isn't restored navigate to the first page,
+            // configuring the new page by passing required information as a navigation
+            // parameter
+            rootFrame.Navigate(typeof(MainPage), args.Arguments);
+        }
+        // Ensure the current window is active
+        MainWindow.Activate();
     }
 }
