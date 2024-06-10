@@ -17,6 +17,7 @@
 */
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading;
@@ -41,17 +42,9 @@ namespace Vincent.OS.App.Pages
             InitializeComponent();
         }
 
-        private void Page_Loaded(object sender, RoutedEventArgs e)
+        private async void Page_Loaded(object sender, RoutedEventArgs e)
         {
-            DispatcherTimer timer = new DispatcherTimer(); // Set a new timer with 3 seconds
-            timer.Interval = TimeSpan.FromSeconds(3);
-            timer.Tick += Timer_Elapsed;
-            timer.Start();
-        }
-
-        private void Timer_Elapsed(object sender, EventArgs e)
-        {
-            ((DispatcherTimer)sender).Stop(); // Stop the timer before navigate to the next page
+            await Task.Delay(3000); // Delay for 3 seconds
             MainWindow mainWindow = new MainWindow();
             Login login = new Login();
             mainWindow.mainFrame.NavigationService.Navigate(login);
