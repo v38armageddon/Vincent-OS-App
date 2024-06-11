@@ -34,6 +34,78 @@
     <UnoFeatures>
       Hosting;
     </UnoFeatures>
+    <PackageCertificateThumbprint>2E906171F29ADBC1694CED1F08E3FFFCA09D3ACE</PackageCertificateThumbprint>
+    <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
   </PropertyGroup>
+  <ItemGroup>
+    <Content Remove="Assets\Images\AppIcon.altform-lightunplated_targetsize-16.png" />
+    <Content Remove="Assets\Images\AppIcon.altform-lightunplated_targetsize-24.png" />
+    <Content Remove="Assets\Images\AppIcon.altform-lightunplated_targetsize-256.png" />
+    <Content Remove="Assets\Images\AppIcon.altform-lightunplated_targetsize-32.png" />
+    <Content Remove="Assets\Images\AppIcon.altform-lightunplated_targetsize-48.png" />
+    <Content Remove="Assets\Images\AppIcon.altform-unplated_targetsize-16.png" />
+    <Content Remove="Assets\Images\AppIcon.altform-unplated_targetsize-24.png" />
+    <Content Remove="Assets\Images\AppIcon.altform-unplated_targetsize-256.png" />
+    <Content Remove="Assets\Images\AppIcon.altform-unplated_targetsize-32.png" />
+    <Content Remove="Assets\Images\AppIcon.altform-unplated_targetsize-48.png" />
+    <Content Remove="Assets\Images\AppIcon.scale-100.png" />
+    <Content Remove="Assets\Images\AppIcon.scale-125.png" />
+    <Content Remove="Assets\Images\AppIcon.scale-150.png" />
+    <Content Remove="Assets\Images\AppIcon.scale-200.png" />
+    <Content Remove="Assets\Images\AppIcon.scale-400.png" />
+    <Content Remove="Assets\Images\AppIcon.targetsize-16.png" />
+    <Content Remove="Assets\Images\AppIcon.targetsize-24.png" />
+    <Content Remove="Assets\Images\AppIcon.targetsize-256.png" />
+    <Content Remove="Assets\Images\AppIcon.targetsize-32.png" />
+    <Content Remove="Assets\Images\AppIcon.targetsize-48.png" />
+    <Content Remove="Assets\Images\LargeTile.scale-100.png" />
+    <Content Remove="Assets\Images\LargeTile.scale-125.png" />
+    <Content Remove="Assets\Images\LargeTile.scale-150.png" />
+    <Content Remove="Assets\Images\LargeTile.scale-200.png" />
+    <Content Remove="Assets\Images\LargeTile.scale-400.png" />
+    <Content Remove="Assets\Images\MediumTile.scale-100.png" />
+    <Content Remove="Assets\Images\MediumTile.scale-125.png" />
+    <Content Remove="Assets\Images\MediumTile.scale-150.png" />
+    <Content Remove="Assets\Images\MediumTile.scale-200.png" />
+    <Content Remove="Assets\Images\MediumTile.scale-400.png" />
+    <Content Remove="Assets\Images\PackageLogo.scale-100.png" />
+    <Content Remove="Assets\Images\PackageLogo.scale-125.png" />
+    <Content Remove="Assets\Images\PackageLogo.scale-150.png" />
+    <Content Remove="Assets\Images\PackageLogo.scale-200.png" />
+    <Content Remove="Assets\Images\PackageLogo.scale-400.png" />
+    <Content Remove="Assets\Images\SmallTile.scale-100.png" />
+    <Content Remove="Assets\Images\SmallTile.scale-125.png" />
+    <Content Remove="Assets\Images\SmallTile.scale-150.png" />
+    <Content Remove="Assets\Images\SmallTile.scale-200.png" />
+    <Content Remove="Assets\Images\SmallTile.scale-400.png" />
+    <Content Remove="Assets\Images\SplashScreen.scale-100.png" />
+    <Content Remove="Assets\Images\SplashScreen.scale-125.png" />
+    <Content Remove="Assets\Images\SplashScreen.scale-150.png" />
+    <Content Remove="Assets\Images\SplashScreen.scale-200.png" />
+    <Content Remove="Assets\Images\SplashScreen.scale-400.png" />
+    <Content Remove="Assets\Images\WideTile.scale-100.png" />
+    <Content Remove="Assets\Images\WideTile.scale-125.png" />
+    <Content Remove="Assets\Images\WideTile.scale-150.png" />
+    <Content Remove="Assets\Images\WideTile.scale-200.png" />
+    <Content Remove="Assets\Images\WideTile.scale-400.png" />
+    <Content Remove="Assets\Shared\logo.png" />
+    <Content Remove="Assets\Shared\spinner.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Assets\Shared\logo.png" />
+    <None Remove="Assets\Shared\spinner.gif" />
+    <None Remove="Pages\LoginPage.xaml" />
+    <None Remove="Pages\StartupPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\StartupPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <UnoImage Include="Assets\Shared\logo.png" />
+    <UnoImage Include="Assets\Shared\spinner.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\LoginPage.xaml" />
+  </ItemGroup>
 
 </Project>
