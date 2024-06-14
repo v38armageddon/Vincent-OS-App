@@ -51,5 +51,5 @@ Extract the zip file to a localization and launch the ``Vincent.OS.App`` executa
 ### ``dotnet`` CLI
 1. Clone the repository
 2. Open a terminal and go to "src".
-3. Run ``dotnet build "Vincent OS App.sln"``.
+3. Run ``dotnet build "Vincent.OS.App.sln"``.
 4. Done!
