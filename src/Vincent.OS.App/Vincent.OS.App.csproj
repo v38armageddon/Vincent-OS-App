@@ -49,7 +49,18 @@
     <Content Remove="Assets\Images\AppIcon.altform-unplated_targetsize-32.png" />
     <Content Remove="Assets\Images\AppIcon.altform-unplated_targetsize-48.png" />
     <Content Remove="Assets\Shared\logo.png" />
+    <Content Remove="Assets\Shared\Power.png" />
+    <Content Remove="Assets\Shared\Software\calculator.png" />
+    <Content Remove="Assets\Shared\Software\executor.png" />
+    <Content Remove="Assets\Shared\Software\files.png" />
+    <Content Remove="Assets\Shared\Software\gallery.png" />
+    <Content Remove="Assets\Shared\Software\games.png" />
+    <Content Remove="Assets\Shared\Software\mediaplayer.png" />
+    <Content Remove="Assets\Shared\Software\notes.png" />
+    <Content Remove="Assets\Shared\Software\paint.png" />
+    <Content Remove="Assets\Shared\Software\terminal.png" />
     <Content Remove="Assets\Shared\spinner.gif" />
+    <Content Remove="Assets\Wallpapers\dev_test.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Assets\Images\AppIcon.scale-100.png" />
@@ -103,7 +114,18 @@
     <None Remove="Assets\Images\WideTile.scale-200.png" />
     <None Remove="Assets\Images\WideTile.scale-400.png" />
     <None Remove="Assets\Shared\logo.png" />
+    <None Remove="Assets\Shared\Power.png" />
+    <None Remove="Assets\Shared\Software\calculator.png" />
+    <None Remove="Assets\Shared\Software\executor.png" />
+    <None Remove="Assets\Shared\Software\files.png" />
+    <None Remove="Assets\Shared\Software\gallery.png" />
+    <None Remove="Assets\Shared\Software\games.png" />
+    <None Remove="Assets\Shared\Software\mediaplayer.png" />
+    <None Remove="Assets\Shared\Software\notes.png" />
+    <None Remove="Assets\Shared\Software\paint.png" />
+    <None Remove="Assets\Shared\Software\terminal.png" />
     <None Remove="Assets\Shared\spinner.gif" />
+    <None Remove="Assets\Wallpapers\dev_test.jpg" />
     <None Remove="Pages\LoginPage.xaml" />
     <None Remove="Pages\StartupPage.xaml" />
   </ItemGroup>
@@ -112,7 +134,18 @@
   </ItemGroup>
   <ItemGroup>
     <UnoImage Include="Assets\Shared\logo.png" />
+    <UnoImage Include="Assets\Shared\power.png" />
+    <UnoImage Include="Assets\Shared\Software\calculator.png" />
+    <UnoImage Include="Assets\Shared\Software\executor.png" />
+    <UnoImage Include="Assets\Shared\Software\files.png" />
+    <UnoImage Include="Assets\Shared\Software\gallery.png" />
+    <UnoImage Include="Assets\Shared\Software\games.png" />
+    <UnoImage Include="Assets\Shared\Software\mediaplayer.png" />
+    <UnoImage Include="Assets\Shared\Software\notes.png" />
+    <UnoImage Include="Assets\Shared\Software\paint.png" />
+    <UnoImage Include="Assets\Shared\Software\terminal.png" />
     <UnoImage Include="Assets\Shared\spinner.gif" />
+    <UnoImage Include="Assets\Wallpapers\dev_test.jpg" />
   </ItemGroup>
   <ItemGroup>
     <UpToDateCheckInput Remove="Pages\LoginPage.xaml" />

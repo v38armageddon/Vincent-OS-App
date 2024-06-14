@@ -37,12 +37,14 @@ public sealed partial class StartupPage : Page
     public StartupPage()
     {
         this.InitializeComponent();
+        //Window.Current.Title = "Vincent OS App - Starting Up...";
     }
 
     private void Page_Loaded(object sender, RoutedEventArgs e)
     {
         DispatcherTimer timer = new DispatcherTimer();
         timer.Interval = TimeSpan.FromSeconds(3);
+        timer.Start();
         timer.Tick += (s, e) =>
         {
             timer.Stop();

@@ -1,4 +1,4 @@
-﻿/*
+/*
  * Vincent OS App, This is the repository of the project of the mini operating system Open Source: Vincent OS
  * Copyright (C) 2016 - 2024 - v38armageddon
  * 
