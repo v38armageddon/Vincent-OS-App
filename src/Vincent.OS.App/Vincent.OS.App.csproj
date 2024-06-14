@@ -36,6 +36,7 @@
     </UnoFeatures>
     <PackageCertificateThumbprint>2E906171F29ADBC1694CED1F08E3FFFCA09D3ACE</PackageCertificateThumbprint>
     <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
+    <UnoDisableVSWarnWindowsIsFirst>true</UnoDisableVSWarnWindowsIsFirst>
   </PropertyGroup>
   <ItemGroup>
     <Content Remove="Assets\Images\AppIcon.altform-lightunplated_targetsize-16.png" />
@@ -60,6 +61,7 @@
     <Content Remove="Assets\Shared\Software\paint.png" />
     <Content Remove="Assets\Shared\Software\terminal.png" />
     <Content Remove="Assets\Shared\spinner.gif" />
+    <Content Remove="Assets\Wallpapers\arma.jpg" />
     <Content Remove="Assets\Wallpapers\dev_test.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -125,6 +127,7 @@
     <None Remove="Assets\Shared\Software\paint.png" />
     <None Remove="Assets\Shared\Software\terminal.png" />
     <None Remove="Assets\Shared\spinner.gif" />
+    <None Remove="Assets\Wallpapers\arma.jpg" />
     <None Remove="Assets\Wallpapers\dev_test.jpg" />
     <None Remove="Pages\LoginPage.xaml" />
     <None Remove="Pages\StartupPage.xaml" />

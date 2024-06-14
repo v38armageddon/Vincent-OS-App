@@ -37,7 +37,6 @@ public sealed partial class LoginPage : Page
     public LoginPage()
     {
         this.InitializeComponent();
-        Window window = Window.Current;
         //window.Title = "Vincent OS App - Login";
     }
 }
