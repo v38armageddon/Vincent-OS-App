@@ -1,8 +1,8 @@
-# Politique de confidentalité
-Vincent OS App est soumis à une politique de confiendalité mais ne collecte aucune données utilisateurs.
+# Privacy Policy
+Vincent OS App is subject to a privacy policy but does not collect any user data.
 
 --------------------
 
-Pour plus d'information, veuillez consulter : https://www.v38armageddon.net/Privacy
+For further information, please consult : https://www.v38armageddon.net/Privacy
 
-Cette politique de confiendalité a été écrite par v38armageddon et a été modifié le 12/11/2023 à 11h45.
+This privacy policy was written by v38armageddon and modified on 11/06/2024 at 21h28 UTC+1.

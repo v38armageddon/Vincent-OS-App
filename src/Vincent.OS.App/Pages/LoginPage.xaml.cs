@@ -15,8 +15,28 @@
  * You should have received a copy of the GNU General Public License
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
-global using System.Collections.Immutable;
-global using Microsoft.Extensions.DependencyInjection;
-global using Microsoft.Extensions.Hosting;
-global using Microsoft.Extensions.Logging;
-global using ApplicationExecutionState = Windows.ApplicationModel.Activation.ApplicationExecutionState;
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Runtime.InteropServices.WindowsRuntime;
+using Microsoft.UI.Xaml;
+using Microsoft.UI.Xaml.Controls;
+using Microsoft.UI.Xaml.Controls.Primitives;
+using Microsoft.UI.Xaml.Data;
+using Microsoft.UI.Xaml.Input;
+using Microsoft.UI.Xaml.Media;
+using Microsoft.UI.Xaml.Navigation;
+using Windows.Foundation;
+using Windows.Foundation.Collections;
+
+namespace Vincent.OS.App.Pages;
+
+public sealed partial class LoginPage : Page
+{
+    public LoginPage()
+    {
+        this.InitializeComponent();
+        //window.Title = "Vincent OS App - Login";
+    }
+}
