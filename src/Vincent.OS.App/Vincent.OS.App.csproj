@@ -148,7 +148,6 @@
     <UnoImage Include="Assets\Shared\Software\paint.png" />
     <UnoImage Include="Assets\Shared\Software\terminal.png" />
     <UnoImage Include="Assets\Shared\spinner.gif" />
-    <UnoImage Include="Assets\Wallpapers\arma.jpg" />
     <UnoImage Include="Assets\Wallpapers\dev_test.jpg" />
   </ItemGroup>
   <ItemGroup>
