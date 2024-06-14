@@ -1,24 +1,21 @@
 ## Description
+Please describe why this change should be applied to Vincent OS App.
 
-Veuillez décrire pourquoi ce changement doit être appliqué à Vincent OS App.
+## Usefulness
+How will this change be useful?
 
-## Utilité
+## Testing
+Please check the tests you have performed.
+<!--Put an X between the square brackets to check-->
+- [ ] Software running under Windows
+- [ ] Software running under Linux
+- [ ] Multimedia test
+- [ ] Software testing
+- [ ] Test different parameters
 
-Comment ce changement va-t-il être utile ?
-
-## Essais
-
-Veuillez vérifier les tests que vous avez effectués.
-<!--Mettez un X entre les crochets pour cochez-->
-- [ ] Logiciel fonctionnant sous Windows
-- [ ] Test du multimédia
-- [ ] Test des différents logiciels
-- [ ] Test des différents paramètres
-
-## Liste de contrôle :
-<!--Mettez un X entre les crochets pour cochez-->
-- [ ] Mon code suit les directives de style de ce projet
-- [ ] Mon code respecte le code de conduite
-- [ ] J'ai effectué une auto-révision de mon propre code
-- [ ] Mes modifications ne génèrent aucun nouvel avertissement ou erreur
-- [ ] Je m'engage à ne pas nuir au Registry Windows pour les utilisateurs
+## Checklist :
+<!--Put an X between the square brackets to check-->
+- [ ] My code follows the style guidelines of this project
+- [ ] My code respects the code of conduct
+- [ ] I have carried out a self-review of my own code
+- [ ] My modifications do not generate any new warnings or errors
