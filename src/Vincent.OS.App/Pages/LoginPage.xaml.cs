@@ -39,4 +39,10 @@ public sealed partial class LoginPage : Page
         this.InitializeComponent();
         //window.Title = "Vincent OS App - Login";
     }
+
+    private async void shutdownButton_Click(object sender, RoutedEventArgs e)
+    {
+        Dialogs.LogoutDialog logoutDialog = new Dialogs.LogoutDialog();
+        await logoutDialog.ShowAsync();
+    }
 }

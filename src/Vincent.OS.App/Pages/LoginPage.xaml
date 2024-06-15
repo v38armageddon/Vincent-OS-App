@@ -27,18 +27,20 @@
 
   <Grid>
     <!--Wallpaper should be placed at the first place, otherwise, layer problems-->
-    <Image Margin="0,32,0,0" Source="/Assets/Wallpapers/arma.jpg" Stretch="Uniform"/>
+    <Image Margin="0,32,0,0" Source="/Assets/Wallpapers/dev_test.jpg" Stretch="Uniform"/>
     <!--Main content start here-->
     <TextBlock Text="vincentOS" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
     <Button x:Name="shutdownButton" Margin="0,5,5,0" Background="{x:Null}" BorderBrush="{x:Null}"
-            HorizontalAlignment="Right" VerticalAlignment="Top" Height="27" Width="45">
+            HorizontalAlignment="Right" VerticalAlignment="Top" Height="27" Width="45" Click="shutdownButton_Click">
       <Button.Content>
         <Image Source="/Assets/Shared/Power.png" Stretch="Uniform"/>
       </Button.Content>
     </Button>
-    <Grid Background="DarkGray" Opacity="250" HorizontalAlignment="Left" VerticalAlignment="Center"
+    <!--Here we set the Opacity on 0.35 for the Grid and the rest on 1-->
+    <Grid Background="DarkGray" Opacity="0.35" HorizontalAlignment="Left" VerticalAlignment="Center"
           Width="350" Height="510" Margin="100,0,0,0">
-      <Image Source="/Assets/Wallpapers/dev_test.jpg"/>
+      <Image Source="/Assets/Shared/user.png" Width="50" Height="50" Opacity="1"
+             HorizontalAlignment="Left" VerticalAlignment="Top"/>
     </Grid>
   </Grid>
 </Page>

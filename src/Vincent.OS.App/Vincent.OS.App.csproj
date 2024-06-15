@@ -49,6 +49,7 @@
     <Content Remove="Assets\Images\AppIcon.altform-unplated_targetsize-256.png" />
     <Content Remove="Assets\Images\AppIcon.altform-unplated_targetsize-32.png" />
     <Content Remove="Assets\Images\AppIcon.altform-unplated_targetsize-48.png" />
+    <Content Remove="Assets\Shared\guest.png" />
     <Content Remove="Assets\Shared\logo.png" />
     <Content Remove="Assets\Shared\Power.png" />
     <Content Remove="Assets\Shared\Software\calculator.png" />
@@ -61,6 +62,7 @@
     <Content Remove="Assets\Shared\Software\paint.png" />
     <Content Remove="Assets\Shared\Software\terminal.png" />
     <Content Remove="Assets\Shared\spinner.gif" />
+    <Content Remove="Assets\Shared\user.png" />
     <Content Remove="Assets\Wallpapers\arma.jpg" />
     <Content Remove="Assets\Wallpapers\dev_test.jpg" />
   </ItemGroup>
@@ -115,6 +117,7 @@
     <None Remove="Assets\Images\WideTile.scale-150.png" />
     <None Remove="Assets\Images\WideTile.scale-200.png" />
     <None Remove="Assets\Images\WideTile.scale-400.png" />
+    <None Remove="Assets\Shared\guest.png" />
     <None Remove="Assets\Shared\logo.png" />
     <None Remove="Assets\Shared\Power.png" />
     <None Remove="Assets\Shared\Software\calculator.png" />
@@ -127,8 +130,10 @@
     <None Remove="Assets\Shared\Software\paint.png" />
     <None Remove="Assets\Shared\Software\terminal.png" />
     <None Remove="Assets\Shared\spinner.gif" />
+    <None Remove="Assets\Shared\user.png" />
     <None Remove="Assets\Wallpapers\arma.jpg" />
     <None Remove="Assets\Wallpapers\dev_test.jpg" />
+    <None Remove="Dialogs\LogoutDialog.xaml" />
     <None Remove="Pages\LoginPage.xaml" />
     <None Remove="Pages\StartupPage.xaml" />
   </ItemGroup>
@@ -136,6 +141,8 @@
     <UpToDateCheckInput Remove="Pages\StartupPage.xaml" />
   </ItemGroup>
   <ItemGroup>
+    <UnoImage Include="Assets\Shared\guest.png" />
+    <UnoImage Include="Assets\Shared\user.png" />
     <UnoImage Include="Assets\Shared\logo.png" />
     <UnoImage Include="Assets\Shared\power.png" />
     <UnoImage Include="Assets\Shared\Software\calculator.png" />
@@ -152,6 +159,9 @@
   </ItemGroup>
   <ItemGroup>
     <UpToDateCheckInput Remove="Pages\LoginPage.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Dialogs\LogoutDialog.xaml" />
   </ItemGroup>
 
 </Project>
