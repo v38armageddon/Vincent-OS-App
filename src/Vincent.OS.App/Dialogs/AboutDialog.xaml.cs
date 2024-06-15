@@ -32,9 +32,9 @@ using Windows.Foundation.Collections;
 
 namespace Vincent.OS.App.Dialogs;
 
-public sealed partial class LogoutDialog : ContentDialog
+public sealed partial class AboutDialog : ContentDialog
 {
-    public LogoutDialog()
+    public AboutDialog()
     {
         this.InitializeComponent();
     }

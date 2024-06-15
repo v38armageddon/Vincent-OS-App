@@ -63,7 +63,6 @@ public partial class App : Application
             // Init the default configuration for MainWindow
             MainWindow.Title = "Vincent OS App";
             MainWindow.AppWindow.SetPresenter(Microsoft.UI.Windowing.AppWindowPresenterKind.FullScreen);
-            
 #if DEBUG
             MainWindow.AppWindow.SetPresenter(Microsoft.UI.Windowing.AppWindowPresenterKind.Default);
 #endif
@@ -73,6 +72,12 @@ public partial class App : Application
 
             // Place the frame in the current Window
             MainWindow.Content = rootFrame;
+
+            // Play Startup sound
+            MediaPlayerElement mediaPlayerElement = new MediaPlayerElement();
+            //mediaPlayerElement.Source = "/Assets/Sounds/startingSound.wav";
+            mediaPlayerElement.AutoPlay = true;
+            mediaPlayerElement.MediaPlayer.Play();
         }
 
         if (rootFrame.Content == null)

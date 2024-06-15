@@ -30,20 +30,12 @@ using Microsoft.UI.Xaml.Navigation;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 
-namespace Vincent.OS.App.Dialogs;
+namespace Vincent.OS.App.Pages.Software;
 
-public sealed partial class LogoutDialog : ContentDialog
+public sealed partial class Visio : Page
 {
-    public LogoutDialog()
+    public Visio()
     {
         this.InitializeComponent();
-    }
-
-    private void ContentDialog_PrimaryButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)
-    {
-    }
-
-    private void ContentDialog_SecondaryButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)
-    {
     }
 }

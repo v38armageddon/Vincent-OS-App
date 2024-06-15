@@ -43,6 +43,7 @@ public sealed partial class LoginPage : Page
     private async void shutdownButton_Click(object sender, RoutedEventArgs e)
     {
         Dialogs.LogoutDialog logoutDialog = new Dialogs.LogoutDialog();
-        await logoutDialog.ShowAsync();
+        logoutDialog.XamlRoot = this.XamlRoot;
+        ContentDialogResult result = await logoutDialog.ShowAsync();
     }
 }

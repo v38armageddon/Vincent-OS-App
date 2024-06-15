@@ -36,11 +36,17 @@
         <Image Source="/Assets/Shared/Power.png" Stretch="Uniform"/>
       </Button.Content>
     </Button>
-    <!--Here we set the Opacity on 0.35 for the Grid and the rest on 1-->
-    <Grid Background="DarkGray" Opacity="0.35" HorizontalAlignment="Left" VerticalAlignment="Center"
-          Width="350" Height="510" Margin="100,0,0,0">
-      <Image Source="/Assets/Shared/user.png" Width="50" Height="50" Opacity="1"
-             HorizontalAlignment="Left" VerticalAlignment="Top"/>
+    <Grid HorizontalAlignment="Left" VerticalAlignment="Center" Margin="100,0,0,0" Width="350">
+      <!--Here we set the Opacity on 0.35 for the Grid and the rest on 1-->
+      <Rectangle Fill="DarkGray" Opacity="0.35"/>
+      <Image Source="/Assets/Shared/user.png" Width="70" Height="70" Opacity="1"
+             HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+      <StackPanel Orientation="Horizontal">
+        <TextBlock Foreground="White">
+            User
+        </TextBlock>
+        <TextBox x:Name="userPassTextBox" PlaceholderText="Password" Width="25" Height="10"/>
+      </StackPanel>
     </Grid>
   </Grid>
 </Page>
