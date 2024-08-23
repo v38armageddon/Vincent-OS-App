@@ -41,9 +41,43 @@ public sealed partial class LogoutDialog : ContentDialog
 
     private void ContentDialog_PrimaryButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)
     {
+        //switch (dropDownButton.Content) // Rewriten from scratch and already made shit code here
+        //{
+        //    case "Shutdown Vincent OS App":
+                
+        //        break;
+        //    case "Restart Vincent OS App":
+                
+        //        break;
+        //    case "Logout Vincent OS App":
+                
+        //        break;
+        //}
     }
 
     private void ContentDialog_SecondaryButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)
     {
+        return;
+    }
+
+    private void MenuFlyoutItem_Click(object sender, RoutedEventArgs e)
+    {
+        // Handle the menu item selection here
+        var menuItem = (MenuFlyoutItem)sender;
+        string selectedOption = menuItem.Text;
+
+        // Perform actions based on the selected option
+        switch (selectedOption) // Rewriten from scratch and already made shit code here
+        {
+            case "Shutdown Vincent OS App":
+                menuItem.Text = "Shutdown Vincent OS App";
+                break;
+            case "Restart Vincent OS App":
+                menuItem.Text = "Restart Vincent OS App";
+                break;
+            case "Logout Vincent OS App":
+                menuItem.Text = "Logout Vincent OS App";
+                break;
+        }
     }
 }

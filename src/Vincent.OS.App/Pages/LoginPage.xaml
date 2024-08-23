@@ -27,7 +27,7 @@
 
   <Grid>
     <!--Wallpaper should be placed at the first place, otherwise, layer problems-->
-    <Image Margin="0,32,0,0" Source="/Assets/Wallpapers/dev_test.jpg" Stretch="Uniform"/>
+    <Image Margin="0,32,0,0" Source="/Assets/Wallpapers/dev_test.jpg" Stretch="UniformToFill"/>
     <!--Main content start here-->
     <TextBlock Text="vincentOS" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
     <Button x:Name="shutdownButton" Margin="0,5,5,0" Background="{x:Null}" BorderBrush="{x:Null}"
@@ -39,14 +39,16 @@
     <Grid HorizontalAlignment="Left" VerticalAlignment="Center" Margin="100,0,0,0" Width="350">
       <!--Here we set the Opacity on 0.35 for the Grid and the rest on 1-->
       <Rectangle Fill="DarkGray" Opacity="0.35"/>
-      <Image Source="/Assets/Shared/user.png" Width="70" Height="70" Opacity="1"
-             HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
-      <StackPanel Orientation="Horizontal">
-        <TextBlock Foreground="White">
-            User
-        </TextBlock>
-        <TextBox x:Name="userPassTextBox" PlaceholderText="Password" Width="25" Height="10"/>
-      </StackPanel>
+      <Image Source="/Assets/Shared/user.png" Width="70" Height="70" Opacity="1" HorizontalAlignment="Left" 
+           VerticalAlignment="Top" Margin="10,10,0,0"/>
+      <TextBlock Foreground="White" Text="User" Margin="85,10,-1,97"/>
+      <PasswordBox x:Name="userPassTextBox" Margin="85,45,69,102" PlaceholderText="Password" Height="32" Width="196"/>
+      <Button x:Name="userPassButton" Margin="285,45,0,0" Content="Login" Background="Green" Foreground="White"
+              VerticalAlignment="Top" Click="userPassButton_Click"/>
+      <Image Source="/Assets/Shared/guest.png" Width="70" Height="70" Opacity="1" HorizontalAlignment="Left" 
+           VerticalAlignment="Top" Margin="10,99,0,10"/>
+      <TextBlock Foreground="White" Text="Guest" Margin="90,99,0,0"/>
+      <Button x:Name="guestPassButton" Margin="90,134,0,0" Content="Login" Background="Green" Foreground="White" Width="250" VerticalAlignment="Top"/>
     </Grid>
   </Grid>
 </Page>

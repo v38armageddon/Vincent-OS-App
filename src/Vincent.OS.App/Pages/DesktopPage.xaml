@@ -23,9 +23,18 @@
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d"
-    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+    Background="Black">
 
-    <Grid>
-
-    </Grid>
+  <Grid>
+    <!--Wallpaper should be placed at the first place, otherwise, layer problems-->
+    <Image Margin="0,32,0,0" Source="/Assets/Wallpapers/dev_test.jpg" Stretch="UniformToFill"/>
+    <!--Top content start here-->
+    <TextBlock x:Name="dateTimeText" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
+    <Button x:Name="logoutButton" Margin="0,5,5,0" Background="{x:Null}" BorderBrush="{x:Null}" Click="logoutButton_Click"
+            HorizontalAlignment="Right" VerticalAlignment="Top" Height="25" Width="25">
+      <Button.Content>
+        <Image Source="/Assets/Shared/user.png" Stretch="Uniform" Margin="-13,-6,-12,-7"/>
+      </Button.Content>
+    </Button>
+  </Grid>
 </Page>

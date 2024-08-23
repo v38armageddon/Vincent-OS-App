@@ -27,6 +27,7 @@ using Microsoft.UI.Xaml.Data;
 using Microsoft.UI.Xaml.Input;
 using Microsoft.UI.Xaml.Media;
 using Microsoft.UI.Xaml.Navigation;
+using Windows.ApplicationModel.Core;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 
@@ -45,5 +46,29 @@ public sealed partial class LoginPage : Page
         Dialogs.LogoutDialog logoutDialog = new Dialogs.LogoutDialog();
         logoutDialog.XamlRoot = this.XamlRoot;
         ContentDialogResult result = await logoutDialog.ShowAsync();
+    }
+
+    private async void userPassButton_Click(object sender, RoutedEventArgs e)
+    {
+        // Check if the good password is entered
+        if (userPassTextBox.Password == "Vincent OS")
+        {
+            // Navigate to the desktop page
+            this.Frame.Navigate(typeof(DesktopPage));
+        }
+        else
+        {
+            // Show an error message
+            await CoreApplication.MainView.Dispatcher.RunAsync(Windows.UI.Core.CoreDispatcherPriority.Normal, async () =>
+            {
+                var errorWindow = new ContentDialog
+                {
+                    Title = "Error",
+                    Content = "Your password is incorrect.",
+                    PrimaryButtonText = "OK"
+                };
+                await errorWindow.ShowAsync();
+            });
+        }
     }
 }

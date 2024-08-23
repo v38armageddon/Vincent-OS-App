@@ -34,8 +34,35 @@ namespace Vincent.OS.App.Pages;
 
 public sealed partial class DesktopPage : Page
 {
+    private DispatcherTimer timer;
+
     public DesktopPage()
     {
         this.InitializeComponent();
+        InitializeTimer();
+    }
+
+    private void InitializeTimer()
+    {
+        timer = new DispatcherTimer();
+        timer.Interval = TimeSpan.FromSeconds(1); // Update every second
+        timer.Tick += Timer_Tick;
+        timer.Start();
+    }
+
+    private void Timer_Tick(object sender, object e)
+    {
+        DateTime date = DateTime.Now;
+        string day = date.ToString("dd/MM/yyyy");
+        string time = date.ToString("HH:mm:ss");
+        dateTimeText.Text = $"{day} {time}"; // Update the text to include the date
+    }
+
+    // Top bar
+    private async void logoutButton_Click(object sender, RoutedEventArgs e)
+    {
+        Dialogs.LogoutDialog logoutDialog = new Dialogs.LogoutDialog();
+        logoutDialog.XamlRoot = this.XamlRoot;
+        ContentDialogResult result = await logoutDialog.ShowAsync();
     }
 }

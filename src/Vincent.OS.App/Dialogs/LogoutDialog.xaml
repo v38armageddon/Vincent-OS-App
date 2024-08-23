@@ -29,8 +29,18 @@
     SecondaryButtonClick="ContentDialog_SecondaryButtonClick">
 	<Grid>
     <Image Source="/Assets/Shared/logo.png" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Center"/>
-    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+    <StackPanel Margin="30,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center">
       <TextBlock Text="What you want to do?"/>
+      <DropDownButton x:Name="dropDownButton" Content="Select your option">
+        <DropDownButton.Flyout>
+          <MenuFlyout Placement="Bottom">
+            <!--This list need to be static, not dynamic-->
+            <MenuFlyoutItem Text="Shutdown Vincent OS App" Click="MenuFlyoutItem_Click"/>
+            <MenuFlyoutItem Text="Restart Vincent OS App" Click="MenuFlyoutItem_Click"/>
+            <MenuFlyoutItem Text="Logout Vincent OS App" Click="MenuFlyoutItem_Click"/>
+          </MenuFlyout>
+        </DropDownButton.Flyout>
+      </DropDownButton>
     </StackPanel>  
   </Grid>
 </ContentDialog>

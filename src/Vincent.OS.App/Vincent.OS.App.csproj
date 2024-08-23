@@ -192,9 +192,6 @@
     <UnoAsset Include="Assets\Sounds\startingSound.wav" />
   </ItemGroup>
   <ItemGroup>
-    <UpToDateCheckInput Remove="Pages\DesktopPage.xaml" />
-  </ItemGroup>
-  <ItemGroup>
     <UpToDateCheckInput Remove="Pages\SoftwarePage.xaml" />
   </ItemGroup>
   <ItemGroup>
@@ -232,6 +229,9 @@
   </ItemGroup>
   <ItemGroup>
     <UpToDateCheckInput Remove="Dialogs\AboutDialog.xaml" />
+  </ItemGroup>
+  <ItemGroup>
+    <UpToDateCheckInput Remove="Pages\DesktopPage.xaml" />
   </ItemGroup>
 
 </Project>
