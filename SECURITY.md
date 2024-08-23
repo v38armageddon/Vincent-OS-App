@@ -10,8 +10,6 @@ We assure to keep the project stable and updated.
 | < 9.0.1   | :x:                |
 
 ## Reporting a Vulnerability
-⚠️ __**IF YOU CONSTAST A CVE SECURITY IN OUR PROJECT / SERVICE, DO NOT USE GITHUB TO REPORT IT, SEND A MAIL AT: [security@v38armageddon.net](mailto:security@v38armageddon.net)**__ ⚠️
-
 You will need to send a mail at the following address: [security@v38armageddon.net](mailto:security@v38armageddon.net)
 Please, when making the mail, be as precise as possible in your reporting, here's what you need to include in your mail:
 ```mail
