@@ -27,11 +27,24 @@ public partial class App : Application
     /// </summary>
     public App()
     {
+#if DEBUG
+        ChangeStartingLanguage();
+#endif
+
         this.InitializeComponent();
     }
 
     protected Window? MainWindow { get; private set; }
     protected IHost? Host { get; private set; }
+
+#if DEBUG
+    private void ChangeStartingLanguage()
+    {
+        var culture = new System.Globalization.CultureInfo("fr");
+
+        Windows.Globalization.ApplicationLanguages.PrimaryLanguageOverride = culture.TwoLetterISOLanguageName;
+    }
+#endif
 
     protected override void OnLaunched(LaunchActivatedEventArgs args)
     {

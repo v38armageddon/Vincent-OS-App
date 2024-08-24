@@ -30,7 +30,7 @@
 	<Grid>
     <Image Source="/Assets/Shared/logo.png" Width="100" Height="100" HorizontalAlignment="Left" VerticalAlignment="Center"/>
     <StackPanel Margin="30,0,0,0" HorizontalAlignment="Center" VerticalAlignment="Center">
-      <TextBlock Text="What you want to do?"/>
+      <TextBlock x:Name="questionText" Text="What you want to do?"/>
       <DropDownButton x:Name="dropDownButton" Content="Select your option">
         <DropDownButton.Flyout>
           <MenuFlyout Placement="Bottom">

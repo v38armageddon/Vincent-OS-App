@@ -37,6 +37,9 @@ public sealed partial class LogoutDialog : ContentDialog
     public LogoutDialog()
     {
         this.InitializeComponent();
+        this.Loaded += (s, e) => questionText.Text = Windows.ApplicationModel.Resources.ResourceLoader
+            .GetForCurrentView()
+            .GetString("LogoutDialog_QuestionText.Text");
     }
 
     private void ContentDialog_PrimaryButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)
