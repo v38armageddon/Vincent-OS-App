@@ -37,25 +37,35 @@ public sealed partial class LogoutDialog : ContentDialog
     public LogoutDialog()
     {
         this.InitializeComponent();
-        this.Loaded += (s, e) => questionText.Text = Windows.ApplicationModel.Resources.ResourceLoader
-            .GetForCurrentView()
-            .GetString("LogoutDialog_QuestionText.Text");
+        //this.Loaded += (s, e) => questionText.Text = Windows.ApplicationModel.Resources.ResourceLoader
+        //    .GetForCurrentView()
+        //    .GetString("LogoutDialog_QuestionText.Text"); // Compiler doesn't tell me what's wrong here
     }
 
     private void ContentDialog_PrimaryButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)
     {
-        //switch (dropDownButton.Content) // Rewriten from scratch and already made shit code here
-        //{
-        //    case "Shutdown Vincent OS App":
-                
-        //        break;
-        //    case "Restart Vincent OS App":
-                
-        //        break;
-        //    case "Logout Vincent OS App":
-                
-        //        break;
-        //}
+        switch (dropDownButton.Content)
+        {
+            case "Shutdown Vincent OS App":
+                App.Current.Exit();
+                break;
+            case "Restart Vincent OS App":
+                // TODO: Restart the app
+                break;
+            case "Logout Vincent OS App":
+                // Check if we are on the desktop or not, we can't logout from the login page!
+                if (Window.Current.Content is Frame rootFrame && rootFrame.SourcePageType == typeof(Pages.LoginPage))
+                {
+                    // Make an error message
+                    var errorDialog = new ContentDialog
+                    {
+                        Title = "Error",
+                        Content = "You can't logout from the login page!",
+                        CloseButtonText = "Ok"
+                    };
+                }
+                break;
+        }
     }
 
     private void ContentDialog_SecondaryButtonClick(ContentDialog sender, ContentDialogButtonClickEventArgs args)
@@ -73,13 +83,13 @@ public sealed partial class LogoutDialog : ContentDialog
         switch (selectedOption) // Rewriten from scratch and already made shit code here
         {
             case "Shutdown Vincent OS App":
-                menuItem.Text = "Shutdown Vincent OS App";
+                dropDownButton.Content = "Shutdown Vincent OS App";
                 break;
             case "Restart Vincent OS App":
-                menuItem.Text = "Restart Vincent OS App";
+                dropDownButton.Content = "Restart Vincent OS App";
                 break;
             case "Logout Vincent OS App":
-                menuItem.Text = "Logout Vincent OS App";
+                dropDownButton.Content = "Logout Vincent OS App";
                 break;
         }
     }

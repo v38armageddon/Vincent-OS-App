@@ -29,19 +29,30 @@
     <!--Wallpaper should be placed at the first place, otherwise, layer problems-->
     <Image Source="/Assets/Wallpapers/dev_test.jpg" Stretch="UniformToFill"/>
     <!--Top content start here-->
-    <Rectangle Fill="DarkGray" Opacity="0.45" Height="46"/>
+    <Rectangle Fill="DarkGray" Opacity="0.45" VerticalAlignment="Top" Height="46"/>
     <TextBlock x:Name="dateTimeText" Foreground="White" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0"/>
     <CalendarView x:Name="calendarView" SelectionMode="Single" IsGroupLabelVisible="True" IsOutOfScopeEnabled="True" 
-              VerticalAlignment="Top" Margin="0,51,0,0"/>
-    <Button x:Name="logoutButton" Margin="0,5,5,0" Background="{x:Null}" BorderBrush="{x:Null}" Click="logoutButton_Click"
+              VerticalAlignment="Top" Margin="0,51,0,0" Visibility="Collapsed"/>
+    <Button x:Name="logoutButton" Margin="0,5,5,0" Background="Transparent" BorderBrush="Transparent" Click="logoutButton_Click"
             HorizontalAlignment="Right" VerticalAlignment="Top" Height="25" Width="25">
       <Button.Content>
-        <PersonPicture DisplayName="John Doe" Height="36" Margin="-13,-6,-10,-7"/>
+        <PersonPicture ProfilePicture="/Assets/Shared/user.png" Height="36" Margin="-13,-6,-10,-7"/>
       </Button.Content>
     </Button>
     <!--Main content start here-->
-    
+    <StackPanel Margin="0,46,0,46" Orientation="Horizontal">
+      <Button x:Name="startMenuButton" Margin="5,0,0,0" Background="Transparent" BorderBrush="Transparent">
+        <Button.Content>
+          <Image Source="/Assets/Shared/Software/executor.png" Height="36"/>
+        </Button.Content>
+      </Button>
+      <Button x:Name="fileExplorerButton" Margin="5,0,0,0" Background="Transparent" BorderBrush="Transparent">
+        <Button.Content>
+          <Image Source="/Assets/Shared/Software/files.png" Height="36"/>
+        </Button.Content>
+      </Button>
+    </StackPanel>
     <!--Bottom content start here-->
-    <Rectangle Fill="DarkGray" Opacity="0.45" Height="46"/>
+    <Rectangle Fill="DarkGray" Opacity="0.45" VerticalAlignment="Bottom" Height="46"/>
   </Grid>
 </Page>
